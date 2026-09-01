@@ -1,0 +1,717 @@
+{
+  "circuit_name": "IAMP LM1458",
+  "device_id_policy": "parsed from component declarations; excluded from graph topology",
+  "edges": [
+    {
+      "component": "C1",
+      "net": "+9V",
+      "pin": "1",
+      "source": "component:C1",
+      "source_line": 28,
+      "source_position": 1,
+      "target": "net:+9V",
+      "terminal": "C1.1"
+    },
+    {
+      "component": "C1",
+      "net": "GND",
+      "pin": "2",
+      "source": "component:C1",
+      "source_line": 29,
+      "source_position": 1,
+      "target": "net:GND",
+      "terminal": "C1.2"
+    },
+    {
+      "component": "C2",
+      "net": "-9V",
+      "pin": "1",
+      "source": "component:C2",
+      "source_line": 30,
+      "source_position": 1,
+      "target": "net:-9V",
+      "terminal": "C2.1"
+    },
+    {
+      "component": "C2",
+      "net": "GND",
+      "pin": "2",
+      "source": "component:C2",
+      "source_line": 29,
+      "source_position": 2,
+      "target": "net:GND",
+      "terminal": "C2.2"
+    },
+    {
+      "component": "JP1",
+      "net": "NODE_C",
+      "pin": "2",
+      "source": "component:JP1",
+      "source_line": 38,
+      "source_position": 1,
+      "target": "net:NODE_C",
+      "terminal": "JP1.2"
+    },
+    {
+      "component": "JP1",
+      "net": "RA_SW",
+      "pin": "1",
+      "source": "component:JP1",
+      "source_line": 47,
+      "source_position": 2,
+      "target": "net:RA_SW",
+      "terminal": "JP1.1"
+    },
+    {
+      "component": "J_EA",
+      "net": "EA",
+      "pin": "1",
+      "source": "component:J_EA",
+      "source_line": 32,
+      "source_position": 1,
+      "target": "net:EA",
+      "terminal": "J_EA.1"
+    },
+    {
+      "component": "J_EA",
+      "net": "GND",
+      "pin": "2",
+      "source": "component:J_EA",
+      "source_line": 29,
+      "source_position": 3,
+      "target": "net:GND",
+      "terminal": "J_EA.2"
+    },
+    {
+      "component": "J_EB",
+      "net": "EB",
+      "pin": "1",
+      "source": "component:J_EB",
+      "source_line": 33,
+      "source_position": 1,
+      "target": "net:EB",
+      "terminal": "J_EB.1"
+    },
+    {
+      "component": "J_EB",
+      "net": "GND",
+      "pin": "2",
+      "source": "component:J_EB",
+      "source_line": 29,
+      "source_position": 4,
+      "target": "net:GND",
+      "terminal": "J_EB.2"
+    },
+    {
+      "component": "J_OUT",
+      "net": "EOUT",
+      "pin": "1",
+      "source": "component:J_OUT",
+      "source_line": 34,
+      "source_position": 1,
+      "target": "net:EOUT",
+      "terminal": "J_OUT.1"
+    },
+    {
+      "component": "J_OUT",
+      "net": "GND",
+      "pin": "2",
+      "source": "component:J_OUT",
+      "source_line": 29,
+      "source_position": 5,
+      "target": "net:GND",
+      "terminal": "J_OUT.2"
+    },
+    {
+      "component": "J_PWR",
+      "net": "+9V",
+      "pin": "1",
+      "source": "component:J_PWR",
+      "source_line": 28,
+      "source_position": 2,
+      "target": "net:+9V",
+      "terminal": "J_PWR.1"
+    },
+    {
+      "component": "J_PWR",
+      "net": "-9V",
+      "pin": "3",
+      "source": "component:J_PWR",
+      "source_line": 30,
+      "source_position": 2,
+      "target": "net:-9V",
+      "terminal": "J_PWR.3"
+    },
+    {
+      "component": "J_PWR",
+      "net": "GND",
+      "pin": "2",
+      "source": "component:J_PWR",
+      "source_line": 29,
+      "source_position": 7,
+      "target": "net:GND",
+      "terminal": "J_PWR.2"
+    },
+    {
+      "component": "J_R1",
+      "net": "NODE_A",
+      "pin": "3",
+      "source": "component:J_R1",
+      "source_line": 36,
+      "source_position": 1,
+      "target": "net:NODE_A",
+      "terminal": "J_R1.3"
+    },
+    {
+      "component": "J_R1",
+      "net": "R1_EXT",
+      "pin": "1",
+      "source": "component:J_R1",
+      "source_line": 40,
+      "source_position": 1,
+      "target": "net:R1_EXT",
+      "terminal": "J_R1.1"
+    },
+    {
+      "component": "J_R1",
+      "net": "R1_W",
+      "pin": "2",
+      "source": "component:J_R1",
+      "source_line": 41,
+      "source_position": 1,
+      "target": "net:R1_W",
+      "terminal": "J_R1.2"
+    },
+    {
+      "component": "J_R4",
+      "net": "EOUT",
+      "pin": "3",
+      "source": "component:J_R4",
+      "source_line": 34,
+      "source_position": 2,
+      "target": "net:EOUT",
+      "terminal": "J_R4.3"
+    },
+    {
+      "component": "J_R4",
+      "net": "R4_EXT",
+      "pin": "1",
+      "source": "component:J_R4",
+      "source_line": 43,
+      "source_position": 1,
+      "target": "net:R4_EXT",
+      "terminal": "J_R4.1"
+    },
+    {
+      "component": "J_R4",
+      "net": "R4_W",
+      "pin": "2",
+      "source": "component:J_R4",
+      "source_line": 44,
+      "source_position": 1,
+      "target": "net:R4_W",
+      "terminal": "J_R4.2"
+    },
+    {
+      "component": "J_RA",
+      "net": "NODE_A",
+      "pin": "1",
+      "source": "component:J_RA",
+      "source_line": 36,
+      "source_position": 2,
+      "target": "net:NODE_A",
+      "terminal": "J_RA.1"
+    },
+    {
+      "component": "J_RA",
+      "net": "RA_SW",
+      "pin": "3",
+      "source": "component:J_RA",
+      "source_line": 47,
+      "source_position": 1,
+      "target": "net:RA_SW",
+      "terminal": "J_RA.3"
+    },
+    {
+      "component": "J_RA",
+      "net": "RA_W",
+      "pin": "2",
+      "source": "component:J_RA",
+      "source_line": 46,
+      "source_position": 1,
+      "target": "net:RA_W",
+      "terminal": "J_RA.2"
+    },
+    {
+      "component": "R2",
+      "net": "NODE_A",
+      "pin": "1",
+      "source": "component:R2",
+      "source_line": 36,
+      "source_position": 3,
+      "target": "net:NODE_A",
+      "terminal": "R2.1"
+    },
+    {
+      "component": "R2",
+      "net": "NODE_B",
+      "pin": "2",
+      "source": "component:R2",
+      "source_line": 37,
+      "source_position": 1,
+      "target": "net:NODE_B",
+      "terminal": "R2.2"
+    },
+    {
+      "component": "R3",
+      "net": "NODE_B",
+      "pin": "1",
+      "source": "component:R3",
+      "source_line": 37,
+      "source_position": 2,
+      "target": "net:NODE_B",
+      "terminal": "R3.1"
+    },
+    {
+      "component": "R3",
+      "net": "NODE_C",
+      "pin": "2",
+      "source": "component:R3",
+      "source_line": 38,
+      "source_position": 2,
+      "target": "net:NODE_C",
+      "terminal": "R3.2"
+    },
+    {
+      "component": "RMIN1",
+      "net": "GND",
+      "pin": "1",
+      "source": "component:RMIN1",
+      "source_line": 29,
+      "source_position": 6,
+      "target": "net:GND",
+      "terminal": "RMIN1.1"
+    },
+    {
+      "component": "RMIN1",
+      "net": "R1_EXT",
+      "pin": "2",
+      "source": "component:RMIN1",
+      "source_line": 40,
+      "source_position": 2,
+      "target": "net:R1_EXT",
+      "terminal": "RMIN1.2"
+    },
+    {
+      "component": "RMIN4",
+      "net": "NODE_C",
+      "pin": "1",
+      "source": "component:RMIN4",
+      "source_line": 38,
+      "source_position": 3,
+      "target": "net:NODE_C",
+      "terminal": "RMIN4.1"
+    },
+    {
+      "component": "RMIN4",
+      "net": "R4_EXT",
+      "pin": "2",
+      "source": "component:RMIN4",
+      "source_line": 43,
+      "source_position": 2,
+      "target": "net:R4_EXT",
+      "terminal": "RMIN4.2"
+    },
+    {
+      "component": "TPA",
+      "net": "NODE_A",
+      "pin": "1",
+      "source": "component:TPA",
+      "source_line": 36,
+      "source_position": 4,
+      "target": "net:NODE_A",
+      "terminal": "TPA.1"
+    },
+    {
+      "component": "TPB",
+      "net": "NODE_B",
+      "pin": "1",
+      "source": "component:TPB",
+      "source_line": 37,
+      "source_position": 3,
+      "target": "net:NODE_B",
+      "terminal": "TPB.1"
+    },
+    {
+      "component": "TPC",
+      "net": "NODE_C",
+      "pin": "1",
+      "source": "component:TPC",
+      "source_line": 38,
+      "source_position": 4,
+      "target": "net:NODE_C",
+      "terminal": "TPC.1"
+    },
+    {
+      "component": "TPO",
+      "net": "EOUT",
+      "pin": "1",
+      "source": "component:TPO",
+      "source_line": 34,
+      "source_position": 3,
+      "target": "net:EOUT",
+      "terminal": "TPO.1"
+    },
+    {
+      "component": "U1",
+      "net": "+9V",
+      "pin": "8",
+      "source": "component:U1",
+      "source_line": 28,
+      "source_position": 3,
+      "target": "net:+9V",
+      "terminal": "U1.8"
+    },
+    {
+      "component": "U1",
+      "net": "-9V",
+      "pin": "4",
+      "source": "component:U1",
+      "source_line": 30,
+      "source_position": 3,
+      "target": "net:-9V",
+      "terminal": "U1.4"
+    },
+    {
+      "component": "U1",
+      "net": "EA",
+      "pin": "3",
+      "source": "component:U1",
+      "source_line": 32,
+      "source_position": 2,
+      "target": "net:EA",
+      "terminal": "U1.3"
+    },
+    {
+      "component": "U1",
+      "net": "EB",
+      "pin": "5",
+      "source": "component:U1",
+      "source_line": 33,
+      "source_position": 2,
+      "target": "net:EB",
+      "terminal": "U1.5"
+    },
+    {
+      "component": "U1",
+      "net": "EOUT",
+      "pin": "7",
+      "source": "component:U1",
+      "source_line": 34,
+      "source_position": 4,
+      "target": "net:EOUT",
+      "terminal": "U1.7"
+    },
+    {
+      "component": "U1",
+      "net": "NODE_A",
+      "pin": "2",
+      "source": "component:U1",
+      "source_line": 36,
+      "source_position": 5,
+      "target": "net:NODE_A",
+      "terminal": "U1.2"
+    },
+    {
+      "component": "U1",
+      "net": "NODE_B",
+      "pin": "1",
+      "source": "component:U1",
+      "source_line": 37,
+      "source_position": 4,
+      "target": "net:NODE_B",
+      "terminal": "U1.1"
+    },
+    {
+      "component": "U1",
+      "net": "NODE_C",
+      "pin": "6",
+      "source": "component:U1",
+      "source_line": 38,
+      "source_position": 5,
+      "target": "net:NODE_C",
+      "terminal": "U1.6"
+    }
+  ],
+  "schema": "graph-relax.abstract-electrical-graph.v1",
+  "source_circuit": "circuit_examples/iamp.circuit",
+  "source_components": [
+    {
+      "device_id": "GENERIC_CAPACITOR",
+      "name": "C1",
+      "source_line": 8
+    },
+    {
+      "device_id": "GENERIC_CAPACITOR",
+      "name": "C2",
+      "source_line": 9
+    },
+    {
+      "device_id": "GENERIC_JUMPER_2",
+      "name": "JP1",
+      "source_line": 10
+    },
+    {
+      "device_id": "GENERIC_CONNECTOR_2",
+      "name": "J_EA",
+      "source_line": 11
+    },
+    {
+      "device_id": "GENERIC_CONNECTOR_2",
+      "name": "J_EB",
+      "source_line": 12
+    },
+    {
+      "device_id": "GENERIC_CONNECTOR_2",
+      "name": "J_OUT",
+      "source_line": 13
+    },
+    {
+      "device_id": "GENERIC_CONNECTOR_3",
+      "name": "J_PWR",
+      "source_line": 14
+    },
+    {
+      "device_id": "GENERIC_CONNECTOR_3",
+      "name": "J_R1",
+      "source_line": 15
+    },
+    {
+      "device_id": "GENERIC_CONNECTOR_3",
+      "name": "J_R4",
+      "source_line": 16
+    },
+    {
+      "device_id": "GENERIC_CONNECTOR_3",
+      "name": "J_RA",
+      "source_line": 17
+    },
+    {
+      "device_id": "GENERIC_RESISTOR",
+      "name": "R2",
+      "source_line": 18
+    },
+    {
+      "device_id": "GENERIC_RESISTOR",
+      "name": "R3",
+      "source_line": 19
+    },
+    {
+      "device_id": "GENERIC_RESISTOR",
+      "name": "RMIN1",
+      "source_line": 20
+    },
+    {
+      "device_id": "GENERIC_RESISTOR",
+      "name": "RMIN4",
+      "source_line": 21
+    },
+    {
+      "device_id": "GENERIC_TESTPOINT",
+      "name": "TPA",
+      "source_line": 22
+    },
+    {
+      "device_id": "GENERIC_TESTPOINT",
+      "name": "TPB",
+      "source_line": 23
+    },
+    {
+      "device_id": "GENERIC_TESTPOINT",
+      "name": "TPC",
+      "source_line": 24
+    },
+    {
+      "device_id": "GENERIC_TESTPOINT",
+      "name": "TPO",
+      "source_line": 25
+    },
+    {
+      "device_id": "LM1458",
+      "name": "U1",
+      "source_line": 26
+    }
+  ],
+  "vertices": [
+    {
+      "id": "component:C1",
+      "name": "C1",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:C2",
+      "name": "C2",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:JP1",
+      "name": "JP1",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:J_EA",
+      "name": "J_EA",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:J_EB",
+      "name": "J_EB",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:J_OUT",
+      "name": "J_OUT",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:J_PWR",
+      "name": "J_PWR",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:J_R1",
+      "name": "J_R1",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:J_R4",
+      "name": "J_R4",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:J_RA",
+      "name": "J_RA",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:R2",
+      "name": "R2",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:R3",
+      "name": "R3",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:RMIN1",
+      "name": "RMIN1",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:RMIN4",
+      "name": "RMIN4",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:TPA",
+      "name": "TPA",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:TPB",
+      "name": "TPB",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:TPC",
+      "name": "TPC",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:TPO",
+      "name": "TPO",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "component:U1",
+      "name": "U1",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "net:+9V",
+      "name": "+9V",
+      "type": "NET"
+    },
+    {
+      "id": "net:-9V",
+      "name": "-9V",
+      "type": "NET"
+    },
+    {
+      "id": "net:EA",
+      "name": "EA",
+      "type": "NET"
+    },
+    {
+      "id": "net:EB",
+      "name": "EB",
+      "type": "NET"
+    },
+    {
+      "id": "net:EOUT",
+      "name": "EOUT",
+      "type": "NET"
+    },
+    {
+      "id": "net:GND",
+      "name": "GND",
+      "type": "NET"
+    },
+    {
+      "id": "net:NODE_A",
+      "name": "NODE_A",
+      "type": "NET"
+    },
+    {
+      "id": "net:NODE_B",
+      "name": "NODE_B",
+      "type": "NET"
+    },
+    {
+      "id": "net:NODE_C",
+      "name": "NODE_C",
+      "type": "NET"
+    },
+    {
+      "id": "net:R1_EXT",
+      "name": "R1_EXT",
+      "type": "NET"
+    },
+    {
+      "id": "net:R1_W",
+      "name": "R1_W",
+      "type": "NET"
+    },
+    {
+      "id": "net:R4_EXT",
+      "name": "R4_EXT",
+      "type": "NET"
+    },
+    {
+      "id": "net:R4_W",
+      "name": "R4_W",
+      "type": "NET"
+    },
+    {
+      "id": "net:RA_SW",
+      "name": "RA_SW",
+      "type": "NET"
+    },
+    {
+      "id": "net:RA_W",
+      "name": "RA_W",
+      "type": "NET"
+    }
+  ]
+}
