@@ -1,0 +1,2205 @@
+{
+  "authoritative_input": "output/graph_first/iamp_graph.json",
+  "bfs_layers": {
+    "0": [
+      "component:U1"
+    ],
+    "1": [
+      "net:+9V",
+      "net:-9V",
+      "net:EA",
+      "net:EB",
+      "net:EOUT",
+      "net:NODE_A",
+      "net:NODE_B",
+      "net:NODE_C"
+    ],
+    "2": [
+      "component:C1",
+      "component:C2",
+      "component:JP1",
+      "component:J_EA",
+      "component:J_EB",
+      "component:J_OUT",
+      "component:J_PWR",
+      "component:J_R1",
+      "component:J_R4",
+      "component:J_RA",
+      "component:R2",
+      "component:R3",
+      "component:RMIN4",
+      "component:TPA",
+      "component:TPB",
+      "component:TPC",
+      "component:TPO"
+    ],
+    "3": [
+      "net:GND",
+      "net:R1_EXT",
+      "net:R1_W",
+      "net:R4_EXT",
+      "net:R4_W",
+      "net:RA_SW",
+      "net:RA_W"
+    ],
+    "4": [
+      "component:RMIN1"
+    ]
+  },
+  "block_structure": {
+    "articulation_vertices": [
+      "component:J_R1",
+      "component:J_R4",
+      "component:J_RA",
+      "net:EOUT",
+      "net:NODE_A",
+      "net:NODE_B",
+      "net:NODE_C"
+    ],
+    "block_cut_tree": {
+      "edges": [
+        [
+          "articulation:component:J_R1",
+          "block:001"
+        ],
+        [
+          "articulation:component:J_R4",
+          "block:001"
+        ],
+        [
+          "articulation:component:J_RA",
+          "block:001"
+        ],
+        [
+          "articulation:net:EOUT",
+          "block:001"
+        ],
+        [
+          "articulation:net:NODE_A",
+          "block:001"
+        ],
+        [
+          "articulation:net:NODE_B",
+          "block:001"
+        ],
+        [
+          "articulation:net:NODE_C",
+          "block:001"
+        ],
+        [
+          "articulation:component:J_R1",
+          "block:002"
+        ],
+        [
+          "articulation:component:J_R4",
+          "block:003"
+        ],
+        [
+          "articulation:component:J_RA",
+          "block:004"
+        ],
+        [
+          "articulation:net:NODE_A",
+          "block:005"
+        ],
+        [
+          "articulation:net:NODE_B",
+          "block:006"
+        ],
+        [
+          "articulation:net:NODE_C",
+          "block:007"
+        ],
+        [
+          "articulation:net:EOUT",
+          "block:008"
+        ]
+      ],
+      "nodes": [
+        {
+          "id": "block:001",
+          "type": "BLOCK"
+        },
+        {
+          "id": "block:002",
+          "type": "BLOCK"
+        },
+        {
+          "id": "block:003",
+          "type": "BLOCK"
+        },
+        {
+          "id": "block:004",
+          "type": "BLOCK"
+        },
+        {
+          "id": "block:005",
+          "type": "BLOCK"
+        },
+        {
+          "id": "block:006",
+          "type": "BLOCK"
+        },
+        {
+          "id": "block:007",
+          "type": "BLOCK"
+        },
+        {
+          "id": "block:008",
+          "type": "BLOCK"
+        },
+        {
+          "id": "articulation:component:J_R1",
+          "type": "ARTICULATION",
+          "vertex": "component:J_R1"
+        },
+        {
+          "id": "articulation:component:J_R4",
+          "type": "ARTICULATION",
+          "vertex": "component:J_R4"
+        },
+        {
+          "id": "articulation:component:J_RA",
+          "type": "ARTICULATION",
+          "vertex": "component:J_RA"
+        },
+        {
+          "id": "articulation:net:EOUT",
+          "type": "ARTICULATION",
+          "vertex": "net:EOUT"
+        },
+        {
+          "id": "articulation:net:NODE_A",
+          "type": "ARTICULATION",
+          "vertex": "net:NODE_A"
+        },
+        {
+          "id": "articulation:net:NODE_B",
+          "type": "ARTICULATION",
+          "vertex": "net:NODE_B"
+        },
+        {
+          "id": "articulation:net:NODE_C",
+          "type": "ARTICULATION",
+          "vertex": "net:NODE_C"
+        }
+      ],
+      "root_block": "block:001"
+    },
+    "blocks": [
+      {
+        "articulation_vertices": [
+          "component:J_R1",
+          "component:J_R4",
+          "component:J_RA",
+          "net:EOUT",
+          "net:NODE_A",
+          "net:NODE_B",
+          "net:NODE_C"
+        ],
+        "block_cut_tree_distance": 0,
+        "bridge_block": false,
+        "contains_structural_center": true,
+        "distance_from_structural_center": 0,
+        "edge_count": 37,
+        "edges": [
+          [
+            "component:C1",
+            "net:+9V"
+          ],
+          [
+            "component:C1",
+            "net:GND"
+          ],
+          [
+            "component:C2",
+            "net:-9V"
+          ],
+          [
+            "component:C2",
+            "net:GND"
+          ],
+          [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          [
+            "component:JP1",
+            "net:RA_SW"
+          ],
+          [
+            "component:J_EA",
+            "net:EA"
+          ],
+          [
+            "component:J_EA",
+            "net:GND"
+          ],
+          [
+            "component:J_EB",
+            "net:EB"
+          ],
+          [
+            "component:J_EB",
+            "net:GND"
+          ],
+          [
+            "component:J_OUT",
+            "net:EOUT"
+          ],
+          [
+            "component:J_OUT",
+            "net:GND"
+          ],
+          [
+            "component:J_PWR",
+            "net:+9V"
+          ],
+          [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          [
+            "component:J_PWR",
+            "net:GND"
+          ],
+          [
+            "component:J_R1",
+            "net:NODE_A"
+          ],
+          [
+            "component:J_R1",
+            "net:R1_EXT"
+          ],
+          [
+            "component:J_R4",
+            "net:EOUT"
+          ],
+          [
+            "component:J_R4",
+            "net:R4_EXT"
+          ],
+          [
+            "component:J_RA",
+            "net:NODE_A"
+          ],
+          [
+            "component:J_RA",
+            "net:RA_SW"
+          ],
+          [
+            "component:R2",
+            "net:NODE_A"
+          ],
+          [
+            "component:R2",
+            "net:NODE_B"
+          ],
+          [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          [
+            "component:R3",
+            "net:NODE_C"
+          ],
+          [
+            "component:RMIN1",
+            "net:GND"
+          ],
+          [
+            "component:RMIN1",
+            "net:R1_EXT"
+          ],
+          [
+            "component:RMIN4",
+            "net:NODE_C"
+          ],
+          [
+            "component:RMIN4",
+            "net:R4_EXT"
+          ],
+          [
+            "component:U1",
+            "net:+9V"
+          ],
+          [
+            "component:U1",
+            "net:-9V"
+          ],
+          [
+            "component:U1",
+            "net:EA"
+          ],
+          [
+            "component:U1",
+            "net:EB"
+          ],
+          [
+            "component:U1",
+            "net:EOUT"
+          ],
+          [
+            "component:U1",
+            "net:NODE_A"
+          ],
+          [
+            "component:U1",
+            "net:NODE_B"
+          ],
+          [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        ],
+        "id": "block:001",
+        "leaf_block": false,
+        "member_vertices": [
+          "component:C1",
+          "component:C2",
+          "component:JP1",
+          "component:J_EA",
+          "component:J_EB",
+          "component:J_OUT",
+          "component:J_PWR",
+          "component:J_R1",
+          "component:J_R4",
+          "component:J_RA",
+          "component:R2",
+          "component:R3",
+          "component:RMIN1",
+          "component:RMIN4",
+          "component:U1",
+          "net:+9V",
+          "net:-9V",
+          "net:EA",
+          "net:EB",
+          "net:EOUT",
+          "net:GND",
+          "net:NODE_A",
+          "net:NODE_B",
+          "net:NODE_C",
+          "net:R1_EXT",
+          "net:R4_EXT",
+          "net:RA_SW"
+        ]
+      },
+      {
+        "articulation_vertices": [
+          "component:J_R1"
+        ],
+        "block_cut_tree_distance": 2,
+        "bridge_block": true,
+        "contains_structural_center": false,
+        "distance_from_structural_center": 2,
+        "edge_count": 1,
+        "edges": [
+          [
+            "component:J_R1",
+            "net:R1_W"
+          ]
+        ],
+        "id": "block:002",
+        "leaf_block": true,
+        "member_vertices": [
+          "component:J_R1",
+          "net:R1_W"
+        ]
+      },
+      {
+        "articulation_vertices": [
+          "component:J_R4"
+        ],
+        "block_cut_tree_distance": 2,
+        "bridge_block": true,
+        "contains_structural_center": false,
+        "distance_from_structural_center": 2,
+        "edge_count": 1,
+        "edges": [
+          [
+            "component:J_R4",
+            "net:R4_W"
+          ]
+        ],
+        "id": "block:003",
+        "leaf_block": true,
+        "member_vertices": [
+          "component:J_R4",
+          "net:R4_W"
+        ]
+      },
+      {
+        "articulation_vertices": [
+          "component:J_RA"
+        ],
+        "block_cut_tree_distance": 2,
+        "bridge_block": true,
+        "contains_structural_center": false,
+        "distance_from_structural_center": 2,
+        "edge_count": 1,
+        "edges": [
+          [
+            "component:J_RA",
+            "net:RA_W"
+          ]
+        ],
+        "id": "block:004",
+        "leaf_block": true,
+        "member_vertices": [
+          "component:J_RA",
+          "net:RA_W"
+        ]
+      },
+      {
+        "articulation_vertices": [
+          "net:NODE_A"
+        ],
+        "block_cut_tree_distance": 2,
+        "bridge_block": true,
+        "contains_structural_center": false,
+        "distance_from_structural_center": 1,
+        "edge_count": 1,
+        "edges": [
+          [
+            "component:TPA",
+            "net:NODE_A"
+          ]
+        ],
+        "id": "block:005",
+        "leaf_block": true,
+        "member_vertices": [
+          "component:TPA",
+          "net:NODE_A"
+        ]
+      },
+      {
+        "articulation_vertices": [
+          "net:NODE_B"
+        ],
+        "block_cut_tree_distance": 2,
+        "bridge_block": true,
+        "contains_structural_center": false,
+        "distance_from_structural_center": 1,
+        "edge_count": 1,
+        "edges": [
+          [
+            "component:TPB",
+            "net:NODE_B"
+          ]
+        ],
+        "id": "block:006",
+        "leaf_block": true,
+        "member_vertices": [
+          "component:TPB",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "articulation_vertices": [
+          "net:NODE_C"
+        ],
+        "block_cut_tree_distance": 2,
+        "bridge_block": true,
+        "contains_structural_center": false,
+        "distance_from_structural_center": 1,
+        "edge_count": 1,
+        "edges": [
+          [
+            "component:TPC",
+            "net:NODE_C"
+          ]
+        ],
+        "id": "block:007",
+        "leaf_block": true,
+        "member_vertices": [
+          "component:TPC",
+          "net:NODE_C"
+        ]
+      },
+      {
+        "articulation_vertices": [
+          "net:EOUT"
+        ],
+        "block_cut_tree_distance": 2,
+        "bridge_block": true,
+        "contains_structural_center": false,
+        "distance_from_structural_center": 1,
+        "edge_count": 1,
+        "edges": [
+          [
+            "component:TPO",
+            "net:EOUT"
+          ]
+        ],
+        "id": "block:008",
+        "leaf_block": true,
+        "member_vertices": [
+          "component:TPO",
+          "net:EOUT"
+        ]
+      }
+    ],
+    "bridges": [
+      [
+        "component:J_R1",
+        "net:R1_W"
+      ],
+      [
+        "component:J_R4",
+        "net:R4_W"
+      ],
+      [
+        "component:J_RA",
+        "net:RA_W"
+      ],
+      [
+        "component:TPA",
+        "net:NODE_A"
+      ],
+      [
+        "component:TPB",
+        "net:NODE_B"
+      ],
+      [
+        "component:TPC",
+        "net:NODE_C"
+      ],
+      [
+        "component:TPO",
+        "net:EOUT"
+      ]
+    ],
+    "central_blocks": [
+      "block:001"
+    ],
+    "leaf_blocks": [
+      "block:002",
+      "block:003",
+      "block:004",
+      "block:005",
+      "block:006",
+      "block:007",
+      "block:008"
+    ],
+    "pendant_branches": [
+      {
+        "attachment_articulation": "component:J_R1",
+        "blocks": [
+          "block:002"
+        ],
+        "root_block": "block:002",
+        "vertices_beyond_articulation": [
+          "net:R1_W"
+        ]
+      },
+      {
+        "attachment_articulation": "component:J_R4",
+        "blocks": [
+          "block:003"
+        ],
+        "root_block": "block:003",
+        "vertices_beyond_articulation": [
+          "net:R4_W"
+        ]
+      },
+      {
+        "attachment_articulation": "component:J_RA",
+        "blocks": [
+          "block:004"
+        ],
+        "root_block": "block:004",
+        "vertices_beyond_articulation": [
+          "net:RA_W"
+        ]
+      },
+      {
+        "attachment_articulation": "net:EOUT",
+        "blocks": [
+          "block:008"
+        ],
+        "root_block": "block:008",
+        "vertices_beyond_articulation": [
+          "component:TPO"
+        ]
+      },
+      {
+        "attachment_articulation": "net:NODE_A",
+        "blocks": [
+          "block:005"
+        ],
+        "root_block": "block:005",
+        "vertices_beyond_articulation": [
+          "component:TPA"
+        ]
+      },
+      {
+        "attachment_articulation": "net:NODE_B",
+        "blocks": [
+          "block:006"
+        ],
+        "root_block": "block:006",
+        "vertices_beyond_articulation": [
+          "component:TPB"
+        ]
+      },
+      {
+        "attachment_articulation": "net:NODE_C",
+        "blocks": [
+          "block:007"
+        ],
+        "root_block": "block:007",
+        "vertices_beyond_articulation": [
+          "component:TPC"
+        ]
+      }
+    ]
+  },
+  "coordinate_policy": "no coordinates assigned",
+  "embedding_sectors": {
+    "center_cyclic_neighbor_order": [
+      "net:EA",
+      "net:-9V",
+      "net:+9V",
+      "net:EB",
+      "net:EOUT",
+      "net:NODE_C",
+      "net:NODE_B",
+      "net:NODE_A"
+    ],
+    "coherent_disjoint_sectors_exist": false,
+    "method": "first-hop membership across all shortest paths from the structural center",
+    "sectors": [
+      {
+        "shortest_path_members": [
+          "component:J_EA",
+          "component:RMIN1",
+          "net:EA",
+          "net:GND"
+        ],
+        "via_neighbor": "net:EA"
+      },
+      {
+        "shortest_path_members": [
+          "component:C2",
+          "component:J_PWR",
+          "component:RMIN1",
+          "net:-9V",
+          "net:GND"
+        ],
+        "via_neighbor": "net:-9V"
+      },
+      {
+        "shortest_path_members": [
+          "component:C1",
+          "component:J_PWR",
+          "component:RMIN1",
+          "net:+9V",
+          "net:GND"
+        ],
+        "via_neighbor": "net:+9V"
+      },
+      {
+        "shortest_path_members": [
+          "component:J_EB",
+          "component:RMIN1",
+          "net:EB",
+          "net:GND"
+        ],
+        "via_neighbor": "net:EB"
+      },
+      {
+        "shortest_path_members": [
+          "component:J_OUT",
+          "component:J_R4",
+          "component:RMIN1",
+          "component:TPO",
+          "net:EOUT",
+          "net:GND",
+          "net:R4_EXT",
+          "net:R4_W"
+        ],
+        "via_neighbor": "net:EOUT"
+      },
+      {
+        "shortest_path_members": [
+          "component:JP1",
+          "component:R3",
+          "component:RMIN4",
+          "component:TPC",
+          "net:NODE_C",
+          "net:R4_EXT",
+          "net:RA_SW"
+        ],
+        "via_neighbor": "net:NODE_C"
+      },
+      {
+        "shortest_path_members": [
+          "component:R2",
+          "component:R3",
+          "component:TPB",
+          "net:NODE_B"
+        ],
+        "via_neighbor": "net:NODE_B"
+      },
+      {
+        "shortest_path_members": [
+          "component:J_R1",
+          "component:J_RA",
+          "component:R2",
+          "component:RMIN1",
+          "component:TPA",
+          "net:NODE_A",
+          "net:R1_EXT",
+          "net:R1_W",
+          "net:RA_SW",
+          "net:RA_W"
+        ],
+        "via_neighbor": "net:NODE_A"
+      }
+    ],
+    "vertex_sector_assignments": {
+      "component:C1": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:+9V"
+        ]
+      },
+      "component:C2": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:-9V"
+        ]
+      },
+      "component:JP1": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:NODE_C"
+        ]
+      },
+      "component:J_EA": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:EA"
+        ]
+      },
+      "component:J_EB": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:EB"
+        ]
+      },
+      "component:J_OUT": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:EOUT"
+        ]
+      },
+      "component:J_PWR": {
+        "classification": "shared between sectors",
+        "sectors": [
+          "net:-9V",
+          "net:+9V"
+        ]
+      },
+      "component:J_R1": {
+        "classification": "articulation/branch structure",
+        "sectors": [
+          "net:NODE_A"
+        ]
+      },
+      "component:J_R4": {
+        "classification": "articulation/branch structure",
+        "sectors": [
+          "net:EOUT"
+        ]
+      },
+      "component:J_RA": {
+        "classification": "articulation/branch structure",
+        "sectors": [
+          "net:NODE_A"
+        ]
+      },
+      "component:R2": {
+        "classification": "shared between sectors",
+        "sectors": [
+          "net:NODE_B",
+          "net:NODE_A"
+        ]
+      },
+      "component:R3": {
+        "classification": "shared between sectors",
+        "sectors": [
+          "net:NODE_C",
+          "net:NODE_B"
+        ]
+      },
+      "component:RMIN1": {
+        "classification": "shared between sectors",
+        "sectors": [
+          "net:EA",
+          "net:-9V",
+          "net:+9V",
+          "net:EB",
+          "net:EOUT",
+          "net:NODE_A"
+        ]
+      },
+      "component:RMIN4": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:NODE_C"
+        ]
+      },
+      "component:TPA": {
+        "classification": "peripheral",
+        "sectors": [
+          "net:NODE_A"
+        ]
+      },
+      "component:TPB": {
+        "classification": "peripheral",
+        "sectors": [
+          "net:NODE_B"
+        ]
+      },
+      "component:TPC": {
+        "classification": "peripheral",
+        "sectors": [
+          "net:NODE_C"
+        ]
+      },
+      "component:TPO": {
+        "classification": "peripheral",
+        "sectors": [
+          "net:EOUT"
+        ]
+      },
+      "component:U1": {
+        "classification": "center",
+        "sectors": []
+      },
+      "net:+9V": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:+9V"
+        ]
+      },
+      "net:-9V": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:-9V"
+        ]
+      },
+      "net:EA": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:EA"
+        ]
+      },
+      "net:EB": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:EB"
+        ]
+      },
+      "net:EOUT": {
+        "classification": "articulation/branch structure",
+        "sectors": [
+          "net:EOUT"
+        ]
+      },
+      "net:GND": {
+        "classification": "shared between sectors",
+        "sectors": [
+          "net:EA",
+          "net:-9V",
+          "net:+9V",
+          "net:EB",
+          "net:EOUT"
+        ]
+      },
+      "net:NODE_A": {
+        "classification": "articulation/branch structure",
+        "sectors": [
+          "net:NODE_A"
+        ]
+      },
+      "net:NODE_B": {
+        "classification": "articulation/branch structure",
+        "sectors": [
+          "net:NODE_B"
+        ]
+      },
+      "net:NODE_C": {
+        "classification": "articulation/branch structure",
+        "sectors": [
+          "net:NODE_C"
+        ]
+      },
+      "net:R1_EXT": {
+        "classification": "sector-local",
+        "sectors": [
+          "net:NODE_A"
+        ]
+      },
+      "net:R1_W": {
+        "classification": "peripheral",
+        "sectors": [
+          "net:NODE_A"
+        ]
+      },
+      "net:R4_EXT": {
+        "classification": "shared between sectors",
+        "sectors": [
+          "net:EOUT",
+          "net:NODE_C"
+        ]
+      },
+      "net:R4_W": {
+        "classification": "peripheral",
+        "sectors": [
+          "net:EOUT"
+        ]
+      },
+      "net:RA_SW": {
+        "classification": "shared between sectors",
+        "sectors": [
+          "net:NODE_C",
+          "net:NODE_A"
+        ]
+      },
+      "net:RA_W": {
+        "classification": "peripheral",
+        "sectors": [
+          "net:NODE_A"
+        ]
+      }
+    },
+    "vertices_not_honestly_assignable_to_one_sector": [
+      "component:J_PWR",
+      "component:R2",
+      "component:R3",
+      "component:RMIN1",
+      "net:GND",
+      "net:R4_EXT",
+      "net:RA_SW"
+    ]
+  },
+  "graph_counts": {
+    "edges": 44,
+    "vertices": 34
+  },
+  "planar_embedding": {
+    "best_outer_face_candidates": [
+      "face:005"
+    ],
+    "candidate_face_ids": [
+      "face:001",
+      "face:004",
+      "face:005",
+      "face:006"
+    ],
+    "closeness_criterion_ranking": [
+      "face:005",
+      "face:006",
+      "face:001",
+      "face:004"
+    ],
+    "criteria_agree_on_first": true,
+    "cyclic_neighbor_order": {
+      "component:C1": [
+        "net:+9V",
+        "net:GND"
+      ],
+      "component:C2": [
+        "net:-9V",
+        "net:GND"
+      ],
+      "component:JP1": [
+        "net:NODE_C",
+        "net:RA_SW"
+      ],
+      "component:J_EA": [
+        "net:GND",
+        "net:EA"
+      ],
+      "component:J_EB": [
+        "net:EB",
+        "net:GND"
+      ],
+      "component:J_OUT": [
+        "net:EOUT",
+        "net:GND"
+      ],
+      "component:J_PWR": [
+        "net:+9V",
+        "net:-9V",
+        "net:GND"
+      ],
+      "component:J_R1": [
+        "net:NODE_A",
+        "net:R1_EXT",
+        "net:R1_W"
+      ],
+      "component:J_R4": [
+        "net:EOUT",
+        "net:R4_EXT",
+        "net:R4_W"
+      ],
+      "component:J_RA": [
+        "net:RA_SW",
+        "net:NODE_A",
+        "net:RA_W"
+      ],
+      "component:R2": [
+        "net:NODE_A",
+        "net:NODE_B"
+      ],
+      "component:R3": [
+        "net:NODE_B",
+        "net:NODE_C"
+      ],
+      "component:RMIN1": [
+        "net:R1_EXT",
+        "net:GND"
+      ],
+      "component:RMIN4": [
+        "net:R4_EXT",
+        "net:NODE_C"
+      ],
+      "component:TPA": [
+        "net:NODE_A"
+      ],
+      "component:TPB": [
+        "net:NODE_B"
+      ],
+      "component:TPC": [
+        "net:NODE_C"
+      ],
+      "component:TPO": [
+        "net:EOUT"
+      ],
+      "component:U1": [
+        "net:EA",
+        "net:-9V",
+        "net:+9V",
+        "net:EB",
+        "net:EOUT",
+        "net:NODE_C",
+        "net:NODE_B",
+        "net:NODE_A"
+      ],
+      "net:+9V": [
+        "component:C1",
+        "component:U1",
+        "component:J_PWR"
+      ],
+      "net:-9V": [
+        "component:J_PWR",
+        "component:U1",
+        "component:C2"
+      ],
+      "net:EA": [
+        "component:J_EA",
+        "component:U1"
+      ],
+      "net:EB": [
+        "component:U1",
+        "component:J_EB"
+      ],
+      "net:EOUT": [
+        "component:U1",
+        "component:J_OUT",
+        "component:J_R4",
+        "component:TPO"
+      ],
+      "net:GND": [
+        "component:C2",
+        "component:J_EA",
+        "component:RMIN1",
+        "component:J_OUT",
+        "component:J_EB",
+        "component:C1",
+        "component:J_PWR"
+      ],
+      "net:NODE_A": [
+        "component:J_RA",
+        "component:J_R1",
+        "component:U1",
+        "component:R2",
+        "component:TPA"
+      ],
+      "net:NODE_B": [
+        "component:R2",
+        "component:U1",
+        "component:R3",
+        "component:TPB"
+      ],
+      "net:NODE_C": [
+        "component:RMIN4",
+        "component:JP1",
+        "component:R3",
+        "component:U1",
+        "component:TPC"
+      ],
+      "net:R1_EXT": [
+        "component:J_R1",
+        "component:RMIN1"
+      ],
+      "net:R1_W": [
+        "component:J_R1"
+      ],
+      "net:R4_EXT": [
+        "component:J_R4",
+        "component:RMIN4"
+      ],
+      "net:R4_W": [
+        "component:J_R4"
+      ],
+      "net:RA_SW": [
+        "component:JP1",
+        "component:J_RA"
+      ],
+      "net:RA_W": [
+        "component:J_RA"
+      ]
+    },
+    "distance_criterion_ranking": [
+      "face:005",
+      "face:001",
+      "face:004",
+      "face:006"
+    ],
+    "faces": [
+      {
+        "average_closeness": 0.32055302153047155,
+        "average_graph_distance": 2.0,
+        "boundary_vertex_count": 4,
+        "boundary_walk": [
+          "component:C1",
+          "net:+9V",
+          "component:J_PWR",
+          "net:GND"
+        ],
+        "contains_structural_center": false,
+        "distinct_boundary_vertex_count": 4,
+        "id": "face:001"
+      },
+      {
+        "average_closeness": 0.35398819797614206,
+        "average_graph_distance": 1.5,
+        "boundary_vertex_count": 6,
+        "boundary_walk": [
+          "component:C1",
+          "net:GND",
+          "component:J_EB",
+          "net:EB",
+          "component:U1",
+          "net:+9V"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 6,
+        "id": "face:002"
+      },
+      {
+        "average_closeness": 0.35398819797614206,
+        "average_graph_distance": 1.5,
+        "boundary_vertex_count": 6,
+        "boundary_walk": [
+          "component:C2",
+          "net:-9V",
+          "component:U1",
+          "net:EA",
+          "component:J_EA",
+          "net:GND"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 6,
+        "id": "face:003"
+      },
+      {
+        "average_closeness": 0.3205530215304716,
+        "average_graph_distance": 2.0,
+        "boundary_vertex_count": 4,
+        "boundary_walk": [
+          "component:C2",
+          "net:GND",
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        "contains_structural_center": false,
+        "distinct_boundary_vertex_count": 4,
+        "id": "face:004"
+      },
+      {
+        "average_closeness": 0.3122405299754177,
+        "average_graph_distance": 2.2142857142857144,
+        "boundary_vertex_count": 14,
+        "boundary_walk": [
+          "component:JP1",
+          "net:NODE_C",
+          "component:RMIN4",
+          "net:R4_EXT",
+          "component:J_R4",
+          "net:EOUT",
+          "component:J_OUT",
+          "net:GND",
+          "component:RMIN1",
+          "net:R1_EXT",
+          "component:J_R1",
+          "net:NODE_A",
+          "component:J_RA",
+          "net:RA_SW"
+        ],
+        "contains_structural_center": false,
+        "distinct_boundary_vertex_count": 14,
+        "id": "face:005"
+      },
+      {
+        "average_closeness": 0.319028215012486,
+        "average_graph_distance": 1.7857142857142858,
+        "boundary_vertex_count": 14,
+        "boundary_walk": [
+          "component:JP1",
+          "net:RA_SW",
+          "component:J_RA",
+          "net:RA_W",
+          "component:J_RA",
+          "net:NODE_A",
+          "component:TPA",
+          "net:NODE_A",
+          "component:R2",
+          "net:NODE_B",
+          "component:TPB",
+          "net:NODE_B",
+          "component:R3",
+          "net:NODE_C"
+        ],
+        "contains_structural_center": false,
+        "distinct_boundary_vertex_count": 11,
+        "id": "face:006"
+      },
+      {
+        "average_closeness": 0.32808488254836476,
+        "average_graph_distance": 2.1,
+        "boundary_vertex_count": 10,
+        "boundary_walk": [
+          "component:J_EA",
+          "net:EA",
+          "component:U1",
+          "net:NODE_A",
+          "component:J_R1",
+          "net:R1_W",
+          "component:J_R1",
+          "net:R1_EXT",
+          "component:RMIN1",
+          "net:GND"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 9,
+        "id": "face:007"
+      },
+      {
+        "average_closeness": 0.362251249837747,
+        "average_graph_distance": 1.5,
+        "boundary_vertex_count": 6,
+        "boundary_walk": [
+          "component:J_EB",
+          "net:GND",
+          "component:J_OUT",
+          "net:EOUT",
+          "component:U1",
+          "net:EB"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 6,
+        "id": "face:008"
+      },
+      {
+        "average_closeness": 0.38155581341520806,
+        "average_graph_distance": 1.0,
+        "boundary_vertex_count": 4,
+        "boundary_walk": [
+          "component:J_PWR",
+          "net:+9V",
+          "component:U1",
+          "net:-9V"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 4,
+        "id": "face:009"
+      },
+      {
+        "average_closeness": 0.32969153485706754,
+        "average_graph_distance": 1.6666666666666667,
+        "boundary_vertex_count": 12,
+        "boundary_walk": [
+          "component:J_R4",
+          "net:R4_EXT",
+          "component:RMIN4",
+          "net:NODE_C",
+          "component:TPC",
+          "net:NODE_C",
+          "component:U1",
+          "net:EOUT",
+          "component:TPO",
+          "net:EOUT",
+          "component:J_R4",
+          "net:R4_W"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 9,
+        "id": "face:010"
+      },
+      {
+        "average_closeness": 0.39079866136773345,
+        "average_graph_distance": 1.0,
+        "boundary_vertex_count": 4,
+        "boundary_walk": [
+          "component:R2",
+          "net:NODE_A",
+          "component:U1",
+          "net:NODE_B"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 4,
+        "id": "face:011"
+      },
+      {
+        "average_closeness": 0.37968044154198244,
+        "average_graph_distance": 1.0,
+        "boundary_vertex_count": 4,
+        "boundary_walk": [
+          "component:R3",
+          "net:NODE_B",
+          "component:U1",
+          "net:NODE_C"
+        ],
+        "contains_structural_center": true,
+        "distinct_boundary_vertex_count": 4,
+        "id": "face:012"
+      }
+    ],
+    "outer_face_selection_method": {
+      "combination": "unweighted Pareto dominance; deterministic face ID only orders ties within a tier",
+      "criteria": [
+        "maximize average graph distance",
+        "minimize average closeness"
+      ],
+      "first_filter": "prefer faces not containing the structural center when any exist"
+    },
+    "pareto_tiers": [
+      [
+        "face:005"
+      ],
+      [
+        "face:001",
+        "face:006"
+      ],
+      [
+        "face:004"
+      ]
+    ]
+  },
+  "schema": "graph-relax.topological-placement-blueprint.v1",
+  "source_graph_schema": "graph-relax.abstract-electrical-graph.v1",
+  "structural_center_selection": {
+    "chosen_vertex": "component:U1",
+    "closeness": 0.4925373134328358,
+    "degree": 8,
+    "rule": [
+      "maximum closeness centrality",
+      "maximum degree",
+      "lexical vertex identifier"
+    ]
+  },
+  "vertices": [
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:+9V"
+      ],
+      "closeness": 0.30275229357798167,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:+9V",
+        "net:GND"
+      ],
+      "id": "component:C1",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:-9V"
+      ],
+      "closeness": 0.30275229357798167,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:-9V",
+        "net:GND"
+      ],
+      "id": "component:C2",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:NODE_C"
+      ],
+      "closeness": 0.2920353982300885,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:NODE_C",
+        "net:RA_SW"
+      ],
+      "id": "component:JP1",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EA"
+      ],
+      "closeness": 0.30275229357798167,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:GND",
+        "net:EA"
+      ],
+      "id": "component:J_EA",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EB"
+      ],
+      "closeness": 0.30275229357798167,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:EB",
+        "net:GND"
+      ],
+      "id": "component:J_EB",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EOUT"
+      ],
+      "closeness": 0.32673267326732675,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:EOUT",
+        "net:GND"
+      ],
+      "id": "component:J_OUT",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:-9V",
+        "net:+9V"
+      ],
+      "closeness": 0.308411214953271,
+      "degree": 3,
+      "embedding_cyclic_neighbors": [
+        "net:+9V",
+        "net:-9V",
+        "net:GND"
+      ],
+      "id": "component:J_PWR",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "shared between sectors",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": true,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001",
+        "block:002"
+      ],
+      "candidate_sectors": [
+        "net:NODE_A"
+      ],
+      "closeness": 0.3142857142857143,
+      "degree": 3,
+      "embedding_cyclic_neighbors": [
+        "net:NODE_A",
+        "net:R1_EXT",
+        "net:R1_W"
+      ],
+      "id": "component:J_R1",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "articulation/branch structure",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": true,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001",
+        "block:003"
+      ],
+      "candidate_sectors": [
+        "net:EOUT"
+      ],
+      "closeness": 0.2972972972972973,
+      "degree": 3,
+      "embedding_cyclic_neighbors": [
+        "net:EOUT",
+        "net:R4_EXT",
+        "net:R4_W"
+      ],
+      "id": "component:J_R4",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "articulation/branch structure",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": true,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001",
+        "block:004"
+      ],
+      "candidate_sectors": [
+        "net:NODE_A"
+      ],
+      "closeness": 0.308411214953271,
+      "degree": 3,
+      "embedding_cyclic_neighbors": [
+        "net:RA_SW",
+        "net:NODE_A",
+        "net:RA_W"
+      ],
+      "id": "component:J_RA",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "articulation/branch structure",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:NODE_B",
+        "net:NODE_A"
+      ],
+      "closeness": 0.308411214953271,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:NODE_A",
+        "net:NODE_B"
+      ],
+      "id": "component:R2",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "shared between sectors",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:NODE_C",
+        "net:NODE_B"
+      ],
+      "closeness": 0.2920353982300885,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:NODE_B",
+        "net:NODE_C"
+      ],
+      "id": "component:R3",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "shared between sectors",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 4,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EA",
+        "net:-9V",
+        "net:+9V",
+        "net:EB",
+        "net:EOUT",
+        "net:NODE_A"
+      ],
+      "closeness": 0.2727272727272727,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:R1_EXT",
+        "net:GND"
+      ],
+      "id": "component:RMIN1",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "shared between sectors",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:NODE_C"
+      ],
+      "closeness": 0.2920353982300885,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "net:R4_EXT",
+        "net:NODE_C"
+      ],
+      "id": "component:RMIN4",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:005"
+      ],
+      "candidate_sectors": [
+        "net:NODE_A"
+      ],
+      "closeness": 0.2920353982300885,
+      "degree": 1,
+      "embedding_cyclic_neighbors": [
+        "net:NODE_A"
+      ],
+      "id": "component:TPA",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "peripheral",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:006"
+      ],
+      "candidate_sectors": [
+        "net:NODE_B"
+      ],
+      "closeness": 0.264,
+      "degree": 1,
+      "embedding_cyclic_neighbors": [
+        "net:NODE_B"
+      ],
+      "id": "component:TPB",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "peripheral",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:007"
+      ],
+      "candidate_sectors": [
+        "net:NODE_C"
+      ],
+      "closeness": 0.2773109243697479,
+      "degree": 1,
+      "embedding_cyclic_neighbors": [
+        "net:NODE_C"
+      ],
+      "id": "component:TPC",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "peripheral",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 2,
+      "block_membership": [
+        "block:008"
+      ],
+      "candidate_sectors": [
+        "net:EOUT"
+      ],
+      "closeness": 0.28205128205128205,
+      "degree": 1,
+      "embedding_cyclic_neighbors": [
+        "net:EOUT"
+      ],
+      "id": "component:TPO",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "peripheral",
+      "structural_center": false,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 0,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [],
+      "closeness": 0.4925373134328358,
+      "degree": 8,
+      "embedding_cyclic_neighbors": [
+        "net:EA",
+        "net:-9V",
+        "net:+9V",
+        "net:EB",
+        "net:EOUT",
+        "net:NODE_C",
+        "net:NODE_B",
+        "net:NODE_A"
+      ],
+      "id": "component:U1",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "center",
+      "structural_center": true,
+      "type": "COMPONENT"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:+9V"
+      ],
+      "closeness": 0.3626373626373626,
+      "degree": 3,
+      "embedding_cyclic_neighbors": [
+        "component:C1",
+        "component:U1",
+        "component:J_PWR"
+      ],
+      "id": "net:+9V",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:-9V"
+      ],
+      "closeness": 0.3626373626373626,
+      "degree": 3,
+      "embedding_cyclic_neighbors": [
+        "component:J_PWR",
+        "component:U1",
+        "component:C2"
+      ],
+      "id": "net:-9V",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EA"
+      ],
+      "closeness": 0.3548387096774194,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "component:J_EA",
+        "component:U1"
+      ],
+      "id": "net:EA",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EB"
+      ],
+      "closeness": 0.3548387096774194,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "component:U1",
+        "component:J_EB"
+      ],
+      "id": "net:EB",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": true,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001",
+        "block:008"
+      ],
+      "candidate_sectors": [
+        "net:EOUT"
+      ],
+      "closeness": 0.38823529411764707,
+      "degree": 4,
+      "embedding_cyclic_neighbors": [
+        "component:U1",
+        "component:J_OUT",
+        "component:J_R4",
+        "component:TPO"
+      ],
+      "id": "net:EOUT",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "articulation/branch structure",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 3,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EA",
+        "net:-9V",
+        "net:+9V",
+        "net:EB",
+        "net:EOUT"
+      ],
+      "closeness": 0.308411214953271,
+      "degree": 7,
+      "embedding_cyclic_neighbors": [
+        "component:C2",
+        "component:J_EA",
+        "component:RMIN1",
+        "component:J_OUT",
+        "component:J_EB",
+        "component:C1",
+        "component:J_PWR"
+      ],
+      "id": "net:GND",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "shared between sectors",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": true,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001",
+        "block:005"
+      ],
+      "candidate_sectors": [
+        "net:NODE_A"
+      ],
+      "closeness": 0.4074074074074074,
+      "degree": 5,
+      "embedding_cyclic_neighbors": [
+        "component:J_RA",
+        "component:J_R1",
+        "component:U1",
+        "component:R2",
+        "component:TPA"
+      ],
+      "id": "net:NODE_A",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "articulation/branch structure",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": true,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001",
+        "block:006"
+      ],
+      "candidate_sectors": [
+        "net:NODE_B"
+      ],
+      "closeness": 0.3548387096774194,
+      "degree": 4,
+      "embedding_cyclic_neighbors": [
+        "component:R2",
+        "component:U1",
+        "component:R3",
+        "component:TPB"
+      ],
+      "id": "net:NODE_B",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "articulation/branch structure",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": true,
+      "bfs_layer": 1,
+      "block_membership": [
+        "block:001",
+        "block:007"
+      ],
+      "candidate_sectors": [
+        "net:NODE_C"
+      ],
+      "closeness": 0.3793103448275862,
+      "degree": 5,
+      "embedding_cyclic_neighbors": [
+        "component:RMIN4",
+        "component:JP1",
+        "component:R3",
+        "component:U1",
+        "component:TPC"
+      ],
+      "id": "net:NODE_C",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "articulation/branch structure",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 3,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:NODE_A"
+      ],
+      "closeness": 0.2727272727272727,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "component:J_R1",
+        "component:RMIN1"
+      ],
+      "id": "net:R1_EXT",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "sector-local",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 3,
+      "block_membership": [
+        "block:002"
+      ],
+      "candidate_sectors": [
+        "net:NODE_A"
+      ],
+      "closeness": 0.24087591240875914,
+      "degree": 1,
+      "embedding_cyclic_neighbors": [
+        "component:J_R1"
+      ],
+      "id": "net:R1_W",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "peripheral",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 3,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:EOUT",
+        "net:NODE_C"
+      ],
+      "closeness": 0.25190839694656486,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "component:J_R4",
+        "component:RMIN4"
+      ],
+      "id": "net:R4_EXT",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "shared between sectors",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 3,
+      "block_membership": [
+        "block:003"
+      ],
+      "candidate_sectors": [
+        "net:EOUT"
+      ],
+      "closeness": 0.23076923076923078,
+      "degree": 1,
+      "embedding_cyclic_neighbors": [
+        "component:J_R4"
+      ],
+      "id": "net:R4_W",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "peripheral",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 3,
+      "block_membership": [
+        "block:001"
+      ],
+      "candidate_sectors": [
+        "net:NODE_C",
+        "net:NODE_A"
+      ],
+      "closeness": 0.25984251968503935,
+      "degree": 2,
+      "embedding_cyclic_neighbors": [
+        "component:JP1",
+        "component:J_RA"
+      ],
+      "id": "net:RA_SW",
+      "incident_to_bridge": false,
+      "member_of_leaf_block": false,
+      "sector_classification": "shared between sectors",
+      "structural_center": false,
+      "type": "NET"
+    },
+    {
+      "articulation": false,
+      "bfs_layer": 3,
+      "block_membership": [
+        "block:004"
+      ],
+      "candidate_sectors": [
+        "net:NODE_A"
+      ],
+      "closeness": 0.23741007194244604,
+      "degree": 1,
+      "embedding_cyclic_neighbors": [
+        "component:J_RA"
+      ],
+      "id": "net:RA_W",
+      "incident_to_bridge": true,
+      "member_of_leaf_block": true,
+      "sector_classification": "peripheral",
+      "structural_center": false,
+      "type": "NET"
+    }
+  ]
+}
