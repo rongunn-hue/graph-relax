@@ -1,0 +1,11 @@
+h_over_H,h,contraction_factor,width,height,area,total_edge_length,maximum_pairwise_vertex_distance,minimum_nonzero_pairwise_vertex_distance,width_ratio,height_ratio,area_ratio,total_edge_length_ratio,maximum_pairwise_ratio_error,similarity_identities_verified,unrelated_edge_crossings,coincident_vertex_pairs,vertices_on_unrelated_edges,cyclic_order_violations,cyclic_order_orientation,abstract_graph_valid
+0.0,0.0,1.0,3136.0,1092.0,3424512.0,24359.649504,3136.0,52.0,1.0,1.0,1.0,1.0,0.0,True,0,0,0,0,reflection,True
+0.1,182.380909,0.909091,2850.909091,992.727273,2830175.206612,22145.135913,2850.909091,47.272727,0.909091,0.909091,0.826446,0.909091,0.0,True,0,0,0,0,reflection,True
+0.25,455.952273,0.8,2508.8,873.6,2191687.68,19487.719603,2508.8,41.6,0.8,0.8,0.64,0.8,0.0,True,0,0,0,0,reflection,True
+0.5,911.904546,0.666667,2090.666667,728.0,1522005.333333,16239.766336,2090.666667,34.666667,0.666667,0.666667,0.444444,0.666667,0.0,True,0,0,0,0,reflection,True
+1.0,1823.809091,0.5,1568.0,546.0,856128.0,12179.824752,1568.0,26.0,0.5,0.5,0.25,0.5,0.0,True,0,0,0,0,reflection,True
+2.0,3647.618182,0.333333,1045.333333,364.0,380501.333333,8119.883168,1045.333333,17.333333,0.333333,0.333333,0.111111,0.333333,0.0,True,0,0,0,0,reflection,True
+4.0,7295.236364,0.2,627.2,218.4,136980.48,4871.929901,627.2,10.4,0.2,0.2,0.04,0.2,0.0,True,0,0,0,0,reflection,True
+9.0,16414.281819,0.1,313.6,109.2,34245.12,2435.96495,313.6,5.2,0.1,0.1,0.01,0.1,0.0,True,0,0,0,0,reflection,True
+19.0,34652.372729,0.05,156.8,54.6,8561.28,1217.982475,156.8,2.6,0.05,0.05,0.0025,0.05,0.0,True,0,0,0,0,reflection,True
+99.0,180557.100009,0.01,31.36,10.92,342.4512,243.596495,31.36,0.52,0.01,0.01,0.0001,0.01,0.0,True,0,0,0,0,reflection,True

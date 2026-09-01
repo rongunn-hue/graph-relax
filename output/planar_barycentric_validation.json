@@ -1,0 +1,199 @@
+{
+  "added_incidences": 0,
+  "clearance_violations": null,
+  "coincident_component_pairs": [
+    [
+      "component:C1",
+      "component:C2"
+    ],
+    [
+      "component:J_EA",
+      "component:J_EB"
+    ]
+  ],
+  "coincident_vertex_groups": [
+    {
+      "coordinate": {
+        "x": 0.00567,
+        "y": 0.769983
+      },
+      "vertices": [
+        "component:C1",
+        "component:C2"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": 0.00693,
+        "y": 0.718868
+      },
+      "vertices": [
+        "component:J_EA",
+        "component:J_EB"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": -0.974928,
+        "y": 0.222521
+      },
+      "vertices": [
+        "component:J_R1",
+        "net:R1_W"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": 0.974928,
+        "y": 0.222521
+      },
+      "vertices": [
+        "component:J_R4",
+        "net:R4_W"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": -0.781831,
+        "y": -0.62349
+      },
+      "vertices": [
+        "component:J_RA",
+        "net:RA_W"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": -0.974928,
+        "y": -0.222521
+      },
+      "vertices": [
+        "component:TPA",
+        "net:NODE_A"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": -0.124866,
+        "y": -0.20257
+      },
+      "vertices": [
+        "component:TPB",
+        "net:NODE_B"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": 0.433884,
+        "y": -0.900969
+      },
+      "vertices": [
+        "component:TPC",
+        "net:NODE_C"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": 0.781831,
+        "y": 0.62349
+      },
+      "vertices": [
+        "component:TPO",
+        "net:EOUT"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": 0.01134,
+        "y": 0.539966
+      },
+      "vertices": [
+        "net:+9V",
+        "net:-9V"
+      ]
+    },
+    {
+      "coordinate": {
+        "x": 0.01386,
+        "y": 0.437736
+      },
+      "vertices": [
+        "net:EA",
+        "net:EB"
+      ]
+    }
+  ],
+  "component_overlaps": 2,
+  "cyclic_order_orientation": "NOT_EVALUABLE_FOR_DEGENERATE_REALIZATION",
+  "different_net_crossings": null,
+  "electrical_source_incidence_count": 44,
+  "face_count": 12,
+  "failure_reason": "Equal normalized coordinates remain equal under every uniform scale; component rectangles overlap and ray/rectangle attachment is undefined for zero-length incidence rays.",
+  "frozen_embedding_preserved": true,
+  "fully_valid": false,
+  "graph_edge_count": 44,
+  "graph_vertex_count": 34,
+  "interior_vertex_count": 20,
+  "linear_system_solved": true,
+  "missing_or_unrealizable_incidences": 7,
+  "normalized_coordinate_extents": {
+    "height": 2.0,
+    "max_x": 0.974928,
+    "max_y": 1.0,
+    "min_x": -0.974928,
+    "min_y": -1.0,
+    "width": 1.949856
+  },
+  "physical_electrical_incidences_realized": 37,
+  "selected_outer_face": [
+    "component:JP1",
+    "net:NODE_C",
+    "component:RMIN4",
+    "net:R4_EXT",
+    "component:J_R4",
+    "net:EOUT",
+    "component:J_OUT",
+    "net:GND",
+    "component:RMIN1",
+    "net:R1_EXT",
+    "component:J_R1",
+    "net:NODE_A",
+    "component:J_RA",
+    "net:RA_SW"
+  ],
+  "selected_outer_face_index": 4,
+  "selected_physical_scale": null,
+  "status": "FAILED",
+  "uniform_scaling_can_resolve": false,
+  "unrelated_component_body_intersections": null,
+  "zero_length_incidence_edges": [
+    [
+      "component:J_R1",
+      "net:R1_W"
+    ],
+    [
+      "component:J_R4",
+      "net:R4_W"
+    ],
+    [
+      "component:J_RA",
+      "net:RA_W"
+    ],
+    [
+      "component:TPA",
+      "net:NODE_A"
+    ],
+    [
+      "component:TPB",
+      "net:NODE_B"
+    ],
+    [
+      "component:TPC",
+      "net:NODE_C"
+    ],
+    [
+      "component:TPO",
+      "net:EOUT"
+    ]
+  ]
+}

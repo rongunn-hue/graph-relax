@@ -1,0 +1,47 @@
+# IAMP LM1458 — recovered from iamp_lm1458_revA15.kicad_pcb
+# Electrical connectivity follows PCB pad-to-net assignments.
+# R2 and R3 correspond to the 1 kΩ resistors shown in the source drawing.
+# External R1, R4, and optional RA remain represented by their PCB connectors/jumper.
+
+circuit "IAMP LM1458"
+
+component C1 GENERIC_CAPACITOR
+component C2 GENERIC_CAPACITOR
+component JP1 GENERIC_JUMPER_2
+component J_EA GENERIC_CONNECTOR_2
+component J_EB GENERIC_CONNECTOR_2
+component J_OUT GENERIC_CONNECTOR_2
+component J_PWR GENERIC_CONNECTOR_3
+component J_R1 GENERIC_CONNECTOR_3
+component J_R4 GENERIC_CONNECTOR_3
+component J_RA GENERIC_CONNECTOR_3
+component R2 GENERIC_RESISTOR
+component R3 GENERIC_RESISTOR
+component RMIN1 GENERIC_RESISTOR
+component RMIN4 GENERIC_RESISTOR
+component TPA GENERIC_TESTPOINT
+component TPB GENERIC_TESTPOINT
+component TPC GENERIC_TESTPOINT
+component TPO GENERIC_TESTPOINT
+component U1 LM1458
+
+net "+9V" C1.1 J_PWR.1 U1.8
+net "GND" C1.2 C2.2 J_EA.2 J_EB.2 J_OUT.2 RMIN1.1 J_PWR.2
+net "-9V" C2.1 J_PWR.3 U1.4
+
+net "EA" J_EA.1 U1.3
+net "EB" J_EB.1 U1.5
+net "EOUT" J_OUT.1 J_R4.3 TPO.1 U1.7
+
+net "NODE_A" J_R1.3 J_RA.1 R2.1 TPA.1 U1.2
+net "NODE_B" R2.2 R3.1 TPB.1 U1.1
+net "NODE_C" JP1.2 R3.2 RMIN4.1 TPC.1 U1.6
+
+net "R1_EXT" J_R1.1 RMIN1.2
+net "R1_W" J_R1.2
+
+net "R4_EXT" J_R4.1 RMIN4.2
+net "R4_W" J_R4.2
+
+net "RA_W" J_RA.2
+net "RA_SW" J_RA.3 JP1.1

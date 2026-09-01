@@ -1,0 +1,71 @@
+{
+  "after": {
+    "clearance_violations": 11,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 38402.267447,
+      "crossing": 22000.0,
+      "crowding": 984.876769,
+      "length": 10428.327338,
+      "overlap": 0.0
+    },
+    "net_crossings": 11,
+    "objective": 71815.471554,
+    "total_connection_length": 3989.134386
+  },
+  "before": {
+    "clearance_violations": 2,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 52.64626,
+      "crossing": 46000.0,
+      "crowding": 795.164242,
+      "length": 13675.099274,
+      "overlap": 0.0
+    },
+    "net_crossings": 23,
+    "objective": 60522.909775,
+    "total_connection_length": 4883.300432
+  },
+  "coordinate_sha256": "b2a3200d25d382b57284913f40332cbf60f119dbbb5bf5b36a70db54050c0027",
+  "search": {
+    "accepted_slides": 104,
+    "accepted_swaps": 1,
+    "initial_x_step": 72.0,
+    "minimum_x_step": 0.28125,
+    "search_sweeps": 114,
+    "step_halvings": 8,
+    "stopping_reason": "no lexicographically improving legal move at minimum X step"
+  },
+  "source_verification": {
+    "frozen_4c_initial_metrics": {
+      "clearance_violations": 2,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 52.64625,
+        "crossing": 46000.0,
+        "crowding": 795.164246,
+        "length": 13675.09927,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60522.909766,
+      "total_connection_length": 4883.300431
+    },
+    "serialization_tolerance": 2e-05,
+    "stored_state_metrics": {
+      "clearance_violations": 2,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 52.64626,
+        "crossing": 46000.0,
+        "crowding": 795.164242,
+        "length": 13675.099274,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60522.909775,
+      "total_connection_length": 4883.300432
+    }
+  }
+}

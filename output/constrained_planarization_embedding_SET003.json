@@ -1,0 +1,1704 @@
+{
+  "cyclic_edge_order_clockwise": {
+    "component:C1": [
+      "terminal:C1.1",
+      "terminal:C1.2"
+    ],
+    "component:C2": [
+      "terminal:C2.2",
+      "terminal:C2.1"
+    ],
+    "component:JP1": [
+      "terminal:JP1.2",
+      "terminal:JP1.1"
+    ],
+    "component:J_EA": [
+      "terminal:J_EA.1",
+      "terminal:J_EA.2"
+    ],
+    "component:J_EB": [
+      "terminal:J_EB.1",
+      "terminal:J_EB.2"
+    ],
+    "component:J_OUT": [
+      "terminal:J_OUT.1",
+      "terminal:J_OUT.2"
+    ],
+    "component:J_PWR": [
+      "terminal:J_PWR.1",
+      "terminal:J_PWR.3",
+      "terminal:J_PWR.2"
+    ],
+    "component:J_R1": [
+      "terminal:J_R1.3",
+      "terminal:J_R1.1",
+      "terminal:J_R1.2"
+    ],
+    "component:J_R4": [
+      "terminal:J_R4.3",
+      "terminal:J_R4.1",
+      "terminal:J_R4.2"
+    ],
+    "component:J_RA": [
+      "terminal:J_RA.3",
+      "terminal:J_RA.1",
+      "terminal:J_RA.2"
+    ],
+    "component:R2": [
+      "terminal:R2.1",
+      "terminal:R2.2"
+    ],
+    "component:R3": [
+      "terminal:R3.1",
+      "terminal:R3.2"
+    ],
+    "component:RMIN1": [
+      "terminal:RMIN1.2",
+      "terminal:RMIN1.1"
+    ],
+    "component:RMIN4": [
+      "terminal:RMIN4.2",
+      "terminal:RMIN4.1"
+    ],
+    "component:TPA": [
+      "terminal:TPA.1"
+    ],
+    "component:TPB": [
+      "terminal:TPB.1"
+    ],
+    "component:TPC": [
+      "terminal:TPC.1"
+    ],
+    "component:TPO": [
+      "terminal:TPO.1"
+    ],
+    "component:U1": [
+      "terminal:U1.4",
+      "terminal:U1.3",
+      "terminal:U1.2",
+      "terminal:U1.1",
+      "terminal:U1.8",
+      "terminal:U1.7",
+      "terminal:U1.6",
+      "terminal:U1.5"
+    ],
+    "net:+9V": [
+      "terminal:C1.1",
+      "terminal:J_PWR.1"
+    ],
+    "net:-9V": [
+      "terminal:C2.1",
+      "terminal:J_PWR.3",
+      "terminal:U1.4"
+    ],
+    "net:EA": [
+      "terminal:U1.3",
+      "terminal:J_EA.1"
+    ],
+    "net:EB": [
+      "terminal:U1.5",
+      "terminal:J_EB.1"
+    ],
+    "net:EOUT": [
+      "terminal:U1.7",
+      "terminal:J_R4.3",
+      "terminal:J_OUT.1",
+      "terminal:TPO.1"
+    ],
+    "net:GND": [
+      "terminal:J_PWR.2",
+      "terminal:C2.2",
+      "terminal:J_EB.2",
+      "terminal:J_OUT.2",
+      "terminal:RMIN1.1",
+      "terminal:J_EA.2",
+      "terminal:C1.2"
+    ],
+    "net:NODE_A": [
+      "terminal:J_RA.1",
+      "terminal:R2.1",
+      "terminal:U1.2",
+      "terminal:J_R1.3",
+      "terminal:TPA.1"
+    ],
+    "net:NODE_B": [
+      "terminal:R2.2",
+      "terminal:R3.1",
+      "terminal:U1.1",
+      "terminal:TPB.1"
+    ],
+    "net:NODE_C": [
+      "terminal:RMIN4.1",
+      "terminal:R3.2",
+      "terminal:JP1.2",
+      "terminal:TPC.1"
+    ],
+    "net:R1_EXT": [
+      "terminal:J_R1.1",
+      "terminal:RMIN1.2"
+    ],
+    "net:R1_W": [
+      "terminal:J_R1.2"
+    ],
+    "net:R4_EXT": [
+      "terminal:J_R4.1",
+      "terminal:RMIN4.2"
+    ],
+    "net:R4_W": [
+      "terminal:J_R4.2"
+    ],
+    "net:RA_SW": [
+      "terminal:JP1.1",
+      "terminal:J_RA.3"
+    ],
+    "net:RA_W": [
+      "terminal:J_RA.2"
+    ],
+    "terminal:C1.1": [
+      "component:C1",
+      "net:+9V"
+    ],
+    "terminal:C1.2": [
+      "net:GND",
+      "component:C1"
+    ],
+    "terminal:C2.1": [
+      "component:C2",
+      "net:-9V"
+    ],
+    "terminal:C2.2": [
+      "net:GND",
+      "component:C2"
+    ],
+    "terminal:JP1.1": [
+      "component:JP1",
+      "net:RA_SW"
+    ],
+    "terminal:JP1.2": [
+      "net:NODE_C",
+      "component:JP1"
+    ],
+    "terminal:J_EA.1": [
+      "net:EA",
+      "component:J_EA"
+    ],
+    "terminal:J_EA.2": [
+      "component:J_EA",
+      "net:GND"
+    ],
+    "terminal:J_EB.1": [
+      "net:EB",
+      "component:J_EB"
+    ],
+    "terminal:J_EB.2": [
+      "component:J_EB",
+      "net:GND"
+    ],
+    "terminal:J_OUT.1": [
+      "net:EOUT",
+      "component:J_OUT"
+    ],
+    "terminal:J_OUT.2": [
+      "component:J_OUT",
+      "net:GND"
+    ],
+    "terminal:J_PWR.1": [
+      "net:+9V",
+      "terminal:J_PWR.3",
+      "component:J_PWR",
+      "terminal:J_PWR.2"
+    ],
+    "terminal:J_PWR.2": [
+      "component:J_PWR",
+      "terminal:J_PWR.3",
+      "net:GND",
+      "terminal:J_PWR.1"
+    ],
+    "terminal:J_PWR.3": [
+      "net:-9V",
+      "terminal:J_PWR.2",
+      "component:J_PWR",
+      "terminal:J_PWR.1"
+    ],
+    "terminal:J_R1.1": [
+      "component:J_R1",
+      "net:R1_EXT",
+      "terminal:J_R1.3",
+      "terminal:J_R1.2"
+    ],
+    "terminal:J_R1.2": [
+      "terminal:J_R1.1",
+      "terminal:J_R1.3",
+      "component:J_R1",
+      "net:R1_W"
+    ],
+    "terminal:J_R1.3": [
+      "net:NODE_A",
+      "component:J_R1",
+      "terminal:J_R1.2",
+      "terminal:J_R1.1"
+    ],
+    "terminal:J_R4.1": [
+      "component:J_R4",
+      "net:R4_EXT",
+      "terminal:J_R4.3",
+      "terminal:J_R4.2"
+    ],
+    "terminal:J_R4.2": [
+      "terminal:J_R4.1",
+      "terminal:J_R4.3",
+      "component:J_R4",
+      "net:R4_W"
+    ],
+    "terminal:J_R4.3": [
+      "net:EOUT",
+      "component:J_R4",
+      "terminal:J_R4.2",
+      "terminal:J_R4.1"
+    ],
+    "terminal:J_RA.1": [
+      "component:J_RA",
+      "net:NODE_A",
+      "terminal:J_RA.3",
+      "terminal:J_RA.2"
+    ],
+    "terminal:J_RA.2": [
+      "terminal:J_RA.1",
+      "terminal:J_RA.3",
+      "component:J_RA",
+      "net:RA_W"
+    ],
+    "terminal:J_RA.3": [
+      "net:RA_SW",
+      "component:J_RA",
+      "terminal:J_RA.2",
+      "terminal:J_RA.1"
+    ],
+    "terminal:R2.1": [
+      "net:NODE_A",
+      "component:R2"
+    ],
+    "terminal:R2.2": [
+      "component:R2",
+      "net:NODE_B"
+    ],
+    "terminal:R3.1": [
+      "net:NODE_B",
+      "component:R3"
+    ],
+    "terminal:R3.2": [
+      "component:R3",
+      "net:NODE_C"
+    ],
+    "terminal:RMIN1.1": [
+      "component:RMIN1",
+      "net:GND"
+    ],
+    "terminal:RMIN1.2": [
+      "net:R1_EXT",
+      "component:RMIN1"
+    ],
+    "terminal:RMIN4.1": [
+      "component:RMIN4",
+      "net:NODE_C"
+    ],
+    "terminal:RMIN4.2": [
+      "net:R4_EXT",
+      "component:RMIN4"
+    ],
+    "terminal:TPA.1": [
+      "net:NODE_A",
+      "component:TPA"
+    ],
+    "terminal:TPB.1": [
+      "net:NODE_B",
+      "component:TPB"
+    ],
+    "terminal:TPC.1": [
+      "net:NODE_C",
+      "component:TPC"
+    ],
+    "terminal:TPO.1": [
+      "net:EOUT",
+      "component:TPO"
+    ],
+    "terminal:U1.1": [
+      "net:NODE_B",
+      "terminal:U1.8",
+      "component:U1",
+      "terminal:U1.2"
+    ],
+    "terminal:U1.2": [
+      "terminal:U1.1",
+      "component:U1",
+      "terminal:U1.3",
+      "net:NODE_A"
+    ],
+    "terminal:U1.3": [
+      "terminal:U1.2",
+      "component:U1",
+      "terminal:U1.4",
+      "net:EA"
+    ],
+    "terminal:U1.4": [
+      "net:-9V",
+      "terminal:U1.3",
+      "component:U1",
+      "terminal:U1.5"
+    ],
+    "terminal:U1.5": [
+      "terminal:U1.6",
+      "net:EB",
+      "terminal:U1.4",
+      "component:U1"
+    ],
+    "terminal:U1.6": [
+      "terminal:U1.7",
+      "terminal:U1.5",
+      "component:U1"
+    ],
+    "terminal:U1.7": [
+      "terminal:U1.8",
+      "net:EOUT",
+      "terminal:U1.6",
+      "component:U1"
+    ],
+    "terminal:U1.8": [
+      "component:U1",
+      "terminal:U1.1",
+      "terminal:U1.7"
+    ]
+  },
+  "exemptions": [
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.6",
+        "net:NODE_C"
+      ],
+      "net": "NODE_C",
+      "pin": "6",
+      "terminal": "U1.6"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.8",
+        "net:+9V"
+      ],
+      "net": "+9V",
+      "pin": "8",
+      "terminal": "U1.8"
+    }
+  ],
+  "faces": [
+    [
+      "component:C1",
+      "terminal:C1.1",
+      "net:+9V",
+      "terminal:J_PWR.1",
+      "terminal:J_PWR.2",
+      "net:GND",
+      "terminal:C1.2"
+    ],
+    [
+      "component:C1",
+      "terminal:C1.2",
+      "net:GND",
+      "terminal:J_EA.2",
+      "component:J_EA",
+      "terminal:J_EA.1",
+      "net:EA",
+      "terminal:U1.3",
+      "terminal:U1.4",
+      "net:-9V",
+      "terminal:J_PWR.3",
+      "terminal:J_PWR.1",
+      "net:+9V",
+      "terminal:C1.1"
+    ],
+    [
+      "component:C2",
+      "terminal:C2.2",
+      "net:GND",
+      "terminal:J_PWR.2",
+      "terminal:J_PWR.3",
+      "net:-9V",
+      "terminal:C2.1"
+    ],
+    [
+      "component:C2",
+      "terminal:C2.1",
+      "net:-9V",
+      "terminal:U1.4",
+      "terminal:U1.5",
+      "net:EB",
+      "terminal:J_EB.1",
+      "component:J_EB",
+      "terminal:J_EB.2",
+      "net:GND",
+      "terminal:C2.2"
+    ],
+    [
+      "component:JP1",
+      "terminal:JP1.2",
+      "net:NODE_C",
+      "terminal:R3.2",
+      "component:R3",
+      "terminal:R3.1",
+      "net:NODE_B",
+      "terminal:R2.2",
+      "component:R2",
+      "terminal:R2.1",
+      "net:NODE_A",
+      "terminal:J_RA.1",
+      "component:J_RA",
+      "terminal:J_RA.3",
+      "net:RA_SW",
+      "terminal:JP1.1"
+    ],
+    [
+      "component:JP1",
+      "terminal:JP1.1",
+      "net:RA_SW",
+      "terminal:J_RA.3",
+      "terminal:J_RA.1",
+      "net:NODE_A",
+      "terminal:TPA.1",
+      "component:TPA",
+      "terminal:TPA.1",
+      "net:NODE_A",
+      "terminal:J_R1.3",
+      "terminal:J_R1.1",
+      "net:R1_EXT",
+      "terminal:RMIN1.2",
+      "component:RMIN1",
+      "terminal:RMIN1.1",
+      "net:GND",
+      "terminal:J_OUT.2",
+      "component:J_OUT",
+      "terminal:J_OUT.1",
+      "net:EOUT",
+      "terminal:J_R4.3",
+      "terminal:J_R4.1",
+      "net:R4_EXT",
+      "terminal:RMIN4.2",
+      "component:RMIN4",
+      "terminal:RMIN4.1",
+      "net:NODE_C",
+      "terminal:TPC.1",
+      "component:TPC",
+      "terminal:TPC.1",
+      "net:NODE_C",
+      "terminal:JP1.2"
+    ],
+    [
+      "component:J_EA",
+      "terminal:J_EA.2",
+      "net:GND",
+      "terminal:RMIN1.1",
+      "component:RMIN1",
+      "terminal:RMIN1.2",
+      "net:R1_EXT",
+      "terminal:J_R1.1",
+      "component:J_R1",
+      "terminal:J_R1.3",
+      "net:NODE_A",
+      "terminal:U1.2",
+      "terminal:U1.3",
+      "net:EA",
+      "terminal:J_EA.1"
+    ],
+    [
+      "component:J_EB",
+      "terminal:J_EB.1",
+      "net:EB",
+      "terminal:U1.5",
+      "terminal:U1.6",
+      "terminal:U1.7",
+      "net:EOUT",
+      "terminal:TPO.1",
+      "component:TPO",
+      "terminal:TPO.1",
+      "net:EOUT",
+      "terminal:J_OUT.1",
+      "component:J_OUT",
+      "terminal:J_OUT.2",
+      "net:GND",
+      "terminal:J_EB.2"
+    ],
+    [
+      "component:J_PWR",
+      "terminal:J_PWR.1",
+      "terminal:J_PWR.3"
+    ],
+    [
+      "component:J_PWR",
+      "terminal:J_PWR.3",
+      "terminal:J_PWR.2"
+    ],
+    [
+      "component:J_PWR",
+      "terminal:J_PWR.2",
+      "terminal:J_PWR.1"
+    ],
+    [
+      "component:J_R1",
+      "terminal:J_R1.1",
+      "terminal:J_R1.2",
+      "net:R1_W",
+      "terminal:J_R1.2"
+    ],
+    [
+      "component:J_R1",
+      "terminal:J_R1.2",
+      "terminal:J_R1.3"
+    ],
+    [
+      "component:J_R4",
+      "terminal:J_R4.3",
+      "net:EOUT",
+      "terminal:U1.7",
+      "terminal:U1.8",
+      "terminal:U1.1",
+      "net:NODE_B",
+      "terminal:R3.1",
+      "component:R3",
+      "terminal:R3.2",
+      "net:NODE_C",
+      "terminal:RMIN4.1",
+      "component:RMIN4",
+      "terminal:RMIN4.2",
+      "net:R4_EXT",
+      "terminal:J_R4.1"
+    ],
+    [
+      "component:J_R4",
+      "terminal:J_R4.1",
+      "terminal:J_R4.2",
+      "net:R4_W",
+      "terminal:J_R4.2"
+    ],
+    [
+      "component:J_R4",
+      "terminal:J_R4.2",
+      "terminal:J_R4.3"
+    ],
+    [
+      "component:J_RA",
+      "terminal:J_RA.1",
+      "terminal:J_RA.2",
+      "net:RA_W",
+      "terminal:J_RA.2"
+    ],
+    [
+      "component:J_RA",
+      "terminal:J_RA.2",
+      "terminal:J_RA.3"
+    ],
+    [
+      "component:R2",
+      "terminal:R2.2",
+      "net:NODE_B",
+      "terminal:TPB.1",
+      "component:TPB",
+      "terminal:TPB.1",
+      "net:NODE_B",
+      "terminal:U1.1",
+      "terminal:U1.2",
+      "net:NODE_A",
+      "terminal:R2.1"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.4",
+      "terminal:U1.3"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.3",
+      "terminal:U1.2"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.2",
+      "terminal:U1.1"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.1",
+      "terminal:U1.8"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.8",
+      "terminal:U1.7"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.7",
+      "terminal:U1.6"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.6",
+      "terminal:U1.5"
+    ],
+    [
+      "component:U1",
+      "terminal:U1.5",
+      "terminal:U1.4"
+    ],
+    [
+      "terminal:J_R1.1",
+      "terminal:J_R1.3",
+      "terminal:J_R1.2"
+    ],
+    [
+      "terminal:J_R4.1",
+      "terminal:J_R4.3",
+      "terminal:J_R4.2"
+    ],
+    [
+      "terminal:J_RA.1",
+      "terminal:J_RA.3",
+      "terminal:J_RA.2"
+    ]
+  ],
+  "graph": {
+    "edges": [
+      {
+        "role": "component_terminal_association",
+        "u": "component:C1",
+        "v": "terminal:C1.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:C1",
+        "v": "terminal:C1.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:C2",
+        "v": "terminal:C2.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:C2",
+        "v": "terminal:C2.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:JP1",
+        "v": "terminal:JP1.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:JP1",
+        "v": "terminal:JP1.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_EA",
+        "v": "terminal:J_EA.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_EA",
+        "v": "terminal:J_EA.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_EB",
+        "v": "terminal:J_EB.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_EB",
+        "v": "terminal:J_EB.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_OUT",
+        "v": "terminal:J_OUT.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_OUT",
+        "v": "terminal:J_OUT.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_PWR",
+        "v": "terminal:J_PWR.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_PWR",
+        "v": "terminal:J_PWR.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_PWR",
+        "v": "terminal:J_PWR.3"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_R1",
+        "v": "terminal:J_R1.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_R1",
+        "v": "terminal:J_R1.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_R1",
+        "v": "terminal:J_R1.3"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_R4",
+        "v": "terminal:J_R4.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_R4",
+        "v": "terminal:J_R4.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_R4",
+        "v": "terminal:J_R4.3"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_RA",
+        "v": "terminal:J_RA.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_RA",
+        "v": "terminal:J_RA.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:J_RA",
+        "v": "terminal:J_RA.3"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:R2",
+        "v": "terminal:R2.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:R2",
+        "v": "terminal:R2.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:R3",
+        "v": "terminal:R3.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:R3",
+        "v": "terminal:R3.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:RMIN1",
+        "v": "terminal:RMIN1.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:RMIN1",
+        "v": "terminal:RMIN1.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:RMIN4",
+        "v": "terminal:RMIN4.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:RMIN4",
+        "v": "terminal:RMIN4.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:TPA",
+        "v": "terminal:TPA.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:TPB",
+        "v": "terminal:TPB.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:TPC",
+        "v": "terminal:TPC.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:TPO",
+        "v": "terminal:TPO.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.1"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.2"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.3"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.4"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.5"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.6"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.7"
+      },
+      {
+        "role": "component_terminal_association",
+        "u": "component:U1",
+        "v": "terminal:U1.8"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:+9V",
+        "v": "terminal:C1.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:+9V",
+        "v": "terminal:J_PWR.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:-9V",
+        "v": "terminal:C2.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:-9V",
+        "v": "terminal:J_PWR.3"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:-9V",
+        "v": "terminal:U1.4"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EA",
+        "v": "terminal:J_EA.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EA",
+        "v": "terminal:U1.3"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EB",
+        "v": "terminal:J_EB.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EB",
+        "v": "terminal:U1.5"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EOUT",
+        "v": "terminal:J_OUT.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EOUT",
+        "v": "terminal:J_R4.3"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EOUT",
+        "v": "terminal:TPO.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:EOUT",
+        "v": "terminal:U1.7"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:GND",
+        "v": "terminal:C1.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:GND",
+        "v": "terminal:C2.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:GND",
+        "v": "terminal:J_EA.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:GND",
+        "v": "terminal:J_EB.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:GND",
+        "v": "terminal:J_OUT.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:GND",
+        "v": "terminal:J_PWR.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:GND",
+        "v": "terminal:RMIN1.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_A",
+        "v": "terminal:J_R1.3"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_A",
+        "v": "terminal:J_RA.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_A",
+        "v": "terminal:R2.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_A",
+        "v": "terminal:TPA.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_A",
+        "v": "terminal:U1.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_B",
+        "v": "terminal:R2.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_B",
+        "v": "terminal:R3.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_B",
+        "v": "terminal:TPB.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_B",
+        "v": "terminal:U1.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_C",
+        "v": "terminal:JP1.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_C",
+        "v": "terminal:R3.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_C",
+        "v": "terminal:RMIN4.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:NODE_C",
+        "v": "terminal:TPC.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:R1_EXT",
+        "v": "terminal:J_R1.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:R1_EXT",
+        "v": "terminal:RMIN1.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:R1_W",
+        "v": "terminal:J_R1.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:R4_EXT",
+        "v": "terminal:J_R4.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:R4_EXT",
+        "v": "terminal:RMIN4.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:R4_W",
+        "v": "terminal:J_R4.2"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:RA_SW",
+        "v": "terminal:JP1.1"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:RA_SW",
+        "v": "terminal:J_RA.3"
+      },
+      {
+        "role": "electrical_incidence",
+        "u": "net:RA_W",
+        "v": "terminal:J_RA.2"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_PWR.1",
+        "v": "terminal:J_PWR.2"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_PWR.1",
+        "v": "terminal:J_PWR.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_PWR.2",
+        "v": "terminal:J_PWR.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_R1.1",
+        "v": "terminal:J_R1.2"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_R1.1",
+        "v": "terminal:J_R1.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_R1.2",
+        "v": "terminal:J_R1.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_R4.1",
+        "v": "terminal:J_R4.2"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_R4.1",
+        "v": "terminal:J_R4.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_R4.2",
+        "v": "terminal:J_R4.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_RA.1",
+        "v": "terminal:J_RA.2"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_RA.1",
+        "v": "terminal:J_RA.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:J_RA.2",
+        "v": "terminal:J_RA.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.1",
+        "v": "terminal:U1.2"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.1",
+        "v": "terminal:U1.8"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.2",
+        "v": "terminal:U1.3"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.3",
+        "v": "terminal:U1.4"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.4",
+        "v": "terminal:U1.5"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.5",
+        "v": "terminal:U1.6"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.6",
+        "v": "terminal:U1.7"
+      },
+      {
+        "role": "fixed_component_perimeter_rim",
+        "u": "terminal:U1.7",
+        "v": "terminal:U1.8"
+      }
+    ],
+    "vertices": [
+      {
+        "id": "component:C1",
+        "kind": "component_core",
+        "name": "C1"
+      },
+      {
+        "id": "component:C2",
+        "kind": "component_core",
+        "name": "C2"
+      },
+      {
+        "id": "component:JP1",
+        "kind": "component_core",
+        "name": "JP1"
+      },
+      {
+        "id": "component:J_EA",
+        "kind": "component_core",
+        "name": "J_EA"
+      },
+      {
+        "id": "component:J_EB",
+        "kind": "component_core",
+        "name": "J_EB"
+      },
+      {
+        "id": "component:J_OUT",
+        "kind": "component_core",
+        "name": "J_OUT"
+      },
+      {
+        "id": "component:J_PWR",
+        "kind": "component_core",
+        "name": "J_PWR"
+      },
+      {
+        "id": "component:J_R1",
+        "kind": "component_core",
+        "name": "J_R1"
+      },
+      {
+        "id": "component:J_R4",
+        "kind": "component_core",
+        "name": "J_R4"
+      },
+      {
+        "id": "component:J_RA",
+        "kind": "component_core",
+        "name": "J_RA"
+      },
+      {
+        "id": "component:R2",
+        "kind": "component_core",
+        "name": "R2"
+      },
+      {
+        "id": "component:R3",
+        "kind": "component_core",
+        "name": "R3"
+      },
+      {
+        "id": "component:RMIN1",
+        "kind": "component_core",
+        "name": "RMIN1"
+      },
+      {
+        "id": "component:RMIN4",
+        "kind": "component_core",
+        "name": "RMIN4"
+      },
+      {
+        "id": "component:TPA",
+        "kind": "component_core",
+        "name": "TPA"
+      },
+      {
+        "id": "component:TPB",
+        "kind": "component_core",
+        "name": "TPB"
+      },
+      {
+        "id": "component:TPC",
+        "kind": "component_core",
+        "name": "TPC"
+      },
+      {
+        "id": "component:TPO",
+        "kind": "component_core",
+        "name": "TPO"
+      },
+      {
+        "id": "component:U1",
+        "kind": "component_core",
+        "name": "U1"
+      },
+      {
+        "id": "net:+9V",
+        "kind": "net_junction",
+        "name": "+9V"
+      },
+      {
+        "id": "net:-9V",
+        "kind": "net_junction",
+        "name": "-9V"
+      },
+      {
+        "id": "net:EA",
+        "kind": "net_junction",
+        "name": "EA"
+      },
+      {
+        "id": "net:EB",
+        "kind": "net_junction",
+        "name": "EB"
+      },
+      {
+        "id": "net:EOUT",
+        "kind": "net_junction",
+        "name": "EOUT"
+      },
+      {
+        "id": "net:GND",
+        "kind": "net_junction",
+        "name": "GND"
+      },
+      {
+        "id": "net:NODE_A",
+        "kind": "net_junction",
+        "name": "NODE_A"
+      },
+      {
+        "id": "net:NODE_B",
+        "kind": "net_junction",
+        "name": "NODE_B"
+      },
+      {
+        "id": "net:NODE_C",
+        "kind": "net_junction",
+        "name": "NODE_C"
+      },
+      {
+        "id": "net:R1_EXT",
+        "kind": "net_junction",
+        "name": "R1_EXT"
+      },
+      {
+        "id": "net:R1_W",
+        "kind": "net_junction",
+        "name": "R1_W"
+      },
+      {
+        "id": "net:R4_EXT",
+        "kind": "net_junction",
+        "name": "R4_EXT"
+      },
+      {
+        "id": "net:R4_W",
+        "kind": "net_junction",
+        "name": "R4_W"
+      },
+      {
+        "id": "net:RA_SW",
+        "kind": "net_junction",
+        "name": "RA_SW"
+      },
+      {
+        "id": "net:RA_W",
+        "kind": "net_junction",
+        "name": "RA_W"
+      },
+      {
+        "component": "C1",
+        "id": "terminal:C1.1",
+        "kind": "terminal",
+        "name": "C1.1",
+        "net": "+9V"
+      },
+      {
+        "component": "C1",
+        "id": "terminal:C1.2",
+        "kind": "terminal",
+        "name": "C1.2",
+        "net": "GND"
+      },
+      {
+        "component": "C2",
+        "id": "terminal:C2.1",
+        "kind": "terminal",
+        "name": "C2.1",
+        "net": "-9V"
+      },
+      {
+        "component": "C2",
+        "id": "terminal:C2.2",
+        "kind": "terminal",
+        "name": "C2.2",
+        "net": "GND"
+      },
+      {
+        "component": "JP1",
+        "id": "terminal:JP1.1",
+        "kind": "terminal",
+        "name": "JP1.1",
+        "net": "RA_SW"
+      },
+      {
+        "component": "JP1",
+        "id": "terminal:JP1.2",
+        "kind": "terminal",
+        "name": "JP1.2",
+        "net": "NODE_C"
+      },
+      {
+        "component": "J_EA",
+        "id": "terminal:J_EA.1",
+        "kind": "terminal",
+        "name": "J_EA.1",
+        "net": "EA"
+      },
+      {
+        "component": "J_EA",
+        "id": "terminal:J_EA.2",
+        "kind": "terminal",
+        "name": "J_EA.2",
+        "net": "GND"
+      },
+      {
+        "component": "J_EB",
+        "id": "terminal:J_EB.1",
+        "kind": "terminal",
+        "name": "J_EB.1",
+        "net": "EB"
+      },
+      {
+        "component": "J_EB",
+        "id": "terminal:J_EB.2",
+        "kind": "terminal",
+        "name": "J_EB.2",
+        "net": "GND"
+      },
+      {
+        "component": "J_OUT",
+        "id": "terminal:J_OUT.1",
+        "kind": "terminal",
+        "name": "J_OUT.1",
+        "net": "EOUT"
+      },
+      {
+        "component": "J_OUT",
+        "id": "terminal:J_OUT.2",
+        "kind": "terminal",
+        "name": "J_OUT.2",
+        "net": "GND"
+      },
+      {
+        "component": "J_PWR",
+        "id": "terminal:J_PWR.1",
+        "kind": "terminal",
+        "name": "J_PWR.1",
+        "net": "+9V"
+      },
+      {
+        "component": "J_PWR",
+        "id": "terminal:J_PWR.2",
+        "kind": "terminal",
+        "name": "J_PWR.2",
+        "net": "GND"
+      },
+      {
+        "component": "J_PWR",
+        "id": "terminal:J_PWR.3",
+        "kind": "terminal",
+        "name": "J_PWR.3",
+        "net": "-9V"
+      },
+      {
+        "component": "J_R1",
+        "id": "terminal:J_R1.1",
+        "kind": "terminal",
+        "name": "J_R1.1",
+        "net": "R1_EXT"
+      },
+      {
+        "component": "J_R1",
+        "id": "terminal:J_R1.2",
+        "kind": "terminal",
+        "name": "J_R1.2",
+        "net": "R1_W"
+      },
+      {
+        "component": "J_R1",
+        "id": "terminal:J_R1.3",
+        "kind": "terminal",
+        "name": "J_R1.3",
+        "net": "NODE_A"
+      },
+      {
+        "component": "J_R4",
+        "id": "terminal:J_R4.1",
+        "kind": "terminal",
+        "name": "J_R4.1",
+        "net": "R4_EXT"
+      },
+      {
+        "component": "J_R4",
+        "id": "terminal:J_R4.2",
+        "kind": "terminal",
+        "name": "J_R4.2",
+        "net": "R4_W"
+      },
+      {
+        "component": "J_R4",
+        "id": "terminal:J_R4.3",
+        "kind": "terminal",
+        "name": "J_R4.3",
+        "net": "EOUT"
+      },
+      {
+        "component": "J_RA",
+        "id": "terminal:J_RA.1",
+        "kind": "terminal",
+        "name": "J_RA.1",
+        "net": "NODE_A"
+      },
+      {
+        "component": "J_RA",
+        "id": "terminal:J_RA.2",
+        "kind": "terminal",
+        "name": "J_RA.2",
+        "net": "RA_W"
+      },
+      {
+        "component": "J_RA",
+        "id": "terminal:J_RA.3",
+        "kind": "terminal",
+        "name": "J_RA.3",
+        "net": "RA_SW"
+      },
+      {
+        "component": "R2",
+        "id": "terminal:R2.1",
+        "kind": "terminal",
+        "name": "R2.1",
+        "net": "NODE_A"
+      },
+      {
+        "component": "R2",
+        "id": "terminal:R2.2",
+        "kind": "terminal",
+        "name": "R2.2",
+        "net": "NODE_B"
+      },
+      {
+        "component": "R3",
+        "id": "terminal:R3.1",
+        "kind": "terminal",
+        "name": "R3.1",
+        "net": "NODE_B"
+      },
+      {
+        "component": "R3",
+        "id": "terminal:R3.2",
+        "kind": "terminal",
+        "name": "R3.2",
+        "net": "NODE_C"
+      },
+      {
+        "component": "RMIN1",
+        "id": "terminal:RMIN1.1",
+        "kind": "terminal",
+        "name": "RMIN1.1",
+        "net": "GND"
+      },
+      {
+        "component": "RMIN1",
+        "id": "terminal:RMIN1.2",
+        "kind": "terminal",
+        "name": "RMIN1.2",
+        "net": "R1_EXT"
+      },
+      {
+        "component": "RMIN4",
+        "id": "terminal:RMIN4.1",
+        "kind": "terminal",
+        "name": "RMIN4.1",
+        "net": "NODE_C"
+      },
+      {
+        "component": "RMIN4",
+        "id": "terminal:RMIN4.2",
+        "kind": "terminal",
+        "name": "RMIN4.2",
+        "net": "R4_EXT"
+      },
+      {
+        "component": "TPA",
+        "id": "terminal:TPA.1",
+        "kind": "terminal",
+        "name": "TPA.1",
+        "net": "NODE_A"
+      },
+      {
+        "component": "TPB",
+        "id": "terminal:TPB.1",
+        "kind": "terminal",
+        "name": "TPB.1",
+        "net": "NODE_B"
+      },
+      {
+        "component": "TPC",
+        "id": "terminal:TPC.1",
+        "kind": "terminal",
+        "name": "TPC.1",
+        "net": "NODE_C"
+      },
+      {
+        "component": "TPO",
+        "id": "terminal:TPO.1",
+        "kind": "terminal",
+        "name": "TPO.1",
+        "net": "EOUT"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.1",
+        "kind": "terminal",
+        "name": "U1.1",
+        "net": "NODE_B"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.2",
+        "kind": "terminal",
+        "name": "U1.2",
+        "net": "NODE_A"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.3",
+        "kind": "terminal",
+        "name": "U1.3",
+        "net": "EA"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.4",
+        "kind": "terminal",
+        "name": "U1.4",
+        "net": "-9V"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.5",
+        "kind": "terminal",
+        "name": "U1.5",
+        "net": "EB"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.6",
+        "kind": "terminal",
+        "name": "U1.6",
+        "net": "NODE_C"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.7",
+        "kind": "terminal",
+        "name": "U1.7",
+        "net": "EOUT"
+      },
+      {
+        "component": "U1",
+        "id": "terminal:U1.8",
+        "kind": "terminal",
+        "name": "U1.8",
+        "net": "+9V"
+      }
+    ]
+  },
+  "representation": "4Q SET003",
+  "set_id": "SET003",
+  "solution_verification": {
+    "all_component_spokes_retained": true,
+    "all_nonexempt_electrical_incidences_retained": true,
+    "all_rim_edges_retained": true,
+    "electrical_source_connectivity_unchanged": true,
+    "embedding_verified": true,
+    "no_exempt_incidence_remains": true,
+    "same_expected_remaining_edge_set": true,
+    "same_expected_vertex_set": true
+  },
+  "verification": {
+    "embedding_structure_valid": true,
+    "euler_characteristic": 2,
+    "euler_verified": true,
+    "face_count": 30,
+    "required_euler_characteristic": 2,
+    "same_edge_set": true,
+    "same_vertex_set": true,
+    "verified": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "coordinate_sha256": "ec200c6e120ad91673cfd2271d552d9d5baa332e0452ed560afe9cd073bd8ec5",
+  "source_verification": {
+    "frozen_4c": {
+      "clearance_violations": 2,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 52.64625,
+        "crossing": 46000.0,
+        "crowding": 795.164246,
+        "length": 13675.09927,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60522.909766,
+      "total_connection_length": 4883.300431
+    },
+    "stored": {
+      "clearance_violations": 2,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 52.64626,
+        "crossing": 46000.0,
+        "crowding": 795.164242,
+        "length": 13675.099274,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60522.909775,
+      "total_connection_length": 4883.300432
+    }
+  },
+  "states": {
+    "experiment_4c_initial": {
+      "clearance_violations": 2,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 52.64625,
+        "crossing": 46000.0,
+        "crowding": 795.164246,
+        "length": 13675.09927,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60522.909766,
+      "total_connection_length": 4883.300431
+    },
+    "experiment_4e_horizontal_preprocessed": {
+      "clearance_violations": 11,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 38402.267447,
+        "crossing": 22000.0,
+        "crowding": 984.876769,
+        "length": 10428.327338,
+        "overlap": 0.0
+      },
+      "net_crossings": 11,
+      "objective": 71815.471554,
+      "total_connection_length": 3989.134386
+    },
+    "experiment_4f_hv_preprocessed": {
+      "clearance_violations": 20,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 71470.379755,
+        "crossing": 18000.0,
+        "crowding": 1152.79161,
+        "length": 4698.272142,
+        "overlap": 0.0
+      },
+      "net_crossings": 9,
+      "objective": 95321.443507,
+      "total_connection_length": 2692.045872
+    }
+  },
+  "summary": {
+    "converged": true,
+    "crossing_reducing_moves": 9,
+    "horizontal_passes": 4,
+    "horizontal_slides": 140,
+    "horizontal_swaps": 1,
+    "maximum_axis_passes": 20,
+    "stopping_reason": "latest horizontal and vertical passes both accepted zero moves",
+    "total_preprocessing_moves": 327,
+    "vertical_passes": 3,
+    "vertical_slides": 185,
+    "vertical_swaps": 1
+  }
+}

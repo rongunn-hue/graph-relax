@@ -1,0 +1,755 @@
+{
+  "direction_order": [
+    "-X",
+    "+X",
+    "-Y",
+    "+Y"
+  ],
+  "moves": [
+    {
+      "connection_length_after": 3097.6963,
+      "connection_length_before": 3098.097778,
+      "crossings_after": 7,
+      "crossings_before": 7,
+      "direction": "-X",
+      "move_number": 1,
+      "net": "NODE_B",
+      "new_xy": [
+        -145.422156,
+        -40.029164
+      ],
+      "old_xy": [
+        -73.422156,
+        -40.029164
+      ],
+      "reduced_crossings": false,
+      "step": 72.0
+    },
+    {
+      "connection_length_after": 3168.91764,
+      "connection_length_before": 3097.6963,
+      "crossings_after": 6,
+      "crossings_before": 7,
+      "direction": "-X",
+      "move_number": 2,
+      "net": "NODE_B",
+      "new_xy": [
+        -181.422156,
+        -40.029164
+      ],
+      "old_xy": [
+        -145.422156,
+        -40.029164
+      ],
+      "reduced_crossings": true,
+      "step": 36.0
+    },
+    {
+      "connection_length_after": 3135.651999,
+      "connection_length_before": 3168.91764,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 3,
+      "net": "GND",
+      "new_xy": [
+        -211.302194,
+        77.866662
+      ],
+      "old_xy": [
+        -211.302194,
+        113.866662
+      ],
+      "reduced_crossings": false,
+      "step": 36.0
+    },
+    {
+      "connection_length_after": 3121.40664,
+      "connection_length_before": 3135.651999,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 4,
+      "net": "NODE_A",
+      "new_xy": [
+        -27.703721,
+        -64.386267
+      ],
+      "old_xy": [
+        -63.703721,
+        -64.386267
+      ],
+      "reduced_crossings": false,
+      "step": 36.0
+    },
+    {
+      "connection_length_after": 3113.270118,
+      "connection_length_before": 3121.40664,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 5,
+      "net": "EOUT",
+      "new_xy": [
+        -122.07753,
+        167.828635
+      ],
+      "old_xy": [
+        -104.07753,
+        167.828635
+      ],
+      "reduced_crossings": false,
+      "step": 18.0
+    },
+    {
+      "connection_length_after": 3111.592318,
+      "connection_length_before": 3113.270118,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 6,
+      "net": "EOUT",
+      "new_xy": [
+        -122.07753,
+        149.828635
+      ],
+      "old_xy": [
+        -122.07753,
+        167.828635
+      ],
+      "reduced_crossings": false,
+      "step": 18.0
+    },
+    {
+      "connection_length_after": 3111.489696,
+      "connection_length_before": 3111.592318,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+Y",
+      "move_number": 7,
+      "net": "-9V",
+      "new_xy": [
+        -138.777401,
+        147.006002
+      ],
+      "old_xy": [
+        -138.777401,
+        129.006002
+      ],
+      "reduced_crossings": false,
+      "step": 18.0
+    },
+    {
+      "connection_length_after": 3109.918335,
+      "connection_length_before": 3111.489696,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 8,
+      "net": "-9V",
+      "new_xy": [
+        -156.777401,
+        147.006002
+      ],
+      "old_xy": [
+        -138.777401,
+        147.006002
+      ],
+      "reduced_crossings": false,
+      "step": 18.0
+    },
+    {
+      "connection_length_after": 3080.611564,
+      "connection_length_before": 3109.918335,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 9,
+      "net": "NODE_B",
+      "new_xy": [
+        -172.422156,
+        -40.029164
+      ],
+      "old_xy": [
+        -181.422156,
+        -40.029164
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3075.821091,
+      "connection_length_before": 3080.611564,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 10,
+      "net": "GND",
+      "new_xy": [
+        -220.302194,
+        77.866662
+      ],
+      "old_xy": [
+        -211.302194,
+        77.866662
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3072.624164,
+      "connection_length_before": 3075.821091,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+Y",
+      "move_number": 11,
+      "net": "EOUT",
+      "new_xy": [
+        -122.07753,
+        158.828635
+      ],
+      "old_xy": [
+        -122.07753,
+        149.828635
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3069.715943,
+      "connection_length_before": 3072.624164,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 12,
+      "net": "NODE_C",
+      "new_xy": [
+        -28.699789,
+        29.223093
+      ],
+      "old_xy": [
+        -28.699789,
+        38.223093
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3067.932845,
+      "connection_length_before": 3069.715943,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 13,
+      "net": "NODE_A",
+      "new_xy": [
+        -27.703721,
+        -73.386267
+      ],
+      "old_xy": [
+        -27.703721,
+        -64.386267
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3067.657629,
+      "connection_length_before": 3067.932845,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 14,
+      "net": "-9V",
+      "new_xy": [
+        -147.777401,
+        147.006002
+      ],
+      "old_xy": [
+        -156.777401,
+        147.006002
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3066.834345,
+      "connection_length_before": 3067.657629,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 15,
+      "net": "-9V",
+      "new_xy": [
+        -147.777401,
+        138.006002
+      ],
+      "old_xy": [
+        -147.777401,
+        147.006002
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3066.567288,
+      "connection_length_before": 3066.834345,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 16,
+      "net": "NODE_A",
+      "new_xy": [
+        -18.703721,
+        -73.386267
+      ],
+      "old_xy": [
+        -27.703721,
+        -73.386267
+      ],
+      "reduced_crossings": false,
+      "step": 9.0
+    },
+    {
+      "connection_length_after": 3052.283993,
+      "connection_length_before": 3066.567288,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 17,
+      "net": "NODE_B",
+      "new_xy": [
+        -167.922156,
+        -40.029164
+      ],
+      "old_xy": [
+        -172.422156,
+        -40.029164
+      ],
+      "reduced_crossings": false,
+      "step": 4.5
+    },
+    {
+      "connection_length_after": 3049.011758,
+      "connection_length_before": 3052.283993,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 18,
+      "net": "NODE_C",
+      "new_xy": [
+        -24.199789,
+        29.223093
+      ],
+      "old_xy": [
+        -28.699789,
+        29.223093
+      ],
+      "reduced_crossings": false,
+      "step": 4.5
+    },
+    {
+      "connection_length_after": 3047.751505,
+      "connection_length_before": 3049.011758,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 19,
+      "net": "EOUT",
+      "new_xy": [
+        -126.57753,
+        158.828635
+      ],
+      "old_xy": [
+        -122.07753,
+        158.828635
+      ],
+      "reduced_crossings": false,
+      "step": 4.5
+    },
+    {
+      "connection_length_after": 3047.64395,
+      "connection_length_before": 3047.751505,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 20,
+      "net": "NODE_A",
+      "new_xy": [
+        -23.203721,
+        -73.386267
+      ],
+      "old_xy": [
+        -18.703721,
+        -73.386267
+      ],
+      "reduced_crossings": false,
+      "step": 4.5
+    },
+    {
+      "connection_length_after": 3040.603538,
+      "connection_length_before": 3047.64395,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 21,
+      "net": "NODE_B",
+      "new_xy": [
+        -165.672156,
+        -40.029164
+      ],
+      "old_xy": [
+        -167.922156,
+        -40.029164
+      ],
+      "reduced_crossings": false,
+      "step": 2.25
+    },
+    {
+      "connection_length_after": 3039.738386,
+      "connection_length_before": 3040.603538,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 22,
+      "net": "EOUT",
+      "new_xy": [
+        -126.57753,
+        156.578635
+      ],
+      "old_xy": [
+        -126.57753,
+        158.828635
+      ],
+      "reduced_crossings": false,
+      "step": 2.25
+    },
+    {
+      "connection_length_after": 3039.0555,
+      "connection_length_before": 3039.738386,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 23,
+      "net": "GND",
+      "new_xy": [
+        -218.052194,
+        77.866662
+      ],
+      "old_xy": [
+        -220.302194,
+        77.866662
+      ],
+      "reduced_crossings": false,
+      "step": 2.25
+    },
+    {
+      "connection_length_after": 3038.83046,
+      "connection_length_before": 3039.0555,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+Y",
+      "move_number": 24,
+      "net": "NODE_A",
+      "new_xy": [
+        -23.203721,
+        -71.136267
+      ],
+      "old_xy": [
+        -23.203721,
+        -73.386267
+      ],
+      "reduced_crossings": false,
+      "step": 2.25
+    },
+    {
+      "connection_length_after": 3038.726201,
+      "connection_length_before": 3038.83046,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 25,
+      "net": "+9V",
+      "new_xy": [
+        -160.950764,
+        56.272721
+      ],
+      "old_xy": [
+        -160.950764,
+        58.522721
+      ],
+      "reduced_crossings": false,
+      "step": 2.25
+    },
+    {
+      "connection_length_after": 3038.720786,
+      "connection_length_before": 3038.726201,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 26,
+      "net": "+9V",
+      "new_xy": [
+        -158.700764,
+        56.272721
+      ],
+      "old_xy": [
+        -160.950764,
+        56.272721
+      ],
+      "reduced_crossings": false,
+      "step": 2.25
+    },
+    {
+      "connection_length_after": 3036.230228,
+      "connection_length_before": 3038.720786,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 27,
+      "net": "NODE_B",
+      "new_xy": [
+        -164.547156,
+        -40.029164
+      ],
+      "old_xy": [
+        -165.672156,
+        -40.029164
+      ],
+      "reduced_crossings": false,
+      "step": 1.125
+    },
+    {
+      "connection_length_after": 3035.656876,
+      "connection_length_before": 3036.230228,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 28,
+      "net": "NODE_C",
+      "new_xy": [
+        -23.074789,
+        29.223093
+      ],
+      "old_xy": [
+        -24.199789,
+        29.223093
+      ],
+      "reduced_crossings": false,
+      "step": 1.125
+    },
+    {
+      "connection_length_after": 3035.453528,
+      "connection_length_before": 3035.656876,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 29,
+      "net": "GND",
+      "new_xy": [
+        -218.052194,
+        76.741662
+      ],
+      "old_xy": [
+        -218.052194,
+        77.866662
+      ],
+      "reduced_crossings": false,
+      "step": 1.125
+    },
+    {
+      "connection_length_after": 3034.655742,
+      "connection_length_before": 3035.453528,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 30,
+      "net": "GND",
+      "new_xy": [
+        -219.177194,
+        76.741662
+      ],
+      "old_xy": [
+        -218.052194,
+        76.741662
+      ],
+      "reduced_crossings": false,
+      "step": 1.125
+    },
+    {
+      "connection_length_after": 3034.627906,
+      "connection_length_before": 3034.655742,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 31,
+      "net": "+9V",
+      "new_xy": [
+        -159.825764,
+        56.272721
+      ],
+      "old_xy": [
+        -158.700764,
+        56.272721
+      ],
+      "reduced_crossings": false,
+      "step": 1.125
+    },
+    {
+      "connection_length_after": 3034.591349,
+      "connection_length_before": 3034.627906,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 32,
+      "net": "EOUT",
+      "new_xy": [
+        -126.57753,
+        156.016135
+      ],
+      "old_xy": [
+        -126.57753,
+        156.578635
+      ],
+      "reduced_crossings": false,
+      "step": 0.5625
+    },
+    {
+      "connection_length_after": 3034.584787,
+      "connection_length_before": 3034.591349,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 33,
+      "net": "NODE_A",
+      "new_xy": [
+        -23.203721,
+        -71.698767
+      ],
+      "old_xy": [
+        -23.203721,
+        -71.136267
+      ],
+      "reduced_crossings": false,
+      "step": 0.5625
+    },
+    {
+      "connection_length_after": 3034.580505,
+      "connection_length_before": 3034.584787,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 34,
+      "net": "NODE_A",
+      "new_xy": [
+        -22.641221,
+        -71.698767
+      ],
+      "old_xy": [
+        -23.203721,
+        -71.698767
+      ],
+      "reduced_crossings": false,
+      "step": 0.5625
+    },
+    {
+      "connection_length_after": 3034.580401,
+      "connection_length_before": 3034.580505,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+Y",
+      "move_number": 35,
+      "net": "+9V",
+      "new_xy": [
+        -159.825764,
+        56.835221
+      ],
+      "old_xy": [
+        -159.825764,
+        56.272721
+      ],
+      "reduced_crossings": false,
+      "step": 0.5625
+    },
+    {
+      "connection_length_after": 3034.471997,
+      "connection_length_before": 3034.580401,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-X",
+      "move_number": 36,
+      "net": "EOUT",
+      "new_xy": [
+        -126.85878,
+        156.016135
+      ],
+      "old_xy": [
+        -126.57753,
+        156.016135
+      ],
+      "reduced_crossings": false,
+      "step": 0.28125
+    },
+    {
+      "connection_length_after": 3034.442972,
+      "connection_length_before": 3034.471997,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "+X",
+      "move_number": 37,
+      "net": "NODE_C",
+      "new_xy": [
+        -22.793539,
+        29.223093
+      ],
+      "old_xy": [
+        -23.074789,
+        29.223093
+      ],
+      "reduced_crossings": false,
+      "step": 0.28125
+    },
+    {
+      "connection_length_after": 3034.349258,
+      "connection_length_before": 3034.442972,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 38,
+      "net": "NODE_C",
+      "new_xy": [
+        -22.793539,
+        28.941843
+      ],
+      "old_xy": [
+        -22.793539,
+        29.223093
+      ],
+      "reduced_crossings": false,
+      "step": 0.28125
+    },
+    {
+      "connection_length_after": 3034.347082,
+      "connection_length_before": 3034.349258,
+      "crossings_after": 6,
+      "crossings_before": 6,
+      "direction": "-Y",
+      "move_number": 39,
+      "net": "+9V",
+      "new_xy": [
+        -159.825764,
+        56.553971
+      ],
+      "old_xy": [
+        -159.825764,
+        56.835221
+      ],
+      "reduced_crossings": false,
+      "step": 0.28125
+    }
+  ],
+  "preprocessing_objective": [
+    "net_crossings",
+    "total_connection_length"
+  ]
+}

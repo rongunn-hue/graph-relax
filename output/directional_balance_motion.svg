@@ -1,0 +1,2256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100.000000 -100.000000 3336.000000 1292.000000">
+<rect x="-100.000000" y="-100.000000" width="3336.000000" height="1292.000000" fill="white"/>
+<title>Directional centroid balancing sweep</title>
+<style>
+@keyframes d0 {0%,0.0000000%{opacity:0} 0.0000000%,4.0000000%{opacity:1} 4.0000000%,100%{opacity:0}}
+#d0{opacity:0;animation:d0 2.50s steps(1,end) infinite}
+@keyframes d1 {0%,4.0000000%{opacity:0} 4.0000000%,8.0000000%{opacity:1} 8.0000000%,100%{opacity:0}}
+#d1{opacity:0;animation:d1 2.50s steps(1,end) infinite}
+@keyframes d2 {0%,8.0000000%{opacity:0} 8.0000000%,12.0000000%{opacity:1} 12.0000000%,100%{opacity:0}}
+#d2{opacity:0;animation:d2 2.50s steps(1,end) infinite}
+@keyframes d3 {0%,12.0000000%{opacity:0} 12.0000000%,16.0000000%{opacity:1} 16.0000000%,100%{opacity:0}}
+#d3{opacity:0;animation:d3 2.50s steps(1,end) infinite}
+@keyframes d4 {0%,16.0000000%{opacity:0} 16.0000000%,20.0000000%{opacity:1} 20.0000000%,100%{opacity:0}}
+#d4{opacity:0;animation:d4 2.50s steps(1,end) infinite}
+@keyframes d5 {0%,20.0000000%{opacity:0} 20.0000000%,24.0000000%{opacity:1} 24.0000000%,100%{opacity:0}}
+#d5{opacity:0;animation:d5 2.50s steps(1,end) infinite}
+@keyframes d6 {0%,24.0000000%{opacity:0} 24.0000000%,28.0000000%{opacity:1} 28.0000000%,100%{opacity:0}}
+#d6{opacity:0;animation:d6 2.50s steps(1,end) infinite}
+@keyframes d7 {0%,28.0000000%{opacity:0} 28.0000000%,32.0000000%{opacity:1} 32.0000000%,100%{opacity:0}}
+#d7{opacity:0;animation:d7 2.50s steps(1,end) infinite}
+@keyframes d8 {0%,32.0000000%{opacity:0} 32.0000000%,36.0000000%{opacity:1} 36.0000000%,100%{opacity:0}}
+#d8{opacity:0;animation:d8 2.50s steps(1,end) infinite}
+@keyframes d9 {0%,36.0000000%{opacity:0} 36.0000000%,40.0000000%{opacity:1} 40.0000000%,100%{opacity:0}}
+#d9{opacity:0;animation:d9 2.50s steps(1,end) infinite}
+@keyframes d10 {0%,40.0000000%{opacity:0} 40.0000000%,44.0000000%{opacity:1} 44.0000000%,100%{opacity:0}}
+#d10{opacity:0;animation:d10 2.50s steps(1,end) infinite}
+@keyframes d11 {0%,44.0000000%{opacity:0} 44.0000000%,48.0000000%{opacity:1} 48.0000000%,100%{opacity:0}}
+#d11{opacity:0;animation:d11 2.50s steps(1,end) infinite}
+@keyframes d12 {0%,48.0000000%{opacity:0} 48.0000000%,52.0000000%{opacity:1} 52.0000000%,100%{opacity:0}}
+#d12{opacity:0;animation:d12 2.50s steps(1,end) infinite}
+@keyframes d13 {0%,52.0000000%{opacity:0} 52.0000000%,56.0000000%{opacity:1} 56.0000000%,100%{opacity:0}}
+#d13{opacity:0;animation:d13 2.50s steps(1,end) infinite}
+@keyframes d14 {0%,56.0000000%{opacity:0} 56.0000000%,60.0000000%{opacity:1} 60.0000000%,100%{opacity:0}}
+#d14{opacity:0;animation:d14 2.50s steps(1,end) infinite}
+@keyframes d15 {0%,60.0000000%{opacity:0} 60.0000000%,64.0000000%{opacity:1} 64.0000000%,100%{opacity:0}}
+#d15{opacity:0;animation:d15 2.50s steps(1,end) infinite}
+@keyframes d16 {0%,64.0000000%{opacity:0} 64.0000000%,68.0000000%{opacity:1} 68.0000000%,100%{opacity:0}}
+#d16{opacity:0;animation:d16 2.50s steps(1,end) infinite}
+@keyframes d17 {0%,68.0000000%{opacity:0} 68.0000000%,72.0000000%{opacity:1} 72.0000000%,100%{opacity:0}}
+#d17{opacity:0;animation:d17 2.50s steps(1,end) infinite}
+@keyframes d18 {0%,72.0000000%{opacity:0} 72.0000000%,76.0000000%{opacity:1} 76.0000000%,100%{opacity:0}}
+#d18{opacity:0;animation:d18 2.50s steps(1,end) infinite}
+@keyframes d19 {0%,76.0000000%{opacity:0} 76.0000000%,80.0000000%{opacity:1} 80.0000000%,100%{opacity:0}}
+#d19{opacity:0;animation:d19 2.50s steps(1,end) infinite}
+@keyframes d20 {0%,80.0000000%{opacity:0} 80.0000000%,84.0000000%{opacity:1} 84.0000000%,100%{opacity:0}}
+#d20{opacity:0;animation:d20 2.50s steps(1,end) infinite}
+@keyframes d21 {0%,84.0000000%{opacity:0} 84.0000000%,88.0000000%{opacity:1} 88.0000000%,100%{opacity:0}}
+#d21{opacity:0;animation:d21 2.50s steps(1,end) infinite}
+@keyframes d22 {0%,88.0000000%{opacity:0} 88.0000000%,92.0000000%{opacity:1} 92.0000000%,100%{opacity:0}}
+#d22{opacity:0;animation:d22 2.50s steps(1,end) infinite}
+@keyframes d23 {0%,92.0000000%{opacity:0} 92.0000000%,96.0000000%{opacity:1} 96.0000000%,100%{opacity:0}}
+#d23{opacity:0;animation:d23 2.50s steps(1,end) infinite}
+@keyframes d24 {0%,96.0000000%{opacity:0} 96.0000000%,100.0000000%{opacity:1} 100.0000000%,100%{opacity:0}}
+#d24{opacity:0;animation:d24 2.50s steps(1,end) infinite}
+</style>
+<g id="d0">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=1.000000</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2842.000000" y1="52.000000" x2="882.000000" y2="208.000000"/>
+<line x1="2842.000000" y1="52.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="3038.000000" y2="104.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2940.000000" y2="156.000000"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="3136.000000" y1="0.000000" x2="0.000000" y2="0.000000"/>
+<line x1="3136.000000" y1="0.000000" x2="3038.000000" y2="104.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2842.000000" cy="52.000000" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="3136.000000" cy="0.000000" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="3038.000000" cy="104.000000" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2940.000000" cy="156.000000" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d1">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.976290</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2807.897352" y1="64.293188" x2="882.000000" y2="208.000000"/>
+<line x1="2807.897352" y1="64.293188" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2999.250098" y2="115.060243"/>
+<line x1="2450.000000" y1="728.000000" x2="2903.573725" y2="165.827298"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="3094.926471" y1="13.526133" x2="0.000000" y2="0.000000"/>
+<line x1="3094.926471" y1="13.526133" x2="2999.250098" y2="115.060243"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2807.897352" cy="64.293188" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="3094.926471" cy="13.526133" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2999.250098" cy="115.060243" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2903.573725" cy="165.827298" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d2">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.952579</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2773.794705" y1="76.586376" x2="882.000000" y2="208.000000"/>
+<line x1="2773.794705" y1="76.586376" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2960.500196" y2="126.120485"/>
+<line x1="2450.000000" y1="728.000000" x2="2867.147450" y2="175.654595"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="3053.852941" y1="27.052266" x2="0.000000" y2="0.000000"/>
+<line x1="3053.852941" y1="27.052266" x2="2960.500196" y2="126.120485"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2773.794705" cy="76.586376" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="3053.852941" cy="27.052266" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2960.500196" cy="126.120485" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2867.147450" cy="175.654595" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d3">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.928869</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2739.692057" y1="88.879563" x2="882.000000" y2="208.000000"/>
+<line x1="2739.692057" y1="88.879563" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2921.750294" y2="137.180728"/>
+<line x1="2450.000000" y1="728.000000" x2="2830.721175" y2="185.481893"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="3012.779412" y1="40.578399" x2="0.000000" y2="0.000000"/>
+<line x1="3012.779412" y1="40.578399" x2="2921.750294" y2="137.180728"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2739.692057" cy="88.879563" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="3012.779412" cy="40.578399" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2921.750294" cy="137.180728" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2830.721175" cy="185.481893" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d4">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.905158</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2705.589410" y1="101.172751" x2="882.000000" y2="208.000000"/>
+<line x1="2705.589410" y1="101.172751" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2883.000392" y2="148.240971"/>
+<line x1="2450.000000" y1="728.000000" x2="2794.294901" y2="195.309191"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2971.705882" y1="54.104532" x2="0.000000" y2="0.000000"/>
+<line x1="2971.705882" y1="54.104532" x2="2883.000392" y2="148.240971"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2705.589410" cy="101.172751" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2971.705882" cy="54.104532" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2883.000392" cy="148.240971" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2794.294901" cy="195.309191" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d5">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.881448</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2671.486762" y1="113.465939" x2="882.000000" y2="208.000000"/>
+<line x1="2671.486762" y1="113.465939" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2844.250489" y2="159.301214"/>
+<line x1="2450.000000" y1="728.000000" x2="2757.868626" y2="205.136488"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2930.632353" y1="67.630665" x2="0.000000" y2="0.000000"/>
+<line x1="2930.632353" y1="67.630665" x2="2844.250489" y2="159.301214"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2671.486762" cy="113.465939" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2930.632353" cy="67.630665" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2844.250489" cy="159.301214" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2757.868626" cy="205.136488" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d6">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.857737</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2637.384115" y1="125.759127" x2="882.000000" y2="208.000000"/>
+<line x1="2637.384115" y1="125.759127" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2805.500587" y2="170.361456"/>
+<line x1="2450.000000" y1="728.000000" x2="2721.442351" y2="214.963786"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2889.558824" y1="81.156797" x2="0.000000" y2="0.000000"/>
+<line x1="2889.558824" y1="81.156797" x2="2805.500587" y2="170.361456"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2637.384115" cy="125.759127" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2889.558824" cy="81.156797" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2805.500587" cy="170.361456" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2721.442351" cy="214.963786" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d7">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.834027</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2603.281467" y1="138.052315" x2="882.000000" y2="208.000000"/>
+<line x1="2603.281467" y1="138.052315" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2766.750685" y2="181.421699"/>
+<line x1="2450.000000" y1="728.000000" x2="2685.016076" y2="224.791083"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2848.485294" y1="94.682930" x2="0.000000" y2="0.000000"/>
+<line x1="2848.485294" y1="94.682930" x2="2766.750685" y2="181.421699"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2603.281467" cy="138.052315" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2848.485294" cy="94.682930" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2766.750685" cy="181.421699" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2685.016076" cy="224.791083" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d8">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=0°, s=0.810316</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="0.000000" y2="0.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="0.000000" y2="0.000000"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="0.000000" y2="0.000000"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="0.000000" y2="0.000000"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="0.000000" y2="0.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="0.000000" y2="0.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="0.000000" cy="0.000000" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1583.705882" y2="570.470588" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d9">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.984868</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="21.240244" y2="8.632104"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="21.240244" y2="8.632104"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="21.240244" y2="8.632104"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="21.240244" y2="8.632104"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="21.240244" y2="8.632104"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="21.240244" y2="8.632104"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="21.240244" y2="8.632104"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="21.240244" cy="8.632104" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d10">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.969737</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="42.480488" y2="17.264207"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="42.480488" y2="17.264207"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="42.480488" y2="17.264207"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="42.480488" y2="17.264207"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="42.480488" y2="17.264207"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="42.480488" y2="17.264207"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="42.480488" y2="17.264207"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="42.480488" cy="17.264207" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d11">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.954605</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="63.720732" y2="25.896311"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="63.720732" y2="25.896311"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="63.720732" y2="25.896311"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="63.720732" y2="25.896311"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="63.720732" y2="25.896311"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="63.720732" y2="25.896311"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="63.720732" y2="25.896311"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="63.720732" cy="25.896311" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d12">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.939474</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="84.960977" y2="34.528414"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="84.960977" y2="34.528414"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="84.960977" y2="34.528414"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="84.960977" y2="34.528414"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="84.960977" y2="34.528414"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="84.960977" y2="34.528414"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="84.960977" y2="34.528414"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="84.960977" cy="34.528414" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d13">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.924342</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="106.201221" y2="43.160518"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="106.201221" y2="43.160518"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="106.201221" y2="43.160518"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="106.201221" y2="43.160518"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="106.201221" y2="43.160518"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="106.201221" y2="43.160518"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="106.201221" y2="43.160518"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="106.201221" cy="43.160518" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d14">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.909211</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="127.441465" y2="51.792622"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="127.441465" y2="51.792622"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="127.441465" y2="51.792622"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="127.441465" y2="51.792622"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="127.441465" y2="51.792622"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="127.441465" y2="51.792622"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="127.441465" y2="51.792622"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="127.441465" cy="51.792622" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d15">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.894079</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="148.681709" y2="60.424725"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="148.681709" y2="60.424725"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="148.681709" y2="60.424725"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="148.681709" y2="60.424725"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="148.681709" y2="60.424725"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="148.681709" y2="60.424725"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="148.681709" y2="60.424725"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="148.681709" cy="60.424725" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d16">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=190°, s=0.878948</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="169.921953" y2="69.056829"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="169.921953" y2="69.056829"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="169.921953" y2="69.056829"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="169.921953" y2="69.056829"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="169.921953" y2="69.056829"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="169.921953" y2="69.056829"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="169.921953" y2="69.056829"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="169.921953" cy="69.056829" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1226.440487" y2="539.213916" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d17">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.996406</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="174.355692" y2="70.858714"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="174.355692" y2="70.858714"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="174.355692" y2="70.858714"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="174.355692" y2="70.858714"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="174.355692" y2="70.858714"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="174.355692" y2="70.858714"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="174.355692" y2="70.858714"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="174.355692" cy="70.858714" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d18">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.992813</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="178.789431" y2="72.660600"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="178.789431" y2="72.660600"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="178.789431" y2="72.660600"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="178.789431" y2="72.660600"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="178.789431" y2="72.660600"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="178.789431" y2="72.660600"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="178.789431" y2="72.660600"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="178.789431" cy="72.660600" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d19">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.989219</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="183.223170" y2="74.462486"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="183.223170" y2="74.462486"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="183.223170" y2="74.462486"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="183.223170" y2="74.462486"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="183.223170" y2="74.462486"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="183.223170" y2="74.462486"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="183.223170" y2="74.462486"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="183.223170" cy="74.462486" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d20">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.985626</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="187.656909" y2="76.264372"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="187.656909" y2="76.264372"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="187.656909" y2="76.264372"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="187.656909" y2="76.264372"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="187.656909" y2="76.264372"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="187.656909" y2="76.264372"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="187.656909" y2="76.264372"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="187.656909" cy="76.264372" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d21">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.982032</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="192.090648" y2="78.066258"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="192.090648" y2="78.066258"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="192.090648" y2="78.066258"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="192.090648" y2="78.066258"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="192.090648" y2="78.066258"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="192.090648" y2="78.066258"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="192.090648" y2="78.066258"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="192.090648" cy="78.066258" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d22">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.978438</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="196.524387" y2="79.868143"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="196.524387" y2="79.868143"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="196.524387" y2="79.868143"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="196.524387" y2="79.868143"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="196.524387" y2="79.868143"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="196.524387" y2="79.868143"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="196.524387" y2="79.868143"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="196.524387" cy="79.868143" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d23">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.974845</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="200.958126" y2="81.670029"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="200.958126" y2="81.670029"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="200.958126" y2="81.670029"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="200.958126" y2="81.670029"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="200.958126" y2="81.670029"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="200.958126" y2="81.670029"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="200.958126" y2="81.670029"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="200.958126" cy="81.670029" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<g id="d24">
+<text x="-75.000000" y="-65.000000" font-family="monospace" font-size="21">theta=200°, s=0.971251</text>
+<g stroke="#37474f" stroke-width="1.2" fill="none">
+<line x1="2569.178820" y1="150.345503" x2="882.000000" y2="208.000000"/>
+<line x1="2569.178820" y1="150.345503" x2="205.391865" y2="83.471915"/>
+<line x1="735.000000" y1="208.000000" x2="833.000000" y2="156.000000"/>
+<line x1="735.000000" y1="208.000000" x2="205.391865" y2="83.471915"/>
+<line x1="1666.000000" y1="936.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1666.000000" y1="936.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="637.000000" y1="312.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="312.000000" x2="205.391865" y2="83.471915"/>
+<line x1="637.000000" y1="364.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="364.000000" x2="205.391865" y2="83.471915"/>
+<line x1="735.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="735.000000" y1="780.000000" x2="205.391865" y2="83.471915"/>
+<line x1="931.000000" y1="104.000000" x2="882.000000" y2="208.000000"/>
+<line x1="931.000000" y1="104.000000" x2="833.000000" y2="156.000000"/>
+<line x1="931.000000" y1="104.000000" x2="205.391865" y2="83.471915"/>
+<line x1="2450.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="2450.000000" y1="728.000000" x2="2728.000783" y2="192.481942"/>
+<line x1="2450.000000" y1="728.000000" x2="2648.589801" y2="234.618381"/>
+<line x1="882.000000" y1="832.000000" x2="784.000000" y2="728.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="936.000000"/>
+<line x1="882.000000" y1="832.000000" x2="980.000000" y2="884.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1813.000000" y2="1092.000000"/>
+<line x1="1862.000000" y1="1040.000000" x2="1862.000000" y2="988.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1764.000000" y1="676.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1519.000000" y1="728.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="2807.411765" y1="108.209063" x2="205.391865" y2="83.471915"/>
+<line x1="2807.411765" y1="108.209063" x2="2728.000783" y2="192.481942"/>
+<line x1="1078.000000" y1="1040.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="1078.000000" y1="1040.000000" x2="980.000000" y2="936.000000"/>
+<line x1="1813.000000" y1="728.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="1568.000000" y1="780.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="1078.000000" y1="988.000000" x2="1421.000000" y2="676.000000"/>
+<line x1="882.000000" y1="780.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="882.000000" y2="208.000000"/>
+<line x1="637.000000" y1="520.000000" x2="833.000000" y2="156.000000"/>
+<line x1="637.000000" y1="520.000000" x2="735.000000" y2="260.000000"/>
+<line x1="637.000000" y1="520.000000" x2="588.000000" y2="416.000000"/>
+<line x1="637.000000" y1="520.000000" x2="784.000000" y2="728.000000"/>
+<line x1="637.000000" y1="520.000000" x2="2303.000000" y2="572.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1715.000000" y2="624.000000"/>
+<line x1="637.000000" y1="520.000000" x2="1421.000000" y2="676.000000"/>
+</g><g fill="#1565c0">
+<circle cx="2569.178820" cy="150.345503" r="3"><title>component:C1</title></circle>
+<circle cx="735.000000" cy="208.000000" r="3"><title>component:C2</title></circle>
+<circle cx="1666.000000" cy="936.000000" r="3"><title>component:JP1</title></circle>
+<circle cx="637.000000" cy="312.000000" r="3"><title>component:J_EA</title></circle>
+<circle cx="637.000000" cy="364.000000" r="3"><title>component:J_EB</title></circle>
+<circle cx="735.000000" cy="780.000000" r="3"><title>component:J_OUT</title></circle>
+<circle cx="931.000000" cy="104.000000" r="3"><title>component:J_PWR</title></circle>
+<circle cx="2450.000000" cy="728.000000" r="3"><title>component:J_R1</title></circle>
+<circle cx="882.000000" cy="832.000000" r="3"><title>component:J_R4</title></circle>
+<circle cx="1862.000000" cy="1040.000000" r="3"><title>component:J_RA</title></circle>
+<circle cx="1764.000000" cy="676.000000" r="3"><title>component:R2</title></circle>
+<circle cx="1519.000000" cy="728.000000" r="3"><title>component:R3</title></circle>
+<circle cx="2807.411765" cy="108.209063" r="3"><title>component:RMIN1</title></circle>
+<circle cx="1078.000000" cy="1040.000000" r="3"><title>component:RMIN4</title></circle>
+<circle cx="1813.000000" cy="728.000000" r="3"><title>component:TPA</title></circle>
+<circle cx="1568.000000" cy="780.000000" r="3"><title>component:TPB</title></circle>
+<circle cx="1078.000000" cy="988.000000" r="3"><title>component:TPC</title></circle>
+<circle cx="882.000000" cy="780.000000" r="3"><title>component:TPO</title></circle>
+<circle cx="637.000000" cy="520.000000" r="3"><title>component:U1</title></circle>
+<circle cx="882.000000" cy="208.000000" r="3"><title>net:+9V</title></circle>
+<circle cx="833.000000" cy="156.000000" r="3"><title>net:-9V</title></circle>
+<circle cx="735.000000" cy="260.000000" r="3"><title>net:EA</title></circle>
+<circle cx="588.000000" cy="416.000000" r="3"><title>net:EB</title></circle>
+<circle cx="784.000000" cy="728.000000" r="3"><title>net:EOUT</title></circle>
+<circle cx="205.391865" cy="83.471915" r="3"><title>net:GND</title></circle>
+<circle cx="2303.000000" cy="572.000000" r="3"><title>net:NODE_A</title></circle>
+<circle cx="1715.000000" cy="624.000000" r="3"><title>net:NODE_B</title></circle>
+<circle cx="1421.000000" cy="676.000000" r="3"><title>net:NODE_C</title></circle>
+<circle cx="2728.000783" cy="192.481942" r="3"><title>net:R1_EXT</title></circle>
+<circle cx="2648.589801" cy="234.618381" r="3"><title>net:R1_W</title></circle>
+<circle cx="980.000000" cy="936.000000" r="3"><title>net:R4_EXT</title></circle>
+<circle cx="980.000000" cy="884.000000" r="3"><title>net:R4_W</title></circle>
+<circle cx="1813.000000" cy="1092.000000" r="3"><title>net:RA_SW</title></circle>
+<circle cx="1862.000000" cy="988.000000" r="3"><title>net:RA_W</title></circle>
+</g>
+<circle cx="1403.705882" cy="570.470588" r="7" fill="#d32f2f" stroke="white" stroke-width="2"/>
+<text x="1413.705882" y="560.470588" font-family="monospace" font-size="14" fill="#d32f2f">C</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f57c00"/></marker></defs>
+<line x1="1403.705882" y1="570.470588" x2="1234.561211" y2="508.906962" stroke="#f57c00" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+</svg>

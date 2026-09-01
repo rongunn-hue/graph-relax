@@ -1,0 +1,285 @@
+{
+  "component_coordinates_unchanged": true,
+  "coordinate_sha256": "edf47b2acc8e69b3a66e828c69a9d8a1d9c4f34ca924aa21157d532f6e1d9ca5",
+  "frozen_4f_baseline": {
+    "clearance_violations": 11,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 6.900368,
+      "crossing": 14000.0,
+      "crowding": 588.533419,
+      "length": 6028.578082,
+      "overlap": 0.0
+    },
+    "net_crossings": 7,
+    "objective": 20624.011868,
+    "total_connection_length": 3098.097778
+  },
+  "frozen_4f_reported": {
+    "clearance_violations": 11,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 6.900372,
+      "crossing": 14000.0,
+      "crowding": 588.533413,
+      "length": 6028.578079,
+      "overlap": 0.0
+    },
+    "net_crossings": 7,
+    "objective": 20624.011864,
+    "total_connection_length": 3098.097778
+  },
+  "junction_model_initial": {
+    "clearance_violations": 11,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 6.900368,
+      "crossing": 14000.0,
+      "crowding": 562.29861,
+      "length": 7077.394711,
+      "overlap": 0.0
+    },
+    "net_crossings": 7,
+    "objective": 21646.593689,
+    "total_connection_length": 3098.097778
+  },
+  "junction_only_final": {
+    "clearance_violations": 11,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 6.900368,
+      "crossing": 12000.0,
+      "crowding": 809.701094,
+      "length": 8192.108168,
+      "overlap": 0.0
+    },
+    "net_crossings": 6,
+    "objective": 21008.70963,
+    "total_connection_length": 3034.347082
+  },
+  "movable_junction_count": 7,
+  "movable_nets": [
+    {
+      "bounds": {
+        "max_x": -62.956995,
+        "max_y": 160.641004,
+        "min_x": -251.193853,
+        "min_y": -35.232075
+      },
+      "initial": {
+        "x": -160.950764,
+        "y": 58.522721
+      },
+      "net": "+9V"
+    },
+    {
+      "bounds": {
+        "max_x": -2.956995,
+        "max_y": 271.884434,
+        "min_x": -274.034778,
+        "min_y": -6.840765
+      },
+      "initial": {
+        "x": -138.777401,
+        "y": 129.006002
+      },
+      "net": "-9V"
+    },
+    {
+      "bounds": {
+        "max_x": 74.222056,
+        "max_y": 323.799858,
+        "min_x": -225.970327,
+        "min_y": 3.159235
+      },
+      "initial": {
+        "x": -104.07753,
+        "y": 167.828635
+      },
+      "net": "EOUT"
+    },
+    {
+      "bounds": {
+        "max_x": -70.034778,
+        "max_y": 363.799858,
+        "min_x": -365.455705,
+        "min_y": -61.898352
+      },
+      "initial": {
+        "x": -211.302194,
+        "y": 113.866662
+      },
+      "net": "GND"
+    },
+    {
+      "bounds": {
+        "max_x": 72.695639,
+        "max_y": 109.659235,
+        "min_x": -225.098977,
+        "min_y": -238.942939
+      },
+      "initial": {
+        "x": -63.703721,
+        "y": -64.386267
+      },
+      "net": "NODE_A"
+    },
+    {
+      "bounds": {
+        "max_x": 161.345259,
+        "max_y": 109.659235,
+        "min_x": -237.048756,
+        "min_y": -198.942939
+      },
+      "initial": {
+        "x": -73.422156,
+        "y": -40.029164
+      },
+      "net": "NODE_B"
+    },
+    {
+      "bounds": {
+        "max_x": 121.345259,
+        "max_y": 149.659235,
+        "min_x": -184.456995,
+        "min_y": -62.803347
+      },
+      "initial": {
+        "x": -28.699789,
+        "y": 38.223093
+      },
+      "net": "NODE_C"
+    }
+  ],
+  "move_log_sha256": "1edfab5cbf811aec8139e41236de0b8cadfc5bf50c616134171e5463dd26e07c",
+  "new_net_pair_crossings": [
+    {
+      "intersections": [
+        {
+          "x": -134.119886,
+          "y": -78.345395
+        }
+      ],
+      "net_a": "NODE_B",
+      "net_b": "R1_EXT"
+    }
+  ],
+  "original_4g_crossing_status": [
+    {
+      "final_same_net_pair_intersections": [
+        {
+          "x": -47.224171,
+          "y": -35.765939
+        }
+      ],
+      "id": "X001",
+      "net_a": "NODE_A",
+      "net_b": "NODE_B",
+      "original_intersection": {
+        "x": -79.171658,
+        "y": -62.634406
+      },
+      "status": "displaced/replaced"
+    },
+    {
+      "final_same_net_pair_intersections": [
+        {
+          "x": -47.224171,
+          "y": -35.765939
+        }
+      ],
+      "id": "X002",
+      "net_a": "NODE_A",
+      "net_b": "NODE_B",
+      "original_intersection": {
+        "x": -71.790829,
+        "y": -39.936699
+      },
+      "status": "displaced/replaced"
+    },
+    {
+      "final_same_net_pair_intersections": [],
+      "id": "X003",
+      "net_a": "EA",
+      "net_b": "NODE_B",
+      "original_intersection": {
+        "x": -108.398804,
+        "y": 15.386125
+      },
+      "status": "eliminated"
+    },
+    {
+      "final_same_net_pair_intersections": [
+        {
+          "x": -284.227918,
+          "y": 18.380487
+        }
+      ],
+      "id": "X004",
+      "net_a": "GND",
+      "net_b": "R1_EXT",
+      "original_intersection": {
+        "x": -285.998059,
+        "y": 19.521121
+      },
+      "status": "displaced/replaced"
+    },
+    {
+      "final_same_net_pair_intersections": [
+        {
+          "x": -91.024424,
+          "y": 28.256764
+        }
+      ],
+      "id": "X005",
+      "net_a": "EA",
+      "net_b": "NODE_A",
+      "original_intersection": {
+        "x": -93.693078,
+        "y": 26.279871
+      },
+      "status": "displaced/replaced"
+    },
+    {
+      "final_same_net_pair_intersections": [
+        {
+          "x": -98.460714,
+          "y": 70.05455
+        }
+      ],
+      "id": "X006",
+      "net_a": "EB",
+      "net_b": "NODE_C",
+      "original_intersection": {
+        "x": -97.587439,
+        "y": 70.658071
+      },
+      "status": "displaced/replaced"
+    },
+    {
+      "final_same_net_pair_intersections": [
+        {
+          "x": -130.403313,
+          "y": 120.625625
+        }
+      ],
+      "id": "X007",
+      "net_a": "-9V",
+      "net_b": "EOUT",
+      "original_intersection": {
+        "x": -122.455228,
+        "y": 112.677088
+      },
+      "status": "displaced/replaced"
+    }
+  ],
+  "search": {
+    "accepted_junction_moves": 39,
+    "crossing_reducing_junction_moves": 1,
+    "initial_step": 72.0,
+    "minimum_step": 0.28125,
+    "search_sweeps": 48,
+    "step_halvings": 8,
+    "stopping_reason": "no lexicographically improving legal junction move at minimum step"
+  }
+}

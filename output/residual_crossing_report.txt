@@ -1,0 +1,56 @@
+Experiment 4G residual crossing diagnosis
+
+4F final crossings: 7
+4F final overlaps: 0
+
+X001  NODE_A x NODE_B  (-79.171658, -62.634406)  XY
+  reason: single-axis elimination exists only with an increase in total crossings
+  components: J_R1, J_RA, R2, R3, TPA, TPB, U1
+  best X: {'axis': 'X', 'move_type': 'swap', 'components': ['J_R1', 'TPB'], 'old_coordinates': [-123.098977, -195.048756], 'new_coordinates': [-195.048756, -123.098977], 'direction': 0, 'total_displacement': 143.89955799999998} -> 10 crossings, 5 new
+  best Y: {'axis': 'Y', 'move_type': 'swap', 'components': ['J_R1', 'U1'], 'old_coordinates': [-67.594912, 57.659235], 'new_coordinates': [57.659235, -67.594912], 'direction': 0, 'total_displacement': 250.50829399999998} -> 27 crossings, 22 new
+X002  NODE_A x NODE_B  (-71.790829, -39.936699)  XY
+  reason: single-axis elimination exists only with an increase in total crossings
+  components: J_R1, J_RA, R2, R3, TPA, TPB, U1
+  best X: {'axis': 'X', 'move_type': 'slide', 'components': ['TPA'], 'old_coordinates': [-43.13014], 'new_coordinates': [-61.13014], 'direction': -1, 'total_displacement': 18.0} -> 9 crossings, 3 new
+  best Y: {'axis': 'Y', 'move_type': 'slide', 'components': ['R3'], 'old_coordinates': [-10.803347], 'new_coordinates': [41.196653], 'direction': 1, 'total_displacement': 52.0} -> 9 crossings, 3 new
+X003  EA x NODE_B  (-108.398804, 15.386125)  XY
+  reason: single-axis elimination exists only with an increase in total crossings
+  components: J_EA, R2, R3, TPB, U1
+  best X: {'axis': 'X', 'move_type': 'slide', 'components': ['J_EA'], 'old_coordinates': [-169.623316], 'new_coordinates': [-151.623316], 'direction': 1, 'total_displacement': 18.0} -> 8 crossings, 2 new
+  best Y: none
+X004  GND x R1_EXT  (-285.998059, 19.521121)  STRUCTURAL
+  reason: no tested single-axis slide or swap eliminates the target
+  components: C1, C2, J_EA, J_EB, J_OUT, J_PWR, J_R1, RMIN1
+  best X: none
+  best Y: none
+X005  EA x NODE_A  (-93.693078, 26.279871)  STRUCTURAL
+  reason: no tested single-axis slide or swap eliminates the target
+  components: J_EA, J_R1, J_RA, R2, TPA, U1
+  best X: none
+  best Y: none
+X006  EB x NODE_C  (-97.587439, 70.658071)  XY
+  reason: single-axis elimination exists only with an increase in total crossings
+  components: JP1, J_EB, R3, RMIN4, TPC, U1
+  best X: {'axis': 'X', 'move_type': 'swap', 'components': ['J_EB', 'R3'], 'old_coordinates': [-241.496953, 69.345259], 'new_coordinates': [69.345259, -241.496953], 'direction': 0, 'total_displacement': 621.684424} -> 18 crossings, 14 new
+  best Y: none
+X007  -9V x EOUT  (-122.455228, 112.677088)  XY
+  reason: single-axis elimination exists only with an increase in total crossings
+  components: C2, J_OUT, J_PWR, J_R4, TPO, U1
+  best X: {'axis': 'X', 'move_type': 'slide', 'components': ['C2'], 'old_coordinates': [-159.340429], 'new_coordinates': [-87.340429], 'direction': 1, 'total_displacement': 72.0} -> 12 crossings, 6 new
+  best Y: {'axis': 'Y', 'move_type': 'swap', 'components': ['J_R4', 'U1'], 'old_coordinates': [142.08733, 57.659235], 'new_coordinates': [57.659235, 142.08733], 'direction': 0, 'total_displacement': 168.85619000000003} -> 20 crossings, 14 new
+
+Classification counts: {"STRUCTURAL": 2, "X": 0, "XY": 5, "Y": 0}
+Removable without increasing crossings: 0
+Selected moves interacting with another crossing: 5
+Distinct nets/components: 9/19
+Membership concentration: one component-membership-connected group
+
+Interaction matrix (rows target, columns original crossing):
+ID X001 X002 X003 X004 X005 X006 X007
+X001 R R R R R R R
+X002 R R R R R R R
+X003 R R R R R R R
+X004 N/A N/A N/A N/A N/A N/A N/A
+X005 N/A N/A N/A N/A N/A N/A N/A
+X006 R R R R P R R
+X007 R R R R P R R

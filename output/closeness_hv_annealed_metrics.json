@@ -1,0 +1,180 @@
+{
+  "annealing": {
+    "accepted_downhill_moves": 2613,
+    "accepted_uphill_moves": 2261,
+    "best_energy_encountered": 51668.036592,
+    "cooling_schedule": "geometric",
+    "final_move_distance": 0.5,
+    "final_temperature": 10.0,
+    "initial_move_distance": 140.0,
+    "initial_temperature": 25000.0,
+    "iterations": 6000,
+    "move_distance_schedule": "geometric",
+    "rejected_moves": 1126,
+    "seed": 314159
+  },
+  "changes_from_experiment_4c_final": {
+    "clearance_violations": {
+      "absolute": 2,
+      "percent": 22.222222
+    },
+    "component_overlaps": {
+      "absolute": 0,
+      "percent": null
+    },
+    "crowding": {
+      "absolute": -297.995352,
+      "percent": -33.613726
+    },
+    "net_crossings": {
+      "absolute": -4,
+      "percent": -36.363636
+    },
+    "objective": {
+      "absolute": -7704.180309,
+      "percent": -27.196159
+    },
+    "total_connection_length": {
+      "absolute": 30.057322,
+      "percent": 0.979691
+    }
+  },
+  "changes_from_experiment_4e_final": {
+    "clearance_violations": {
+      "absolute": 2,
+      "percent": 22.222222
+    },
+    "component_overlaps": {
+      "absolute": 0,
+      "percent": null
+    },
+    "crowding": {
+      "absolute": -506.232129,
+      "percent": -46.241146
+    },
+    "net_crossings": {
+      "absolute": -1,
+      "percent": -12.5
+    },
+    "objective": {
+      "absolute": -2042.888783,
+      "percent": -9.012652
+    },
+    "total_connection_length": {
+      "absolute": 122.418824,
+      "percent": 4.11398
+    }
+  },
+  "crossing_sequence": [
+    {
+      "crossings": 23,
+      "state": "4C start"
+    },
+    {
+      "crossings": 11,
+      "state": "H1"
+    },
+    {
+      "crossings": 11,
+      "state": "V1"
+    },
+    {
+      "crossings": 9,
+      "state": "H2"
+    },
+    {
+      "crossings": 9,
+      "state": "V2"
+    },
+    {
+      "crossings": 9,
+      "state": "H3"
+    },
+    {
+      "crossings": 9,
+      "state": "V3"
+    },
+    {
+      "crossings": 9,
+      "state": "H4"
+    }
+  ],
+  "final_coordinate_sha256": "c4998dd651bf001b51a85dff11cf6a9c438582c3e4fe17c9f1e0af768be4c074",
+  "preprocessed_coordinate_sha256": "ec200c6e120ad91673cfd2271d552d9d5baa332e0452ed560afe9cd073bd8ec5",
+  "preprocessing_summary": {
+    "converged": true,
+    "crossing_reducing_moves": 9,
+    "horizontal_passes": 4,
+    "horizontal_slides": 140,
+    "horizontal_swaps": 1,
+    "maximum_axis_passes": 20,
+    "stopping_reason": "latest horizontal and vertical passes both accepted zero moves",
+    "total_preprocessing_moves": 327,
+    "vertical_passes": 3,
+    "vertical_slides": 185,
+    "vertical_swaps": 1
+  },
+  "quench": {
+    "final_energy": 20624.011864,
+    "stopping_reason": "no improving move at minimum step",
+    "sweeps": 260
+  },
+  "states": {
+    "experiment_4c_initial": {
+      "clearance_violations": 2,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 52.64625,
+        "crossing": 46000.0,
+        "crowding": 795.164246,
+        "length": 13675.09927,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60522.909766,
+      "total_connection_length": 4883.300431
+    },
+    "experiment_4e_horizontal_preprocessed": {
+      "clearance_violations": 11,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 38402.267447,
+        "crossing": 22000.0,
+        "crowding": 984.876769,
+        "length": 10428.327338,
+        "overlap": 0.0
+      },
+      "net_crossings": 11,
+      "objective": 71815.471554,
+      "total_connection_length": 3989.134386
+    },
+    "experiment_4f_annealed_and_quenched": {
+      "clearance_violations": 11,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 6.900372,
+        "crossing": 14000.0,
+        "crowding": 588.533413,
+        "length": 6028.578079,
+        "overlap": 0.0
+      },
+      "net_crossings": 7,
+      "objective": 20624.011864,
+      "total_connection_length": 3098.097778
+    },
+    "experiment_4f_hv_preprocessed": {
+      "clearance_violations": 20,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 71470.379755,
+        "crossing": 18000.0,
+        "crowding": 1152.79161,
+        "length": 4698.272142,
+        "overlap": 0.0
+      },
+      "net_crossings": 9,
+      "objective": 95321.443507,
+      "total_connection_length": 2692.045872
+    }
+  }
+}

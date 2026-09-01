@@ -1,0 +1,505 @@
+{
+  "baseline_4k_reproduced": true,
+  "coarse_validations": [
+    {
+      "area": 3520592.0,
+      "clearance_violations": 0,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1112.0,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.0,
+      "global_minimum_incident_angular_gap": 1.048222,
+      "height": 0.0,
+      "mean_angular_error": 198.905164,
+      "mean_per_vertex_minimum_angular_gap": 68.020928,
+      "total_connection_length": 23095.744883,
+      "unrelated_component_body_intersections": 0,
+      "valid": true,
+      "width": 3166.0
+    },
+    {
+      "area": 3520274.151143,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1111.922342,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.1,
+      "global_minimum_incident_angular_gap": 1.048298,
+      "height": 10.69371,
+      "mean_angular_error": 198.919893,
+      "mean_per_vertex_minimum_angular_gap": 68.016431,
+      "total_connection_length": 23095.444236,
+      "unrelated_component_body_intersections": 2,
+      "valid": false,
+      "width": 3165.935262
+    },
+    {
+      "area": 3519320.486171,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1111.689314,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.2,
+      "global_minimum_incident_angular_gap": 1.048525,
+      "height": 21.38742,
+      "mean_angular_error": 198.964842,
+      "mean_per_vertex_minimum_angular_gap": 68.002718,
+      "total_connection_length": 23094.586123,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3165.741041
+    },
+    {
+      "area": 3517730.644439,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1111.300754,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.3,
+      "global_minimum_incident_angular_gap": 1.048903,
+      "height": 32.08113,
+      "mean_angular_error": 199.042386,
+      "mean_per_vertex_minimum_angular_gap": 67.979099,
+      "total_connection_length": 23093.309362,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3165.417311
+    },
+    {
+      "area": 3515504.024718,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1110.756391,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.4,
+      "global_minimum_incident_angular_gap": 1.049432,
+      "height": 42.77484,
+      "mean_angular_error": 199.15678,
+      "mean_per_vertex_minimum_angular_gap": 67.944315,
+      "total_connection_length": 23091.87306,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3164.964031
+    },
+    {
+      "area": 3512639.777266,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1110.055843,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.5,
+      "global_minimum_incident_angular_gap": 1.050113,
+      "height": 53.46855,
+      "mean_angular_error": 199.314727,
+      "mean_per_vertex_minimum_angular_gap": 67.896336,
+      "total_connection_length": 23090.711078,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3164.381143
+    },
+    {
+      "area": 3509136.811036,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1109.198619,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.6,
+      "global_minimum_incident_angular_gap": 1.050946,
+      "height": 64.16226,
+      "mean_angular_error": 199.52651,
+      "mean_per_vertex_minimum_angular_gap": 67.831941,
+      "total_connection_length": 23091.099953,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3163.668572
+    },
+    {
+      "area": 3504993.776941,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1108.184113,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.7,
+      "global_minimum_incident_angular_gap": 1.051931,
+      "height": 74.85597,
+      "mean_angular_error": 199.828067,
+      "mean_per_vertex_minimum_angular_gap": 67.745764,
+      "total_connection_length": 23096.576997,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3162.826227
+    },
+    {
+      "area": 3500209.064833,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1107.011604,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.8,
+      "global_minimum_incident_angular_gap": 1.05307,
+      "height": 85.54968,
+      "mean_angular_error": 200.265327,
+      "mean_per_vertex_minimum_angular_gap": 67.598124,
+      "total_connection_length": 23107.589754,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3161.853997
+    },
+    {
+      "area": 3494780.800451,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1105.680251,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.9,
+      "global_minimum_incident_angular_gap": 1.054362,
+      "height": 96.24339,
+      "mean_angular_error": 200.913828,
+      "mean_per_vertex_minimum_angular_gap": 67.378123,
+      "total_connection_length": 23131.205434,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3160.751761
+    },
+    {
+      "area": 3491824.676033,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1104.954713,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.95,
+      "global_minimum_incident_angular_gap": 0.733169,
+      "height": 101.590245,
+      "mean_angular_error": 201.420407,
+      "mean_per_vertex_minimum_angular_gap": 67.208177,
+      "total_connection_length": 23155.248805,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3160.151846
+    },
+    {
+      "area": 3489973.393724,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "inconsistent_local_reversal",
+      "different_net_crossings": 4,
+      "drawing_height": 1104.500159,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.98,
+      "global_minimum_incident_angular_gap": 0.134316,
+      "height": 104.798358,
+      "mean_angular_error": 201.85965,
+      "mean_per_vertex_minimum_angular_gap": 67.04428,
+      "total_connection_length": 23182.073964,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3159.776271
+    }
+  ],
+  "direct_from_original_at_every_height": true,
+  "embedding_unchanged": true,
+  "first_positive_coarse_failure": {
+    "area": 3520274.151143,
+    "clearance_violations": 3,
+    "component_overlaps": 0,
+    "cyclic_order_orientation": "global_reflection",
+    "different_net_crossings": 0,
+    "drawing_height": 1111.922342,
+    "electrical_incidence_exact": true,
+    "fraction_of_geometric_limit": 0.1,
+    "global_minimum_incident_angular_gap": 1.048298,
+    "height": 10.69371,
+    "mean_angular_error": 198.919893,
+    "mean_per_vertex_minimum_angular_gap": 68.016431,
+    "total_connection_length": 23095.444236,
+    "unrelated_component_body_intersections": 2,
+    "valid": false,
+    "width": 3165.935262
+  },
+  "selected_complete_validation": {
+    "added_incidences": 0,
+    "all_vertex_cyclic_order_orientation": "global_reflection",
+    "body_intersection_details": [],
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "cyclic_order_orientation": "global_reflection",
+    "cyclic_order_rows": [
+      {
+        "component": "C1",
+        "geometric_perimeter_order": [
+          "net:+9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:+9V",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "C2",
+        "geometric_perimeter_order": [
+          "net:-9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:GND",
+          "net:-9V"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "JP1",
+        "geometric_perimeter_order": [
+          "net:NODE_C",
+          "net:RA_SW"
+        ],
+        "required_clockwise": [
+          "net:NODE_C",
+          "net:RA_SW"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_EA",
+        "geometric_perimeter_order": [
+          "net:EA",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:EA",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_EB",
+        "geometric_perimeter_order": [
+          "net:EB",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:EB",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_OUT",
+        "geometric_perimeter_order": [
+          "net:GND",
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:EOUT",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_PWR",
+        "geometric_perimeter_order": [
+          "net:+9V",
+          "net:-9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:+9V",
+          "net:GND",
+          "net:-9V"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "J_R1",
+        "geometric_perimeter_order": [
+          "net:NODE_A",
+          "net:R1_W",
+          "net:R1_EXT"
+        ],
+        "required_clockwise": [
+          "net:NODE_A",
+          "net:R1_EXT",
+          "net:R1_W"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "J_R4",
+        "geometric_perimeter_order": [
+          "net:EOUT",
+          "net:R4_W",
+          "net:R4_EXT"
+        ],
+        "required_clockwise": [
+          "net:EOUT",
+          "net:R4_EXT",
+          "net:R4_W"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "J_RA",
+        "geometric_perimeter_order": [
+          "net:RA_W",
+          "net:NODE_A",
+          "net:RA_SW"
+        ],
+        "required_clockwise": [
+          "net:RA_SW",
+          "net:NODE_A",
+          "net:RA_W"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "R2",
+        "geometric_perimeter_order": [
+          "net:NODE_B",
+          "net:NODE_A"
+        ],
+        "required_clockwise": [
+          "net:NODE_A",
+          "net:NODE_B"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "R3",
+        "geometric_perimeter_order": [
+          "net:NODE_B",
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:NODE_B",
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "RMIN1",
+        "geometric_perimeter_order": [
+          "net:R1_EXT",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:R1_EXT",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "RMIN4",
+        "geometric_perimeter_order": [
+          "net:R4_EXT",
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:R4_EXT",
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPA",
+        "geometric_perimeter_order": [
+          "net:NODE_A"
+        ],
+        "required_clockwise": [
+          "net:NODE_A"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPB",
+        "geometric_perimeter_order": [
+          "net:NODE_B"
+        ],
+        "required_clockwise": [
+          "net:NODE_B"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPC",
+        "geometric_perimeter_order": [
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPO",
+        "geometric_perimeter_order": [
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:EOUT"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "U1",
+        "geometric_perimeter_order": [
+          "net:EB",
+          "net:EA",
+          "net:-9V",
+          "net:+9V",
+          "net:NODE_A",
+          "net:NODE_B",
+          "net:NODE_C",
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:-9V",
+          "net:EA",
+          "net:EB",
+          "net:EOUT",
+          "net:NODE_C",
+          "net:NODE_B",
+          "net:NODE_A",
+          "net:+9V"
+        ],
+        "state": "global_reflection"
+      }
+    ],
+    "different_net_crossings": 0,
+    "electrical_incidence_exact": true,
+    "embedding_edge_set_exact": true,
+    "embedding_vertex_set_exact": true,
+    "expected_incidence_count": 44,
+    "graph_edge_count": 44,
+    "graph_vertex_count": 34,
+    "missing_incidences": 0,
+    "planar": true,
+    "realized_incidence_count": 44,
+    "unrelated_component_body_intersections": 0,
+    "valid": true
+  },
+  "selected_height": 0.0,
+  "status": "NO_POSITIVE_COARSE_HEIGHT_VALID"
+}

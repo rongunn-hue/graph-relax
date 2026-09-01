@@ -1,0 +1,794 @@
+{
+  "components": [
+    {
+      "component": "C1",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "C2",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "JP1",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "J_EA",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "J_EB",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "J_OUT",
+      "mandatory": false,
+      "minimum_solution_percentage": 50.0,
+      "minimum_solutions_touching": 2
+    },
+    {
+      "component": "J_PWR",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "J_R1",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "J_R4",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "J_RA",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "R2",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "R3",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "RMIN1",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "RMIN4",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "TPA",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "TPB",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "TPC",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "TPO",
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0
+    },
+    {
+      "component": "U1",
+      "mandatory": true,
+      "minimum_solution_percentage": 100.0,
+      "minimum_solutions_touching": 4
+    }
+  ],
+  "incidences": [
+    {
+      "component": "C1",
+      "edge": [
+        "terminal:C1.1",
+        "net:+9V"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "+9V",
+      "pin": "1",
+      "terminal": "C1.1"
+    },
+    {
+      "component": "C1",
+      "edge": [
+        "terminal:C1.2",
+        "net:GND"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "GND",
+      "pin": "2",
+      "terminal": "C1.2"
+    },
+    {
+      "component": "C2",
+      "edge": [
+        "terminal:C2.1",
+        "net:-9V"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "-9V",
+      "pin": "1",
+      "terminal": "C2.1"
+    },
+    {
+      "component": "C2",
+      "edge": [
+        "terminal:C2.2",
+        "net:GND"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "GND",
+      "pin": "2",
+      "terminal": "C2.2"
+    },
+    {
+      "component": "JP1",
+      "edge": [
+        "terminal:JP1.1",
+        "net:RA_SW"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "RA_SW",
+      "pin": "1",
+      "terminal": "JP1.1"
+    },
+    {
+      "component": "JP1",
+      "edge": [
+        "terminal:JP1.2",
+        "net:NODE_C"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_C",
+      "pin": "2",
+      "terminal": "JP1.2"
+    },
+    {
+      "component": "J_EA",
+      "edge": [
+        "terminal:J_EA.1",
+        "net:EA"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "EA",
+      "pin": "1",
+      "terminal": "J_EA.1"
+    },
+    {
+      "component": "J_EA",
+      "edge": [
+        "terminal:J_EA.2",
+        "net:GND"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "GND",
+      "pin": "2",
+      "terminal": "J_EA.2"
+    },
+    {
+      "component": "J_EB",
+      "edge": [
+        "terminal:J_EB.1",
+        "net:EB"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "EB",
+      "pin": "1",
+      "terminal": "J_EB.1"
+    },
+    {
+      "component": "J_EB",
+      "edge": [
+        "terminal:J_EB.2",
+        "net:GND"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "GND",
+      "pin": "2",
+      "terminal": "J_EB.2"
+    },
+    {
+      "component": "J_OUT",
+      "edge": [
+        "terminal:J_OUT.1",
+        "net:EOUT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 1,
+      "minimum_solution_percentage": 25.0,
+      "net": "EOUT",
+      "pin": "1",
+      "terminal": "J_OUT.1"
+    },
+    {
+      "component": "J_OUT",
+      "edge": [
+        "terminal:J_OUT.2",
+        "net:GND"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 1,
+      "minimum_solution_percentage": 25.0,
+      "net": "GND",
+      "pin": "2",
+      "terminal": "J_OUT.2"
+    },
+    {
+      "component": "J_PWR",
+      "edge": [
+        "terminal:J_PWR.1",
+        "net:+9V"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "+9V",
+      "pin": "1",
+      "terminal": "J_PWR.1"
+    },
+    {
+      "component": "J_PWR",
+      "edge": [
+        "terminal:J_PWR.2",
+        "net:GND"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "GND",
+      "pin": "2",
+      "terminal": "J_PWR.2"
+    },
+    {
+      "component": "J_PWR",
+      "edge": [
+        "terminal:J_PWR.3",
+        "net:-9V"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "-9V",
+      "pin": "3",
+      "terminal": "J_PWR.3"
+    },
+    {
+      "component": "J_R1",
+      "edge": [
+        "terminal:J_R1.1",
+        "net:R1_EXT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "R1_EXT",
+      "pin": "1",
+      "terminal": "J_R1.1"
+    },
+    {
+      "component": "J_R1",
+      "edge": [
+        "terminal:J_R1.2",
+        "net:R1_W"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "R1_W",
+      "pin": "2",
+      "terminal": "J_R1.2"
+    },
+    {
+      "component": "J_R1",
+      "edge": [
+        "terminal:J_R1.3",
+        "net:NODE_A"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_A",
+      "pin": "3",
+      "terminal": "J_R1.3"
+    },
+    {
+      "component": "J_R4",
+      "edge": [
+        "terminal:J_R4.1",
+        "net:R4_EXT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "R4_EXT",
+      "pin": "1",
+      "terminal": "J_R4.1"
+    },
+    {
+      "component": "J_R4",
+      "edge": [
+        "terminal:J_R4.2",
+        "net:R4_W"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "R4_W",
+      "pin": "2",
+      "terminal": "J_R4.2"
+    },
+    {
+      "component": "J_R4",
+      "edge": [
+        "terminal:J_R4.3",
+        "net:EOUT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "EOUT",
+      "pin": "3",
+      "terminal": "J_R4.3"
+    },
+    {
+      "component": "J_RA",
+      "edge": [
+        "terminal:J_RA.1",
+        "net:NODE_A"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_A",
+      "pin": "1",
+      "terminal": "J_RA.1"
+    },
+    {
+      "component": "J_RA",
+      "edge": [
+        "terminal:J_RA.2",
+        "net:RA_W"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "RA_W",
+      "pin": "2",
+      "terminal": "J_RA.2"
+    },
+    {
+      "component": "J_RA",
+      "edge": [
+        "terminal:J_RA.3",
+        "net:RA_SW"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "RA_SW",
+      "pin": "3",
+      "terminal": "J_RA.3"
+    },
+    {
+      "component": "R2",
+      "edge": [
+        "terminal:R2.1",
+        "net:NODE_A"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_A",
+      "pin": "1",
+      "terminal": "R2.1"
+    },
+    {
+      "component": "R2",
+      "edge": [
+        "terminal:R2.2",
+        "net:NODE_B"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_B",
+      "pin": "2",
+      "terminal": "R2.2"
+    },
+    {
+      "component": "R3",
+      "edge": [
+        "terminal:R3.1",
+        "net:NODE_B"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_B",
+      "pin": "1",
+      "terminal": "R3.1"
+    },
+    {
+      "component": "R3",
+      "edge": [
+        "terminal:R3.2",
+        "net:NODE_C"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_C",
+      "pin": "2",
+      "terminal": "R3.2"
+    },
+    {
+      "component": "RMIN1",
+      "edge": [
+        "terminal:RMIN1.1",
+        "net:GND"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "GND",
+      "pin": "1",
+      "terminal": "RMIN1.1"
+    },
+    {
+      "component": "RMIN1",
+      "edge": [
+        "terminal:RMIN1.2",
+        "net:R1_EXT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "R1_EXT",
+      "pin": "2",
+      "terminal": "RMIN1.2"
+    },
+    {
+      "component": "RMIN4",
+      "edge": [
+        "terminal:RMIN4.1",
+        "net:NODE_C"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_C",
+      "pin": "1",
+      "terminal": "RMIN4.1"
+    },
+    {
+      "component": "RMIN4",
+      "edge": [
+        "terminal:RMIN4.2",
+        "net:R4_EXT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "R4_EXT",
+      "pin": "2",
+      "terminal": "RMIN4.2"
+    },
+    {
+      "component": "TPA",
+      "edge": [
+        "terminal:TPA.1",
+        "net:NODE_A"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_A",
+      "pin": "1",
+      "terminal": "TPA.1"
+    },
+    {
+      "component": "TPB",
+      "edge": [
+        "terminal:TPB.1",
+        "net:NODE_B"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_B",
+      "pin": "1",
+      "terminal": "TPB.1"
+    },
+    {
+      "component": "TPC",
+      "edge": [
+        "terminal:TPC.1",
+        "net:NODE_C"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_C",
+      "pin": "1",
+      "terminal": "TPC.1"
+    },
+    {
+      "component": "TPO",
+      "edge": [
+        "terminal:TPO.1",
+        "net:EOUT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "EOUT",
+      "pin": "1",
+      "terminal": "TPO.1"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.1",
+        "net:NODE_B"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_B",
+      "pin": "1",
+      "terminal": "U1.1"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.2",
+        "net:NODE_A"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "NODE_A",
+      "pin": "2",
+      "terminal": "U1.2"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.3",
+        "net:EA"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "EA",
+      "pin": "3",
+      "terminal": "U1.3"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.4",
+        "net:-9V"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "-9V",
+      "pin": "4",
+      "terminal": "U1.4"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.5",
+        "net:EB"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 0,
+      "minimum_solution_percentage": 0.0,
+      "net": "EB",
+      "pin": "5",
+      "terminal": "U1.5"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.6",
+        "net:NODE_C"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 1,
+      "minimum_solution_percentage": 25.0,
+      "net": "NODE_C",
+      "pin": "6",
+      "terminal": "U1.6"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.7",
+        "net:EOUT"
+      ],
+      "mandatory": false,
+      "minimum_solution_count": 1,
+      "minimum_solution_percentage": 25.0,
+      "net": "EOUT",
+      "pin": "7",
+      "terminal": "U1.7"
+    },
+    {
+      "component": "U1",
+      "edge": [
+        "terminal:U1.8",
+        "net:+9V"
+      ],
+      "mandatory": true,
+      "minimum_solution_count": 4,
+      "minimum_solution_percentage": 100.0,
+      "net": "+9V",
+      "pin": "8",
+      "terminal": "U1.8"
+    }
+  ],
+  "mandatory_components": [
+    "U1"
+  ],
+  "mandatory_incidences": [
+    "U1.8 -- +9V"
+  ],
+  "mandatory_nets": [
+    "+9V"
+  ],
+  "minimum_solution_count": 4,
+  "nets": [
+    {
+      "mandatory": true,
+      "minimum_solution_percentage": 100.0,
+      "minimum_solutions_touching": 4,
+      "net": "+9V"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "-9V"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "EA"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "EB"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 50.0,
+      "minimum_solutions_touching": 2,
+      "net": "EOUT"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 25.0,
+      "minimum_solutions_touching": 1,
+      "net": "GND"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "NODE_A"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "NODE_B"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 25.0,
+      "minimum_solutions_touching": 1,
+      "net": "NODE_C"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "R1_EXT"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "R1_W"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "R4_EXT"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "R4_W"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "RA_SW"
+    },
+    {
+      "mandatory": false,
+      "minimum_solution_percentage": 0.0,
+      "minimum_solutions_touching": 0,
+      "net": "RA_W"
+    }
+  ]
+}

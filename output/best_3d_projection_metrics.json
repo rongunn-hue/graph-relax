@@ -1,0 +1,53 @@
+{
+  "best_orientation": {
+    "direction_index": 110,
+    "roll_index": 2,
+    "roll_radians": 1.570796,
+    "view_direction": [
+      0.683517,
+      0.070081,
+      -0.726562
+    ]
+  },
+  "best_projection_index": 882,
+  "coordinate_sha256": "d6feadf05f30571b76c63438b2cb56f2654f1b34f64249f809f2708d61974c34",
+  "experiment_4a": {
+    "clearance_violations": 9,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 78.100365,
+      "crossing": 36000.0,
+      "crowding": 1430.833729,
+      "length": 16537.461923,
+      "overlap": 0.0
+    },
+    "net_crossings": 18,
+    "objective": 54046.396017,
+    "total_connection_length": 4890.986434
+  },
+  "metrics": {
+    "clearance_violations": 23,
+    "component_overlaps": 17,
+    "energy": {
+      "clearance": 20613.635511,
+      "crossing": 126000.0,
+      "crowding": 3628.381635,
+      "length": 4308.277796,
+      "overlap": 1975762.60518
+    },
+    "net_crossings": 63,
+    "objective": 2130312.900122,
+    "total_connection_length": 2696.390357
+  },
+  "orientations_tested": 1024,
+  "percentage_changes_from_experiment_4a": {
+    "clearance_violations_percent": 155.555556,
+    "connection_length_percent": -44.870214,
+    "crossings_percent": 250.0,
+    "crowding_percent": 153.585134,
+    "objective_percent": 3841.637292,
+    "overlaps_percent": null
+  },
+  "projections_beating_experiment_4a_crossings": 0,
+  "projections_beating_experiment_4a_objective": 0
+}

@@ -1,0 +1,160 @@
+{
+  "best_pair": {
+    "abstract_graph_valid": true,
+    "area": 3257392.630017,
+    "area_ratio": 0.951199,
+    "bisection_iterations": 20,
+    "coincident_vertex_pairs": 0,
+    "cyclic_order_orientation": "reflection",
+    "cyclic_order_violations": 0,
+    "edge_length_ratio": 0.997407,
+    "greatest_valid_equal_height": 51.999999,
+    "height": 1038.709385,
+    "height_ratio": 0.951199,
+    "limiting_condition": "two-circle geometric degeneracy",
+    "limiting_height": 52.0,
+    "limiting_vertex": "component:TPC",
+    "maximum_diameter_ratio": 1.0,
+    "maximum_pairwise_vertex_distance": 3136.0,
+    "minimum_nonzero_pairwise_vertex_distance": 0.010198,
+    "pole_a": "component:J_RA",
+    "pole_b": "component:RMIN4",
+    "pole_distance": 784.0,
+    "theoretical_upper_height": 52.0,
+    "total_edge_length": 24296.48834,
+    "unrelated_edge_crossings": 0,
+    "vertices_on_unrelated_edges": 0,
+    "width": 3136.0,
+    "width_ratio": 1.0
+  },
+  "frames": [
+    {
+      "area": 3424512.0,
+      "edge_length": 24359.649504,
+      "fraction": 0.0,
+      "height": 1092.0,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 52.0,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3423653.823122,
+      "edge_length": 24359.245624,
+      "fraction": 0.1,
+      "height": 1091.726347,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 51.739347,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3421054.200591,
+      "edge_length": 24358.025739,
+      "fraction": 0.2,
+      "height": 1090.897385,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 50.949387,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3416633.841122,
+      "edge_length": 24355.963938,
+      "fraction": 0.3,
+      "height": 1089.487832,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 49.604839,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3410245.604076,
+      "edge_length": 24353.012685,
+      "fraction": 0.4,
+      "height": 1087.450767,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 47.658787,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3401645.136291,
+      "edge_length": 24349.094426,
+      "fraction": 0.5,
+      "height": 1084.708271,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 45.033321,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3390429.623098,
+      "edge_length": 24344.084447,
+      "fraction": 0.6,
+      "height": 1081.131895,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 41.6,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3375898.459749,
+      "edge_length": 24337.772888,
+      "fraction": 0.7,
+      "height": 1076.498233,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 37.135429,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3356673.006949,
+      "edge_length": 24329.763877,
+      "fraction": 0.8,
+      "height": 1070.367668,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 31.200001,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3329217.561369,
+      "edge_length": 24319.0933,
+      "fraction": 0.9,
+      "height": 1061.612743,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 22.666276,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3308677.835179,
+      "edge_length": 24311.785963,
+      "fraction": 0.95,
+      "height": 1055.063085,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 16.236998,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3257392.630017,
+      "edge_length": 24296.48834,
+      "fraction": 1.0,
+      "height": 1038.709385,
+      "maximum_pairwise": 3136.0,
+      "minimum_nonzero_pairwise": 0.010198,
+      "valid": true,
+      "width": 3136.0
+    }
+  ],
+  "model": "abstract exact equal-height two-circle contraction",
+  "physical_geometry_participated": false,
+  "shared_viewport": {
+    "height": 1252.0,
+    "width": 3296.0,
+    "x": -80.0,
+    "y": -80.0
+  }
+}

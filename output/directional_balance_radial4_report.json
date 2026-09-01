@@ -1,0 +1,125 @@
+{
+  "all_cumulative_continuity_assertions_passed": true,
+  "animation_frame_count": 73,
+  "directions": [
+    {
+      "R_forward_after": 1403.705882,
+      "R_forward_before": 1732.294118,
+      "R_opposite_after": 1403.705882,
+      "R_opposite_before": 1403.705882,
+      "accepted_s": 0.810316,
+      "attached_nodes": 16,
+      "cumulative_input_matches_previous_output": true,
+      "limiting_event": null,
+      "requested_s": 0.810316,
+      "selected_half_plane_nodes": 16,
+      "theta": 0,
+      "validity_limited": false
+    },
+    {
+      "R_forward_after": 469.529412,
+      "R_forward_before": 469.529412,
+      "R_opposite_after": 570.470588,
+      "R_opposite_before": 570.470588,
+      "accepted_s": 1.0,
+      "attached_nodes": 0,
+      "cumulative_input_matches_previous_output": true,
+      "limiting_event": null,
+      "requested_s": 1.0,
+      "selected_half_plane_nodes": 20,
+      "theta": 90,
+      "validity_limited": false
+    },
+    {
+      "R_forward_after": 1403.705882,
+      "R_forward_before": 1403.705882,
+      "R_opposite_after": 1403.705882,
+      "R_opposite_before": 1403.705882,
+      "accepted_s": 1.0,
+      "attached_nodes": 0,
+      "cumulative_input_matches_previous_output": true,
+      "limiting_event": null,
+      "requested_s": 1.0,
+      "selected_half_plane_nodes": 18,
+      "theta": 180,
+      "validity_limited": false
+    },
+    {
+      "R_forward_after": 469.529412,
+      "R_forward_before": 570.470588,
+      "R_opposite_after": 469.529412,
+      "R_opposite_before": 469.529412,
+      "accepted_s": 0.823056,
+      "attached_nodes": 14,
+      "cumulative_input_matches_previous_output": true,
+      "limiting_event": null,
+      "requested_s": 0.823056,
+      "selected_half_plane_nodes": 14,
+      "theta": 270,
+      "validity_limited": false
+    }
+  ],
+  "end": {
+    "area": 2169843.72708,
+    "centroid": {
+      "x": 1352.812643,
+      "y": 591.007944
+    },
+    "height": 939.058824,
+    "total_edge_length": 19132.905185,
+    "width": 2310.65794
+  },
+  "final_centroid": {
+    "x": 1352.812643,
+    "y": 591.007944
+  },
+  "final_validation": {
+    "abstract_graph_valid": true,
+    "all_original_edges_preserved": true,
+    "all_original_vertices_exist": true,
+    "coincident_details": [],
+    "coincident_vertex_pairs": 0,
+    "crossing_details": [],
+    "cyclic_order_orientation": "reflection",
+    "cyclic_order_violations": 0,
+    "cyclic_violation_vertices": [],
+    "per_vertex_cyclic_orientation": {
+      "component:J_PWR": "reflection",
+      "component:J_R1": "reflection",
+      "component:J_R4": "reflection",
+      "component:J_RA": "reflection",
+      "component:U1": "reflection",
+      "net:+9V": "reflection",
+      "net:-9V": "reflection",
+      "net:EOUT": "reflection",
+      "net:GND": "reflection",
+      "net:NODE_A": "reflection",
+      "net:NODE_B": "reflection",
+      "net:NODE_C": "reflection"
+    },
+    "unrelated_edge_crossings": 0,
+    "vertex_on_edge_details": [],
+    "vertices_on_unrelated_edges": 0
+  },
+  "fixed_viewport": {
+    "height": 1292.0,
+    "width": 3336.0,
+    "x": -100.0,
+    "y": -100.0
+  },
+  "frozen_centroid": {
+    "x": 1403.705882,
+    "y": 570.470588
+  },
+  "source": "output/directional_balance_start.svg",
+  "start": {
+    "area": 3424512.0,
+    "centroid": {
+      "x": 1403.705882,
+      "y": 570.470588
+    },
+    "height": 1092.0,
+    "total_edge_length": 24359.649504,
+    "width": 3136.0
+  }
+}

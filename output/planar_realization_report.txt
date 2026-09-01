@@ -1,0 +1,21 @@
+Experiment 4R: constrained-planar embedding realization
+
+SET | Primary valid | L0 crossings | L1/L0 crossings | bends | total length | area
+SET001 | NO | N/A | N/A | N/A | N/A | N/A
+SET002 | NO | N/A | N/A | N/A | N/A | N/A
+SET003 | NO | N/A | N/A | N/A | N/A | N/A
+SET004 | NO | N/A | N/A | N/A | N/A | N/A
+
+Result: all four Stage A realizations failed before edge geometry generation.
+SET001-SET003 require independent reversal of J_PWR and U1.
+SET004 requires independent reversal of J_PWR, J_R4, and U1.
+Other 3+-terminal components retain current order, so a global reflection cannot repair the mismatch.
+No Layer-0 or Layer-1 geometry was generated, because doing so would require a forbidden component mirror or embedding change.
+Stage B: NOT EXHAUSTIVELY SEARCHED (conditional on Stage A success).
+
+Answers:
+1. None of the exact saved 4Q embeddings can be realized by the fixed anonymous rectangles without mirroring selected components.
+2. No valid primary realization was produced; zero-crossing geometry therefore was not claimed.
+3. No Layer-1 comparison is possible.
+4. No visual organization comparison with 4F is valid because 4R produced no complete geometry.
+5. Topology-first remains promising at the abstract level, but the 4P/4Q wheel representation omitted oriented port-order chirality needed by the physical rectangle model.

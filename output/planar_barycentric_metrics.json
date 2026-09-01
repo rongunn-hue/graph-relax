@@ -1,0 +1,25 @@
+{
+  "clearance_violations": null,
+  "comparison_4k": {
+    "area": 3520592,
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "crossings": 0,
+    "height": 1112,
+    "total_connection_length": 23095.744883,
+    "unrelated_component_body_intersections": 0,
+    "width": 3166
+  },
+  "comparison_possible": false,
+  "component_overlaps": 2,
+  "crossings": null,
+  "crowding": null,
+  "drawing_area": null,
+  "drawing_height": null,
+  "drawing_width": null,
+  "objective": null,
+  "selected_physical_scale": null,
+  "status": "NO_VALID_PHYSICAL_REALIZATION",
+  "total_connection_length": null,
+  "unrelated_component_body_intersections": null
+}

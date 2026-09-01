@@ -1,0 +1,719 @@
+{
+  "anchor_fixed": true,
+  "baseline_4i_reproduced": true,
+  "coordinate_precision": 1e-06,
+  "embedding_unchanged": true,
+  "maximum_passes": 20,
+  "validation": {
+    "added_incidences": 0,
+    "all_vertex_cyclic_order_orientation": "global_reflection",
+    "all_vertex_cyclic_order_rows": [
+      {
+        "geometric_angular_order": [
+          "net:+9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:+9V",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:C1"
+      },
+      {
+        "geometric_angular_order": [
+          "net:-9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:GND",
+          "net:-9V"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:C2"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_C",
+          "net:RA_SW"
+        ],
+        "required_clockwise": [
+          "net:NODE_C",
+          "net:RA_SW"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:JP1"
+      },
+      {
+        "geometric_angular_order": [
+          "net:EA",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:EA",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:J_EA"
+      },
+      {
+        "geometric_angular_order": [
+          "net:EB",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:EB",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:J_EB"
+      },
+      {
+        "geometric_angular_order": [
+          "net:EOUT",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:EOUT",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:J_OUT"
+      },
+      {
+        "geometric_angular_order": [
+          "net:GND",
+          "net:+9V",
+          "net:-9V"
+        ],
+        "required_clockwise": [
+          "net:+9V",
+          "net:GND",
+          "net:-9V"
+        ],
+        "state": "global_reflection",
+        "vertex": "component:J_PWR"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_A",
+          "net:R1_W",
+          "net:R1_EXT"
+        ],
+        "required_clockwise": [
+          "net:NODE_A",
+          "net:R1_EXT",
+          "net:R1_W"
+        ],
+        "state": "global_reflection",
+        "vertex": "component:J_R1"
+      },
+      {
+        "geometric_angular_order": [
+          "net:EOUT",
+          "net:R4_W",
+          "net:R4_EXT"
+        ],
+        "required_clockwise": [
+          "net:EOUT",
+          "net:R4_EXT",
+          "net:R4_W"
+        ],
+        "state": "global_reflection",
+        "vertex": "component:J_R4"
+      },
+      {
+        "geometric_angular_order": [
+          "net:RA_SW",
+          "net:RA_W",
+          "net:NODE_A"
+        ],
+        "required_clockwise": [
+          "net:RA_SW",
+          "net:NODE_A",
+          "net:RA_W"
+        ],
+        "state": "global_reflection",
+        "vertex": "component:J_RA"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_A",
+          "net:NODE_B"
+        ],
+        "required_clockwise": [
+          "net:NODE_A",
+          "net:NODE_B"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:R2"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_B",
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:NODE_B",
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:R3"
+      },
+      {
+        "geometric_angular_order": [
+          "net:GND",
+          "net:R1_EXT"
+        ],
+        "required_clockwise": [
+          "net:R1_EXT",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:RMIN1"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_C",
+          "net:R4_EXT"
+        ],
+        "required_clockwise": [
+          "net:R4_EXT",
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:RMIN4"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_A"
+        ],
+        "required_clockwise": [
+          "net:NODE_A"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:TPA"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_B"
+        ],
+        "required_clockwise": [
+          "net:NODE_B"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:TPB"
+      },
+      {
+        "geometric_angular_order": [
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:TPC"
+      },
+      {
+        "geometric_angular_order": [
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:EOUT"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "component:TPO"
+      },
+      {
+        "geometric_angular_order": [
+          "net:EB",
+          "net:EA",
+          "net:-9V",
+          "net:+9V",
+          "net:NODE_A",
+          "net:NODE_B",
+          "net:NODE_C",
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:-9V",
+          "net:EA",
+          "net:EB",
+          "net:EOUT",
+          "net:NODE_C",
+          "net:NODE_B",
+          "net:NODE_A",
+          "net:+9V"
+        ],
+        "state": "global_reflection",
+        "vertex": "component:U1"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_PWR",
+          "component:C1",
+          "component:U1"
+        ],
+        "required_clockwise": [
+          "component:C1",
+          "component:J_PWR",
+          "component:U1"
+        ],
+        "state": "global_reflection",
+        "vertex": "net:+9V"
+      },
+      {
+        "geometric_angular_order": [
+          "component:C2",
+          "component:J_PWR",
+          "component:U1"
+        ],
+        "required_clockwise": [
+          "component:C2",
+          "component:U1",
+          "component:J_PWR"
+        ],
+        "state": "global_reflection",
+        "vertex": "net:-9V"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_EA",
+          "component:U1"
+        ],
+        "required_clockwise": [
+          "component:U1",
+          "component:J_EA"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:EA"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_EB",
+          "component:U1"
+        ],
+        "required_clockwise": [
+          "component:U1",
+          "component:J_EB"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:EB"
+      },
+      {
+        "geometric_angular_order": [
+          "component:U1",
+          "component:TPO",
+          "component:J_R4",
+          "component:J_OUT"
+        ],
+        "required_clockwise": [
+          "component:U1",
+          "component:J_OUT",
+          "component:J_R4",
+          "component:TPO"
+        ],
+        "state": "global_reflection",
+        "vertex": "net:EOUT"
+      },
+      {
+        "geometric_angular_order": [
+          "component:RMIN1",
+          "component:C1",
+          "component:J_PWR",
+          "component:C2",
+          "component:J_EA",
+          "component:J_EB",
+          "component:J_OUT"
+        ],
+        "required_clockwise": [
+          "component:J_PWR",
+          "component:C1",
+          "component:RMIN1",
+          "component:J_OUT",
+          "component:J_EB",
+          "component:J_EA",
+          "component:C2"
+        ],
+        "state": "global_reflection",
+        "vertex": "net:GND"
+      },
+      {
+        "geometric_angular_order": [
+          "component:U1",
+          "component:J_R1",
+          "component:J_RA",
+          "component:TPA",
+          "component:R2"
+        ],
+        "required_clockwise": [
+          "component:J_RA",
+          "component:J_R1",
+          "component:U1",
+          "component:R2",
+          "component:TPA"
+        ],
+        "state": "global_reflection",
+        "vertex": "net:NODE_A"
+      },
+      {
+        "geometric_angular_order": [
+          "component:U1",
+          "component:R2",
+          "component:TPB",
+          "component:R3"
+        ],
+        "required_clockwise": [
+          "component:R2",
+          "component:U1",
+          "component:R3",
+          "component:TPB"
+        ],
+        "state": "global_reflection",
+        "vertex": "net:NODE_B"
+      },
+      {
+        "geometric_angular_order": [
+          "component:U1",
+          "component:R3",
+          "component:JP1",
+          "component:RMIN4",
+          "component:TPC"
+        ],
+        "required_clockwise": [
+          "component:RMIN4",
+          "component:JP1",
+          "component:R3",
+          "component:U1",
+          "component:TPC"
+        ],
+        "state": "global_reflection",
+        "vertex": "net:NODE_C"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_R1",
+          "component:RMIN1"
+        ],
+        "required_clockwise": [
+          "component:J_R1",
+          "component:RMIN1"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:R1_EXT"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_R1"
+        ],
+        "required_clockwise": [
+          "component:J_R1"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:R1_W"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_R4",
+          "component:RMIN4"
+        ],
+        "required_clockwise": [
+          "component:J_R4",
+          "component:RMIN4"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:R4_EXT"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_R4"
+        ],
+        "required_clockwise": [
+          "component:J_R4"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:R4_W"
+      },
+      {
+        "geometric_angular_order": [
+          "component:JP1",
+          "component:J_RA"
+        ],
+        "required_clockwise": [
+          "component:JP1",
+          "component:J_RA"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:RA_SW"
+      },
+      {
+        "geometric_angular_order": [
+          "component:J_RA"
+        ],
+        "required_clockwise": [
+          "component:J_RA"
+        ],
+        "state": "ambiguous_degree_below_3",
+        "vertex": "net:RA_W"
+      }
+    ],
+    "body_intersection_details": [],
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "cyclic_order_orientation": "global_reflection",
+    "cyclic_order_rows": [
+      {
+        "component": "C1",
+        "geometric_perimeter_order": [
+          "net:+9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:+9V",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "C2",
+        "geometric_perimeter_order": [
+          "net:-9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:GND",
+          "net:-9V"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "JP1",
+        "geometric_perimeter_order": [
+          "net:NODE_C",
+          "net:RA_SW"
+        ],
+        "required_clockwise": [
+          "net:NODE_C",
+          "net:RA_SW"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_EA",
+        "geometric_perimeter_order": [
+          "net:EA",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:EA",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_EB",
+        "geometric_perimeter_order": [
+          "net:EB",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:EB",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_OUT",
+        "geometric_perimeter_order": [
+          "net:GND",
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:EOUT",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "J_PWR",
+        "geometric_perimeter_order": [
+          "net:+9V",
+          "net:-9V",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:+9V",
+          "net:GND",
+          "net:-9V"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "J_R1",
+        "geometric_perimeter_order": [
+          "net:R1_EXT",
+          "net:NODE_A",
+          "net:R1_W"
+        ],
+        "required_clockwise": [
+          "net:NODE_A",
+          "net:R1_EXT",
+          "net:R1_W"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "J_R4",
+        "geometric_perimeter_order": [
+          "net:EOUT",
+          "net:R4_W",
+          "net:R4_EXT"
+        ],
+        "required_clockwise": [
+          "net:EOUT",
+          "net:R4_EXT",
+          "net:R4_W"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "J_RA",
+        "geometric_perimeter_order": [
+          "net:RA_SW",
+          "net:RA_W",
+          "net:NODE_A"
+        ],
+        "required_clockwise": [
+          "net:RA_SW",
+          "net:NODE_A",
+          "net:RA_W"
+        ],
+        "state": "global_reflection"
+      },
+      {
+        "component": "R2",
+        "geometric_perimeter_order": [
+          "net:NODE_A",
+          "net:NODE_B"
+        ],
+        "required_clockwise": [
+          "net:NODE_A",
+          "net:NODE_B"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "R3",
+        "geometric_perimeter_order": [
+          "net:NODE_B",
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:NODE_B",
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "RMIN1",
+        "geometric_perimeter_order": [
+          "net:R1_EXT",
+          "net:GND"
+        ],
+        "required_clockwise": [
+          "net:R1_EXT",
+          "net:GND"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "RMIN4",
+        "geometric_perimeter_order": [
+          "net:R4_EXT",
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:R4_EXT",
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPA",
+        "geometric_perimeter_order": [
+          "net:NODE_A"
+        ],
+        "required_clockwise": [
+          "net:NODE_A"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPB",
+        "geometric_perimeter_order": [
+          "net:NODE_B"
+        ],
+        "required_clockwise": [
+          "net:NODE_B"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPC",
+        "geometric_perimeter_order": [
+          "net:NODE_C"
+        ],
+        "required_clockwise": [
+          "net:NODE_C"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "TPO",
+        "geometric_perimeter_order": [
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:EOUT"
+        ],
+        "state": "ambiguous_degree_below_3"
+      },
+      {
+        "component": "U1",
+        "geometric_perimeter_order": [
+          "net:EB",
+          "net:EA",
+          "net:-9V",
+          "net:+9V",
+          "net:NODE_A",
+          "net:NODE_B",
+          "net:NODE_C",
+          "net:EOUT"
+        ],
+        "required_clockwise": [
+          "net:-9V",
+          "net:EA",
+          "net:EB",
+          "net:EOUT",
+          "net:NODE_C",
+          "net:NODE_B",
+          "net:NODE_A",
+          "net:+9V"
+        ],
+        "state": "global_reflection"
+      }
+    ],
+    "different_net_crossings": 0,
+    "electrical_incidence_exact": true,
+    "embedding_edge_set_exact": true,
+    "embedding_vertex_set_exact": true,
+    "expected_incidence_count": 44,
+    "graph_edge_count": 44,
+    "graph_vertex_count": 34,
+    "missing_incidences": 0,
+    "planar": true,
+    "realized_incidence_count": 44,
+    "unrelated_component_body_intersections": 0,
+    "valid": true
+  }
+}

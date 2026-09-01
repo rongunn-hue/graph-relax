@@ -1,0 +1,3304 @@
+{
+  "RMS_error": 343.302129,
+  "arithmetic_centroid": {
+    "x": 1403.705882,
+    "y": 570.470588
+  },
+  "bounding_box_center": {
+    "x": 1568.0,
+    "y": 546.0
+  },
+  "coordinates_unchanged": true,
+  "fitted_circle": {
+    "Cx": 1565.395767,
+    "Cy": 253.150676,
+    "R": 1131.409931
+  },
+  "least_squares_residual_checks": {
+    "mean_e": 0.0,
+    "sum_e_cos": 0.0,
+    "sum_e_sin": 0.0
+  },
+  "maximum_negative_residual": {
+    "error": -878.259255,
+    "theta": 270
+  },
+  "maximum_positive_residual": {
+    "error": 459.459048,
+    "theta": 351
+  },
+  "normalized_RMS_error": 0.303429,
+  "peak_to_peak_residual": 1337.718303,
+  "positive_lobes": [
+    {
+      "center": 350.845424,
+      "end": 35.509988,
+      "integrated_positive_error": 27078.156644,
+      "peak_angle": 351,
+      "peak_error": 459.459048,
+      "start": 306.176673,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "width": 89.333314
+    },
+    {
+      "center": 189.186364,
+      "end": 233.664313,
+      "integrated_positive_error": 26664.648412,
+      "peak_angle": 189,
+      "peak_error": 454.314706,
+      "start": 144.707849,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "width": 88.956465
+    }
+  ],
+  "sample_count": 360,
+  "samples": [
+    {
+      "H": 3136.0,
+      "H_circle": 2696.805698,
+      "e": 439.194302,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 0
+    },
+    {
+      "H": 3135.522372,
+      "H_circle": 2700.985369,
+      "e": 434.537003,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 1
+    },
+    {
+      "H": 3134.089634,
+      "H_circle": 2704.686932,
+      "e": 429.402701,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 2
+    },
+    {
+      "H": 3131.702221,
+      "H_circle": 2707.90926,
+      "e": 423.792961,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 3
+    },
+    {
+      "H": 3128.360862,
+      "H_circle": 2710.651371,
+      "e": 417.709491,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 4
+    },
+    {
+      "H": 3124.066573,
+      "H_circle": 2712.91243,
+      "e": 411.154144,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 5
+    },
+    {
+      "H": 3118.820664,
+      "H_circle": 2714.691747,
+      "e": 404.128917,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 6
+    },
+    {
+      "H": 3112.624732,
+      "H_circle": 2715.988782,
+      "e": 396.63595,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 7
+    },
+    {
+      "H": 3105.480664,
+      "H_circle": 2716.803139,
+      "e": 388.677525,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 8
+    },
+    {
+      "H": 3097.390636,
+      "H_circle": 2717.134569,
+      "e": 380.256067,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 9
+    },
+    {
+      "H": 3088.357113,
+      "H_circle": 2716.982972,
+      "e": 371.374141,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 10
+    },
+    {
+      "H": 3078.382847,
+      "H_circle": 2716.348395,
+      "e": 362.034452,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 11
+    },
+    {
+      "H": 3067.470876,
+      "H_circle": 2715.23103,
+      "e": 352.239846,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 12
+    },
+    {
+      "H": 3055.624523,
+      "H_circle": 2713.631217,
+      "e": 341.993306,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 13
+    },
+    {
+      "H": 3042.847398,
+      "H_circle": 2711.549445,
+      "e": 331.297953,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 14
+    },
+    {
+      "H": 3029.143391,
+      "H_circle": 2708.986347,
+      "e": 320.157044,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 15
+    },
+    {
+      "H": 3014.516678,
+      "H_circle": 2705.942704,
+      "e": 308.573975,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 16
+    },
+    {
+      "H": 2998.971715,
+      "H_circle": 2702.419443,
+      "e": 296.552272,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 17
+    },
+    {
+      "H": 2982.513235,
+      "H_circle": 2698.417637,
+      "e": 284.095598,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 18
+    },
+    {
+      "H": 2965.146253,
+      "H_circle": 2693.938505,
+      "e": 271.207748,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 19
+    },
+    {
+      "H": 2946.876059,
+      "H_circle": 2688.983412,
+      "e": 257.892646,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 20
+    },
+    {
+      "H": 2927.708217,
+      "H_circle": 2683.553868,
+      "e": 244.15435,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 21
+    },
+    {
+      "H": 2907.648568,
+      "H_circle": 2677.651525,
+      "e": 229.997043,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 22
+    },
+    {
+      "H": 2886.70322,
+      "H_circle": 2671.278181,
+      "e": 215.425039,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 23
+    },
+    {
+      "H": 2864.878555,
+      "H_circle": 2664.43578,
+      "e": 200.442776,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 24
+    },
+    {
+      "H": 2842.18122,
+      "H_circle": 2657.126403,
+      "e": 185.054817,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 25
+    },
+    {
+      "H": 2818.618129,
+      "H_circle": 2649.352279,
+      "e": 169.26585,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 26
+    },
+    {
+      "H": 2794.19646,
+      "H_circle": 2641.115774,
+      "e": 153.080686,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 27
+    },
+    {
+      "H": 2768.923651,
+      "H_circle": 2632.419399,
+      "e": 136.504252,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 28
+    },
+    {
+      "H": 2742.807402,
+      "H_circle": 2623.265801,
+      "e": 119.5416,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 29
+    },
+    {
+      "H": 2715.855666,
+      "H_circle": 2613.65777,
+      "e": 102.197896,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 30
+    },
+    {
+      "H": 2688.076655,
+      "H_circle": 2603.598232,
+      "e": 84.478423,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 31
+    },
+    {
+      "H": 2659.47883,
+      "H_circle": 2593.090251,
+      "e": 66.388579,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 32
+    },
+    {
+      "H": 2630.070901,
+      "H_circle": 2582.137028,
+      "e": 47.933873,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 33
+    },
+    {
+      "H": 2599.861828,
+      "H_circle": 2570.741899,
+      "e": 29.119928,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 34
+    },
+    {
+      "H": 2568.860811,
+      "H_circle": 2558.908336,
+      "e": 9.952474,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 35
+    },
+    {
+      "H": 2537.077294,
+      "H_circle": 2546.639944,
+      "e": -9.562649,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 36
+    },
+    {
+      "H": 2504.52096,
+      "H_circle": 2533.940458,
+      "e": -29.419498,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 37
+    },
+    {
+      "H": 2471.201723,
+      "H_circle": 2520.813748,
+      "e": -49.612025,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 38
+    },
+    {
+      "H": 2437.129735,
+      "H_circle": 2507.263812,
+      "e": -70.134077,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 39
+    },
+    {
+      "H": 2402.315374,
+      "H_circle": 2493.294778,
+      "e": -90.979404,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 40
+    },
+    {
+      "H": 2366.769244,
+      "H_circle": 2478.9109,
+      "e": -112.141656,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 41
+    },
+    {
+      "H": 2330.502173,
+      "H_circle": 2464.116561,
+      "e": -133.614388,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 42
+    },
+    {
+      "H": 2293.525208,
+      "H_circle": 2448.916266,
+      "e": -155.391058,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 43
+    },
+    {
+      "H": 2268.093805,
+      "H_circle": 2433.314646,
+      "e": -165.220841,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 44
+    },
+    {
+      "H": 2247.185351,
+      "H_circle": 2417.316453,
+      "e": -170.131102,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 45
+    },
+    {
+      "H": 2225.592382,
+      "H_circle": 2400.926561,
+      "e": -175.334178,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 46
+    },
+    {
+      "H": 2203.321477,
+      "H_circle": 2384.149961,
+      "e": -180.828484,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 47
+    },
+    {
+      "H": 2180.379419,
+      "H_circle": 2366.991765,
+      "e": -186.612346,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 48
+    },
+    {
+      "H": 2156.773195,
+      "H_circle": 2349.457199,
+      "e": -192.684003,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 49
+    },
+    {
+      "H": 2132.509998,
+      "H_circle": 2331.551603,
+      "e": -199.041605,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 50
+    },
+    {
+      "H": 2107.597218,
+      "H_circle": 2313.280433,
+      "e": -205.683215,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 51
+    },
+    {
+      "H": 2082.042443,
+      "H_circle": 2294.649254,
+      "e": -212.60681,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 52
+    },
+    {
+      "H": 2055.853458,
+      "H_circle": 2275.66374,
+      "e": -219.810282,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 53
+    },
+    {
+      "H": 2029.03824,
+      "H_circle": 2256.329676,
+      "e": -227.291436,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 54
+    },
+    {
+      "H": 2001.604957,
+      "H_circle": 2236.652951,
+      "e": -235.047993,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 55
+    },
+    {
+      "H": 1973.561966,
+      "H_circle": 2216.639557,
+      "e": -243.077591,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 56
+    },
+    {
+      "H": 1944.917809,
+      "H_circle": 2196.295593,
+      "e": -251.377783,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 57
+    },
+    {
+      "H": 1915.681211,
+      "H_circle": 2175.627253,
+      "e": -259.946042,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 58
+    },
+    {
+      "H": 1885.861078,
+      "H_circle": 2154.640835,
+      "e": -268.779757,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 59
+    },
+    {
+      "H": 1855.466494,
+      "H_circle": 2133.342731,
+      "e": -277.876237,
+      "support_vertices": [
+        "component:J_R1"
+      ],
+      "theta": 60
+    },
+    {
+      "H": 1834.044562,
+      "H_circle": 2111.739429,
+      "e": -277.694867,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 61
+    },
+    {
+      "H": 1815.330715,
+      "H_circle": 2089.837508,
+      "e": -274.506794,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 62
+    },
+    {
+      "H": 1796.0639,
+      "H_circle": 2067.643642,
+      "e": -271.579741,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 63
+    },
+    {
+      "H": 1776.249988,
+      "H_circle": 2045.164589,
+      "e": -268.914602,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 64
+    },
+    {
+      "H": 1755.895012,
+      "H_circle": 2022.407198,
+      "e": -266.512186,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 65
+    },
+    {
+      "H": 1735.005174,
+      "H_circle": 1999.378401,
+      "e": -264.373227,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 66
+    },
+    {
+      "H": 1713.586836,
+      "H_circle": 1976.085212,
+      "e": -262.498376,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 67
+    },
+    {
+      "H": 1691.646523,
+      "H_circle": 1952.534727,
+      "e": -260.888204,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 68
+    },
+    {
+      "H": 1669.190918,
+      "H_circle": 1928.734119,
+      "e": -259.5432,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 69
+    },
+    {
+      "H": 1646.226862,
+      "H_circle": 1904.690638,
+      "e": -258.463776,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 70
+    },
+    {
+      "H": 1622.761349,
+      "H_circle": 1880.411609,
+      "e": -257.65026,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 71
+    },
+    {
+      "H": 1598.801527,
+      "H_circle": 1855.904426,
+      "e": -257.1029,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 72
+    },
+    {
+      "H": 1574.354694,
+      "H_circle": 1831.176556,
+      "e": -256.821862,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 73
+    },
+    {
+      "H": 1549.428298,
+      "H_circle": 1806.23553,
+      "e": -256.807232,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 74
+    },
+    {
+      "H": 1524.029931,
+      "H_circle": 1781.088945,
+      "e": -257.059014,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 75
+    },
+    {
+      "H": 1498.16733,
+      "H_circle": 1755.744462,
+      "e": -257.577132,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 76
+    },
+    {
+      "H": 1471.848372,
+      "H_circle": 1730.2098,
+      "e": -258.361428,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 77
+    },
+    {
+      "H": 1445.081075,
+      "H_circle": 1704.492739,
+      "e": -259.411663,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 78
+    },
+    {
+      "H": 1417.873593,
+      "H_circle": 1678.60111,
+      "e": -260.727517,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 79
+    },
+    {
+      "H": 1390.234212,
+      "H_circle": 1652.542802,
+      "e": -262.30859,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 80
+    },
+    {
+      "H": 1362.171353,
+      "H_circle": 1626.325752,
+      "e": -264.154399,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 81
+    },
+    {
+      "H": 1333.693563,
+      "H_circle": 1599.957946,
+      "e": -266.264383,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 82
+    },
+    {
+      "H": 1304.809517,
+      "H_circle": 1573.447415,
+      "e": -268.637898,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 83
+    },
+    {
+      "H": 1275.528014,
+      "H_circle": 1546.802236,
+      "e": -271.274222,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 84
+    },
+    {
+      "H": 1245.857972,
+      "H_circle": 1520.030524,
+      "e": -274.172552,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 85
+    },
+    {
+      "H": 1215.80843,
+      "H_circle": 1493.140434,
+      "e": -277.332004,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 86
+    },
+    {
+      "H": 1185.388541,
+      "H_circle": 1466.140158,
+      "e": -280.751617,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 87
+    },
+    {
+      "H": 1154.607571,
+      "H_circle": 1439.037919,
+      "e": -284.430349,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 88
+    },
+    {
+      "H": 1123.474896,
+      "H_circle": 1411.841975,
+      "e": -288.367079,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 89
+    },
+    {
+      "H": 1092.0,
+      "H_circle": 1384.560608,
+      "e": -292.560608,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 90
+    },
+    {
+      "H": 1060.19247,
+      "H_circle": 1357.202128,
+      "e": -297.009658,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 91
+    },
+    {
+      "H": 1028.061996,
+      "H_circle": 1329.774871,
+      "e": -301.712875,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 92
+    },
+    {
+      "H": 995.618363,
+      "H_circle": 1302.287189,
+      "e": -306.668826,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 93
+    },
+    {
+      "H": 962.871456,
+      "H_circle": 1274.747457,
+      "e": -311.876001,
+      "support_vertices": [
+        "net:RA_SW"
+      ],
+      "theta": 94
+    },
+    {
+      "H": 942.088595,
+      "H_circle": 1247.164062,
+      "e": -305.075467,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 95
+    },
+    {
+      "H": 921.621088,
+      "H_circle": 1219.545408,
+      "e": -297.92432,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 96
+    },
+    {
+      "H": 900.872846,
+      "H_circle": 1191.899907,
+      "e": -291.027061,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 97
+    },
+    {
+      "H": 879.850189,
+      "H_circle": 1164.23598,
+      "e": -284.385791,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 98
+    },
+    {
+      "H": 858.559521,
+      "H_circle": 1136.562053,
+      "e": -278.002532,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 99
+    },
+    {
+      "H": 837.007328,
+      "H_circle": 1108.886558,
+      "e": -271.87923,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 100
+    },
+    {
+      "H": 815.200174,
+      "H_circle": 1081.217923,
+      "e": -266.017749,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 101
+    },
+    {
+      "H": 793.144702,
+      "H_circle": 1053.564577,
+      "e": -260.419875,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 102
+    },
+    {
+      "H": 770.847631,
+      "H_circle": 1025.934944,
+      "e": -255.087313,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 103
+    },
+    {
+      "H": 748.315752,
+      "H_circle": 998.337439,
+      "e": -250.021688,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 104
+    },
+    {
+      "H": 725.555929,
+      "H_circle": 970.78047,
+      "e": -245.224541,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 105
+    },
+    {
+      "H": 702.575094,
+      "H_circle": 943.27243,
+      "e": -240.697336,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 106
+    },
+    {
+      "H": 679.380249,
+      "H_circle": 915.821698,
+      "e": -236.44145,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 107
+    },
+    {
+      "H": 655.978457,
+      "H_circle": 888.436637,
+      "e": -232.45818,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 108
+    },
+    {
+      "H": 632.376848,
+      "H_circle": 861.125587,
+      "e": -228.748739,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 109
+    },
+    {
+      "H": 608.582611,
+      "H_circle": 833.896869,
+      "e": -225.314258,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 110
+    },
+    {
+      "H": 584.602994,
+      "H_circle": 806.758777,
+      "e": -222.155783,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 111
+    },
+    {
+      "H": 560.445301,
+      "H_circle": 779.719576,
+      "e": -219.274275,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 112
+    },
+    {
+      "H": 536.116891,
+      "H_circle": 752.787503,
+      "e": -216.670612,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 113
+    },
+    {
+      "H": 511.625175,
+      "H_circle": 725.970763,
+      "e": -214.345588,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 114
+    },
+    {
+      "H": 486.977612,
+      "H_circle": 699.277523,
+      "e": -212.29991,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 115
+    },
+    {
+      "H": 462.181712,
+      "H_circle": 672.715915,
+      "e": -210.534203,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 116
+    },
+    {
+      "H": 437.245026,
+      "H_circle": 646.294029,
+      "e": -209.049003,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 117
+    },
+    {
+      "H": 412.175152,
+      "H_circle": 620.019915,
+      "e": -207.844763,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 118
+    },
+    {
+      "H": 386.979725,
+      "H_circle": 593.901575,
+      "e": -206.92185,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 119
+    },
+    {
+      "H": 361.66642,
+      "H_circle": 567.946965,
+      "e": -206.280545,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 120
+    },
+    {
+      "H": 336.242948,
+      "H_circle": 542.163991,
+      "e": -205.921043,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 121
+    },
+    {
+      "H": 310.717053,
+      "H_circle": 516.560508,
+      "e": -205.843454,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 122
+    },
+    {
+      "H": 285.096511,
+      "H_circle": 491.144313,
+      "e": -206.047802,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 123
+    },
+    {
+      "H": 259.389126,
+      "H_circle": 465.92315,
+      "e": -206.534024,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 124
+    },
+    {
+      "H": 233.602728,
+      "H_circle": 440.9047,
+      "e": -207.301972,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 125
+    },
+    {
+      "H": 207.745172,
+      "H_circle": 416.096585,
+      "e": -208.351413,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 126
+    },
+    {
+      "H": 181.824335,
+      "H_circle": 391.506361,
+      "e": -209.682026,
+      "support_vertices": [
+        "component:RMIN4"
+      ],
+      "theta": 127
+    },
+    {
+      "H": 162.137203,
+      "H_circle": 367.141519,
+      "e": -205.004316,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 128
+    },
+    {
+      "H": 143.623363,
+      "H_circle": 343.009481,
+      "e": -199.386119,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 129
+    },
+    {
+      "H": 125.065773,
+      "H_circle": 319.117597,
+      "e": -194.051825,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 130
+    },
+    {
+      "H": 106.470086,
+      "H_circle": 295.473145,
+      "e": -189.003059,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 131
+    },
+    {
+      "H": 87.841968,
+      "H_circle": 272.083328,
+      "e": -184.24136,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 132
+    },
+    {
+      "H": 69.187093,
+      "H_circle": 248.95527,
+      "e": -179.768177,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 133
+    },
+    {
+      "H": 50.511142,
+      "H_circle": 226.096016,
+      "e": -175.584874,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 134
+    },
+    {
+      "H": 31.819805,
+      "H_circle": 203.512529,
+      "e": -171.692724,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 135
+    },
+    {
+      "H": 13.118776,
+      "H_circle": 181.211689,
+      "e": -168.092914,
+      "support_vertices": [
+        "component:J_OUT"
+      ],
+      "theta": 136
+    },
+    {
+      "H": 0.0,
+      "H_circle": 159.200289,
+      "e": -159.200289,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 137
+    },
+    {
+      "H": 0.0,
+      "H_circle": 137.485033,
+      "e": -137.485033,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 138
+    },
+    {
+      "H": 0.0,
+      "H_circle": 116.072536,
+      "e": -116.072536,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 139
+    },
+    {
+      "H": 0.0,
+      "H_circle": 94.969321,
+      "e": -94.969321,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 140
+    },
+    {
+      "H": 0.0,
+      "H_circle": 74.181816,
+      "e": -74.181816,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 141
+    },
+    {
+      "H": 0.0,
+      "H_circle": 53.716352,
+      "e": -53.716352,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 142
+    },
+    {
+      "H": 0.0,
+      "H_circle": 33.579165,
+      "e": -33.579165,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 143
+    },
+    {
+      "H": 0.0,
+      "H_circle": 13.776387,
+      "e": -13.776387,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 144
+    },
+    {
+      "H": 0.0,
+      "H_circle": -5.685948,
+      "e": 5.685948,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 145
+    },
+    {
+      "H": 0.0,
+      "H_circle": -24.801913,
+      "e": 24.801913,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 146
+    },
+    {
+      "H": 0.0,
+      "H_circle": -43.565685,
+      "e": 43.565685,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 147
+    },
+    {
+      "H": 0.0,
+      "H_circle": -61.971548,
+      "e": 61.971548,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 148
+    },
+    {
+      "H": 0.0,
+      "H_circle": -80.013895,
+      "e": 80.013895,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 149
+    },
+    {
+      "H": 0.0,
+      "H_circle": -97.687231,
+      "e": 97.687231,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 150
+    },
+    {
+      "H": 0.0,
+      "H_circle": -114.986172,
+      "e": 114.986172,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 151
+    },
+    {
+      "H": 0.0,
+      "H_circle": -131.905449,
+      "e": 131.905449,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 152
+    },
+    {
+      "H": 0.0,
+      "H_circle": -148.439908,
+      "e": 148.439908,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 153
+    },
+    {
+      "H": 0.0,
+      "H_circle": -164.584511,
+      "e": 164.584511,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 154
+    },
+    {
+      "H": 0.0,
+      "H_circle": -180.334343,
+      "e": 180.334343,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 155
+    },
+    {
+      "H": 0.0,
+      "H_circle": -195.684604,
+      "e": 195.684604,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 156
+    },
+    {
+      "H": 0.0,
+      "H_circle": -210.63062,
+      "e": 210.63062,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 157
+    },
+    {
+      "H": 0.0,
+      "H_circle": -225.167837,
+      "e": 225.167837,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 158
+    },
+    {
+      "H": 0.0,
+      "H_circle": -239.291827,
+      "e": 239.291827,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 159
+    },
+    {
+      "H": 0.0,
+      "H_circle": -252.998289,
+      "e": 252.998289,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 160
+    },
+    {
+      "H": 0.0,
+      "H_circle": -266.283046,
+      "e": 266.283046,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 161
+    },
+    {
+      "H": 0.0,
+      "H_circle": -279.142052,
+      "e": 279.142052,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 162
+    },
+    {
+      "H": 0.0,
+      "H_circle": -291.57139,
+      "e": 291.57139,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 163
+    },
+    {
+      "H": 0.0,
+      "H_circle": -303.567275,
+      "e": 303.567275,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 164
+    },
+    {
+      "H": 0.0,
+      "H_circle": -315.126052,
+      "e": 315.126052,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 165
+    },
+    {
+      "H": 0.0,
+      "H_circle": -326.244199,
+      "e": 326.244199,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 166
+    },
+    {
+      "H": 0.0,
+      "H_circle": -336.918332,
+      "e": 336.918332,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 167
+    },
+    {
+      "H": 0.0,
+      "H_circle": -347.145197,
+      "e": 347.145197,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 168
+    },
+    {
+      "H": 0.0,
+      "H_circle": -356.92168,
+      "e": 356.92168,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 169
+    },
+    {
+      "H": 0.0,
+      "H_circle": -366.244802,
+      "e": 366.244802,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 170
+    },
+    {
+      "H": 0.0,
+      "H_circle": -375.111725,
+      "e": 375.111725,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 171
+    },
+    {
+      "H": 0.0,
+      "H_circle": -383.519747,
+      "e": 383.519747,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 172
+    },
+    {
+      "H": 0.0,
+      "H_circle": -391.466306,
+      "e": 391.466306,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 173
+    },
+    {
+      "H": 0.0,
+      "H_circle": -398.948982,
+      "e": 398.948982,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 174
+    },
+    {
+      "H": 0.0,
+      "H_circle": -405.965496,
+      "e": 405.965496,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 175
+    },
+    {
+      "H": 0.0,
+      "H_circle": -412.513711,
+      "e": 412.513711,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 176
+    },
+    {
+      "H": 0.0,
+      "H_circle": -418.591632,
+      "e": 418.591632,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 177
+    },
+    {
+      "H": 0.0,
+      "H_circle": -424.197407,
+      "e": 424.197407,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 178
+    },
+    {
+      "H": 0.0,
+      "H_circle": -429.329329,
+      "e": 429.329329,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 179
+    },
+    {
+      "H": 0.0,
+      "H_circle": -433.985835,
+      "e": 433.985835,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 180
+    },
+    {
+      "H": -0.0,
+      "H_circle": -438.165506,
+      "e": 438.165506,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 181
+    },
+    {
+      "H": -0.0,
+      "H_circle": -441.86707,
+      "e": 441.86707,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 182
+    },
+    {
+      "H": -0.0,
+      "H_circle": -445.089397,
+      "e": 445.089397,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 183
+    },
+    {
+      "H": -0.0,
+      "H_circle": -447.831508,
+      "e": 447.831508,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 184
+    },
+    {
+      "H": -0.0,
+      "H_circle": -450.092567,
+      "e": 450.092567,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 185
+    },
+    {
+      "H": -0.0,
+      "H_circle": -451.871885,
+      "e": 451.871885,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 186
+    },
+    {
+      "H": -0.0,
+      "H_circle": -453.168919,
+      "e": 453.168919,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 187
+    },
+    {
+      "H": -0.0,
+      "H_circle": -453.983276,
+      "e": 453.983276,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 188
+    },
+    {
+      "H": -0.0,
+      "H_circle": -454.314706,
+      "e": 454.314706,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 189
+    },
+    {
+      "H": -0.0,
+      "H_circle": -454.16311,
+      "e": 454.16311,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 190
+    },
+    {
+      "H": -0.0,
+      "H_circle": -453.528532,
+      "e": 453.528532,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 191
+    },
+    {
+      "H": -0.0,
+      "H_circle": -452.411167,
+      "e": 452.411167,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 192
+    },
+    {
+      "H": -0.0,
+      "H_circle": -450.811355,
+      "e": 450.811355,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 193
+    },
+    {
+      "H": -0.0,
+      "H_circle": -448.729582,
+      "e": 448.729582,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 194
+    },
+    {
+      "H": -0.0,
+      "H_circle": -446.166484,
+      "e": 446.166484,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 195
+    },
+    {
+      "H": -0.0,
+      "H_circle": -443.122841,
+      "e": 443.122841,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 196
+    },
+    {
+      "H": -0.0,
+      "H_circle": -439.59958,
+      "e": 439.59958,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 197
+    },
+    {
+      "H": -0.0,
+      "H_circle": -435.597774,
+      "e": 435.597774,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 198
+    },
+    {
+      "H": -0.0,
+      "H_circle": -431.118643,
+      "e": 431.118643,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 199
+    },
+    {
+      "H": -0.0,
+      "H_circle": -426.16355,
+      "e": 426.16355,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 200
+    },
+    {
+      "H": -0.0,
+      "H_circle": -420.734005,
+      "e": 420.734005,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 201
+    },
+    {
+      "H": -0.0,
+      "H_circle": -414.831662,
+      "e": 414.831662,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 202
+    },
+    {
+      "H": -0.0,
+      "H_circle": -408.458319,
+      "e": 408.458319,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 203
+    },
+    {
+      "H": -0.0,
+      "H_circle": -401.615917,
+      "e": 401.615917,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 204
+    },
+    {
+      "H": -0.0,
+      "H_circle": -394.30654,
+      "e": 394.30654,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 205
+    },
+    {
+      "H": -0.0,
+      "H_circle": -386.532416,
+      "e": 386.532416,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 206
+    },
+    {
+      "H": -0.0,
+      "H_circle": -378.295912,
+      "e": 378.295912,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 207
+    },
+    {
+      "H": -0.0,
+      "H_circle": -369.599536,
+      "e": 369.599536,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 208
+    },
+    {
+      "H": -0.0,
+      "H_circle": -360.445939,
+      "e": 360.445939,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 209
+    },
+    {
+      "H": -0.0,
+      "H_circle": -350.837908,
+      "e": 350.837908,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 210
+    },
+    {
+      "H": -0.0,
+      "H_circle": -340.778369,
+      "e": 340.778369,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 211
+    },
+    {
+      "H": -0.0,
+      "H_circle": -330.270388,
+      "e": 330.270388,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 212
+    },
+    {
+      "H": -0.0,
+      "H_circle": -319.317165,
+      "e": 319.317165,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 213
+    },
+    {
+      "H": -0.0,
+      "H_circle": -307.922037,
+      "e": 307.922037,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 214
+    },
+    {
+      "H": -0.0,
+      "H_circle": -296.088474,
+      "e": 296.088474,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 215
+    },
+    {
+      "H": -0.0,
+      "H_circle": -283.820081,
+      "e": 283.820081,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 216
+    },
+    {
+      "H": -0.0,
+      "H_circle": -271.120595,
+      "e": 271.120595,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 217
+    },
+    {
+      "H": -0.0,
+      "H_circle": -257.993885,
+      "e": 257.993885,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 218
+    },
+    {
+      "H": -0.0,
+      "H_circle": -244.443949,
+      "e": 244.443949,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 219
+    },
+    {
+      "H": -0.0,
+      "H_circle": -230.474915,
+      "e": 230.474915,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 220
+    },
+    {
+      "H": -0.0,
+      "H_circle": -216.091037,
+      "e": 216.091037,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 221
+    },
+    {
+      "H": -0.0,
+      "H_circle": -201.296698,
+      "e": 201.296698,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 222
+    },
+    {
+      "H": -0.0,
+      "H_circle": -186.096403,
+      "e": 186.096403,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 223
+    },
+    {
+      "H": -0.0,
+      "H_circle": -170.494783,
+      "e": 170.494783,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 224
+    },
+    {
+      "H": -0.0,
+      "H_circle": -154.49659,
+      "e": 154.49659,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 225
+    },
+    {
+      "H": -0.0,
+      "H_circle": -138.106698,
+      "e": 138.106698,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 226
+    },
+    {
+      "H": -0.0,
+      "H_circle": -121.330098,
+      "e": 121.330098,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 227
+    },
+    {
+      "H": -0.0,
+      "H_circle": -104.171902,
+      "e": 104.171902,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 228
+    },
+    {
+      "H": -0.0,
+      "H_circle": -86.637336,
+      "e": 86.637336,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 229
+    },
+    {
+      "H": -0.0,
+      "H_circle": -68.73174,
+      "e": 68.73174,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 230
+    },
+    {
+      "H": -0.0,
+      "H_circle": -50.46057,
+      "e": 50.46057,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 231
+    },
+    {
+      "H": -0.0,
+      "H_circle": -31.829391,
+      "e": 31.829391,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 232
+    },
+    {
+      "H": -0.0,
+      "H_circle": -12.843878,
+      "e": 12.843878,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 233
+    },
+    {
+      "H": -0.0,
+      "H_circle": 6.490187,
+      "e": -6.490187,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 234
+    },
+    {
+      "H": -0.0,
+      "H_circle": 26.166912,
+      "e": -26.166912,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 235
+    },
+    {
+      "H": -0.0,
+      "H_circle": 46.180305,
+      "e": -46.180305,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 236
+    },
+    {
+      "H": -0.0,
+      "H_circle": 66.52427,
+      "e": -66.52427,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 237
+    },
+    {
+      "H": -0.0,
+      "H_circle": 87.192609,
+      "e": -87.192609,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 238
+    },
+    {
+      "H": -0.0,
+      "H_circle": 108.179027,
+      "e": -108.179027,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 239
+    },
+    {
+      "H": -0.0,
+      "H_circle": 129.477131,
+      "e": -129.477131,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 240
+    },
+    {
+      "H": -0.0,
+      "H_circle": 151.080434,
+      "e": -151.080434,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 241
+    },
+    {
+      "H": -0.0,
+      "H_circle": 172.982354,
+      "e": -172.982354,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 242
+    },
+    {
+      "H": -0.0,
+      "H_circle": 195.176221,
+      "e": -195.176221,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 243
+    },
+    {
+      "H": -0.0,
+      "H_circle": 217.655273,
+      "e": -217.655273,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 244
+    },
+    {
+      "H": -0.0,
+      "H_circle": 240.412664,
+      "e": -240.412664,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 245
+    },
+    {
+      "H": -0.0,
+      "H_circle": 263.441462,
+      "e": -263.441462,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 246
+    },
+    {
+      "H": -0.0,
+      "H_circle": 286.734651,
+      "e": -286.734651,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 247
+    },
+    {
+      "H": -0.0,
+      "H_circle": 310.285136,
+      "e": -310.285136,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 248
+    },
+    {
+      "H": -0.0,
+      "H_circle": 334.085744,
+      "e": -334.085744,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 249
+    },
+    {
+      "H": -0.0,
+      "H_circle": 358.129224,
+      "e": -358.129224,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 250
+    },
+    {
+      "H": -0.0,
+      "H_circle": 382.408254,
+      "e": -382.408254,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 251
+    },
+    {
+      "H": -0.0,
+      "H_circle": 406.915436,
+      "e": -406.915436,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 252
+    },
+    {
+      "H": -0.0,
+      "H_circle": 431.643307,
+      "e": -431.643307,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 253
+    },
+    {
+      "H": -0.0,
+      "H_circle": 456.584333,
+      "e": -456.584333,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 254
+    },
+    {
+      "H": -0.0,
+      "H_circle": 481.730918,
+      "e": -481.730918,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 255
+    },
+    {
+      "H": -0.0,
+      "H_circle": 507.075401,
+      "e": -507.075401,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 256
+    },
+    {
+      "H": -0.0,
+      "H_circle": 532.610062,
+      "e": -532.610062,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 257
+    },
+    {
+      "H": -0.0,
+      "H_circle": 558.327124,
+      "e": -558.327124,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 258
+    },
+    {
+      "H": -0.0,
+      "H_circle": 584.218752,
+      "e": -584.218752,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 259
+    },
+    {
+      "H": -0.0,
+      "H_circle": 610.27706,
+      "e": -610.27706,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 260
+    },
+    {
+      "H": -0.0,
+      "H_circle": 636.494111,
+      "e": -636.494111,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 261
+    },
+    {
+      "H": -0.0,
+      "H_circle": 662.861917,
+      "e": -662.861917,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 262
+    },
+    {
+      "H": -0.0,
+      "H_circle": 689.372448,
+      "e": -689.372448,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 263
+    },
+    {
+      "H": -0.0,
+      "H_circle": 716.017627,
+      "e": -716.017627,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 264
+    },
+    {
+      "H": -0.0,
+      "H_circle": 742.789339,
+      "e": -742.789339,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 265
+    },
+    {
+      "H": -0.0,
+      "H_circle": 769.679429,
+      "e": -769.679429,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 266
+    },
+    {
+      "H": -0.0,
+      "H_circle": 796.679705,
+      "e": -796.679705,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 267
+    },
+    {
+      "H": -0.0,
+      "H_circle": 823.781943,
+      "e": -823.781943,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 268
+    },
+    {
+      "H": -0.0,
+      "H_circle": 850.977888,
+      "e": -850.977888,
+      "support_vertices": [
+        "net:GND"
+      ],
+      "theta": 269
+    },
+    {
+      "H": -0.0,
+      "H_circle": 878.259255,
+      "e": -878.259255,
+      "support_vertices": [
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "theta": 270
+    },
+    {
+      "H": 54.730747,
+      "H_circle": 905.617734,
+      "e": -850.886988,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 271
+    },
+    {
+      "H": 109.444822,
+      "H_circle": 933.044992,
+      "e": -823.60017,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 272
+    },
+    {
+      "H": 164.125559,
+      "H_circle": 960.532674,
+      "e": -796.407115,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 273
+    },
+    {
+      "H": 218.756302,
+      "H_circle": 988.072406,
+      "e": -769.316104,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 274
+    },
+    {
+      "H": 273.320409,
+      "H_circle": 1015.655801,
+      "e": -742.335391,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 275
+    },
+    {
+      "H": 327.801261,
+      "H_circle": 1043.274455,
+      "e": -715.473194,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 276
+    },
+    {
+      "H": 382.182261,
+      "H_circle": 1070.919956,
+      "e": -688.737695,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 277
+    },
+    {
+      "H": 436.446845,
+      "H_circle": 1098.583883,
+      "e": -662.137039,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 278
+    },
+    {
+      "H": 490.578482,
+      "H_circle": 1126.257809,
+      "e": -635.679327,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 279
+    },
+    {
+      "H": 544.560685,
+      "H_circle": 1153.933305,
+      "e": -609.37262,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 280
+    },
+    {
+      "H": 598.37701,
+      "H_circle": 1181.60194,
+      "e": -583.22493,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 281
+    },
+    {
+      "H": 652.011062,
+      "H_circle": 1209.255285,
+      "e": -557.244223,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 282
+    },
+    {
+      "H": 705.446506,
+      "H_circle": 1236.884919,
+      "e": -531.438412,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 283
+    },
+    {
+      "H": 758.667065,
+      "H_circle": 1264.482423,
+      "e": -505.815359,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 284
+    },
+    {
+      "H": 811.656525,
+      "H_circle": 1292.039393,
+      "e": -480.382867,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 285
+    },
+    {
+      "H": 864.398748,
+      "H_circle": 1319.547433,
+      "e": -455.148685,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 286
+    },
+    {
+      "H": 916.877666,
+      "H_circle": 1346.998164,
+      "e": -430.120498,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 287
+    },
+    {
+      "H": 969.077294,
+      "H_circle": 1374.383226,
+      "e": -405.305932,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 288
+    },
+    {
+      "H": 1020.981732,
+      "H_circle": 1401.694275,
+      "e": -380.712543,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 289
+    },
+    {
+      "H": 1072.575169,
+      "H_circle": 1428.922993,
+      "e": -356.347824,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 290
+    },
+    {
+      "H": 1123.84189,
+      "H_circle": 1456.061086,
+      "e": -332.219196,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 291
+    },
+    {
+      "H": 1174.766277,
+      "H_circle": 1483.100287,
+      "e": -308.33401,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 292
+    },
+    {
+      "H": 1225.332819,
+      "H_circle": 1510.03236,
+      "e": -284.699541,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 293
+    },
+    {
+      "H": 1275.526113,
+      "H_circle": 1536.8491,
+      "e": -261.322987,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 294
+    },
+    {
+      "H": 1325.330869,
+      "H_circle": 1563.54234,
+      "e": -238.211471,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 295
+    },
+    {
+      "H": 1374.731916,
+      "H_circle": 1590.103948,
+      "e": -215.372032,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 296
+    },
+    {
+      "H": 1423.714207,
+      "H_circle": 1616.525834,
+      "e": -192.811626,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 297
+    },
+    {
+      "H": 1472.262821,
+      "H_circle": 1642.799948,
+      "e": -170.537127,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 298
+    },
+    {
+      "H": 1520.362969,
+      "H_circle": 1668.918288,
+      "e": -148.555319,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 299
+    },
+    {
+      "H": 1568.0,
+      "H_circle": 1694.872898,
+      "e": -126.872898,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 300
+    },
+    {
+      "H": 1615.159403,
+      "H_circle": 1720.655872,
+      "e": -105.496469,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 301
+    },
+    {
+      "H": 1661.826813,
+      "H_circle": 1746.259355,
+      "e": -84.432543,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 302
+    },
+    {
+      "H": 1707.988014,
+      "H_circle": 1771.67555,
+      "e": -63.687536,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 303
+    },
+    {
+      "H": 1753.628945,
+      "H_circle": 1796.896713,
+      "e": -43.267768,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 304
+    },
+    {
+      "H": 1798.735704,
+      "H_circle": 1821.915163,
+      "e": -23.179458,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 305
+    },
+    {
+      "H": 1843.294551,
+      "H_circle": 1846.723278,
+      "e": -3.428727,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 306
+    },
+    {
+      "H": 1887.291913,
+      "H_circle": 1871.313501,
+      "e": 15.978411,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 307
+    },
+    {
+      "H": 1930.714387,
+      "H_circle": 1895.678343,
+      "e": 35.036043,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 308
+    },
+    {
+      "H": 1973.548746,
+      "H_circle": 1919.810382,
+      "e": 53.738365,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 309
+    },
+    {
+      "H": 2015.781944,
+      "H_circle": 1943.702266,
+      "e": 72.079678,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 310
+    },
+    {
+      "H": 2057.401115,
+      "H_circle": 1967.346717,
+      "e": 90.054398,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 311
+    },
+    {
+      "H": 2098.393582,
+      "H_circle": 1990.736535,
+      "e": 107.657047,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 312
+    },
+    {
+      "H": 2138.746857,
+      "H_circle": 2013.864593,
+      "e": 124.882264,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 313
+    },
+    {
+      "H": 2178.44865,
+      "H_circle": 2036.723847,
+      "e": 141.724803,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 314
+    },
+    {
+      "H": 2217.486866,
+      "H_circle": 2059.307333,
+      "e": 158.179533,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 315
+    },
+    {
+      "H": 2255.849614,
+      "H_circle": 2081.608173,
+      "e": 174.241441,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 316
+    },
+    {
+      "H": 2293.525208,
+      "H_circle": 2103.619574,
+      "e": 189.905635,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 317
+    },
+    {
+      "H": 2330.502173,
+      "H_circle": 2125.33483,
+      "e": 205.167343,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 318
+    },
+    {
+      "H": 2366.769244,
+      "H_circle": 2146.747326,
+      "e": 220.021917,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 319
+    },
+    {
+      "H": 2402.315374,
+      "H_circle": 2167.850542,
+      "e": 234.464832,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 320
+    },
+    {
+      "H": 2437.129735,
+      "H_circle": 2188.638047,
+      "e": 248.491688,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 321
+    },
+    {
+      "H": 2471.201723,
+      "H_circle": 2209.10351,
+      "e": 262.098213,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 322
+    },
+    {
+      "H": 2504.52096,
+      "H_circle": 2229.240698,
+      "e": 275.280262,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 323
+    },
+    {
+      "H": 2537.077294,
+      "H_circle": 2249.043475,
+      "e": 288.033819,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 324
+    },
+    {
+      "H": 2568.860811,
+      "H_circle": 2268.505811,
+      "e": 300.355,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 325
+    },
+    {
+      "H": 2599.861828,
+      "H_circle": 2287.621776,
+      "e": 312.240051,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 326
+    },
+    {
+      "H": 2630.070901,
+      "H_circle": 2306.385548,
+      "e": 323.685353,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 327
+    },
+    {
+      "H": 2659.47883,
+      "H_circle": 2324.791411,
+      "e": 334.687419,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 328
+    },
+    {
+      "H": 2688.076655,
+      "H_circle": 2342.833758,
+      "e": 345.242897,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 329
+    },
+    {
+      "H": 2715.855666,
+      "H_circle": 2360.507094,
+      "e": 355.348572,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 330
+    },
+    {
+      "H": 2742.807402,
+      "H_circle": 2377.806035,
+      "e": 365.001367,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 331
+    },
+    {
+      "H": 2768.923651,
+      "H_circle": 2394.725312,
+      "e": 374.19834,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 332
+    },
+    {
+      "H": 2794.19646,
+      "H_circle": 2411.25977,
+      "e": 382.93669,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 333
+    },
+    {
+      "H": 2818.618129,
+      "H_circle": 2427.404374,
+      "e": 391.213755,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 334
+    },
+    {
+      "H": 2842.18122,
+      "H_circle": 2443.154206,
+      "e": 399.027015,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 335
+    },
+    {
+      "H": 2864.878555,
+      "H_circle": 2458.504467,
+      "e": 406.374088,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 336
+    },
+    {
+      "H": 2886.70322,
+      "H_circle": 2473.450483,
+      "e": 413.252738,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 337
+    },
+    {
+      "H": 2907.648568,
+      "H_circle": 2487.9877,
+      "e": 419.660868,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 338
+    },
+    {
+      "H": 2927.708217,
+      "H_circle": 2502.11169,
+      "e": 425.596528,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 339
+    },
+    {
+      "H": 2946.876059,
+      "H_circle": 2515.818151,
+      "e": 431.057908,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 340
+    },
+    {
+      "H": 2965.146253,
+      "H_circle": 2529.102908,
+      "e": 436.043345,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 341
+    },
+    {
+      "H": 2982.513235,
+      "H_circle": 2541.961915,
+      "e": 440.55132,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 342
+    },
+    {
+      "H": 2998.971715,
+      "H_circle": 2554.391253,
+      "e": 444.580462,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 343
+    },
+    {
+      "H": 3014.516678,
+      "H_circle": 2566.387138,
+      "e": 448.129541,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 344
+    },
+    {
+      "H": 3029.143391,
+      "H_circle": 2577.945914,
+      "e": 451.197477,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 345
+    },
+    {
+      "H": 3042.847398,
+      "H_circle": 2589.064062,
+      "e": 453.783336,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 346
+    },
+    {
+      "H": 3055.624523,
+      "H_circle": 2599.738194,
+      "e": 455.886329,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 347
+    },
+    {
+      "H": 3067.470876,
+      "H_circle": 2609.965059,
+      "e": 457.505816,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 348
+    },
+    {
+      "H": 3078.382847,
+      "H_circle": 2619.741542,
+      "e": 458.641305,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 349
+    },
+    {
+      "H": 3088.357113,
+      "H_circle": 2629.064665,
+      "e": 459.292448,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 350
+    },
+    {
+      "H": 3097.390636,
+      "H_circle": 2637.931588,
+      "e": 459.459048,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 351
+    },
+    {
+      "H": 3105.480664,
+      "H_circle": 2646.339609,
+      "e": 459.141054,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 352
+    },
+    {
+      "H": 3112.624732,
+      "H_circle": 2654.286169,
+      "e": 458.338563,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 353
+    },
+    {
+      "H": 3118.820664,
+      "H_circle": 2661.768845,
+      "e": 457.051819,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 354
+    },
+    {
+      "H": 3124.066573,
+      "H_circle": 2668.785359,
+      "e": 455.281214,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 355
+    },
+    {
+      "H": 3128.360862,
+      "H_circle": 2675.333574,
+      "e": 453.027288,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 356
+    },
+    {
+      "H": 3131.702221,
+      "H_circle": 2681.411495,
+      "e": 450.290726,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 357
+    },
+    {
+      "H": 3134.089634,
+      "H_circle": 2687.01727,
+      "e": 447.072364,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 358
+    },
+    {
+      "H": 3135.522372,
+      "H_circle": 2692.149192,
+      "e": 443.37318,
+      "support_vertices": [
+        "component:RMIN1"
+      ],
+      "theta": 359
+    }
+  ],
+  "source": "authoritative output/planar_xy_compact_coordinates.json coordinates represented by radial4_max_start.svg",
+  "vertex_count": 34
+}

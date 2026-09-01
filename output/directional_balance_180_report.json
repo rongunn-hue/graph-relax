@@ -1,0 +1,198 @@
+{
+  "animation_frames": 41,
+  "directions": [
+    {
+      "R_forward_after": 1403.705882,
+      "R_forward_before": 1732.294118,
+      "R_opposite_after": 1403.705882,
+      "R_opposite_before": 1403.705882,
+      "accepted_s": 0.810316,
+      "attached_vertices": 16,
+      "forward_half_plane_vertices": 16,
+      "imbalance": 328.588235,
+      "limiting_validity_event": null,
+      "requested_s_target": 0.810316,
+      "theta": 0,
+      "validity_limited": false
+    },
+    {
+      "R_forward_after": 521.529412,
+      "R_forward_before": 521.529412,
+      "R_opposite_after": 570.470588,
+      "R_opposite_before": 570.470588,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "forward_half_plane_vertices": 20,
+      "imbalance": -48.941176,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 90,
+      "validity_limited": false
+    },
+    {
+      "R_forward_after": 1403.705882,
+      "R_forward_before": 1403.705882,
+      "R_opposite_after": 1403.705882,
+      "R_opposite_before": 1403.705882,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "forward_half_plane_vertices": 18,
+      "imbalance": 0.0,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 180,
+      "validity_limited": false
+    },
+    {
+      "R_forward_after": 521.529412,
+      "R_forward_before": 570.470588,
+      "R_opposite_after": 521.529412,
+      "R_opposite_before": 521.529412,
+      "accepted_s": 0.914209,
+      "attached_vertices": 14,
+      "forward_half_plane_vertices": 14,
+      "imbalance": 48.941176,
+      "limiting_validity_event": null,
+      "requested_s_target": 0.914209,
+      "theta": 270,
+      "validity_limited": false
+    }
+  ],
+  "end": {
+    "area": 2928295.612457,
+    "centroid": {
+      "x": 1340.927744,
+      "y": 583.40631
+    },
+    "height": 1043.058824,
+    "total_edge_length": 22487.458294,
+    "width": 2807.411765
+  },
+  "final_centroid": {
+    "x": 1340.927744,
+    "y": 583.40631
+  },
+  "final_svg_coordinate_check": "passed",
+  "final_validation": {
+    "abstract_graph_valid": true,
+    "all_original_edges_preserved": true,
+    "all_original_vertices_exist": true,
+    "coincident_details": [],
+    "coincident_vertex_pairs": 0,
+    "crossing_details": [],
+    "cyclic_order_orientation": "reflection",
+    "cyclic_order_violations": 0,
+    "cyclic_violation_vertices": [],
+    "per_vertex_cyclic_orientation": {
+      "component:J_PWR": "reflection",
+      "component:J_R1": "reflection",
+      "component:J_R4": "reflection",
+      "component:J_RA": "reflection",
+      "component:U1": "reflection",
+      "net:+9V": "reflection",
+      "net:-9V": "reflection",
+      "net:EOUT": "reflection",
+      "net:GND": "reflection",
+      "net:NODE_A": "reflection",
+      "net:NODE_B": "reflection",
+      "net:NODE_C": "reflection"
+    },
+    "unrelated_edge_crossings": 0,
+    "vertex_on_edge_details": [],
+    "vertices_on_unrelated_edges": 0
+  },
+  "fixed_viewport": {
+    "height": 1292.0,
+    "width": 3336.0,
+    "x": -100.0,
+    "y": -100.0
+  },
+  "frozen_centroid": {
+    "x": 1403.705882,
+    "y": 570.470588
+  },
+  "source": "output/directional_balance_start.svg",
+  "stages": [
+    {
+      "accepted_s": 1.0,
+      "area": 3424512.0,
+      "attached_vertices": 0,
+      "centroid": {
+        "x": 1403.705882,
+        "y": 570.470588
+      },
+      "height": 1092.0,
+      "requested_s": 1.0,
+      "stage": "START",
+      "total_edge_length": 24359.649504,
+      "width": 3136.0
+    },
+    {
+      "accepted_s": 0.810316,
+      "area": 3065693.647059,
+      "attached_vertices": 16,
+      "centroid": {
+        "x": 1340.927744,
+        "y": 570.470588
+      },
+      "height": 1092.0,
+      "requested_s": 0.810316,
+      "stage": "0°",
+      "total_edge_length": 22721.876507,
+      "width": 2807.411765
+    },
+    {
+      "accepted_s": 1.0,
+      "area": 3065693.647059,
+      "attached_vertices": 0,
+      "centroid": {
+        "x": 1340.927744,
+        "y": 570.470588
+      },
+      "height": 1092.0,
+      "requested_s": 1.0,
+      "stage": "90°",
+      "total_edge_length": 22721.876507,
+      "width": 2807.411765
+    },
+    {
+      "accepted_s": 1.0,
+      "area": 3065693.647059,
+      "attached_vertices": 0,
+      "centroid": {
+        "x": 1340.927744,
+        "y": 570.470588
+      },
+      "height": 1092.0,
+      "requested_s": 1.0,
+      "stage": "180°",
+      "total_edge_length": 22721.876507,
+      "width": 2807.411765
+    },
+    {
+      "accepted_s": 0.914209,
+      "area": 2928295.612457,
+      "attached_vertices": 14,
+      "centroid": {
+        "x": 1340.927744,
+        "y": 583.40631
+      },
+      "height": 1043.058824,
+      "requested_s": 0.914209,
+      "stage": "270°",
+      "total_edge_length": 22487.458294,
+      "width": 2807.411765
+    }
+  ],
+  "start": {
+    "area": 3424512.0,
+    "centroid": {
+      "x": 1403.705882,
+      "y": 570.470588
+    },
+    "height": 1092.0,
+    "total_edge_length": 24359.649504,
+    "width": 3136.0
+  },
+  "state_propagation_regression_check": "passed"
+}

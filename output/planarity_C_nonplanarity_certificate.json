@@ -1,0 +1,162 @@
+{
+  "certificate_type": "Kuratowski subgraph returned by NetworkX",
+  "graph": {
+    "edges": [
+      {
+        "u": "component:R3",
+        "v": "terminal:R3.1"
+      },
+      {
+        "u": "component:R3",
+        "v": "terminal:R3.2"
+      },
+      {
+        "u": "component:U1",
+        "v": "terminal:U1.2"
+      },
+      {
+        "u": "component:U1",
+        "v": "terminal:U1.7"
+      },
+      {
+        "u": "net:+9V",
+        "v": "terminal:J_PWR.1"
+      },
+      {
+        "u": "net:+9V",
+        "v": "terminal:U1.8"
+      },
+      {
+        "u": "net:-9V",
+        "v": "terminal:J_PWR.3"
+      },
+      {
+        "u": "net:-9V",
+        "v": "terminal:U1.4"
+      },
+      {
+        "u": "net:NODE_B",
+        "v": "terminal:R3.1"
+      },
+      {
+        "u": "net:NODE_B",
+        "v": "terminal:U1.1"
+      },
+      {
+        "u": "net:NODE_C",
+        "v": "terminal:R3.2"
+      },
+      {
+        "u": "net:NODE_C",
+        "v": "terminal:U1.6"
+      },
+      {
+        "u": "terminal:J_PWR.1",
+        "v": "terminal:J_PWR.3"
+      },
+      {
+        "u": "terminal:U1.1",
+        "v": "terminal:U1.2"
+      },
+      {
+        "u": "terminal:U1.1",
+        "v": "terminal:U1.8"
+      },
+      {
+        "u": "terminal:U1.2",
+        "v": "terminal:U1.3"
+      },
+      {
+        "u": "terminal:U1.3",
+        "v": "terminal:U1.4"
+      },
+      {
+        "u": "terminal:U1.4",
+        "v": "terminal:U1.5"
+      },
+      {
+        "u": "terminal:U1.5",
+        "v": "terminal:U1.6"
+      },
+      {
+        "u": "terminal:U1.6",
+        "v": "terminal:U1.7"
+      },
+      {
+        "u": "terminal:U1.7",
+        "v": "terminal:U1.8"
+      }
+    ],
+    "vertices": [
+      {
+        "id": "component:R3"
+      },
+      {
+        "id": "component:U1"
+      },
+      {
+        "id": "net:+9V"
+      },
+      {
+        "id": "net:-9V"
+      },
+      {
+        "id": "net:NODE_B"
+      },
+      {
+        "id": "net:NODE_C"
+      },
+      {
+        "id": "terminal:J_PWR.1"
+      },
+      {
+        "id": "terminal:J_PWR.3"
+      },
+      {
+        "id": "terminal:R3.1"
+      },
+      {
+        "id": "terminal:R3.2"
+      },
+      {
+        "id": "terminal:U1.1"
+      },
+      {
+        "id": "terminal:U1.2"
+      },
+      {
+        "id": "terminal:U1.3"
+      },
+      {
+        "id": "terminal:U1.4"
+      },
+      {
+        "id": "terminal:U1.5"
+      },
+      {
+        "id": "terminal:U1.6"
+      },
+      {
+        "id": "terminal:U1.7"
+      },
+      {
+        "id": "terminal:U1.8"
+      }
+    ]
+  },
+  "independent_verification": {
+    "certificate_independently_retested_nonplanar": true
+  },
+  "participating_components": [
+    "J_PWR",
+    "R3",
+    "U1"
+  ],
+  "participating_nets": [
+    "+9V",
+    "-9V",
+    "NODE_B",
+    "NODE_C"
+  ],
+  "representation": "C wheel-gadget relaxation"
+}

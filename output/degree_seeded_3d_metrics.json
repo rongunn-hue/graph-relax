@@ -1,0 +1,185 @@
+{
+  "annealing": {
+    "accepted_downhill_moves": 2821,
+    "accepted_uphill_moves": 2671,
+    "best_energy_encountered": 53194.952828,
+    "cooling_schedule": "geometric",
+    "final_move_distance": 0.5,
+    "final_temperature": 10.0,
+    "initial_move_distance": 140.0,
+    "initial_temperature": 25000.0,
+    "iterations": 6000,
+    "move_distance_schedule": "geometric",
+    "rejected_moves": 508,
+    "seed": 314159
+  },
+  "collision_predicate": "minimum distance between unrelated 3-D net segments < 8",
+  "component_depth": 40.0,
+  "coordinate_extents": {
+    "x": {
+      "max": 128.580042,
+      "min": -80.583315
+    },
+    "y": {
+      "max": 83.939723,
+      "min": -147.596239
+    },
+    "z": {
+      "max": 86.579545,
+      "min": -70.678782
+    }
+  },
+  "coordinate_sha256": "620152b8ef2bc01fd79d468776ab37684138933637ecfea57dcd0fb2e0249386",
+  "metrics": {
+    "clearance_violations_3d": 18,
+    "component_overlaps_3d": 0,
+    "connection_length_3d": 3234.82273,
+    "energy": {
+      "clearance": 5.430286,
+      "crossing": 2000.0,
+      "crowding": 291.577121,
+      "length": 5587.402765,
+      "overlap": 0.0
+    },
+    "objective": 7884.410172,
+    "segment_collision_proximity_events_3d": 1
+  },
+  "movement_directions": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0
+    ],
+    [
+      -1,
+      -1,
+      1
+    ],
+    [
+      -1,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      1
+    ],
+    [
+      -1,
+      1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      0
+    ],
+    [
+      -1,
+      1,
+      1
+    ],
+    [
+      0,
+      -1,
+      -1
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "quench": {
+    "final_energy": 7884.410172,
+    "stopping_reason": "no improving move at minimum step",
+    "sweeps": 61
+  },
+  "zmax": 259.843412
+}

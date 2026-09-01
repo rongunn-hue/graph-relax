@@ -1,0 +1,173 @@
+{
+  "affinity_initial": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 78000.0,
+      "crowding": 965.624029,
+      "length": 17545.449838,
+      "overlap": 0.0
+    },
+    "net_crossings": 39,
+    "objective": 96511.073867,
+    "total_connection_length": 5599.756355
+  },
+  "annealing": {
+    "accepted_downhill_moves": 2677,
+    "accepted_uphill_moves": 2355,
+    "best_energy_encountered": 95066.67448,
+    "cooling_schedule": "geometric",
+    "final_move_distance": 0.5,
+    "final_temperature": 10.0,
+    "initial_move_distance": 140.0,
+    "initial_temperature": 25000.0,
+    "iterations": 6000,
+    "move_distance_schedule": "geometric",
+    "rejected_moves": 968,
+    "seed": 314159
+  },
+  "changes_from_experiment_4c": {
+    "clearance_violations": {
+      "absolute": 0,
+      "percent": 0.0
+    },
+    "component_overlaps": {
+      "absolute": 0,
+      "percent": null
+    },
+    "crowding": {
+      "absolute": 97.307948,
+      "percent": 10.976288
+    },
+    "net_crossings": {
+      "absolute": 4,
+      "percent": 36.363636
+    },
+    "objective": {
+      "absolute": 8756.956848,
+      "percent": 30.912516
+    },
+    "total_connection_length": {
+      "absolute": 132.143921,
+      "percent": 4.307111
+    }
+  },
+  "coordinate_sha256": "1922bcf29e74c170aeb315531420502a76946b2aae84e9757e0846359458b0a0",
+  "initialization": {
+    "provisional_radius": 242.188046,
+    "radial_band": {
+      "maximum": 284.243558,
+      "minimum": 200.132533
+    },
+    "stopping_reason": "initialization sweep limit reached",
+    "sweep_limit": 100,
+    "sweeps": 100
+  },
+  "quench": {
+    "final_energy": 37085.149021,
+    "stopping_reason": "no improving move at minimum step",
+    "sweeps": 141
+  },
+  "root": "U1",
+  "states": {
+    "experiment_1_final": {
+      "clearance_violations": 8,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 6.625297,
+        "crossing": 90000.0,
+        "crowding": 1928.065377,
+        "length": 10245.928817,
+        "overlap": 0.0
+      },
+      "net_crossings": 45,
+      "objective": 102180.619491,
+      "total_connection_length": 4223.860298
+    },
+    "experiment_2_annealed_and_quenched": {
+      "clearance_violations": 8,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 3.332008,
+        "crossing": 46000.0,
+        "crowding": 1322.365454,
+        "length": 13124.166824,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60449.864286,
+      "total_connection_length": 4402.546798
+    },
+    "experiment_3_junction_annealed_and_quenched": {
+      "clearance_violations": 18,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 22.423329,
+        "crossing": 42000.0,
+        "crowding": 1549.187177,
+        "length": 16488.466328,
+        "overlap": 0.0
+      },
+      "net_crossings": 21,
+      "objective": 60060.076833,
+      "total_connection_length": 4744.461551
+    },
+    "experiment_4a_degree_seeded_annealed_and_quenched": {
+      "clearance_violations": 9,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 78.100365,
+        "crossing": 36000.0,
+        "crowding": 1430.833729,
+        "length": 16537.461923,
+        "overlap": 0.0
+      },
+      "net_crossings": 18,
+      "objective": 54046.396017,
+      "total_connection_length": 4890.986434
+    },
+    "experiment_4c_closeness_annealed_and_quenched": {
+      "clearance_violations": 9,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 2.651845,
+        "crossing": 22000.0,
+        "crowding": 886.528765,
+        "length": 5439.011564,
+        "overlap": 0.0
+      },
+      "net_crossings": 11,
+      "objective": 28328.192173,
+      "total_connection_length": 3068.040456
+    },
+    "experiment_4d_affinity_annealed_and_quenched": {
+      "clearance_violations": 9,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 6.396415,
+        "crossing": 30000.0,
+        "crowding": 983.836713,
+        "length": 6094.915893,
+        "overlap": 0.0
+      },
+      "net_crossings": 15,
+      "objective": 37085.149021,
+      "total_connection_length": 3200.184377
+    },
+    "original_initial": {
+      "clearance_violations": 0,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 0.0,
+        "crossing": 128000.0,
+        "crowding": 2262.894768,
+        "length": 15323.305276,
+        "overlap": 0.0
+      },
+      "net_crossings": 64,
+      "objective": 145586.200045,
+      "total_connection_length": 5218.375851
+    }
+  }
+}

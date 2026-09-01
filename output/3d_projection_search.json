@@ -1,0 +1,7177 @@
+{
+  "candidates": [
+    {
+      "crossings": 67,
+      "direction_index": 0,
+      "index": 0,
+      "objective": 2496740.665775,
+      "roll_index": 0
+    },
+    {
+      "crossings": 69,
+      "direction_index": 0,
+      "index": 1,
+      "objective": 3020445.641756,
+      "roll_index": 1
+    },
+    {
+      "crossings": 74,
+      "direction_index": 0,
+      "index": 2,
+      "objective": 3137076.393981,
+      "roll_index": 2
+    },
+    {
+      "crossings": 65,
+      "direction_index": 0,
+      "index": 3,
+      "objective": 3045055.318448,
+      "roll_index": 3
+    },
+    {
+      "crossings": 69,
+      "direction_index": 0,
+      "index": 4,
+      "objective": 2501141.301107,
+      "roll_index": 4
+    },
+    {
+      "crossings": 77,
+      "direction_index": 0,
+      "index": 5,
+      "objective": 3037642.631831,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 0,
+      "index": 6,
+      "objective": 3155828.894299,
+      "roll_index": 6
+    },
+    {
+      "crossings": 78,
+      "direction_index": 0,
+      "index": 7,
+      "objective": 3071278.36211,
+      "roll_index": 7
+    },
+    {
+      "crossings": 65,
+      "direction_index": 1,
+      "index": 8,
+      "objective": 2654067.757986,
+      "roll_index": 0
+    },
+    {
+      "crossings": 62,
+      "direction_index": 1,
+      "index": 9,
+      "objective": 2839384.628978,
+      "roll_index": 1
+    },
+    {
+      "crossings": 61,
+      "direction_index": 1,
+      "index": 10,
+      "objective": 3332589.899392,
+      "roll_index": 2
+    },
+    {
+      "crossings": 63,
+      "direction_index": 1,
+      "index": 11,
+      "objective": 2865998.242671,
+      "roll_index": 3
+    },
+    {
+      "crossings": 69,
+      "direction_index": 1,
+      "index": 12,
+      "objective": 2662864.668096,
+      "roll_index": 4
+    },
+    {
+      "crossings": 86,
+      "direction_index": 1,
+      "index": 13,
+      "objective": 2889228.522585,
+      "roll_index": 5
+    },
+    {
+      "crossings": 77,
+      "direction_index": 1,
+      "index": 14,
+      "objective": 3365890.213699,
+      "roll_index": 6
+    },
+    {
+      "crossings": 84,
+      "direction_index": 1,
+      "index": 15,
+      "objective": 2908490.180804,
+      "roll_index": 7
+    },
+    {
+      "crossings": 73,
+      "direction_index": 2,
+      "index": 16,
+      "objective": 2736295.385627,
+      "roll_index": 0
+    },
+    {
+      "crossings": 69,
+      "direction_index": 2,
+      "index": 17,
+      "objective": 3090566.155619,
+      "roll_index": 1
+    },
+    {
+      "crossings": 79,
+      "direction_index": 2,
+      "index": 18,
+      "objective": 3333572.766064,
+      "roll_index": 2
+    },
+    {
+      "crossings": 76,
+      "direction_index": 2,
+      "index": 19,
+      "objective": 2827609.796556,
+      "roll_index": 3
+    },
+    {
+      "crossings": 84,
+      "direction_index": 2,
+      "index": 20,
+      "objective": 2758987.690677,
+      "roll_index": 4
+    },
+    {
+      "crossings": 79,
+      "direction_index": 2,
+      "index": 21,
+      "objective": 3111611.683043,
+      "roll_index": 5
+    },
+    {
+      "crossings": 88,
+      "direction_index": 2,
+      "index": 22,
+      "objective": 3352659.858425,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 2,
+      "index": 23,
+      "objective": 2839859.554794,
+      "roll_index": 7
+    },
+    {
+      "crossings": 71,
+      "direction_index": 3,
+      "index": 24,
+      "objective": 2841652.578459,
+      "roll_index": 0
+    },
+    {
+      "crossings": 69,
+      "direction_index": 3,
+      "index": 25,
+      "objective": 3243985.034297,
+      "roll_index": 1
+    },
+    {
+      "crossings": 70,
+      "direction_index": 3,
+      "index": 26,
+      "objective": 3232533.35495,
+      "roll_index": 2
+    },
+    {
+      "crossings": 76,
+      "direction_index": 3,
+      "index": 27,
+      "objective": 2781527.811281,
+      "roll_index": 3
+    },
+    {
+      "crossings": 73,
+      "direction_index": 3,
+      "index": 28,
+      "objective": 2846284.054261,
+      "roll_index": 4
+    },
+    {
+      "crossings": 71,
+      "direction_index": 3,
+      "index": 29,
+      "objective": 3248748.431218,
+      "roll_index": 5
+    },
+    {
+      "crossings": 71,
+      "direction_index": 3,
+      "index": 30,
+      "objective": 3234704.418628,
+      "roll_index": 6
+    },
+    {
+      "crossings": 75,
+      "direction_index": 3,
+      "index": 31,
+      "objective": 2779263.43992,
+      "roll_index": 7
+    },
+    {
+      "crossings": 66,
+      "direction_index": 4,
+      "index": 32,
+      "objective": 2333463.072882,
+      "roll_index": 0
+    },
+    {
+      "crossings": 61,
+      "direction_index": 4,
+      "index": 33,
+      "objective": 2683768.743662,
+      "roll_index": 1
+    },
+    {
+      "crossings": 66,
+      "direction_index": 4,
+      "index": 34,
+      "objective": 3308749.048879,
+      "roll_index": 2
+    },
+    {
+      "crossings": 65,
+      "direction_index": 4,
+      "index": 35,
+      "objective": 2905821.55537,
+      "roll_index": 3
+    },
+    {
+      "crossings": 72,
+      "direction_index": 4,
+      "index": 36,
+      "objective": 2346523.374407,
+      "roll_index": 4
+    },
+    {
+      "crossings": 86,
+      "direction_index": 4,
+      "index": 37,
+      "objective": 2735644.959804,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 4,
+      "index": 38,
+      "objective": 3344260.014473,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 4,
+      "index": 39,
+      "objective": 2934650.362047,
+      "roll_index": 7
+    },
+    {
+      "crossings": 81,
+      "direction_index": 5,
+      "index": 40,
+      "objective": 2560365.825592,
+      "roll_index": 0
+    },
+    {
+      "crossings": 78,
+      "direction_index": 5,
+      "index": 41,
+      "objective": 3160026.748145,
+      "roll_index": 1
+    },
+    {
+      "crossings": 80,
+      "direction_index": 5,
+      "index": 42,
+      "objective": 3245896.796764,
+      "roll_index": 2
+    },
+    {
+      "crossings": 82,
+      "direction_index": 5,
+      "index": 43,
+      "objective": 3044478.868488,
+      "roll_index": 3
+    },
+    {
+      "crossings": 79,
+      "direction_index": 5,
+      "index": 44,
+      "objective": 2556946.775825,
+      "roll_index": 4
+    },
+    {
+      "crossings": 78,
+      "direction_index": 5,
+      "index": 45,
+      "objective": 3160578.288146,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 5,
+      "index": 46,
+      "objective": 3252285.267769,
+      "roll_index": 6
+    },
+    {
+      "crossings": 87,
+      "direction_index": 5,
+      "index": 47,
+      "objective": 3054970.197594,
+      "roll_index": 7
+    },
+    {
+      "crossings": 86,
+      "direction_index": 6,
+      "index": 48,
+      "objective": 2543794.825516,
+      "roll_index": 0
+    },
+    {
+      "crossings": 85,
+      "direction_index": 6,
+      "index": 49,
+      "objective": 2975143.08727,
+      "roll_index": 1
+    },
+    {
+      "crossings": 81,
+      "direction_index": 6,
+      "index": 50,
+      "objective": 2967778.562,
+      "roll_index": 2
+    },
+    {
+      "crossings": 69,
+      "direction_index": 6,
+      "index": 51,
+      "objective": 3189114.839037,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 6,
+      "index": 52,
+      "objective": 2510651.798938,
+      "roll_index": 4
+    },
+    {
+      "crossings": 67,
+      "direction_index": 6,
+      "index": 53,
+      "objective": 2938067.312214,
+      "roll_index": 5
+    },
+    {
+      "crossings": 65,
+      "direction_index": 6,
+      "index": 54,
+      "objective": 2935100.317182,
+      "roll_index": 6
+    },
+    {
+      "crossings": 72,
+      "direction_index": 6,
+      "index": 55,
+      "objective": 3195615.639235,
+      "roll_index": 7
+    },
+    {
+      "crossings": 83,
+      "direction_index": 7,
+      "index": 56,
+      "objective": 2896393.357129,
+      "roll_index": 0
+    },
+    {
+      "crossings": 73,
+      "direction_index": 7,
+      "index": 57,
+      "objective": 3281093.81316,
+      "roll_index": 1
+    },
+    {
+      "crossings": 67,
+      "direction_index": 7,
+      "index": 58,
+      "objective": 3528914.525613,
+      "roll_index": 2
+    },
+    {
+      "crossings": 76,
+      "direction_index": 7,
+      "index": 59,
+      "objective": 3219089.221402,
+      "roll_index": 3
+    },
+    {
+      "crossings": 76,
+      "direction_index": 7,
+      "index": 60,
+      "objective": 2882019.658601,
+      "roll_index": 4
+    },
+    {
+      "crossings": 86,
+      "direction_index": 7,
+      "index": 61,
+      "objective": 3308304.606161,
+      "roll_index": 5
+    },
+    {
+      "crossings": 80,
+      "direction_index": 7,
+      "index": 62,
+      "objective": 3556437.677544,
+      "roll_index": 6
+    },
+    {
+      "crossings": 94,
+      "direction_index": 7,
+      "index": 63,
+      "objective": 3256382.186529,
+      "roll_index": 7
+    },
+    {
+      "crossings": 85,
+      "direction_index": 8,
+      "index": 64,
+      "objective": 3437801.362687,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 8,
+      "index": 65,
+      "objective": 3289265.288989,
+      "roll_index": 1
+    },
+    {
+      "crossings": 68,
+      "direction_index": 8,
+      "index": 66,
+      "objective": 2911771.678729,
+      "roll_index": 2
+    },
+    {
+      "crossings": 65,
+      "direction_index": 8,
+      "index": 67,
+      "objective": 3211656.492939,
+      "roll_index": 3
+    },
+    {
+      "crossings": 76,
+      "direction_index": 8,
+      "index": 68,
+      "objective": 3419493.658987,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 8,
+      "index": 69,
+      "objective": 3277028.790546,
+      "roll_index": 5
+    },
+    {
+      "crossings": 81,
+      "direction_index": 8,
+      "index": 70,
+      "objective": 2937808.866644,
+      "roll_index": 6
+    },
+    {
+      "crossings": 75,
+      "direction_index": 8,
+      "index": 71,
+      "objective": 3232015.501881,
+      "roll_index": 7
+    },
+    {
+      "crossings": 88,
+      "direction_index": 9,
+      "index": 72,
+      "objective": 3063555.74652,
+      "roll_index": 0
+    },
+    {
+      "crossings": 88,
+      "direction_index": 9,
+      "index": 73,
+      "objective": 3528305.086129,
+      "roll_index": 1
+    },
+    {
+      "crossings": 60,
+      "direction_index": 9,
+      "index": 74,
+      "objective": 2932383.060916,
+      "roll_index": 2
+    },
+    {
+      "crossings": 61,
+      "direction_index": 9,
+      "index": 75,
+      "objective": 2883168.118432,
+      "roll_index": 3
+    },
+    {
+      "crossings": 59,
+      "direction_index": 9,
+      "index": 76,
+      "objective": 3004347.316221,
+      "roll_index": 4
+    },
+    {
+      "crossings": 52,
+      "direction_index": 9,
+      "index": 77,
+      "objective": 3455244.627952,
+      "roll_index": 5
+    },
+    {
+      "crossings": 58,
+      "direction_index": 9,
+      "index": 78,
+      "objective": 2928657.642091,
+      "roll_index": 6
+    },
+    {
+      "crossings": 81,
+      "direction_index": 9,
+      "index": 79,
+      "objective": 2924610.655542,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 10,
+      "index": 80,
+      "objective": 2804288.131313,
+      "roll_index": 0
+    },
+    {
+      "crossings": 83,
+      "direction_index": 10,
+      "index": 81,
+      "objective": 2998381.164081,
+      "roll_index": 1
+    },
+    {
+      "crossings": 93,
+      "direction_index": 10,
+      "index": 82,
+      "objective": 3004158.371919,
+      "roll_index": 2
+    },
+    {
+      "crossings": 90,
+      "direction_index": 10,
+      "index": 83,
+      "objective": 3072418.32673,
+      "roll_index": 3
+    },
+    {
+      "crossings": 84,
+      "direction_index": 10,
+      "index": 84,
+      "objective": 2804938.2763,
+      "roll_index": 4
+    },
+    {
+      "crossings": 82,
+      "direction_index": 10,
+      "index": 85,
+      "objective": 2997079.72257,
+      "roll_index": 5
+    },
+    {
+      "crossings": 88,
+      "direction_index": 10,
+      "index": 86,
+      "objective": 2994621.426796,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 10,
+      "index": 87,
+      "objective": 3056561.720791,
+      "roll_index": 7
+    },
+    {
+      "crossings": 87,
+      "direction_index": 11,
+      "index": 88,
+      "objective": 3206510.050543,
+      "roll_index": 0
+    },
+    {
+      "crossings": 94,
+      "direction_index": 11,
+      "index": 89,
+      "objective": 3035751.198176,
+      "roll_index": 1
+    },
+    {
+      "crossings": 75,
+      "direction_index": 11,
+      "index": 90,
+      "objective": 3023179.279756,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 11,
+      "index": 91,
+      "objective": 3251489.515481,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 11,
+      "index": 92,
+      "objective": 3171319.161904,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 11,
+      "index": 93,
+      "objective": 2998772.418555,
+      "roll_index": 5
+    },
+    {
+      "crossings": 77,
+      "direction_index": 11,
+      "index": 94,
+      "objective": 3027005.905161,
+      "roll_index": 6
+    },
+    {
+      "crossings": 93,
+      "direction_index": 11,
+      "index": 95,
+      "objective": 3304479.207751,
+      "roll_index": 7
+    },
+    {
+      "crossings": 89,
+      "direction_index": 12,
+      "index": 96,
+      "objective": 2828988.979791,
+      "roll_index": 0
+    },
+    {
+      "crossings": 73,
+      "direction_index": 12,
+      "index": 97,
+      "objective": 2869887.86466,
+      "roll_index": 1
+    },
+    {
+      "crossings": 66,
+      "direction_index": 12,
+      "index": 98,
+      "objective": 3375349.992927,
+      "roll_index": 2
+    },
+    {
+      "crossings": 65,
+      "direction_index": 12,
+      "index": 99,
+      "objective": 3086210.725215,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 12,
+      "index": 100,
+      "objective": 2779674.234162,
+      "roll_index": 4
+    },
+    {
+      "crossings": 67,
+      "direction_index": 12,
+      "index": 101,
+      "objective": 2858072.585209,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 12,
+      "index": 102,
+      "objective": 3411038.279761,
+      "roll_index": 6
+    },
+    {
+      "crossings": 87,
+      "direction_index": 12,
+      "index": 103,
+      "objective": 3132139.159698,
+      "roll_index": 7
+    },
+    {
+      "crossings": 90,
+      "direction_index": 13,
+      "index": 104,
+      "objective": 3533124.065325,
+      "roll_index": 0
+    },
+    {
+      "crossings": 90,
+      "direction_index": 13,
+      "index": 105,
+      "objective": 3029861.50979,
+      "roll_index": 1
+    },
+    {
+      "crossings": 81,
+      "direction_index": 13,
+      "index": 106,
+      "objective": 2433844.478745,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 13,
+      "index": 107,
+      "objective": 3003504.858299,
+      "roll_index": 3
+    },
+    {
+      "crossings": 81,
+      "direction_index": 13,
+      "index": 108,
+      "objective": 3515241.557947,
+      "roll_index": 4
+    },
+    {
+      "crossings": 78,
+      "direction_index": 13,
+      "index": 109,
+      "objective": 3005625.519992,
+      "roll_index": 5
+    },
+    {
+      "crossings": 76,
+      "direction_index": 13,
+      "index": 110,
+      "objective": 2423633.003568,
+      "roll_index": 6
+    },
+    {
+      "crossings": 76,
+      "direction_index": 13,
+      "index": 111,
+      "objective": 3013264.715504,
+      "roll_index": 7
+    },
+    {
+      "crossings": 95,
+      "direction_index": 14,
+      "index": 112,
+      "objective": 2913909.488718,
+      "roll_index": 0
+    },
+    {
+      "crossings": 88,
+      "direction_index": 14,
+      "index": 113,
+      "objective": 3325196.098686,
+      "roll_index": 1
+    },
+    {
+      "crossings": 75,
+      "direction_index": 14,
+      "index": 114,
+      "objective": 3183788.01458,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 14,
+      "index": 115,
+      "objective": 3000843.992813,
+      "roll_index": 3
+    },
+    {
+      "crossings": 55,
+      "direction_index": 14,
+      "index": 116,
+      "objective": 2831795.352173,
+      "roll_index": 4
+    },
+    {
+      "crossings": 61,
+      "direction_index": 14,
+      "index": 117,
+      "objective": 3270060.270388,
+      "roll_index": 5
+    },
+    {
+      "crossings": 65,
+      "direction_index": 14,
+      "index": 118,
+      "objective": 3163718.78748,
+      "roll_index": 6
+    },
+    {
+      "crossings": 72,
+      "direction_index": 14,
+      "index": 119,
+      "objective": 3032010.217119,
+      "roll_index": 7
+    },
+    {
+      "crossings": 82,
+      "direction_index": 15,
+      "index": 120,
+      "objective": 3358942.248588,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 15,
+      "index": 121,
+      "objective": 3362134.210491,
+      "roll_index": 1
+    },
+    {
+      "crossings": 76,
+      "direction_index": 15,
+      "index": 122,
+      "objective": 3401720.699022,
+      "roll_index": 2
+    },
+    {
+      "crossings": 80,
+      "direction_index": 15,
+      "index": 123,
+      "objective": 3373294.98357,
+      "roll_index": 3
+    },
+    {
+      "crossings": 78,
+      "direction_index": 15,
+      "index": 124,
+      "objective": 3351001.23141,
+      "roll_index": 4
+    },
+    {
+      "crossings": 80,
+      "direction_index": 15,
+      "index": 125,
+      "objective": 3373199.702265,
+      "roll_index": 5
+    },
+    {
+      "crossings": 86,
+      "direction_index": 15,
+      "index": 126,
+      "objective": 3422847.316901,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 15,
+      "index": 127,
+      "objective": 3377985.212205,
+      "roll_index": 7
+    },
+    {
+      "crossings": 97,
+      "direction_index": 16,
+      "index": 128,
+      "objective": 3269682.963103,
+      "roll_index": 0
+    },
+    {
+      "crossings": 86,
+      "direction_index": 16,
+      "index": 129,
+      "objective": 3028851.628212,
+      "roll_index": 1
+    },
+    {
+      "crossings": 64,
+      "direction_index": 16,
+      "index": 130,
+      "objective": 3391577.152711,
+      "roll_index": 2
+    },
+    {
+      "crossings": 58,
+      "direction_index": 16,
+      "index": 131,
+      "objective": 3232083.573946,
+      "roll_index": 3
+    },
+    {
+      "crossings": 72,
+      "direction_index": 16,
+      "index": 132,
+      "objective": 3218391.491919,
+      "roll_index": 4
+    },
+    {
+      "crossings": 75,
+      "direction_index": 16,
+      "index": 133,
+      "objective": 3006358.695994,
+      "roll_index": 5
+    },
+    {
+      "crossings": 86,
+      "direction_index": 16,
+      "index": 134,
+      "objective": 3436090.017588,
+      "roll_index": 6
+    },
+    {
+      "crossings": 83,
+      "direction_index": 16,
+      "index": 135,
+      "objective": 3282917.335373,
+      "roll_index": 7
+    },
+    {
+      "crossings": 83,
+      "direction_index": 17,
+      "index": 136,
+      "objective": 3346080.344218,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 17,
+      "index": 137,
+      "objective": 3018448.014162,
+      "roll_index": 1
+    },
+    {
+      "crossings": 65,
+      "direction_index": 17,
+      "index": 138,
+      "objective": 2432778.358053,
+      "roll_index": 2
+    },
+    {
+      "crossings": 62,
+      "direction_index": 17,
+      "index": 139,
+      "objective": 2801785.070122,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 17,
+      "index": 140,
+      "objective": 3298775.894558,
+      "roll_index": 4
+    },
+    {
+      "crossings": 55,
+      "direction_index": 17,
+      "index": 141,
+      "objective": 2977732.40616,
+      "roll_index": 5
+    },
+    {
+      "crossings": 68,
+      "direction_index": 17,
+      "index": 142,
+      "objective": 2439287.901119,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 17,
+      "index": 143,
+      "objective": 2836930.911595,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 18,
+      "index": 144,
+      "objective": 3223957.364541,
+      "roll_index": 0
+    },
+    {
+      "crossings": 94,
+      "direction_index": 18,
+      "index": 145,
+      "objective": 2986059.873586,
+      "roll_index": 1
+    },
+    {
+      "crossings": 96,
+      "direction_index": 18,
+      "index": 146,
+      "objective": 3175151.702273,
+      "roll_index": 2
+    },
+    {
+      "crossings": 90,
+      "direction_index": 18,
+      "index": 147,
+      "objective": 3253464.741451,
+      "roll_index": 3
+    },
+    {
+      "crossings": 90,
+      "direction_index": 18,
+      "index": 148,
+      "objective": 3236599.644014,
+      "roll_index": 4
+    },
+    {
+      "crossings": 90,
+      "direction_index": 18,
+      "index": 149,
+      "objective": 2978191.084178,
+      "roll_index": 5
+    },
+    {
+      "crossings": 94,
+      "direction_index": 18,
+      "index": 150,
+      "objective": 3171279.417683,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 18,
+      "index": 151,
+      "objective": 3237032.362695,
+      "roll_index": 7
+    },
+    {
+      "crossings": 98,
+      "direction_index": 19,
+      "index": 152,
+      "objective": 3176744.523497,
+      "roll_index": 0
+    },
+    {
+      "crossings": 94,
+      "direction_index": 19,
+      "index": 153,
+      "objective": 2901725.390073,
+      "roll_index": 1
+    },
+    {
+      "crossings": 76,
+      "direction_index": 19,
+      "index": 154,
+      "objective": 3872813.589233,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 19,
+      "index": 155,
+      "objective": 3536611.546008,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 19,
+      "index": 156,
+      "objective": 3094630.222679,
+      "roll_index": 4
+    },
+    {
+      "crossings": 68,
+      "direction_index": 19,
+      "index": 157,
+      "objective": 2848427.533282,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 19,
+      "index": 158,
+      "objective": 3885327.727035,
+      "roll_index": 6
+    },
+    {
+      "crossings": 92,
+      "direction_index": 19,
+      "index": 159,
+      "objective": 3579871.35494,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 20,
+      "index": 160,
+      "objective": 3315418.061093,
+      "roll_index": 0
+    },
+    {
+      "crossings": 73,
+      "direction_index": 20,
+      "index": 161,
+      "objective": 3174519.547953,
+      "roll_index": 1
+    },
+    {
+      "crossings": 70,
+      "direction_index": 20,
+      "index": 162,
+      "objective": 3484994.520631,
+      "roll_index": 2
+    },
+    {
+      "crossings": 70,
+      "direction_index": 20,
+      "index": 163,
+      "objective": 3775972.640425,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 20,
+      "index": 164,
+      "objective": 3276578.548518,
+      "roll_index": 4
+    },
+    {
+      "crossings": 74,
+      "direction_index": 20,
+      "index": 165,
+      "objective": 3177248.687807,
+      "roll_index": 5
+    },
+    {
+      "crossings": 84,
+      "direction_index": 20,
+      "index": 166,
+      "objective": 3514821.17755,
+      "roll_index": 6
+    },
+    {
+      "crossings": 98,
+      "direction_index": 20,
+      "index": 167,
+      "objective": 3833726.841287,
+      "roll_index": 7
+    },
+    {
+      "crossings": 85,
+      "direction_index": 21,
+      "index": 168,
+      "objective": 3498393.397999,
+      "roll_index": 0
+    },
+    {
+      "crossings": 95,
+      "direction_index": 21,
+      "index": 169,
+      "objective": 3613043.81238,
+      "roll_index": 1
+    },
+    {
+      "crossings": 69,
+      "direction_index": 21,
+      "index": 170,
+      "objective": 2679361.644397,
+      "roll_index": 2
+    },
+    {
+      "crossings": 61,
+      "direction_index": 21,
+      "index": 171,
+      "objective": 3179067.401527,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 21,
+      "index": 172,
+      "objective": 3458125.678205,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 21,
+      "index": 173,
+      "objective": 3574896.588864,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 21,
+      "index": 174,
+      "objective": 2705937.559841,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 21,
+      "index": 175,
+      "objective": 3221633.587174,
+      "roll_index": 7
+    },
+    {
+      "crossings": 88,
+      "direction_index": 22,
+      "index": 176,
+      "objective": 3297184.785612,
+      "roll_index": 0
+    },
+    {
+      "crossings": 81,
+      "direction_index": 22,
+      "index": 177,
+      "objective": 3116475.816941,
+      "roll_index": 1
+    },
+    {
+      "crossings": 66,
+      "direction_index": 22,
+      "index": 178,
+      "objective": 2873839.903454,
+      "roll_index": 2
+    },
+    {
+      "crossings": 63,
+      "direction_index": 22,
+      "index": 179,
+      "objective": 2541944.085757,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 22,
+      "index": 180,
+      "objective": 3235695.446019,
+      "roll_index": 4
+    },
+    {
+      "crossings": 56,
+      "direction_index": 22,
+      "index": 181,
+      "objective": 3065384.94321,
+      "roll_index": 5
+    },
+    {
+      "crossings": 63,
+      "direction_index": 22,
+      "index": 182,
+      "objective": 2868274.011236,
+      "roll_index": 6
+    },
+    {
+      "crossings": 72,
+      "direction_index": 22,
+      "index": 183,
+      "objective": 2561433.76617,
+      "roll_index": 7
+    },
+    {
+      "crossings": 85,
+      "direction_index": 23,
+      "index": 184,
+      "objective": 3136498.309516,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 23,
+      "index": 185,
+      "objective": 3432489.068705,
+      "roll_index": 1
+    },
+    {
+      "crossings": 91,
+      "direction_index": 23,
+      "index": 186,
+      "objective": 3649500.815706,
+      "roll_index": 2
+    },
+    {
+      "crossings": 90,
+      "direction_index": 23,
+      "index": 187,
+      "objective": 3150646.312814,
+      "roll_index": 3
+    },
+    {
+      "crossings": 86,
+      "direction_index": 23,
+      "index": 188,
+      "objective": 3139187.226391,
+      "roll_index": 4
+    },
+    {
+      "crossings": 86,
+      "direction_index": 23,
+      "index": 189,
+      "objective": 3455290.441607,
+      "roll_index": 5
+    },
+    {
+      "crossings": 84,
+      "direction_index": 23,
+      "index": 190,
+      "objective": 3636314.104412,
+      "roll_index": 6
+    },
+    {
+      "crossings": 81,
+      "direction_index": 23,
+      "index": 191,
+      "objective": 3133213.665531,
+      "roll_index": 7
+    },
+    {
+      "crossings": 114,
+      "direction_index": 24,
+      "index": 192,
+      "objective": 3356567.411678,
+      "roll_index": 0
+    },
+    {
+      "crossings": 101,
+      "direction_index": 24,
+      "index": 193,
+      "objective": 3301834.756318,
+      "roll_index": 1
+    },
+    {
+      "crossings": 69,
+      "direction_index": 24,
+      "index": 194,
+      "objective": 3608548.988916,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 24,
+      "index": 195,
+      "objective": 3362438.196221,
+      "roll_index": 3
+    },
+    {
+      "crossings": 71,
+      "direction_index": 24,
+      "index": 196,
+      "objective": 3268395.516591,
+      "roll_index": 4
+    },
+    {
+      "crossings": 75,
+      "direction_index": 24,
+      "index": 197,
+      "objective": 3248196.689356,
+      "roll_index": 5
+    },
+    {
+      "crossings": 86,
+      "direction_index": 24,
+      "index": 198,
+      "objective": 3642627.919788,
+      "roll_index": 6
+    },
+    {
+      "crossings": 100,
+      "direction_index": 24,
+      "index": 199,
+      "objective": 3450173.824154,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 25,
+      "index": 200,
+      "objective": 2976490.154871,
+      "roll_index": 0
+    },
+    {
+      "crossings": 71,
+      "direction_index": 25,
+      "index": 201,
+      "objective": 3140400.657109,
+      "roll_index": 1
+    },
+    {
+      "crossings": 71,
+      "direction_index": 25,
+      "index": 202,
+      "objective": 2755913.125196,
+      "roll_index": 2
+    },
+    {
+      "crossings": 62,
+      "direction_index": 25,
+      "index": 203,
+      "objective": 2347461.850336,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 25,
+      "index": 204,
+      "objective": 2923172.685947,
+      "roll_index": 4
+    },
+    {
+      "crossings": 59,
+      "direction_index": 25,
+      "index": 205,
+      "objective": 3116144.394708,
+      "roll_index": 5
+    },
+    {
+      "crossings": 73,
+      "direction_index": 25,
+      "index": 206,
+      "objective": 2760734.139,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 25,
+      "index": 207,
+      "objective": 2382962.859319,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 26,
+      "index": 208,
+      "objective": 3461142.085791,
+      "roll_index": 0
+    },
+    {
+      "crossings": 90,
+      "direction_index": 26,
+      "index": 209,
+      "objective": 3250215.708876,
+      "roll_index": 1
+    },
+    {
+      "crossings": 87,
+      "direction_index": 26,
+      "index": 210,
+      "objective": 3302880.560827,
+      "roll_index": 2
+    },
+    {
+      "crossings": 74,
+      "direction_index": 26,
+      "index": 211,
+      "objective": 3426864.482761,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 26,
+      "index": 212,
+      "objective": 3422993.025695,
+      "roll_index": 4
+    },
+    {
+      "crossings": 77,
+      "direction_index": 26,
+      "index": 213,
+      "objective": 3224514.494267,
+      "roll_index": 5
+    },
+    {
+      "crossings": 86,
+      "direction_index": 26,
+      "index": 214,
+      "objective": 3301333.832513,
+      "roll_index": 6
+    },
+    {
+      "crossings": 87,
+      "direction_index": 26,
+      "index": 215,
+      "objective": 3453142.198475,
+      "roll_index": 7
+    },
+    {
+      "crossings": 91,
+      "direction_index": 27,
+      "index": 216,
+      "objective": 3427521.244888,
+      "roll_index": 0
+    },
+    {
+      "crossings": 87,
+      "direction_index": 27,
+      "index": 217,
+      "objective": 3843517.672172,
+      "roll_index": 1
+    },
+    {
+      "crossings": 74,
+      "direction_index": 27,
+      "index": 218,
+      "objective": 3361738.376862,
+      "roll_index": 2
+    },
+    {
+      "crossings": 60,
+      "direction_index": 27,
+      "index": 219,
+      "objective": 3294101.656391,
+      "roll_index": 3
+    },
+    {
+      "crossings": 52,
+      "direction_index": 27,
+      "index": 220,
+      "objective": 3347042.984546,
+      "roll_index": 4
+    },
+    {
+      "crossings": 74,
+      "direction_index": 27,
+      "index": 221,
+      "objective": 3816607.529621,
+      "roll_index": 5
+    },
+    {
+      "crossings": 81,
+      "direction_index": 27,
+      "index": 222,
+      "objective": 3376230.885178,
+      "roll_index": 6
+    },
+    {
+      "crossings": 87,
+      "direction_index": 27,
+      "index": 223,
+      "objective": 3349766.416499,
+      "roll_index": 7
+    },
+    {
+      "crossings": 78,
+      "direction_index": 28,
+      "index": 224,
+      "objective": 3292504.593983,
+      "roll_index": 0
+    },
+    {
+      "crossings": 71,
+      "direction_index": 28,
+      "index": 225,
+      "objective": 3646674.773774,
+      "roll_index": 1
+    },
+    {
+      "crossings": 75,
+      "direction_index": 28,
+      "index": 226,
+      "objective": 3759581.542103,
+      "roll_index": 2
+    },
+    {
+      "crossings": 76,
+      "direction_index": 28,
+      "index": 227,
+      "objective": 3679957.067772,
+      "roll_index": 3
+    },
+    {
+      "crossings": 74,
+      "direction_index": 28,
+      "index": 228,
+      "objective": 3284205.696242,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 28,
+      "index": 229,
+      "objective": 3657803.428887,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 28,
+      "index": 230,
+      "objective": 3775003.899098,
+      "roll_index": 6
+    },
+    {
+      "crossings": 89,
+      "direction_index": 28,
+      "index": 231,
+      "objective": 3706905.842692,
+      "roll_index": 7
+    },
+    {
+      "crossings": 82,
+      "direction_index": 29,
+      "index": 232,
+      "objective": 3248584.337691,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 29,
+      "index": 233,
+      "objective": 3319088.561512,
+      "roll_index": 1
+    },
+    {
+      "crossings": 63,
+      "direction_index": 29,
+      "index": 234,
+      "objective": 3894415.951632,
+      "roll_index": 2
+    },
+    {
+      "crossings": 64,
+      "direction_index": 29,
+      "index": 235,
+      "objective": 3635021.963444,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 29,
+      "index": 236,
+      "objective": 3204110.187622,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 29,
+      "index": 237,
+      "objective": 3300687.361082,
+      "roll_index": 5
+    },
+    {
+      "crossings": 95,
+      "direction_index": 29,
+      "index": 238,
+      "objective": 3959359.752065,
+      "roll_index": 6
+    },
+    {
+      "crossings": 83,
+      "direction_index": 29,
+      "index": 239,
+      "objective": 3673723.483768,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 30,
+      "index": 240,
+      "objective": 2954715.074871,
+      "roll_index": 0
+    },
+    {
+      "crossings": 73,
+      "direction_index": 30,
+      "index": 241,
+      "objective": 3070130.620923,
+      "roll_index": 1
+    },
+    {
+      "crossings": 61,
+      "direction_index": 30,
+      "index": 242,
+      "objective": 2553494.133434,
+      "roll_index": 2
+    },
+    {
+      "crossings": 66,
+      "direction_index": 30,
+      "index": 243,
+      "objective": 2945004.341436,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 30,
+      "index": 244,
+      "objective": 2901408.246378,
+      "roll_index": 4
+    },
+    {
+      "crossings": 58,
+      "direction_index": 30,
+      "index": 245,
+      "objective": 3039531.849311,
+      "roll_index": 5
+    },
+    {
+      "crossings": 61,
+      "direction_index": 30,
+      "index": 246,
+      "objective": 2554107.707085,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 30,
+      "index": 247,
+      "objective": 2972527.937102,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 31,
+      "index": 248,
+      "objective": 3542784.450103,
+      "roll_index": 0
+    },
+    {
+      "crossings": 89,
+      "direction_index": 31,
+      "index": 249,
+      "objective": 4078907.46737,
+      "roll_index": 1
+    },
+    {
+      "crossings": 89,
+      "direction_index": 31,
+      "index": 250,
+      "objective": 3311513.441193,
+      "roll_index": 2
+    },
+    {
+      "crossings": 85,
+      "direction_index": 31,
+      "index": 251,
+      "objective": 3452822.319596,
+      "roll_index": 3
+    },
+    {
+      "crossings": 83,
+      "direction_index": 31,
+      "index": 252,
+      "objective": 3549344.611298,
+      "roll_index": 4
+    },
+    {
+      "crossings": 93,
+      "direction_index": 31,
+      "index": 253,
+      "objective": 4087769.118713,
+      "roll_index": 5
+    },
+    {
+      "crossings": 100,
+      "direction_index": 31,
+      "index": 254,
+      "objective": 3334709.794797,
+      "roll_index": 6
+    },
+    {
+      "crossings": 83,
+      "direction_index": 31,
+      "index": 255,
+      "objective": 3449014.620536,
+      "roll_index": 7
+    },
+    {
+      "crossings": 115,
+      "direction_index": 32,
+      "index": 256,
+      "objective": 3459085.681439,
+      "roll_index": 0
+    },
+    {
+      "crossings": 91,
+      "direction_index": 32,
+      "index": 257,
+      "objective": 3382826.993603,
+      "roll_index": 1
+    },
+    {
+      "crossings": 78,
+      "direction_index": 32,
+      "index": 258,
+      "objective": 3926988.434764,
+      "roll_index": 2
+    },
+    {
+      "crossings": 61,
+      "direction_index": 32,
+      "index": 259,
+      "objective": 3733091.211217,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 32,
+      "index": 260,
+      "objective": 3356241.647807,
+      "roll_index": 4
+    },
+    {
+      "crossings": 70,
+      "direction_index": 32,
+      "index": 261,
+      "objective": 3339726.289807,
+      "roll_index": 5
+    },
+    {
+      "crossings": 80,
+      "direction_index": 32,
+      "index": 262,
+      "objective": 3931059.996826,
+      "roll_index": 6
+    },
+    {
+      "crossings": 99,
+      "direction_index": 32,
+      "index": 263,
+      "objective": 3811332.633985,
+      "roll_index": 7
+    },
+    {
+      "crossings": 93,
+      "direction_index": 33,
+      "index": 264,
+      "objective": 3227616.907253,
+      "roll_index": 0
+    },
+    {
+      "crossings": 79,
+      "direction_index": 33,
+      "index": 265,
+      "objective": 3801137.259649,
+      "roll_index": 1
+    },
+    {
+      "crossings": 66,
+      "direction_index": 33,
+      "index": 266,
+      "objective": 3217973.434222,
+      "roll_index": 2
+    },
+    {
+      "crossings": 75,
+      "direction_index": 33,
+      "index": 267,
+      "objective": 2838300.738421,
+      "roll_index": 3
+    },
+    {
+      "crossings": 63,
+      "direction_index": 33,
+      "index": 268,
+      "objective": 3166620.966642,
+      "roll_index": 4
+    },
+    {
+      "crossings": 60,
+      "direction_index": 33,
+      "index": 269,
+      "objective": 3763254.740468,
+      "roll_index": 5
+    },
+    {
+      "crossings": 77,
+      "direction_index": 33,
+      "index": 270,
+      "objective": 3241408.115647,
+      "roll_index": 6
+    },
+    {
+      "crossings": 97,
+      "direction_index": 33,
+      "index": 271,
+      "objective": 2884054.229508,
+      "roll_index": 7
+    },
+    {
+      "crossings": 81,
+      "direction_index": 34,
+      "index": 272,
+      "objective": 3501025.234357,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 34,
+      "index": 273,
+      "objective": 3617065.164805,
+      "roll_index": 1
+    },
+    {
+      "crossings": 67,
+      "direction_index": 34,
+      "index": 274,
+      "objective": 2849998.096787,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 34,
+      "index": 275,
+      "objective": 3276360.466994,
+      "roll_index": 3
+    },
+    {
+      "crossings": 55,
+      "direction_index": 34,
+      "index": 276,
+      "objective": 3448545.242795,
+      "roll_index": 4
+    },
+    {
+      "crossings": 65,
+      "direction_index": 34,
+      "index": 277,
+      "objective": 3582465.628632,
+      "roll_index": 5
+    },
+    {
+      "crossings": 78,
+      "direction_index": 34,
+      "index": 278,
+      "objective": 2872471.662497,
+      "roll_index": 6
+    },
+    {
+      "crossings": 86,
+      "direction_index": 34,
+      "index": 279,
+      "objective": 3335161.758329,
+      "roll_index": 7
+    },
+    {
+      "crossings": 92,
+      "direction_index": 35,
+      "index": 280,
+      "objective": 3394589.369821,
+      "roll_index": 0
+    },
+    {
+      "crossings": 81,
+      "direction_index": 35,
+      "index": 281,
+      "objective": 3307121.747175,
+      "roll_index": 1
+    },
+    {
+      "crossings": 63,
+      "direction_index": 35,
+      "index": 282,
+      "objective": 3576227.884789,
+      "roll_index": 2
+    },
+    {
+      "crossings": 62,
+      "direction_index": 35,
+      "index": 283,
+      "objective": 3407587.732086,
+      "roll_index": 3
+    },
+    {
+      "crossings": 56,
+      "direction_index": 35,
+      "index": 284,
+      "objective": 3320716.146827,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 35,
+      "index": 285,
+      "objective": 3290579.287706,
+      "roll_index": 5
+    },
+    {
+      "crossings": 72,
+      "direction_index": 35,
+      "index": 286,
+      "objective": 3594876.085802,
+      "roll_index": 6
+    },
+    {
+      "crossings": 85,
+      "direction_index": 35,
+      "index": 287,
+      "objective": 3455325.843669,
+      "roll_index": 7
+    },
+    {
+      "crossings": 82,
+      "direction_index": 36,
+      "index": 288,
+      "objective": 3676160.17089,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 36,
+      "index": 289,
+      "objective": 4344853.279309,
+      "roll_index": 1
+    },
+    {
+      "crossings": 87,
+      "direction_index": 36,
+      "index": 290,
+      "objective": 4940091.038676,
+      "roll_index": 2
+    },
+    {
+      "crossings": 86,
+      "direction_index": 36,
+      "index": 291,
+      "objective": 4141325.389187,
+      "roll_index": 3
+    },
+    {
+      "crossings": 86,
+      "direction_index": 36,
+      "index": 292,
+      "objective": 3684088.130827,
+      "roll_index": 4
+    },
+    {
+      "crossings": 91,
+      "direction_index": 36,
+      "index": 293,
+      "objective": 4377768.117515,
+      "roll_index": 5
+    },
+    {
+      "crossings": 91,
+      "direction_index": 36,
+      "index": 294,
+      "objective": 4949122.820019,
+      "roll_index": 6
+    },
+    {
+      "crossings": 87,
+      "direction_index": 36,
+      "index": 295,
+      "objective": 4144020.639528,
+      "roll_index": 7
+    },
+    {
+      "crossings": 93,
+      "direction_index": 37,
+      "index": 296,
+      "objective": 3613343.050267,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 37,
+      "index": 297,
+      "objective": 3394942.340081,
+      "roll_index": 1
+    },
+    {
+      "crossings": 69,
+      "direction_index": 37,
+      "index": 298,
+      "objective": 3770652.994731,
+      "roll_index": 2
+    },
+    {
+      "crossings": 63,
+      "direction_index": 37,
+      "index": 299,
+      "objective": 3585353.919491,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 37,
+      "index": 300,
+      "objective": 3560724.494711,
+      "roll_index": 4
+    },
+    {
+      "crossings": 70,
+      "direction_index": 37,
+      "index": 301,
+      "objective": 3370271.550687,
+      "roll_index": 5
+    },
+    {
+      "crossings": 88,
+      "direction_index": 37,
+      "index": 302,
+      "objective": 3809653.062798,
+      "roll_index": 6
+    },
+    {
+      "crossings": 95,
+      "direction_index": 37,
+      "index": 303,
+      "objective": 3650625.266575,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 38,
+      "index": 304,
+      "objective": 2645349.013718,
+      "roll_index": 0
+    },
+    {
+      "crossings": 68,
+      "direction_index": 38,
+      "index": 305,
+      "objective": 2830223.273868,
+      "roll_index": 1
+    },
+    {
+      "crossings": 65,
+      "direction_index": 38,
+      "index": 306,
+      "objective": 2147880.455814,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 38,
+      "index": 307,
+      "objective": 2702235.831713,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 38,
+      "index": 308,
+      "objective": 2600203.677282,
+      "roll_index": 4
+    },
+    {
+      "crossings": 55,
+      "direction_index": 38,
+      "index": 309,
+      "objective": 2803954.007786,
+      "roll_index": 5
+    },
+    {
+      "crossings": 62,
+      "direction_index": 38,
+      "index": 310,
+      "objective": 2142287.583251,
+      "roll_index": 6
+    },
+    {
+      "crossings": 71,
+      "direction_index": 38,
+      "index": 311,
+      "objective": 2711478.375423,
+      "roll_index": 7
+    },
+    {
+      "crossings": 88,
+      "direction_index": 39,
+      "index": 312,
+      "objective": 4075083.410097,
+      "roll_index": 0
+    },
+    {
+      "crossings": 81,
+      "direction_index": 39,
+      "index": 313,
+      "objective": 3809812.310752,
+      "roll_index": 1
+    },
+    {
+      "crossings": 83,
+      "direction_index": 39,
+      "index": 314,
+      "objective": 3120882.645944,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 39,
+      "index": 315,
+      "objective": 3712847.582767,
+      "roll_index": 3
+    },
+    {
+      "crossings": 68,
+      "direction_index": 39,
+      "index": 316,
+      "objective": 4034368.249947,
+      "roll_index": 4
+    },
+    {
+      "crossings": 71,
+      "direction_index": 39,
+      "index": 317,
+      "objective": 3790041.326281,
+      "roll_index": 5
+    },
+    {
+      "crossings": 88,
+      "direction_index": 39,
+      "index": 318,
+      "objective": 3131453.741226,
+      "roll_index": 6
+    },
+    {
+      "crossings": 88,
+      "direction_index": 39,
+      "index": 319,
+      "objective": 3755501.341153,
+      "roll_index": 7
+    },
+    {
+      "crossings": 113,
+      "direction_index": 40,
+      "index": 320,
+      "objective": 3707840.647388,
+      "roll_index": 0
+    },
+    {
+      "crossings": 89,
+      "direction_index": 40,
+      "index": 321,
+      "objective": 4540952.747228,
+      "roll_index": 1
+    },
+    {
+      "crossings": 71,
+      "direction_index": 40,
+      "index": 322,
+      "objective": 5094710.209767,
+      "roll_index": 2
+    },
+    {
+      "crossings": 73,
+      "direction_index": 40,
+      "index": 323,
+      "objective": 4714020.390339,
+      "roll_index": 3
+    },
+    {
+      "crossings": 61,
+      "direction_index": 40,
+      "index": 324,
+      "objective": 3600483.423679,
+      "roll_index": 4
+    },
+    {
+      "crossings": 69,
+      "direction_index": 40,
+      "index": 325,
+      "objective": 4499863.962133,
+      "roll_index": 5
+    },
+    {
+      "crossings": 85,
+      "direction_index": 40,
+      "index": 326,
+      "objective": 5123228.534139,
+      "roll_index": 6
+    },
+    {
+      "crossings": 98,
+      "direction_index": 40,
+      "index": 327,
+      "objective": 4766262.314899,
+      "roll_index": 7
+    },
+    {
+      "crossings": 79,
+      "direction_index": 41,
+      "index": 328,
+      "objective": 3268334.804923,
+      "roll_index": 0
+    },
+    {
+      "crossings": 72,
+      "direction_index": 41,
+      "index": 329,
+      "objective": 3452346.220949,
+      "roll_index": 1
+    },
+    {
+      "crossings": 68,
+      "direction_index": 41,
+      "index": 330,
+      "objective": 4079247.776327,
+      "roll_index": 2
+    },
+    {
+      "crossings": 76,
+      "direction_index": 41,
+      "index": 331,
+      "objective": 3685885.92034,
+      "roll_index": 3
+    },
+    {
+      "crossings": 71,
+      "direction_index": 41,
+      "index": 332,
+      "objective": 3251765.644586,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 41,
+      "index": 333,
+      "objective": 3455096.611939,
+      "roll_index": 5
+    },
+    {
+      "crossings": 85,
+      "direction_index": 41,
+      "index": 334,
+      "objective": 4115029.749473,
+      "roll_index": 6
+    },
+    {
+      "crossings": 93,
+      "direction_index": 41,
+      "index": 335,
+      "objective": 3721405.653128,
+      "roll_index": 7
+    },
+    {
+      "crossings": 71,
+      "direction_index": 42,
+      "index": 336,
+      "objective": 3127277.41783,
+      "roll_index": 0
+    },
+    {
+      "crossings": 67,
+      "direction_index": 42,
+      "index": 337,
+      "objective": 3030967.347013,
+      "roll_index": 1
+    },
+    {
+      "crossings": 60,
+      "direction_index": 42,
+      "index": 338,
+      "objective": 2453004.341739,
+      "roll_index": 2
+    },
+    {
+      "crossings": 60,
+      "direction_index": 42,
+      "index": 339,
+      "objective": 3112127.718926,
+      "roll_index": 3
+    },
+    {
+      "crossings": 62,
+      "direction_index": 42,
+      "index": 340,
+      "objective": 3109104.568967,
+      "roll_index": 4
+    },
+    {
+      "crossings": 63,
+      "direction_index": 42,
+      "index": 341,
+      "objective": 3023105.727258,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 42,
+      "index": 342,
+      "objective": 2497933.481996,
+      "roll_index": 6
+    },
+    {
+      "crossings": 81,
+      "direction_index": 42,
+      "index": 343,
+      "objective": 3155237.694431,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 43,
+      "index": 344,
+      "objective": 2998382.084289,
+      "roll_index": 0
+    },
+    {
+      "crossings": 76,
+      "direction_index": 43,
+      "index": 345,
+      "objective": 3095409.536987,
+      "roll_index": 1
+    },
+    {
+      "crossings": 61,
+      "direction_index": 43,
+      "index": 346,
+      "objective": 3541636.871992,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 43,
+      "index": 347,
+      "objective": 3355725.849006,
+      "roll_index": 3
+    },
+    {
+      "crossings": 62,
+      "direction_index": 43,
+      "index": 348,
+      "objective": 2960914.940603,
+      "roll_index": 4
+    },
+    {
+      "crossings": 66,
+      "direction_index": 43,
+      "index": 349,
+      "objective": 3075068.801484,
+      "roll_index": 5
+    },
+    {
+      "crossings": 66,
+      "direction_index": 43,
+      "index": 350,
+      "objective": 3552009.219286,
+      "roll_index": 6
+    },
+    {
+      "crossings": 72,
+      "direction_index": 43,
+      "index": 351,
+      "objective": 3367034.949527,
+      "roll_index": 7
+    },
+    {
+      "crossings": 76,
+      "direction_index": 44,
+      "index": 352,
+      "objective": 3967575.210626,
+      "roll_index": 0
+    },
+    {
+      "crossings": 70,
+      "direction_index": 44,
+      "index": 353,
+      "objective": 4724424.406913,
+      "roll_index": 1
+    },
+    {
+      "crossings": 79,
+      "direction_index": 44,
+      "index": 354,
+      "objective": 4347064.572293,
+      "roll_index": 2
+    },
+    {
+      "crossings": 82,
+      "direction_index": 44,
+      "index": 355,
+      "objective": 4058773.946673,
+      "roll_index": 3
+    },
+    {
+      "crossings": 79,
+      "direction_index": 44,
+      "index": 356,
+      "objective": 3974118.865002,
+      "roll_index": 4
+    },
+    {
+      "crossings": 90,
+      "direction_index": 44,
+      "index": 357,
+      "objective": 4765879.571873,
+      "roll_index": 5
+    },
+    {
+      "crossings": 99,
+      "direction_index": 44,
+      "index": 358,
+      "objective": 4388493.348706,
+      "roll_index": 6
+    },
+    {
+      "crossings": 84,
+      "direction_index": 44,
+      "index": 359,
+      "objective": 4063470.009438,
+      "roll_index": 7
+    },
+    {
+      "crossings": 103,
+      "direction_index": 45,
+      "index": 360,
+      "objective": 3336146.429877,
+      "roll_index": 0
+    },
+    {
+      "crossings": 97,
+      "direction_index": 45,
+      "index": 361,
+      "objective": 3262408.371418,
+      "roll_index": 1
+    },
+    {
+      "crossings": 80,
+      "direction_index": 45,
+      "index": 362,
+      "objective": 3946897.639645,
+      "roll_index": 2
+    },
+    {
+      "crossings": 66,
+      "direction_index": 45,
+      "index": 363,
+      "objective": 3490098.436241,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 45,
+      "index": 364,
+      "objective": 3248702.415465,
+      "roll_index": 4
+    },
+    {
+      "crossings": 65,
+      "direction_index": 45,
+      "index": 365,
+      "objective": 3197079.514066,
+      "roll_index": 5
+    },
+    {
+      "crossings": 79,
+      "direction_index": 45,
+      "index": 366,
+      "objective": 3945002.872551,
+      "roll_index": 6
+    },
+    {
+      "crossings": 98,
+      "direction_index": 45,
+      "index": 367,
+      "objective": 3555433.239389,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 46,
+      "index": 368,
+      "objective": 2487691.446323,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 46,
+      "index": 369,
+      "objective": 3069714.18516,
+      "roll_index": 1
+    },
+    {
+      "crossings": 70,
+      "direction_index": 46,
+      "index": 370,
+      "objective": 3264437.285894,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 46,
+      "index": 371,
+      "objective": 2950160.647487,
+      "roll_index": 3
+    },
+    {
+      "crossings": 59,
+      "direction_index": 46,
+      "index": 372,
+      "objective": 2444657.994955,
+      "roll_index": 4
+    },
+    {
+      "crossings": 55,
+      "direction_index": 46,
+      "index": 373,
+      "objective": 3029669.240055,
+      "roll_index": 5
+    },
+    {
+      "crossings": 69,
+      "direction_index": 46,
+      "index": 374,
+      "objective": 3263246.01702,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 46,
+      "index": 375,
+      "objective": 2973309.635663,
+      "roll_index": 7
+    },
+    {
+      "crossings": 77,
+      "direction_index": 47,
+      "index": 376,
+      "objective": 2956726.669774,
+      "roll_index": 0
+    },
+    {
+      "crossings": 70,
+      "direction_index": 47,
+      "index": 377,
+      "objective": 3675131.571718,
+      "roll_index": 1
+    },
+    {
+      "crossings": 62,
+      "direction_index": 47,
+      "index": 378,
+      "objective": 3195686.720988,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 47,
+      "index": 379,
+      "objective": 3303904.17179,
+      "roll_index": 3
+    },
+    {
+      "crossings": 55,
+      "direction_index": 47,
+      "index": 380,
+      "objective": 2912394.054258,
+      "roll_index": 4
+    },
+    {
+      "crossings": 61,
+      "direction_index": 47,
+      "index": 381,
+      "objective": 3657368.403302,
+      "roll_index": 5
+    },
+    {
+      "crossings": 77,
+      "direction_index": 47,
+      "index": 382,
+      "objective": 3226816.570813,
+      "roll_index": 6
+    },
+    {
+      "crossings": 90,
+      "direction_index": 47,
+      "index": 383,
+      "objective": 3371293.173447,
+      "roll_index": 7
+    },
+    {
+      "crossings": 105,
+      "direction_index": 48,
+      "index": 384,
+      "objective": 4271456.069831,
+      "roll_index": 0
+    },
+    {
+      "crossings": 78,
+      "direction_index": 48,
+      "index": 385,
+      "objective": 4345312.341828,
+      "roll_index": 1
+    },
+    {
+      "crossings": 60,
+      "direction_index": 48,
+      "index": 386,
+      "objective": 4060846.684677,
+      "roll_index": 2
+    },
+    {
+      "crossings": 59,
+      "direction_index": 48,
+      "index": 387,
+      "objective": 4016073.345288,
+      "roll_index": 3
+    },
+    {
+      "crossings": 56,
+      "direction_index": 48,
+      "index": 388,
+      "objective": 4170966.252837,
+      "roll_index": 4
+    },
+    {
+      "crossings": 75,
+      "direction_index": 48,
+      "index": 389,
+      "objective": 4339245.861931,
+      "roll_index": 5
+    },
+    {
+      "crossings": 90,
+      "direction_index": 48,
+      "index": 390,
+      "objective": 4122041.614422,
+      "roll_index": 6
+    },
+    {
+      "crossings": 100,
+      "direction_index": 48,
+      "index": 391,
+      "objective": 4100435.101264,
+      "roll_index": 7
+    },
+    {
+      "crossings": 85,
+      "direction_index": 49,
+      "index": 392,
+      "objective": 3851948.021855,
+      "roll_index": 0
+    },
+    {
+      "crossings": 74,
+      "direction_index": 49,
+      "index": 393,
+      "objective": 4207103.754594,
+      "roll_index": 1
+    },
+    {
+      "crossings": 83,
+      "direction_index": 49,
+      "index": 394,
+      "objective": 4520475.16459,
+      "roll_index": 2
+    },
+    {
+      "crossings": 83,
+      "direction_index": 49,
+      "index": 395,
+      "objective": 4168861.532727,
+      "roll_index": 3
+    },
+    {
+      "crossings": 83,
+      "direction_index": 49,
+      "index": 396,
+      "objective": 3847882.699927,
+      "roll_index": 4
+    },
+    {
+      "crossings": 88,
+      "direction_index": 49,
+      "index": 397,
+      "objective": 4236130.144384,
+      "roll_index": 5
+    },
+    {
+      "crossings": 94,
+      "direction_index": 49,
+      "index": 398,
+      "objective": 4544016.229575,
+      "roll_index": 6
+    },
+    {
+      "crossings": 91,
+      "direction_index": 49,
+      "index": 399,
+      "objective": 4185815.726519,
+      "roll_index": 7
+    },
+    {
+      "crossings": 75,
+      "direction_index": 50,
+      "index": 400,
+      "objective": 2946692.866325,
+      "roll_index": 0
+    },
+    {
+      "crossings": 74,
+      "direction_index": 50,
+      "index": 401,
+      "objective": 3585593.673834,
+      "roll_index": 1
+    },
+    {
+      "crossings": 62,
+      "direction_index": 50,
+      "index": 402,
+      "objective": 4052927.595266,
+      "roll_index": 2
+    },
+    {
+      "crossings": 63,
+      "direction_index": 50,
+      "index": 403,
+      "objective": 3885049.968213,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 50,
+      "index": 404,
+      "objective": 2926365.778897,
+      "roll_index": 4
+    },
+    {
+      "crossings": 61,
+      "direction_index": 50,
+      "index": 405,
+      "objective": 3559534.596024,
+      "roll_index": 5
+    },
+    {
+      "crossings": 79,
+      "direction_index": 50,
+      "index": 406,
+      "objective": 4087519.76942,
+      "roll_index": 6
+    },
+    {
+      "crossings": 81,
+      "direction_index": 50,
+      "index": 407,
+      "objective": 3921941.665607,
+      "roll_index": 7
+    },
+    {
+      "crossings": 75,
+      "direction_index": 51,
+      "index": 408,
+      "objective": 2811455.664909,
+      "roll_index": 0
+    },
+    {
+      "crossings": 68,
+      "direction_index": 51,
+      "index": 409,
+      "objective": 3390348.916639,
+      "roll_index": 1
+    },
+    {
+      "crossings": 67,
+      "direction_index": 51,
+      "index": 410,
+      "objective": 2990803.558789,
+      "roll_index": 2
+    },
+    {
+      "crossings": 66,
+      "direction_index": 51,
+      "index": 411,
+      "objective": 3104555.384231,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 51,
+      "index": 412,
+      "objective": 2790344.659106,
+      "roll_index": 4
+    },
+    {
+      "crossings": 62,
+      "direction_index": 51,
+      "index": 413,
+      "objective": 3378249.411783,
+      "roll_index": 5
+    },
+    {
+      "crossings": 55,
+      "direction_index": 51,
+      "index": 414,
+      "objective": 2967031.191441,
+      "roll_index": 6
+    },
+    {
+      "crossings": 73,
+      "direction_index": 51,
+      "index": 415,
+      "objective": 3120039.093639,
+      "roll_index": 7
+    },
+    {
+      "crossings": 87,
+      "direction_index": 52,
+      "index": 416,
+      "objective": 3697454.9091,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 52,
+      "index": 417,
+      "objective": 4204049.912088,
+      "roll_index": 1
+    },
+    {
+      "crossings": 72,
+      "direction_index": 52,
+      "index": 418,
+      "objective": 4129192.036953,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 52,
+      "index": 419,
+      "objective": 3911384.701981,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 52,
+      "index": 420,
+      "objective": 3657216.084695,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 52,
+      "index": 421,
+      "objective": 4192358.003324,
+      "roll_index": 5
+    },
+    {
+      "crossings": 89,
+      "direction_index": 52,
+      "index": 422,
+      "objective": 4164113.582311,
+      "roll_index": 6
+    },
+    {
+      "crossings": 89,
+      "direction_index": 52,
+      "index": 423,
+      "objective": 3956541.84194,
+      "roll_index": 7
+    },
+    {
+      "crossings": 109,
+      "direction_index": 53,
+      "index": 424,
+      "objective": 4041033.952646,
+      "roll_index": 0
+    },
+    {
+      "crossings": 93,
+      "direction_index": 53,
+      "index": 425,
+      "objective": 4774832.695567,
+      "roll_index": 1
+    },
+    {
+      "crossings": 83,
+      "direction_index": 53,
+      "index": 426,
+      "objective": 5079674.25511,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 53,
+      "index": 427,
+      "objective": 4564791.286168,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 53,
+      "index": 428,
+      "objective": 3961085.702012,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 53,
+      "index": 429,
+      "objective": 4733873.494749,
+      "roll_index": 5
+    },
+    {
+      "crossings": 80,
+      "direction_index": 53,
+      "index": 430,
+      "objective": 5074146.053795,
+      "roll_index": 6
+    },
+    {
+      "crossings": 98,
+      "direction_index": 53,
+      "index": 431,
+      "objective": 4620612.196825,
+      "roll_index": 7
+    },
+    {
+      "crossings": 82,
+      "direction_index": 54,
+      "index": 432,
+      "objective": 3043387.946729,
+      "roll_index": 0
+    },
+    {
+      "crossings": 71,
+      "direction_index": 54,
+      "index": 433,
+      "objective": 3632963.191909,
+      "roll_index": 1
+    },
+    {
+      "crossings": 66,
+      "direction_index": 54,
+      "index": 434,
+      "objective": 3925888.571518,
+      "roll_index": 2
+    },
+    {
+      "crossings": 72,
+      "direction_index": 54,
+      "index": 435,
+      "objective": 3730909.73696,
+      "roll_index": 3
+    },
+    {
+      "crossings": 69,
+      "direction_index": 54,
+      "index": 436,
+      "objective": 3016446.928287,
+      "roll_index": 4
+    },
+    {
+      "crossings": 64,
+      "direction_index": 54,
+      "index": 437,
+      "objective": 3619102.428198,
+      "roll_index": 5
+    },
+    {
+      "crossings": 76,
+      "direction_index": 54,
+      "index": 438,
+      "objective": 3946999.331806,
+      "roll_index": 6
+    },
+    {
+      "crossings": 95,
+      "direction_index": 54,
+      "index": 439,
+      "objective": 3778271.339455,
+      "roll_index": 7
+    },
+    {
+      "crossings": 71,
+      "direction_index": 55,
+      "index": 440,
+      "objective": 2426474.941015,
+      "roll_index": 0
+    },
+    {
+      "crossings": 63,
+      "direction_index": 55,
+      "index": 441,
+      "objective": 3055795.610918,
+      "roll_index": 1
+    },
+    {
+      "crossings": 58,
+      "direction_index": 55,
+      "index": 442,
+      "objective": 2890003.952653,
+      "roll_index": 2
+    },
+    {
+      "crossings": 56,
+      "direction_index": 55,
+      "index": 443,
+      "objective": 3330951.234186,
+      "roll_index": 3
+    },
+    {
+      "crossings": 56,
+      "direction_index": 55,
+      "index": 444,
+      "objective": 2396110.035316,
+      "roll_index": 4
+    },
+    {
+      "crossings": 58,
+      "direction_index": 55,
+      "index": 445,
+      "objective": 3045815.012697,
+      "roll_index": 5
+    },
+    {
+      "crossings": 80,
+      "direction_index": 55,
+      "index": 446,
+      "objective": 2935131.292005,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 55,
+      "index": 447,
+      "objective": 3378028.863314,
+      "roll_index": 7
+    },
+    {
+      "crossings": 89,
+      "direction_index": 56,
+      "index": 448,
+      "objective": 3561238.137894,
+      "roll_index": 0
+    },
+    {
+      "crossings": 68,
+      "direction_index": 56,
+      "index": 449,
+      "objective": 3469289.045036,
+      "roll_index": 1
+    },
+    {
+      "crossings": 58,
+      "direction_index": 56,
+      "index": 450,
+      "objective": 3850549.474068,
+      "roll_index": 2
+    },
+    {
+      "crossings": 58,
+      "direction_index": 56,
+      "index": 451,
+      "objective": 3475947.515253,
+      "roll_index": 3
+    },
+    {
+      "crossings": 59,
+      "direction_index": 56,
+      "index": 452,
+      "objective": 3499268.275456,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 56,
+      "index": 453,
+      "objective": 3485219.314743,
+      "roll_index": 5
+    },
+    {
+      "crossings": 84,
+      "direction_index": 56,
+      "index": 454,
+      "objective": 3903598.253709,
+      "roll_index": 6
+    },
+    {
+      "crossings": 96,
+      "direction_index": 56,
+      "index": 455,
+      "objective": 3554336.193502,
+      "roll_index": 7
+    },
+    {
+      "crossings": 82,
+      "direction_index": 57,
+      "index": 456,
+      "objective": 3865391.925672,
+      "roll_index": 0
+    },
+    {
+      "crossings": 71,
+      "direction_index": 57,
+      "index": 457,
+      "objective": 5091779.396289,
+      "roll_index": 1
+    },
+    {
+      "crossings": 84,
+      "direction_index": 57,
+      "index": 458,
+      "objective": 5681598.606112,
+      "roll_index": 2
+    },
+    {
+      "crossings": 79,
+      "direction_index": 57,
+      "index": 459,
+      "objective": 4758232.407828,
+      "roll_index": 3
+    },
+    {
+      "crossings": 83,
+      "direction_index": 57,
+      "index": 460,
+      "objective": 3867548.047017,
+      "roll_index": 4
+    },
+    {
+      "crossings": 93,
+      "direction_index": 57,
+      "index": 461,
+      "objective": 5137262.753729,
+      "roll_index": 5
+    },
+    {
+      "crossings": 102,
+      "direction_index": 57,
+      "index": 462,
+      "objective": 5718934.375665,
+      "roll_index": 6
+    },
+    {
+      "crossings": 95,
+      "direction_index": 57,
+      "index": 463,
+      "objective": 4791018.772763,
+      "roll_index": 7
+    },
+    {
+      "crossings": 92,
+      "direction_index": 58,
+      "index": 464,
+      "objective": 3426447.06669,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 58,
+      "index": 465,
+      "objective": 3392021.122066,
+      "roll_index": 1
+    },
+    {
+      "crossings": 75,
+      "direction_index": 58,
+      "index": 466,
+      "objective": 4565154.158669,
+      "roll_index": 2
+    },
+    {
+      "crossings": 68,
+      "direction_index": 58,
+      "index": 467,
+      "objective": 4057655.51035,
+      "roll_index": 3
+    },
+    {
+      "crossings": 68,
+      "direction_index": 58,
+      "index": 468,
+      "objective": 3377226.521025,
+      "roll_index": 4
+    },
+    {
+      "crossings": 67,
+      "direction_index": 58,
+      "index": 469,
+      "objective": 3361309.52894,
+      "roll_index": 5
+    },
+    {
+      "crossings": 79,
+      "direction_index": 58,
+      "index": 470,
+      "objective": 4573207.224345,
+      "roll_index": 6
+    },
+    {
+      "crossings": 98,
+      "direction_index": 58,
+      "index": 471,
+      "objective": 4118678.393022,
+      "roll_index": 7
+    },
+    {
+      "crossings": 78,
+      "direction_index": 59,
+      "index": 472,
+      "objective": 3154700.205978,
+      "roll_index": 0
+    },
+    {
+      "crossings": 71,
+      "direction_index": 59,
+      "index": 473,
+      "objective": 3023755.661338,
+      "roll_index": 1
+    },
+    {
+      "crossings": 71,
+      "direction_index": 59,
+      "index": 474,
+      "objective": 2739488.682049,
+      "roll_index": 2
+    },
+    {
+      "crossings": 73,
+      "direction_index": 59,
+      "index": 475,
+      "objective": 2643526.310153,
+      "roll_index": 3
+    },
+    {
+      "crossings": 63,
+      "direction_index": 59,
+      "index": 476,
+      "objective": 3123997.473854,
+      "roll_index": 4
+    },
+    {
+      "crossings": 55,
+      "direction_index": 59,
+      "index": 477,
+      "objective": 2991205.945824,
+      "roll_index": 5
+    },
+    {
+      "crossings": 67,
+      "direction_index": 59,
+      "index": 478,
+      "objective": 2731990.089334,
+      "roll_index": 6
+    },
+    {
+      "crossings": 73,
+      "direction_index": 59,
+      "index": 479,
+      "objective": 2644398.706657,
+      "roll_index": 7
+    },
+    {
+      "crossings": 77,
+      "direction_index": 60,
+      "index": 480,
+      "objective": 3005670.884871,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 60,
+      "index": 481,
+      "objective": 3774246.877981,
+      "roll_index": 1
+    },
+    {
+      "crossings": 60,
+      "direction_index": 60,
+      "index": 482,
+      "objective": 4276598.988595,
+      "roll_index": 2
+    },
+    {
+      "crossings": 54,
+      "direction_index": 60,
+      "index": 483,
+      "objective": 3628469.655582,
+      "roll_index": 3
+    },
+    {
+      "crossings": 56,
+      "direction_index": 60,
+      "index": 484,
+      "objective": 2963239.745244,
+      "roll_index": 4
+    },
+    {
+      "crossings": 64,
+      "direction_index": 60,
+      "index": 485,
+      "objective": 3752523.880078,
+      "roll_index": 5
+    },
+    {
+      "crossings": 76,
+      "direction_index": 60,
+      "index": 486,
+      "objective": 4309937.887351,
+      "roll_index": 6
+    },
+    {
+      "crossings": 88,
+      "direction_index": 60,
+      "index": 487,
+      "objective": 3697941.362792,
+      "roll_index": 7
+    },
+    {
+      "crossings": 101,
+      "direction_index": 61,
+      "index": 488,
+      "objective": 4220411.538289,
+      "roll_index": 0
+    },
+    {
+      "crossings": 96,
+      "direction_index": 61,
+      "index": 489,
+      "objective": 4405160.437512,
+      "roll_index": 1
+    },
+    {
+      "crossings": 70,
+      "direction_index": 61,
+      "index": 490,
+      "objective": 5445127.324366,
+      "roll_index": 2
+    },
+    {
+      "crossings": 62,
+      "direction_index": 61,
+      "index": 491,
+      "objective": 4825721.396049,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 61,
+      "index": 492,
+      "objective": 4150312.490893,
+      "roll_index": 4
+    },
+    {
+      "crossings": 69,
+      "direction_index": 61,
+      "index": 493,
+      "objective": 4350401.727535,
+      "roll_index": 5
+    },
+    {
+      "crossings": 87,
+      "direction_index": 61,
+      "index": 494,
+      "objective": 5480293.239355,
+      "roll_index": 6
+    },
+    {
+      "crossings": 108,
+      "direction_index": 61,
+      "index": 495,
+      "objective": 4920363.100947,
+      "roll_index": 7
+    },
+    {
+      "crossings": 85,
+      "direction_index": 62,
+      "index": 496,
+      "objective": 3394200.239788,
+      "roll_index": 0
+    },
+    {
+      "crossings": 77,
+      "direction_index": 62,
+      "index": 497,
+      "objective": 4113583.956389,
+      "roll_index": 1
+    },
+    {
+      "crossings": 73,
+      "direction_index": 62,
+      "index": 498,
+      "objective": 4087342.167883,
+      "roll_index": 2
+    },
+    {
+      "crossings": 81,
+      "direction_index": 62,
+      "index": 499,
+      "objective": 3188254.127451,
+      "roll_index": 3
+    },
+    {
+      "crossings": 81,
+      "direction_index": 62,
+      "index": 500,
+      "objective": 3386064.157258,
+      "roll_index": 4
+    },
+    {
+      "crossings": 75,
+      "direction_index": 62,
+      "index": 501,
+      "objective": 4110742.640597,
+      "roll_index": 5
+    },
+    {
+      "crossings": 85,
+      "direction_index": 62,
+      "index": 502,
+      "objective": 4112766.650439,
+      "roll_index": 6
+    },
+    {
+      "crossings": 92,
+      "direction_index": 62,
+      "index": 503,
+      "objective": 3211368.241316,
+      "roll_index": 7
+    },
+    {
+      "crossings": 68,
+      "direction_index": 63,
+      "index": 504,
+      "objective": 2733182.446901,
+      "roll_index": 0
+    },
+    {
+      "crossings": 68,
+      "direction_index": 63,
+      "index": 505,
+      "objective": 2816565.079515,
+      "roll_index": 1
+    },
+    {
+      "crossings": 66,
+      "direction_index": 63,
+      "index": 506,
+      "objective": 3588356.129398,
+      "roll_index": 2
+    },
+    {
+      "crossings": 60,
+      "direction_index": 63,
+      "index": 507,
+      "objective": 3105008.763255,
+      "roll_index": 3
+    },
+    {
+      "crossings": 57,
+      "direction_index": 63,
+      "index": 508,
+      "objective": 2710658.178372,
+      "roll_index": 4
+    },
+    {
+      "crossings": 57,
+      "direction_index": 63,
+      "index": 509,
+      "objective": 2794548.997214,
+      "roll_index": 5
+    },
+    {
+      "crossings": 76,
+      "direction_index": 63,
+      "index": 510,
+      "objective": 3609208.29955,
+      "roll_index": 6
+    },
+    {
+      "crossings": 77,
+      "direction_index": 63,
+      "index": 511,
+      "objective": 3139941.393635,
+      "roll_index": 7
+    },
+    {
+      "crossings": 75,
+      "direction_index": 64,
+      "index": 512,
+      "objective": 3230950.700004,
+      "roll_index": 0
+    },
+    {
+      "crossings": 69,
+      "direction_index": 64,
+      "index": 513,
+      "objective": 3525156.223238,
+      "roll_index": 1
+    },
+    {
+      "crossings": 58,
+      "direction_index": 64,
+      "index": 514,
+      "objective": 3588284.975831,
+      "roll_index": 2
+    },
+    {
+      "crossings": 56,
+      "direction_index": 64,
+      "index": 515,
+      "objective": 3324189.614657,
+      "roll_index": 3
+    },
+    {
+      "crossings": 62,
+      "direction_index": 64,
+      "index": 516,
+      "objective": 3203560.714069,
+      "roll_index": 4
+    },
+    {
+      "crossings": 74,
+      "direction_index": 64,
+      "index": 517,
+      "objective": 3535280.298874,
+      "roll_index": 5
+    },
+    {
+      "crossings": 69,
+      "direction_index": 64,
+      "index": 518,
+      "objective": 3611120.938351,
+      "roll_index": 6
+    },
+    {
+      "crossings": 71,
+      "direction_index": 64,
+      "index": 519,
+      "objective": 3356105.930262,
+      "roll_index": 7
+    },
+    {
+      "crossings": 82,
+      "direction_index": 65,
+      "index": 520,
+      "objective": 3997097.831118,
+      "roll_index": 0
+    },
+    {
+      "crossings": 66,
+      "direction_index": 65,
+      "index": 521,
+      "objective": 4756231.18516,
+      "roll_index": 1
+    },
+    {
+      "crossings": 67,
+      "direction_index": 65,
+      "index": 522,
+      "objective": 4663590.027715,
+      "roll_index": 2
+    },
+    {
+      "crossings": 66,
+      "direction_index": 65,
+      "index": 523,
+      "objective": 4325092.842505,
+      "roll_index": 3
+    },
+    {
+      "crossings": 71,
+      "direction_index": 65,
+      "index": 524,
+      "objective": 3974981.011597,
+      "roll_index": 4
+    },
+    {
+      "crossings": 80,
+      "direction_index": 65,
+      "index": 525,
+      "objective": 4784373.296466,
+      "roll_index": 5
+    },
+    {
+      "crossings": 94,
+      "direction_index": 65,
+      "index": 526,
+      "objective": 4719067.929889,
+      "roll_index": 6
+    },
+    {
+      "crossings": 88,
+      "direction_index": 65,
+      "index": 527,
+      "objective": 4370326.411249,
+      "roll_index": 7
+    },
+    {
+      "crossings": 106,
+      "direction_index": 66,
+      "index": 528,
+      "objective": 3690467.565774,
+      "roll_index": 0
+    },
+    {
+      "crossings": 95,
+      "direction_index": 66,
+      "index": 529,
+      "objective": 3836472.691597,
+      "roll_index": 1
+    },
+    {
+      "crossings": 82,
+      "direction_index": 66,
+      "index": 530,
+      "objective": 4386822.782537,
+      "roll_index": 2
+    },
+    {
+      "crossings": 73,
+      "direction_index": 66,
+      "index": 531,
+      "objective": 4038927.492904,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 66,
+      "index": 532,
+      "objective": 3596708.154858,
+      "roll_index": 4
+    },
+    {
+      "crossings": 69,
+      "direction_index": 66,
+      "index": 533,
+      "objective": 3783297.07817,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 66,
+      "index": 534,
+      "objective": 4387442.438072,
+      "roll_index": 6
+    },
+    {
+      "crossings": 101,
+      "direction_index": 66,
+      "index": 535,
+      "objective": 4096661.721786,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 67,
+      "index": 536,
+      "objective": 2754698.838699,
+      "roll_index": 0
+    },
+    {
+      "crossings": 72,
+      "direction_index": 67,
+      "index": 537,
+      "objective": 3308099.28863,
+      "roll_index": 1
+    },
+    {
+      "crossings": 67,
+      "direction_index": 67,
+      "index": 538,
+      "objective": 3781985.574502,
+      "roll_index": 2
+    },
+    {
+      "crossings": 69,
+      "direction_index": 67,
+      "index": 539,
+      "objective": 3320374.987227,
+      "roll_index": 3
+    },
+    {
+      "crossings": 64,
+      "direction_index": 67,
+      "index": 540,
+      "objective": 2713692.175741,
+      "roll_index": 4
+    },
+    {
+      "crossings": 62,
+      "direction_index": 67,
+      "index": 541,
+      "objective": 3287713.062213,
+      "roll_index": 5
+    },
+    {
+      "crossings": 73,
+      "direction_index": 67,
+      "index": 542,
+      "objective": 3794657.877783,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 67,
+      "index": 543,
+      "objective": 3347476.161236,
+      "roll_index": 7
+    },
+    {
+      "crossings": 65,
+      "direction_index": 68,
+      "index": 544,
+      "objective": 2945764.59082,
+      "roll_index": 0
+    },
+    {
+      "crossings": 69,
+      "direction_index": 68,
+      "index": 545,
+      "objective": 3047602.348689,
+      "roll_index": 1
+    },
+    {
+      "crossings": 59,
+      "direction_index": 68,
+      "index": 546,
+      "objective": 2954421.127339,
+      "roll_index": 2
+    },
+    {
+      "crossings": 59,
+      "direction_index": 68,
+      "index": 547,
+      "objective": 3033164.130593,
+      "roll_index": 3
+    },
+    {
+      "crossings": 52,
+      "direction_index": 68,
+      "index": 548,
+      "objective": 2919279.881458,
+      "roll_index": 4
+    },
+    {
+      "crossings": 60,
+      "direction_index": 68,
+      "index": 549,
+      "objective": 3030123.216011,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 68,
+      "index": 550,
+      "objective": 3003707.507063,
+      "roll_index": 6
+    },
+    {
+      "crossings": 77,
+      "direction_index": 68,
+      "index": 551,
+      "objective": 3069956.203008,
+      "roll_index": 7
+    },
+    {
+      "crossings": 100,
+      "direction_index": 69,
+      "index": 552,
+      "objective": 3775441.980581,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 69,
+      "index": 553,
+      "objective": 3564046.36796,
+      "roll_index": 1
+    },
+    {
+      "crossings": 63,
+      "direction_index": 69,
+      "index": 554,
+      "objective": 4447399.860343,
+      "roll_index": 2
+    },
+    {
+      "crossings": 64,
+      "direction_index": 69,
+      "index": 555,
+      "objective": 4034950.623425,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 69,
+      "index": 556,
+      "objective": 3712972.688351,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 69,
+      "index": 557,
+      "objective": 3551597.58056,
+      "roll_index": 5
+    },
+    {
+      "crossings": 97,
+      "direction_index": 69,
+      "index": 558,
+      "objective": 4517156.703005,
+      "roll_index": 6
+    },
+    {
+      "crossings": 105,
+      "direction_index": 69,
+      "index": 559,
+      "objective": 4120006.097227,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 70,
+      "index": 560,
+      "objective": 4010523.205631,
+      "roll_index": 0
+    },
+    {
+      "crossings": 71,
+      "direction_index": 70,
+      "index": 561,
+      "objective": 4544048.944406,
+      "roll_index": 1
+    },
+    {
+      "crossings": 79,
+      "direction_index": 70,
+      "index": 562,
+      "objective": 4808397.345891,
+      "roll_index": 2
+    },
+    {
+      "crossings": 79,
+      "direction_index": 70,
+      "index": 563,
+      "objective": 4098136.806979,
+      "roll_index": 3
+    },
+    {
+      "crossings": 78,
+      "direction_index": 70,
+      "index": 564,
+      "objective": 3998655.349941,
+      "roll_index": 4
+    },
+    {
+      "crossings": 91,
+      "direction_index": 70,
+      "index": 565,
+      "objective": 4585538.10305,
+      "roll_index": 5
+    },
+    {
+      "crossings": 92,
+      "direction_index": 70,
+      "index": 566,
+      "objective": 4835715.328342,
+      "roll_index": 6
+    },
+    {
+      "crossings": 96,
+      "direction_index": 70,
+      "index": 567,
+      "objective": 4133302.815953,
+      "roll_index": 7
+    },
+    {
+      "crossings": 78,
+      "direction_index": 71,
+      "index": 568,
+      "objective": 3111637.140058,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 71,
+      "index": 569,
+      "objective": 3423887.558371,
+      "roll_index": 1
+    },
+    {
+      "crossings": 74,
+      "direction_index": 71,
+      "index": 570,
+      "objective": 4038351.175893,
+      "roll_index": 2
+    },
+    {
+      "crossings": 64,
+      "direction_index": 71,
+      "index": 571,
+      "objective": 3502261.002886,
+      "roll_index": 3
+    },
+    {
+      "crossings": 68,
+      "direction_index": 71,
+      "index": 572,
+      "objective": 3091145.637132,
+      "roll_index": 4
+    },
+    {
+      "crossings": 64,
+      "direction_index": 71,
+      "index": 573,
+      "objective": 3401820.134847,
+      "roll_index": 5
+    },
+    {
+      "crossings": 74,
+      "direction_index": 71,
+      "index": 574,
+      "objective": 4038865.242799,
+      "roll_index": 6
+    },
+    {
+      "crossings": 97,
+      "direction_index": 71,
+      "index": 575,
+      "objective": 3569437.464211,
+      "roll_index": 7
+    },
+    {
+      "crossings": 76,
+      "direction_index": 72,
+      "index": 576,
+      "objective": 2438849.674141,
+      "roll_index": 0
+    },
+    {
+      "crossings": 68,
+      "direction_index": 72,
+      "index": 577,
+      "objective": 3176296.967801,
+      "roll_index": 1
+    },
+    {
+      "crossings": 62,
+      "direction_index": 72,
+      "index": 578,
+      "objective": 3000445.142416,
+      "roll_index": 2
+    },
+    {
+      "crossings": 68,
+      "direction_index": 72,
+      "index": 579,
+      "objective": 3264684.553111,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 72,
+      "index": 580,
+      "objective": 2405807.438919,
+      "roll_index": 4
+    },
+    {
+      "crossings": 63,
+      "direction_index": 72,
+      "index": 581,
+      "objective": 3166187.542891,
+      "roll_index": 5
+    },
+    {
+      "crossings": 64,
+      "direction_index": 72,
+      "index": 582,
+      "objective": 3005276.120535,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 72,
+      "index": 583,
+      "objective": 3287876.99928,
+      "roll_index": 7
+    },
+    {
+      "crossings": 73,
+      "direction_index": 73,
+      "index": 584,
+      "objective": 3614174.942985,
+      "roll_index": 0
+    },
+    {
+      "crossings": 65,
+      "direction_index": 73,
+      "index": 585,
+      "objective": 3873735.111666,
+      "roll_index": 1
+    },
+    {
+      "crossings": 58,
+      "direction_index": 73,
+      "index": 586,
+      "objective": 3957049.789028,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 73,
+      "index": 587,
+      "objective": 3529830.331231,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 73,
+      "index": 588,
+      "objective": 3584104.420849,
+      "roll_index": 4
+    },
+    {
+      "crossings": 68,
+      "direction_index": 73,
+      "index": 589,
+      "objective": 3880159.863919,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 73,
+      "index": 590,
+      "objective": 4006435.697405,
+      "roll_index": 6
+    },
+    {
+      "crossings": 91,
+      "direction_index": 73,
+      "index": 591,
+      "objective": 3599347.554943,
+      "roll_index": 7
+    },
+    {
+      "crossings": 116,
+      "direction_index": 74,
+      "index": 592,
+      "objective": 3900572.979581,
+      "roll_index": 0
+    },
+    {
+      "crossings": 94,
+      "direction_index": 74,
+      "index": 593,
+      "objective": 4437366.380858,
+      "roll_index": 1
+    },
+    {
+      "crossings": 92,
+      "direction_index": 74,
+      "index": 594,
+      "objective": 5344980.039067,
+      "roll_index": 2
+    },
+    {
+      "crossings": 82,
+      "direction_index": 74,
+      "index": 595,
+      "objective": 4985542.162936,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 74,
+      "index": 596,
+      "objective": 3800559.964326,
+      "roll_index": 4
+    },
+    {
+      "crossings": 79,
+      "direction_index": 74,
+      "index": 597,
+      "objective": 4406614.939541,
+      "roll_index": 5
+    },
+    {
+      "crossings": 88,
+      "direction_index": 74,
+      "index": 598,
+      "objective": 5336708.901112,
+      "roll_index": 6
+    },
+    {
+      "crossings": 108,
+      "direction_index": 74,
+      "index": 599,
+      "objective": 5039383.709645,
+      "roll_index": 7
+    },
+    {
+      "crossings": 88,
+      "direction_index": 75,
+      "index": 600,
+      "objective": 3079676.649951,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 75,
+      "index": 601,
+      "objective": 4119163.453343,
+      "roll_index": 1
+    },
+    {
+      "crossings": 68,
+      "direction_index": 75,
+      "index": 602,
+      "objective": 4382230.969035,
+      "roll_index": 2
+    },
+    {
+      "crossings": 75,
+      "direction_index": 75,
+      "index": 603,
+      "objective": 3229694.950211,
+      "roll_index": 3
+    },
+    {
+      "crossings": 85,
+      "direction_index": 75,
+      "index": 604,
+      "objective": 3073433.846311,
+      "roll_index": 4
+    },
+    {
+      "crossings": 72,
+      "direction_index": 75,
+      "index": 605,
+      "objective": 4113519.18267,
+      "roll_index": 5
+    },
+    {
+      "crossings": 75,
+      "direction_index": 75,
+      "index": 606,
+      "objective": 4396956.491012,
+      "roll_index": 6
+    },
+    {
+      "crossings": 91,
+      "direction_index": 75,
+      "index": 607,
+      "objective": 3262914.010595,
+      "roll_index": 7
+    },
+    {
+      "crossings": 65,
+      "direction_index": 76,
+      "index": 608,
+      "objective": 2515020.762904,
+      "roll_index": 0
+    },
+    {
+      "crossings": 64,
+      "direction_index": 76,
+      "index": 609,
+      "objective": 2717032.605183,
+      "roll_index": 1
+    },
+    {
+      "crossings": 59,
+      "direction_index": 76,
+      "index": 610,
+      "objective": 2499056.689445,
+      "roll_index": 2
+    },
+    {
+      "crossings": 59,
+      "direction_index": 76,
+      "index": 611,
+      "objective": 2723155.718028,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 76,
+      "index": 612,
+      "objective": 2500539.737596,
+      "roll_index": 4
+    },
+    {
+      "crossings": 64,
+      "direction_index": 76,
+      "index": 613,
+      "objective": 2717519.256706,
+      "roll_index": 5
+    },
+    {
+      "crossings": 69,
+      "direction_index": 76,
+      "index": 614,
+      "objective": 2520260.303239,
+      "roll_index": 6
+    },
+    {
+      "crossings": 74,
+      "direction_index": 76,
+      "index": 615,
+      "objective": 2754127.733865,
+      "roll_index": 7
+    },
+    {
+      "crossings": 90,
+      "direction_index": 77,
+      "index": 616,
+      "objective": 2922869.143117,
+      "roll_index": 0
+    },
+    {
+      "crossings": 78,
+      "direction_index": 77,
+      "index": 617,
+      "objective": 4180143.24351,
+      "roll_index": 1
+    },
+    {
+      "crossings": 65,
+      "direction_index": 77,
+      "index": 618,
+      "objective": 3660427.511417,
+      "roll_index": 2
+    },
+    {
+      "crossings": 61,
+      "direction_index": 77,
+      "index": 619,
+      "objective": 3618323.11317,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 77,
+      "index": 620,
+      "objective": 2881256.909975,
+      "roll_index": 4
+    },
+    {
+      "crossings": 79,
+      "direction_index": 77,
+      "index": 621,
+      "objective": 4182078.013878,
+      "roll_index": 5
+    },
+    {
+      "crossings": 84,
+      "direction_index": 77,
+      "index": 622,
+      "objective": 3699606.381023,
+      "roll_index": 6
+    },
+    {
+      "crossings": 95,
+      "direction_index": 77,
+      "index": 623,
+      "objective": 3688852.282403,
+      "roll_index": 7
+    },
+    {
+      "crossings": 76,
+      "direction_index": 78,
+      "index": 624,
+      "objective": 4384658.480717,
+      "roll_index": 0
+    },
+    {
+      "crossings": 70,
+      "direction_index": 78,
+      "index": 625,
+      "objective": 4641189.45781,
+      "roll_index": 1
+    },
+    {
+      "crossings": 71,
+      "direction_index": 78,
+      "index": 626,
+      "objective": 4876287.368076,
+      "roll_index": 2
+    },
+    {
+      "crossings": 70,
+      "direction_index": 78,
+      "index": 627,
+      "objective": 4517119.654338,
+      "roll_index": 3
+    },
+    {
+      "crossings": 71,
+      "direction_index": 78,
+      "index": 628,
+      "objective": 4374440.327394,
+      "roll_index": 4
+    },
+    {
+      "crossings": 79,
+      "direction_index": 78,
+      "index": 629,
+      "objective": 4659344.472619,
+      "roll_index": 5
+    },
+    {
+      "crossings": 92,
+      "direction_index": 78,
+      "index": 630,
+      "objective": 4919560.340752,
+      "roll_index": 6
+    },
+    {
+      "crossings": 93,
+      "direction_index": 78,
+      "index": 631,
+      "objective": 4564178.678015,
+      "roll_index": 7
+    },
+    {
+      "crossings": 96,
+      "direction_index": 79,
+      "index": 632,
+      "objective": 3159035.058753,
+      "roll_index": 0
+    },
+    {
+      "crossings": 90,
+      "direction_index": 79,
+      "index": 633,
+      "objective": 3469069.95567,
+      "roll_index": 1
+    },
+    {
+      "crossings": 76,
+      "direction_index": 79,
+      "index": 634,
+      "objective": 4202884.978535,
+      "roll_index": 2
+    },
+    {
+      "crossings": 64,
+      "direction_index": 79,
+      "index": 635,
+      "objective": 3561690.735952,
+      "roll_index": 3
+    },
+    {
+      "crossings": 63,
+      "direction_index": 79,
+      "index": 636,
+      "objective": 3091591.264649,
+      "roll_index": 4
+    },
+    {
+      "crossings": 68,
+      "direction_index": 79,
+      "index": 637,
+      "objective": 3424460.616732,
+      "roll_index": 5
+    },
+    {
+      "crossings": 77,
+      "direction_index": 79,
+      "index": 638,
+      "objective": 4205138.54183,
+      "roll_index": 6
+    },
+    {
+      "crossings": 96,
+      "direction_index": 79,
+      "index": 639,
+      "objective": 3627261.66404,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 80,
+      "index": 640,
+      "objective": 3011412.241283,
+      "roll_index": 0
+    },
+    {
+      "crossings": 72,
+      "direction_index": 80,
+      "index": 641,
+      "objective": 3064638.200468,
+      "roll_index": 1
+    },
+    {
+      "crossings": 62,
+      "direction_index": 80,
+      "index": 642,
+      "objective": 3060037.274779,
+      "roll_index": 2
+    },
+    {
+      "crossings": 73,
+      "direction_index": 80,
+      "index": 643,
+      "objective": 3175560.132246,
+      "roll_index": 3
+    },
+    {
+      "crossings": 68,
+      "direction_index": 80,
+      "index": 644,
+      "objective": 2986588.385958,
+      "roll_index": 4
+    },
+    {
+      "crossings": 58,
+      "direction_index": 80,
+      "index": 645,
+      "objective": 3036515.065301,
+      "roll_index": 5
+    },
+    {
+      "crossings": 68,
+      "direction_index": 80,
+      "index": 646,
+      "objective": 3072711.402003,
+      "roll_index": 6
+    },
+    {
+      "crossings": 82,
+      "direction_index": 80,
+      "index": 647,
+      "objective": 3194568.450578,
+      "roll_index": 7
+    },
+    {
+      "crossings": 64,
+      "direction_index": 81,
+      "index": 648,
+      "objective": 3094328.699588,
+      "roll_index": 0
+    },
+    {
+      "crossings": 65,
+      "direction_index": 81,
+      "index": 649,
+      "objective": 3369801.322025,
+      "roll_index": 1
+    },
+    {
+      "crossings": 60,
+      "direction_index": 81,
+      "index": 650,
+      "objective": 3347593.289937,
+      "roll_index": 2
+    },
+    {
+      "crossings": 54,
+      "direction_index": 81,
+      "index": 651,
+      "objective": 2856327.451635,
+      "roll_index": 3
+    },
+    {
+      "crossings": 56,
+      "direction_index": 81,
+      "index": 652,
+      "objective": 3077992.85054,
+      "roll_index": 4
+    },
+    {
+      "crossings": 63,
+      "direction_index": 81,
+      "index": 653,
+      "objective": 3366404.133491,
+      "roll_index": 5
+    },
+    {
+      "crossings": 85,
+      "direction_index": 81,
+      "index": 654,
+      "objective": 3398637.024959,
+      "roll_index": 6
+    },
+    {
+      "crossings": 80,
+      "direction_index": 81,
+      "index": 655,
+      "objective": 2909177.548657,
+      "roll_index": 7
+    },
+    {
+      "crossings": 109,
+      "direction_index": 82,
+      "index": 656,
+      "objective": 3915387.188315,
+      "roll_index": 0
+    },
+    {
+      "crossings": 89,
+      "direction_index": 82,
+      "index": 657,
+      "objective": 3959812.40014,
+      "roll_index": 1
+    },
+    {
+      "crossings": 86,
+      "direction_index": 82,
+      "index": 658,
+      "objective": 4072106.858806,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 82,
+      "index": 659,
+      "objective": 4318306.63819,
+      "roll_index": 3
+    },
+    {
+      "crossings": 73,
+      "direction_index": 82,
+      "index": 660,
+      "objective": 3841876.222098,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 82,
+      "index": 661,
+      "objective": 3926739.277436,
+      "roll_index": 5
+    },
+    {
+      "crossings": 95,
+      "direction_index": 82,
+      "index": 662,
+      "objective": 4090644.212515,
+      "roll_index": 6
+    },
+    {
+      "crossings": 108,
+      "direction_index": 82,
+      "index": 663,
+      "objective": 4394481.499527,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 83,
+      "index": 664,
+      "objective": 3178369.232411,
+      "roll_index": 0
+    },
+    {
+      "crossings": 74,
+      "direction_index": 83,
+      "index": 665,
+      "objective": 3818037.521907,
+      "roll_index": 1
+    },
+    {
+      "crossings": 79,
+      "direction_index": 83,
+      "index": 666,
+      "objective": 3403382.794234,
+      "roll_index": 2
+    },
+    {
+      "crossings": 78,
+      "direction_index": 83,
+      "index": 667,
+      "objective": 3203458.26593,
+      "roll_index": 3
+    },
+    {
+      "crossings": 75,
+      "direction_index": 83,
+      "index": 668,
+      "objective": 3160031.138102,
+      "roll_index": 4
+    },
+    {
+      "crossings": 86,
+      "direction_index": 83,
+      "index": 669,
+      "objective": 3842800.802548,
+      "roll_index": 5
+    },
+    {
+      "crossings": 94,
+      "direction_index": 83,
+      "index": 670,
+      "objective": 3434471.716887,
+      "roll_index": 6
+    },
+    {
+      "crossings": 96,
+      "direction_index": 83,
+      "index": 671,
+      "objective": 3240585.592326,
+      "roll_index": 7
+    },
+    {
+      "crossings": 75,
+      "direction_index": 84,
+      "index": 672,
+      "objective": 2668835.411212,
+      "roll_index": 0
+    },
+    {
+      "crossings": 70,
+      "direction_index": 84,
+      "index": 673,
+      "objective": 2870959.937654,
+      "roll_index": 1
+    },
+    {
+      "crossings": 63,
+      "direction_index": 84,
+      "index": 674,
+      "objective": 3546400.250015,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 84,
+      "index": 675,
+      "objective": 3147797.158762,
+      "roll_index": 3
+    },
+    {
+      "crossings": 64,
+      "direction_index": 84,
+      "index": 676,
+      "objective": 2646560.833141,
+      "roll_index": 4
+    },
+    {
+      "crossings": 67,
+      "direction_index": 84,
+      "index": 677,
+      "objective": 2865200.10714,
+      "roll_index": 5
+    },
+    {
+      "crossings": 80,
+      "direction_index": 84,
+      "index": 678,
+      "objective": 3581204.300157,
+      "roll_index": 6
+    },
+    {
+      "crossings": 83,
+      "direction_index": 84,
+      "index": 679,
+      "objective": 3200706.887081,
+      "roll_index": 7
+    },
+    {
+      "crossings": 83,
+      "direction_index": 85,
+      "index": 680,
+      "objective": 3602033.408682,
+      "roll_index": 0
+    },
+    {
+      "crossings": 66,
+      "direction_index": 85,
+      "index": 681,
+      "objective": 3557044.073638,
+      "roll_index": 1
+    },
+    {
+      "crossings": 64,
+      "direction_index": 85,
+      "index": 682,
+      "objective": 2780832.996399,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 85,
+      "index": 683,
+      "objective": 3705115.609036,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 85,
+      "index": 684,
+      "objective": 3568301.572109,
+      "roll_index": 4
+    },
+    {
+      "crossings": 74,
+      "direction_index": 85,
+      "index": 685,
+      "objective": 3573219.802706,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 85,
+      "index": 686,
+      "objective": 2817906.835565,
+      "roll_index": 6
+    },
+    {
+      "crossings": 84,
+      "direction_index": 85,
+      "index": 687,
+      "objective": 3760985.037688,
+      "roll_index": 7
+    },
+    {
+      "crossings": 73,
+      "direction_index": 86,
+      "index": 688,
+      "objective": 3429067.532207,
+      "roll_index": 0
+    },
+    {
+      "crossings": 64,
+      "direction_index": 86,
+      "index": 689,
+      "objective": 3900636.765091,
+      "roll_index": 1
+    },
+    {
+      "crossings": 56,
+      "direction_index": 86,
+      "index": 690,
+      "objective": 3800924.028612,
+      "roll_index": 2
+    },
+    {
+      "crossings": 61,
+      "direction_index": 86,
+      "index": 691,
+      "objective": 3586960.956019,
+      "roll_index": 3
+    },
+    {
+      "crossings": 63,
+      "direction_index": 86,
+      "index": 692,
+      "objective": 3409111.502387,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 86,
+      "index": 693,
+      "objective": 3918915.65853,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 86,
+      "index": 694,
+      "objective": 3856052.886547,
+      "roll_index": 6
+    },
+    {
+      "crossings": 89,
+      "direction_index": 86,
+      "index": 695,
+      "objective": 3644181.070831,
+      "roll_index": 7
+    },
+    {
+      "crossings": 100,
+      "direction_index": 87,
+      "index": 696,
+      "objective": 3887237.299631,
+      "roll_index": 0
+    },
+    {
+      "crossings": 101,
+      "direction_index": 87,
+      "index": 697,
+      "objective": 4576890.142077,
+      "roll_index": 1
+    },
+    {
+      "crossings": 91,
+      "direction_index": 87,
+      "index": 698,
+      "objective": 4781195.248537,
+      "roll_index": 2
+    },
+    {
+      "crossings": 78,
+      "direction_index": 87,
+      "index": 699,
+      "objective": 4218701.936758,
+      "roll_index": 3
+    },
+    {
+      "crossings": 64,
+      "direction_index": 87,
+      "index": 700,
+      "objective": 3813350.641849,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 87,
+      "index": 701,
+      "objective": 4520079.291844,
+      "roll_index": 5
+    },
+    {
+      "crossings": 93,
+      "direction_index": 87,
+      "index": 702,
+      "objective": 4785797.077673,
+      "roll_index": 6
+    },
+    {
+      "crossings": 103,
+      "direction_index": 87,
+      "index": 703,
+      "objective": 4270209.876687,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 88,
+      "index": 704,
+      "objective": 3368069.85094,
+      "roll_index": 0
+    },
+    {
+      "crossings": 75,
+      "direction_index": 88,
+      "index": 705,
+      "objective": 3855662.366197,
+      "roll_index": 1
+    },
+    {
+      "crossings": 68,
+      "direction_index": 88,
+      "index": 706,
+      "objective": 3858713.751675,
+      "roll_index": 2
+    },
+    {
+      "crossings": 74,
+      "direction_index": 88,
+      "index": 707,
+      "objective": 3427035.492087,
+      "roll_index": 3
+    },
+    {
+      "crossings": 73,
+      "direction_index": 88,
+      "index": 708,
+      "objective": 3353504.719891,
+      "roll_index": 4
+    },
+    {
+      "crossings": 70,
+      "direction_index": 88,
+      "index": 709,
+      "objective": 3845588.186763,
+      "roll_index": 5
+    },
+    {
+      "crossings": 72,
+      "direction_index": 88,
+      "index": 710,
+      "objective": 3867168.333215,
+      "roll_index": 6
+    },
+    {
+      "crossings": 85,
+      "direction_index": 88,
+      "index": 711,
+      "objective": 3450288.672745,
+      "roll_index": 7
+    },
+    {
+      "crossings": 63,
+      "direction_index": 89,
+      "index": 712,
+      "objective": 2827202.421029,
+      "roll_index": 0
+    },
+    {
+      "crossings": 58,
+      "direction_index": 89,
+      "index": 713,
+      "objective": 2734263.102264,
+      "roll_index": 1
+    },
+    {
+      "crossings": 61,
+      "direction_index": 89,
+      "index": 714,
+      "objective": 2371463.597468,
+      "roll_index": 2
+    },
+    {
+      "crossings": 56,
+      "direction_index": 89,
+      "index": 715,
+      "objective": 3022067.730516,
+      "roll_index": 3
+    },
+    {
+      "crossings": 56,
+      "direction_index": 89,
+      "index": 716,
+      "objective": 2812978.16741,
+      "roll_index": 4
+    },
+    {
+      "crossings": 59,
+      "direction_index": 89,
+      "index": 717,
+      "objective": 2736811.298973,
+      "roll_index": 5
+    },
+    {
+      "crossings": 75,
+      "direction_index": 89,
+      "index": 718,
+      "objective": 2400546.208955,
+      "roll_index": 6
+    },
+    {
+      "crossings": 72,
+      "direction_index": 89,
+      "index": 719,
+      "objective": 3055024.02418,
+      "roll_index": 7
+    },
+    {
+      "crossings": 106,
+      "direction_index": 90,
+      "index": 720,
+      "objective": 3834958.606885,
+      "roll_index": 0
+    },
+    {
+      "crossings": 88,
+      "direction_index": 90,
+      "index": 721,
+      "objective": 3519829.478285,
+      "roll_index": 1
+    },
+    {
+      "crossings": 71,
+      "direction_index": 90,
+      "index": 722,
+      "objective": 3361967.440714,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 90,
+      "index": 723,
+      "objective": 3797218.296098,
+      "roll_index": 3
+    },
+    {
+      "crossings": 73,
+      "direction_index": 90,
+      "index": 724,
+      "objective": 3766827.45299,
+      "roll_index": 4
+    },
+    {
+      "crossings": 84,
+      "direction_index": 90,
+      "index": 725,
+      "objective": 3511355.161158,
+      "roll_index": 5
+    },
+    {
+      "crossings": 91,
+      "direction_index": 90,
+      "index": 726,
+      "objective": 3403244.273923,
+      "roll_index": 6
+    },
+    {
+      "crossings": 107,
+      "direction_index": 90,
+      "index": 727,
+      "objective": 3871723.225439,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 91,
+      "index": 728,
+      "objective": 3249161.22956,
+      "roll_index": 0
+    },
+    {
+      "crossings": 76,
+      "direction_index": 91,
+      "index": 729,
+      "objective": 4207092.252891,
+      "roll_index": 1
+    },
+    {
+      "crossings": 75,
+      "direction_index": 91,
+      "index": 730,
+      "objective": 5114608.233993,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 91,
+      "index": 731,
+      "objective": 4103215.248813,
+      "roll_index": 3
+    },
+    {
+      "crossings": 68,
+      "direction_index": 91,
+      "index": 732,
+      "objective": 3224615.607012,
+      "roll_index": 4
+    },
+    {
+      "crossings": 80,
+      "direction_index": 91,
+      "index": 733,
+      "objective": 4214961.35246,
+      "roll_index": 5
+    },
+    {
+      "crossings": 95,
+      "direction_index": 91,
+      "index": 734,
+      "objective": 5155718.713004,
+      "roll_index": 6
+    },
+    {
+      "crossings": 88,
+      "direction_index": 91,
+      "index": 735,
+      "objective": 4146003.651438,
+      "roll_index": 7
+    },
+    {
+      "crossings": 88,
+      "direction_index": 92,
+      "index": 736,
+      "objective": 3230253.925089,
+      "roll_index": 0
+    },
+    {
+      "crossings": 85,
+      "direction_index": 92,
+      "index": 737,
+      "objective": 3585886.991271,
+      "roll_index": 1
+    },
+    {
+      "crossings": 73,
+      "direction_index": 92,
+      "index": 738,
+      "objective": 3732849.334489,
+      "roll_index": 2
+    },
+    {
+      "crossings": 65,
+      "direction_index": 92,
+      "index": 739,
+      "objective": 3426467.265969,
+      "roll_index": 3
+    },
+    {
+      "crossings": 64,
+      "direction_index": 92,
+      "index": 740,
+      "objective": 3181216.246816,
+      "roll_index": 4
+    },
+    {
+      "crossings": 66,
+      "direction_index": 92,
+      "index": 741,
+      "objective": 3547210.578402,
+      "roll_index": 5
+    },
+    {
+      "crossings": 71,
+      "direction_index": 92,
+      "index": 742,
+      "objective": 3729075.70628,
+      "roll_index": 6
+    },
+    {
+      "crossings": 87,
+      "direction_index": 92,
+      "index": 743,
+      "objective": 3471756.855008,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 93,
+      "index": 744,
+      "objective": 3333647.885852,
+      "roll_index": 0
+    },
+    {
+      "crossings": 69,
+      "direction_index": 93,
+      "index": 745,
+      "objective": 3040149.132074,
+      "roll_index": 1
+    },
+    {
+      "crossings": 73,
+      "direction_index": 93,
+      "index": 746,
+      "objective": 2572356.997751,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 93,
+      "index": 747,
+      "objective": 3253664.570596,
+      "roll_index": 3
+    },
+    {
+      "crossings": 63,
+      "direction_index": 93,
+      "index": 748,
+      "objective": 3298616.068673,
+      "roll_index": 4
+    },
+    {
+      "crossings": 69,
+      "direction_index": 93,
+      "index": 749,
+      "objective": 3040001.717588,
+      "roll_index": 5
+    },
+    {
+      "crossings": 77,
+      "direction_index": 93,
+      "index": 750,
+      "objective": 2580637.353139,
+      "roll_index": 6
+    },
+    {
+      "crossings": 76,
+      "direction_index": 93,
+      "index": 751,
+      "objective": 3272376.037427,
+      "roll_index": 7
+    },
+    {
+      "crossings": 65,
+      "direction_index": 94,
+      "index": 752,
+      "objective": 3338688.315107,
+      "roll_index": 0
+    },
+    {
+      "crossings": 53,
+      "direction_index": 94,
+      "index": 753,
+      "objective": 3119098.026076,
+      "roll_index": 1
+    },
+    {
+      "crossings": 55,
+      "direction_index": 94,
+      "index": 754,
+      "objective": 2848289.4028,
+      "roll_index": 2
+    },
+    {
+      "crossings": 63,
+      "direction_index": 94,
+      "index": 755,
+      "objective": 2674928.529015,
+      "roll_index": 3
+    },
+    {
+      "crossings": 62,
+      "direction_index": 94,
+      "index": 756,
+      "objective": 3332882.847034,
+      "roll_index": 4
+    },
+    {
+      "crossings": 76,
+      "direction_index": 94,
+      "index": 757,
+      "objective": 3166214.280299,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 94,
+      "index": 758,
+      "objective": 2905539.341496,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 94,
+      "index": 759,
+      "objective": 2707822.357953,
+      "roll_index": 7
+    },
+    {
+      "crossings": 108,
+      "direction_index": 95,
+      "index": 760,
+      "objective": 3711055.962014,
+      "roll_index": 0
+    },
+    {
+      "crossings": 95,
+      "direction_index": 95,
+      "index": 761,
+      "objective": 3507982.788051,
+      "roll_index": 1
+    },
+    {
+      "crossings": 82,
+      "direction_index": 95,
+      "index": 762,
+      "objective": 3881044.269661,
+      "roll_index": 2
+    },
+    {
+      "crossings": 82,
+      "direction_index": 95,
+      "index": 763,
+      "objective": 3451769.646508,
+      "roll_index": 3
+    },
+    {
+      "crossings": 63,
+      "direction_index": 95,
+      "index": 764,
+      "objective": 3618784.006614,
+      "roll_index": 4
+    },
+    {
+      "crossings": 72,
+      "direction_index": 95,
+      "index": 765,
+      "objective": 3460972.433742,
+      "roll_index": 5
+    },
+    {
+      "crossings": 92,
+      "direction_index": 95,
+      "index": 766,
+      "objective": 3901379.944489,
+      "roll_index": 6
+    },
+    {
+      "crossings": 105,
+      "direction_index": 95,
+      "index": 767,
+      "objective": 3499709.403028,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 96,
+      "index": 768,
+      "objective": 3146698.531358,
+      "roll_index": 0
+    },
+    {
+      "crossings": 79,
+      "direction_index": 96,
+      "index": 769,
+      "objective": 3651305.181152,
+      "roll_index": 1
+    },
+    {
+      "crossings": 82,
+      "direction_index": 96,
+      "index": 770,
+      "objective": 3484561.771118,
+      "roll_index": 2
+    },
+    {
+      "crossings": 66,
+      "direction_index": 96,
+      "index": 771,
+      "objective": 3125604.308173,
+      "roll_index": 3
+    },
+    {
+      "crossings": 74,
+      "direction_index": 96,
+      "index": 772,
+      "objective": 3125785.192188,
+      "roll_index": 4
+    },
+    {
+      "crossings": 91,
+      "direction_index": 96,
+      "index": 773,
+      "objective": 3676090.291609,
+      "roll_index": 5
+    },
+    {
+      "crossings": 85,
+      "direction_index": 96,
+      "index": 774,
+      "objective": 3491442.099159,
+      "roll_index": 6
+    },
+    {
+      "crossings": 83,
+      "direction_index": 96,
+      "index": 775,
+      "objective": 3161102.752824,
+      "roll_index": 7
+    },
+    {
+      "crossings": 69,
+      "direction_index": 97,
+      "index": 776,
+      "objective": 2903996.041343,
+      "roll_index": 0
+    },
+    {
+      "crossings": 67,
+      "direction_index": 97,
+      "index": 777,
+      "objective": 2303285.838352,
+      "roll_index": 1
+    },
+    {
+      "crossings": 62,
+      "direction_index": 97,
+      "index": 778,
+      "objective": 2702202.457302,
+      "roll_index": 2
+    },
+    {
+      "crossings": 56,
+      "direction_index": 97,
+      "index": 779,
+      "objective": 2790699.351375,
+      "roll_index": 3
+    },
+    {
+      "crossings": 58,
+      "direction_index": 97,
+      "index": 780,
+      "objective": 2881486.058756,
+      "roll_index": 4
+    },
+    {
+      "crossings": 61,
+      "direction_index": 97,
+      "index": 781,
+      "objective": 2291830.841497,
+      "roll_index": 5
+    },
+    {
+      "crossings": 76,
+      "direction_index": 97,
+      "index": 782,
+      "objective": 2731039.504743,
+      "roll_index": 6
+    },
+    {
+      "crossings": 78,
+      "direction_index": 97,
+      "index": 783,
+      "objective": 2835786.679691,
+      "roll_index": 7
+    },
+    {
+      "crossings": 103,
+      "direction_index": 98,
+      "index": 784,
+      "objective": 3720880.864758,
+      "roll_index": 0
+    },
+    {
+      "crossings": 79,
+      "direction_index": 98,
+      "index": 785,
+      "objective": 3360360.027276,
+      "roll_index": 1
+    },
+    {
+      "crossings": 73,
+      "direction_index": 98,
+      "index": 786,
+      "objective": 3272795.31561,
+      "roll_index": 2
+    },
+    {
+      "crossings": 72,
+      "direction_index": 98,
+      "index": 787,
+      "objective": 3293810.638886,
+      "roll_index": 3
+    },
+    {
+      "crossings": 75,
+      "direction_index": 98,
+      "index": 788,
+      "objective": 3663228.402186,
+      "roll_index": 4
+    },
+    {
+      "crossings": 85,
+      "direction_index": 98,
+      "index": 789,
+      "objective": 3371924.110386,
+      "roll_index": 5
+    },
+    {
+      "crossings": 91,
+      "direction_index": 98,
+      "index": 790,
+      "objective": 3309856.236151,
+      "roll_index": 6
+    },
+    {
+      "crossings": 96,
+      "direction_index": 98,
+      "index": 791,
+      "objective": 3343708.593519,
+      "roll_index": 7
+    },
+    {
+      "crossings": 74,
+      "direction_index": 99,
+      "index": 792,
+      "objective": 3316669.828034,
+      "roll_index": 0
+    },
+    {
+      "crossings": 69,
+      "direction_index": 99,
+      "index": 793,
+      "objective": 3331713.823126,
+      "roll_index": 1
+    },
+    {
+      "crossings": 65,
+      "direction_index": 99,
+      "index": 794,
+      "objective": 3354250.871898,
+      "roll_index": 2
+    },
+    {
+      "crossings": 64,
+      "direction_index": 99,
+      "index": 795,
+      "objective": 3819935.082426,
+      "roll_index": 3
+    },
+    {
+      "crossings": 64,
+      "direction_index": 99,
+      "index": 796,
+      "objective": 3296310.142407,
+      "roll_index": 4
+    },
+    {
+      "crossings": 71,
+      "direction_index": 99,
+      "index": 797,
+      "objective": 3336202.140371,
+      "roll_index": 5
+    },
+    {
+      "crossings": 97,
+      "direction_index": 99,
+      "index": 798,
+      "objective": 3419592.646297,
+      "roll_index": 6
+    },
+    {
+      "crossings": 93,
+      "direction_index": 99,
+      "index": 799,
+      "objective": 3879598.543529,
+      "roll_index": 7
+    },
+    {
+      "crossings": 99,
+      "direction_index": 100,
+      "index": 800,
+      "objective": 3537550.3631,
+      "roll_index": 0
+    },
+    {
+      "crossings": 92,
+      "direction_index": 100,
+      "index": 801,
+      "objective": 3630120.89151,
+      "roll_index": 1
+    },
+    {
+      "crossings": 78,
+      "direction_index": 100,
+      "index": 802,
+      "objective": 3583095.683651,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 100,
+      "index": 803,
+      "objective": 3644013.748609,
+      "roll_index": 3
+    },
+    {
+      "crossings": 62,
+      "direction_index": 100,
+      "index": 804,
+      "objective": 3462263.087474,
+      "roll_index": 4
+    },
+    {
+      "crossings": 62,
+      "direction_index": 100,
+      "index": 805,
+      "objective": 3569114.641213,
+      "roll_index": 5
+    },
+    {
+      "crossings": 78,
+      "direction_index": 100,
+      "index": 806,
+      "objective": 3583417.461753,
+      "roll_index": 6
+    },
+    {
+      "crossings": 91,
+      "direction_index": 100,
+      "index": 807,
+      "objective": 3693514.416807,
+      "roll_index": 7
+    },
+    {
+      "crossings": 90,
+      "direction_index": 101,
+      "index": 808,
+      "objective": 3294210.556636,
+      "roll_index": 0
+    },
+    {
+      "crossings": 86,
+      "direction_index": 101,
+      "index": 809,
+      "objective": 3520903.491545,
+      "roll_index": 1
+    },
+    {
+      "crossings": 76,
+      "direction_index": 101,
+      "index": 810,
+      "objective": 3749189.887673,
+      "roll_index": 2
+    },
+    {
+      "crossings": 73,
+      "direction_index": 101,
+      "index": 811,
+      "objective": 3233038.803148,
+      "roll_index": 3
+    },
+    {
+      "crossings": 73,
+      "direction_index": 101,
+      "index": 812,
+      "objective": 3258804.079031,
+      "roll_index": 4
+    },
+    {
+      "crossings": 71,
+      "direction_index": 101,
+      "index": 813,
+      "objective": 3490681.677223,
+      "roll_index": 5
+    },
+    {
+      "crossings": 79,
+      "direction_index": 101,
+      "index": 814,
+      "objective": 3755837.446775,
+      "roll_index": 6
+    },
+    {
+      "crossings": 77,
+      "direction_index": 101,
+      "index": 815,
+      "objective": 3241787.823448,
+      "roll_index": 7
+    },
+    {
+      "crossings": 65,
+      "direction_index": 102,
+      "index": 816,
+      "objective": 2954888.735812,
+      "roll_index": 0
+    },
+    {
+      "crossings": 64,
+      "direction_index": 102,
+      "index": 817,
+      "objective": 2985174.96771,
+      "roll_index": 1
+    },
+    {
+      "crossings": 59,
+      "direction_index": 102,
+      "index": 818,
+      "objective": 2389833.243794,
+      "roll_index": 2
+    },
+    {
+      "crossings": 55,
+      "direction_index": 102,
+      "index": 819,
+      "objective": 2764021.162935,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 102,
+      "index": 820,
+      "objective": 2944806.278105,
+      "roll_index": 4
+    },
+    {
+      "crossings": 65,
+      "direction_index": 102,
+      "index": 821,
+      "objective": 2987682.464785,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 102,
+      "index": 822,
+      "objective": 2439431.708379,
+      "roll_index": 6
+    },
+    {
+      "crossings": 72,
+      "direction_index": 102,
+      "index": 823,
+      "objective": 2798902.466162,
+      "roll_index": 7
+    },
+    {
+      "crossings": 112,
+      "direction_index": 103,
+      "index": 824,
+      "objective": 3186131.547,
+      "roll_index": 0
+    },
+    {
+      "crossings": 98,
+      "direction_index": 103,
+      "index": 825,
+      "objective": 3340786.592151,
+      "roll_index": 1
+    },
+    {
+      "crossings": 88,
+      "direction_index": 103,
+      "index": 826,
+      "objective": 3368795.157019,
+      "roll_index": 2
+    },
+    {
+      "crossings": 90,
+      "direction_index": 103,
+      "index": 827,
+      "objective": 3666042.619927,
+      "roll_index": 3
+    },
+    {
+      "crossings": 75,
+      "direction_index": 103,
+      "index": 828,
+      "objective": 3110229.465095,
+      "roll_index": 4
+    },
+    {
+      "crossings": 81,
+      "direction_index": 103,
+      "index": 829,
+      "objective": 3306109.196918,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 103,
+      "index": 830,
+      "objective": 3359207.63688,
+      "roll_index": 6
+    },
+    {
+      "crossings": 96,
+      "direction_index": 103,
+      "index": 831,
+      "objective": 3679421.94518,
+      "roll_index": 7
+    },
+    {
+      "crossings": 84,
+      "direction_index": 104,
+      "index": 832,
+      "objective": 3531676.813754,
+      "roll_index": 0
+    },
+    {
+      "crossings": 83,
+      "direction_index": 104,
+      "index": 833,
+      "objective": 4011438.537934,
+      "roll_index": 1
+    },
+    {
+      "crossings": 78,
+      "direction_index": 104,
+      "index": 834,
+      "objective": 3612754.915519,
+      "roll_index": 2
+    },
+    {
+      "crossings": 60,
+      "direction_index": 104,
+      "index": 835,
+      "objective": 3015774.694405,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 104,
+      "index": 836,
+      "objective": 3482919.114414,
+      "roll_index": 4
+    },
+    {
+      "crossings": 79,
+      "direction_index": 104,
+      "index": 837,
+      "objective": 4003190.698934,
+      "roll_index": 5
+    },
+    {
+      "crossings": 105,
+      "direction_index": 104,
+      "index": 838,
+      "objective": 3668133.311349,
+      "roll_index": 6
+    },
+    {
+      "crossings": 92,
+      "direction_index": 104,
+      "index": 839,
+      "objective": 3081193.969998,
+      "roll_index": 7
+    },
+    {
+      "crossings": 77,
+      "direction_index": 105,
+      "index": 840,
+      "objective": 3529647.304844,
+      "roll_index": 0
+    },
+    {
+      "crossings": 73,
+      "direction_index": 105,
+      "index": 841,
+      "objective": 3550521.908849,
+      "roll_index": 1
+    },
+    {
+      "crossings": 74,
+      "direction_index": 105,
+      "index": 842,
+      "objective": 2883940.753123,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 105,
+      "index": 843,
+      "objective": 3026629.906304,
+      "roll_index": 3
+    },
+    {
+      "crossings": 62,
+      "direction_index": 105,
+      "index": 844,
+      "objective": 3498830.51006,
+      "roll_index": 4
+    },
+    {
+      "crossings": 61,
+      "direction_index": 105,
+      "index": 845,
+      "objective": 3526152.378385,
+      "roll_index": 5
+    },
+    {
+      "crossings": 79,
+      "direction_index": 105,
+      "index": 846,
+      "objective": 2894297.706511,
+      "roll_index": 6
+    },
+    {
+      "crossings": 90,
+      "direction_index": 105,
+      "index": 847,
+      "objective": 3073742.318433,
+      "roll_index": 7
+    },
+    {
+      "crossings": 83,
+      "direction_index": 106,
+      "index": 848,
+      "objective": 3676962.46765,
+      "roll_index": 0
+    },
+    {
+      "crossings": 87,
+      "direction_index": 106,
+      "index": 849,
+      "objective": 3288541.521399,
+      "roll_index": 1
+    },
+    {
+      "crossings": 73,
+      "direction_index": 106,
+      "index": 850,
+      "objective": 2893716.765475,
+      "roll_index": 2
+    },
+    {
+      "crossings": 72,
+      "direction_index": 106,
+      "index": 851,
+      "objective": 3736314.206551,
+      "roll_index": 3
+    },
+    {
+      "crossings": 73,
+      "direction_index": 106,
+      "index": 852,
+      "objective": 3655877.699871,
+      "roll_index": 4
+    },
+    {
+      "crossings": 80,
+      "direction_index": 106,
+      "index": 853,
+      "objective": 3274539.14359,
+      "roll_index": 5
+    },
+    {
+      "crossings": 79,
+      "direction_index": 106,
+      "index": 854,
+      "objective": 2906549.966615,
+      "roll_index": 6
+    },
+    {
+      "crossings": 83,
+      "direction_index": 106,
+      "index": 855,
+      "objective": 3759772.173555,
+      "roll_index": 7
+    },
+    {
+      "crossings": 60,
+      "direction_index": 107,
+      "index": 856,
+      "objective": 3360643.790796,
+      "roll_index": 0
+    },
+    {
+      "crossings": 56,
+      "direction_index": 107,
+      "index": 857,
+      "objective": 3208312.107642,
+      "roll_index": 1
+    },
+    {
+      "crossings": 57,
+      "direction_index": 107,
+      "index": 858,
+      "objective": 3249657.701978,
+      "roll_index": 2
+    },
+    {
+      "crossings": 57,
+      "direction_index": 107,
+      "index": 859,
+      "objective": 3172242.819978,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 107,
+      "index": 860,
+      "objective": 3374876.1815,
+      "roll_index": 4
+    },
+    {
+      "crossings": 74,
+      "direction_index": 107,
+      "index": 861,
+      "objective": 3245200.067571,
+      "roll_index": 5
+    },
+    {
+      "crossings": 83,
+      "direction_index": 107,
+      "index": 862,
+      "objective": 3302816.619852,
+      "roll_index": 6
+    },
+    {
+      "crossings": 69,
+      "direction_index": 107,
+      "index": 863,
+      "objective": 3196883.977894,
+      "roll_index": 7
+    },
+    {
+      "crossings": 102,
+      "direction_index": 108,
+      "index": 864,
+      "objective": 3499718.05154,
+      "roll_index": 0
+    },
+    {
+      "crossings": 96,
+      "direction_index": 108,
+      "index": 865,
+      "objective": 3998093.331804,
+      "roll_index": 1
+    },
+    {
+      "crossings": 79,
+      "direction_index": 108,
+      "index": 866,
+      "objective": 3699096.539647,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 108,
+      "index": 867,
+      "objective": 3195356.488248,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 108,
+      "index": 868,
+      "objective": 3428580.516389,
+      "roll_index": 4
+    },
+    {
+      "crossings": 74,
+      "direction_index": 108,
+      "index": 869,
+      "objective": 3953331.627616,
+      "roll_index": 5
+    },
+    {
+      "crossings": 86,
+      "direction_index": 108,
+      "index": 870,
+      "objective": 3713320.308966,
+      "roll_index": 6
+    },
+    {
+      "crossings": 101,
+      "direction_index": 108,
+      "index": 871,
+      "objective": 3257062.603318,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 109,
+      "index": 872,
+      "objective": 3545685.549529,
+      "roll_index": 0
+    },
+    {
+      "crossings": 90,
+      "direction_index": 109,
+      "index": 873,
+      "objective": 3379645.423844,
+      "roll_index": 1
+    },
+    {
+      "crossings": 79,
+      "direction_index": 109,
+      "index": 874,
+      "objective": 3316910.717232,
+      "roll_index": 2
+    },
+    {
+      "crossings": 70,
+      "direction_index": 109,
+      "index": 875,
+      "objective": 3096838.504953,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 109,
+      "index": 876,
+      "objective": 3524820.015243,
+      "roll_index": 4
+    },
+    {
+      "crossings": 75,
+      "direction_index": 109,
+      "index": 877,
+      "objective": 3348983.965974,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 109,
+      "index": 878,
+      "objective": 3323205.871975,
+      "roll_index": 6
+    },
+    {
+      "crossings": 88,
+      "direction_index": 109,
+      "index": 879,
+      "objective": 3133606.048261,
+      "roll_index": 7
+    },
+    {
+      "crossings": 74,
+      "direction_index": 110,
+      "index": 880,
+      "objective": 2938673.651584,
+      "roll_index": 0
+    },
+    {
+      "crossings": 65,
+      "direction_index": 110,
+      "index": 881,
+      "objective": 2611205.45393,
+      "roll_index": 1
+    },
+    {
+      "crossings": 63,
+      "direction_index": 110,
+      "index": 882,
+      "objective": 2130312.900122,
+      "roll_index": 2
+    },
+    {
+      "crossings": 59,
+      "direction_index": 110,
+      "index": 883,
+      "objective": 3080798.991758,
+      "roll_index": 3
+    },
+    {
+      "crossings": 57,
+      "direction_index": 110,
+      "index": 884,
+      "objective": 2904032.559447,
+      "roll_index": 4
+    },
+    {
+      "crossings": 66,
+      "direction_index": 110,
+      "index": 885,
+      "objective": 2613636.308155,
+      "roll_index": 5
+    },
+    {
+      "crossings": 78,
+      "direction_index": 110,
+      "index": 886,
+      "objective": 2161265.995513,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 110,
+      "index": 887,
+      "objective": 3121881.309631,
+      "roll_index": 7
+    },
+    {
+      "crossings": 118,
+      "direction_index": 111,
+      "index": 888,
+      "objective": 3117849.681174,
+      "roll_index": 0
+    },
+    {
+      "crossings": 100,
+      "direction_index": 111,
+      "index": 889,
+      "objective": 2976749.067826,
+      "roll_index": 1
+    },
+    {
+      "crossings": 81,
+      "direction_index": 111,
+      "index": 890,
+      "objective": 3077539.029864,
+      "roll_index": 2
+    },
+    {
+      "crossings": 83,
+      "direction_index": 111,
+      "index": 891,
+      "objective": 3373665.144573,
+      "roll_index": 3
+    },
+    {
+      "crossings": 72,
+      "direction_index": 111,
+      "index": 892,
+      "objective": 3023818.551556,
+      "roll_index": 4
+    },
+    {
+      "crossings": 70,
+      "direction_index": 111,
+      "index": 893,
+      "objective": 2915821.737203,
+      "roll_index": 5
+    },
+    {
+      "crossings": 82,
+      "direction_index": 111,
+      "index": 894,
+      "objective": 3080149.195841,
+      "roll_index": 6
+    },
+    {
+      "crossings": 99,
+      "direction_index": 111,
+      "index": 895,
+      "objective": 3406667.980171,
+      "roll_index": 7
+    },
+    {
+      "crossings": 76,
+      "direction_index": 112,
+      "index": 896,
+      "objective": 2841010.053387,
+      "roll_index": 0
+    },
+    {
+      "crossings": 70,
+      "direction_index": 112,
+      "index": 897,
+      "objective": 3174049.522349,
+      "roll_index": 1
+    },
+    {
+      "crossings": 67,
+      "direction_index": 112,
+      "index": 898,
+      "objective": 3756188.006484,
+      "roll_index": 2
+    },
+    {
+      "crossings": 63,
+      "direction_index": 112,
+      "index": 899,
+      "objective": 3158361.800211,
+      "roll_index": 3
+    },
+    {
+      "crossings": 68,
+      "direction_index": 112,
+      "index": 900,
+      "objective": 2824698.934439,
+      "roll_index": 4
+    },
+    {
+      "crossings": 79,
+      "direction_index": 112,
+      "index": 901,
+      "objective": 3192842.527989,
+      "roll_index": 5
+    },
+    {
+      "crossings": 84,
+      "direction_index": 112,
+      "index": 902,
+      "objective": 3791596.983313,
+      "roll_index": 6
+    },
+    {
+      "crossings": 84,
+      "direction_index": 112,
+      "index": 903,
+      "objective": 3201316.427216,
+      "roll_index": 7
+    },
+    {
+      "crossings": 90,
+      "direction_index": 113,
+      "index": 904,
+      "objective": 3412118.581973,
+      "roll_index": 0
+    },
+    {
+      "crossings": 84,
+      "direction_index": 113,
+      "index": 905,
+      "objective": 3504530.807605,
+      "roll_index": 1
+    },
+    {
+      "crossings": 80,
+      "direction_index": 113,
+      "index": 906,
+      "objective": 3803803.513434,
+      "roll_index": 2
+    },
+    {
+      "crossings": 68,
+      "direction_index": 113,
+      "index": 907,
+      "objective": 3141148.026458,
+      "roll_index": 3
+    },
+    {
+      "crossings": 64,
+      "direction_index": 113,
+      "index": 908,
+      "objective": 3358994.542455,
+      "roll_index": 4
+    },
+    {
+      "crossings": 65,
+      "direction_index": 113,
+      "index": 909,
+      "objective": 3465508.566453,
+      "roll_index": 5
+    },
+    {
+      "crossings": 78,
+      "direction_index": 113,
+      "index": 910,
+      "objective": 3799944.976595,
+      "roll_index": 6
+    },
+    {
+      "crossings": 94,
+      "direction_index": 113,
+      "index": 911,
+      "objective": 3194467.652876,
+      "roll_index": 7
+    },
+    {
+      "crossings": 92,
+      "direction_index": 114,
+      "index": 912,
+      "objective": 3534145.425376,
+      "roll_index": 0
+    },
+    {
+      "crossings": 104,
+      "direction_index": 114,
+      "index": 913,
+      "objective": 3309970.459979,
+      "roll_index": 1
+    },
+    {
+      "crossings": 75,
+      "direction_index": 114,
+      "index": 914,
+      "objective": 2827688.730064,
+      "roll_index": 2
+    },
+    {
+      "crossings": 71,
+      "direction_index": 114,
+      "index": 915,
+      "objective": 3272146.898383,
+      "roll_index": 3
+    },
+    {
+      "crossings": 67,
+      "direction_index": 114,
+      "index": 916,
+      "objective": 3482997.594942,
+      "roll_index": 4
+    },
+    {
+      "crossings": 66,
+      "direction_index": 114,
+      "index": 917,
+      "objective": 3232676.807537,
+      "roll_index": 5
+    },
+    {
+      "crossings": 75,
+      "direction_index": 114,
+      "index": 918,
+      "objective": 2827742.38693,
+      "roll_index": 6
+    },
+    {
+      "crossings": 75,
+      "direction_index": 114,
+      "index": 919,
+      "objective": 3281120.537996,
+      "roll_index": 7
+    },
+    {
+      "crossings": 68,
+      "direction_index": 115,
+      "index": 920,
+      "objective": 3048143.129769,
+      "roll_index": 0
+    },
+    {
+      "crossings": 67,
+      "direction_index": 115,
+      "index": 921,
+      "objective": 3055941.708344,
+      "roll_index": 1
+    },
+    {
+      "crossings": 55,
+      "direction_index": 115,
+      "index": 922,
+      "objective": 3085315.227913,
+      "roll_index": 2
+    },
+    {
+      "crossings": 53,
+      "direction_index": 115,
+      "index": 923,
+      "objective": 3039853.522267,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 115,
+      "index": 924,
+      "objective": 3041982.259111,
+      "roll_index": 4
+    },
+    {
+      "crossings": 78,
+      "direction_index": 115,
+      "index": 925,
+      "objective": 3078785.970275,
+      "roll_index": 5
+    },
+    {
+      "crossings": 90,
+      "direction_index": 115,
+      "index": 926,
+      "objective": 3156746.784077,
+      "roll_index": 6
+    },
+    {
+      "crossings": 67,
+      "direction_index": 115,
+      "index": 927,
+      "objective": 3068336.808849,
+      "roll_index": 7
+    },
+    {
+      "crossings": 105,
+      "direction_index": 116,
+      "index": 928,
+      "objective": 2917421.540651,
+      "roll_index": 0
+    },
+    {
+      "crossings": 97,
+      "direction_index": 116,
+      "index": 929,
+      "objective": 3069953.241529,
+      "roll_index": 1
+    },
+    {
+      "crossings": 81,
+      "direction_index": 116,
+      "index": 930,
+      "objective": 2855357.703196,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 116,
+      "index": 931,
+      "objective": 2945957.409447,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 116,
+      "index": 932,
+      "objective": 2845961.638032,
+      "roll_index": 4
+    },
+    {
+      "crossings": 78,
+      "direction_index": 116,
+      "index": 933,
+      "objective": 3031296.264554,
+      "roll_index": 5
+    },
+    {
+      "crossings": 84,
+      "direction_index": 116,
+      "index": 934,
+      "objective": 2861752.971665,
+      "roll_index": 6
+    },
+    {
+      "crossings": 100,
+      "direction_index": 116,
+      "index": 935,
+      "objective": 3013505.248785,
+      "roll_index": 7
+    },
+    {
+      "crossings": 72,
+      "direction_index": 117,
+      "index": 936,
+      "objective": 3069689.940097,
+      "roll_index": 0
+    },
+    {
+      "crossings": 72,
+      "direction_index": 117,
+      "index": 937,
+      "objective": 3158639.262628,
+      "roll_index": 1
+    },
+    {
+      "crossings": 71,
+      "direction_index": 117,
+      "index": 938,
+      "objective": 3008406.044748,
+      "roll_index": 2
+    },
+    {
+      "crossings": 75,
+      "direction_index": 117,
+      "index": 939,
+      "objective": 2777470.434494,
+      "roll_index": 3
+    },
+    {
+      "crossings": 82,
+      "direction_index": 117,
+      "index": 940,
+      "objective": 3089564.653497,
+      "roll_index": 4
+    },
+    {
+      "crossings": 77,
+      "direction_index": 117,
+      "index": 941,
+      "objective": 3168740.455857,
+      "roll_index": 5
+    },
+    {
+      "crossings": 88,
+      "direction_index": 117,
+      "index": 942,
+      "objective": 3042957.391461,
+      "roll_index": 6
+    },
+    {
+      "crossings": 79,
+      "direction_index": 117,
+      "index": 943,
+      "objective": 2785647.679756,
+      "roll_index": 7
+    },
+    {
+      "crossings": 78,
+      "direction_index": 118,
+      "index": 944,
+      "objective": 2902445.432866,
+      "roll_index": 0
+    },
+    {
+      "crossings": 79,
+      "direction_index": 118,
+      "index": 945,
+      "objective": 3283661.900801,
+      "roll_index": 1
+    },
+    {
+      "crossings": 70,
+      "direction_index": 118,
+      "index": 946,
+      "objective": 3199024.842618,
+      "roll_index": 2
+    },
+    {
+      "crossings": 61,
+      "direction_index": 118,
+      "index": 947,
+      "objective": 2841819.459065,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 118,
+      "index": 948,
+      "objective": 2865755.742542,
+      "roll_index": 4
+    },
+    {
+      "crossings": 68,
+      "direction_index": 118,
+      "index": 949,
+      "objective": 3261485.2525,
+      "roll_index": 5
+    },
+    {
+      "crossings": 77,
+      "direction_index": 118,
+      "index": 950,
+      "objective": 3213416.037756,
+      "roll_index": 6
+    },
+    {
+      "crossings": 88,
+      "direction_index": 118,
+      "index": 951,
+      "objective": 2896945.96118,
+      "roll_index": 7
+    },
+    {
+      "crossings": 108,
+      "direction_index": 119,
+      "index": 952,
+      "objective": 3253205.010323,
+      "roll_index": 0
+    },
+    {
+      "crossings": 109,
+      "direction_index": 119,
+      "index": 953,
+      "objective": 3141474.826293,
+      "roll_index": 1
+    },
+    {
+      "crossings": 88,
+      "direction_index": 119,
+      "index": 954,
+      "objective": 2783058.658065,
+      "roll_index": 2
+    },
+    {
+      "crossings": 72,
+      "direction_index": 119,
+      "index": 955,
+      "objective": 3152961.832262,
+      "roll_index": 3
+    },
+    {
+      "crossings": 68,
+      "direction_index": 119,
+      "index": 956,
+      "objective": 3171231.427859,
+      "roll_index": 4
+    },
+    {
+      "crossings": 64,
+      "direction_index": 119,
+      "index": 957,
+      "objective": 3050247.846255,
+      "roll_index": 5
+    },
+    {
+      "crossings": 75,
+      "direction_index": 119,
+      "index": 958,
+      "objective": 2757134.722658,
+      "roll_index": 6
+    },
+    {
+      "crossings": 85,
+      "direction_index": 119,
+      "index": 959,
+      "objective": 3180206.27185,
+      "roll_index": 7
+    },
+    {
+      "crossings": 75,
+      "direction_index": 120,
+      "index": 960,
+      "objective": 2707864.184205,
+      "roll_index": 0
+    },
+    {
+      "crossings": 60,
+      "direction_index": 120,
+      "index": 961,
+      "objective": 3016481.584957,
+      "roll_index": 1
+    },
+    {
+      "crossings": 61,
+      "direction_index": 120,
+      "index": 962,
+      "objective": 2964318.202788,
+      "roll_index": 2
+    },
+    {
+      "crossings": 67,
+      "direction_index": 120,
+      "index": 963,
+      "objective": 3279700.635375,
+      "roll_index": 3
+    },
+    {
+      "crossings": 71,
+      "direction_index": 120,
+      "index": 964,
+      "objective": 2700236.501739,
+      "roll_index": 4
+    },
+    {
+      "crossings": 83,
+      "direction_index": 120,
+      "index": 965,
+      "objective": 3063549.61946,
+      "roll_index": 5
+    },
+    {
+      "crossings": 72,
+      "direction_index": 120,
+      "index": 966,
+      "objective": 2986956.641648,
+      "roll_index": 6
+    },
+    {
+      "crossings": 75,
+      "direction_index": 120,
+      "index": 967,
+      "objective": 3296166.314079,
+      "roll_index": 7
+    },
+    {
+      "crossings": 99,
+      "direction_index": 121,
+      "index": 968,
+      "objective": 3005519.487854,
+      "roll_index": 0
+    },
+    {
+      "crossings": 88,
+      "direction_index": 121,
+      "index": 969,
+      "objective": 3113701.207669,
+      "roll_index": 1
+    },
+    {
+      "crossings": 75,
+      "direction_index": 121,
+      "index": 970,
+      "objective": 3311409.84404,
+      "roll_index": 2
+    },
+    {
+      "crossings": 73,
+      "direction_index": 121,
+      "index": 971,
+      "objective": 3177642.68886,
+      "roll_index": 3
+    },
+    {
+      "crossings": 72,
+      "direction_index": 121,
+      "index": 972,
+      "objective": 2950411.709345,
+      "roll_index": 4
+    },
+    {
+      "crossings": 72,
+      "direction_index": 121,
+      "index": 973,
+      "objective": 3081464.983303,
+      "roll_index": 5
+    },
+    {
+      "crossings": 78,
+      "direction_index": 121,
+      "index": 974,
+      "objective": 3317732.918677,
+      "roll_index": 6
+    },
+    {
+      "crossings": 90,
+      "direction_index": 121,
+      "index": 975,
+      "objective": 3212696.114312,
+      "roll_index": 7
+    },
+    {
+      "crossings": 80,
+      "direction_index": 122,
+      "index": 976,
+      "objective": 2699212.011442,
+      "roll_index": 0
+    },
+    {
+      "crossings": 72,
+      "direction_index": 122,
+      "index": 977,
+      "objective": 2972785.95842,
+      "roll_index": 1
+    },
+    {
+      "crossings": 63,
+      "direction_index": 122,
+      "index": 978,
+      "objective": 3261939.503093,
+      "roll_index": 2
+    },
+    {
+      "crossings": 68,
+      "direction_index": 122,
+      "index": 979,
+      "objective": 3441967.231553,
+      "roll_index": 3
+    },
+    {
+      "crossings": 69,
+      "direction_index": 122,
+      "index": 980,
+      "objective": 2676834.392337,
+      "roll_index": 4
+    },
+    {
+      "crossings": 73,
+      "direction_index": 122,
+      "index": 981,
+      "objective": 2975007.697216,
+      "roll_index": 5
+    },
+    {
+      "crossings": 81,
+      "direction_index": 122,
+      "index": 982,
+      "objective": 3298313.4184,
+      "roll_index": 6
+    },
+    {
+      "crossings": 89,
+      "direction_index": 122,
+      "index": 983,
+      "objective": 3484872.451896,
+      "roll_index": 7
+    },
+    {
+      "crossings": 83,
+      "direction_index": 123,
+      "index": 984,
+      "objective": 2695244.594969,
+      "roll_index": 0
+    },
+    {
+      "crossings": 80,
+      "direction_index": 123,
+      "index": 985,
+      "objective": 2892780.293585,
+      "roll_index": 1
+    },
+    {
+      "crossings": 78,
+      "direction_index": 123,
+      "index": 986,
+      "objective": 3450865.110383,
+      "roll_index": 2
+    },
+    {
+      "crossings": 74,
+      "direction_index": 123,
+      "index": 987,
+      "objective": 2859514.492784,
+      "roll_index": 3
+    },
+    {
+      "crossings": 60,
+      "direction_index": 123,
+      "index": 988,
+      "objective": 2648037.756469,
+      "roll_index": 4
+    },
+    {
+      "crossings": 59,
+      "direction_index": 123,
+      "index": 989,
+      "objective": 2849801.96883,
+      "roll_index": 5
+    },
+    {
+      "crossings": 66,
+      "direction_index": 123,
+      "index": 990,
+      "objective": 3426448.226177,
+      "roll_index": 6
+    },
+    {
+      "crossings": 72,
+      "direction_index": 123,
+      "index": 991,
+      "objective": 2855672.418038,
+      "roll_index": 7
+    },
+    {
+      "crossings": 92,
+      "direction_index": 124,
+      "index": 992,
+      "objective": 2731124.984459,
+      "roll_index": 0
+    },
+    {
+      "crossings": 83,
+      "direction_index": 124,
+      "index": 993,
+      "objective": 3008473.760624,
+      "roll_index": 1
+    },
+    {
+      "crossings": 73,
+      "direction_index": 124,
+      "index": 994,
+      "objective": 3248852.76663,
+      "roll_index": 2
+    },
+    {
+      "crossings": 56,
+      "direction_index": 124,
+      "index": 995,
+      "objective": 2857809.748239,
+      "roll_index": 3
+    },
+    {
+      "crossings": 70,
+      "direction_index": 124,
+      "index": 996,
+      "objective": 2686471.183988,
+      "roll_index": 4
+    },
+    {
+      "crossings": 84,
+      "direction_index": 124,
+      "index": 997,
+      "objective": 3010989.12133,
+      "roll_index": 5
+    },
+    {
+      "crossings": 87,
+      "direction_index": 124,
+      "index": 998,
+      "objective": 3277710.612227,
+      "roll_index": 6
+    },
+    {
+      "crossings": 102,
+      "direction_index": 124,
+      "index": 999,
+      "objective": 2951720.080766,
+      "roll_index": 7
+    },
+    {
+      "crossings": 79,
+      "direction_index": 125,
+      "index": 1000,
+      "objective": 2460224.590969,
+      "roll_index": 0
+    },
+    {
+      "crossings": 73,
+      "direction_index": 125,
+      "index": 1001,
+      "objective": 2849011.648086,
+      "roll_index": 1
+    },
+    {
+      "crossings": 76,
+      "direction_index": 125,
+      "index": 1002,
+      "objective": 3499665.372999,
+      "roll_index": 2
+    },
+    {
+      "crossings": 72,
+      "direction_index": 125,
+      "index": 1003,
+      "objective": 2839193.712313,
+      "roll_index": 3
+    },
+    {
+      "crossings": 66,
+      "direction_index": 125,
+      "index": 1004,
+      "objective": 2433884.595871,
+      "roll_index": 4
+    },
+    {
+      "crossings": 63,
+      "direction_index": 125,
+      "index": 1005,
+      "objective": 2828618.783343,
+      "roll_index": 5
+    },
+    {
+      "crossings": 64,
+      "direction_index": 125,
+      "index": 1006,
+      "objective": 3475219.412035,
+      "roll_index": 6
+    },
+    {
+      "crossings": 78,
+      "direction_index": 125,
+      "index": 1007,
+      "objective": 2851631.252779,
+      "roll_index": 7
+    },
+    {
+      "crossings": 86,
+      "direction_index": 126,
+      "index": 1008,
+      "objective": 2606997.034015,
+      "roll_index": 0
+    },
+    {
+      "crossings": 82,
+      "direction_index": 126,
+      "index": 1009,
+      "objective": 2735872.682953,
+      "roll_index": 1
+    },
+    {
+      "crossings": 73,
+      "direction_index": 126,
+      "index": 1010,
+      "objective": 3268504.62023,
+      "roll_index": 2
+    },
+    {
+      "crossings": 73,
+      "direction_index": 126,
+      "index": 1011,
+      "objective": 3312950.015816,
+      "roll_index": 3
+    },
+    {
+      "crossings": 72,
+      "direction_index": 126,
+      "index": 1012,
+      "objective": 2578220.894793,
+      "roll_index": 4
+    },
+    {
+      "crossings": 69,
+      "direction_index": 126,
+      "index": 1013,
+      "objective": 2709048.455886,
+      "roll_index": 5
+    },
+    {
+      "crossings": 74,
+      "direction_index": 126,
+      "index": 1014,
+      "objective": 3270255.595887,
+      "roll_index": 6
+    },
+    {
+      "crossings": 87,
+      "direction_index": 126,
+      "index": 1015,
+      "objective": 3341445.317108,
+      "roll_index": 7
+    },
+    {
+      "crossings": 89,
+      "direction_index": 127,
+      "index": 1016,
+      "objective": 2534806.875088,
+      "roll_index": 0
+    },
+    {
+      "crossings": 83,
+      "direction_index": 127,
+      "index": 1017,
+      "objective": 2983314.347895,
+      "roll_index": 1
+    },
+    {
+      "crossings": 69,
+      "direction_index": 127,
+      "index": 1018,
+      "objective": 3218608.819448,
+      "roll_index": 2
+    },
+    {
+      "crossings": 55,
+      "direction_index": 127,
+      "index": 1019,
+      "objective": 2992313.838865,
+      "roll_index": 3
+    },
+    {
+      "crossings": 65,
+      "direction_index": 127,
+      "index": 1020,
+      "objective": 2486335.541927,
+      "roll_index": 4
+    },
+    {
+      "crossings": 68,
+      "direction_index": 127,
+      "index": 1021,
+      "objective": 2953090.175108,
+      "roll_index": 5
+    },
+    {
+      "crossings": 80,
+      "direction_index": 127,
+      "index": 1022,
+      "objective": 3240734.760292,
+      "roll_index": 6
+    },
+    {
+      "crossings": 93,
+      "direction_index": 127,
+      "index": 1023,
+      "objective": 3069650.982176,
+      "roll_index": 7
+    }
+  ],
+  "direction_count": 128,
+  "enumeration": "direction index outermost, roll index innermost",
+  "rolls_per_direction": 8,
+  "sampling": "Fibonacci sphere: z=1-2(i+0.5)/N, phi=i*pi*(3-sqrt(5)); rolls=2*pi*r/R",
+  "total_projections": 1024
+}

@@ -1,0 +1,20 @@
+Experiment 4Q: exact constrained planarization
+
+Baseline constrained graph: NONPLANAR
+Number of removable electrical incidences: 44
+Minimum exemptions required: 2
+Number of minimum exemption sets: 4
+
+Minimum sets:
+SET001: J_OUT.1 -- EOUT; U1.8 -- +9V
+SET002: J_OUT.2 -- GND; U1.8 -- +9V
+SET003: U1.6 -- NODE_C; U1.8 -- +9V
+SET004: U1.7 -- EOUT; U1.8 -- +9V
+
+Mandatory incidences: U1.8 -- +9V
+Mandatory components: U1
+Mandatory nets: +9V
+Breaking the original obstruction alone does not suffice; a second verified obstruction remains.
+Distinct documented obstruction certificates: 2
+Reinsertion crossing minimum: NOT COMPUTED for every solution.
+Exemptions are metadata for exceptional graphical treatment; electrical connectivity is unchanged.

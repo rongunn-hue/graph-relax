@@ -1,0 +1,356 @@
+{
+  "all_cumulative_continuity_assertions_passed": true,
+  "bisection_tolerance": 1e-09,
+  "directions": [
+    {
+      "accepted_minimum_valid_s": 0.609103,
+      "area_after": 2557205.055117,
+      "bisection_iterations": 18,
+      "cumulative_input_matches_previous_output": true,
+      "height_after": 1040.0,
+      "limiting_details": {
+        "crossing_edges": [
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ],
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ]
+        ],
+        "cyclic_violation_vertices": [
+          "net:GND"
+        ]
+      },
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "radial_contraction": 0.390897,
+      "scan_resolution": 4096,
+      "selected_nodes": 16,
+      "starting_s": 1.0,
+      "theta": 0,
+      "total_edge_length_after": 20189.068634,
+      "width_after": 2458.851015
+    },
+    {
+      "accepted_minimum_valid_s": 0.761719,
+      "area_after": 2282109.371202,
+      "bisection_iterations": 18,
+      "cumulative_input_matches_previous_output": true,
+      "height_after": 928.120231,
+      "limiting_details": {
+        "crossing_edges": [
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ],
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ],
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ],
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ],
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          [
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ]
+        ]
+      },
+      "limiting_validity_event": "unrelated edge crossing",
+      "radial_contraction": 0.238281,
+      "scan_resolution": 4096,
+      "selected_nodes": 20,
+      "starting_s": 1.0,
+      "theta": 90,
+      "total_edge_length_after": 19491.053351,
+      "width_after": 2458.851015
+    },
+    {
+      "accepted_minimum_valid_s": 0.19646,
+      "area_after": 784505.11538,
+      "bisection_iterations": 18,
+      "cumulative_input_matches_previous_output": true,
+      "height_after": 589.446795,
+      "limiting_details": {
+        "crossing_edges": [
+          [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ]
+        ],
+        "cyclic_violation_vertices": [
+          "net:GND"
+        ]
+      },
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "radial_contraction": 0.80354,
+      "scan_resolution": 4096,
+      "selected_nodes": 18,
+      "starting_s": 1.0,
+      "theta": 180,
+      "total_edge_length_after": 8806.852289,
+      "width_after": 1330.917602
+    },
+    {
+      "accepted_minimum_valid_s": 0.354937,
+      "area_after": 213890.482175,
+      "bisection_iterations": 18,
+      "cumulative_input_matches_previous_output": true,
+      "height_after": 365.303495,
+      "limiting_details": {
+        "crossing_edges": [
+          [
+            [
+              "component:J_R1",
+              "net:R1_W"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ]
+          ],
+          [
+            [
+              "component:J_R1",
+              "net:R1_W"
+            ],
+            [
+              "component:R2",
+              "net:NODE_A"
+            ]
+          ],
+          [
+            [
+              "component:J_R1",
+              "net:R1_W"
+            ],
+            [
+              "component:TPA",
+              "net:NODE_A"
+            ]
+          ],
+          [
+            [
+              "component:J_R1",
+              "net:R1_W"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ]
+        ],
+        "cyclic_violation_vertices": [
+          "component:J_PWR",
+          "component:J_R1",
+          "component:J_R4",
+          "component:J_RA",
+          "component:U1",
+          "net:+9V",
+          "net:-9V",
+          "net:EOUT",
+          "net:GND",
+          "net:NODE_A",
+          "net:NODE_B",
+          "net:NODE_C"
+        ]
+      },
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "radial_contraction": 0.645063,
+      "scan_resolution": 4096,
+      "selected_nodes": 14,
+      "starting_s": 1.0,
+      "theta": 270,
+      "total_edge_length_after": 4663.039823,
+      "width_after": 585.514469
+    }
+  ],
+  "final_validation": {
+    "abstract_graph_valid": true,
+    "all_original_edges_preserved": true,
+    "all_original_vertices_exist": true,
+    "coincident_details": [],
+    "coincident_vertex_pairs": 0,
+    "crossing_details": [],
+    "cyclic_order_orientation": "reflection",
+    "cyclic_order_violations": 0,
+    "cyclic_violation_vertices": [],
+    "per_vertex_cyclic_orientation": {
+      "component:J_PWR": "reflection",
+      "component:J_R1": "reflection",
+      "component:J_R4": "reflection",
+      "component:J_RA": "reflection",
+      "component:U1": "reflection",
+      "net:+9V": "reflection",
+      "net:-9V": "reflection",
+      "net:EOUT": "reflection",
+      "net:GND": "reflection",
+      "net:NODE_A": "reflection",
+      "net:NODE_B": "reflection",
+      "net:NODE_C": "reflection"
+    },
+    "unrelated_edge_crossings": 0,
+    "vertex_on_edge_details": [],
+    "vertices_on_unrelated_edges": 0
+  },
+  "fixed_viewport": {
+    "height": 1292.0,
+    "width": 3336.0,
+    "x": -100.0,
+    "y": -100.0
+  },
+  "frozen_centroid": {
+    "x": 1403.705882,
+    "y": 570.470588
+  },
+  "model": "maximum cumulative four-direction radial compaction",
+  "percent_change_start_to_final": {
+    "area": -93.754132,
+    "height": -66.547299,
+    "total_edge_length": -80.857525,
+    "width": -81.329258
+  },
+  "physical_geometry_participated": false,
+  "scan_resolution": 4096,
+  "stages": [
+    {
+      "area": 3424512.0,
+      "centroid": {
+        "x": 1403.705882,
+        "y": 570.470588
+      },
+      "height": 1092.0,
+      "stage": "START",
+      "total_edge_length": 24359.649504,
+      "width": 3136.0
+    },
+    {
+      "area": 2557205.055117,
+      "centroid": {
+        "x": 1274.333775,
+        "y": 561.819451
+      },
+      "height": 1040.0,
+      "stage": "after 0°",
+      "total_edge_length": 20189.068634,
+      "width": 2458.851015
+    },
+    {
+      "area": 2282109.371202,
+      "centroid": {
+        "x": 1280.213847,
+        "y": 533.348923
+      },
+      "height": 928.120231,
+      "stage": "after 90°",
+      "total_edge_length": 19491.053351,
+      "width": 2458.851015
+    },
+    {
+      "area": 784505.11538,
+      "centroid": {
+        "x": 1524.582959,
+        "y": 564.671688
+      },
+      "height": 589.446795,
+      "stage": "after 180°",
+      "total_edge_length": 8806.852289,
+      "width": 1330.917602
+    },
+    {
+      "area": 213890.482175,
+      "centroid": {
+        "x": 1478.967763,
+        "y": 599.202049
+      },
+      "height": 365.303495,
+      "stage": "after 270°",
+      "total_edge_length": 4663.039823,
+      "width": 585.514469
+    }
+  ]
+}

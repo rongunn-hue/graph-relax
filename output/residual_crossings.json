@@ -1,0 +1,2023 @@
+{
+  "crossing_predicate": "graph_relax.proper_intersection (strict proper 2-D crossing, epsilon 1e-9)",
+  "crossings": [
+    {
+      "best_x_candidate": {
+        "clearance_violations": 11,
+        "component_overlaps": 0,
+        "connection_length_after": 3070.73038,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "R3.1"
+            ]
+          ]
+        ],
+        "move": {
+          "axis": "X",
+          "components": [
+            "J_R1",
+            "TPB"
+          ],
+          "direction": 0,
+          "move_type": "swap",
+          "new_coordinates": [
+            -195.048756,
+            -123.098977
+          ],
+          "old_coordinates": [
+            -123.098977,
+            -195.048756
+          ],
+          "total_displacement": 143.89955799999998
+        },
+        "new_crossings": [
+          [
+            [
+              "NODE_A",
+              "J_RA.1"
+            ],
+            [
+              "NODE_B",
+              "R2.2"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "R2.1"
+            ],
+            [
+              "NODE_B",
+              "R2.2"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "TPA.1"
+            ],
+            [
+              "NODE_B",
+              "R2.2"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "TPB.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 10,
+        "total_crossings_before": 7
+      },
+      "best_y_candidate": {
+        "clearance_violations": 12,
+        "component_overlaps": 0,
+        "connection_length_after": 3369.164774,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "R3.1"
+            ]
+          ]
+        ],
+        "move": {
+          "axis": "Y",
+          "components": [
+            "J_R1",
+            "U1"
+          ],
+          "direction": 0,
+          "move_type": "swap",
+          "new_coordinates": [
+            57.659235,
+            -67.594912
+          ],
+          "old_coordinates": [
+            -67.594912,
+            57.659235
+          ],
+          "total_displacement": 250.50829399999998
+        },
+        "new_crossings": [
+          [
+            [
+              "+9V",
+              "J_PWR.1"
+            ],
+            [
+              "R1_EXT",
+              "J_R1.1"
+            ]
+          ],
+          [
+            [
+              "+9V",
+              "U1.8"
+            ],
+            [
+              "EB",
+              "U1.5"
+            ]
+          ],
+          [
+            [
+              "+9V",
+              "U1.8"
+            ],
+            [
+              "NODE_B",
+              "TPB.1"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "J_PWR.3"
+            ],
+            [
+              "GND",
+              "J_PWR.2"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "U1.4"
+            ],
+            [
+              "NODE_A",
+              "J_R1.3"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "U1.4"
+            ],
+            [
+              "NODE_C",
+              "U1.6"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "J_EA.1"
+            ],
+            [
+              "EB",
+              "U1.5"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "J_EA.1"
+            ],
+            [
+              "EOUT",
+              "U1.7"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "U1.3"
+            ],
+            [
+              "NODE_B",
+              "R2.2"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "U1.3"
+            ],
+            [
+              "NODE_B",
+              "TPB.1"
+            ]
+          ],
+          [
+            [
+              "EB",
+              "U1.5"
+            ],
+            [
+              "EOUT",
+              "U1.7"
+            ]
+          ],
+          [
+            [
+              "EOUT",
+              "U1.7"
+            ],
+            [
+              "NODE_A",
+              "J_R1.3"
+            ]
+          ],
+          [
+            [
+              "EOUT",
+              "U1.7"
+            ],
+            [
+              "R1_EXT",
+              "J_R1.1"
+            ]
+          ],
+          [
+            [
+              "GND",
+              "J_EA.2"
+            ],
+            [
+              "R1_EXT",
+              "J_R1.1"
+            ]
+          ],
+          [
+            [
+              "GND",
+              "J_EB.2"
+            ],
+            [
+              "R1_EXT",
+              "RMIN1.2"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "J_R1.3"
+            ],
+            [
+              "NODE_C",
+              "U1.6"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "J_R1.3"
+            ],
+            [
+              "R1_EXT",
+              "J_R1.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "J_RA.1"
+            ],
+            [
+              "NODE_B",
+              "R3.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "R2.1"
+            ],
+            [
+              "NODE_B",
+              "R3.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "TPA.1"
+            ],
+            [
+              "NODE_B",
+              "R3.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "TPB.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 27,
+        "total_crossings_before": 7
+      },
+      "classification": "XY",
+      "classification_reason": "single-axis elimination exists only with an increase in total crossings",
+      "id": "X001",
+      "identity": [
+        [
+          "NODE_A",
+          "J_R1.3"
+        ],
+        [
+          "NODE_B",
+          "R2.2"
+        ]
+      ],
+      "immediate_segment_anchor_components": [
+        "J_R1",
+        "R2"
+      ],
+      "intersection": {
+        "x": -79.171658,
+        "y": -62.634406
+      },
+      "locality": {
+        "fraction_of_total_layout_diagonal": 0.637211,
+        "local_box_diagonal": 406.277861,
+        "nearest_involved_component_center_distance": 44.206515,
+        "relevant_component_body_bounding_box": {
+          "max_x": 99.345259,
+          "max_y": 77.659235,
+          "min_x": -225.048756,
+          "min_y": -166.942939
+        },
+        "total_layout_box_diagonal": 637.587365
+      },
+      "net_a": "NODE_A",
+      "net_a_components": [
+        "J_R1",
+        "J_RA",
+        "R2",
+        "TPA",
+        "U1"
+      ],
+      "net_b": "NODE_B",
+      "net_b_components": [
+        "R2",
+        "R3",
+        "TPB",
+        "U1"
+      ],
+      "relevant_components": [
+        "J_R1",
+        "J_RA",
+        "R2",
+        "R3",
+        "TPA",
+        "TPB",
+        "U1"
+      ],
+      "segments": [
+        {
+          "endpoints": [
+            {
+              "component": "J_R1",
+              "id": "J_R1.3",
+              "kind": "component_terminal",
+              "x": -153.098977,
+              "y": -54.261579
+            },
+            {
+              "component": null,
+              "id": "centroid:NODE_A",
+              "kind": "derived_net_centroid",
+              "x": -63.703721,
+              "y": -64.386267
+            }
+          ],
+          "length": 89.966778,
+          "net": "NODE_A",
+          "segment_identity": [
+            "NODE_A",
+            "J_R1.3"
+          ],
+          "terminal": "J_R1.3",
+          "terminal_component": "J_R1",
+          "type": "terminal_to_centroid"
+        },
+        {
+          "endpoints": [
+            {
+              "component": "R2",
+              "id": "R2.2",
+              "kind": "component_terminal",
+              "x": -95.528132,
+              "y": -126.942939
+            },
+            {
+              "component": null,
+              "id": "centroid:NODE_B",
+              "kind": "derived_net_centroid",
+              "x": -73.422156,
+              "y": -40.029164
+            }
+          ],
+          "length": 89.680982,
+          "net": "NODE_B",
+          "segment_identity": [
+            "NODE_B",
+            "R2.2"
+          ],
+          "terminal": "R2.2",
+          "terminal_component": "R2",
+          "type": "terminal_to_centroid"
+        }
+      ],
+      "selected_diagnostic_axis": "X"
+    },
+    {
+      "best_x_candidate": {
+        "clearance_violations": 12,
+        "component_overlaps": 0,
+        "connection_length_after": 3083.426209,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [],
+        "move": {
+          "axis": "X",
+          "components": [
+            "TPA"
+          ],
+          "direction": -1,
+          "move_type": "slide",
+          "new_coordinates": [
+            -61.13014
+          ],
+          "old_coordinates": [
+            -43.13014
+          ],
+          "total_displacement": 18.0
+        },
+        "new_crossings": [
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "R2.2"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "TPB.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 9,
+        "total_crossings_before": 7
+      },
+      "best_y_candidate": {
+        "clearance_violations": 10,
+        "component_overlaps": 0,
+        "connection_length_after": 3110.222377,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [],
+        "move": {
+          "axis": "Y",
+          "components": [
+            "R3"
+          ],
+          "direction": 1,
+          "move_type": "slide",
+          "new_coordinates": [
+            41.196653
+          ],
+          "old_coordinates": [
+            -10.803347
+          ],
+          "total_displacement": 52.0
+        },
+        "new_crossings": [
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "R2.2"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "TPB.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 9,
+        "total_crossings_before": 7
+      },
+      "classification": "XY",
+      "classification_reason": "single-axis elimination exists only with an increase in total crossings",
+      "id": "X002",
+      "identity": [
+        [
+          "NODE_A",
+          "U1.2"
+        ],
+        [
+          "NODE_B",
+          "R3.1"
+        ]
+      ],
+      "immediate_segment_anchor_components": [
+        "R3",
+        "U1"
+      ],
+      "intersection": {
+        "x": -71.790829,
+        "y": -39.936699
+      },
+      "locality": {
+        "fraction_of_total_layout_diagonal": 0.637211,
+        "local_box_diagonal": 406.277861,
+        "nearest_involved_component_center_distance": 58.288102,
+        "relevant_component_body_bounding_box": {
+          "max_x": 99.345259,
+          "max_y": 77.659235,
+          "min_x": -225.048756,
+          "min_y": -166.942939
+        },
+        "total_layout_box_diagonal": 637.587365
+      },
+      "net_a": "NODE_A",
+      "net_a_components": [
+        "J_R1",
+        "J_RA",
+        "R2",
+        "TPA",
+        "U1"
+      ],
+      "net_b": "NODE_B",
+      "net_b_components": [
+        "R2",
+        "R3",
+        "TPB",
+        "U1"
+      ],
+      "relevant_components": [
+        "J_R1",
+        "J_RA",
+        "R2",
+        "R3",
+        "TPA",
+        "TPB",
+        "U1"
+      ],
+      "segments": [
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.2",
+              "kind": "component_terminal",
+              "x": -97.456995,
+              "y": 37.659235
+            },
+            {
+              "component": null,
+              "id": "centroid:NODE_A",
+              "kind": "derived_net_centroid",
+              "x": -63.703721,
+              "y": -64.386267
+            }
+          ],
+          "length": 107.482873,
+          "net": "NODE_A",
+          "segment_identity": [
+            "NODE_A",
+            "U1.2"
+          ],
+          "terminal": "U1.2",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        },
+        {
+          "endpoints": [
+            {
+              "component": "R3",
+              "id": "R3.1",
+              "kind": "component_terminal",
+              "x": 89.345259,
+              "y": -30.803347
+            },
+            {
+              "component": null,
+              "id": "centroid:NODE_B",
+              "kind": "derived_net_centroid",
+              "x": -73.422156,
+              "y": -40.029164
+            }
+          ],
+          "length": 163.02867,
+          "net": "NODE_B",
+          "segment_identity": [
+            "NODE_B",
+            "R3.1"
+          ],
+          "terminal": "R3.1",
+          "terminal_component": "R3",
+          "type": "terminal_to_centroid"
+        }
+      ],
+      "selected_diagnostic_axis": "X"
+    },
+    {
+      "best_x_candidate": {
+        "clearance_violations": 10,
+        "component_overlaps": 0,
+        "connection_length_after": 3089.350821,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [],
+        "move": {
+          "axis": "X",
+          "components": [
+            "J_EA"
+          ],
+          "direction": 1,
+          "move_type": "slide",
+          "new_coordinates": [
+            -151.623316
+          ],
+          "old_coordinates": [
+            -169.623316
+          ],
+          "total_displacement": 18.0
+        },
+        "new_crossings": [
+          [
+            [
+              "+9V",
+              "C1.1"
+            ],
+            [
+              "GND",
+              "J_EA.2"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "J_EA.1"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 8,
+        "total_crossings_before": 7
+      },
+      "best_y_candidate": null,
+      "classification": "XY",
+      "classification_reason": "single-axis elimination exists only with an increase in total crossings",
+      "id": "X003",
+      "identity": [
+        [
+          "EA",
+          "U1.3"
+        ],
+        [
+          "NODE_B",
+          "U1.1"
+        ]
+      ],
+      "immediate_segment_anchor_components": [
+        "U1"
+      ],
+      "intersection": {
+        "x": -108.398804,
+        "y": 15.386125
+      },
+      "locality": {
+        "fraction_of_total_layout_diagonal": 0.637211,
+        "local_box_diagonal": 406.277861,
+        "nearest_involved_component_center_distance": 42.412992,
+        "relevant_component_body_bounding_box": {
+          "max_x": 99.345259,
+          "max_y": 77.659235,
+          "min_x": -225.048756,
+          "min_y": -166.942939
+        },
+        "total_layout_box_diagonal": 637.587365
+      },
+      "net_a": "EA",
+      "net_a_components": [
+        "J_EA",
+        "U1"
+      ],
+      "net_b": "NODE_B",
+      "net_b_components": [
+        "R2",
+        "R3",
+        "TPB",
+        "U1"
+      ],
+      "relevant_components": [
+        "J_EA",
+        "R2",
+        "R3",
+        "TPB",
+        "U1"
+      ],
+      "segments": [
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.3",
+              "kind": "component_terminal",
+              "x": -74.956995,
+              "y": 40.159235
+            },
+            {
+              "component": null,
+              "id": "centroid:EA",
+              "kind": "derived_net_centroid",
+              "x": -112.290155,
+              "y": 12.50348
+            }
+          ],
+          "length": 46.460797,
+          "net": "EA",
+          "segment_identity": [
+            "EA",
+            "U1.3"
+          ],
+          "terminal": "U1.3",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        },
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.1",
+              "kind": "component_terminal",
+              "x": -122.456995,
+              "y": 37.659235
+            },
+            {
+              "component": null,
+              "id": "centroid:NODE_B",
+              "kind": "derived_net_centroid",
+              "x": -73.422156,
+              "y": -40.029164
+            }
+          ],
+          "length": 91.868943,
+          "net": "NODE_B",
+          "segment_identity": [
+            "NODE_B",
+            "U1.1"
+          ],
+          "terminal": "U1.1",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        }
+      ],
+      "selected_diagnostic_axis": "X"
+    },
+    {
+      "best_x_candidate": null,
+      "best_y_candidate": null,
+      "classification": "STRUCTURAL",
+      "classification_reason": "no tested single-axis slide or swap eliminates the target",
+      "id": "X004",
+      "identity": [
+        [
+          "GND",
+          "RMIN1.1"
+        ],
+        [
+          "R1_EXT",
+          "RMIN1.2"
+        ]
+      ],
+      "immediate_segment_anchor_components": [
+        "RMIN1"
+      ],
+      "intersection": {
+        "x": -285.998059,
+        "y": 19.521121
+      },
+      "locality": {
+        "fraction_of_total_layout_diagonal": 0.712927,
+        "local_box_diagonal": 454.553498,
+        "nearest_involved_component_center_distance": 29.425667,
+        "relevant_component_body_bounding_box": {
+          "max_x": -93.098977,
+          "max_y": 291.799858,
+          "min_x": -343.455705,
+          "min_y": -87.594912
+        },
+        "total_layout_box_diagonal": 637.587365
+      },
+      "net_a": "GND",
+      "net_a_components": [
+        "C1",
+        "C2",
+        "J_EA",
+        "J_EB",
+        "J_OUT",
+        "J_PWR",
+        "RMIN1"
+      ],
+      "net_b": "R1_EXT",
+      "net_b_components": [
+        "J_R1",
+        "RMIN1"
+      ],
+      "relevant_components": [
+        "C1",
+        "C2",
+        "J_EA",
+        "J_EB",
+        "J_OUT",
+        "J_PWR",
+        "J_R1",
+        "RMIN1"
+      ],
+      "segments": [
+        {
+          "endpoints": [
+            {
+              "component": "RMIN1",
+              "id": "RMIN1.1",
+              "kind": "component_terminal",
+              "x": -293.455705,
+              "y": 10.101648
+            },
+            {
+              "component": null,
+              "id": "centroid:GND",
+              "kind": "derived_net_centroid",
+              "x": -211.302194,
+              "y": 113.866662
+            }
+          ],
+          "length": 132.349452,
+          "net": "GND",
+          "segment_identity": [
+            "GND",
+            "RMIN1.1"
+          ],
+          "terminal": "RMIN1.1",
+          "terminal_component": "RMIN1",
+          "type": "terminal_to_centroid"
+        },
+        {
+          "endpoints": [
+            {
+              "component": "RMIN1",
+              "id": "RMIN1.2",
+              "kind": "component_terminal",
+              "x": -333.455705,
+              "y": 50.101648
+            },
+            {
+              "component": null,
+              "id": "centroid:R1_EXT",
+              "kind": "derived_net_centroid",
+              "x": -226.610674,
+              "y": -18.746632
+            }
+          ],
+          "length": 127.106043,
+          "net": "R1_EXT",
+          "segment_identity": [
+            "R1_EXT",
+            "RMIN1.2"
+          ],
+          "terminal": "RMIN1.2",
+          "terminal_component": "RMIN1",
+          "type": "terminal_to_centroid"
+        }
+      ],
+      "selected_diagnostic_axis": null
+    },
+    {
+      "best_x_candidate": null,
+      "best_y_candidate": null,
+      "classification": "STRUCTURAL",
+      "classification_reason": "no tested single-axis slide or swap eliminates the target",
+      "id": "X005",
+      "identity": [
+        [
+          "EA",
+          "U1.3"
+        ],
+        [
+          "NODE_A",
+          "U1.2"
+        ]
+      ],
+      "immediate_segment_anchor_components": [
+        "U1"
+      ],
+      "intersection": {
+        "x": -93.693078,
+        "y": 26.279871
+      },
+      "locality": {
+        "fraction_of_total_layout_diagonal": 0.523372,
+        "local_box_diagonal": 333.695514,
+        "nearest_involved_component_center_distance": 33.339771,
+        "relevant_component_body_bounding_box": {
+          "max_x": 27.362306,
+          "max_y": 77.659235,
+          "min_x": -199.623316,
+          "min_y": -166.942939
+        },
+        "total_layout_box_diagonal": 637.587365
+      },
+      "net_a": "EA",
+      "net_a_components": [
+        "J_EA",
+        "U1"
+      ],
+      "net_b": "NODE_A",
+      "net_b_components": [
+        "J_R1",
+        "J_RA",
+        "R2",
+        "TPA",
+        "U1"
+      ],
+      "relevant_components": [
+        "J_EA",
+        "J_R1",
+        "J_RA",
+        "R2",
+        "TPA",
+        "U1"
+      ],
+      "segments": [
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.3",
+              "kind": "component_terminal",
+              "x": -74.956995,
+              "y": 40.159235
+            },
+            {
+              "component": null,
+              "id": "centroid:EA",
+              "kind": "derived_net_centroid",
+              "x": -112.290155,
+              "y": 12.50348
+            }
+          ],
+          "length": 46.460797,
+          "net": "EA",
+          "segment_identity": [
+            "EA",
+            "U1.3"
+          ],
+          "terminal": "U1.3",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        },
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.2",
+              "kind": "component_terminal",
+              "x": -97.456995,
+              "y": 37.659235
+            },
+            {
+              "component": null,
+              "id": "centroid:NODE_A",
+              "kind": "derived_net_centroid",
+              "x": -63.703721,
+              "y": -64.386267
+            }
+          ],
+          "length": 107.482873,
+          "net": "NODE_A",
+          "segment_identity": [
+            "NODE_A",
+            "U1.2"
+          ],
+          "terminal": "U1.2",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        }
+      ],
+      "selected_diagnostic_axis": null
+    },
+    {
+      "best_x_candidate": {
+        "clearance_violations": 10,
+        "component_overlaps": 0,
+        "connection_length_after": 3289.121721,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [
+          [
+            [
+              "EA",
+              "U1.3"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_B",
+              "R3.1"
+            ]
+          ]
+        ],
+        "move": {
+          "axis": "X",
+          "components": [
+            "J_EB",
+            "R3"
+          ],
+          "direction": 0,
+          "move_type": "swap",
+          "new_coordinates": [
+            69.345259,
+            -241.496953
+          ],
+          "old_coordinates": [
+            -241.496953,
+            69.345259
+          ],
+          "total_displacement": 621.684424
+        },
+        "new_crossings": [
+          [
+            [
+              "-9V",
+              "J_PWR.3"
+            ],
+            [
+              "GND",
+              "C2.2"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "J_PWR.3"
+            ],
+            [
+              "GND",
+              "J_OUT.2"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "U1.4"
+            ],
+            [
+              "EB",
+              "U1.5"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "U1.4"
+            ],
+            [
+              "GND",
+              "J_EB.2"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "J_EA.1"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "U1.3"
+            ],
+            [
+              "NODE_C",
+              "JP1.2"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "U1.3"
+            ],
+            [
+              "NODE_C",
+              "TPC.1"
+            ]
+          ],
+          [
+            [
+              "EB",
+              "U1.5"
+            ],
+            [
+              "NODE_C",
+              "RMIN4.1"
+            ]
+          ],
+          [
+            [
+              "EOUT",
+              "U1.7"
+            ],
+            [
+              "GND",
+              "J_EB.2"
+            ]
+          ],
+          [
+            [
+              "GND",
+              "J_EB.2"
+            ],
+            [
+              "NODE_C",
+              "RMIN4.1"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "NODE_C",
+              "R3.2"
+            ]
+          ],
+          [
+            [
+              "NODE_B",
+              "R2.2"
+            ],
+            [
+              "R1_EXT",
+              "J_R1.1"
+            ]
+          ],
+          [
+            [
+              "NODE_B",
+              "R3.1"
+            ],
+            [
+              "R1_EXT",
+              "J_R1.1"
+            ]
+          ],
+          [
+            [
+              "NODE_B",
+              "U1.1"
+            ],
+            [
+              "NODE_C",
+              "R3.2"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 18,
+        "total_crossings_before": 7
+      },
+      "best_y_candidate": null,
+      "classification": "XY",
+      "classification_reason": "single-axis elimination exists only with an increase in total crossings",
+      "id": "X006",
+      "identity": [
+        [
+          "EB",
+          "U1.5"
+        ],
+        [
+          "NODE_C",
+          "U1.6"
+        ]
+      ],
+      "immediate_segment_anchor_components": [
+        "U1"
+      ],
+      "intersection": {
+        "x": -97.587439,
+        "y": 70.658071
+      },
+      "locality": {
+        "fraction_of_total_layout_diagonal": 0.618577,
+        "local_box_diagonal": 394.396972,
+        "nearest_involved_component_center_distance": 14.94256,
+        "relevant_component_body_bounding_box": {
+          "max_x": 99.345259,
+          "max_y": 103.453962,
+          "min_x": -271.496953,
+          "min_y": -30.803347
+        },
+        "total_layout_box_diagonal": 637.587365
+      },
+      "net_a": "EB",
+      "net_a_components": [
+        "J_EB",
+        "U1"
+      ],
+      "net_b": "NODE_C",
+      "net_b_components": [
+        "JP1",
+        "R3",
+        "RMIN4",
+        "TPC",
+        "U1"
+      ],
+      "relevant_components": [
+        "JP1",
+        "J_EB",
+        "R3",
+        "RMIN4",
+        "TPC",
+        "U1"
+      ],
+      "segments": [
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.5",
+              "kind": "component_terminal",
+              "x": -87.456995,
+              "y": 77.659235
+            },
+            {
+              "component": null,
+              "id": "centroid:EB",
+              "kind": "derived_net_centroid",
+              "x": -154.476974,
+              "y": 31.341636
+            }
+          ],
+          "length": 81.46777,
+          "net": "EB",
+          "segment_identity": [
+            "EB",
+            "U1.5"
+          ],
+          "terminal": "U1.5",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        },
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.6",
+              "kind": "component_terminal",
+              "x": -112.456995,
+              "y": 77.659235
+            },
+            {
+              "component": null,
+              "id": "centroid:NODE_C",
+              "kind": "derived_net_centroid",
+              "x": -28.699789,
+              "y": 38.223093
+            }
+          ],
+          "length": 92.576881,
+          "net": "NODE_C",
+          "segment_identity": [
+            "NODE_C",
+            "U1.6"
+          ],
+          "terminal": "U1.6",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        }
+      ],
+      "selected_diagnostic_axis": "X"
+    },
+    {
+      "best_x_candidate": {
+        "clearance_violations": 11,
+        "component_overlaps": 0,
+        "connection_length_after": 3151.22026,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [],
+        "move": {
+          "axis": "X",
+          "components": [
+            "C2"
+          ],
+          "direction": 1,
+          "move_type": "slide",
+          "new_coordinates": [
+            -87.340429
+          ],
+          "old_coordinates": [
+            -159.340429
+          ],
+          "total_displacement": 72.0
+        },
+        "new_crossings": [
+          [
+            [
+              "-9V",
+              "C2.1"
+            ],
+            [
+              "EOUT",
+              "TPO.1"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "J_PWR.3"
+            ],
+            [
+              "EOUT",
+              "U1.7"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "J_PWR.3"
+            ],
+            [
+              "GND",
+              "C2.2"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "J_PWR.3"
+            ],
+            [
+              "GND",
+              "J_OUT.2"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "J_PWR.3"
+            ],
+            [
+              "GND",
+              "J_PWR.2"
+            ]
+          ],
+          [
+            [
+              "EOUT",
+              "J_OUT.1"
+            ],
+            [
+              "GND",
+              "C2.2"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 12,
+        "total_crossings_before": 7
+      },
+      "best_y_candidate": {
+        "clearance_violations": 12,
+        "component_overlaps": 0,
+        "connection_length_after": 3483.889417,
+        "connection_length_before": 3098.097778,
+        "eliminated_non_target_crossings": [],
+        "move": {
+          "axis": "Y",
+          "components": [
+            "J_R4",
+            "U1"
+          ],
+          "direction": 0,
+          "move_type": "swap",
+          "new_coordinates": [
+            57.659235,
+            142.08733
+          ],
+          "old_coordinates": [
+            142.08733,
+            57.659235
+          ],
+          "total_displacement": 168.85619000000003
+        },
+        "new_crossings": [
+          [
+            [
+              "+9V",
+              "C1.1"
+            ],
+            [
+              "EB",
+              "J_EB.1"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "U1.4"
+            ],
+            [
+              "EB",
+              "U1.5"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "U1.4"
+            ],
+            [
+              "EOUT",
+              "J_R4.3"
+            ]
+          ],
+          [
+            [
+              "-9V",
+              "U1.4"
+            ],
+            [
+              "NODE_C",
+              "U1.6"
+            ]
+          ],
+          [
+            [
+              "EA",
+              "U1.3"
+            ],
+            [
+              "NODE_C",
+              "U1.6"
+            ]
+          ],
+          [
+            [
+              "EB",
+              "J_EB.1"
+            ],
+            [
+              "GND",
+              "J_EA.2"
+            ]
+          ],
+          [
+            [
+              "EB",
+              "U1.5"
+            ],
+            [
+              "EOUT",
+              "J_R4.3"
+            ]
+          ],
+          [
+            [
+              "EB",
+              "U1.5"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ],
+          [
+            [
+              "EOUT",
+              "J_R4.3"
+            ],
+            [
+              "NODE_B",
+              "U1.1"
+            ]
+          ],
+          [
+            [
+              "EOUT",
+              "J_R4.3"
+            ],
+            [
+              "NODE_C",
+              "U1.6"
+            ]
+          ],
+          [
+            [
+              "NODE_A",
+              "U1.2"
+            ],
+            [
+              "R4_EXT",
+              "J_R4.1"
+            ]
+          ],
+          [
+            [
+              "NODE_B",
+              "R3.1"
+            ],
+            [
+              "RA_SW",
+              "J_RA.3"
+            ]
+          ],
+          [
+            [
+              "NODE_B",
+              "U1.1"
+            ],
+            [
+              "R4_EXT",
+              "J_R4.1"
+            ]
+          ],
+          [
+            [
+              "NODE_C",
+              "U1.6"
+            ],
+            [
+              "R4_EXT",
+              "RMIN4.2"
+            ]
+          ]
+        ],
+        "qualifies_without_crossing_increase": false,
+        "target_crossing_eliminated": true,
+        "total_crossings_after": 20,
+        "total_crossings_before": 7
+      },
+      "classification": "XY",
+      "classification_reason": "single-axis elimination exists only with an increase in total crossings",
+      "id": "X007",
+      "identity": [
+        [
+          "-9V",
+          "U1.4"
+        ],
+        [
+          "EOUT",
+          "U1.7"
+        ]
+      ],
+      "immediate_segment_anchor_components": [
+        "U1"
+      ],
+      "intersection": {
+        "x": -122.455228,
+        "y": 112.677088
+      },
+      "locality": {
+        "fraction_of_total_layout_diagonal": 0.513287,
+        "local_box_diagonal": 327.265573,
+        "nearest_involved_component_center_distance": 37.243818,
+        "relevant_component_body_bounding_box": {
+          "max_x": 2.222056,
+          "max_y": 291.799858,
+          "min_x": -203.970327,
+          "min_y": 37.659235
+        },
+        "total_layout_box_diagonal": 637.587365
+      },
+      "net_a": "-9V",
+      "net_a_components": [
+        "C2",
+        "J_PWR",
+        "U1"
+      ],
+      "net_b": "EOUT",
+      "net_b_components": [
+        "J_OUT",
+        "J_R4",
+        "TPO",
+        "U1"
+      ],
+      "relevant_components": [
+        "C2",
+        "J_OUT",
+        "J_PWR",
+        "J_R4",
+        "TPO",
+        "U1"
+      ],
+      "segments": [
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.4",
+              "kind": "component_terminal",
+              "x": -74.956995,
+              "y": 65.159235
+            },
+            {
+              "component": null,
+              "id": "centroid:-9V",
+              "kind": "derived_net_centroid",
+              "x": -138.777401,
+              "y": 129.006002
+            }
+          ],
+          "length": 90.274326,
+          "net": "-9V",
+          "segment_identity": [
+            "-9V",
+            "U1.4"
+          ],
+          "terminal": "U1.4",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        },
+        {
+          "endpoints": [
+            {
+              "component": "U1",
+              "id": "U1.7",
+              "kind": "component_terminal",
+              "x": -134.956995,
+              "y": 75.159235
+            },
+            {
+              "component": null,
+              "id": "centroid:EOUT",
+              "kind": "derived_net_centroid",
+              "x": -104.07753,
+              "y": 167.828635
+            }
+          ],
+          "length": 97.678856,
+          "net": "EOUT",
+          "segment_identity": [
+            "EOUT",
+            "U1.7"
+          ],
+          "terminal": "U1.7",
+          "terminal_component": "U1",
+          "type": "terminal_to_centroid"
+        }
+      ],
+      "selected_diagnostic_axis": "X"
+    }
+  ],
+  "segment_model": "terminal-to-derived-arithmetic-centroid for every non-singleton net",
+  "source": "closeness_hv_annealed_coordinates.json",
+  "source_metrics_reported": {
+    "clearance_violations": 11,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 6.900372,
+      "crossing": 14000.0,
+      "crowding": 588.533413,
+      "length": 6028.578079,
+      "overlap": 0.0
+    },
+    "net_crossings": 7,
+    "objective": 20624.011864,
+    "total_connection_length": 3098.097778
+  },
+  "source_metrics_reproduced": {
+    "clearance_violations": 11,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 6.900368,
+      "crossing": 14000.0,
+      "crowding": 588.533419,
+      "length": 6028.578082,
+      "overlap": 0.0
+    },
+    "net_crossings": 7,
+    "objective": 20624.011868,
+    "total_connection_length": 3098.097778
+  },
+  "summary": {
+    "classification_counts": {
+      "STRUCTURAL": 2,
+      "X": 0,
+      "XY": 5,
+      "Y": 0
+    },
+    "component_involvement": [
+      {
+        "component": "C1",
+        "crossing_ids": [
+          "X004"
+        ],
+        "residual_crossings_influenced": 1
+      },
+      {
+        "component": "C2",
+        "crossing_ids": [
+          "X004",
+          "X007"
+        ],
+        "residual_crossings_influenced": 2
+      },
+      {
+        "component": "JP1",
+        "crossing_ids": [
+          "X006"
+        ],
+        "residual_crossings_influenced": 1
+      },
+      {
+        "component": "J_EA",
+        "crossing_ids": [
+          "X003",
+          "X004",
+          "X005"
+        ],
+        "residual_crossings_influenced": 3
+      },
+      {
+        "component": "J_EB",
+        "crossing_ids": [
+          "X004",
+          "X006"
+        ],
+        "residual_crossings_influenced": 2
+      },
+      {
+        "component": "J_OUT",
+        "crossing_ids": [
+          "X004",
+          "X007"
+        ],
+        "residual_crossings_influenced": 2
+      },
+      {
+        "component": "J_PWR",
+        "crossing_ids": [
+          "X004",
+          "X007"
+        ],
+        "residual_crossings_influenced": 2
+      },
+      {
+        "component": "J_R1",
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X004",
+          "X005"
+        ],
+        "residual_crossings_influenced": 4
+      },
+      {
+        "component": "J_R4",
+        "crossing_ids": [
+          "X007"
+        ],
+        "residual_crossings_influenced": 1
+      },
+      {
+        "component": "J_RA",
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X005"
+        ],
+        "residual_crossings_influenced": 3
+      },
+      {
+        "component": "R2",
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X003",
+          "X005"
+        ],
+        "residual_crossings_influenced": 4
+      },
+      {
+        "component": "R3",
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X003",
+          "X006"
+        ],
+        "residual_crossings_influenced": 4
+      },
+      {
+        "component": "RMIN1",
+        "crossing_ids": [
+          "X004"
+        ],
+        "residual_crossings_influenced": 1
+      },
+      {
+        "component": "RMIN4",
+        "crossing_ids": [
+          "X006"
+        ],
+        "residual_crossings_influenced": 1
+      },
+      {
+        "component": "TPA",
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X005"
+        ],
+        "residual_crossings_influenced": 3
+      },
+      {
+        "component": "TPB",
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X003"
+        ],
+        "residual_crossings_influenced": 3
+      },
+      {
+        "component": "TPC",
+        "crossing_ids": [
+          "X006"
+        ],
+        "residual_crossings_influenced": 1
+      },
+      {
+        "component": "TPO",
+        "crossing_ids": [
+          "X007"
+        ],
+        "residual_crossings_influenced": 1
+      },
+      {
+        "component": "U1",
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X003",
+          "X005",
+          "X006",
+          "X007"
+        ],
+        "residual_crossings_influenced": 6
+      }
+    ],
+    "component_membership_groups": [
+      {
+        "components": [
+          "C1",
+          "C2",
+          "JP1",
+          "J_EA",
+          "J_EB",
+          "J_OUT",
+          "J_PWR",
+          "J_R1",
+          "J_R4",
+          "J_RA",
+          "R2",
+          "R3",
+          "RMIN1",
+          "RMIN4",
+          "TPA",
+          "TPB",
+          "TPC",
+          "TPO",
+          "U1"
+        ],
+        "crossing_ids": [
+          "X001",
+          "X002",
+          "X003",
+          "X004",
+          "X005",
+          "X006",
+          "X007"
+        ]
+      }
+    ],
+    "crossings_whose_selected_move_interacts_with_another": 5,
+    "distinct_components": 19,
+    "distinct_nets": 9,
+    "net_names": [
+      "-9V",
+      "EA",
+      "EB",
+      "EOUT",
+      "GND",
+      "NODE_A",
+      "NODE_B",
+      "NODE_C",
+      "R1_EXT"
+    ],
+    "region_concentration": "one component-membership-connected group",
+    "removable_without_increasing_total_crossings": 0
+  }
+}

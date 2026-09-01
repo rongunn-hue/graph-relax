@@ -1,0 +1,443 @@
+{
+  "animation_frame_count": 25,
+  "directions": [
+    {
+      "Rminus_before": 1403.705882,
+      "Rplus_before": 1732.294118,
+      "accepted_s": 0.810316,
+      "attached_vertices": 4,
+      "full_balance_reached": true,
+      "imbalance": 328.588235,
+      "limiting_validity_event": null,
+      "requested_s_target": 0.810316,
+      "theta": 0
+    },
+    {
+      "Rminus_before": 1481.441614,
+      "Rplus_before": 1302.109564,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -179.332049,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 10
+    },
+    {
+      "Rminus_before": 1514.164492,
+      "Rplus_before": 1160.949306,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -353.215185,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 20
+    },
+    {
+      "Rminus_before": 1500.880248,
+      "Rplus_before": 984.881992,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -515.998256,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 30
+    },
+    {
+      "Rminus_before": 1441.992517,
+      "Rplus_before": 902.765749,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -539.226768,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 40
+    },
+    {
+      "Rminus_before": 1339.290573,
+      "Rplus_before": 793.219425,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -546.071147,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 50
+    },
+    {
+      "Rminus_before": 1195.894963,
+      "Rplus_before": 659.571531,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -536.323431,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 60
+    },
+    {
+      "Rminus_before": 1016.162689,
+      "Rplus_before": 630.064173,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -386.098517,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 70
+    },
+    {
+      "Rminus_before": 805.554827,
+      "Rplus_before": 584.679386,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -220.875441,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 80
+    },
+    {
+      "Rminus_before": 570.470588,
+      "Rplus_before": 521.529412,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -48.941176,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 90
+    },
+    {
+      "Rminus_before": 698.989702,
+      "Rplus_before": 518.954438,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -180.035264,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 100
+    },
+    {
+      "Rminus_before": 914.479431,
+      "Rplus_before": 552.611296,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -361.868135,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 110
+    },
+    {
+      "Rminus_before": 1102.183165,
+      "Rplus_before": 569.47734,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -532.705825,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 120
+    },
+    {
+      "Rminus_before": 1256.397621,
+      "Rplus_before": 590.344697,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -666.052924,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 130
+    },
+    {
+      "Rminus_before": 1372.437072,
+      "Rplus_before": 708.609665,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -663.827406,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 140
+    },
+    {
+      "Rminus_before": 1446.775716,
+      "Rplus_before": 930.409659,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -516.366057,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 150
+    },
+    {
+      "Rminus_before": 1477.154812,
+      "Rplus_before": 1123.939627,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -353.215185,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 160
+    },
+    {
+      "Rminus_before": 1462.651307,
+      "Rplus_before": 1283.319258,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -179.332049,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 170
+    },
+    {
+      "Rminus_before": 1403.705882,
+      "Rplus_before": 1403.705882,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": 0.0,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 180
+    },
+    {
+      "Rminus_before": 1302.109564,
+      "Rplus_before": 1481.441614,
+      "accepted_s": 0.878948,
+      "attached_vertices": 1,
+      "full_balance_reached": true,
+      "imbalance": 179.332049,
+      "limiting_validity_event": null,
+      "requested_s_target": 0.878948,
+      "theta": 190
+    },
+    {
+      "Rminus_before": 1160.949306,
+      "Rplus_before": 1330.87126,
+      "accepted_s": 0.971251,
+      "attached_vertices": 1,
+      "full_balance_reached": false,
+      "imbalance": 169.921953,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.872323,
+      "theta": 200
+    },
+    {
+      "Rminus_before": 984.881992,
+      "Rplus_before": 1281.269717,
+      "accepted_s": 1.0,
+      "attached_vertices": 1,
+      "full_balance_reached": false,
+      "imbalance": 296.387726,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.768677,
+      "theta": 210
+    },
+    {
+      "Rminus_before": 902.765749,
+      "Rplus_before": 1230.998507,
+      "accepted_s": 1.0,
+      "attached_vertices": 1,
+      "full_balance_reached": false,
+      "imbalance": 328.232758,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.733361,
+      "theta": 220
+    },
+    {
+      "Rminus_before": 793.219425,
+      "Rplus_before": 1143.32403,
+      "accepted_s": 1.0,
+      "attached_vertices": 1,
+      "full_balance_reached": false,
+      "imbalance": 350.104605,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.693784,
+      "theta": 230
+    },
+    {
+      "Rminus_before": 659.571531,
+      "Rplus_before": 1020.910231,
+      "accepted_s": 1.0,
+      "attached_vertices": 1,
+      "full_balance_reached": false,
+      "imbalance": 361.3387,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.646062,
+      "theta": 240
+    },
+    {
+      "Rminus_before": 630.064173,
+      "Rplus_before": 867.476591,
+      "accepted_s": 1.0,
+      "attached_vertices": 1,
+      "full_balance_reached": false,
+      "imbalance": 237.412419,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.726318,
+      "theta": 250
+    },
+    {
+      "Rminus_before": 584.679386,
+      "Rplus_before": 687.685114,
+      "accepted_s": 1.0,
+      "attached_vertices": 1,
+      "full_balance_reached": false,
+      "imbalance": 103.005729,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.850214,
+      "theta": 260
+    },
+    {
+      "Rminus_before": 521.529412,
+      "Rplus_before": 486.998673,
+      "accepted_s": 1.0,
+      "attached_vertices": 0,
+      "full_balance_reached": true,
+      "imbalance": -34.530739,
+      "limiting_validity_event": null,
+      "requested_s_target": 1.0,
+      "theta": 270
+    },
+    {
+      "Rminus_before": 518.954438,
+      "Rplus_before": 698.989702,
+      "accepted_s": 1.0,
+      "attached_vertices": 4,
+      "full_balance_reached": false,
+      "imbalance": 180.035264,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.742435,
+      "theta": 280
+    },
+    {
+      "Rminus_before": 552.611296,
+      "Rplus_before": 914.479431,
+      "accepted_s": 1.0,
+      "attached_vertices": 4,
+      "full_balance_reached": false,
+      "imbalance": 361.868135,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.604291,
+      "theta": 290
+    },
+    {
+      "Rminus_before": 569.47734,
+      "Rplus_before": 1102.183165,
+      "accepted_s": 1.0,
+      "attached_vertices": 4,
+      "full_balance_reached": false,
+      "imbalance": 532.705825,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.516681,
+      "theta": 300
+    },
+    {
+      "Rminus_before": 590.344697,
+      "Rplus_before": 1256.397621,
+      "accepted_s": 1.0,
+      "attached_vertices": 4,
+      "full_balance_reached": false,
+      "imbalance": 666.052924,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.469871,
+      "theta": 310
+    },
+    {
+      "Rminus_before": 646.941335,
+      "Rplus_before": 1372.437072,
+      "accepted_s": 1.0,
+      "attached_vertices": 6,
+      "full_balance_reached": false,
+      "imbalance": 725.495737,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.471381,
+      "theta": 320
+    },
+    {
+      "Rminus_before": 794.271044,
+      "Rplus_before": 1446.775716,
+      "accepted_s": 1.0,
+      "attached_vertices": 5,
+      "full_balance_reached": false,
+      "imbalance": 652.504672,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.548994,
+      "theta": 330
+    },
+    {
+      "Rminus_before": 959.483483,
+      "Rplus_before": 1477.154812,
+      "accepted_s": 1.0,
+      "attached_vertices": 4,
+      "full_balance_reached": false,
+      "imbalance": 517.671329,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.649548,
+      "theta": 340
+    },
+    {
+      "Rminus_before": 1095.542503,
+      "Rplus_before": 1462.651307,
+      "accepted_s": 1.0,
+      "attached_vertices": 4,
+      "full_balance_reached": false,
+      "imbalance": 367.108805,
+      "limiting_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "requested_s_target": 0.749011,
+      "theta": 350
+    }
+  ],
+  "end": {
+    "area": 2624210.146243,
+    "centroid": {
+      "x": 1374.369795,
+      "y": 583.915494
+    },
+    "coincident_vertex_pairs": 0,
+    "height": 1008.528085,
+    "total_edge_length": 21500.286795,
+    "unrelated_crossings": 0,
+    "vertices_on_unrelated_edges": 0,
+    "width": 2602.019899
+  },
+  "final_centroid": {
+    "x": 1374.369795,
+    "y": 583.915494
+  },
+  "fixed_viewport": {
+    "height": 1292.0,
+    "width": 3336.0,
+    "x": -100.0,
+    "y": -100.0
+  },
+  "frozen_centroid": {
+    "x": 1403.705882,
+    "y": 570.470588
+  },
+  "model": "abstract point-and-segment graph",
+  "physical_geometry_participated": false,
+  "start": {
+    "area": 3424512.0,
+    "centroid": {
+      "x": 1403.705882,
+      "y": 570.470588
+    },
+    "coincident_vertex_pairs": 0,
+    "height": 1092.0,
+    "total_edge_length": 24359.649504,
+    "unrelated_crossings": 0,
+    "vertices_on_unrelated_edges": 0,
+    "width": 3136.0
+  }
+}

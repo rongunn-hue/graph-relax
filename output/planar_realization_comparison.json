@@ -1,0 +1,1083 @@
+{
+  "all_failed_stage_a": true,
+  "predetermined_ranking_fields": [
+    "primary valid",
+    "primary crossings",
+    "component overlaps",
+    "clearance violations",
+    "Layer1/Layer0 crossings",
+    "Layer1/Layer1 crossings",
+    "total bends",
+    "total connection length",
+    "area"
+  ],
+  "ranking": [
+    "SET001",
+    "SET002",
+    "SET003",
+    "SET004"
+  ],
+  "ranking_note": "All metric fields tie as unavailable; SET ID is deterministic final tie-break.",
+  "sets": [
+    {
+      "metrics": {
+        "bounding_box_area": null,
+        "bounding_box_height": null,
+        "bounding_box_width": null,
+        "clearance_violations": null,
+        "component_overlaps": null,
+        "failure": "The exact saved rotation system requires independent reversal of some component terminal cycles while other 3+-terminal cycles retain current order. The fixed anonymous rectangle geometry cannot realize this mixed pattern without forbidden component mirroring or changing the embedding.",
+        "layer1_bends": null,
+        "layer1_connection_length": null,
+        "layer1_layer0_crossings": null,
+        "layer1_layer1_crossings": null,
+        "maximum_bends_on_primary_edge": null,
+        "primary_bends": null,
+        "primary_connection_length": null,
+        "primary_crossings": null,
+        "primary_edges_requiring_bends": null,
+        "primary_valid": false,
+        "rotation_analysis": [
+          {
+            "component": "C1",
+            "physical_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "C2",
+            "physical_clockwise_terminal_order": [
+              "terminal:C2.1",
+              "terminal:C2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C2.2",
+              "terminal:C2.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "JP1",
+            "physical_clockwise_terminal_order": [
+              "terminal:JP1.1",
+              "terminal:JP1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:JP1.2",
+              "terminal:JP1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EB",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_OUT",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_OUT.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_OUT.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_PWR",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.2",
+              "terminal:J_PWR.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.3",
+              "terminal:J_PWR.2"
+            ],
+            "state": "reversed_order"
+          },
+          {
+            "component": "J_R1",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R1.1",
+              "terminal:J_R1.2",
+              "terminal:J_R1.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R1.3",
+              "terminal:J_R1.1",
+              "terminal:J_R1.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "J_R4",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R4.1",
+              "terminal:J_R4.2",
+              "terminal:J_R4.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R4.3",
+              "terminal:J_R4.1",
+              "terminal:J_R4.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "J_RA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_RA.1",
+              "terminal:J_RA.2",
+              "terminal:J_RA.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_RA.3",
+              "terminal:J_RA.1",
+              "terminal:J_RA.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "R2",
+            "physical_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "R3",
+            "physical_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN1",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN1.1",
+              "terminal:RMIN1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN1.2",
+              "terminal:RMIN1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN4",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN4.1",
+              "terminal:RMIN4.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN4.2",
+              "terminal:RMIN4.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPA",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPB",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPC",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPO",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "U1",
+            "physical_clockwise_terminal_order": [
+              "terminal:U1.1",
+              "terminal:U1.2",
+              "terminal:U1.3",
+              "terminal:U1.4",
+              "terminal:U1.5",
+              "terminal:U1.6",
+              "terminal:U1.7"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:U1.4",
+              "terminal:U1.3",
+              "terminal:U1.2",
+              "terminal:U1.1",
+              "terminal:U1.7",
+              "terminal:U1.6",
+              "terminal:U1.5"
+            ],
+            "state": "reversed_order"
+          }
+        ],
+        "set_id": "SET001",
+        "stage_a": "FAILED",
+        "stage_b": "NOT EXHAUSTIVELY SEARCHED",
+        "straight_primary_edges": null,
+        "total_bends": null,
+        "total_connection_length": null
+      },
+      "set_id": "SET001"
+    },
+    {
+      "metrics": {
+        "bounding_box_area": null,
+        "bounding_box_height": null,
+        "bounding_box_width": null,
+        "clearance_violations": null,
+        "component_overlaps": null,
+        "failure": "The exact saved rotation system requires independent reversal of some component terminal cycles while other 3+-terminal cycles retain current order. The fixed anonymous rectangle geometry cannot realize this mixed pattern without forbidden component mirroring or changing the embedding.",
+        "layer1_bends": null,
+        "layer1_connection_length": null,
+        "layer1_layer0_crossings": null,
+        "layer1_layer1_crossings": null,
+        "maximum_bends_on_primary_edge": null,
+        "primary_bends": null,
+        "primary_connection_length": null,
+        "primary_crossings": null,
+        "primary_edges_requiring_bends": null,
+        "primary_valid": false,
+        "rotation_analysis": [
+          {
+            "component": "C1",
+            "physical_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "C2",
+            "physical_clockwise_terminal_order": [
+              "terminal:C2.1",
+              "terminal:C2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C2.2",
+              "terminal:C2.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "JP1",
+            "physical_clockwise_terminal_order": [
+              "terminal:JP1.1",
+              "terminal:JP1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:JP1.2",
+              "terminal:JP1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EB",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_OUT",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_OUT.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_OUT.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_PWR",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.2",
+              "terminal:J_PWR.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.3",
+              "terminal:J_PWR.2"
+            ],
+            "state": "reversed_order"
+          },
+          {
+            "component": "J_R1",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R1.1",
+              "terminal:J_R1.2",
+              "terminal:J_R1.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R1.3",
+              "terminal:J_R1.1",
+              "terminal:J_R1.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "J_R4",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R4.1",
+              "terminal:J_R4.2",
+              "terminal:J_R4.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R4.3",
+              "terminal:J_R4.1",
+              "terminal:J_R4.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "J_RA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_RA.1",
+              "terminal:J_RA.2",
+              "terminal:J_RA.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_RA.3",
+              "terminal:J_RA.1",
+              "terminal:J_RA.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "R2",
+            "physical_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "R3",
+            "physical_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN1",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN1.1",
+              "terminal:RMIN1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN1.2",
+              "terminal:RMIN1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN4",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN4.1",
+              "terminal:RMIN4.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN4.2",
+              "terminal:RMIN4.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPA",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPB",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPC",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPO",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "U1",
+            "physical_clockwise_terminal_order": [
+              "terminal:U1.1",
+              "terminal:U1.2",
+              "terminal:U1.3",
+              "terminal:U1.4",
+              "terminal:U1.5",
+              "terminal:U1.6",
+              "terminal:U1.7"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:U1.4",
+              "terminal:U1.3",
+              "terminal:U1.2",
+              "terminal:U1.1",
+              "terminal:U1.7",
+              "terminal:U1.6",
+              "terminal:U1.5"
+            ],
+            "state": "reversed_order"
+          }
+        ],
+        "set_id": "SET002",
+        "stage_a": "FAILED",
+        "stage_b": "NOT EXHAUSTIVELY SEARCHED",
+        "straight_primary_edges": null,
+        "total_bends": null,
+        "total_connection_length": null
+      },
+      "set_id": "SET002"
+    },
+    {
+      "metrics": {
+        "bounding_box_area": null,
+        "bounding_box_height": null,
+        "bounding_box_width": null,
+        "clearance_violations": null,
+        "component_overlaps": null,
+        "failure": "The exact saved rotation system requires independent reversal of some component terminal cycles while other 3+-terminal cycles retain current order. The fixed anonymous rectangle geometry cannot realize this mixed pattern without forbidden component mirroring or changing the embedding.",
+        "layer1_bends": null,
+        "layer1_connection_length": null,
+        "layer1_layer0_crossings": null,
+        "layer1_layer1_crossings": null,
+        "maximum_bends_on_primary_edge": null,
+        "primary_bends": null,
+        "primary_connection_length": null,
+        "primary_crossings": null,
+        "primary_edges_requiring_bends": null,
+        "primary_valid": false,
+        "rotation_analysis": [
+          {
+            "component": "C1",
+            "physical_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "C2",
+            "physical_clockwise_terminal_order": [
+              "terminal:C2.1",
+              "terminal:C2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C2.2",
+              "terminal:C2.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "JP1",
+            "physical_clockwise_terminal_order": [
+              "terminal:JP1.1",
+              "terminal:JP1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:JP1.2",
+              "terminal:JP1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EB",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_OUT",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_OUT.1",
+              "terminal:J_OUT.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_OUT.1",
+              "terminal:J_OUT.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_PWR",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.2",
+              "terminal:J_PWR.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.3",
+              "terminal:J_PWR.2"
+            ],
+            "state": "reversed_order"
+          },
+          {
+            "component": "J_R1",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R1.1",
+              "terminal:J_R1.2",
+              "terminal:J_R1.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R1.3",
+              "terminal:J_R1.1",
+              "terminal:J_R1.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "J_R4",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R4.1",
+              "terminal:J_R4.2",
+              "terminal:J_R4.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R4.3",
+              "terminal:J_R4.1",
+              "terminal:J_R4.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "J_RA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_RA.1",
+              "terminal:J_RA.2",
+              "terminal:J_RA.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_RA.3",
+              "terminal:J_RA.1",
+              "terminal:J_RA.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "R2",
+            "physical_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "R3",
+            "physical_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN1",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN1.1",
+              "terminal:RMIN1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN1.2",
+              "terminal:RMIN1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN4",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN4.1",
+              "terminal:RMIN4.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN4.2",
+              "terminal:RMIN4.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPA",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPB",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPC",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPO",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "U1",
+            "physical_clockwise_terminal_order": [
+              "terminal:U1.1",
+              "terminal:U1.2",
+              "terminal:U1.3",
+              "terminal:U1.4",
+              "terminal:U1.5",
+              "terminal:U1.7"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:U1.4",
+              "terminal:U1.3",
+              "terminal:U1.2",
+              "terminal:U1.1",
+              "terminal:U1.7",
+              "terminal:U1.5"
+            ],
+            "state": "reversed_order"
+          }
+        ],
+        "set_id": "SET003",
+        "stage_a": "FAILED",
+        "stage_b": "NOT EXHAUSTIVELY SEARCHED",
+        "straight_primary_edges": null,
+        "total_bends": null,
+        "total_connection_length": null
+      },
+      "set_id": "SET003"
+    },
+    {
+      "metrics": {
+        "bounding_box_area": null,
+        "bounding_box_height": null,
+        "bounding_box_width": null,
+        "clearance_violations": null,
+        "component_overlaps": null,
+        "failure": "The exact saved rotation system requires independent reversal of some component terminal cycles while other 3+-terminal cycles retain current order. The fixed anonymous rectangle geometry cannot realize this mixed pattern without forbidden component mirroring or changing the embedding.",
+        "layer1_bends": null,
+        "layer1_connection_length": null,
+        "layer1_layer0_crossings": null,
+        "layer1_layer1_crossings": null,
+        "maximum_bends_on_primary_edge": null,
+        "primary_bends": null,
+        "primary_connection_length": null,
+        "primary_crossings": null,
+        "primary_edges_requiring_bends": null,
+        "primary_valid": false,
+        "rotation_analysis": [
+          {
+            "component": "C1",
+            "physical_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C1.1",
+              "terminal:C1.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "C2",
+            "physical_clockwise_terminal_order": [
+              "terminal:C2.1",
+              "terminal:C2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:C2.2",
+              "terminal:C2.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "JP1",
+            "physical_clockwise_terminal_order": [
+              "terminal:JP1.1",
+              "terminal:JP1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:JP1.2",
+              "terminal:JP1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EA.1",
+              "terminal:J_EA.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_EB",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_EB.1",
+              "terminal:J_EB.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_OUT",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_OUT.1",
+              "terminal:J_OUT.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_OUT.1",
+              "terminal:J_OUT.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "J_PWR",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.2",
+              "terminal:J_PWR.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_PWR.1",
+              "terminal:J_PWR.3",
+              "terminal:J_PWR.2"
+            ],
+            "state": "reversed_order"
+          },
+          {
+            "component": "J_R1",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R1.1",
+              "terminal:J_R1.2",
+              "terminal:J_R1.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R1.3",
+              "terminal:J_R1.1",
+              "terminal:J_R1.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "J_R4",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_R4.1",
+              "terminal:J_R4.2",
+              "terminal:J_R4.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_R4.1",
+              "terminal:J_R4.3",
+              "terminal:J_R4.2"
+            ],
+            "state": "reversed_order"
+          },
+          {
+            "component": "J_RA",
+            "physical_clockwise_terminal_order": [
+              "terminal:J_RA.1",
+              "terminal:J_RA.2",
+              "terminal:J_RA.3"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:J_RA.3",
+              "terminal:J_RA.1",
+              "terminal:J_RA.2"
+            ],
+            "state": "current_order"
+          },
+          {
+            "component": "R2",
+            "physical_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R2.1",
+              "terminal:R2.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "R3",
+            "physical_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:R3.1",
+              "terminal:R3.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN1",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN1.1",
+              "terminal:RMIN1.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN1.2",
+              "terminal:RMIN1.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "RMIN4",
+            "physical_clockwise_terminal_order": [
+              "terminal:RMIN4.1",
+              "terminal:RMIN4.2"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:RMIN4.1",
+              "terminal:RMIN4.2"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPA",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPA.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPB",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPB.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPC",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPC.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "TPO",
+            "physical_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:TPO.1"
+            ],
+            "state": "orientation_topologically_ambiguous"
+          },
+          {
+            "component": "U1",
+            "physical_clockwise_terminal_order": [
+              "terminal:U1.1",
+              "terminal:U1.2",
+              "terminal:U1.3",
+              "terminal:U1.4",
+              "terminal:U1.5",
+              "terminal:U1.6"
+            ],
+            "saved_embedding_clockwise_terminal_order": [
+              "terminal:U1.4",
+              "terminal:U1.3",
+              "terminal:U1.2",
+              "terminal:U1.1",
+              "terminal:U1.6",
+              "terminal:U1.5"
+            ],
+            "state": "reversed_order"
+          }
+        ],
+        "set_id": "SET004",
+        "stage_a": "FAILED",
+        "stage_b": "NOT EXHAUSTIVELY SEARCHED",
+        "straight_primary_edges": null,
+        "total_bends": null,
+        "total_connection_length": null
+      },
+      "set_id": "SET004"
+    }
+  ]
+}

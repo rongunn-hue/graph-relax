@@ -1,0 +1,23 @@
+{
+  "component_mirroring_permitted": false,
+  "component_mirroring_required": true,
+  "current_order_components": [
+    "J_R1",
+    "J_RA"
+  ],
+  "failure": "The exact saved rotation system requires independent reversal of some component terminal cycles while other 3+-terminal cycles retain current order. The fixed anonymous rectangle geometry cannot realize this mixed pattern without forbidden component mirroring or changing the embedding.",
+  "global_reflection_can_repair": false,
+  "input_edge_set_valid": true,
+  "input_embedding_structure_valid": true,
+  "input_vertex_set_valid": true,
+  "invalid_rotation_components": [],
+  "mixed_independent_reversals": true,
+  "nonexempt_electrical_incidences_valid": true,
+  "primary_realization_valid": false,
+  "reversed_components": [
+    "J_PWR",
+    "J_R4",
+    "U1"
+  ],
+  "validator": "independent saved-rotation versus physical-perimeter-order comparison"
+}

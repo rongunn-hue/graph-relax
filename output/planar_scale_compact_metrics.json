@@ -1,0 +1,55 @@
+{
+  "compacted_geometry_extents": {
+    "height": 1112.0,
+    "max_x": 3358.0,
+    "max_y": 1092.0,
+    "min_x": 0.0,
+    "min_y": -20.0,
+    "width": 3358.0
+  },
+  "connection_length_reduction_percent": 28.817935,
+  "experiment_4j": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 0.0,
+      "crowding": 130.420835,
+      "length": 723933.201185,
+      "overlap": 0.0
+    },
+    "net_crossings": 0,
+    "objective": 724063.622019,
+    "total_connection_length": 24262.045496
+  },
+  "first_invalid_lower_scale": 51,
+  "first_invalid_reasons": [
+    "clearance violations: 5"
+  ],
+  "measurement_only": true,
+  "original_4i": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 0.0,
+      "crowding": 56.705106,
+      "length": 1403321.955584,
+      "overlap": 0.0
+    },
+    "net_crossings": 0,
+    "objective": 1403378.66069,
+    "total_connection_length": 34084.492436
+  },
+  "original_geometry_extents": {
+    "height": 1532.0,
+    "max_x": 4638.0,
+    "max_y": 1512.0,
+    "min_x": 0.0,
+    "min_y": -20.0,
+    "width": 4638.0
+  },
+  "original_scale": 72,
+  "scale_reduction_percent": 27.777778,
+  "smallest_fully_valid_scale": 52
+}

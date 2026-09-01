@@ -1,0 +1,713 @@
+{
+  "angular": {
+    "eligible_vertex_count": 27,
+    "global_minimum_incident_angular_gap": 1.048222,
+    "mean_angular_error": 198.905164,
+    "mean_per_vertex_minimum_angular_gap": 68.020928,
+    "vertices": {
+      "component:C1": {
+        "angles": [
+          175.449317,
+          181.048222
+        ],
+        "angular_error": 348.802189,
+        "degree": 2,
+        "gaps": [
+          5.598906,
+          354.401094
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 5.598906
+      },
+      "component:C2": {
+        "angles": [
+          195.801152,
+          332.049031
+        ],
+        "angular_error": 87.504242,
+        "degree": 2,
+        "gaps": [
+          136.247879,
+          223.752121
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 136.247879
+      },
+      "component:JP1": {
+        "angles": [
+          46.701355,
+          226.701355
+        ],
+        "angular_error": 0.0,
+        "degree": 2,
+        "gaps": [
+          180.0,
+          180.0
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 180.0
+      },
+      "component:J_EA": {
+        "angles": [
+          206.095424,
+          332.049031
+        ],
+        "angular_error": 108.092786,
+        "degree": 2,
+        "gaps": [
+          125.953607,
+          234.046393
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 125.953607
+      },
+      "component:J_EB": {
+        "angles": [
+          133.298645,
+          209.744881
+        ],
+        "angular_error": 207.107528,
+        "degree": 2,
+        "gaps": [
+          76.446236,
+          283.553764
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 76.446236
+      },
+      "component:J_OUT": {
+        "angles": [
+          226.701355,
+          313.298645
+        ],
+        "angular_error": 186.805418,
+        "degree": 2,
+        "gaps": [
+          86.597291,
+          273.402709
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 86.597291
+      },
+      "component:J_PWR": {
+        "angles": [
+          115.227649,
+          152.049031,
+          186.373963
+        ],
+        "angular_error": 337.707374,
+        "degree": 3,
+        "gaps": [
+          36.821382,
+          34.324932,
+          288.853687
+        ],
+        "ideal_gap": 120.0,
+        "minimum_gap": 34.324932
+      },
+      "component:J_R1": {
+        "angles": [
+          226.701355,
+          310.584792,
+          313.298645
+        ],
+        "angular_error": 306.805418,
+        "degree": 3,
+        "gaps": [
+          83.883438,
+          2.713853,
+          273.402709
+        ],
+        "ideal_gap": 120.0,
+        "minimum_gap": 2.713853
+      },
+      "component:J_R4": {
+        "angles": [
+          27.950969,
+          46.701355,
+          226.701355
+        ],
+        "angular_error": 202.499229,
+        "degree": 3,
+        "gaps": [
+          18.750386,
+          180.0,
+          161.249614
+        ],
+        "ideal_gap": 120.0,
+        "minimum_gap": 18.750386
+      },
+      "component:J_RA": {
+        "angles": [
+          133.298645,
+          270.0,
+          313.298645
+        ],
+        "angular_error": 153.402709,
+        "degree": 3,
+        "gaps": [
+          136.701355,
+          43.298645,
+          180.0
+        ],
+        "ideal_gap": 120.0,
+        "minimum_gap": 43.298645
+      },
+      "component:R2": {
+        "angles": [
+          226.701355,
+          349.078993
+        ],
+        "angular_error": 115.244723,
+        "degree": 2,
+        "gaps": [
+          122.377639,
+          237.622361
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 122.377639
+      },
+      "component:R3": {
+        "angles": [
+          207.950969,
+          332.049031
+        ],
+        "angular_error": 111.803876,
+        "degree": 2,
+        "gaps": [
+          124.098062,
+          235.901938
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 124.098062
+      },
+      "component:RMIN1": {
+        "angles": [
+          133.298645,
+          180.0
+        ],
+        "angular_error": 266.597291,
+        "degree": 2,
+        "gaps": [
+          46.701355,
+          313.298645
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 46.701355
+      },
+      "component:RMIN4": {
+        "angles": [
+          226.701355,
+          313.298645
+        ],
+        "angular_error": 186.805418,
+        "degree": 2,
+        "gaps": [
+          86.597291,
+          273.402709
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 86.597291
+      },
+      "component:U1": {
+        "angles": [
+          1.787763,
+          5.510554,
+          11.253705,
+          54.749975,
+          244.772351,
+          290.652584,
+          298.300756,
+          308.141002
+        ],
+        "angular_error": 309.098739,
+        "degree": 8,
+        "gaps": [
+          3.72279,
+          5.743151,
+          43.49627,
+          190.022375,
+          45.880233,
+          7.648172,
+          9.840247,
+          53.646761
+        ],
+        "ideal_gap": 45.0,
+        "minimum_gap": 3.72279
+      },
+      "net:+9V": {
+        "angles": [
+          128.141002,
+          295.227649,
+          355.449317
+        ],
+        "angular_error": 119.556665,
+        "degree": 3,
+        "gaps": [
+          167.086647,
+          60.221667,
+          132.691686
+        ],
+        "ideal_gap": 120.0,
+        "minimum_gap": 60.221667
+      },
+      "net:-9V": {
+        "angles": [
+          118.300756,
+          152.049031,
+          332.049031
+        ],
+        "angular_error": 172.50345,
+        "degree": 3,
+        "gaps": [
+          33.748275,
+          180.0,
+          146.251725
+        ],
+        "ideal_gap": 120.0,
+        "minimum_gap": 33.748275
+      },
+      "net:EA": {
+        "angles": [
+          110.652584,
+          152.049031
+        ],
+        "angular_error": 277.207106,
+        "degree": 2,
+        "gaps": [
+          41.396447,
+          318.603553
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 41.396447
+      },
+      "net:EB": {
+        "angles": [
+          64.772351,
+          313.298645
+        ],
+        "angular_error": 137.05259,
+        "degree": 2,
+        "gaps": [
+          248.526295,
+          111.473705
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 111.473705
+      },
+      "net:EOUT": {
+        "angles": [
+          27.950969,
+          46.701355,
+          133.298645,
+          234.749975
+        ],
+        "angular_error": 149.304647,
+        "degree": 4,
+        "gaps": [
+          18.750386,
+          86.597291,
+          101.45133,
+          153.200994
+        ],
+        "ideal_gap": 90.0,
+        "minimum_gap": 18.750386
+      },
+      "net:GND": {
+        "angles": [
+          0.0,
+          1.048222,
+          6.373963,
+          15.801152,
+          26.095424,
+          29.744881,
+          46.701355
+        ],
+        "angular_error": 523.740148,
+        "degree": 7,
+        "gaps": [
+          1.048222,
+          5.32574,
+          9.42719,
+          10.294272,
+          3.649457,
+          16.956473,
+          313.298645
+        ],
+        "ideal_gap": 51.428571,
+        "minimum_gap": 1.048222
+      },
+      "net:NODE_A": {
+        "angles": [
+          46.701355,
+          133.298645,
+          162.340224,
+          169.078993,
+          181.787763
+        ],
+        "angular_error": 335.021764,
+        "degree": 5,
+        "gaps": [
+          86.597291,
+          29.041578,
+          6.73877,
+          12.70877,
+          224.913591
+        ],
+        "ideal_gap": 72.0,
+        "minimum_gap": 6.73877
+      },
+      "net:NODE_B": {
+        "angles": [
+          46.701355,
+          133.298645,
+          152.049031,
+          185.510554
+        ],
+        "angular_error": 262.381602,
+        "degree": 4,
+        "gaps": [
+          86.597291,
+          18.750386,
+          33.461523,
+          221.190801
+        ],
+        "ideal_gap": 90.0,
+        "minimum_gap": 18.750386
+      },
+      "net:NODE_C": {
+        "angles": [
+          27.950969,
+          46.701355,
+          133.298645,
+          137.709687,
+          191.253705
+        ],
+        "angular_error": 278.58911,
+        "degree": 5,
+        "gaps": [
+          18.750386,
+          86.597291,
+          4.411041,
+          53.544018,
+          196.697264
+        ],
+        "ideal_gap": 72.0,
+        "minimum_gap": 4.411041
+      },
+      "net:R1_EXT": {
+        "angles": [
+          133.298645,
+          313.298645
+        ],
+        "angular_error": 0.0,
+        "degree": 2,
+        "gaps": [
+          180.0,
+          180.0
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 180.0
+      },
+      "net:R4_EXT": {
+        "angles": [
+          46.701355,
+          226.701355
+        ],
+        "angular_error": 0.0,
+        "degree": 2,
+        "gaps": [
+          180.0,
+          180.0
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 180.0
+      },
+      "net:RA_SW": {
+        "angles": [
+          226.701355,
+          313.298645
+        ],
+        "angular_error": 186.805418,
+        "degree": 2,
+        "gaps": [
+          86.597291,
+          273.402709
+        ],
+        "ideal_gap": 180.0,
+        "minimum_gap": 86.597291
+      }
+    }
+  },
+  "bisection_iterations": 0,
+  "bisection_performed": false,
+  "center": {
+    "x": 1403.705882,
+    "y": 570.470588
+  },
+  "coarse_fractions": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98
+  ],
+  "coarse_sweep": [
+    {
+      "area": 3520592.0,
+      "clearance_violations": 0,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1112.0,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.0,
+      "global_minimum_incident_angular_gap": 1.048222,
+      "height": 0.0,
+      "mean_angular_error": 198.905164,
+      "mean_per_vertex_minimum_angular_gap": 68.020928,
+      "total_connection_length": 23095.744883,
+      "unrelated_component_body_intersections": 0,
+      "valid": true,
+      "width": 3166.0
+    },
+    {
+      "area": 3520274.151143,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1111.922342,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.1,
+      "global_minimum_incident_angular_gap": 1.048298,
+      "height": 10.69371,
+      "mean_angular_error": 198.919893,
+      "mean_per_vertex_minimum_angular_gap": 68.016431,
+      "total_connection_length": 23095.444236,
+      "unrelated_component_body_intersections": 2,
+      "valid": false,
+      "width": 3165.935262
+    },
+    {
+      "area": 3519320.486171,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1111.689314,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.2,
+      "global_minimum_incident_angular_gap": 1.048525,
+      "height": 21.38742,
+      "mean_angular_error": 198.964842,
+      "mean_per_vertex_minimum_angular_gap": 68.002718,
+      "total_connection_length": 23094.586123,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3165.741041
+    },
+    {
+      "area": 3517730.644439,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1111.300754,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.3,
+      "global_minimum_incident_angular_gap": 1.048903,
+      "height": 32.08113,
+      "mean_angular_error": 199.042386,
+      "mean_per_vertex_minimum_angular_gap": 67.979099,
+      "total_connection_length": 23093.309362,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3165.417311
+    },
+    {
+      "area": 3515504.024718,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1110.756391,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.4,
+      "global_minimum_incident_angular_gap": 1.049432,
+      "height": 42.77484,
+      "mean_angular_error": 199.15678,
+      "mean_per_vertex_minimum_angular_gap": 67.944315,
+      "total_connection_length": 23091.87306,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3164.964031
+    },
+    {
+      "area": 3512639.777266,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1110.055843,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.5,
+      "global_minimum_incident_angular_gap": 1.050113,
+      "height": 53.46855,
+      "mean_angular_error": 199.314727,
+      "mean_per_vertex_minimum_angular_gap": 67.896336,
+      "total_connection_length": 23090.711078,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3164.381143
+    },
+    {
+      "area": 3509136.811036,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1109.198619,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.6,
+      "global_minimum_incident_angular_gap": 1.050946,
+      "height": 64.16226,
+      "mean_angular_error": 199.52651,
+      "mean_per_vertex_minimum_angular_gap": 67.831941,
+      "total_connection_length": 23091.099953,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3163.668572
+    },
+    {
+      "area": 3504993.776941,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1108.184113,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.7,
+      "global_minimum_incident_angular_gap": 1.051931,
+      "height": 74.85597,
+      "mean_angular_error": 199.828067,
+      "mean_per_vertex_minimum_angular_gap": 67.745764,
+      "total_connection_length": 23096.576997,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3162.826227
+    },
+    {
+      "area": 3500209.064833,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1107.011604,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.8,
+      "global_minimum_incident_angular_gap": 1.05307,
+      "height": 85.54968,
+      "mean_angular_error": 200.265327,
+      "mean_per_vertex_minimum_angular_gap": 67.598124,
+      "total_connection_length": 23107.589754,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3161.853997
+    },
+    {
+      "area": 3494780.800451,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1105.680251,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.9,
+      "global_minimum_incident_angular_gap": 1.054362,
+      "height": 96.24339,
+      "mean_angular_error": 200.913828,
+      "mean_per_vertex_minimum_angular_gap": 67.378123,
+      "total_connection_length": 23131.205434,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3160.751761
+    },
+    {
+      "area": 3491824.676033,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "global_reflection",
+      "different_net_crossings": 0,
+      "drawing_height": 1104.954713,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.95,
+      "global_minimum_incident_angular_gap": 0.733169,
+      "height": 101.590245,
+      "mean_angular_error": 201.420407,
+      "mean_per_vertex_minimum_angular_gap": 67.208177,
+      "total_connection_length": 23155.248805,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3160.151846
+    },
+    {
+      "area": 3489973.393724,
+      "clearance_violations": 3,
+      "component_overlaps": 0,
+      "cyclic_order_orientation": "inconsistent_local_reversal",
+      "different_net_crossings": 4,
+      "drawing_height": 1104.500159,
+      "electrical_incidence_exact": true,
+      "fraction_of_geometric_limit": 0.98,
+      "global_minimum_incident_angular_gap": 0.134316,
+      "height": 104.798358,
+      "mean_angular_error": 201.85965,
+      "mean_per_vertex_minimum_angular_gap": 67.04428,
+      "total_connection_length": 23182.073964,
+      "unrelated_component_body_intersections": 3,
+      "valid": false,
+      "width": 3159.776271
+    }
+  ],
+  "drawing_area": 3520592.0,
+  "geometry_extents": {
+    "height": 1112.0,
+    "max_x": 3166.0,
+    "max_y": 1092.0,
+    "min_x": 0.0,
+    "min_y": -20.0,
+    "width": 3166.0
+  },
+  "limiting_constraint": [
+    "clearance violations: 3",
+    "unrelated body intersections: 2"
+  ],
+  "limiting_height": 10.69371,
+  "metrics": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 0.0,
+      "crowding": 153.552088,
+      "length": 647232.364398,
+      "overlap": 0.0
+    },
+    "net_crossings": 0,
+    "objective": 647385.916485,
+    "total_connection_length": 23095.744883
+  },
+  "minimum_cable_vertex": "net:NODE_C",
+  "minimum_nonzero_cable_length": 106.9371,
+  "selected_height": 0.0,
+  "selected_height_fraction": 0.0,
+  "status": "NO_POSITIVE_COARSE_HEIGHT_VALID"
+}

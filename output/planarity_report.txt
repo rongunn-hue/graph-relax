@@ -1,0 +1,27 @@
+Experiment 4P: exact planarity certification
+
+Representation | Constraint level | Result
+A | component/net incidence | PLANAR
+B | explicit terminals | PLANAR
+C | fixed terminal cyclic order | NONPLANAR
+D | permitted orientation freedom | NONPLANAR
+
+Answers
+
+1. Abstract incidence graph planar: yes.
+2. Zero crossings exists at abstract topology level: yes, using a planar embedding with curved/polyline edges.
+3. Terminal expansion changed planarity: no.
+4. Fixed terminal cyclic-order result: NONPLANAR. A necessary wheel-gadget relaxation is already nonplanar.
+5. Orientation freedom does not restore planarity: the wheel relaxation permits independent reversal and remains nonplanar.
+6. Planarization: not applicable because A is planar.
+7. Next experiment must acknowledge a terminal-order obstruction; zero crossings requires changing the representation or special graphical/layer treatment.
+
+Important distinctions
+
+Graph planarity does not imply that a straight-line drawing with fixed coordinates is crossing-free.
+A planar embedding may require curved or polyline edges.
+Fixed terminal cyclic order is an additional constraint not decided by ordinary graph planarity.
+Minimum-crossing drawing and planarization by edge deletion are separate problems.
+
+Library: NetworkX 3.4.2
+Function: networkx.check_planarity(..., counterexample=True), Left-Right Planarity Test.

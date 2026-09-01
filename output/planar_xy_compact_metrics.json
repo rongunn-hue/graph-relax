@@ -1,0 +1,50 @@
+{
+  "comparisons": {
+    "experiment_4i": {
+      "area_percent_change": -50.451993,
+      "connection_length_percent_change": -32.239728,
+      "height_percent_change": -27.415144,
+      "width_percent_change": -31.737818
+    },
+    "experiment_4j": {
+      "area_percent_change": -5.717689,
+      "connection_length_percent_change": -4.807099,
+      "height_percent_change": 0.0,
+      "width_percent_change": -5.717689
+    }
+  },
+  "drawing_area": 3520592.0,
+  "experiment_4i_scale": {
+    "sx": 72,
+    "sy": 72
+  },
+  "experiment_4j_scale": {
+    "sx": 52,
+    "sy": 52
+  },
+  "geometry_extents": {
+    "height": 1112.0,
+    "max_x": 3166.0,
+    "max_y": 1092.0,
+    "min_x": 0.0,
+    "min_y": -20.0,
+    "width": 3166.0
+  },
+  "measurement_only": true,
+  "metrics": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 0.0,
+      "crowding": 153.552088,
+      "length": 647232.364398,
+      "overlap": 0.0
+    },
+    "net_crossings": 0,
+    "objective": 647385.916485,
+    "total_connection_length": 23095.744883
+  },
+  "selected_sx": 49,
+  "selected_sy": 52
+}

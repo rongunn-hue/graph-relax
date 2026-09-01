@@ -1,0 +1,79 @@
+{
+  "certificate_artifact": "planarity_C_nonplanarity_certificate.json",
+  "collectively_ruled_out_by_nonplanar_reversal_relaxation": 32,
+  "components_with_two_states": [
+    "J_PWR",
+    "J_R1",
+    "J_R4",
+    "J_RA",
+    "U1"
+  ],
+  "individually_enumerated": 0,
+  "proof": "The wheel rim is unchanged when its cyclic order is reversed. Thus the ordinary wheel-augmented graph permits each component to choose either topological state independently. Its verified nonplanarity rules out every assignment at once.",
+  "result": "NONPLANAR",
+  "unique_orientation_combinations": 32,
+  "unique_topological_states_per_component": {
+    "C1": [
+      "all_transformations_equivalent"
+    ],
+    "C2": [
+      "all_transformations_equivalent"
+    ],
+    "JP1": [
+      "all_transformations_equivalent"
+    ],
+    "J_EA": [
+      "all_transformations_equivalent"
+    ],
+    "J_EB": [
+      "all_transformations_equivalent"
+    ],
+    "J_OUT": [
+      "all_transformations_equivalent"
+    ],
+    "J_PWR": [
+      "current_or_180",
+      "horizontal_or_vertical_mirror"
+    ],
+    "J_R1": [
+      "current_or_180",
+      "horizontal_or_vertical_mirror"
+    ],
+    "J_R4": [
+      "current_or_180",
+      "horizontal_or_vertical_mirror"
+    ],
+    "J_RA": [
+      "current_or_180",
+      "horizontal_or_vertical_mirror"
+    ],
+    "R2": [
+      "all_transformations_equivalent"
+    ],
+    "R3": [
+      "all_transformations_equivalent"
+    ],
+    "RMIN1": [
+      "all_transformations_equivalent"
+    ],
+    "RMIN4": [
+      "all_transformations_equivalent"
+    ],
+    "TPA": [
+      "all_transformations_equivalent"
+    ],
+    "TPB": [
+      "all_transformations_equivalent"
+    ],
+    "TPC": [
+      "all_transformations_equivalent"
+    ],
+    "TPO": [
+      "all_transformations_equivalent"
+    ],
+    "U1": [
+      "current_or_180",
+      "horizontal_or_vertical_mirror"
+    ]
+  }
+}

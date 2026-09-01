@@ -1,0 +1,256 @@
+{
+  "emergency_iteration_cap": 500,
+  "final_graph_validity": {
+    "abstract_graph_valid": true,
+    "all_original_edges_preserved": true,
+    "all_original_vertices_exist": true,
+    "coincident_details": [],
+    "coincident_vertex_pairs": 0,
+    "crossing_details": [],
+    "cyclic_order_orientation": "reflection",
+    "cyclic_order_violations": 0,
+    "cyclic_violation_vertices": [],
+    "per_vertex_cyclic_orientation": {
+      "component:J_PWR": "reflection",
+      "component:J_R1": "reflection",
+      "component:J_R4": "reflection",
+      "component:J_RA": "reflection",
+      "component:U1": "reflection",
+      "net:+9V": "reflection",
+      "net:-9V": "reflection",
+      "net:EOUT": "reflection",
+      "net:GND": "reflection",
+      "net:NODE_A": "reflection",
+      "net:NODE_B": "reflection",
+      "net:NODE_C": "reflection"
+    },
+    "unrelated_edge_crossings": 0,
+    "vertex_on_edge_details": [],
+    "vertices_on_unrelated_edges": 0
+  },
+  "final_metrics": {
+    "area": 2296050.513892,
+    "height": 1018.887525,
+    "total_edge_length": 19643.479101,
+    "width": 2253.487709
+  },
+  "final_normalized_RMS": 0.232217,
+  "fixed_viewport": {
+    "height": 2462.819862707016,
+    "width": 3336.0,
+    "x": -100.0,
+    "y": -978.259255082338
+  },
+  "initial_metrics": {
+    "area": 3424512.0,
+    "height": 1092.0,
+    "total_edge_length": 24359.649504,
+    "width": 3136.0
+  },
+  "initial_normalized_RMS": 0.303429,
+  "iterations": [
+    {
+      "M": 1590.86898,
+      "accepted_s": 0.71119,
+      "chosen_lobe": {
+        "center": 350.845424,
+        "end": 35.509988,
+        "integrated_positive_error": 27078.156644,
+        "start": 306.176673,
+        "width": 89.333314
+      },
+      "direct_target_reached": true,
+      "earlier_blocked_lobe_attempts": [],
+      "fitted_after": {
+        "Cx": 1370.466592,
+        "Cy": 323.093227,
+        "R": 1010.788474
+      },
+      "fitted_before": {
+        "Cx": 1565.395767,
+        "Cy": 253.150676,
+        "R": 1131.409931
+      },
+      "iteration": 1,
+      "limiting_details": {},
+      "limiting_graph_validity_event": null,
+      "normalized_RMS_after": 0.273481,
+      "normalized_RMS_before": 0.303429,
+      "positive_lobe_count": 2,
+      "s_target": 0.71119,
+      "selected_vertices": [
+        "component:C1",
+        "component:RMIN1",
+        "net:R1_EXT",
+        "net:R1_W"
+      ]
+    },
+    {
+      "M": 1408.021784,
+      "accepted_s": 0.717878,
+      "chosen_lobe": {
+        "center": 193.267291,
+        "end": 237.384405,
+        "integrated_positive_error": 23130.545705,
+        "start": 149.14558,
+        "width": 88.238825
+      },
+      "direct_target_reached": true,
+      "earlier_blocked_lobe_attempts": [],
+      "fitted_after": {
+        "Cx": 1544.074633,
+        "Cy": 388.657195,
+        "R": 901.386674
+      },
+      "fitted_before": {
+        "Cx": 1370.466592,
+        "Cy": 323.093227,
+        "R": 1010.788474
+      },
+      "iteration": 2,
+      "limiting_details": {},
+      "limiting_graph_validity_event": null,
+      "normalized_RMS_after": 0.236143,
+      "normalized_RMS_before": 0.273481,
+      "positive_lobe_count": 2,
+      "s_target": 0.717878,
+      "selected_vertices": [
+        "net:GND"
+      ]
+    },
+    {
+      "M": 1195.028769,
+      "accepted_s": 0.963482,
+      "chosen_lobe": {
+        "center": 194.4154,
+        "end": 235.451881,
+        "integrated_positive_error": 15927.795255,
+        "start": 153.249945,
+        "width": 82.201936
+      },
+      "direct_target_reached": false,
+      "earlier_blocked_lobe_attempts": [],
+      "fitted_after": {
+        "Cx": 1561.667941,
+        "Cy": 396.915121,
+        "R": 890.212362
+      },
+      "fitted_before": {
+        "Cx": 1544.074633,
+        "Cy": 388.657195,
+        "R": 901.386674
+      },
+      "iteration": 3,
+      "limiting_details": {
+        "crossing_edges": [
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ],
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ]
+        ],
+        "cyclic_vertices": [
+          "net:GND"
+        ]
+      },
+      "limiting_graph_validity_event": "unrelated edge crossing, cyclic-order/embedding violation",
+      "normalized_RMS_after": 0.232217,
+      "normalized_RMS_before": 0.236143,
+      "positive_lobe_count": 2,
+      "s_target": 0.75428,
+      "selected_vertices": [
+        "component:J_EA",
+        "component:J_EB",
+        "component:U1",
+        "net:EB",
+        "net:GND"
+      ]
+    }
+  ],
+  "outward_or_inverse_push_implemented": false,
+  "part": 1,
+  "source": "authoritative 4K coordinates used by circular_envelope_measurement.svg",
+  "terminal_blocked_lobes": [
+    {
+      "blocked": true,
+      "limiting_details": {
+        "crossing_edges": [
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ],
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ]
+        ],
+        "cyclic_vertices": [
+          "net:GND"
+        ]
+      },
+      "lobe_rank": 1,
+      "reason": "unrelated edge crossing, cyclic-order/embedding violation"
+    },
+    {
+      "blocked": true,
+      "limiting_details": {
+        "crossing_edges": [
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ],
+          [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ]
+        ],
+        "cyclic_vertices": [
+          "net:GND"
+        ]
+      },
+      "lobe_rank": 2,
+      "reason": "unrelated edge crossing, cyclic-order/embedding violation"
+    }
+  ],
+  "termination": "every remaining positive lobe blocked from meaningful inward correction",
+  "total_pulls": 3
+}

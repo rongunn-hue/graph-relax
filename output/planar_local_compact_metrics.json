@@ -1,0 +1,4161 @@
+{
+  "comparison_4k": {
+    "area": 3520592,
+    "body_intersections": 0,
+    "clearance_violations": 0,
+    "crossings": 0,
+    "height": 1112,
+    "overlaps": 0,
+    "total_connection_length": 23095.744883,
+    "width": 3166
+  },
+  "drawing_area": 2365203.151197,
+  "geometry_extents": {
+    "height": 984.746882,
+    "max_x": 2819.654036,
+    "max_y": 1008.122082,
+    "min_x": 417.815356,
+    "min_y": 23.3752,
+    "width": 2401.83868
+  },
+  "metrics": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 0.0,
+      "crowding": 227.575967,
+      "length": 276199.593134,
+      "overlap": 0.0
+    },
+    "net_crossings": 0,
+    "objective": 276427.169101,
+    "total_connection_length": 13979.580061
+  },
+  "moves": [
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 4070.502239,
+      "local_length_before": 4799.962629,
+      "local_length_reduction": 729.46039,
+      "move_number": 1,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 891.027825,
+        "y": 488.284641
+      },
+      "old": {
+        "x": 637.0,
+        "y": 520.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "component:U1"
+    },
+    {
+      "direction": "neighbor:component:C2",
+      "local_length_after": 8276.581642,
+      "local_length_before": 9977.032251,
+      "local_length_reduction": 1700.450609,
+      "move_number": 2,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 246.326405,
+        "y": 69.708697
+      },
+      "old": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "net:GND"
+    },
+    {
+      "direction": "neighbor:component:TPA",
+      "local_length_after": 2424.683979,
+      "local_length_before": 3187.967548,
+      "local_length_reduction": 763.283569,
+      "move_number": 3,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 2059.06408,
+        "y": 649.661232
+      },
+      "old": {
+        "x": 2303.0,
+        "y": 572.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "direction": "neighbor:component:RMIN4",
+      "local_length_after": 1548.278926,
+      "local_length_before": 1843.76907,
+      "local_length_reduction": 295.490144,
+      "move_number": 4,
+      "movement_distance": 256.000001,
+      "new": {
+        "x": 1245.434906,
+        "y": 862.313977
+      },
+      "old": {
+        "x": 1421.0,
+        "y": 676.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 1561.498276,
+      "local_length_before": 1924.869757,
+      "local_length_reduction": 363.371481,
+      "move_number": 5,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 2571.490396,
+        "y": 502.664509
+      },
+      "old": {
+        "x": 2450.0,
+        "y": 728.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "component:J_R1"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 2225.185698,
+      "local_length_before": 2289.379629,
+      "local_length_reduction": 64.193931,
+      "move_number": 6,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 1137.987068,
+        "y": 210.573109
+      },
+      "old": {
+        "x": 882.0,
+        "y": 208.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "net:+9V"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 3735.522342,
+      "local_length_before": 4246.97901,
+      "local_length_reduction": 511.456668,
+      "move_number": 7,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 2586.214884,
+        "y": 62.486872
+      },
+      "old": {
+        "x": 2842.0,
+        "y": 52.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "component:C1"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 535.428206,
+      "local_length_before": 553.666138,
+      "local_length_reduction": 18.237932,
+      "move_number": 8,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 488.673595,
+        "y": 138.291303
+      },
+      "old": {
+        "x": 735.0,
+        "y": 208.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "component:C2"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 547.409618,
+      "local_length_before": 583.381833,
+      "local_length_reduction": 35.972215,
+      "move_number": 9,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 1410.0,
+        "y": 936.0
+      },
+      "old": {
+        "x": 1666.0,
+        "y": 936.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "component:JP1"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 798.736216,
+      "local_length_before": 881.850158,
+      "local_length_reduction": 83.113942,
+      "move_number": 10,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 607.095029,
+        "y": 558.242659
+      },
+      "old": {
+        "x": 735.0,
+        "y": 780.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "component:J_OUT"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 2751.237274,
+      "local_length_before": 2975.923622,
+      "local_length_reduction": 224.686347,
+      "move_number": 11,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 2880.431606,
+        "y": 14.859204
+      },
+      "old": {
+        "x": 3136.0,
+        "y": 0.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 219.292831,
+      "local_length_before": 324.657054,
+      "local_length_reduction": 105.364223,
+      "move_number": 12,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 837.013343,
+        "y": 475.399958
+      },
+      "old": {
+        "x": 588.0,
+        "y": 416.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "net:EB"
+    },
+    {
+      "direction": "neighbor:component:JP1",
+      "local_length_after": 404.238121,
+      "local_length_before": 443.93958,
+      "local_length_reduction": 39.70146,
+      "move_number": 13,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 1574.262567,
+        "y": 999.58551
+      },
+      "old": {
+        "x": 1813.0,
+        "y": 1092.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "direction": "neighbor:component:J_R1",
+      "local_length_after": 220.751276,
+      "local_length_before": 476.751276,
+      "local_length_reduction": 256.0,
+      "move_number": 14,
+      "movement_distance": 256.0,
+      "new": {
+        "x": 2753.538367,
+        "y": 331.408265
+      },
+      "old": {
+        "x": 2940.0,
+        "y": 156.0
+      },
+      "pass": 1,
+      "step": 256.0,
+      "vertex": "net:R1_W"
+    },
+    {
+      "direction": "neighbor:net:+9V",
+      "local_length_after": 3544.767751,
+      "local_length_before": 3620.709647,
+      "local_length_reduction": 75.941896,
+      "move_number": 15,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 976.08651,
+        "y": 392.634131
+      },
+      "old": {
+        "x": 891.027825,
+        "y": 488.284641
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:U1"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 6454.344545,
+      "local_length_before": 7253.473306,
+      "local_length_reduction": 799.12876,
+      "move_number": 16,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 372.88524,
+        "y": 88.862323
+      },
+      "old": {
+        "x": 246.326405,
+        "y": 69.708697
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:GND"
+    },
+    {
+      "direction": "neighbor:component:TPA",
+      "local_length_after": 2185.128016,
+      "local_length_before": 2491.83675,
+      "local_length_reduction": 306.708734,
+      "move_number": 17,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 1937.09612,
+        "y": 688.491848
+      },
+      "old": {
+        "x": 2059.06408,
+        "y": 649.661232
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "direction": "neighbor:component:RMIN4",
+      "local_length_after": 1327.223816,
+      "local_length_before": 1329.862284,
+      "local_length_reduction": 2.638468,
+      "move_number": 18,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 1157.652359,
+        "y": 955.470965
+      },
+      "old": {
+        "x": 1245.434906,
+        "y": 862.313977
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "direction": "neighbor:component:R3",
+      "local_length_after": 930.013436,
+      "local_length_before": 1161.609995,
+      "local_length_reduction": 231.596559,
+      "move_number": 19,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 1601.931325,
+        "y": 683.995623
+      },
+      "old": {
+        "x": 1715.0,
+        "y": 624.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "direction": "neighbor:net:R1_W",
+      "local_length_after": 1292.627148,
+      "local_length_before": 1433.404705,
+      "local_length_reduction": 140.777557,
+      "move_number": 20,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 2664.721212,
+        "y": 414.960376
+      },
+      "old": {
+        "x": 2571.490396,
+        "y": 502.664509
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:J_R1"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 1823.815894,
+      "local_length_before": 1841.562853,
+      "local_length_reduction": 17.74696,
+      "move_number": 21,
+      "movement_distance": 128.000001,
+      "new": {
+        "x": 1052.928383,
+        "y": 306.22362
+      },
+      "old": {
+        "x": 1137.987068,
+        "y": 210.573109
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:+9V"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 3451.058491,
+      "local_length_before": 3705.64626,
+      "local_length_reduction": 254.58777,
+      "move_number": 22,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 2458.223971,
+        "y": 64.012094
+      },
+      "old": {
+        "x": 2586.214884,
+        "y": 62.486872
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:C1"
+    },
+    {
+      "direction": "right",
+      "local_length_after": 405.088086,
+      "local_length_before": 408.020082,
+      "local_length_reduction": 2.931996,
+      "move_number": 23,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 616.673595,
+        "y": 138.291303
+      },
+      "old": {
+        "x": 488.673595,
+        "y": 138.291303
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:C2"
+    },
+    {
+      "direction": "neighbor:net:RA_SW",
+      "local_length_after": 358.569931,
+      "local_length_before": 366.97933,
+      "local_length_reduction": 8.409398,
+      "move_number": 24,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 1529.368717,
+        "y": 982.207245
+      },
+      "old": {
+        "x": 1410.0,
+        "y": 936.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:JP1"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 335.801603,
+      "local_length_before": 391.745151,
+      "local_length_reduction": 55.943549,
+      "move_number": 25,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 570.842536,
+        "y": 202.422676
+      },
+      "old": {
+        "x": 637.0,
+        "y": 312.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:J_EA"
+    },
+    {
+      "direction": "neighbor:net:EB",
+      "local_length_after": 541.81896,
+      "local_length_before": 548.269795,
+      "local_length_reduction": 6.450835,
+      "move_number": 26,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 748.825269,
+        "y": 426.282496
+      },
+      "old": {
+        "x": 637.0,
+        "y": 364.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:J_EB"
+    },
+    {
+      "direction": "neighbor:net:EOUT",
+      "local_length_after": 711.660952,
+      "local_length_before": 718.510486,
+      "local_length_reduction": 6.849534,
+      "move_number": 27,
+      "movement_distance": 127.999999,
+      "new": {
+        "x": 699.451234,
+        "y": 646.867324
+      },
+      "old": {
+        "x": 607.095029,
+        "y": 558.242659
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:J_OUT"
+    },
+    {
+      "direction": "neighbor:net:NODE_B",
+      "local_length_after": 275.227142,
+      "local_length_before": 275.697565,
+      "local_length_reduction": 0.470423,
+      "move_number": 28,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 1636.155487,
+        "y": 682.307181
+      },
+      "old": {
+        "x": 1764.0,
+        "y": 676.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:R2"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 450.379583,
+      "local_length_before": 451.455701,
+      "local_length_reduction": 1.076119,
+      "move_number": 29,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 1412.119163,
+        "y": 798.430723
+      },
+      "old": {
+        "x": 1519.0,
+        "y": 728.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:R3"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 2615.909656,
+      "local_length_before": 2625.192641,
+      "local_length_reduction": 9.282985,
+      "move_number": 30,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 2752.738952,
+        "y": 23.724087
+      },
+      "old": {
+        "x": 2880.431606,
+        "y": 14.859204
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 381.197856,
+      "local_length_before": 383.092694,
+      "local_length_reduction": 1.894838,
+      "move_number": 31,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 847.148456,
+        "y": 321.698653
+      },
+      "old": {
+        "x": 735.0,
+        "y": 260.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:EA"
+    },
+    {
+      "direction": "neighbor:component:J_R1",
+      "local_length_after": 543.551977,
+      "local_length_before": 719.761362,
+      "local_length_reduction": 176.209385,
+      "move_number": 32,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 2939.654036,
+        "y": 185.927232
+      },
+      "old": {
+        "x": 3038.0,
+        "y": 104.0
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 70.193479,
+      "local_length_before": 92.751276,
+      "local_length_reduction": 22.557797,
+      "move_number": 33,
+      "movement_distance": 128.0,
+      "new": {
+        "x": 2625.538367,
+        "y": 331.408265
+      },
+      "old": {
+        "x": 2753.538367,
+        "y": 331.408265
+      },
+      "pass": 2,
+      "step": 128.0,
+      "vertex": "net:R1_W"
+    },
+    {
+      "direction": "neighbor:net:NODE_C",
+      "local_length_after": 3134.878339,
+      "local_length_before": 3147.077235,
+      "local_length_reduction": 12.198895,
+      "move_number": 34,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 995.735235,
+        "y": 453.543306
+      },
+      "old": {
+        "x": 976.08651,
+        "y": 392.634131
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:U1"
+    },
+    {
+      "direction": "neighbor:component:TPA",
+      "local_length_after": 2252.691097,
+      "local_length_before": 2393.344475,
+      "local_length_reduction": 140.653378,
+      "move_number": 35,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 1876.11214,
+        "y": 707.907156
+      },
+      "old": {
+        "x": 1937.09612,
+        "y": 688.491848
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "direction": "neighbor:component:R3",
+      "local_length_after": 1250.59134,
+      "local_length_before": 1255.050369,
+      "local_length_reduction": 4.459028,
+      "move_number": 36,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 1212.115908,
+        "y": 921.85963
+      },
+      "old": {
+        "x": 1157.652359,
+        "y": 955.470965
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "direction": "neighbor:component:J_R4",
+      "local_length_after": 568.104892,
+      "local_length_before": 602.069916,
+      "local_length_reduction": 33.965023,
+      "move_number": 37,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 827.891273,
+        "y": 774.578494
+      },
+      "old": {
+        "x": 784.0,
+        "y": 728.0
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "net:EOUT"
+    },
+    {
+      "direction": "neighbor:component:R3",
+      "local_length_after": 809.098709,
+      "local_length_before": 887.878447,
+      "local_length_reduction": 78.779738,
+      "move_number": 38,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 1547.121687,
+        "y": 717.039588
+      },
+      "old": {
+        "x": 1601.931325,
+        "y": 683.995623
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "direction": "neighbor:net:-9V",
+      "local_length_after": 705.678156,
+      "local_length_before": 818.072154,
+      "local_length_reduction": 112.393998,
+      "move_number": 39,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 874.465663,
+        "y": 133.997812
+      },
+      "old": {
+        "x": 931.0,
+        "y": 104.0
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "direction": "neighbor:net:R1_W",
+      "local_length_after": 1124.269163,
+      "local_length_before": 1206.038119,
+      "local_length_reduction": 81.768956,
+      "move_number": 40,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 2637.547328,
+        "y": 357.015747
+      },
+      "old": {
+        "x": 2664.721212,
+        "y": 414.960376
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:J_R1"
+    },
+    {
+      "direction": "neighbor:net:R4_EXT",
+      "local_length_after": 191.065587,
+      "local_length_before": 243.815909,
+      "local_length_reduction": 52.750322,
+      "move_number": 41,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 925.891273,
+        "y": 878.578494
+      },
+      "old": {
+        "x": 882.0,
+        "y": 832.0
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:J_R4"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 3323.470479,
+      "local_length_before": 3451.058491,
+      "local_length_reduction": 127.588012,
+      "move_number": 42,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 2394.410464,
+        "y": 68.894343
+      },
+      "old": {
+        "x": 2458.223971,
+        "y": 64.012094
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:C1"
+    },
+    {
+      "direction": "neighbor:net:-9V",
+      "local_length_after": 404.872268,
+      "local_length_before": 405.088086,
+      "local_length_reduction": 0.215819,
+      "move_number": 43,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 680.460228,
+        "y": 143.512941
+      },
+      "old": {
+        "x": 616.673595,
+        "y": 138.291303
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:C2"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 539.48587,
+      "local_length_before": 541.81896,
+      "local_length_reduction": 2.33309,
+      "move_number": 44,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 701.196162,
+        "y": 383.533599
+      },
+      "old": {
+        "x": 748.825269,
+        "y": 426.282496
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:J_EB"
+    },
+    {
+      "direction": "neighbor:net:EOUT",
+      "local_length_after": 773.864005,
+      "local_length_before": 776.129338,
+      "local_length_reduction": 2.265332,
+      "move_number": 45,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 744.834655,
+        "y": 691.993204
+      },
+      "old": {
+        "x": 699.451234,
+        "y": 646.867324
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:J_OUT"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 269.321601,
+      "local_length_before": 274.514817,
+      "local_length_reduction": 5.193216,
+      "move_number": 46,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 1695.582985,
+        "y": 706.063706
+      },
+      "old": {
+        "x": 1636.155487,
+        "y": 682.307181
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:R2"
+    },
+    {
+      "direction": "neighbor:net:NODE_C",
+      "local_length_after": 322.313529,
+      "local_length_before": 322.379582,
+      "local_length_reduction": 0.066054,
+      "move_number": 47,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 1357.655614,
+        "y": 832.042058
+      },
+      "old": {
+        "x": 1412.119163,
+        "y": 798.430723
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:R3"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 2546.568382,
+      "local_length_before": 2567.700271,
+      "local_length_reduction": 21.131889,
+      "move_number": 48,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 2689.080122,
+        "y": 30.323581
+      },
+      "old": {
+        "x": 2752.738952,
+        "y": 23.724087
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 423.858061,
+      "local_length_before": 436.78986,
+      "local_length_reduction": 12.931799,
+      "move_number": 49,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 783.45612,
+        "y": 327.966534
+      },
+      "old": {
+        "x": 847.148456,
+        "y": 321.698653
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "net:EA"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 241.203533,
+      "local_length_before": 258.208075,
+      "local_length_reduction": 17.004543,
+      "move_number": 50,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 837.013343,
+        "y": 411.399958
+      },
+      "old": {
+        "x": 837.013343,
+        "y": 475.399958
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "net:EB"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 470.644066,
+      "local_length_before": 572.355067,
+      "local_length_reduction": 101.711001,
+      "move_number": 51,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 2875.654036,
+        "y": 185.927232
+      },
+      "old": {
+        "x": 2939.654036,
+        "y": 185.927232
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 104.129166,
+      "local_length_before": 116.088308,
+      "local_length_reduction": 11.959142,
+      "move_number": 52,
+      "movement_distance": 64.0,
+      "new": {
+        "x": 1078.0,
+        "y": 924.0
+      },
+      "old": {
+        "x": 1078.0,
+        "y": 988.0
+      },
+      "pass": 3,
+      "step": 64.0,
+      "vertex": "component:TPC"
+    },
+    {
+      "direction": "neighbor:net:EB",
+      "local_length_after": 3094.327239,
+      "local_length_before": 3094.461108,
+      "local_length_reduction": 0.133869,
+      "move_number": 53,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 964.806882,
+        "y": 445.331305
+      },
+      "old": {
+        "x": 995.735235,
+        "y": 453.543306
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:U1"
+    },
+    {
+      "direction": "neighbor:component:C2",
+      "local_length_after": 6120.28923,
+      "local_length_before": 6323.903605,
+      "local_length_reduction": 203.614374,
+      "move_number": 54,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 404.391759,
+        "y": 94.460472
+      },
+      "old": {
+        "x": 372.88524,
+        "y": 88.862323
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:GND"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 1189.932287,
+      "local_length_before": 1195.123279,
+      "local_length_reduction": 5.190992,
+      "move_number": 55,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1197.375413,
+        "y": 893.456852
+      },
+      "old": {
+        "x": 1212.115908,
+        "y": 921.85963
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "direction": "neighbor:component:R3",
+      "local_length_after": 931.754656,
+      "local_length_before": 960.068855,
+      "local_length_reduction": 28.314199,
+      "move_number": 56,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1519.766533,
+        "y": 733.64367
+      },
+      "old": {
+        "x": 1547.121687,
+        "y": 717.039588
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 652.280666,
+      "local_length_before": 673.820018,
+      "local_length_reduction": 21.539352,
+      "move_number": 57,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 842.465663,
+        "y": 133.997812
+      },
+      "old": {
+        "x": 874.465663,
+        "y": 133.997812
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 1067.488583,
+      "local_length_before": 1070.482659,
+      "local_length_reduction": 2.994076,
+      "move_number": 58,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 2605.547328,
+        "y": 357.015747
+      },
+      "old": {
+        "x": 2637.547328,
+        "y": 357.015747
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:J_R1"
+    },
+    {
+      "direction": "neighbor:net:R4_EXT",
+      "local_length_after": 169.31061,
+      "local_length_before": 191.065587,
+      "local_length_reduction": 21.754977,
+      "move_number": 59,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 947.83691,
+        "y": 901.867741
+      },
+      "old": {
+        "x": 925.891273,
+        "y": 878.578494
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:J_R4"
+    },
+    {
+      "direction": "neighbor:net:RA_W",
+      "local_length_after": 538.249993,
+      "local_length_before": 604.641833,
+      "local_length_reduction": 66.391839,
+      "move_number": 60,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1862.0,
+        "y": 1008.0
+      },
+      "old": {
+        "x": 1862.0,
+        "y": 1040.0
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:J_RA"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 1711.03931,
+      "local_length_before": 1713.211804,
+      "local_length_reduction": 2.172494,
+      "move_number": 61,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1020.928383,
+        "y": 306.22362
+      },
+      "old": {
+        "x": 1052.928383,
+        "y": 306.22362
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:+9V"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 413.504691,
+      "local_length_before": 421.091439,
+      "local_length_reduction": 7.586747,
+      "move_number": 62,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 801.0,
+        "y": 156.0
+      },
+      "old": {
+        "x": 833.0,
+        "y": 156.0
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:-9V"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 3259.771338,
+      "local_length_before": 3323.571668,
+      "local_length_reduction": 63.80033,
+      "move_number": 63,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 2362.507765,
+        "y": 71.387898
+      },
+      "old": {
+        "x": 2394.410464,
+        "y": 68.894343
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:C1"
+    },
+    {
+      "direction": "neighbor:net:-9V",
+      "local_length_after": 340.910526,
+      "local_length_before": 340.946886,
+      "local_length_reduction": 0.03636,
+      "move_number": 64,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 712.289894,
+        "y": 146.810267
+      },
+      "old": {
+        "x": 680.460228,
+        "y": 143.512941
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:C2"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 488.672693,
+      "local_length_before": 493.670558,
+      "local_length_reduction": 4.997864,
+      "move_number": 65,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 678.272148,
+        "y": 361.206719
+      },
+      "old": {
+        "x": 701.196162,
+        "y": 383.533599
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:J_EB"
+    },
+    {
+      "direction": "neighbor:net:EOUT",
+      "local_length_after": 752.184437,
+      "local_length_before": 753.454758,
+      "local_length_reduction": 1.270321,
+      "move_number": 66,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 767.526366,
+        "y": 714.556144
+      },
+      "old": {
+        "x": 744.834655,
+        "y": 691.993204
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:J_OUT"
+    },
+    {
+      "direction": "neighbor:net:NODE_A",
+      "local_length_after": 297.874314,
+      "local_length_before": 298.136644,
+      "local_length_reduction": 0.26233,
+      "move_number": 67,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1727.581317,
+        "y": 706.390453
+      },
+      "old": {
+        "x": 1695.582985,
+        "y": 706.063706
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:R2"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 292.954991,
+      "local_length_before": 294.059742,
+      "local_length_reduction": 1.10475,
+      "move_number": 68,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1325.655614,
+        "y": 832.042058
+      },
+      "old": {
+        "x": 1357.655614,
+        "y": 832.042058
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:R3"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 2454.944232,
+      "local_length_before": 2467.295564,
+      "local_length_reduction": 12.351333,
+      "move_number": 69,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 2657.254193,
+        "y": 33.656787
+      },
+      "old": {
+        "x": 2689.080122,
+        "y": 30.323581
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 224.380137,
+      "local_length_before": 278.633635,
+      "local_length_reduction": 54.253498,
+      "move_number": 70,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1078.0,
+        "y": 1008.0
+      },
+      "old": {
+        "x": 1078.0,
+        "y": 1040.0
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 392.232584,
+      "local_length_before": 392.353779,
+      "local_length_reduction": 0.121195,
+      "move_number": 71,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 810.321003,
+        "y": 345.35268
+      },
+      "old": {
+        "x": 783.45612,
+        "y": 327.966534
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:EA"
+    },
+    {
+      "direction": "right",
+      "local_length_after": 236.012546,
+      "local_length_before": 236.205669,
+      "local_length_reduction": 0.193123,
+      "move_number": 72,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 869.013343,
+        "y": 411.399958
+      },
+      "old": {
+        "x": 837.013343,
+        "y": 411.399958
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:EB"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 468.000743,
+      "local_length_before": 515.4931,
+      "local_length_reduction": 47.492357,
+      "move_number": 73,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 2843.654036,
+        "y": 185.927232
+      },
+      "old": {
+        "x": 2875.654036,
+        "y": 185.927232
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 104.707397,
+      "local_length_before": 107.244571,
+      "local_length_reduction": 2.537174,
+      "move_number": 74,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1007.738904,
+        "y": 951.954723
+      },
+      "old": {
+        "x": 980.0,
+        "y": 936.0
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "direction": "neighbor:net:NODE_B",
+      "local_length_after": 6.035637,
+      "local_length_before": 38.035636,
+      "local_length_reduction": 31.999999,
+      "move_number": 75,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1544.928084,
+        "y": 757.825991
+      },
+      "old": {
+        "x": 1568.0,
+        "y": 780.0
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:TPB"
+    },
+    {
+      "direction": "neighbor:net:NODE_C",
+      "local_length_after": 60.254446,
+      "local_length_before": 92.254446,
+      "local_length_reduction": 32.0,
+      "move_number": 76,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 1109.001359,
+        "y": 916.068056
+      },
+      "old": {
+        "x": 1078.0,
+        "y": 924.0
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "component:TPC"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 6.193479,
+      "local_length_before": 7.113878,
+      "local_length_reduction": 0.920399,
+      "move_number": 77,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 2593.538367,
+        "y": 331.408265
+      },
+      "old": {
+        "x": 2625.538367,
+        "y": 331.408265
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:R1_W"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 2.132348,
+      "local_length_before": 2.474465,
+      "local_length_reduction": 0.342117,
+      "move_number": 78,
+      "movement_distance": 32.0,
+      "new": {
+        "x": 948.0,
+        "y": 884.0
+      },
+      "old": {
+        "x": 980.0,
+        "y": 884.0
+      },
+      "pass": 4,
+      "step": 32.0,
+      "vertex": "net:R4_W"
+    },
+    {
+      "direction": "neighbor:component:J_EA",
+      "local_length_after": 5954.66141,
+      "local_length_before": 6055.251996,
+      "local_length_reduction": 100.590586,
+      "move_number": 79,
+      "movement_distance": 16.000001,
+      "new": {
+        "x": 417.815356,
+        "y": 103.167197
+      },
+      "old": {
+        "x": 404.391759,
+        "y": 94.460472
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:GND"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 2104.91765,
+      "local_length_before": 2127.001913,
+      "local_length_reduction": 22.084264,
+      "move_number": 80,
+      "movement_distance": 15.999999,
+      "new": {
+        "x": 1863.147349,
+        "y": 698.5309
+      },
+      "old": {
+        "x": 1876.11214,
+        "y": 707.907156
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 1099.621757,
+      "local_length_before": 1100.716536,
+      "local_length_reduction": 1.094779,
+      "move_number": 81,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1181.375413,
+        "y": 893.456852
+      },
+      "old": {
+        "x": 1197.375413,
+        "y": 893.456852
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "direction": "neighbor:component:J_R4",
+      "local_length_after": 559.681902,
+      "local_length_before": 563.32948,
+      "local_length_reduction": 3.647579,
+      "move_number": 82,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 838.864091,
+        "y": 786.223118
+      },
+      "old": {
+        "x": 827.891273,
+        "y": 774.578494
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:EOUT"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 954.608696,
+      "local_length_before": 960.941404,
+      "local_length_reduction": 6.332708,
+      "move_number": 83,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1503.766533,
+        "y": 733.64367
+      },
+      "old": {
+        "x": 1519.766533,
+        "y": 733.64367
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 614.844396,
+      "local_length_before": 627.881314,
+      "local_length_reduction": 13.036918,
+      "move_number": 84,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 826.507666,
+        "y": 132.839224
+      },
+      "old": {
+        "x": 842.465663,
+        "y": 133.997812
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 1045.726881,
+      "local_length_before": 1049.28098,
+      "local_length_reduction": 3.554099,
+      "move_number": 85,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 2589.547328,
+        "y": 357.015747
+      },
+      "old": {
+        "x": 2605.547328,
+        "y": 357.015747
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:J_R1"
+    },
+    {
+      "direction": "neighbor:net:RA_W",
+      "local_length_after": 547.29817,
+      "local_length_before": 547.318706,
+      "local_length_reduction": 0.020537,
+      "move_number": 86,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1862.0,
+        "y": 992.0
+      },
+      "old": {
+        "x": 1862.0,
+        "y": 1008.0
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:J_RA"
+    },
+    {
+      "direction": "down",
+      "local_length_after": 1690.37552,
+      "local_length_before": 1690.410481,
+      "local_length_reduction": 0.034961,
+      "move_number": 87,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1020.928383,
+        "y": 322.22362
+      },
+      "old": {
+        "x": 1020.928383,
+        "y": 306.22362
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:+9V"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 3217.367368,
+      "local_length_before": 3249.25557,
+      "local_length_reduction": 31.888202,
+      "move_number": 88,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 2346.566605,
+        "y": 72.758817
+      },
+      "old": {
+        "x": 2362.507765,
+        "y": 71.387898
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:C1"
+    },
+    {
+      "direction": "neighbor:net:-9V",
+      "local_length_after": 326.383015,
+      "local_length_before": 326.387667,
+      "local_length_reduction": 0.004652,
+      "move_number": 89,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 728.204727,
+        "y": 148.45893
+      },
+      "old": {
+        "x": 712.289894,
+        "y": 146.810267
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:C2"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 502.107059,
+      "local_length_before": 504.432658,
+      "local_length_reduction": 2.325598,
+      "move_number": 90,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 666.905818,
+        "y": 349.945878
+      },
+      "old": {
+        "x": 678.272148,
+        "y": 361.206719
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:J_EB"
+    },
+    {
+      "direction": "down",
+      "local_length_after": 753.351657,
+      "local_length_before": 754.199421,
+      "local_length_reduction": 0.847765,
+      "move_number": 91,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 767.526366,
+        "y": 730.556144
+      },
+      "old": {
+        "x": 767.526366,
+        "y": 714.556144
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:J_OUT"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 300.880898,
+      "local_length_before": 300.989656,
+      "local_length_reduction": 0.108758,
+      "move_number": 92,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1711.954223,
+        "y": 709.824684
+      },
+      "old": {
+        "x": 1727.581317,
+        "y": 706.390453
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:R2"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 292.883916,
+      "local_length_before": 293.412926,
+      "local_length_reduction": 0.52901,
+      "move_number": 93,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1325.655614,
+        "y": 816.042058
+      },
+      "old": {
+        "x": 1325.655614,
+        "y": 832.042058
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:R3"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 2413.228905,
+      "local_length_before": 2419.578537,
+      "local_length_reduction": 6.349632,
+      "move_number": 94,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 2641.34674,
+        "y": 35.3752
+      },
+      "old": {
+        "x": 2657.254193,
+        "y": 33.656787
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "direction": "neighbor:net:NODE_C",
+      "local_length_after": 169.42369,
+      "local_length_before": 185.156513,
+      "local_length_reduction": 15.732823,
+      "move_number": 95,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1088.719844,
+        "y": 996.122082
+      },
+      "old": {
+        "x": 1078.0,
+        "y": 1008.0
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 392.181452,
+      "local_length_before": 392.232584,
+      "local_length_reduction": 0.051132,
+      "move_number": 96,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 823.753444,
+        "y": 354.045753
+      },
+      "old": {
+        "x": 810.321003,
+        "y": 345.35268
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:EA"
+    },
+    {
+      "direction": "right",
+      "local_length_after": 249.540378,
+      "local_length_before": 249.686948,
+      "local_length_reduction": 0.146569,
+      "move_number": 97,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 885.013343,
+        "y": 411.399958
+      },
+      "old": {
+        "x": 869.013343,
+        "y": 411.399958
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:EB"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 466.637962,
+      "local_length_before": 489.203675,
+      "local_length_reduction": 22.565713,
+      "move_number": 98,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 2827.654036,
+        "y": 185.927232
+      },
+      "old": {
+        "x": 2843.654036,
+        "y": 185.927232
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "direction": "right",
+      "local_length_after": 97.987204,
+      "local_length_before": 104.974573,
+      "local_length_reduction": 6.987369,
+      "move_number": 99,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1023.738904,
+        "y": 951.954723
+      },
+      "old": {
+        "x": 1007.738904,
+        "y": 951.954723
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 272.748484,
+      "local_length_before": 273.79777,
+      "local_length_reduction": 1.049286,
+      "move_number": 100,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1574.262567,
+        "y": 983.58551
+      },
+      "old": {
+        "x": 1574.262567,
+        "y": 999.58551
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "direction": "right",
+      "local_length_after": 14.493304,
+      "local_length_before": 23.368604,
+      "local_length_reduction": 8.8753,
+      "move_number": 101,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1829.0,
+        "y": 728.0
+      },
+      "old": {
+        "x": 1813.0,
+        "y": 728.0
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:TPA"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 6.035637,
+      "local_length_before": 12.945252,
+      "local_length_reduction": 6.909615,
+      "move_number": 102,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1528.928084,
+        "y": 757.825991
+      },
+      "old": {
+        "x": 1544.928084,
+        "y": 757.825991
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:TPB"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 42.55048,
+      "local_length_before": 44.393918,
+      "local_length_reduction": 1.843438,
+      "move_number": 103,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1109.001359,
+        "y": 900.068056
+      },
+      "old": {
+        "x": 1109.001359,
+        "y": 916.068056
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "component:TPC"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 0.0,
+      "local_length_before": 16.0,
+      "local_length_reduction": 16.0,
+      "move_number": 104,
+      "movement_distance": 16.0,
+      "new": {
+        "x": 1862.0,
+        "y": 972.0
+      },
+      "old": {
+        "x": 1862.0,
+        "y": 988.0
+      },
+      "pass": 5,
+      "step": 16.0,
+      "vertex": "net:RA_W"
+    },
+    {
+      "direction": "neighbor:component:J_RA",
+      "local_length_after": 2068.644697,
+      "local_length_before": 2081.193824,
+      "local_length_reduction": 12.549126,
+      "move_number": 105,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1863.116072,
+        "y": 706.530839
+      },
+      "old": {
+        "x": 1863.147349,
+        "y": 698.5309
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 1086.530191,
+      "local_length_before": 1087.267127,
+      "local_length_reduction": 0.736937,
+      "move_number": 106,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1177.894396,
+        "y": 886.2539
+      },
+      "old": {
+        "x": 1181.375413,
+        "y": 893.456852
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "direction": "neighbor:component:R3",
+      "local_length_after": 917.217251,
+      "local_length_before": 925.785033,
+      "local_length_reduction": 8.567781,
+      "move_number": 107,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1496.50586,
+        "y": 737.002632
+      },
+      "old": {
+        "x": 1503.766533,
+        "y": 733.64367
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 623.596948,
+      "local_length_before": 627.142745,
+      "local_length_reduction": 3.545797,
+      "move_number": 108,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 818.507666,
+        "y": 132.839224
+      },
+      "old": {
+        "x": 826.507666,
+        "y": 132.839224
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 1031.870635,
+      "local_length_before": 1037.449367,
+      "local_length_reduction": 5.578733,
+      "move_number": 109,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 2589.547328,
+        "y": 349.015747
+      },
+      "old": {
+        "x": 2589.547328,
+        "y": 357.015747
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:J_R1"
+    },
+    {
+      "direction": "neighbor:net:RA_W",
+      "local_length_after": 523.208944,
+      "local_length_before": 523.318807,
+      "local_length_reduction": 0.109862,
+      "move_number": 110,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1862.0,
+        "y": 984.0
+      },
+      "old": {
+        "x": 1862.0,
+        "y": 992.0
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:J_RA"
+    },
+    {
+      "direction": "neighbor:component:C2",
+      "local_length_after": 352.5102,
+      "local_length_before": 356.487149,
+      "local_length_reduction": 3.97695,
+      "move_number": 111,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 793.042583,
+        "y": 155.175669
+      },
+      "old": {
+        "x": 801.0,
+        "y": 156.0
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:-9V"
+    },
+    {
+      "direction": "neighbor_centroid",
+      "local_length_after": 3201.424139,
+      "local_length_before": 3217.367368,
+      "local_length_reduction": 15.943229,
+      "move_number": 112,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 2338.596025,
+        "y": 73.444276
+      },
+      "old": {
+        "x": 2346.566605,
+        "y": 72.758817
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:C1"
+    },
+    {
+      "direction": "neighbor:net:-9V",
+      "local_length_after": 318.380809,
+      "local_length_before": 318.383015,
+      "local_length_reduction": 0.002206,
+      "move_number": 113,
+      "movement_distance": 8.000001,
+      "new": {
+        "x": 736.162144,
+        "y": 149.283262
+      },
+      "old": {
+        "x": 728.204727,
+        "y": 148.45893
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:C2"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 346.602311,
+      "local_length_before": 348.139717,
+      "local_length_reduction": 1.537406,
+      "move_number": 114,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1529.368717,
+        "y": 974.207245
+      },
+      "old": {
+        "x": 1529.368717,
+        "y": 982.207245
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:JP1"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 406.516026,
+      "local_length_before": 406.540485,
+      "local_length_reduction": 0.024459,
+      "move_number": 115,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 564.130738,
+        "y": 198.069314
+      },
+      "old": {
+        "x": 570.842536,
+        "y": 202.422676
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:J_EA"
+    },
+    {
+      "direction": "neighbor:net:GND",
+      "local_length_after": 516.529493,
+      "local_length_before": 517.650949,
+      "local_length_reduction": 1.121456,
+      "move_number": 116,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 661.222653,
+        "y": 344.315458
+      },
+      "old": {
+        "x": 666.905818,
+        "y": 349.945878
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:J_EB"
+    },
+    {
+      "direction": "down",
+      "local_length_after": 752.239837,
+      "local_length_before": 753.351657,
+      "local_length_reduction": 1.111819,
+      "move_number": 117,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 767.526366,
+        "y": 738.556144
+      },
+      "old": {
+        "x": 767.526366,
+        "y": 730.556144
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:J_OUT"
+    },
+    {
+      "direction": "neighbor:net:NODE_A",
+      "local_length_after": 308.081022,
+      "local_length_before": 308.108652,
+      "local_length_reduction": 0.02763,
+      "move_number": 118,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1719.952324,
+        "y": 709.650404
+      },
+      "old": {
+        "x": 1711.954223,
+        "y": 709.824684
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:R2"
+    },
+    {
+      "direction": "neighbor:net:NODE_C",
+      "local_length_after": 285.565339,
+      "local_length_before": 285.572161,
+      "local_length_reduction": 0.006822,
+      "move_number": 119,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1318.429873,
+        "y": 819.47552
+      },
+      "old": {
+        "x": 1325.655614,
+        "y": 816.042058
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:R3"
+    },
+    {
+      "direction": "down",
+      "local_length_after": 2395.999628,
+      "local_length_before": 2402.263493,
+      "local_length_reduction": 6.263865,
+      "move_number": 120,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 2641.34674,
+        "y": 43.3752
+      },
+      "old": {
+        "x": 2641.34674,
+        "y": 35.3752
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 148.839197,
+      "local_length_before": 158.736175,
+      "local_length_reduction": 9.896978,
+      "move_number": 121,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1088.719844,
+        "y": 988.122082
+      },
+      "old": {
+        "x": 1088.719844,
+        "y": 996.122082
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "direction": "neighbor:component:U1",
+      "local_length_after": 400.134563,
+      "local_length_before": 400.156993,
+      "local_length_reduction": 0.02243,
+      "move_number": 122,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 830.469665,
+        "y": 358.392289
+      },
+      "old": {
+        "x": 823.753444,
+        "y": 354.045753
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:EA"
+    },
+    {
+      "direction": "right",
+      "local_length_after": 256.298309,
+      "local_length_before": 256.418922,
+      "local_length_reduction": 0.120613,
+      "move_number": 123,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 893.013343,
+        "y": 411.399958
+      },
+      "old": {
+        "x": 885.013343,
+        "y": 411.399958
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:EB"
+    },
+    {
+      "direction": "left",
+      "local_length_after": 443.710965,
+      "local_length_before": 454.887606,
+      "local_length_reduction": 11.176641,
+      "move_number": 124,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 2819.654036,
+        "y": 185.927232
+      },
+      "old": {
+        "x": 2827.654036,
+        "y": 185.927232
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "direction": "right",
+      "local_length_after": 94.733201,
+      "local_length_before": 95.029642,
+      "local_length_reduction": 0.296441,
+      "move_number": 125,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1031.738904,
+        "y": 951.954723
+      },
+      "old": {
+        "x": 1023.738904,
+        "y": 951.954723
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 272.748484,
+      "local_length_before": 272.953054,
+      "local_length_reduction": 0.20457,
+      "move_number": 126,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1574.262567,
+        "y": 975.58551
+      },
+      "old": {
+        "x": 1574.262567,
+        "y": 983.58551
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "direction": "neighbor:net:NODE_C",
+      "local_length_after": 31.667212,
+      "local_length_before": 39.667212,
+      "local_length_reduction": 8.0,
+      "move_number": 127,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1116.845225,
+        "y": 898.495235
+      },
+      "old": {
+        "x": 1109.001359,
+        "y": 900.068056
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "component:TPC"
+    },
+    {
+      "direction": "up",
+      "local_length_after": 0.0,
+      "local_length_before": 8.0,
+      "local_length_reduction": 8.0,
+      "move_number": 128,
+      "movement_distance": 8.0,
+      "new": {
+        "x": 1862.0,
+        "y": 964.0
+      },
+      "old": {
+        "x": 1862.0,
+        "y": 972.0
+      },
+      "pass": 6,
+      "step": 8.0,
+      "vertex": "net:RA_W"
+    }
+  ],
+  "passes": [
+    {
+      "accepted_moves": 14,
+      "area": 2973525.43515,
+      "candidate_trials": 191,
+      "height": 1065.140796,
+      "pass": 1,
+      "step": 256.0,
+      "total_connection_length": 17904.961971,
+      "total_movement_distance": 3584.0,
+      "validation": {
+        "added_incidences": 0,
+        "all_vertex_cyclic_order_orientation": "global_reflection",
+        "body_intersection_details": [],
+        "clearance_violations": 0,
+        "component_overlaps": 0,
+        "cyclic_order_orientation": "global_reflection",
+        "cyclic_order_rows": [
+          {
+            "component": "C1",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "C2",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "JP1",
+            "geometric_perimeter_order": [
+              "net:RA_SW",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C",
+              "net:RA_SW"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EA",
+            "geometric_perimeter_order": [
+              "net:EA",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:EA",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EB",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EB"
+            ],
+            "required_clockwise": [
+              "net:EB",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_OUT",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_PWR",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R1",
+            "geometric_perimeter_order": [
+              "net:R1_W",
+              "net:R1_EXT",
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:R1_EXT",
+              "net:R1_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R4",
+            "geometric_perimeter_order": [
+              "net:EOUT",
+              "net:R4_W",
+              "net:R4_EXT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:R4_EXT",
+              "net:R4_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_RA",
+            "geometric_perimeter_order": [
+              "net:RA_W",
+              "net:NODE_A",
+              "net:RA_SW"
+            ],
+            "required_clockwise": [
+              "net:RA_SW",
+              "net:NODE_A",
+              "net:RA_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "R2",
+            "geometric_perimeter_order": [
+              "net:NODE_B",
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "R3",
+            "geometric_perimeter_order": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN1",
+            "geometric_perimeter_order": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN4",
+            "geometric_perimeter_order": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPA",
+            "geometric_perimeter_order": [
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPB",
+            "geometric_perimeter_order": [
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPC",
+            "geometric_perimeter_order": [
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPO",
+            "geometric_perimeter_order": [
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "U1",
+            "geometric_perimeter_order": [
+              "net:EA",
+              "net:-9V",
+              "net:+9V",
+              "net:NODE_A",
+              "net:NODE_B",
+              "net:NODE_C",
+              "net:EOUT",
+              "net:EB"
+            ],
+            "required_clockwise": [
+              "net:-9V",
+              "net:EA",
+              "net:EB",
+              "net:EOUT",
+              "net:NODE_C",
+              "net:NODE_B",
+              "net:NODE_A",
+              "net:+9V"
+            ],
+            "state": "global_reflection"
+          }
+        ],
+        "different_net_crossings": 0,
+        "electrical_incidence_exact": true,
+        "embedding_edge_set_exact": true,
+        "embedding_vertex_set_exact": true,
+        "expected_incidence_count": 44,
+        "graph_edge_count": 44,
+        "graph_vertex_count": 34,
+        "missing_incidences": 0,
+        "planar": true,
+        "realized_incidence_count": 44,
+        "unrelated_component_body_intersections": 0,
+        "valid": true
+      },
+      "vertices_moved": 14,
+      "width": 2791.673595
+    },
+    {
+      "accepted_moves": 19,
+      "area": 2711216.053455,
+      "candidate_trials": 217,
+      "height": 1056.275913,
+      "pass": 2,
+      "step": 128.0,
+      "total_connection_length": 15783.75841,
+      "total_movement_distance": 2432.000002,
+      "validation": {
+        "added_incidences": 0,
+        "all_vertex_cyclic_order_orientation": "global_reflection",
+        "body_intersection_details": [],
+        "clearance_violations": 0,
+        "component_overlaps": 0,
+        "cyclic_order_orientation": "global_reflection",
+        "cyclic_order_rows": [
+          {
+            "component": "C1",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "C2",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "JP1",
+            "geometric_perimeter_order": [
+              "net:RA_SW",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C",
+              "net:RA_SW"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EA",
+            "geometric_perimeter_order": [
+              "net:EA",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:EA",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EB",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EB"
+            ],
+            "required_clockwise": [
+              "net:EB",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_OUT",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_PWR",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R1",
+            "geometric_perimeter_order": [
+              "net:R1_W",
+              "net:R1_EXT",
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:R1_EXT",
+              "net:R1_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R4",
+            "geometric_perimeter_order": [
+              "net:EOUT",
+              "net:R4_W",
+              "net:R4_EXT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:R4_EXT",
+              "net:R4_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_RA",
+            "geometric_perimeter_order": [
+              "net:RA_W",
+              "net:NODE_A",
+              "net:RA_SW"
+            ],
+            "required_clockwise": [
+              "net:RA_SW",
+              "net:NODE_A",
+              "net:RA_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "R2",
+            "geometric_perimeter_order": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "R3",
+            "geometric_perimeter_order": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN1",
+            "geometric_perimeter_order": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN4",
+            "geometric_perimeter_order": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPA",
+            "geometric_perimeter_order": [
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPB",
+            "geometric_perimeter_order": [
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPC",
+            "geometric_perimeter_order": [
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPO",
+            "geometric_perimeter_order": [
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "U1",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:+9V",
+              "net:NODE_A",
+              "net:NODE_B",
+              "net:NODE_C",
+              "net:EOUT",
+              "net:EB",
+              "net:EA"
+            ],
+            "required_clockwise": [
+              "net:-9V",
+              "net:EA",
+              "net:EB",
+              "net:EOUT",
+              "net:NODE_C",
+              "net:NODE_B",
+              "net:NODE_A",
+              "net:+9V"
+            ],
+            "state": "global_reflection"
+          }
+        ],
+        "different_net_crossings": 0,
+        "electrical_incidence_exact": true,
+        "embedding_edge_set_exact": true,
+        "embedding_vertex_set_exact": true,
+        "expected_incidence_count": 44,
+        "graph_edge_count": 44,
+        "graph_vertex_count": 34,
+        "missing_incidences": 0,
+        "planar": true,
+        "realized_incidence_count": 44,
+        "unrelated_component_body_intersections": 0,
+        "valid": true
+      },
+      "vertices_moved": 19,
+      "width": 2566.768796
+    },
+    {
+      "accepted_moves": 19,
+      "area": 2627097.38737,
+      "candidate_trials": 234,
+      "height": 1049.676419,
+      "pass": 3,
+      "step": 64.0,
+      "total_connection_length": 14964.389173,
+      "total_movement_distance": 1216.0,
+      "validation": {
+        "added_incidences": 0,
+        "all_vertex_cyclic_order_orientation": "global_reflection",
+        "body_intersection_details": [],
+        "clearance_violations": 0,
+        "component_overlaps": 0,
+        "cyclic_order_orientation": "global_reflection",
+        "cyclic_order_rows": [
+          {
+            "component": "C1",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "C2",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "JP1",
+            "geometric_perimeter_order": [
+              "net:RA_SW",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C",
+              "net:RA_SW"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EA",
+            "geometric_perimeter_order": [
+              "net:EA",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:EA",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EB",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EB"
+            ],
+            "required_clockwise": [
+              "net:EB",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_OUT",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_PWR",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R1",
+            "geometric_perimeter_order": [
+              "net:R1_W",
+              "net:R1_EXT",
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:R1_EXT",
+              "net:R1_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R4",
+            "geometric_perimeter_order": [
+              "net:EOUT",
+              "net:R4_W",
+              "net:R4_EXT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:R4_EXT",
+              "net:R4_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_RA",
+            "geometric_perimeter_order": [
+              "net:RA_W",
+              "net:NODE_A",
+              "net:RA_SW"
+            ],
+            "required_clockwise": [
+              "net:RA_SW",
+              "net:NODE_A",
+              "net:RA_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "R2",
+            "geometric_perimeter_order": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "R3",
+            "geometric_perimeter_order": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN1",
+            "geometric_perimeter_order": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN4",
+            "geometric_perimeter_order": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPA",
+            "geometric_perimeter_order": [
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPB",
+            "geometric_perimeter_order": [
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPC",
+            "geometric_perimeter_order": [
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPO",
+            "geometric_perimeter_order": [
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "U1",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:+9V",
+              "net:NODE_A",
+              "net:NODE_B",
+              "net:NODE_C",
+              "net:EOUT",
+              "net:EB",
+              "net:EA"
+            ],
+            "required_clockwise": [
+              "net:-9V",
+              "net:EA",
+              "net:EB",
+              "net:EOUT",
+              "net:NODE_C",
+              "net:NODE_B",
+              "net:NODE_A",
+              "net:+9V"
+            ],
+            "state": "global_reflection"
+          }
+        ],
+        "different_net_crossings": 0,
+        "electrical_incidence_exact": true,
+        "embedding_edge_set_exact": true,
+        "embedding_vertex_set_exact": true,
+        "expected_incidence_count": 44,
+        "graph_edge_count": 44,
+        "graph_vertex_count": 34,
+        "missing_incidences": 0,
+        "planar": true,
+        "realized_incidence_count": 44,
+        "unrelated_component_body_intersections": 0,
+        "valid": true
+      },
+      "vertices_moved": 19,
+      "width": 2502.768796
+    },
+    {
+      "accepted_moves": 26,
+      "area": 2474249.135402,
+      "candidate_trials": 240,
+      "height": 1014.343213,
+      "pass": 4,
+      "step": 32.0,
+      "total_connection_length": 14351.013103,
+      "total_movement_distance": 832.0,
+      "validation": {
+        "added_incidences": 0,
+        "all_vertex_cyclic_order_orientation": "global_reflection",
+        "body_intersection_details": [],
+        "clearance_violations": 0,
+        "component_overlaps": 0,
+        "cyclic_order_orientation": "global_reflection",
+        "cyclic_order_rows": [
+          {
+            "component": "C1",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "C2",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "JP1",
+            "geometric_perimeter_order": [
+              "net:RA_SW",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C",
+              "net:RA_SW"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EA",
+            "geometric_perimeter_order": [
+              "net:EA",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:EA",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EB",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EB"
+            ],
+            "required_clockwise": [
+              "net:EB",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_OUT",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_PWR",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R1",
+            "geometric_perimeter_order": [
+              "net:R1_W",
+              "net:R1_EXT",
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:R1_EXT",
+              "net:R1_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R4",
+            "geometric_perimeter_order": [
+              "net:EOUT",
+              "net:R4_W",
+              "net:R4_EXT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:R4_EXT",
+              "net:R4_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_RA",
+            "geometric_perimeter_order": [
+              "net:RA_W",
+              "net:NODE_A",
+              "net:RA_SW"
+            ],
+            "required_clockwise": [
+              "net:RA_SW",
+              "net:NODE_A",
+              "net:RA_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "R2",
+            "geometric_perimeter_order": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "R3",
+            "geometric_perimeter_order": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN1",
+            "geometric_perimeter_order": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN4",
+            "geometric_perimeter_order": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPA",
+            "geometric_perimeter_order": [
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPB",
+            "geometric_perimeter_order": [
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPC",
+            "geometric_perimeter_order": [
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPO",
+            "geometric_perimeter_order": [
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "U1",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:+9V",
+              "net:NODE_A",
+              "net:NODE_B",
+              "net:NODE_C",
+              "net:EOUT",
+              "net:EB",
+              "net:EA"
+            ],
+            "required_clockwise": [
+              "net:-9V",
+              "net:EA",
+              "net:EB",
+              "net:EOUT",
+              "net:NODE_C",
+              "net:NODE_B",
+              "net:NODE_A",
+              "net:+9V"
+            ],
+            "state": "global_reflection"
+          }
+        ],
+        "different_net_crossings": 0,
+        "electrical_incidence_exact": true,
+        "embedding_edge_set_exact": true,
+        "embedding_vertex_set_exact": true,
+        "expected_incidence_count": 44,
+        "graph_edge_count": 44,
+        "graph_vertex_count": 34,
+        "missing_incidences": 0,
+        "planar": true,
+        "realized_incidence_count": 44,
+        "unrelated_component_body_intersections": 0,
+        "valid": true
+      },
+      "vertices_moved": 26,
+      "width": 2439.262277
+    },
+    {
+      "accepted_moves": 26,
+      "area": 2411638.545133,
+      "candidate_trials": 247,
+      "height": 1000.746882,
+      "pass": 5,
+      "step": 16.0,
+      "total_connection_length": 14078.40181,
+      "total_movement_distance": 416.0,
+      "validation": {
+        "added_incidences": 0,
+        "all_vertex_cyclic_order_orientation": "global_reflection",
+        "body_intersection_details": [],
+        "clearance_violations": 0,
+        "component_overlaps": 0,
+        "cyclic_order_orientation": "global_reflection",
+        "cyclic_order_rows": [
+          {
+            "component": "C1",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "C2",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "JP1",
+            "geometric_perimeter_order": [
+              "net:RA_SW",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C",
+              "net:RA_SW"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EA",
+            "geometric_perimeter_order": [
+              "net:EA",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:EA",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EB",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EB"
+            ],
+            "required_clockwise": [
+              "net:EB",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_OUT",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_PWR",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R1",
+            "geometric_perimeter_order": [
+              "net:R1_W",
+              "net:R1_EXT",
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:R1_EXT",
+              "net:R1_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R4",
+            "geometric_perimeter_order": [
+              "net:EOUT",
+              "net:R4_W",
+              "net:R4_EXT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:R4_EXT",
+              "net:R4_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_RA",
+            "geometric_perimeter_order": [
+              "net:RA_W",
+              "net:NODE_A",
+              "net:RA_SW"
+            ],
+            "required_clockwise": [
+              "net:RA_SW",
+              "net:NODE_A",
+              "net:RA_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "R2",
+            "geometric_perimeter_order": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "R3",
+            "geometric_perimeter_order": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN1",
+            "geometric_perimeter_order": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN4",
+            "geometric_perimeter_order": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPA",
+            "geometric_perimeter_order": [
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPB",
+            "geometric_perimeter_order": [
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPC",
+            "geometric_perimeter_order": [
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPO",
+            "geometric_perimeter_order": [
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "U1",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:+9V",
+              "net:NODE_A",
+              "net:NODE_B",
+              "net:NODE_C",
+              "net:EOUT",
+              "net:EB",
+              "net:EA"
+            ],
+            "required_clockwise": [
+              "net:-9V",
+              "net:EA",
+              "net:EB",
+              "net:EOUT",
+              "net:NODE_C",
+              "net:NODE_B",
+              "net:NODE_A",
+              "net:+9V"
+            ],
+            "state": "global_reflection"
+          }
+        ],
+        "different_net_crossings": 0,
+        "electrical_incidence_exact": true,
+        "embedding_edge_set_exact": true,
+        "embedding_vertex_set_exact": true,
+        "expected_incidence_count": 44,
+        "graph_edge_count": 44,
+        "graph_vertex_count": 34,
+        "missing_incidences": 0,
+        "planar": true,
+        "realized_incidence_count": 44,
+        "unrelated_component_body_intersections": 0,
+        "valid": true
+      },
+      "vertices_moved": 26,
+      "width": 2409.83868
+    },
+    {
+      "accepted_moves": 24,
+      "area": 2365203.151197,
+      "candidate_trials": 249,
+      "height": 984.746882,
+      "pass": 6,
+      "step": 8.0,
+      "total_connection_length": 13979.580061,
+      "total_movement_distance": 191.999999,
+      "validation": {
+        "added_incidences": 0,
+        "all_vertex_cyclic_order_orientation": "global_reflection",
+        "body_intersection_details": [],
+        "clearance_violations": 0,
+        "component_overlaps": 0,
+        "cyclic_order_orientation": "global_reflection",
+        "cyclic_order_rows": [
+          {
+            "component": "C1",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "C2",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "JP1",
+            "geometric_perimeter_order": [
+              "net:RA_SW",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C",
+              "net:RA_SW"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EA",
+            "geometric_perimeter_order": [
+              "net:EA",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:EA",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_EB",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EB"
+            ],
+            "required_clockwise": [
+              "net:EB",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_OUT",
+            "geometric_perimeter_order": [
+              "net:GND",
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "J_PWR",
+            "geometric_perimeter_order": [
+              "net:+9V",
+              "net:-9V",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:+9V",
+              "net:GND",
+              "net:-9V"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R1",
+            "geometric_perimeter_order": [
+              "net:R1_W",
+              "net:R1_EXT",
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:R1_EXT",
+              "net:R1_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_R4",
+            "geometric_perimeter_order": [
+              "net:EOUT",
+              "net:R4_W",
+              "net:R4_EXT"
+            ],
+            "required_clockwise": [
+              "net:EOUT",
+              "net:R4_EXT",
+              "net:R4_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "J_RA",
+            "geometric_perimeter_order": [
+              "net:RA_W",
+              "net:NODE_A",
+              "net:RA_SW"
+            ],
+            "required_clockwise": [
+              "net:RA_SW",
+              "net:NODE_A",
+              "net:RA_W"
+            ],
+            "state": "global_reflection"
+          },
+          {
+            "component": "R2",
+            "geometric_perimeter_order": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_A",
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "R3",
+            "geometric_perimeter_order": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_B",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN1",
+            "geometric_perimeter_order": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "required_clockwise": [
+              "net:R1_EXT",
+              "net:GND"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "RMIN4",
+            "geometric_perimeter_order": [
+              "net:NODE_C",
+              "net:R4_EXT"
+            ],
+            "required_clockwise": [
+              "net:R4_EXT",
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPA",
+            "geometric_perimeter_order": [
+              "net:NODE_A"
+            ],
+            "required_clockwise": [
+              "net:NODE_A"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPB",
+            "geometric_perimeter_order": [
+              "net:NODE_B"
+            ],
+            "required_clockwise": [
+              "net:NODE_B"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPC",
+            "geometric_perimeter_order": [
+              "net:NODE_C"
+            ],
+            "required_clockwise": [
+              "net:NODE_C"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "TPO",
+            "geometric_perimeter_order": [
+              "net:EOUT"
+            ],
+            "required_clockwise": [
+              "net:EOUT"
+            ],
+            "state": "ambiguous_degree_below_3"
+          },
+          {
+            "component": "U1",
+            "geometric_perimeter_order": [
+              "net:-9V",
+              "net:+9V",
+              "net:NODE_A",
+              "net:NODE_B",
+              "net:NODE_C",
+              "net:EOUT",
+              "net:EB",
+              "net:EA"
+            ],
+            "required_clockwise": [
+              "net:-9V",
+              "net:EA",
+              "net:EB",
+              "net:EOUT",
+              "net:NODE_C",
+              "net:NODE_B",
+              "net:NODE_A",
+              "net:+9V"
+            ],
+            "state": "global_reflection"
+          }
+        ],
+        "different_net_crossings": 0,
+        "electrical_incidence_exact": true,
+        "embedding_edge_set_exact": true,
+        "embedding_vertex_set_exact": true,
+        "expected_incidence_count": 44,
+        "graph_edge_count": 44,
+        "graph_vertex_count": 34,
+        "missing_incidences": 0,
+        "planar": true,
+        "realized_incidence_count": 44,
+        "unrelated_component_body_intersections": 0,
+        "valid": true
+      },
+      "vertices_moved": 24,
+      "width": 2401.83868
+    }
+  ],
+  "processing_order": [
+    "component:U1",
+    "net:GND",
+    "net:NODE_A",
+    "net:NODE_C",
+    "net:EOUT",
+    "net:NODE_B",
+    "component:J_PWR",
+    "component:J_R1",
+    "component:J_R4",
+    "component:J_RA",
+    "net:+9V",
+    "net:-9V",
+    "component:C1",
+    "component:C2",
+    "component:JP1",
+    "component:J_EA",
+    "component:J_EB",
+    "component:J_OUT",
+    "component:R2",
+    "component:R3",
+    "component:RMIN1",
+    "component:RMIN4",
+    "net:EA",
+    "net:EB",
+    "net:R1_EXT",
+    "net:R4_EXT",
+    "net:RA_SW",
+    "component:TPA",
+    "component:TPB",
+    "component:TPC",
+    "component:TPO",
+    "net:R1_W",
+    "net:R4_W",
+    "net:RA_W"
+  ],
+  "runtime_seconds": 5.716415,
+  "steps": [
+    256.0,
+    128.0,
+    64.0,
+    32.0,
+    16.0,
+    8.0
+  ],
+  "total_accepted_moves": 128
+}

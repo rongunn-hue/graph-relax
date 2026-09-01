@@ -1,0 +1,7218 @@
+{
+  "accepted_move_count": 441,
+  "anchor": "component:U1",
+  "anchor_degree": 8,
+  "change_from_4k_percent": {
+    "area": -8.38829,
+    "connection_length": -7.963823,
+    "height": 18.249944,
+    "width": -22.527058
+  },
+  "comparison_4k": {
+    "area": 3520592,
+    "height": 1112,
+    "total_connection_length": 23095.744883,
+    "width": 3166
+  },
+  "drawing_area": 3225274.543248,
+  "geometry_extents": {
+    "height": 1314.93938,
+    "max_x": 2641.372076,
+    "max_y": 1459.999952,
+    "min_x": 188.578744,
+    "min_y": 145.060572,
+    "width": 2452.793332
+  },
+  "metrics": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 0.0,
+      "crowding": 747.649781,
+      "length": 490190.243766,
+      "overlap": 0.0
+    },
+    "net_crossings": 0,
+    "objective": 490937.893547,
+    "total_connection_length": 21256.440632
+  },
+  "moved_vertex_count": 33,
+  "movements": [
+    {
+      "degree": 7,
+      "move_number": 1,
+      "movement_distance": 237.917028,
+      "new": {
+        "x": 188.578744,
+        "y": 145.060572
+      },
+      "old": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "net:GND"
+    },
+    {
+      "degree": 5,
+      "move_number": 2,
+      "movement_distance": 648.280215,
+      "new": {
+        "x": 2736.000001,
+        "y": 772.941177
+      },
+      "old": {
+        "x": 3384.0,
+        "y": 792.0
+      },
+      "pass": 1,
+      "path_evaluations": 33,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 3,
+      "movement_distance": 195.769589,
+      "new": {
+        "x": 1895.583516,
+        "y": 899.921909
+      },
+      "old": {
+        "x": 2088.0,
+        "y": 936.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 4,
+      "movement_distance": 334.999999,
+      "new": {
+        "x": 951.000001,
+        "y": 740.000001
+      },
+      "old": {
+        "x": 1152.0,
+        "y": 1008.0
+      },
+      "pass": 1,
+      "path_evaluations": 30,
+      "vertex": "net:EOUT"
+    },
+    {
+      "degree": 4,
+      "move_number": 5,
+      "movement_distance": 329.584462,
+      "new": {
+        "x": 2191.769073,
+        "y": 834.160825
+      },
+      "old": {
+        "x": 2520.0,
+        "y": 864.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 6,
+      "movement_distance": 97.330971,
+      "new": {
+        "x": 1309.601417,
+        "y": 221.864777
+      },
+      "old": {
+        "x": 1368.0,
+        "y": 144.0
+      },
+      "pass": 1,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 7,
+      "movement_distance": 714.539291,
+      "new": {
+        "x": 2889.600001,
+        "y": 931.2
+      },
+      "old": {
+        "x": 3600.0,
+        "y": 1008.0
+      },
+      "pass": 1,
+      "path_evaluations": 33,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 8,
+      "movement_distance": 26.034166,
+      "new": {
+        "x": 1279.333333,
+        "y": 1132.0
+      },
+      "old": {
+        "x": 1296.0,
+        "y": 1152.0
+      },
+      "pass": 1,
+      "path_evaluations": 31,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 9,
+      "movement_distance": 536.30381,
+      "new": {
+        "x": 952.666667,
+        "y": 699.999999
+      },
+      "old": {
+        "x": 1296.0,
+        "y": 288.0
+      },
+      "pass": 1,
+      "path_evaluations": 31,
+      "vertex": "net:+9V"
+    },
+    {
+      "degree": 3,
+      "move_number": 10,
+      "movement_distance": 290.241279,
+      "new": {
+        "x": 1080.0,
+        "y": 468.0
+      },
+      "old": {
+        "x": 1224.0,
+        "y": 216.0
+      },
+      "pass": 1,
+      "path_evaluations": 31,
+      "vertex": "net:-9V"
+    },
+    {
+      "degree": 2,
+      "move_number": 11,
+      "movement_distance": 1103.616898,
+      "new": {
+        "x": 3093.814597,
+        "y": 288.437081
+      },
+      "old": {
+        "x": 4176.0,
+        "y": 72.0
+      },
+      "pass": 1,
+      "path_evaluations": 33,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 12,
+      "movement_distance": 648.657161,
+      "new": {
+        "x": 1841.837839,
+        "y": 1065.081082
+      },
+      "old": {
+        "x": 2448.0,
+        "y": 1296.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 13,
+      "movement_distance": 20.0,
+      "new": {
+        "x": 936.0,
+        "y": 452.0
+      },
+      "old": {
+        "x": 936.0,
+        "y": 432.0
+      },
+      "pass": 1,
+      "path_evaluations": 30,
+      "vertex": "component:J_EA"
+    },
+    {
+      "degree": 2,
+      "move_number": 14,
+      "movement_distance": 117.938203,
+      "new": {
+        "x": 936.0,
+        "y": 621.938203
+      },
+      "old": {
+        "x": 936.0,
+        "y": 504.0
+      },
+      "pass": 1,
+      "path_evaluations": 29,
+      "vertex": "component:J_EB"
+    },
+    {
+      "degree": 2,
+      "move_number": 15,
+      "movement_distance": 268.349898,
+      "new": {
+        "x": 980.33735,
+        "y": 830.843375
+      },
+      "old": {
+        "x": 1080.0,
+        "y": 1080.0
+      },
+      "pass": 1,
+      "path_evaluations": 30,
+      "vertex": "component:J_OUT"
+    },
+    {
+      "degree": 2,
+      "move_number": 16,
+      "movement_distance": 337.362347,
+      "new": {
+        "x": 2257.471358,
+        "y": 892.365829
+      },
+      "old": {
+        "x": 2592.0,
+        "y": 936.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 17,
+      "movement_distance": 320.104153,
+      "new": {
+        "x": 1919.518468,
+        "y": 938.55966
+      },
+      "old": {
+        "x": 2232.0,
+        "y": 1008.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 18,
+      "movement_distance": 1415.813471,
+      "new": {
+        "x": 3218.642774,
+        "y": 272.422985
+      },
+      "old": {
+        "x": 4608.0,
+        "y": 0.0
+      },
+      "pass": 1,
+      "path_evaluations": 33,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 19,
+      "movement_distance": 291.490488,
+      "new": {
+        "x": 971.743151,
+        "y": 630.642124
+      },
+      "old": {
+        "x": 1080.0,
+        "y": 360.0
+      },
+      "pass": 1,
+      "path_evaluations": 30,
+      "vertex": "net:EA"
+    },
+    {
+      "degree": 2,
+      "move_number": 20,
+      "movement_distance": 138.636214,
+      "new": {
+        "x": 926.0,
+        "y": 699.999999
+      },
+      "old": {
+        "x": 864.0,
+        "y": 576.0
+      },
+      "pass": 1,
+      "path_evaluations": 29,
+      "vertex": "net:EB"
+    },
+    {
+      "degree": 2,
+      "move_number": 21,
+      "movement_distance": 191.740425,
+      "new": {
+        "x": 1313.738047,
+        "y": 1151.700625
+      },
+      "old": {
+        "x": 1440.0,
+        "y": 1296.0
+      },
+      "pass": 1,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 22,
+      "movement_distance": 975.723814,
+      "new": {
+        "x": 1777.003804,
+        "y": 1105.460077
+      },
+      "old": {
+        "x": 2664.0,
+        "y": 1512.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 23,
+      "movement_distance": 387.071554,
+      "new": {
+        "x": 2282.194971,
+        "y": 944.365829
+      },
+      "old": {
+        "x": 2664.0,
+        "y": 1008.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 24,
+      "movement_distance": 351.444776,
+      "new": {
+        "x": 1964.126706,
+        "y": 990.55966
+      },
+      "old": {
+        "x": 2304.0,
+        "y": 1080.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 25,
+      "movement_distance": 175.36248,
+      "new": {
+        "x": 1460.000001,
+        "y": 1244.000001
+      },
+      "old": {
+        "x": 1584.0,
+        "y": 1368.0
+      },
+      "pass": 1,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 26,
+      "movement_distance": 117.28347,
+      "new": {
+        "x": 1213.068063,
+        "y": 997.068063
+      },
+      "old": {
+        "x": 1296.0,
+        "y": 1080.0
+      },
+      "pass": 1,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 27,
+      "movement_distance": 1876.699722,
+      "new": {
+        "x": 2463.774738,
+        "y": 492.459082
+      },
+      "old": {
+        "x": 4320.0,
+        "y": 216.0
+      },
+      "pass": 1,
+      "path_evaluations": 33,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 28,
+      "movement_distance": 292.64595,
+      "new": {
+        "x": 1233.068064,
+        "y": 1017.068064
+      },
+      "old": {
+        "x": 1440.0,
+        "y": 1224.0
+      },
+      "pass": 1,
+      "path_evaluations": 31,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 29,
+      "movement_distance": 918.454375,
+      "new": {
+        "x": 1871.83784,
+        "y": 1056.901622
+      },
+      "old": {
+        "x": 2736.0,
+        "y": 1368.0
+      },
+      "pass": 1,
+      "path_evaluations": 32,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 30,
+      "movement_distance": 423.668701,
+      "new": {
+        "x": 2312.514429,
+        "y": 760.485719
+      },
+      "old": {
+        "x": 2736.000001,
+        "y": 772.941177
+      },
+      "pass": 2,
+      "path_evaluations": 32,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 31,
+      "movement_distance": 605.554583,
+      "new": {
+        "x": 1300.400759,
+        "y": 788.325142
+      },
+      "old": {
+        "x": 1895.583516,
+        "y": 899.921909
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 32,
+      "movement_distance": 265.338154,
+      "new": {
+        "x": 1927.520608,
+        "y": 810.138237
+      },
+      "old": {
+        "x": 2191.769073,
+        "y": 834.160825
+      },
+      "pass": 2,
+      "path_evaluations": 32,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 33,
+      "movement_distance": 82.68443,
+      "new": {
+        "x": 1259.990759,
+        "y": 288.012321
+      },
+      "old": {
+        "x": 1309.601417,
+        "y": 221.864777
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 34,
+      "movement_distance": 461.84063,
+      "new": {
+        "x": 2430.434792,
+        "y": 881.560518
+      },
+      "old": {
+        "x": 2889.600001,
+        "y": 931.2
+      },
+      "pass": 2,
+      "path_evaluations": 32,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 35,
+      "movement_distance": 0.00014,
+      "new": {
+        "x": 1279.333243,
+        "y": 1131.999893
+      },
+      "old": {
+        "x": 1279.333333,
+        "y": 1132.0
+      },
+      "pass": 2,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 36,
+      "movement_distance": 456.968254,
+      "new": {
+        "x": 2311.715628,
+        "y": 1270.286251
+      },
+      "old": {
+        "x": 2736.0,
+        "y": 1440.0
+      },
+      "pass": 2,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 3,
+      "move_number": 37,
+      "movement_distance": 256.381498,
+      "new": {
+        "x": 952.799156,
+        "y": 690.601478
+      },
+      "old": {
+        "x": 1080.0,
+        "y": 468.0
+      },
+      "pass": 2,
+      "path_evaluations": 30,
+      "vertex": "net:-9V"
+    },
+    {
+      "degree": 2,
+      "move_number": 38,
+      "movement_distance": 592.114399,
+      "new": {
+        "x": 2513.198659,
+        "y": 404.560268
+      },
+      "old": {
+        "x": 3093.814597,
+        "y": 288.437081
+      },
+      "pass": 2,
+      "path_evaluations": 33,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 39,
+      "movement_distance": 4.8e-05,
+      "new": {
+        "x": 1079.999985,
+        "y": 288.000046
+      },
+      "old": {
+        "x": 1080.0,
+        "y": 288.0
+      },
+      "pass": 2,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 40,
+      "movement_distance": 490.393821,
+      "new": {
+        "x": 1383.570828,
+        "y": 890.503173
+      },
+      "old": {
+        "x": 1841.837839,
+        "y": 1065.081082
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 41,
+      "movement_distance": 1.6e-05,
+      "new": {
+        "x": 936.0,
+        "y": 452.000016
+      },
+      "old": {
+        "x": 936.0,
+        "y": 452.0
+      },
+      "pass": 2,
+      "path_evaluations": 29,
+      "vertex": "component:J_EA"
+    },
+    {
+      "degree": 2,
+      "move_number": 42,
+      "movement_distance": 3.061797,
+      "new": {
+        "x": 936.0,
+        "y": 625.0
+      },
+      "old": {
+        "x": 936.0,
+        "y": 621.938203
+      },
+      "pass": 2,
+      "path_evaluations": 28,
+      "vertex": "component:J_EB"
+    },
+    {
+      "degree": 2,
+      "move_number": 43,
+      "movement_distance": 289.228892,
+      "new": {
+        "x": 1970.67187,
+        "y": 854.9572
+      },
+      "old": {
+        "x": 2257.471358,
+        "y": 892.365829
+      },
+      "pass": 2,
+      "path_evaluations": 32,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 44,
+      "movement_distance": 563.462926,
+      "new": {
+        "x": 1369.473251,
+        "y": 816.327389
+      },
+      "old": {
+        "x": 1919.518468,
+        "y": 938.55966
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 45,
+      "movement_distance": 618.830429,
+      "new": {
+        "x": 2611.375965,
+        "y": 391.494909
+      },
+      "old": {
+        "x": 3218.642774,
+        "y": 272.422985
+      },
+      "pass": 2,
+      "path_evaluations": 33,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 46,
+      "movement_distance": 1.292419,
+      "new": {
+        "x": 971.263159,
+        "y": 631.842105
+      },
+      "old": {
+        "x": 971.743151,
+        "y": 630.642124
+      },
+      "pass": 2,
+      "path_evaluations": 28,
+      "vertex": "net:EA"
+    },
+    {
+      "degree": 2,
+      "move_number": 47,
+      "movement_distance": 2024.780925,
+      "new": {
+        "x": 2465.677129,
+        "y": 470.256795
+      },
+      "old": {
+        "x": 4464.0,
+        "y": 144.0
+      },
+      "pass": 2,
+      "path_evaluations": 33,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 48,
+      "movement_distance": 6.6891,
+      "new": {
+        "x": 1309.333244,
+        "y": 1146.666564
+      },
+      "old": {
+        "x": 1313.738047,
+        "y": 1151.700625
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 49,
+      "movement_distance": 465.261338,
+      "new": {
+        "x": 1354.051088,
+        "y": 911.606749
+      },
+      "old": {
+        "x": 1777.003804,
+        "y": 1105.460077
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 50,
+      "movement_distance": 246.766122,
+      "new": {
+        "x": 2038.786368,
+        "y": 903.797728
+      },
+      "old": {
+        "x": 2282.194971,
+        "y": 944.365829
+      },
+      "pass": 2,
+      "path_evaluations": 32,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 51,
+      "movement_distance": 525.870405,
+      "new": {
+        "x": 1455.570828,
+        "y": 856.729165
+      },
+      "old": {
+        "x": 1964.126706,
+        "y": 990.55966
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 52,
+      "movement_distance": 153.678003,
+      "new": {
+        "x": 1351.333243,
+        "y": 1135.333243
+      },
+      "old": {
+        "x": 1460.000001,
+        "y": 1244.000001
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 53,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1213.068061,
+        "y": 997.068061
+      },
+      "old": {
+        "x": 1213.068063,
+        "y": 997.068063
+      },
+      "pass": 2,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 54,
+      "movement_distance": 364.04483,
+      "new": {
+        "x": 2103.701572,
+        "y": 546.087
+      },
+      "old": {
+        "x": 2463.774738,
+        "y": 492.459082
+      },
+      "pass": 2,
+      "path_evaluations": 32,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 55,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1233.068062,
+        "y": 1017.068062
+      },
+      "old": {
+        "x": 1233.068064,
+        "y": 1017.068064
+      },
+      "pass": 2,
+      "path_evaluations": 30,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 56,
+      "movement_distance": 487.058287,
+      "new": {
+        "x": 1413.570829,
+        "y": 891.925498
+      },
+      "old": {
+        "x": 1871.83784,
+        "y": 1056.901622
+      },
+      "pass": 2,
+      "path_evaluations": 31,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 57,
+      "movement_distance": 327.428484,
+      "new": {
+        "x": 1985.227475,
+        "y": 750.859632
+      },
+      "old": {
+        "x": 2312.514429,
+        "y": 760.485719
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 58,
+      "movement_distance": 141.957848,
+      "new": {
+        "x": 1160.874339,
+        "y": 762.163938
+      },
+      "old": {
+        "x": 1300.400759,
+        "y": 788.325142
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 59,
+      "movement_distance": 565.053281,
+      "new": {
+        "x": 1364.787884,
+        "y": 758.980717
+      },
+      "old": {
+        "x": 1927.520608,
+        "y": 810.138237
+      },
+      "pass": 3,
+      "path_evaluations": 31,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 60,
+      "movement_distance": 6.3e-05,
+      "new": {
+        "x": 1259.990721,
+        "y": 288.012371
+      },
+      "old": {
+        "x": 1259.990759,
+        "y": 288.012321
+      },
+      "pass": 3,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 61,
+      "movement_distance": 345.852206,
+      "new": {
+        "x": 2086.586091,
+        "y": 844.387685
+      },
+      "old": {
+        "x": 2430.434792,
+        "y": 881.560518
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 62,
+      "movement_distance": 1.2e-05,
+      "new": {
+        "x": 1279.333235,
+        "y": 1131.999884
+      },
+      "old": {
+        "x": 1279.333243,
+        "y": 1131.999893
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 63,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 2311.715627,
+        "y": 1270.28625
+      },
+      "old": {
+        "x": 2311.715628,
+        "y": 1270.286251
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 3,
+      "move_number": 64,
+      "movement_distance": 0.533014,
+      "new": {
+        "x": 952.534707,
+        "y": 691.064264
+      },
+      "old": {
+        "x": 952.799156,
+        "y": 690.601478
+      },
+      "pass": 3,
+      "path_evaluations": 27,
+      "vertex": "net:-9V"
+    },
+    {
+      "degree": 2,
+      "move_number": 65,
+      "movement_distance": 0.000377,
+      "new": {
+        "x": 2513.198289,
+        "y": 404.560342
+      },
+      "old": {
+        "x": 2513.198659,
+        "y": 404.560268
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 66,
+      "movement_distance": 0.000115,
+      "new": {
+        "x": 1079.999949,
+        "y": 288.000155
+      },
+      "old": {
+        "x": 1079.999985,
+        "y": 288.000046
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 67,
+      "movement_distance": 140.535773,
+      "new": {
+        "x": 1252.241872,
+        "y": 840.473094
+      },
+      "old": {
+        "x": 1383.570828,
+        "y": 890.503173
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 68,
+      "movement_distance": 1.4e-05,
+      "new": {
+        "x": 936.0,
+        "y": 452.00003
+      },
+      "old": {
+        "x": 936.0,
+        "y": 452.000016
+      },
+      "pass": 3,
+      "path_evaluations": 29,
+      "vertex": "component:J_EA"
+    },
+    {
+      "degree": 2,
+      "move_number": 69,
+      "movement_distance": 533.681323,
+      "new": {
+        "x": 1441.473251,
+        "y": 785.931293
+      },
+      "old": {
+        "x": 1970.67187,
+        "y": 854.9572
+      },
+      "pass": 3,
+      "path_evaluations": 31,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 70,
+      "movement_distance": 46.334746,
+      "new": {
+        "x": 1324.241872,
+        "y": 806.275971
+      },
+      "old": {
+        "x": 1369.473251,
+        "y": 816.327389
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 71,
+      "movement_distance": 0.000392,
+      "new": {
+        "x": 2611.37558,
+        "y": 391.494984
+      },
+      "old": {
+        "x": 2611.375965,
+        "y": 391.494909
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 72,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999998,
+        "y": 1439.999997
+      },
+      "old": {
+        "x": 1584.0,
+        "y": 1440.0
+      },
+      "pass": 3,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 73,
+      "movement_distance": 25.50821,
+      "new": {
+        "x": 2440.502238,
+        "y": 474.366981
+      },
+      "old": {
+        "x": 2465.677129,
+        "y": 470.256795
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 74,
+      "movement_distance": 1.3e-05,
+      "new": {
+        "x": 1309.333236,
+        "y": 1146.666554
+      },
+      "old": {
+        "x": 1309.333244,
+        "y": 1146.666564
+      },
+      "pass": 3,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 75,
+      "movement_distance": 122.724292,
+      "new": {
+        "x": 1242.486751,
+        "y": 860.473095
+      },
+      "old": {
+        "x": 1354.051088,
+        "y": 911.606749
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 76,
+      "movement_distance": 518.267122,
+      "new": {
+        "x": 1527.570828,
+        "y": 818.595138
+      },
+      "old": {
+        "x": 2038.786368,
+        "y": 903.797728
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 77,
+      "movement_distance": 61.348897,
+      "new": {
+        "x": 1396.241872,
+        "y": 841.116282
+      },
+      "old": {
+        "x": 1455.570828,
+        "y": 856.729165
+      },
+      "pass": 3,
+      "path_evaluations": 31,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 78,
+      "movement_distance": 1.1e-05,
+      "new": {
+        "x": 1351.333235,
+        "y": 1135.333235
+      },
+      "old": {
+        "x": 1351.333243,
+        "y": 1135.333243
+      },
+      "pass": 3,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 79,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1213.068059,
+        "y": 997.068059
+      },
+      "old": {
+        "x": 1213.068061,
+        "y": 997.068061
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 80,
+      "movement_distance": 296.31826,
+      "new": {
+        "x": 1810.616092,
+        "y": 589.738029
+      },
+      "old": {
+        "x": 2103.701572,
+        "y": 546.087
+      },
+      "pass": 3,
+      "path_evaluations": 32,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 81,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1233.06806,
+        "y": 1017.06806
+      },
+      "old": {
+        "x": 1233.068062,
+        "y": 1017.068062
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 82,
+      "movement_distance": 139.579884,
+      "new": {
+        "x": 1282.241873,
+        "y": 844.647074
+      },
+      "old": {
+        "x": 1413.570829,
+        "y": 891.925498
+      },
+      "pass": 3,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 83,
+      "movement_distance": 529.0737,
+      "new": {
+        "x": 1456.382465,
+        "y": 735.305367
+      },
+      "old": {
+        "x": 1985.227475,
+        "y": 750.859632
+      },
+      "pass": 4,
+      "path_evaluations": 31,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 84,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1160.874331,
+        "y": 762.163936
+      },
+      "old": {
+        "x": 1160.874339,
+        "y": 762.163938
+      },
+      "pass": 4,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 85,
+      "movement_distance": 33.943303,
+      "new": {
+        "x": 1330.983979,
+        "y": 755.907635
+      },
+      "old": {
+        "x": 1364.787884,
+        "y": 758.980717
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 86,
+      "movement_distance": 0.00015,
+      "new": {
+        "x": 1259.990631,
+        "y": 288.012491
+      },
+      "old": {
+        "x": 1259.990721,
+        "y": 288.012371
+      },
+      "pass": 4,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 87,
+      "movement_distance": 478.894343,
+      "new": {
+        "x": 1610.46596,
+        "y": 792.915239
+      },
+      "old": {
+        "x": 2086.586091,
+        "y": 844.387685
+      },
+      "pass": 4,
+      "path_evaluations": 32,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 88,
+      "movement_distance": 6.5e-05,
+      "new": {
+        "x": 1279.333193,
+        "y": 1131.999834
+      },
+      "old": {
+        "x": 1279.333235,
+        "y": 1131.999884
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 89,
+      "movement_distance": 2e-06,
+      "new": {
+        "x": 2311.715625,
+        "y": 1270.286249
+      },
+      "old": {
+        "x": 2311.715627,
+        "y": 1270.28625
+      },
+      "pass": 4,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 90,
+      "movement_distance": 0.000899,
+      "new": {
+        "x": 2513.197407,
+        "y": 404.560518
+      },
+      "old": {
+        "x": 2513.198289,
+        "y": 404.560342
+      },
+      "pass": 4,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 91,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999943,
+        "y": 288.000174
+      },
+      "old": {
+        "x": 1079.999949,
+        "y": 288.000155
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 92,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1252.241865,
+        "y": 840.473091
+      },
+      "old": {
+        "x": 1252.241872,
+        "y": 840.473094
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 93,
+      "movement_distance": 45.614522,
+      "new": {
+        "x": 1396.241872,
+        "y": 780.031548
+      },
+      "old": {
+        "x": 1441.473251,
+        "y": 785.931293
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 94,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1324.241865,
+        "y": 806.275969
+      },
+      "old": {
+        "x": 1324.241872,
+        "y": 806.275971
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 95,
+      "movement_distance": 0.000937,
+      "new": {
+        "x": 2611.37466,
+        "y": 391.495164
+      },
+      "old": {
+        "x": 2611.37558,
+        "y": 391.494984
+      },
+      "pass": 4,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 96,
+      "movement_distance": 0.000725,
+      "new": {
+        "x": 2440.501523,
+        "y": 474.367098
+      },
+      "old": {
+        "x": 2440.502238,
+        "y": 474.366981
+      },
+      "pass": 4,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 97,
+      "movement_distance": 6.4e-05,
+      "new": {
+        "x": 1309.333194,
+        "y": 1146.666506
+      },
+      "old": {
+        "x": 1309.333236,
+        "y": 1146.666554
+      },
+      "pass": 4,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 98,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1242.486744,
+        "y": 860.473092
+      },
+      "old": {
+        "x": 1242.486751,
+        "y": 860.473095
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 99,
+      "movement_distance": 60.147325,
+      "new": {
+        "x": 1468.241872,
+        "y": 808.706979
+      },
+      "old": {
+        "x": 1527.570828,
+        "y": 818.595138
+      },
+      "pass": 4,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 100,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.241865,
+        "y": 841.11628
+      },
+      "old": {
+        "x": 1396.241872,
+        "y": 841.116282
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 101,
+      "movement_distance": 5.9e-05,
+      "new": {
+        "x": 1351.333193,
+        "y": 1135.333193
+      },
+      "old": {
+        "x": 1351.333235,
+        "y": 1135.333235
+      },
+      "pass": 4,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 102,
+      "movement_distance": 537.614126,
+      "new": {
+        "x": 1278.86724,
+        "y": 668.934666
+      },
+      "old": {
+        "x": 1810.616092,
+        "y": 589.738029
+      },
+      "pass": 4,
+      "path_evaluations": 31,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 103,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1282.241866,
+        "y": 844.647071
+      },
+      "old": {
+        "x": 1282.241873,
+        "y": 844.647074
+      },
+      "pass": 4,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 104,
+      "movement_distance": 50.894947,
+      "new": {
+        "x": 1405.509517,
+        "y": 733.809104
+      },
+      "old": {
+        "x": 1456.382465,
+        "y": 735.305367
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 105,
+      "movement_distance": 3.8e-05,
+      "new": {
+        "x": 1160.874294,
+        "y": 762.163929
+      },
+      "old": {
+        "x": 1160.874331,
+        "y": 762.163936
+      },
+      "pass": 5,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 106,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1330.983973,
+        "y": 755.907634
+      },
+      "old": {
+        "x": 1330.983979,
+        "y": 755.907635
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 107,
+      "movement_distance": 2.7e-05,
+      "new": {
+        "x": 1259.990615,
+        "y": 288.012513
+      },
+      "old": {
+        "x": 1259.990631,
+        "y": 288.012491
+      },
+      "pass": 5,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 108,
+      "movement_distance": 50.860699,
+      "new": {
+        "x": 1559.899895,
+        "y": 787.448637
+      },
+      "old": {
+        "x": 1610.46596,
+        "y": 792.915239
+      },
+      "pass": 5,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 109,
+      "movement_distance": 0.000201,
+      "new": {
+        "x": 1279.333064,
+        "y": 1131.99968
+      },
+      "old": {
+        "x": 1279.333193,
+        "y": 1131.999834
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 110,
+      "movement_distance": 2.7e-05,
+      "new": {
+        "x": 2311.7156,
+        "y": 1270.286239
+      },
+      "old": {
+        "x": 2311.715625,
+        "y": 1270.286249
+      },
+      "pass": 5,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 111,
+      "movement_distance": 0.000165,
+      "new": {
+        "x": 2513.197245,
+        "y": 404.56055
+      },
+      "old": {
+        "x": 2513.197407,
+        "y": 404.560518
+      },
+      "pass": 5,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 112,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999937,
+        "y": 288.000193
+      },
+      "old": {
+        "x": 1079.999943,
+        "y": 288.000174
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 113,
+      "movement_distance": 4e-05,
+      "new": {
+        "x": 1252.241828,
+        "y": 840.473077
+      },
+      "old": {
+        "x": 1252.241865,
+        "y": 840.473091
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 114,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.241865,
+        "y": 780.031547
+      },
+      "old": {
+        "x": 1396.241872,
+        "y": 780.031548
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 115,
+      "movement_distance": 3.8e-05,
+      "new": {
+        "x": 1324.241828,
+        "y": 806.275961
+      },
+      "old": {
+        "x": 1324.241865,
+        "y": 806.275969
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 116,
+      "movement_distance": 0.000173,
+      "new": {
+        "x": 2611.37449,
+        "y": 391.495197
+      },
+      "old": {
+        "x": 2611.37466,
+        "y": 391.495164
+      },
+      "pass": 5,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 117,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999996,
+        "y": 1439.999994
+      },
+      "old": {
+        "x": 1583.999998,
+        "y": 1439.999997
+      },
+      "pass": 5,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 118,
+      "movement_distance": 0.000135,
+      "new": {
+        "x": 2440.50139,
+        "y": 474.36712
+      },
+      "old": {
+        "x": 2440.501523,
+        "y": 474.367098
+      },
+      "pass": 5,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 119,
+      "movement_distance": 0.000196,
+      "new": {
+        "x": 1309.333065,
+        "y": 1146.666358
+      },
+      "old": {
+        "x": 1309.333194,
+        "y": 1146.666506
+      },
+      "pass": 5,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 120,
+      "movement_distance": 3.4e-05,
+      "new": {
+        "x": 1242.486713,
+        "y": 860.473078
+      },
+      "old": {
+        "x": 1242.486744,
+        "y": 860.473092
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 121,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1468.241865,
+        "y": 808.706978
+      },
+      "old": {
+        "x": 1468.241872,
+        "y": 808.706979
+      },
+      "pass": 5,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 122,
+      "movement_distance": 3.8e-05,
+      "new": {
+        "x": 1396.241828,
+        "y": 841.11627
+      },
+      "old": {
+        "x": 1396.241865,
+        "y": 841.11628
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 123,
+      "movement_distance": 0.000182,
+      "new": {
+        "x": 1351.333064,
+        "y": 1135.333064
+      },
+      "old": {
+        "x": 1351.333193,
+        "y": 1135.333193
+      },
+      "pass": 5,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 124,
+      "movement_distance": 42.520457,
+      "new": {
+        "x": 1236.810674,
+        "y": 675.19841
+      },
+      "old": {
+        "x": 1278.86724,
+        "y": 668.934666
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 125,
+      "movement_distance": 3.9e-05,
+      "new": {
+        "x": 1282.241829,
+        "y": 844.647058
+      },
+      "old": {
+        "x": 1282.241866,
+        "y": 844.647071
+      },
+      "pass": 5,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 126,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1405.509512,
+        "y": 733.809104
+      },
+      "old": {
+        "x": 1405.509517,
+        "y": 733.809104
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 127,
+      "movement_distance": 0.000117,
+      "new": {
+        "x": 1160.874179,
+        "y": 762.163907
+      },
+      "old": {
+        "x": 1160.874294,
+        "y": 762.163929
+      },
+      "pass": 6,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 128,
+      "movement_distance": 3.4e-05,
+      "new": {
+        "x": 1330.983939,
+        "y": 755.907631
+      },
+      "old": {
+        "x": 1330.983973,
+        "y": 755.907634
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 129,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.9906,
+        "y": 288.012534
+      },
+      "old": {
+        "x": 1259.990615,
+        "y": 288.012513
+      },
+      "pass": 6,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 130,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1559.899888,
+        "y": 787.448636
+      },
+      "old": {
+        "x": 1559.899895,
+        "y": 787.448637
+      },
+      "pass": 6,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 131,
+      "movement_distance": 0.000256,
+      "new": {
+        "x": 1279.3329,
+        "y": 1131.999484
+      },
+      "old": {
+        "x": 1279.333064,
+        "y": 1131.99968
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 132,
+      "movement_distance": 2.7e-05,
+      "new": {
+        "x": 2311.715575,
+        "y": 1270.286229
+      },
+      "old": {
+        "x": 2311.7156,
+        "y": 1270.286239
+      },
+      "pass": 6,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 133,
+      "movement_distance": 0.000156,
+      "new": {
+        "x": 2513.197092,
+        "y": 404.560581
+      },
+      "old": {
+        "x": 2513.197245,
+        "y": 404.56055
+      },
+      "pass": 6,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 134,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999931,
+        "y": 288.000212
+      },
+      "old": {
+        "x": 1079.999937,
+        "y": 288.000193
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 135,
+      "movement_distance": 0.000122,
+      "new": {
+        "x": 1252.241714,
+        "y": 840.473033
+      },
+      "old": {
+        "x": 1252.241828,
+        "y": 840.473077
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 136,
+      "movement_distance": 3.7e-05,
+      "new": {
+        "x": 1396.241828,
+        "y": 780.031542
+      },
+      "old": {
+        "x": 1396.241865,
+        "y": 780.031547
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 137,
+      "movement_distance": 0.000117,
+      "new": {
+        "x": 1324.241714,
+        "y": 806.275936
+      },
+      "old": {
+        "x": 1324.241828,
+        "y": 806.275961
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 138,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.37433,
+        "y": 391.495228
+      },
+      "old": {
+        "x": 2611.37449,
+        "y": 391.495197
+      },
+      "pass": 6,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 139,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999994,
+        "y": 1439.999991
+      },
+      "old": {
+        "x": 1583.999996,
+        "y": 1439.999994
+      },
+      "pass": 6,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 140,
+      "movement_distance": 0.000119,
+      "new": {
+        "x": 2440.501273,
+        "y": 474.367139
+      },
+      "old": {
+        "x": 2440.50139,
+        "y": 474.36712
+      },
+      "pass": 6,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 141,
+      "movement_distance": 0.000249,
+      "new": {
+        "x": 1309.332901,
+        "y": 1146.66617
+      },
+      "old": {
+        "x": 1309.333065,
+        "y": 1146.666358
+      },
+      "pass": 6,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 142,
+      "movement_distance": 0.000107,
+      "new": {
+        "x": 1242.486616,
+        "y": 860.473034
+      },
+      "old": {
+        "x": 1242.486713,
+        "y": 860.473078
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 143,
+      "movement_distance": 3.7e-05,
+      "new": {
+        "x": 1468.241828,
+        "y": 808.706972
+      },
+      "old": {
+        "x": 1468.241865,
+        "y": 808.706978
+      },
+      "pass": 6,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 144,
+      "movement_distance": 0.000118,
+      "new": {
+        "x": 1396.241714,
+        "y": 841.11624
+      },
+      "old": {
+        "x": 1396.241828,
+        "y": 841.11627
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 145,
+      "movement_distance": 0.000232,
+      "new": {
+        "x": 1351.3329,
+        "y": 1135.3329
+      },
+      "old": {
+        "x": 1351.333064,
+        "y": 1135.333064
+      },
+      "pass": 6,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 146,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1236.810671,
+        "y": 675.198411
+      },
+      "old": {
+        "x": 1236.810674,
+        "y": 675.19841
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 147,
+      "movement_distance": 0.000121,
+      "new": {
+        "x": 1282.241715,
+        "y": 844.647017
+      },
+      "old": {
+        "x": 1282.241829,
+        "y": 844.647058
+      },
+      "pass": 6,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 148,
+      "movement_distance": 3.1e-05,
+      "new": {
+        "x": 1405.509481,
+        "y": 733.809103
+      },
+      "old": {
+        "x": 1405.509512,
+        "y": 733.809104
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 149,
+      "movement_distance": 0.000147,
+      "new": {
+        "x": 1160.874034,
+        "y": 762.16388
+      },
+      "old": {
+        "x": 1160.874179,
+        "y": 762.163907
+      },
+      "pass": 7,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 150,
+      "movement_distance": 0.000105,
+      "new": {
+        "x": 1330.983834,
+        "y": 755.907621
+      },
+      "old": {
+        "x": 1330.983939,
+        "y": 755.907631
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 151,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990585,
+        "y": 288.012555
+      },
+      "old": {
+        "x": 1259.9906,
+        "y": 288.012534
+      },
+      "pass": 7,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 152,
+      "movement_distance": 3.3e-05,
+      "new": {
+        "x": 1559.899855,
+        "y": 787.448632
+      },
+      "old": {
+        "x": 1559.899888,
+        "y": 787.448636
+      },
+      "pass": 7,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 153,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1279.332897,
+        "y": 1131.999481
+      },
+      "old": {
+        "x": 1279.3329,
+        "y": 1131.999484
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 154,
+      "movement_distance": 1.8e-05,
+      "new": {
+        "x": 2311.715558,
+        "y": 1270.286222
+      },
+      "old": {
+        "x": 2311.715575,
+        "y": 1270.286229
+      },
+      "pass": 7,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 155,
+      "movement_distance": 0.000155,
+      "new": {
+        "x": 2513.19694,
+        "y": 404.560611
+      },
+      "old": {
+        "x": 2513.197092,
+        "y": 404.560581
+      },
+      "pass": 7,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 156,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999925,
+        "y": 288.000231
+      },
+      "old": {
+        "x": 1079.999931,
+        "y": 288.000212
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 157,
+      "movement_distance": 0.000154,
+      "new": {
+        "x": 1252.24157,
+        "y": 840.472978
+      },
+      "old": {
+        "x": 1252.241714,
+        "y": 840.473033
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 158,
+      "movement_distance": 0.000115,
+      "new": {
+        "x": 1396.241714,
+        "y": 780.031527
+      },
+      "old": {
+        "x": 1396.241828,
+        "y": 780.031542
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 159,
+      "movement_distance": 0.000148,
+      "new": {
+        "x": 1324.24157,
+        "y": 806.275904
+      },
+      "old": {
+        "x": 1324.241714,
+        "y": 806.275936
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 160,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.37417,
+        "y": 391.495259
+      },
+      "old": {
+        "x": 2611.37433,
+        "y": 391.495228
+      },
+      "pass": 7,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 161,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999992,
+        "y": 1439.999988
+      },
+      "old": {
+        "x": 1583.999994,
+        "y": 1439.999991
+      },
+      "pass": 7,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 162,
+      "movement_distance": 0.000125,
+      "new": {
+        "x": 2440.50115,
+        "y": 474.367159
+      },
+      "old": {
+        "x": 2440.501273,
+        "y": 474.367139
+      },
+      "pass": 7,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 163,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1309.332898,
+        "y": 1146.666166
+      },
+      "old": {
+        "x": 1309.332901,
+        "y": 1146.66617
+      },
+      "pass": 7,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 164,
+      "movement_distance": 0.000133,
+      "new": {
+        "x": 1242.486495,
+        "y": 860.472979
+      },
+      "old": {
+        "x": 1242.486616,
+        "y": 860.473034
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 165,
+      "movement_distance": 0.000116,
+      "new": {
+        "x": 1468.241714,
+        "y": 808.706953
+      },
+      "old": {
+        "x": 1468.241828,
+        "y": 808.706972
+      },
+      "pass": 7,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 166,
+      "movement_distance": 0.000149,
+      "new": {
+        "x": 1396.24157,
+        "y": 841.116202
+      },
+      "old": {
+        "x": 1396.241714,
+        "y": 841.11624
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 167,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1351.332897,
+        "y": 1135.332897
+      },
+      "old": {
+        "x": 1351.3329,
+        "y": 1135.3329
+      },
+      "pass": 7,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 168,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1213.068057,
+        "y": 997.068057
+      },
+      "old": {
+        "x": 1213.068059,
+        "y": 997.068059
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 169,
+      "movement_distance": 2.4e-05,
+      "new": {
+        "x": 1236.810647,
+        "y": 675.198415
+      },
+      "old": {
+        "x": 1236.810671,
+        "y": 675.198411
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 170,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1233.068058,
+        "y": 1017.068058
+      },
+      "old": {
+        "x": 1233.06806,
+        "y": 1017.06806
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 171,
+      "movement_distance": 0.000153,
+      "new": {
+        "x": 1282.241571,
+        "y": 844.646965
+      },
+      "old": {
+        "x": 1282.241715,
+        "y": 844.647017
+      },
+      "pass": 7,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 172,
+      "movement_distance": 9.6e-05,
+      "new": {
+        "x": 1405.509385,
+        "y": 733.8091
+      },
+      "old": {
+        "x": 1405.509481,
+        "y": 733.809103
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 173,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1160.874031,
+        "y": 762.163879
+      },
+      "old": {
+        "x": 1160.874034,
+        "y": 762.16388
+      },
+      "pass": 8,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 174,
+      "movement_distance": 0.000132,
+      "new": {
+        "x": 1330.983703,
+        "y": 755.907609
+      },
+      "old": {
+        "x": 1330.983834,
+        "y": 755.907621
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 175,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.99057,
+        "y": 288.012576
+      },
+      "old": {
+        "x": 1259.990585,
+        "y": 288.012555
+      },
+      "pass": 8,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 176,
+      "movement_distance": 9.9e-05,
+      "new": {
+        "x": 1559.899757,
+        "y": 787.448621
+      },
+      "old": {
+        "x": 1559.899855,
+        "y": 787.448632
+      },
+      "pass": 8,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 177,
+      "movement_distance": 1.2e-05,
+      "new": {
+        "x": 1279.332889,
+        "y": 1131.999472
+      },
+      "old": {
+        "x": 1279.332897,
+        "y": 1131.999481
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 178,
+      "movement_distance": 1.1e-05,
+      "new": {
+        "x": 2311.715548,
+        "y": 1270.286218
+      },
+      "old": {
+        "x": 2311.715558,
+        "y": 1270.286222
+      },
+      "pass": 8,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 179,
+      "movement_distance": 0.00016,
+      "new": {
+        "x": 2513.196783,
+        "y": 404.560642
+      },
+      "old": {
+        "x": 2513.19694,
+        "y": 404.560611
+      },
+      "pass": 8,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 180,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999919,
+        "y": 288.00025
+      },
+      "old": {
+        "x": 1079.999925,
+        "y": 288.000231
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 181,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1252.241567,
+        "y": 840.472977
+      },
+      "old": {
+        "x": 1252.24157,
+        "y": 840.472978
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 182,
+      "movement_distance": 0.000145,
+      "new": {
+        "x": 1396.24157,
+        "y": 780.031508
+      },
+      "old": {
+        "x": 1396.241714,
+        "y": 780.031527
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 183,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1324.241567,
+        "y": 806.275903
+      },
+      "old": {
+        "x": 1324.24157,
+        "y": 806.275904
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 184,
+      "movement_distance": 0.000166,
+      "new": {
+        "x": 2611.374007,
+        "y": 391.495291
+      },
+      "old": {
+        "x": 2611.37417,
+        "y": 391.495259
+      },
+      "pass": 8,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 185,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.99999,
+        "y": 1439.999985
+      },
+      "old": {
+        "x": 1583.999992,
+        "y": 1439.999988
+      },
+      "pass": 8,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 186,
+      "movement_distance": 0.000134,
+      "new": {
+        "x": 2440.501018,
+        "y": 474.367181
+      },
+      "old": {
+        "x": 2440.50115,
+        "y": 474.367159
+      },
+      "pass": 8,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 187,
+      "movement_distance": 1.3e-05,
+      "new": {
+        "x": 1309.33289,
+        "y": 1146.666156
+      },
+      "old": {
+        "x": 1309.332898,
+        "y": 1146.666166
+      },
+      "pass": 8,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 188,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1242.486492,
+        "y": 860.472978
+      },
+      "old": {
+        "x": 1242.486495,
+        "y": 860.472979
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 189,
+      "movement_distance": 0.000146,
+      "new": {
+        "x": 1468.24157,
+        "y": 808.706929
+      },
+      "old": {
+        "x": 1468.241714,
+        "y": 808.706953
+      },
+      "pass": 8,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 190,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1396.241567,
+        "y": 841.116201
+      },
+      "old": {
+        "x": 1396.24157,
+        "y": 841.116202
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 191,
+      "movement_distance": 1.1e-05,
+      "new": {
+        "x": 1351.332889,
+        "y": 1135.332889
+      },
+      "old": {
+        "x": 1351.332897,
+        "y": 1135.332897
+      },
+      "pass": 8,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 192,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1213.068055,
+        "y": 997.068055
+      },
+      "old": {
+        "x": 1213.068057,
+        "y": 997.068057
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 193,
+      "movement_distance": 7.8e-05,
+      "new": {
+        "x": 1236.81057,
+        "y": 675.198426
+      },
+      "old": {
+        "x": 1236.810647,
+        "y": 675.198415
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 194,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1233.068056,
+        "y": 1017.068056
+      },
+      "old": {
+        "x": 1233.068058,
+        "y": 1017.068058
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 195,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1282.241568,
+        "y": 844.646964
+      },
+      "old": {
+        "x": 1282.241571,
+        "y": 844.646965
+      },
+      "pass": 8,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 196,
+      "movement_distance": 0.000122,
+      "new": {
+        "x": 1405.509263,
+        "y": 733.809096
+      },
+      "old": {
+        "x": 1405.509385,
+        "y": 733.8091
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 197,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1160.874024,
+        "y": 762.163878
+      },
+      "old": {
+        "x": 1160.874031,
+        "y": 762.163879
+      },
+      "pass": 9,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 198,
+      "movement_distance": 2e-06,
+      "new": {
+        "x": 1330.983701,
+        "y": 755.907609
+      },
+      "old": {
+        "x": 1330.983703,
+        "y": 755.907609
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 199,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990555,
+        "y": 288.012597
+      },
+      "old": {
+        "x": 1259.99057,
+        "y": 288.012576
+      },
+      "pass": 9,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 200,
+      "movement_distance": 0.000123,
+      "new": {
+        "x": 1559.899635,
+        "y": 787.448608
+      },
+      "old": {
+        "x": 1559.899757,
+        "y": 787.448621
+      },
+      "pass": 9,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 201,
+      "movement_distance": 1.2e-05,
+      "new": {
+        "x": 1279.332881,
+        "y": 1131.999463
+      },
+      "old": {
+        "x": 1279.332889,
+        "y": 1131.999472
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 202,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 2311.715547,
+        "y": 1270.286217
+      },
+      "old": {
+        "x": 2311.715548,
+        "y": 1270.286218
+      },
+      "pass": 9,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 203,
+      "movement_distance": 0.000156,
+      "new": {
+        "x": 2513.19663,
+        "y": 404.560673
+      },
+      "old": {
+        "x": 2513.196783,
+        "y": 404.560642
+      },
+      "pass": 9,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 204,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999913,
+        "y": 288.000269
+      },
+      "old": {
+        "x": 1079.999919,
+        "y": 288.00025
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 205,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1252.24156,
+        "y": 840.472974
+      },
+      "old": {
+        "x": 1252.241567,
+        "y": 840.472977
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 206,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1396.241567,
+        "y": 780.031508
+      },
+      "old": {
+        "x": 1396.24157,
+        "y": 780.031508
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 207,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1324.24156,
+        "y": 806.275901
+      },
+      "old": {
+        "x": 1324.241567,
+        "y": 806.275903
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 208,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.373847,
+        "y": 391.495322
+      },
+      "old": {
+        "x": 2611.374007,
+        "y": 391.495291
+      },
+      "pass": 9,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 209,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999988,
+        "y": 1439.999982
+      },
+      "old": {
+        "x": 1583.99999,
+        "y": 1439.999985
+      },
+      "pass": 9,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 210,
+      "movement_distance": 0.00012,
+      "new": {
+        "x": 2440.5009,
+        "y": 474.3672
+      },
+      "old": {
+        "x": 2440.501018,
+        "y": 474.367181
+      },
+      "pass": 9,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 211,
+      "movement_distance": 1.3e-05,
+      "new": {
+        "x": 1309.332882,
+        "y": 1146.666146
+      },
+      "old": {
+        "x": 1309.33289,
+        "y": 1146.666156
+      },
+      "pass": 9,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 212,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1242.486485,
+        "y": 860.472975
+      },
+      "old": {
+        "x": 1242.486492,
+        "y": 860.472978
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 213,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1468.241567,
+        "y": 808.706928
+      },
+      "old": {
+        "x": 1468.24157,
+        "y": 808.706929
+      },
+      "pass": 9,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 214,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.24156,
+        "y": 841.116199
+      },
+      "old": {
+        "x": 1396.241567,
+        "y": 841.116201
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 215,
+      "movement_distance": 1.1e-05,
+      "new": {
+        "x": 1351.332881,
+        "y": 1135.332881
+      },
+      "old": {
+        "x": 1351.332889,
+        "y": 1135.332889
+      },
+      "pass": 9,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 216,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1213.068053,
+        "y": 997.068053
+      },
+      "old": {
+        "x": 1213.068055,
+        "y": 997.068055
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 217,
+      "movement_distance": 9.9e-05,
+      "new": {
+        "x": 1236.810472,
+        "y": 675.198441
+      },
+      "old": {
+        "x": 1236.81057,
+        "y": 675.198426
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 218,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1233.068054,
+        "y": 1017.068054
+      },
+      "old": {
+        "x": 1233.068056,
+        "y": 1017.068056
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 219,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1282.241561,
+        "y": 844.646961
+      },
+      "old": {
+        "x": 1282.241568,
+        "y": 844.646964
+      },
+      "pass": 9,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 220,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1160.874018,
+        "y": 762.163877
+      },
+      "old": {
+        "x": 1160.874024,
+        "y": 762.163878
+      },
+      "pass": 10,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 221,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1330.983695,
+        "y": 755.907608
+      },
+      "old": {
+        "x": 1330.983701,
+        "y": 755.907609
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 222,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.99054,
+        "y": 288.012618
+      },
+      "old": {
+        "x": 1259.990555,
+        "y": 288.012597
+      },
+      "pass": 10,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 223,
+      "movement_distance": 1.2e-05,
+      "new": {
+        "x": 1279.332873,
+        "y": 1131.999454
+      },
+      "old": {
+        "x": 1279.332881,
+        "y": 1131.999463
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 224,
+      "movement_distance": 4.3e-05,
+      "new": {
+        "x": 2311.715507,
+        "y": 1270.286201
+      },
+      "old": {
+        "x": 2311.715547,
+        "y": 1270.286217
+      },
+      "pass": 10,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 225,
+      "movement_distance": 0.000155,
+      "new": {
+        "x": 2513.196478,
+        "y": 404.560703
+      },
+      "old": {
+        "x": 2513.19663,
+        "y": 404.560673
+      },
+      "pass": 10,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 226,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999907,
+        "y": 288.000288
+      },
+      "old": {
+        "x": 1079.999913,
+        "y": 288.000269
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 227,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1252.241553,
+        "y": 840.472971
+      },
+      "old": {
+        "x": 1252.24156,
+        "y": 840.472974
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 228,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.24156,
+        "y": 780.031507
+      },
+      "old": {
+        "x": 1396.241567,
+        "y": 780.031508
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 229,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1324.241553,
+        "y": 806.275899
+      },
+      "old": {
+        "x": 1324.24156,
+        "y": 806.275901
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 230,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.373687,
+        "y": 391.495353
+      },
+      "old": {
+        "x": 2611.373847,
+        "y": 391.495322
+      },
+      "pass": 10,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 231,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999986,
+        "y": 1439.999979
+      },
+      "old": {
+        "x": 1583.999988,
+        "y": 1439.999982
+      },
+      "pass": 10,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 232,
+      "movement_distance": 0.000125,
+      "new": {
+        "x": 2440.500777,
+        "y": 474.36722
+      },
+      "old": {
+        "x": 2440.5009,
+        "y": 474.3672
+      },
+      "pass": 10,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 233,
+      "movement_distance": 1.3e-05,
+      "new": {
+        "x": 1309.332874,
+        "y": 1146.666136
+      },
+      "old": {
+        "x": 1309.332882,
+        "y": 1146.666146
+      },
+      "pass": 10,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 234,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1242.486478,
+        "y": 860.472972
+      },
+      "old": {
+        "x": 1242.486485,
+        "y": 860.472975
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 235,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1468.24156,
+        "y": 808.706927
+      },
+      "old": {
+        "x": 1468.241567,
+        "y": 808.706928
+      },
+      "pass": 10,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 236,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.241553,
+        "y": 841.116197
+      },
+      "old": {
+        "x": 1396.24156,
+        "y": 841.116199
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 237,
+      "movement_distance": 1.1e-05,
+      "new": {
+        "x": 1351.332873,
+        "y": 1135.332873
+      },
+      "old": {
+        "x": 1351.332881,
+        "y": 1135.332881
+      },
+      "pass": 10,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 238,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1213.068051,
+        "y": 997.068051
+      },
+      "old": {
+        "x": 1213.068053,
+        "y": 997.068053
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 239,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1233.068052,
+        "y": 1017.068052
+      },
+      "old": {
+        "x": 1233.068054,
+        "y": 1017.068054
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 240,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1282.241554,
+        "y": 844.646958
+      },
+      "old": {
+        "x": 1282.241561,
+        "y": 844.646961
+      },
+      "pass": 10,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 241,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1405.509257,
+        "y": 733.809096
+      },
+      "old": {
+        "x": 1405.509263,
+        "y": 733.809096
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 242,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1160.87401,
+        "y": 762.163875
+      },
+      "old": {
+        "x": 1160.874018,
+        "y": 762.163877
+      },
+      "pass": 11,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 243,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1330.983688,
+        "y": 755.907607
+      },
+      "old": {
+        "x": 1330.983695,
+        "y": 755.907608
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 244,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990524,
+        "y": 288.012639
+      },
+      "old": {
+        "x": 1259.99054,
+        "y": 288.012618
+      },
+      "pass": 11,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 245,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1559.899627,
+        "y": 787.448607
+      },
+      "old": {
+        "x": 1559.899635,
+        "y": 787.448608
+      },
+      "pass": 11,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 246,
+      "movement_distance": 6.5e-05,
+      "new": {
+        "x": 1279.332831,
+        "y": 1131.999404
+      },
+      "old": {
+        "x": 1279.332873,
+        "y": 1131.999454
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 247,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 2311.715506,
+        "y": 1270.2862
+      },
+      "old": {
+        "x": 2311.715507,
+        "y": 1270.286201
+      },
+      "pass": 11,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 248,
+      "movement_distance": 0.00016,
+      "new": {
+        "x": 2513.196321,
+        "y": 404.560734
+      },
+      "old": {
+        "x": 2513.196478,
+        "y": 404.560703
+      },
+      "pass": 11,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 249,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999901,
+        "y": 288.000307
+      },
+      "old": {
+        "x": 1079.999907,
+        "y": 288.000288
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 250,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1252.241546,
+        "y": 840.472968
+      },
+      "old": {
+        "x": 1252.241553,
+        "y": 840.472971
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 251,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.241553,
+        "y": 780.031506
+      },
+      "old": {
+        "x": 1396.24156,
+        "y": 780.031507
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 252,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1324.241546,
+        "y": 806.275897
+      },
+      "old": {
+        "x": 1324.241553,
+        "y": 806.275899
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 253,
+      "movement_distance": 0.000165,
+      "new": {
+        "x": 2611.373525,
+        "y": 391.495385
+      },
+      "old": {
+        "x": 2611.373687,
+        "y": 391.495353
+      },
+      "pass": 11,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 254,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999984,
+        "y": 1439.999976
+      },
+      "old": {
+        "x": 1583.999986,
+        "y": 1439.999979
+      },
+      "pass": 11,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 255,
+      "movement_distance": 0.000136,
+      "new": {
+        "x": 2440.500643,
+        "y": 474.367242
+      },
+      "old": {
+        "x": 2440.500777,
+        "y": 474.36722
+      },
+      "pass": 11,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 256,
+      "movement_distance": 6.4e-05,
+      "new": {
+        "x": 1309.332832,
+        "y": 1146.666088
+      },
+      "old": {
+        "x": 1309.332874,
+        "y": 1146.666136
+      },
+      "pass": 11,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 257,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1242.486471,
+        "y": 860.472969
+      },
+      "old": {
+        "x": 1242.486478,
+        "y": 860.472972
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 258,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1468.241553,
+        "y": 808.706926
+      },
+      "old": {
+        "x": 1468.24156,
+        "y": 808.706927
+      },
+      "pass": 11,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 259,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.241546,
+        "y": 841.116195
+      },
+      "old": {
+        "x": 1396.241553,
+        "y": 841.116197
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 260,
+      "movement_distance": 5.9e-05,
+      "new": {
+        "x": 1351.332831,
+        "y": 1135.332831
+      },
+      "old": {
+        "x": 1351.332873,
+        "y": 1135.332873
+      },
+      "pass": 11,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 261,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1236.810468,
+        "y": 675.198442
+      },
+      "old": {
+        "x": 1236.810472,
+        "y": 675.198441
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 262,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1282.241547,
+        "y": 844.646955
+      },
+      "old": {
+        "x": 1282.241554,
+        "y": 844.646958
+      },
+      "pass": 11,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 263,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1405.509251,
+        "y": 733.809096
+      },
+      "old": {
+        "x": 1405.509257,
+        "y": 733.809096
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 264,
+      "movement_distance": 3.8e-05,
+      "new": {
+        "x": 1160.873973,
+        "y": 762.163868
+      },
+      "old": {
+        "x": 1160.87401,
+        "y": 762.163875
+      },
+      "pass": 12,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 265,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1330.983682,
+        "y": 755.907606
+      },
+      "old": {
+        "x": 1330.983688,
+        "y": 755.907607
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 266,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990509,
+        "y": 288.01266
+      },
+      "old": {
+        "x": 1259.990524,
+        "y": 288.012639
+      },
+      "pass": 12,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 267,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1559.89962,
+        "y": 787.448606
+      },
+      "old": {
+        "x": 1559.899627,
+        "y": 787.448607
+      },
+      "pass": 12,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 268,
+      "movement_distance": 0.000201,
+      "new": {
+        "x": 1279.332702,
+        "y": 1131.99925
+      },
+      "old": {
+        "x": 1279.332831,
+        "y": 1131.999404
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 269,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 2311.715505,
+        "y": 1270.286199
+      },
+      "old": {
+        "x": 2311.715506,
+        "y": 1270.2862
+      },
+      "pass": 12,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 270,
+      "movement_distance": 0.000158,
+      "new": {
+        "x": 2513.196166,
+        "y": 404.560765
+      },
+      "old": {
+        "x": 2513.196321,
+        "y": 404.560734
+      },
+      "pass": 12,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 271,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999895,
+        "y": 288.000326
+      },
+      "old": {
+        "x": 1079.999901,
+        "y": 288.000307
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 272,
+      "movement_distance": 4e-05,
+      "new": {
+        "x": 1252.241509,
+        "y": 840.472954
+      },
+      "old": {
+        "x": 1252.241546,
+        "y": 840.472968
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 273,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1396.241546,
+        "y": 780.031505
+      },
+      "old": {
+        "x": 1396.241553,
+        "y": 780.031506
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 274,
+      "movement_distance": 3.8e-05,
+      "new": {
+        "x": 1324.241509,
+        "y": 806.275889
+      },
+      "old": {
+        "x": 1324.241546,
+        "y": 806.275897
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 275,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.373365,
+        "y": 391.495416
+      },
+      "old": {
+        "x": 2611.373525,
+        "y": 391.495385
+      },
+      "pass": 12,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 276,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999982,
+        "y": 1439.999973
+      },
+      "old": {
+        "x": 1583.999984,
+        "y": 1439.999976
+      },
+      "pass": 12,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 277,
+      "movement_distance": 0.000128,
+      "new": {
+        "x": 2440.500517,
+        "y": 474.367263
+      },
+      "old": {
+        "x": 2440.500643,
+        "y": 474.367242
+      },
+      "pass": 12,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 278,
+      "movement_distance": 0.000196,
+      "new": {
+        "x": 1309.332703,
+        "y": 1146.66594
+      },
+      "old": {
+        "x": 1309.332832,
+        "y": 1146.666088
+      },
+      "pass": 12,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 279,
+      "movement_distance": 3.4e-05,
+      "new": {
+        "x": 1242.48644,
+        "y": 860.472955
+      },
+      "old": {
+        "x": 1242.486471,
+        "y": 860.472969
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 280,
+      "movement_distance": 7e-06,
+      "new": {
+        "x": 1468.241546,
+        "y": 808.706925
+      },
+      "old": {
+        "x": 1468.241553,
+        "y": 808.706926
+      },
+      "pass": 12,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 281,
+      "movement_distance": 3.8e-05,
+      "new": {
+        "x": 1396.241509,
+        "y": 841.116185
+      },
+      "old": {
+        "x": 1396.241546,
+        "y": 841.116195
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 282,
+      "movement_distance": 0.000182,
+      "new": {
+        "x": 1351.332702,
+        "y": 1135.332702
+      },
+      "old": {
+        "x": 1351.332831,
+        "y": 1135.332831
+      },
+      "pass": 12,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 283,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1236.810463,
+        "y": 675.198443
+      },
+      "old": {
+        "x": 1236.810468,
+        "y": 675.198442
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 284,
+      "movement_distance": 3.9e-05,
+      "new": {
+        "x": 1282.24151,
+        "y": 844.646942
+      },
+      "old": {
+        "x": 1282.241547,
+        "y": 844.646955
+      },
+      "pass": 12,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 285,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1405.509246,
+        "y": 733.809096
+      },
+      "old": {
+        "x": 1405.509251,
+        "y": 733.809096
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 286,
+      "movement_distance": 0.000117,
+      "new": {
+        "x": 1160.873858,
+        "y": 762.163846
+      },
+      "old": {
+        "x": 1160.873973,
+        "y": 762.163868
+      },
+      "pass": 13,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 287,
+      "movement_distance": 3.4e-05,
+      "new": {
+        "x": 1330.983648,
+        "y": 755.907603
+      },
+      "old": {
+        "x": 1330.983682,
+        "y": 755.907606
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 288,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990494,
+        "y": 288.012681
+      },
+      "old": {
+        "x": 1259.990509,
+        "y": 288.01266
+      },
+      "pass": 13,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 289,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1559.899614,
+        "y": 787.448605
+      },
+      "old": {
+        "x": 1559.89962,
+        "y": 787.448606
+      },
+      "pass": 13,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 290,
+      "movement_distance": 0.000256,
+      "new": {
+        "x": 1279.332538,
+        "y": 1131.999054
+      },
+      "old": {
+        "x": 1279.332702,
+        "y": 1131.99925
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 291,
+      "movement_distance": 2.7e-05,
+      "new": {
+        "x": 2311.71548,
+        "y": 1270.286189
+      },
+      "old": {
+        "x": 2311.715505,
+        "y": 1270.286199
+      },
+      "pass": 13,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 292,
+      "movement_distance": 0.000155,
+      "new": {
+        "x": 2513.196014,
+        "y": 404.560795
+      },
+      "old": {
+        "x": 2513.196166,
+        "y": 404.560765
+      },
+      "pass": 13,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 293,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999889,
+        "y": 288.000345
+      },
+      "old": {
+        "x": 1079.999895,
+        "y": 288.000326
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 294,
+      "movement_distance": 0.000122,
+      "new": {
+        "x": 1252.241395,
+        "y": 840.47291
+      },
+      "old": {
+        "x": 1252.241509,
+        "y": 840.472954
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 295,
+      "movement_distance": 3.7e-05,
+      "new": {
+        "x": 1396.241509,
+        "y": 780.0315
+      },
+      "old": {
+        "x": 1396.241546,
+        "y": 780.031505
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 296,
+      "movement_distance": 0.000117,
+      "new": {
+        "x": 1324.241395,
+        "y": 806.275864
+      },
+      "old": {
+        "x": 1324.241509,
+        "y": 806.275889
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 297,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.373205,
+        "y": 391.495447
+      },
+      "old": {
+        "x": 2611.373365,
+        "y": 391.495416
+      },
+      "pass": 13,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 298,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.99998,
+        "y": 1439.99997
+      },
+      "old": {
+        "x": 1583.999982,
+        "y": 1439.999973
+      },
+      "pass": 13,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 299,
+      "movement_distance": 0.000125,
+      "new": {
+        "x": 2440.500394,
+        "y": 474.367283
+      },
+      "old": {
+        "x": 2440.500517,
+        "y": 474.367263
+      },
+      "pass": 13,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 300,
+      "movement_distance": 0.000249,
+      "new": {
+        "x": 1309.332539,
+        "y": 1146.665752
+      },
+      "old": {
+        "x": 1309.332703,
+        "y": 1146.66594
+      },
+      "pass": 13,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 301,
+      "movement_distance": 0.000107,
+      "new": {
+        "x": 1242.486343,
+        "y": 860.472911
+      },
+      "old": {
+        "x": 1242.48644,
+        "y": 860.472955
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 302,
+      "movement_distance": 3.7e-05,
+      "new": {
+        "x": 1468.241509,
+        "y": 808.706919
+      },
+      "old": {
+        "x": 1468.241546,
+        "y": 808.706925
+      },
+      "pass": 13,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 303,
+      "movement_distance": 0.000118,
+      "new": {
+        "x": 1396.241395,
+        "y": 841.116155
+      },
+      "old": {
+        "x": 1396.241509,
+        "y": 841.116185
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 304,
+      "movement_distance": 0.000232,
+      "new": {
+        "x": 1351.332538,
+        "y": 1135.332538
+      },
+      "old": {
+        "x": 1351.332702,
+        "y": 1135.332702
+      },
+      "pass": 13,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 305,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1236.810459,
+        "y": 675.198444
+      },
+      "old": {
+        "x": 1236.810463,
+        "y": 675.198443
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 306,
+      "movement_distance": 0.000121,
+      "new": {
+        "x": 1282.241396,
+        "y": 844.646901
+      },
+      "old": {
+        "x": 1282.24151,
+        "y": 844.646942
+      },
+      "pass": 13,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 307,
+      "movement_distance": 3.1e-05,
+      "new": {
+        "x": 1405.509215,
+        "y": 733.809095
+      },
+      "old": {
+        "x": 1405.509246,
+        "y": 733.809096
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 308,
+      "movement_distance": 0.000147,
+      "new": {
+        "x": 1160.873713,
+        "y": 762.163819
+      },
+      "old": {
+        "x": 1160.873858,
+        "y": 762.163846
+      },
+      "pass": 14,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 309,
+      "movement_distance": 0.000104,
+      "new": {
+        "x": 1330.983544,
+        "y": 755.907594
+      },
+      "old": {
+        "x": 1330.983648,
+        "y": 755.907603
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 310,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990479,
+        "y": 288.012702
+      },
+      "old": {
+        "x": 1259.990494,
+        "y": 288.012681
+      },
+      "pass": 14,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 311,
+      "movement_distance": 3.3e-05,
+      "new": {
+        "x": 1559.899581,
+        "y": 787.448601
+      },
+      "old": {
+        "x": 1559.899614,
+        "y": 787.448605
+      },
+      "pass": 14,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 312,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1279.332535,
+        "y": 1131.999051
+      },
+      "old": {
+        "x": 1279.332538,
+        "y": 1131.999054
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 313,
+      "movement_distance": 1.8e-05,
+      "new": {
+        "x": 2311.715463,
+        "y": 1270.286182
+      },
+      "old": {
+        "x": 2311.71548,
+        "y": 1270.286189
+      },
+      "pass": 14,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 314,
+      "movement_distance": 0.00016,
+      "new": {
+        "x": 2513.195857,
+        "y": 404.560826
+      },
+      "old": {
+        "x": 2513.196014,
+        "y": 404.560795
+      },
+      "pass": 14,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 315,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999883,
+        "y": 288.000364
+      },
+      "old": {
+        "x": 1079.999889,
+        "y": 288.000345
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 316,
+      "movement_distance": 0.000154,
+      "new": {
+        "x": 1252.241251,
+        "y": 840.472855
+      },
+      "old": {
+        "x": 1252.241395,
+        "y": 840.47291
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 317,
+      "movement_distance": 0.000115,
+      "new": {
+        "x": 1396.241395,
+        "y": 780.031485
+      },
+      "old": {
+        "x": 1396.241509,
+        "y": 780.0315
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 318,
+      "movement_distance": 0.000148,
+      "new": {
+        "x": 1324.241251,
+        "y": 806.275832
+      },
+      "old": {
+        "x": 1324.241395,
+        "y": 806.275864
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 319,
+      "movement_distance": 0.000167,
+      "new": {
+        "x": 2611.373041,
+        "y": 391.495479
+      },
+      "old": {
+        "x": 2611.373205,
+        "y": 391.495447
+      },
+      "pass": 14,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 320,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999978,
+        "y": 1439.999967
+      },
+      "old": {
+        "x": 1583.99998,
+        "y": 1439.99997
+      },
+      "pass": 14,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 321,
+      "movement_distance": 0.000131,
+      "new": {
+        "x": 2440.500265,
+        "y": 474.367304
+      },
+      "old": {
+        "x": 2440.500394,
+        "y": 474.367283
+      },
+      "pass": 14,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 322,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1309.332536,
+        "y": 1146.665748
+      },
+      "old": {
+        "x": 1309.332539,
+        "y": 1146.665752
+      },
+      "pass": 14,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 323,
+      "movement_distance": 0.000133,
+      "new": {
+        "x": 1242.486222,
+        "y": 860.472856
+      },
+      "old": {
+        "x": 1242.486343,
+        "y": 860.472911
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 324,
+      "movement_distance": 0.000116,
+      "new": {
+        "x": 1468.241395,
+        "y": 808.7069
+      },
+      "old": {
+        "x": 1468.241509,
+        "y": 808.706919
+      },
+      "pass": 14,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 325,
+      "movement_distance": 0.000149,
+      "new": {
+        "x": 1396.241251,
+        "y": 841.116117
+      },
+      "old": {
+        "x": 1396.241395,
+        "y": 841.116155
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 326,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1351.332535,
+        "y": 1135.332535
+      },
+      "old": {
+        "x": 1351.332538,
+        "y": 1135.332538
+      },
+      "pass": 14,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 327,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1213.068049,
+        "y": 997.068049
+      },
+      "old": {
+        "x": 1213.068051,
+        "y": 997.068051
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "component:TPO"
+    },
+    {
+      "degree": 1,
+      "move_number": 328,
+      "movement_distance": 2.4e-05,
+      "new": {
+        "x": 1236.810435,
+        "y": 675.198448
+      },
+      "old": {
+        "x": 1236.810459,
+        "y": 675.198444
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 329,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1233.06805,
+        "y": 1017.06805
+      },
+      "old": {
+        "x": 1233.068052,
+        "y": 1017.068052
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "net:R4_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 330,
+      "movement_distance": 0.000153,
+      "new": {
+        "x": 1282.241252,
+        "y": 844.646849
+      },
+      "old": {
+        "x": 1282.241396,
+        "y": 844.646901
+      },
+      "pass": 14,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 331,
+      "movement_distance": 9.6e-05,
+      "new": {
+        "x": 1405.509119,
+        "y": 733.809092
+      },
+      "old": {
+        "x": 1405.509215,
+        "y": 733.809095
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 332,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1160.87371,
+        "y": 762.163818
+      },
+      "old": {
+        "x": 1160.873713,
+        "y": 762.163819
+      },
+      "pass": 15,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 333,
+      "movement_distance": 0.000132,
+      "new": {
+        "x": 1330.983413,
+        "y": 755.907582
+      },
+      "old": {
+        "x": 1330.983544,
+        "y": 755.907594
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 334,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990464,
+        "y": 288.012723
+      },
+      "old": {
+        "x": 1259.990479,
+        "y": 288.012702
+      },
+      "pass": 15,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 335,
+      "movement_distance": 9.9e-05,
+      "new": {
+        "x": 1559.899483,
+        "y": 787.44859
+      },
+      "old": {
+        "x": 1559.899581,
+        "y": 787.448601
+      },
+      "pass": 15,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 336,
+      "movement_distance": 9e-06,
+      "new": {
+        "x": 1279.332529,
+        "y": 1131.999044
+      },
+      "old": {
+        "x": 1279.332535,
+        "y": 1131.999051
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 337,
+      "movement_distance": 1.3e-05,
+      "new": {
+        "x": 2311.715451,
+        "y": 1270.286177
+      },
+      "old": {
+        "x": 2311.715463,
+        "y": 1270.286182
+      },
+      "pass": 15,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 338,
+      "movement_distance": 0.000156,
+      "new": {
+        "x": 2513.195704,
+        "y": 404.560857
+      },
+      "old": {
+        "x": 2513.195857,
+        "y": 404.560826
+      },
+      "pass": 15,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 339,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999877,
+        "y": 288.000383
+      },
+      "old": {
+        "x": 1079.999883,
+        "y": 288.000364
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 340,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1252.241248,
+        "y": 840.472854
+      },
+      "old": {
+        "x": 1252.241251,
+        "y": 840.472855
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 341,
+      "movement_distance": 0.000145,
+      "new": {
+        "x": 1396.241251,
+        "y": 780.031466
+      },
+      "old": {
+        "x": 1396.241395,
+        "y": 780.031485
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 342,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1324.241248,
+        "y": 806.275831
+      },
+      "old": {
+        "x": 1324.241251,
+        "y": 806.275832
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 343,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.372881,
+        "y": 391.49551
+      },
+      "old": {
+        "x": 2611.373041,
+        "y": 391.495479
+      },
+      "pass": 15,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 344,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999976,
+        "y": 1439.999964
+      },
+      "old": {
+        "x": 1583.999978,
+        "y": 1439.999967
+      },
+      "pass": 15,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 345,
+      "movement_distance": 0.00012,
+      "new": {
+        "x": 2440.500147,
+        "y": 474.367323
+      },
+      "old": {
+        "x": 2440.500265,
+        "y": 474.367304
+      },
+      "pass": 15,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 346,
+      "movement_distance": 9e-06,
+      "new": {
+        "x": 1309.33253,
+        "y": 1146.665741
+      },
+      "old": {
+        "x": 1309.332536,
+        "y": 1146.665748
+      },
+      "pass": 15,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 347,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1242.486219,
+        "y": 860.472855
+      },
+      "old": {
+        "x": 1242.486222,
+        "y": 860.472856
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 348,
+      "movement_distance": 0.000146,
+      "new": {
+        "x": 1468.241251,
+        "y": 808.706876
+      },
+      "old": {
+        "x": 1468.241395,
+        "y": 808.7069
+      },
+      "pass": 15,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 349,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1396.241248,
+        "y": 841.116116
+      },
+      "old": {
+        "x": 1396.241251,
+        "y": 841.116117
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 350,
+      "movement_distance": 8e-06,
+      "new": {
+        "x": 1351.332529,
+        "y": 1135.332529
+      },
+      "old": {
+        "x": 1351.332535,
+        "y": 1135.332535
+      },
+      "pass": 15,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 351,
+      "movement_distance": 7.8e-05,
+      "new": {
+        "x": 1236.810358,
+        "y": 675.198459
+      },
+      "old": {
+        "x": 1236.810435,
+        "y": 675.198448
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 352,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1282.241249,
+        "y": 844.646848
+      },
+      "old": {
+        "x": 1282.241252,
+        "y": 844.646849
+      },
+      "pass": 15,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 353,
+      "movement_distance": 0.000122,
+      "new": {
+        "x": 1405.508997,
+        "y": 733.809088
+      },
+      "old": {
+        "x": 1405.509119,
+        "y": 733.809092
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 354,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1160.873705,
+        "y": 762.163817
+      },
+      "old": {
+        "x": 1160.87371,
+        "y": 762.163818
+      },
+      "pass": 16,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 355,
+      "movement_distance": 2e-06,
+      "new": {
+        "x": 1330.983411,
+        "y": 755.907582
+      },
+      "old": {
+        "x": 1330.983413,
+        "y": 755.907582
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 356,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990449,
+        "y": 288.012744
+      },
+      "old": {
+        "x": 1259.990464,
+        "y": 288.012723
+      },
+      "pass": 16,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 357,
+      "movement_distance": 0.000123,
+      "new": {
+        "x": 1559.899361,
+        "y": 787.448577
+      },
+      "old": {
+        "x": 1559.899483,
+        "y": 787.44859
+      },
+      "pass": 16,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 358,
+      "movement_distance": 0.000256,
+      "new": {
+        "x": 1279.332365,
+        "y": 1131.998848
+      },
+      "old": {
+        "x": 1279.332529,
+        "y": 1131.999044
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 359,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 2311.71545,
+        "y": 1270.286176
+      },
+      "old": {
+        "x": 2311.715451,
+        "y": 1270.286177
+      },
+      "pass": 16,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 360,
+      "movement_distance": 0.000155,
+      "new": {
+        "x": 2513.195552,
+        "y": 404.560887
+      },
+      "old": {
+        "x": 2513.195704,
+        "y": 404.560857
+      },
+      "pass": 16,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 361,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999871,
+        "y": 288.000402
+      },
+      "old": {
+        "x": 1079.999877,
+        "y": 288.000383
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 362,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1252.241243,
+        "y": 840.472852
+      },
+      "old": {
+        "x": 1252.241248,
+        "y": 840.472854
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 363,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1396.241248,
+        "y": 780.031466
+      },
+      "old": {
+        "x": 1396.241251,
+        "y": 780.031466
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 364,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1324.241243,
+        "y": 806.27583
+      },
+      "old": {
+        "x": 1324.241248,
+        "y": 806.275831
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 365,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.372721,
+        "y": 391.495541
+      },
+      "old": {
+        "x": 2611.372881,
+        "y": 391.49551
+      },
+      "pass": 16,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 366,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999974,
+        "y": 1439.999961
+      },
+      "old": {
+        "x": 1583.999976,
+        "y": 1439.999964
+      },
+      "pass": 16,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 367,
+      "movement_distance": 0.000124,
+      "new": {
+        "x": 2440.500025,
+        "y": 474.367343
+      },
+      "old": {
+        "x": 2440.500147,
+        "y": 474.367323
+      },
+      "pass": 16,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 368,
+      "movement_distance": 0.000249,
+      "new": {
+        "x": 1309.332366,
+        "y": 1146.665553
+      },
+      "old": {
+        "x": 1309.33253,
+        "y": 1146.665741
+      },
+      "pass": 16,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 369,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1242.486214,
+        "y": 860.472853
+      },
+      "old": {
+        "x": 1242.486219,
+        "y": 860.472855
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 370,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1468.241248,
+        "y": 808.706875
+      },
+      "old": {
+        "x": 1468.241251,
+        "y": 808.706876
+      },
+      "pass": 16,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 371,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1396.241243,
+        "y": 841.116115
+      },
+      "old": {
+        "x": 1396.241248,
+        "y": 841.116116
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 372,
+      "movement_distance": 0.000232,
+      "new": {
+        "x": 1351.332365,
+        "y": 1135.332365
+      },
+      "old": {
+        "x": 1351.332529,
+        "y": 1135.332529
+      },
+      "pass": 16,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 373,
+      "movement_distance": 9.8e-05,
+      "new": {
+        "x": 1236.810261,
+        "y": 675.198474
+      },
+      "old": {
+        "x": 1236.810358,
+        "y": 675.198459
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 374,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1282.241244,
+        "y": 844.646846
+      },
+      "old": {
+        "x": 1282.241249,
+        "y": 844.646848
+      },
+      "pass": 16,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 375,
+      "movement_distance": 0.000148,
+      "new": {
+        "x": 1160.873559,
+        "y": 762.16379
+      },
+      "old": {
+        "x": 1160.873705,
+        "y": 762.163817
+      },
+      "pass": 17,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 4,
+      "move_number": 376,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1330.983407,
+        "y": 755.907582
+      },
+      "old": {
+        "x": 1330.983411,
+        "y": 755.907582
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 377,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990433,
+        "y": 288.012765
+      },
+      "old": {
+        "x": 1259.990449,
+        "y": 288.012744
+      },
+      "pass": 17,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 378,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 1279.332364,
+        "y": 1131.998847
+      },
+      "old": {
+        "x": 1279.332365,
+        "y": 1131.998848
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 379,
+      "movement_distance": 4.3e-05,
+      "new": {
+        "x": 2311.71541,
+        "y": 1270.28616
+      },
+      "old": {
+        "x": 2311.71545,
+        "y": 1270.286176
+      },
+      "pass": 17,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 380,
+      "movement_distance": 0.00016,
+      "new": {
+        "x": 2513.195395,
+        "y": 404.560918
+      },
+      "old": {
+        "x": 2513.195552,
+        "y": 404.560887
+      },
+      "pass": 17,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 381,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999865,
+        "y": 288.000421
+      },
+      "old": {
+        "x": 1079.999871,
+        "y": 288.000402
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 382,
+      "movement_distance": 0.000154,
+      "new": {
+        "x": 1252.241099,
+        "y": 840.472797
+      },
+      "old": {
+        "x": 1252.241243,
+        "y": 840.472852
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 383,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1396.241243,
+        "y": 780.031465
+      },
+      "old": {
+        "x": 1396.241248,
+        "y": 780.031466
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 384,
+      "movement_distance": 0.000148,
+      "new": {
+        "x": 1324.241099,
+        "y": 806.275798
+      },
+      "old": {
+        "x": 1324.241243,
+        "y": 806.27583
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 385,
+      "movement_distance": 0.000164,
+      "new": {
+        "x": 2611.37256,
+        "y": 391.495573
+      },
+      "old": {
+        "x": 2611.372721,
+        "y": 391.495541
+      },
+      "pass": 17,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 386,
+      "movement_distance": 0.000138,
+      "new": {
+        "x": 2440.499889,
+        "y": 474.367365
+      },
+      "old": {
+        "x": 2440.500025,
+        "y": 474.367343
+      },
+      "pass": 17,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 387,
+      "movement_distance": 2e-06,
+      "new": {
+        "x": 1309.332365,
+        "y": 1146.665551
+      },
+      "old": {
+        "x": 1309.332366,
+        "y": 1146.665553
+      },
+      "pass": 17,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 388,
+      "movement_distance": 0.000133,
+      "new": {
+        "x": 1242.486093,
+        "y": 860.472798
+      },
+      "old": {
+        "x": 1242.486214,
+        "y": 860.472853
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 389,
+      "movement_distance": 5e-06,
+      "new": {
+        "x": 1468.241243,
+        "y": 808.706874
+      },
+      "old": {
+        "x": 1468.241248,
+        "y": 808.706875
+      },
+      "pass": 17,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 390,
+      "movement_distance": 0.000149,
+      "new": {
+        "x": 1396.241099,
+        "y": 841.116077
+      },
+      "old": {
+        "x": 1396.241243,
+        "y": 841.116115
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 391,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 1351.332364,
+        "y": 1135.332364
+      },
+      "old": {
+        "x": 1351.332365,
+        "y": 1135.332365
+      },
+      "pass": 17,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 392,
+      "movement_distance": 0.000153,
+      "new": {
+        "x": 1282.2411,
+        "y": 844.646794
+      },
+      "old": {
+        "x": 1282.241244,
+        "y": 844.646846
+      },
+      "pass": 17,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 393,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1405.508994,
+        "y": 733.809088
+      },
+      "old": {
+        "x": 1405.508997,
+        "y": 733.809088
+      },
+      "pass": 18,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 4,
+      "move_number": 394,
+      "movement_distance": 0.000133,
+      "new": {
+        "x": 1330.983275,
+        "y": 755.90757
+      },
+      "old": {
+        "x": 1330.983407,
+        "y": 755.907582
+      },
+      "pass": 18,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 395,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990418,
+        "y": 288.012786
+      },
+      "old": {
+        "x": 1259.990433,
+        "y": 288.012765
+      },
+      "pass": 18,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 396,
+      "movement_distance": 6e-06,
+      "new": {
+        "x": 1559.899355,
+        "y": 787.448576
+      },
+      "old": {
+        "x": 1559.899361,
+        "y": 787.448577
+      },
+      "pass": 18,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 397,
+      "movement_distance": 0.000256,
+      "new": {
+        "x": 1279.3322,
+        "y": 1131.998651
+      },
+      "old": {
+        "x": 1279.332364,
+        "y": 1131.998847
+      },
+      "pass": 18,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 398,
+      "movement_distance": 2.2e-05,
+      "new": {
+        "x": 2311.71539,
+        "y": 1270.286152
+      },
+      "old": {
+        "x": 2311.71541,
+        "y": 1270.28616
+      },
+      "pass": 18,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 399,
+      "movement_distance": 0.000158,
+      "new": {
+        "x": 2513.19524,
+        "y": 404.560949
+      },
+      "old": {
+        "x": 2513.195395,
+        "y": 404.560918
+      },
+      "pass": 18,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 400,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999859,
+        "y": 288.00044
+      },
+      "old": {
+        "x": 1079.999865,
+        "y": 288.000421
+      },
+      "pass": 18,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 401,
+      "movement_distance": 0.000145,
+      "new": {
+        "x": 1396.241099,
+        "y": 780.031446
+      },
+      "old": {
+        "x": 1396.241243,
+        "y": 780.031465
+      },
+      "pass": 18,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 402,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.3724,
+        "y": 391.495604
+      },
+      "old": {
+        "x": 2611.37256,
+        "y": 391.495573
+      },
+      "pass": 18,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 403,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999972,
+        "y": 1439.999958
+      },
+      "old": {
+        "x": 1583.999974,
+        "y": 1439.999961
+      },
+      "pass": 18,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 404,
+      "movement_distance": 0.000128,
+      "new": {
+        "x": 2440.499763,
+        "y": 474.367386
+      },
+      "old": {
+        "x": 2440.499889,
+        "y": 474.367365
+      },
+      "pass": 18,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 405,
+      "movement_distance": 0.000249,
+      "new": {
+        "x": 1309.332201,
+        "y": 1146.665363
+      },
+      "old": {
+        "x": 1309.332365,
+        "y": 1146.665551
+      },
+      "pass": 18,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 1,
+      "move_number": 406,
+      "movement_distance": 0.000146,
+      "new": {
+        "x": 1468.241099,
+        "y": 808.70685
+      },
+      "old": {
+        "x": 1468.241243,
+        "y": 808.706874
+      },
+      "pass": 18,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 407,
+      "movement_distance": 0.000232,
+      "new": {
+        "x": 1351.3322,
+        "y": 1135.3322
+      },
+      "old": {
+        "x": 1351.332364,
+        "y": 1135.332364
+      },
+      "pass": 18,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 408,
+      "movement_distance": 3e-06,
+      "new": {
+        "x": 1236.810258,
+        "y": 675.198474
+      },
+      "old": {
+        "x": 1236.810261,
+        "y": 675.198474
+      },
+      "pass": 18,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 5,
+      "move_number": 409,
+      "movement_distance": 0.000122,
+      "new": {
+        "x": 1405.508872,
+        "y": 733.809084
+      },
+      "old": {
+        "x": 1405.508994,
+        "y": 733.809088
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_A"
+    },
+    {
+      "degree": 5,
+      "move_number": 410,
+      "movement_distance": 0.000148,
+      "new": {
+        "x": 1160.873413,
+        "y": 762.163763
+      },
+      "old": {
+        "x": 1160.873559,
+        "y": 762.16379
+      },
+      "pass": 19,
+      "path_evaluations": 29,
+      "vertex": "net:NODE_C"
+    },
+    {
+      "degree": 3,
+      "move_number": 411,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990403,
+        "y": 288.012807
+      },
+      "old": {
+        "x": 1259.990418,
+        "y": 288.012786
+      },
+      "pass": 19,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 412,
+      "movement_distance": 0.000123,
+      "new": {
+        "x": 1559.899233,
+        "y": 787.448563
+      },
+      "old": {
+        "x": 1559.899355,
+        "y": 787.448576
+      },
+      "pass": 19,
+      "path_evaluations": 31,
+      "vertex": "component:J_R1"
+    },
+    {
+      "degree": 3,
+      "move_number": 413,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 1279.332199,
+        "y": 1131.99865
+      },
+      "old": {
+        "x": 1279.3322,
+        "y": 1131.998651
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 414,
+      "movement_distance": 2e-06,
+      "new": {
+        "x": 2311.715388,
+        "y": 1270.286151
+      },
+      "old": {
+        "x": 2311.71539,
+        "y": 1270.286152
+      },
+      "pass": 19,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 415,
+      "movement_distance": 0.000155,
+      "new": {
+        "x": 2513.195088,
+        "y": 404.560979
+      },
+      "old": {
+        "x": 2513.19524,
+        "y": 404.560949
+      },
+      "pass": 19,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 416,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999853,
+        "y": 288.000459
+      },
+      "old": {
+        "x": 1079.999859,
+        "y": 288.00044
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 417,
+      "movement_distance": 0.000156,
+      "new": {
+        "x": 1252.240953,
+        "y": 840.472741
+      },
+      "old": {
+        "x": 1252.241099,
+        "y": 840.472797
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "component:JP1"
+    },
+    {
+      "degree": 2,
+      "move_number": 418,
+      "movement_distance": 0.000149,
+      "new": {
+        "x": 1324.240953,
+        "y": 806.275766
+      },
+      "old": {
+        "x": 1324.241099,
+        "y": 806.275798
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "component:R3"
+    },
+    {
+      "degree": 2,
+      "move_number": 419,
+      "movement_distance": 0.000163,
+      "new": {
+        "x": 2611.37224,
+        "y": 391.495635
+      },
+      "old": {
+        "x": 2611.3724,
+        "y": 391.495604
+      },
+      "pass": 19,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 420,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.99997,
+        "y": 1439.999955
+      },
+      "old": {
+        "x": 1583.999972,
+        "y": 1439.999958
+      },
+      "pass": 19,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 421,
+      "movement_distance": 0.000125,
+      "new": {
+        "x": 2440.49964,
+        "y": 474.367406
+      },
+      "old": {
+        "x": 2440.499763,
+        "y": 474.367386
+      },
+      "pass": 19,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 422,
+      "movement_distance": 2e-06,
+      "new": {
+        "x": 1309.3322,
+        "y": 1146.665361
+      },
+      "old": {
+        "x": 1309.332201,
+        "y": 1146.665363
+      },
+      "pass": 19,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 423,
+      "movement_distance": 0.000135,
+      "new": {
+        "x": 1242.48597,
+        "y": 860.472742
+      },
+      "old": {
+        "x": 1242.486093,
+        "y": 860.472798
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "net:RA_SW"
+    },
+    {
+      "degree": 1,
+      "move_number": 424,
+      "movement_distance": 0.000151,
+      "new": {
+        "x": 1396.240953,
+        "y": 841.116039
+      },
+      "old": {
+        "x": 1396.241099,
+        "y": 841.116077
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "component:TPB"
+    },
+    {
+      "degree": 1,
+      "move_number": 425,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 1351.332199,
+        "y": 1135.332199
+      },
+      "old": {
+        "x": 1351.3322,
+        "y": 1135.3322
+      },
+      "pass": 19,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 426,
+      "movement_distance": 9.8e-05,
+      "new": {
+        "x": 1236.810161,
+        "y": 675.198488
+      },
+      "old": {
+        "x": 1236.810258,
+        "y": 675.198474
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    },
+    {
+      "degree": 1,
+      "move_number": 427,
+      "movement_distance": 0.000155,
+      "new": {
+        "x": 1282.240954,
+        "y": 844.646741
+      },
+      "old": {
+        "x": 1282.2411,
+        "y": 844.646794
+      },
+      "pass": 19,
+      "path_evaluations": 30,
+      "vertex": "net:RA_W"
+    },
+    {
+      "degree": 4,
+      "move_number": 428,
+      "movement_distance": 0.000134,
+      "new": {
+        "x": 1330.983142,
+        "y": 755.907558
+      },
+      "old": {
+        "x": 1330.983275,
+        "y": 755.90757
+      },
+      "pass": 20,
+      "path_evaluations": 30,
+      "vertex": "net:NODE_B"
+    },
+    {
+      "degree": 3,
+      "move_number": 429,
+      "movement_distance": 2.6e-05,
+      "new": {
+        "x": 1259.990388,
+        "y": 288.012828
+      },
+      "old": {
+        "x": 1259.990403,
+        "y": 288.012807
+      },
+      "pass": 20,
+      "path_evaluations": 31,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "degree": 3,
+      "move_number": 430,
+      "movement_distance": 0.000201,
+      "new": {
+        "x": 1279.33207,
+        "y": 1131.998496
+      },
+      "old": {
+        "x": 1279.332199,
+        "y": 1131.99865
+      },
+      "pass": 20,
+      "path_evaluations": 30,
+      "vertex": "component:J_R4"
+    },
+    {
+      "degree": 3,
+      "move_number": 431,
+      "movement_distance": 1e-06,
+      "new": {
+        "x": 2311.715387,
+        "y": 1270.28615
+      },
+      "old": {
+        "x": 2311.715388,
+        "y": 1270.286151
+      },
+      "pass": 20,
+      "path_evaluations": 32,
+      "vertex": "component:J_RA"
+    },
+    {
+      "degree": 2,
+      "move_number": 432,
+      "movement_distance": 0.00016,
+      "new": {
+        "x": 2513.194931,
+        "y": 404.56101
+      },
+      "old": {
+        "x": 2513.195088,
+        "y": 404.560979
+      },
+      "pass": 20,
+      "path_evaluations": 32,
+      "vertex": "component:C1"
+    },
+    {
+      "degree": 2,
+      "move_number": 433,
+      "movement_distance": 2e-05,
+      "new": {
+        "x": 1079.999847,
+        "y": 288.000478
+      },
+      "old": {
+        "x": 1079.999853,
+        "y": 288.000459
+      },
+      "pass": 20,
+      "path_evaluations": 30,
+      "vertex": "component:C2"
+    },
+    {
+      "degree": 2,
+      "move_number": 434,
+      "movement_distance": 0.000147,
+      "new": {
+        "x": 1396.240953,
+        "y": 780.031427
+      },
+      "old": {
+        "x": 1396.241099,
+        "y": 780.031446
+      },
+      "pass": 20,
+      "path_evaluations": 30,
+      "vertex": "component:R2"
+    },
+    {
+      "degree": 2,
+      "move_number": 435,
+      "movement_distance": 0.000167,
+      "new": {
+        "x": 2611.372076,
+        "y": 391.495667
+      },
+      "old": {
+        "x": 2611.37224,
+        "y": 391.495635
+      },
+      "pass": 20,
+      "path_evaluations": 32,
+      "vertex": "component:RMIN1"
+    },
+    {
+      "degree": 2,
+      "move_number": 436,
+      "movement_distance": 4e-06,
+      "new": {
+        "x": 1583.999968,
+        "y": 1439.999952
+      },
+      "old": {
+        "x": 1583.99997,
+        "y": 1439.999955
+      },
+      "pass": 20,
+      "path_evaluations": 31,
+      "vertex": "component:RMIN4"
+    },
+    {
+      "degree": 2,
+      "move_number": 437,
+      "movement_distance": 0.000131,
+      "new": {
+        "x": 2440.499511,
+        "y": 474.367427
+      },
+      "old": {
+        "x": 2440.49964,
+        "y": 474.367406
+      },
+      "pass": 20,
+      "path_evaluations": 32,
+      "vertex": "net:R1_EXT"
+    },
+    {
+      "degree": 2,
+      "move_number": 438,
+      "movement_distance": 0.000196,
+      "new": {
+        "x": 1309.332071,
+        "y": 1146.665213
+      },
+      "old": {
+        "x": 1309.3322,
+        "y": 1146.665361
+      },
+      "pass": 20,
+      "path_evaluations": 31,
+      "vertex": "net:R4_EXT"
+    },
+    {
+      "degree": 1,
+      "move_number": 439,
+      "movement_distance": 0.000148,
+      "new": {
+        "x": 1468.240953,
+        "y": 808.706826
+      },
+      "old": {
+        "x": 1468.241099,
+        "y": 808.70685
+      },
+      "pass": 20,
+      "path_evaluations": 31,
+      "vertex": "component:TPA"
+    },
+    {
+      "degree": 1,
+      "move_number": 440,
+      "movement_distance": 0.000182,
+      "new": {
+        "x": 1351.33207,
+        "y": 1135.33207
+      },
+      "old": {
+        "x": 1351.332199,
+        "y": 1135.332199
+      },
+      "pass": 20,
+      "path_evaluations": 31,
+      "vertex": "component:TPC"
+    },
+    {
+      "degree": 1,
+      "move_number": 441,
+      "movement_distance": 2e-06,
+      "new": {
+        "x": 1236.810159,
+        "y": 675.198488
+      },
+      "old": {
+        "x": 1236.810161,
+        "y": 675.198488
+      },
+      "pass": 20,
+      "path_evaluations": 30,
+      "vertex": "net:R1_W"
+    }
+  ],
+  "pass_count": 20,
+  "passes": [
+    {
+      "pass": 1,
+      "vertices_moved": 29
+    },
+    {
+      "pass": 2,
+      "vertices_moved": 27
+    },
+    {
+      "pass": 3,
+      "vertices_moved": 26
+    },
+    {
+      "pass": 4,
+      "vertices_moved": 21
+    },
+    {
+      "pass": 5,
+      "vertices_moved": 22
+    },
+    {
+      "pass": 6,
+      "vertices_moved": 22
+    },
+    {
+      "pass": 7,
+      "vertices_moved": 24
+    },
+    {
+      "pass": 8,
+      "vertices_moved": 24
+    },
+    {
+      "pass": 9,
+      "vertices_moved": 24
+    },
+    {
+      "pass": 10,
+      "vertices_moved": 21
+    },
+    {
+      "pass": 11,
+      "vertices_moved": 22
+    },
+    {
+      "pass": 12,
+      "vertices_moved": 22
+    },
+    {
+      "pass": 13,
+      "vertices_moved": 22
+    },
+    {
+      "pass": 14,
+      "vertices_moved": 24
+    },
+    {
+      "pass": 15,
+      "vertices_moved": 22
+    },
+    {
+      "pass": 16,
+      "vertices_moved": 22
+    },
+    {
+      "pass": 17,
+      "vertices_moved": 18
+    },
+    {
+      "pass": 18,
+      "vertices_moved": 16
+    },
+    {
+      "pass": 19,
+      "vertices_moved": 19
+    },
+    {
+      "pass": 20,
+      "vertices_moved": 14
+    }
+  ],
+  "processing_order": [
+    "net:GND",
+    "net:NODE_A",
+    "net:NODE_C",
+    "net:EOUT",
+    "net:NODE_B",
+    "component:J_PWR",
+    "component:J_R1",
+    "component:J_R4",
+    "component:J_RA",
+    "net:+9V",
+    "net:-9V",
+    "component:C1",
+    "component:C2",
+    "component:JP1",
+    "component:J_EA",
+    "component:J_EB",
+    "component:J_OUT",
+    "component:R2",
+    "component:R3",
+    "component:RMIN1",
+    "component:RMIN4",
+    "net:EA",
+    "net:EB",
+    "net:R1_EXT",
+    "net:R4_EXT",
+    "net:RA_SW",
+    "component:TPA",
+    "component:TPB",
+    "component:TPC",
+    "component:TPO",
+    "net:R1_W",
+    "net:R4_W",
+    "net:RA_W"
+  ],
+  "stopping_reason": "20-pass safety limit reached"
+}

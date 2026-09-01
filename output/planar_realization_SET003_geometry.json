@@ -1,0 +1,7 @@
+{
+  "layer0_polylines": [],
+  "layer1_polylines": [],
+  "reason": "The exact saved rotation system requires independent reversal of some component terminal cycles while other 3+-terminal cycles retain current order. The fixed anonymous rectangle geometry cannot realize this mixed pattern without forbidden component mirroring or changing the embedding.",
+  "set_id": "SET003",
+  "status": "NO_VALID_PRIMARY_GEOMETRY"
+}

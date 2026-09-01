@@ -1,0 +1,219 @@
+{
+  "all_combinations_at_winning_k_tested": true,
+  "minimum_k": 2,
+  "minimum_sets": [
+    {
+      "distinct_components_affected": 2,
+      "distinct_nets_affected": 2,
+      "embedding_artifact": "constrained_planarization_embedding_SET001.json",
+      "embedding_sha256": "a1bcca01ab2ca8b3b175a538bb59d32411693cdf6df848ff0428b22ff7de7766",
+      "embedding_verification": {
+        "embedding_structure_valid": true,
+        "euler_characteristic": 2,
+        "euler_verified": true,
+        "face_count": 30,
+        "required_euler_characteristic": 2,
+        "same_edge_set": true,
+        "same_vertex_set": true,
+        "verified": true
+      },
+      "exemptions": [
+        {
+          "component": "J_OUT",
+          "edge": [
+            "terminal:J_OUT.1",
+            "net:EOUT"
+          ],
+          "net": "EOUT",
+          "pin": "1",
+          "terminal": "J_OUT.1"
+        },
+        {
+          "component": "U1",
+          "edge": [
+            "terminal:U1.8",
+            "net:+9V"
+          ],
+          "net": "+9V",
+          "pin": "8",
+          "terminal": "U1.8"
+        }
+      ],
+      "incidence_labels": [
+        "J_OUT.1 -- EOUT",
+        "U1.8 -- +9V"
+      ],
+      "intersects_original_4p_obstruction": true,
+      "multiple_exemptions_same_component": false,
+      "multiple_exemptions_same_net": false,
+      "original_obstruction_intersection": [
+        "U1.8 -- +9V"
+      ],
+      "reinsertion_crossing_minimum": "NOT COMPUTED",
+      "reinsertion_reason": "No established exact constrained optimal-edge-insertion implementation is available locally.",
+      "resulting_edge_count": 106,
+      "resulting_vertex_count": 78,
+      "set_id": "SET001"
+    },
+    {
+      "distinct_components_affected": 2,
+      "distinct_nets_affected": 2,
+      "embedding_artifact": "constrained_planarization_embedding_SET002.json",
+      "embedding_sha256": "6c791cf1a8b4b78dc20f0d893df36cc48bdb0fd4e8c634ca0b2f6a215fe9e1b4",
+      "embedding_verification": {
+        "embedding_structure_valid": true,
+        "euler_characteristic": 2,
+        "euler_verified": true,
+        "face_count": 30,
+        "required_euler_characteristic": 2,
+        "same_edge_set": true,
+        "same_vertex_set": true,
+        "verified": true
+      },
+      "exemptions": [
+        {
+          "component": "J_OUT",
+          "edge": [
+            "terminal:J_OUT.2",
+            "net:GND"
+          ],
+          "net": "GND",
+          "pin": "2",
+          "terminal": "J_OUT.2"
+        },
+        {
+          "component": "U1",
+          "edge": [
+            "terminal:U1.8",
+            "net:+9V"
+          ],
+          "net": "+9V",
+          "pin": "8",
+          "terminal": "U1.8"
+        }
+      ],
+      "incidence_labels": [
+        "J_OUT.2 -- GND",
+        "U1.8 -- +9V"
+      ],
+      "intersects_original_4p_obstruction": true,
+      "multiple_exemptions_same_component": false,
+      "multiple_exemptions_same_net": false,
+      "original_obstruction_intersection": [
+        "U1.8 -- +9V"
+      ],
+      "reinsertion_crossing_minimum": "NOT COMPUTED",
+      "reinsertion_reason": "No established exact constrained optimal-edge-insertion implementation is available locally.",
+      "resulting_edge_count": 106,
+      "resulting_vertex_count": 78,
+      "set_id": "SET002"
+    },
+    {
+      "distinct_components_affected": 1,
+      "distinct_nets_affected": 2,
+      "embedding_artifact": "constrained_planarization_embedding_SET003.json",
+      "embedding_sha256": "ffcbb1f671d02e41b784e438ff145ccc9c970eb5de16d9e2b8d46505007cb105",
+      "embedding_verification": {
+        "embedding_structure_valid": true,
+        "euler_characteristic": 2,
+        "euler_verified": true,
+        "face_count": 30,
+        "required_euler_characteristic": 2,
+        "same_edge_set": true,
+        "same_vertex_set": true,
+        "verified": true
+      },
+      "exemptions": [
+        {
+          "component": "U1",
+          "edge": [
+            "terminal:U1.6",
+            "net:NODE_C"
+          ],
+          "net": "NODE_C",
+          "pin": "6",
+          "terminal": "U1.6"
+        },
+        {
+          "component": "U1",
+          "edge": [
+            "terminal:U1.8",
+            "net:+9V"
+          ],
+          "net": "+9V",
+          "pin": "8",
+          "terminal": "U1.8"
+        }
+      ],
+      "incidence_labels": [
+        "U1.6 -- NODE_C",
+        "U1.8 -- +9V"
+      ],
+      "intersects_original_4p_obstruction": true,
+      "multiple_exemptions_same_component": true,
+      "multiple_exemptions_same_net": false,
+      "original_obstruction_intersection": [
+        "U1.6 -- NODE_C",
+        "U1.8 -- +9V"
+      ],
+      "reinsertion_crossing_minimum": "NOT COMPUTED",
+      "reinsertion_reason": "No established exact constrained optimal-edge-insertion implementation is available locally.",
+      "resulting_edge_count": 106,
+      "resulting_vertex_count": 78,
+      "set_id": "SET003"
+    },
+    {
+      "distinct_components_affected": 1,
+      "distinct_nets_affected": 2,
+      "embedding_artifact": "constrained_planarization_embedding_SET004.json",
+      "embedding_sha256": "1a487ddcc438f2fc786ef15b9444c85992a25dc5de6e70a8f1990210483cb19c",
+      "embedding_verification": {
+        "embedding_structure_valid": true,
+        "euler_characteristic": 2,
+        "euler_verified": true,
+        "face_count": 30,
+        "required_euler_characteristic": 2,
+        "same_edge_set": true,
+        "same_vertex_set": true,
+        "verified": true
+      },
+      "exemptions": [
+        {
+          "component": "U1",
+          "edge": [
+            "terminal:U1.7",
+            "net:EOUT"
+          ],
+          "net": "EOUT",
+          "pin": "7",
+          "terminal": "U1.7"
+        },
+        {
+          "component": "U1",
+          "edge": [
+            "terminal:U1.8",
+            "net:+9V"
+          ],
+          "net": "+9V",
+          "pin": "8",
+          "terminal": "U1.8"
+        }
+      ],
+      "incidence_labels": [
+        "U1.7 -- EOUT",
+        "U1.8 -- +9V"
+      ],
+      "intersects_original_4p_obstruction": true,
+      "multiple_exemptions_same_component": true,
+      "multiple_exemptions_same_net": false,
+      "original_obstruction_intersection": [
+        "U1.8 -- +9V"
+      ],
+      "reinsertion_crossing_minimum": "NOT COMPUTED",
+      "reinsertion_reason": "No established exact constrained optimal-edge-insertion implementation is available locally.",
+      "resulting_edge_count": 106,
+      "resulting_vertex_count": 78,
+      "set_id": "SET004"
+    }
+  ]
+}

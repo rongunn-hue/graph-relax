@@ -1,0 +1,605 @@
+{
+  "cyclic_neighbor_order_clockwise": {
+    "component:C1": [
+      "net:+9V",
+      "net:GND"
+    ],
+    "component:C2": [
+      "net:GND",
+      "net:-9V"
+    ],
+    "component:JP1": [
+      "net:NODE_C",
+      "net:RA_SW"
+    ],
+    "component:J_EA": [
+      "net:EA",
+      "net:GND"
+    ],
+    "component:J_EB": [
+      "net:EB",
+      "net:GND"
+    ],
+    "component:J_OUT": [
+      "net:EOUT",
+      "net:GND"
+    ],
+    "component:J_PWR": [
+      "net:+9V",
+      "net:GND",
+      "net:-9V"
+    ],
+    "component:J_R1": [
+      "net:NODE_A",
+      "net:R1_EXT",
+      "net:R1_W"
+    ],
+    "component:J_R4": [
+      "net:EOUT",
+      "net:R4_EXT",
+      "net:R4_W"
+    ],
+    "component:J_RA": [
+      "net:RA_SW",
+      "net:NODE_A",
+      "net:RA_W"
+    ],
+    "component:R2": [
+      "net:NODE_A",
+      "net:NODE_B"
+    ],
+    "component:R3": [
+      "net:NODE_B",
+      "net:NODE_C"
+    ],
+    "component:RMIN1": [
+      "net:R1_EXT",
+      "net:GND"
+    ],
+    "component:RMIN4": [
+      "net:R4_EXT",
+      "net:NODE_C"
+    ],
+    "component:TPA": [
+      "net:NODE_A"
+    ],
+    "component:TPB": [
+      "net:NODE_B"
+    ],
+    "component:TPC": [
+      "net:NODE_C"
+    ],
+    "component:TPO": [
+      "net:EOUT"
+    ],
+    "component:U1": [
+      "net:-9V",
+      "net:EA",
+      "net:EB",
+      "net:EOUT",
+      "net:NODE_C",
+      "net:NODE_B",
+      "net:NODE_A",
+      "net:+9V"
+    ],
+    "net:+9V": [
+      "component:C1",
+      "component:J_PWR",
+      "component:U1"
+    ],
+    "net:-9V": [
+      "component:C2",
+      "component:U1",
+      "component:J_PWR"
+    ],
+    "net:EA": [
+      "component:U1",
+      "component:J_EA"
+    ],
+    "net:EB": [
+      "component:U1",
+      "component:J_EB"
+    ],
+    "net:EOUT": [
+      "component:U1",
+      "component:J_OUT",
+      "component:J_R4",
+      "component:TPO"
+    ],
+    "net:GND": [
+      "component:J_PWR",
+      "component:C1",
+      "component:RMIN1",
+      "component:J_OUT",
+      "component:J_EB",
+      "component:J_EA",
+      "component:C2"
+    ],
+    "net:NODE_A": [
+      "component:J_RA",
+      "component:J_R1",
+      "component:U1",
+      "component:R2",
+      "component:TPA"
+    ],
+    "net:NODE_B": [
+      "component:R2",
+      "component:U1",
+      "component:R3",
+      "component:TPB"
+    ],
+    "net:NODE_C": [
+      "component:RMIN4",
+      "component:JP1",
+      "component:R3",
+      "component:U1",
+      "component:TPC"
+    ],
+    "net:R1_EXT": [
+      "component:J_R1",
+      "component:RMIN1"
+    ],
+    "net:R1_W": [
+      "component:J_R1"
+    ],
+    "net:R4_EXT": [
+      "component:J_R4",
+      "component:RMIN4"
+    ],
+    "net:R4_W": [
+      "component:J_R4"
+    ],
+    "net:RA_SW": [
+      "component:JP1",
+      "component:J_RA"
+    ],
+    "net:RA_W": [
+      "component:J_RA"
+    ]
+  },
+  "edge_count": 44,
+  "graph": {
+    "edges": [
+      {
+        "terminal": "C1.1",
+        "u": "component:C1",
+        "v": "net:+9V"
+      },
+      {
+        "terminal": "C1.2",
+        "u": "component:C1",
+        "v": "net:GND"
+      },
+      {
+        "terminal": "C2.1",
+        "u": "component:C2",
+        "v": "net:-9V"
+      },
+      {
+        "terminal": "C2.2",
+        "u": "component:C2",
+        "v": "net:GND"
+      },
+      {
+        "terminal": "JP1.2",
+        "u": "component:JP1",
+        "v": "net:NODE_C"
+      },
+      {
+        "terminal": "JP1.1",
+        "u": "component:JP1",
+        "v": "net:RA_SW"
+      },
+      {
+        "terminal": "J_EA.1",
+        "u": "component:J_EA",
+        "v": "net:EA"
+      },
+      {
+        "terminal": "J_EA.2",
+        "u": "component:J_EA",
+        "v": "net:GND"
+      },
+      {
+        "terminal": "J_EB.1",
+        "u": "component:J_EB",
+        "v": "net:EB"
+      },
+      {
+        "terminal": "J_EB.2",
+        "u": "component:J_EB",
+        "v": "net:GND"
+      },
+      {
+        "terminal": "J_OUT.1",
+        "u": "component:J_OUT",
+        "v": "net:EOUT"
+      },
+      {
+        "terminal": "J_OUT.2",
+        "u": "component:J_OUT",
+        "v": "net:GND"
+      },
+      {
+        "terminal": "J_PWR.1",
+        "u": "component:J_PWR",
+        "v": "net:+9V"
+      },
+      {
+        "terminal": "J_PWR.3",
+        "u": "component:J_PWR",
+        "v": "net:-9V"
+      },
+      {
+        "terminal": "J_PWR.2",
+        "u": "component:J_PWR",
+        "v": "net:GND"
+      },
+      {
+        "terminal": "J_R1.3",
+        "u": "component:J_R1",
+        "v": "net:NODE_A"
+      },
+      {
+        "terminal": "J_R1.1",
+        "u": "component:J_R1",
+        "v": "net:R1_EXT"
+      },
+      {
+        "terminal": "J_R1.2",
+        "u": "component:J_R1",
+        "v": "net:R1_W"
+      },
+      {
+        "terminal": "J_R4.3",
+        "u": "component:J_R4",
+        "v": "net:EOUT"
+      },
+      {
+        "terminal": "J_R4.1",
+        "u": "component:J_R4",
+        "v": "net:R4_EXT"
+      },
+      {
+        "terminal": "J_R4.2",
+        "u": "component:J_R4",
+        "v": "net:R4_W"
+      },
+      {
+        "terminal": "J_RA.1",
+        "u": "component:J_RA",
+        "v": "net:NODE_A"
+      },
+      {
+        "terminal": "J_RA.3",
+        "u": "component:J_RA",
+        "v": "net:RA_SW"
+      },
+      {
+        "terminal": "J_RA.2",
+        "u": "component:J_RA",
+        "v": "net:RA_W"
+      },
+      {
+        "terminal": "R2.1",
+        "u": "component:R2",
+        "v": "net:NODE_A"
+      },
+      {
+        "terminal": "R2.2",
+        "u": "component:R2",
+        "v": "net:NODE_B"
+      },
+      {
+        "terminal": "R3.1",
+        "u": "component:R3",
+        "v": "net:NODE_B"
+      },
+      {
+        "terminal": "R3.2",
+        "u": "component:R3",
+        "v": "net:NODE_C"
+      },
+      {
+        "terminal": "RMIN1.1",
+        "u": "component:RMIN1",
+        "v": "net:GND"
+      },
+      {
+        "terminal": "RMIN1.2",
+        "u": "component:RMIN1",
+        "v": "net:R1_EXT"
+      },
+      {
+        "terminal": "RMIN4.1",
+        "u": "component:RMIN4",
+        "v": "net:NODE_C"
+      },
+      {
+        "terminal": "RMIN4.2",
+        "u": "component:RMIN4",
+        "v": "net:R4_EXT"
+      },
+      {
+        "terminal": "TPA.1",
+        "u": "component:TPA",
+        "v": "net:NODE_A"
+      },
+      {
+        "terminal": "TPB.1",
+        "u": "component:TPB",
+        "v": "net:NODE_B"
+      },
+      {
+        "terminal": "TPC.1",
+        "u": "component:TPC",
+        "v": "net:NODE_C"
+      },
+      {
+        "terminal": "TPO.1",
+        "u": "component:TPO",
+        "v": "net:EOUT"
+      },
+      {
+        "terminal": "U1.8",
+        "u": "component:U1",
+        "v": "net:+9V"
+      },
+      {
+        "terminal": "U1.4",
+        "u": "component:U1",
+        "v": "net:-9V"
+      },
+      {
+        "terminal": "U1.3",
+        "u": "component:U1",
+        "v": "net:EA"
+      },
+      {
+        "terminal": "U1.5",
+        "u": "component:U1",
+        "v": "net:EB"
+      },
+      {
+        "terminal": "U1.7",
+        "u": "component:U1",
+        "v": "net:EOUT"
+      },
+      {
+        "terminal": "U1.2",
+        "u": "component:U1",
+        "v": "net:NODE_A"
+      },
+      {
+        "terminal": "U1.1",
+        "u": "component:U1",
+        "v": "net:NODE_B"
+      },
+      {
+        "terminal": "U1.6",
+        "u": "component:U1",
+        "v": "net:NODE_C"
+      }
+    ],
+    "vertices": [
+      {
+        "id": "component:C1",
+        "kind": "component",
+        "name": "C1"
+      },
+      {
+        "id": "component:C2",
+        "kind": "component",
+        "name": "C2"
+      },
+      {
+        "id": "component:JP1",
+        "kind": "component",
+        "name": "JP1"
+      },
+      {
+        "id": "component:J_EA",
+        "kind": "component",
+        "name": "J_EA"
+      },
+      {
+        "id": "component:J_EB",
+        "kind": "component",
+        "name": "J_EB"
+      },
+      {
+        "id": "component:J_OUT",
+        "kind": "component",
+        "name": "J_OUT"
+      },
+      {
+        "id": "component:J_PWR",
+        "kind": "component",
+        "name": "J_PWR"
+      },
+      {
+        "id": "component:J_R1",
+        "kind": "component",
+        "name": "J_R1"
+      },
+      {
+        "id": "component:J_R4",
+        "kind": "component",
+        "name": "J_R4"
+      },
+      {
+        "id": "component:J_RA",
+        "kind": "component",
+        "name": "J_RA"
+      },
+      {
+        "id": "component:R2",
+        "kind": "component",
+        "name": "R2"
+      },
+      {
+        "id": "component:R3",
+        "kind": "component",
+        "name": "R3"
+      },
+      {
+        "id": "component:RMIN1",
+        "kind": "component",
+        "name": "RMIN1"
+      },
+      {
+        "id": "component:RMIN4",
+        "kind": "component",
+        "name": "RMIN4"
+      },
+      {
+        "id": "component:TPA",
+        "kind": "component",
+        "name": "TPA"
+      },
+      {
+        "id": "component:TPB",
+        "kind": "component",
+        "name": "TPB"
+      },
+      {
+        "id": "component:TPC",
+        "kind": "component",
+        "name": "TPC"
+      },
+      {
+        "id": "component:TPO",
+        "kind": "component",
+        "name": "TPO"
+      },
+      {
+        "id": "component:U1",
+        "kind": "component",
+        "name": "U1"
+      },
+      {
+        "id": "net:+9V",
+        "kind": "net",
+        "name": "+9V"
+      },
+      {
+        "id": "net:-9V",
+        "kind": "net",
+        "name": "-9V"
+      },
+      {
+        "id": "net:EA",
+        "kind": "net",
+        "name": "EA"
+      },
+      {
+        "id": "net:EB",
+        "kind": "net",
+        "name": "EB"
+      },
+      {
+        "id": "net:EOUT",
+        "kind": "net",
+        "name": "EOUT"
+      },
+      {
+        "id": "net:GND",
+        "kind": "net",
+        "name": "GND"
+      },
+      {
+        "id": "net:NODE_A",
+        "kind": "net",
+        "name": "NODE_A"
+      },
+      {
+        "id": "net:NODE_B",
+        "kind": "net",
+        "name": "NODE_B"
+      },
+      {
+        "id": "net:NODE_C",
+        "kind": "net",
+        "name": "NODE_C"
+      },
+      {
+        "id": "net:R1_EXT",
+        "kind": "net",
+        "name": "R1_EXT"
+      },
+      {
+        "id": "net:R1_W",
+        "kind": "net",
+        "name": "R1_W"
+      },
+      {
+        "id": "net:R4_EXT",
+        "kind": "net",
+        "name": "R4_EXT"
+      },
+      {
+        "id": "net:R4_W",
+        "kind": "net",
+        "name": "R4_W"
+      },
+      {
+        "id": "net:RA_SW",
+        "kind": "net",
+        "name": "RA_SW"
+      },
+      {
+        "id": "net:RA_W",
+        "kind": "net",
+        "name": "RA_W"
+      }
+    ]
+  },
+  "planar": true,
+  "stable_integer_relabeling": {
+    "component:C1": 0,
+    "component:C2": 1,
+    "component:JP1": 2,
+    "component:J_EA": 3,
+    "component:J_EB": 4,
+    "component:J_OUT": 5,
+    "component:J_PWR": 6,
+    "component:J_R1": 7,
+    "component:J_R4": 8,
+    "component:J_RA": 9,
+    "component:R2": 10,
+    "component:R3": 11,
+    "component:RMIN1": 12,
+    "component:RMIN4": 13,
+    "component:TPA": 14,
+    "component:TPB": 15,
+    "component:TPC": 16,
+    "component:TPO": 17,
+    "component:U1": 18,
+    "net:+9V": 19,
+    "net:-9V": 20,
+    "net:EA": 21,
+    "net:EB": 22,
+    "net:EOUT": 23,
+    "net:GND": 24,
+    "net:NODE_A": 25,
+    "net:NODE_B": 26,
+    "net:NODE_C": 27,
+    "net:R1_EXT": 28,
+    "net:R1_W": 29,
+    "net:R4_EXT": 30,
+    "net:R4_W": 31,
+    "net:RA_SW": 32,
+    "net:RA_W": 33
+  },
+  "verification": {
+    "embedding_structure_valid": true,
+    "euler_characteristic": 2,
+    "euler_verified": true,
+    "face_count": 12,
+    "required_euler_characteristic": 2,
+    "same_edge_set": true,
+    "same_vertex_set": true,
+    "verified": true
+  },
+  "vertex_count": 34
+}

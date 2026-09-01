@@ -1,0 +1,111 @@
+{
+  "comparison": {
+    "experiment_4c_initial": {
+      "clearance_violations": 2,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 52.64625,
+        "crossing": 46000.0,
+        "crowding": 795.164246,
+        "length": 13675.09927,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60522.909766,
+      "total_connection_length": 4883.300431
+    },
+    "experiment_4f_final": {
+      "clearance_violations": 11,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 6.900372,
+        "crossing": 14000.0,
+        "crowding": 588.533413,
+        "length": 6028.578079,
+        "overlap": 0.0
+      },
+      "net_crossings": 7,
+      "objective": 20624.011864,
+      "total_connection_length": 3098.097778
+    },
+    "experiment_4h_junction_only": {
+      "clearance_violations": 11,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 6.900368,
+        "crossing": 12000.0,
+        "crowding": 809.701094,
+        "length": 8192.108168,
+        "overlap": 0.0
+      },
+      "net_crossings": 6,
+      "objective": 21008.70963,
+      "total_connection_length": 3034.347082
+    },
+    "experiment_4i_planar_node_initial": {
+      "clearance_violations": 0,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 0.0,
+        "crossing": 0.0,
+        "crowding": 56.705106,
+        "length": 1403321.955584,
+        "overlap": 0.0
+      },
+      "net_crossings": 0,
+      "objective": 1403378.66069,
+      "total_connection_length": 34084.492436
+    }
+  },
+  "construction": {
+    "method": "NetworkX combinatorial_embedding_to_pos after stable integer relabeling; straight incidence rays truncated at rectangles",
+    "scale_sequence": [
+      72.0,
+      144.0,
+      288.0,
+      576.0,
+      1152.0,
+      2304.0,
+      4608.0,
+      9216.0,
+      18432.0,
+      36864.0,
+      73728.0,
+      147456.0,
+      294912.0,
+      589824.0,
+      1179648.0,
+      2359296.0,
+      4718592.0,
+      9437184.0,
+      18874368.0,
+      37748736.0
+    ],
+    "selected_scale": 72.0,
+    "tested_scales": [
+      {
+        "clearance_violations": 0,
+        "component_overlaps": 0,
+        "different_net_crossings": 0,
+        "scale": 72.0,
+        "unrelated_component_body_intersections": 0,
+        "valid": true
+      }
+    ]
+  },
+  "measurement_only": true,
+  "metrics": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 0.0,
+      "crowding": 56.705106,
+      "length": 1403321.955584,
+      "overlap": 0.0
+    },
+    "net_crossings": 0,
+    "objective": 1403378.66069,
+    "total_connection_length": 34084.492436
+  }
+}

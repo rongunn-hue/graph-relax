@@ -1,0 +1,173 @@
+{
+  "component_dimensions": {
+    "height": 40.0,
+    "width": 60.0
+  },
+  "method": "direct barycentric equilibrium",
+  "normalized_coordinates": {
+    "component:C1": {
+      "x": 0.00567,
+      "y": 0.769983
+    },
+    "component:C2": {
+      "x": 0.00567,
+      "y": 0.769983
+    },
+    "component:JP1": {
+      "x": 0.0,
+      "y": -1.0
+    },
+    "component:J_EA": {
+      "x": 0.00693,
+      "y": 0.718868
+    },
+    "component:J_EB": {
+      "x": 0.00693,
+      "y": 0.718868
+    },
+    "component:J_OUT": {
+      "x": 0.433884,
+      "y": 0.900969
+    },
+    "component:J_PWR": {
+      "x": 0.00756,
+      "y": 0.693311
+    },
+    "component:J_R1": {
+      "x": -0.974928,
+      "y": 0.222521
+    },
+    "component:J_R4": {
+      "x": 0.974928,
+      "y": 0.222521
+    },
+    "component:J_RA": {
+      "x": -0.781831,
+      "y": -0.62349
+    },
+    "component:R2": {
+      "x": -0.549897,
+      "y": -0.212546
+    },
+    "component:R3": {
+      "x": 0.154509,
+      "y": -0.55177
+    },
+    "component:RMIN1": {
+      "x": -0.433884,
+      "y": 0.900969
+    },
+    "component:RMIN4": {
+      "x": 0.781831,
+      "y": -0.62349
+    },
+    "component:TPA": {
+      "x": -0.974928,
+      "y": -0.222521
+    },
+    "component:TPB": {
+      "x": -0.124866,
+      "y": -0.20257
+    },
+    "component:TPC": {
+      "x": 0.433884,
+      "y": -0.900969
+    },
+    "component:TPO": {
+      "x": 0.781831,
+      "y": 0.62349
+    },
+    "component:U1": {
+      "x": 0.02079,
+      "y": 0.156604
+    },
+    "net:+9V": {
+      "x": 0.01134,
+      "y": 0.539966
+    },
+    "net:-9V": {
+      "x": 0.01134,
+      "y": 0.539966
+    },
+    "net:EA": {
+      "x": 0.01386,
+      "y": 0.437736
+    },
+    "net:EB": {
+      "x": 0.01386,
+      "y": 0.437736
+    },
+    "net:EOUT": {
+      "x": 0.781831,
+      "y": 0.62349
+    },
+    "net:GND": {
+      "x": 0.0,
+      "y": 1.0
+    },
+    "net:NODE_A": {
+      "x": -0.974928,
+      "y": -0.222521
+    },
+    "net:NODE_B": {
+      "x": -0.124866,
+      "y": -0.20257
+    },
+    "net:NODE_C": {
+      "x": 0.433884,
+      "y": -0.900969
+    },
+    "net:R1_EXT": {
+      "x": -0.781831,
+      "y": 0.62349
+    },
+    "net:R1_W": {
+      "x": -0.974928,
+      "y": 0.222521
+    },
+    "net:R4_EXT": {
+      "x": 0.974928,
+      "y": -0.222521
+    },
+    "net:R4_W": {
+      "x": 0.974928,
+      "y": 0.222521
+    },
+    "net:RA_SW": {
+      "x": -0.433884,
+      "y": -0.900969
+    },
+    "net:RA_W": {
+      "x": -0.781831,
+      "y": -0.62349
+    }
+  },
+  "normalized_extents": {
+    "height": 2.0,
+    "max_x": 0.974928,
+    "max_y": 1.0,
+    "min_x": -0.974928,
+    "min_y": -1.0,
+    "width": 1.949856
+  },
+  "outer_boundary": "unit regular convex polygon",
+  "outer_face_index": 4,
+  "outer_face_vertex_order": [
+    "component:JP1",
+    "net:NODE_C",
+    "component:RMIN4",
+    "net:R4_EXT",
+    "component:J_R4",
+    "net:EOUT",
+    "component:J_OUT",
+    "net:GND",
+    "component:RMIN1",
+    "net:R1_EXT",
+    "component:J_R1",
+    "net:NODE_A",
+    "component:J_RA",
+    "net:RA_SW"
+  ],
+  "physical_scale": null,
+  "status": "NO_VALID_PHYSICAL_SCALE"
+}

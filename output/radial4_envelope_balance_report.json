@@ -1,0 +1,161 @@
+{
+  "all_cumulative_continuity_assertions_passed": true,
+  "directions": [
+    {
+      "R_forward_after": 1403.705882,
+      "R_forward_before": 1732.294118,
+      "R_opposite_after": 1403.705882,
+      "R_opposite_before": 1403.705882,
+      "accepted_s": 0.810316,
+      "area": 2919708.235294,
+      "centroid": {
+        "x": 1340.927744,
+        "y": 566.272602
+      },
+      "correction_required": true,
+      "cumulative_input_matches_previous_output": true,
+      "height": 1040.0,
+      "imbalance": 328.588235,
+      "limiting_event": null,
+      "requested_s_target": 0.810316,
+      "selected_node_count": 16,
+      "theta": 0,
+      "total_edge_length": 22326.906729,
+      "validity_limited": false,
+      "width": 2807.411765
+    },
+    {
+      "R_forward_after": 469.529412,
+      "R_forward_before": 469.529412,
+      "R_opposite_after": 570.470588,
+      "R_opposite_before": 570.470588,
+      "accepted_s": null,
+      "area": 2919708.235294,
+      "centroid": {
+        "x": 1340.927744,
+        "y": 566.272602
+      },
+      "correction_required": false,
+      "cumulative_input_matches_previous_output": true,
+      "height": 1040.0,
+      "imbalance": -100.941176,
+      "limiting_event": null,
+      "requested_s_target": null,
+      "selected_node_count": 20,
+      "theta": 90,
+      "total_edge_length": 22326.906729,
+      "validity_limited": false,
+      "width": 2807.411765
+    },
+    {
+      "R_forward_after": 1403.705882,
+      "R_forward_before": 1403.705882,
+      "R_opposite_after": 1403.705882,
+      "R_opposite_before": 1403.705882,
+      "accepted_s": null,
+      "area": 2919708.235294,
+      "centroid": {
+        "x": 1340.927744,
+        "y": 566.272602
+      },
+      "correction_required": false,
+      "cumulative_input_matches_previous_output": true,
+      "height": 1040.0,
+      "imbalance": 0.0,
+      "limiting_event": null,
+      "requested_s_target": null,
+      "selected_node_count": 18,
+      "theta": 180,
+      "total_edge_length": 22326.906729,
+      "validity_limited": false,
+      "width": 2807.411765
+    },
+    {
+      "R_forward_after": 469.529412,
+      "R_forward_before": 570.470588,
+      "R_opposite_after": 469.529412,
+      "R_opposite_before": 469.529412,
+      "accepted_s": 0.823056,
+      "area": 2169843.72708,
+      "centroid": {
+        "x": 1352.812643,
+        "y": 591.007944
+      },
+      "correction_required": true,
+      "cumulative_input_matches_previous_output": true,
+      "height": 939.058824,
+      "imbalance": 100.941176,
+      "limiting_event": null,
+      "requested_s_target": 0.823056,
+      "selected_node_count": 14,
+      "theta": 270,
+      "total_edge_length": 19132.905185,
+      "validity_limited": false,
+      "width": 2310.65794
+    }
+  ],
+  "final": {
+    "area": 2169843.72708,
+    "centroid": {
+      "x": 1352.812643,
+      "y": 591.007944
+    },
+    "height": 939.058824,
+    "total_edge_length": 19132.905185,
+    "width": 2310.65794
+  },
+  "final_centroid": {
+    "x": 1352.812643,
+    "y": 591.007944
+  },
+  "final_validation": {
+    "abstract_graph_valid": true,
+    "all_original_edges_preserved": true,
+    "all_original_vertices_exist": true,
+    "coincident_details": [],
+    "coincident_vertex_pairs": 0,
+    "crossing_details": [],
+    "cyclic_order_orientation": "reflection",
+    "cyclic_order_violations": 0,
+    "cyclic_violation_vertices": [],
+    "per_vertex_cyclic_orientation": {
+      "component:J_PWR": "reflection",
+      "component:J_R1": "reflection",
+      "component:J_R4": "reflection",
+      "component:J_RA": "reflection",
+      "component:U1": "reflection",
+      "net:+9V": "reflection",
+      "net:-9V": "reflection",
+      "net:EOUT": "reflection",
+      "net:GND": "reflection",
+      "net:NODE_A": "reflection",
+      "net:NODE_B": "reflection",
+      "net:NODE_C": "reflection"
+    },
+    "unrelated_edge_crossings": 0,
+    "vertex_on_edge_details": [],
+    "vertices_on_unrelated_edges": 0
+  },
+  "fixed_viewport": {
+    "height": 1292.0,
+    "width": 3336.0,
+    "x": -100.0,
+    "y": -100.0
+  },
+  "frozen_centroid": {
+    "x": 1403.705882,
+    "y": 570.470588
+  },
+  "model": "cumulative four-direction radial envelope balance",
+  "physical_geometry_participated": false,
+  "start": {
+    "area": 3424512.0,
+    "centroid": {
+      "x": 1403.705882,
+      "y": 570.470588
+    },
+    "height": 1092.0,
+    "total_edge_length": 24359.649504,
+    "width": 3136.0
+  }
+}

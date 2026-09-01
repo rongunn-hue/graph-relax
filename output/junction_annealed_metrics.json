@@ -1,0 +1,86 @@
+{
+  "annealing": {
+    "accepted_downhill_moves": 2553,
+    "accepted_uphill_moves": 2128,
+    "best_energy_encountered": 115995.355731,
+    "cooling_schedule": "geometric",
+    "final_move_distance": 0.5,
+    "final_temperature": 10.0,
+    "initial_move_distance": 140.0,
+    "initial_temperature": 25000.0,
+    "iterations": 6000,
+    "move_distance_schedule": "geometric",
+    "rejected_moves": 1319,
+    "seed": 314159
+  },
+  "input": {
+    "components": 19,
+    "movable_junctions": 7,
+    "nets": 15,
+    "singleton_nets": 3
+  },
+  "junction_annealed_coordinate_sha256": "8a8994b375f1348cb7e7582a3edd5f0834977acc52ed29353d65f14c88fd7f4f",
+  "quench": {
+    "final_energy": 60060.076833,
+    "stopping_reason": "no improving move at minimum step",
+    "sweeps": 62
+  },
+  "states": {
+    "experiment_1_final": {
+      "clearance_violations": 8,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 6.625297,
+        "crossing": 90000.0,
+        "crowding": 1928.065377,
+        "length": 10245.928817,
+        "overlap": 0.0
+      },
+      "net_crossings": 45,
+      "objective": 102180.619491,
+      "total_connection_length": 4223.860298
+    },
+    "experiment_2_annealed_and_quenched": {
+      "clearance_violations": 8,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 3.332008,
+        "crossing": 46000.0,
+        "crowding": 1322.365454,
+        "length": 13124.166824,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60449.864286,
+      "total_connection_length": 4402.546798
+    },
+    "experiment_3_junction_annealed_and_quenched": {
+      "clearance_violations": 18,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 22.423329,
+        "crossing": 42000.0,
+        "crowding": 1549.187177,
+        "length": 16488.466328,
+        "overlap": 0.0
+      },
+      "net_crossings": 21,
+      "objective": 60060.076833,
+      "total_connection_length": 4744.461551
+    },
+    "initial_junction_model": {
+      "clearance_violations": 0,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 0.0,
+        "crossing": 128000.0,
+        "crowding": 2204.961809,
+        "length": 17555.729837,
+        "overlap": 0.0
+      },
+      "net_crossings": 64,
+      "objective": 147760.691646,
+      "total_connection_length": 5218.375851
+    }
+  }
+}

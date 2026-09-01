@@ -1,0 +1,187 @@
+{
+  "best_height_for_this_pair": 51.999999,
+  "final": {
+    "abstract_graph_valid": true,
+    "area": 3420627.129926,
+    "area_ratio": 0.998866,
+    "bisection_iterations": 20,
+    "coincident_vertex_pairs": 0,
+    "cyclic_order_orientation": "reflection",
+    "cyclic_order_violations": 0,
+    "edge_length_ratio": 1.001133,
+    "greatest_valid_equal_height": 51.999999,
+    "height": 1090.761202,
+    "height_ratio": 0.998866,
+    "limiting_condition": "two-circle geometric degeneracy",
+    "limiting_height": 52.0,
+    "limiting_vertex": "component:C1",
+    "maximum_diameter_ratio": 1.0,
+    "maximum_pairwise_vertex_distance": 3136.0,
+    "minimum_nonzero_pairwise_vertex_distance": 52.068557,
+    "pole_a": "component:RMIN1",
+    "pole_b": "net:GND",
+    "pole_distance": 3136.0,
+    "theoretical_upper_height": 52.0,
+    "total_edge_length": 24387.247464,
+    "unrelated_edge_crossings": 0,
+    "vertices_on_unrelated_edges": 0,
+    "width": 3136.0,
+    "width_ratio": 1.0
+  },
+  "frames": [
+    {
+      "area": 3424512.0,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1092.0,
+      "edge_length": 24359.649504,
+      "fraction": 0.0,
+      "height": 0.0,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3424473.173115,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.987619,
+      "edge_length": 24359.877322,
+      "fraction": 0.1,
+      "height": 5.2,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3424356.689817,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.950475,
+      "edge_length": 24360.563907,
+      "fraction": 0.2,
+      "height": 10.4,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3424162.542183,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.888566,
+      "edge_length": 24361.718872,
+      "fraction": 0.3,
+      "height": 15.6,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3423890.717,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.801887,
+      "edge_length": 24363.35902,
+      "fraction": 0.4,
+      "height": 20.8,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3423541.195766,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.690432,
+      "edge_length": 24365.509763,
+      "fraction": 0.5,
+      "height": 26.0,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3423113.95468,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.554195,
+      "edge_length": 24368.207826,
+      "fraction": 0.6,
+      "height": 31.199999,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3422608.964639,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.393165,
+      "edge_length": 24371.506798,
+      "fraction": 0.7,
+      "height": 36.399999,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3422026.191221,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1091.207331,
+      "edge_length": 24375.490897,
+      "fraction": 0.8,
+      "height": 41.599999,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3421365.594679,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1090.996682,
+      "edge_length": 24380.324943,
+      "fraction": 0.9,
+      "height": 46.799999,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3421006.098856,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1090.882047,
+      "edge_length": 24383.200817,
+      "fraction": 0.95,
+      "height": 49.399999,
+      "valid": true,
+      "width": 3136.0
+    },
+    {
+      "area": 3420627.129926,
+      "coincidences": 0,
+      "crossings": 0,
+      "drawing_height": 1090.761202,
+      "edge_length": 24387.247464,
+      "fraction": 1.0,
+      "height": 51.999999,
+      "valid": true,
+      "width": 3136.0
+    }
+  ],
+  "limiting_condition": "two-circle geometric degeneracy",
+  "limiting_vertex": "component:C1",
+  "pole_a": "component:RMIN1",
+  "pole_a_coordinate": {
+    "x": 3136.0,
+    "y": 0.0
+  },
+  "pole_b": "net:GND",
+  "pole_b_coordinate": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "pole_distance": 3136.0,
+  "poles_are_distinct_vertices": true,
+  "poles_have_distinct_coordinates": true,
+  "selection_rule": "maximum pole separation among distinct existing-node pairs with positive height range; stable IDs break ties",
+  "shared_viewport": {
+    "height": 1252.0,
+    "width": 3296.0,
+    "x": -80.0,
+    "y": -80.0
+  }
+}

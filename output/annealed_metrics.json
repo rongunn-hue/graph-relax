@@ -1,0 +1,71 @@
+{
+  "annealed_coordinate_sha256": "344e0ec9c475084edd7d8862dbabc48110e23499733ec0325e96dc989edc2ab8",
+  "annealing": {
+    "accepted_downhill_moves": 2609,
+    "accepted_uphill_moves": 2353,
+    "best_energy_encountered": 95974.063779,
+    "cooling_schedule": "geometric",
+    "final_move_distance": 0.5,
+    "final_temperature": 10.0,
+    "initial_move_distance": 140.0,
+    "initial_temperature": 25000.0,
+    "iterations": 6000,
+    "move_distance_schedule": "geometric",
+    "rejected_moves": 1038,
+    "seed": 314159
+  },
+  "input": {
+    "components": 19,
+    "nets": 15,
+    "singleton_nets": 3
+  },
+  "quench": {
+    "final_energy": 60449.864286,
+    "stopping_reason": "no improving move at minimum step",
+    "sweeps": 60
+  },
+  "states": {
+    "experiment_1_final": {
+      "clearance_violations": 8,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 6.625297,
+        "crossing": 90000.0,
+        "crowding": 1928.065377,
+        "length": 10245.928817,
+        "overlap": 0.0
+      },
+      "net_crossings": 45,
+      "objective": 102180.619491,
+      "total_connection_length": 4223.860298
+    },
+    "experiment_2_annealed_and_quenched": {
+      "clearance_violations": 8,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 3.332008,
+        "crossing": 46000.0,
+        "crowding": 1322.365454,
+        "length": 13124.166824,
+        "overlap": 0.0
+      },
+      "net_crossings": 23,
+      "objective": 60449.864286,
+      "total_connection_length": 4402.546798
+    },
+    "initial": {
+      "clearance_violations": 0,
+      "component_overlaps": 0,
+      "energy": {
+        "clearance": 0.0,
+        "crossing": 128000.0,
+        "crowding": 2262.894768,
+        "length": 15323.305276,
+        "overlap": 0.0
+      },
+      "net_crossings": 64,
+      "objective": 145586.200045,
+      "total_connection_length": 5218.375851
+    }
+  }
+}

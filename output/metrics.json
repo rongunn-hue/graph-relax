@@ -1,0 +1,52 @@
+{
+  "connection_length_change_percent": -19.057952,
+  "final": {
+    "clearance_violations": 8,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 6.625297,
+      "crossing": 90000.0,
+      "crowding": 1928.065377,
+      "length": 10245.928817,
+      "overlap": 0.0
+    },
+    "net_crossings": 45,
+    "objective": 102180.619491,
+    "total_connection_length": 4223.860298
+  },
+  "final_coordinate_sha256": "305250e1f878871bb59775f70ea11297cbd1606baad7673199d90f09ef65c9bb",
+  "initial": {
+    "clearance_violations": 0,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 0.0,
+      "crossing": 128000.0,
+      "crowding": 2262.894768,
+      "length": 15323.305276,
+      "overlap": 0.0
+    },
+    "net_crossings": 64,
+    "objective": 145586.200045,
+    "total_connection_length": 5218.375851
+  },
+  "input": {
+    "components": 19,
+    "nets": 15,
+    "singleton_nets": 3
+  },
+  "parameters": {
+    "initial_step": 16.0,
+    "max_sweeps": 500,
+    "minimum_step": 0.25,
+    "seed": 1729,
+    "weights": {
+      "clearance": 5000.0,
+      "crossing": 2000.0,
+      "crowding": 20.0,
+      "length": 0.02,
+      "overlap": 100000.0
+    }
+  },
+  "stopping_reason": "no improving move at minimum step",
+  "sweeps": 42
+}

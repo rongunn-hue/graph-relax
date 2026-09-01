@@ -1,0 +1,840 @@
+{
+  "converged": true,
+  "maximum_axis_passes": 20,
+  "passes": [
+    {
+      "accepted_move_count": 105,
+      "accepted_slides": 104,
+      "accepted_swaps": 1,
+      "axis": "H",
+      "connection_length_after": 3989.134386,
+      "connection_length_before": 4883.300432,
+      "coordinates": {
+        "C1": {
+          "x": -190.135594,
+          "y": -118.350792
+        },
+        "C2": {
+          "x": -75.483081,
+          "y": 217.12273
+        },
+        "JP1": {
+          "x": -16.564307,
+          "y": -0.65385
+        },
+        "J_EA": {
+          "x": -131.907208,
+          "y": 42.146388
+        },
+        "J_EB": {
+          "x": -138.288502,
+          "y": 118.508476
+        },
+        "J_OUT": {
+          "x": -212.941651,
+          "y": -41.964631
+        },
+        "J_PWR": {
+          "x": -135.597954,
+          "y": 180.644186
+        },
+        "J_R1": {
+          "x": -136.641189,
+          "y": -179.856366
+        },
+        "J_R4": {
+          "x": 44.733698,
+          "y": 201.902296
+        },
+        "J_RA": {
+          "x": 51.719419,
+          "y": -224.866996
+        },
+        "R2": {
+          "x": -8.506139,
+          "y": -202.485145
+        },
+        "R3": {
+          "x": -52.178959,
+          "y": -81.159046
+        },
+        "RMIN1": {
+          "x": -351.219315,
+          "y": 87.087405
+        },
+        "RMIN4": {
+          "x": 49.607151,
+          "y": 152.516177
+        },
+        "TPA": {
+          "x": -73.13014,
+          "y": -217.071517
+        },
+        "TPB": {
+          "x": -76.518534,
+          "y": -152.65336
+        },
+        "TPC": {
+          "x": -71.799679,
+          "y": 80.98539
+        },
+        "TPO": {
+          "x": -15.344547,
+          "y": 224.95337
+        },
+        "U1": {
+          "x": -90.0,
+          "y": 0.0
+        }
+      },
+      "crossings_after": 11,
+      "crossings_before": 23,
+      "ordinary_metrics_after": {
+        "clearance_violations": 11,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 38402.267447,
+          "crossing": 22000.0,
+          "crowding": 984.876769,
+          "length": 10428.327338,
+          "overlap": 0.0
+        },
+        "net_crossings": 11,
+        "objective": 71815.471554,
+        "total_connection_length": 3989.134386
+      },
+      "ordinary_metrics_before": {
+        "clearance_violations": 2,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 52.64626,
+          "crossing": 46000.0,
+          "crowding": 795.164242,
+          "length": 13675.099274,
+          "overlap": 0.0
+        },
+        "net_crossings": 23,
+        "objective": 60522.909775,
+        "total_connection_length": 4883.300432
+      },
+      "pass_number": 1
+    },
+    {
+      "accepted_move_count": 171,
+      "accepted_slides": 170,
+      "accepted_swaps": 1,
+      "axis": "V",
+      "connection_length_after": 2830.666379,
+      "connection_length_before": 3989.134386,
+      "coordinates": {
+        "C1": {
+          "x": -190.135594,
+          "y": 89.055351
+        },
+        "C2": {
+          "x": -75.483081,
+          "y": 119.21648
+        },
+        "JP1": {
+          "x": -16.564307,
+          "y": -26.65385
+        },
+        "J_EA": {
+          "x": -131.907208,
+          "y": 40.115138
+        },
+        "J_EB": {
+          "x": -138.288502,
+          "y": -40.147667
+        },
+        "J_OUT": {
+          "x": -212.941651,
+          "y": 49.035369
+        },
+        "J_PWR": {
+          "x": -135.597954,
+          "y": 129.253561
+        },
+        "J_R1": {
+          "x": -136.641189,
+          "y": -166.856366
+        },
+        "J_R4": {
+          "x": 44.733698,
+          "y": 133.449171
+        },
+        "J_RA": {
+          "x": 51.719419,
+          "y": -104.007621
+        },
+        "R2": {
+          "x": -8.506139,
+          "y": -131.391395
+        },
+        "R3": {
+          "x": -52.178959,
+          "y": -66.737171
+        },
+        "RMIN1": {
+          "x": -351.219315,
+          "y": -13.256345
+        },
+        "RMIN4": {
+          "x": 49.607151,
+          "y": 93.406802
+        },
+        "TPA": {
+          "x": -73.13014,
+          "y": -155.118392
+        },
+        "TPB": {
+          "x": -76.518534,
+          "y": -106.74711
+        },
+        "TPC": {
+          "x": -71.799679,
+          "y": 40.157265
+        },
+        "TPO": {
+          "x": -15.344547,
+          "y": 80.32837
+        },
+        "U1": {
+          "x": -90.0,
+          "y": 0.0
+        }
+      },
+      "crossings_after": 11,
+      "crossings_before": 11,
+      "ordinary_metrics_after": {
+        "clearance_violations": 19,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71182.422101,
+          "crossing": 22000.0,
+          "crowding": 1192.769182,
+          "length": 5433.092733,
+          "overlap": 0.0
+        },
+        "net_crossings": 11,
+        "objective": 99808.284016,
+        "total_connection_length": 2830.666379
+      },
+      "ordinary_metrics_before": {
+        "clearance_violations": 11,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 38402.267447,
+          "crossing": 22000.0,
+          "crowding": 984.876769,
+          "length": 10428.327338,
+          "overlap": 0.0
+        },
+        "net_crossings": 11,
+        "objective": 71815.471554,
+        "total_connection_length": 3989.134386
+      },
+      "pass_number": 2
+    },
+    {
+      "accepted_move_count": 34,
+      "accepted_slides": 34,
+      "accepted_swaps": 0,
+      "axis": "H",
+      "connection_length_after": 2717.217976,
+      "connection_length_before": 2830.666379,
+      "coordinates": {
+        "C1": {
+          "x": -190.135594,
+          "y": 89.055351
+        },
+        "C2": {
+          "x": -75.483081,
+          "y": 119.21648
+        },
+        "JP1": {
+          "x": -12.908057,
+          "y": -26.65385
+        },
+        "J_EA": {
+          "x": -137.532208,
+          "y": 40.115138
+        },
+        "J_EB": {
+          "x": -210.288502,
+          "y": -40.147667
+        },
+        "J_OUT": {
+          "x": -205.629151,
+          "y": 49.035369
+        },
+        "J_PWR": {
+          "x": -135.597954,
+          "y": 129.253561
+        },
+        "J_R1": {
+          "x": -133.266189,
+          "y": -166.856366
+        },
+        "J_R4": {
+          "x": 21.389948,
+          "y": 133.449171
+        },
+        "J_RA": {
+          "x": 47.219419,
+          "y": -104.007621
+        },
+        "R2": {
+          "x": -13.006139,
+          "y": -131.391395
+        },
+        "R3": {
+          "x": -52.178959,
+          "y": -66.737171
+        },
+        "RMIN1": {
+          "x": -279.219315,
+          "y": -13.256345
+        },
+        "RMIN4": {
+          "x": 44.825901,
+          "y": 93.406802
+        },
+        "TPA": {
+          "x": -73.13014,
+          "y": -155.118392
+        },
+        "TPB": {
+          "x": -83.549784,
+          "y": -106.74711
+        },
+        "TPC": {
+          "x": -70.674679,
+          "y": 40.157265
+        },
+        "TPO": {
+          "x": -15.344547,
+          "y": 80.32837
+        },
+        "U1": {
+          "x": -89.71875,
+          "y": 0.0
+        }
+      },
+      "crossings_after": 9,
+      "crossings_before": 11,
+      "ordinary_metrics_after": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71216.965771,
+          "crossing": 18000.0,
+          "crowding": 1143.562797,
+          "length": 4786.443795,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95146.972363,
+        "total_connection_length": 2717.217976
+      },
+      "ordinary_metrics_before": {
+        "clearance_violations": 19,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71182.422101,
+          "crossing": 22000.0,
+          "crowding": 1192.769182,
+          "length": 5433.092733,
+          "overlap": 0.0
+        },
+        "net_crossings": 11,
+        "objective": 99808.284016,
+        "total_connection_length": 2830.666379
+      },
+      "pass_number": 3
+    },
+    {
+      "accepted_move_count": 15,
+      "accepted_slides": 15,
+      "accepted_swaps": 0,
+      "axis": "V",
+      "connection_length_after": 2693.650008,
+      "connection_length_before": 2717.217976,
+      "coordinates": {
+        "C1": {
+          "x": -190.135594,
+          "y": 89.055351
+        },
+        "C2": {
+          "x": -75.483081,
+          "y": 116.77898
+        },
+        "JP1": {
+          "x": -12.908057,
+          "y": -26.65385
+        },
+        "J_EA": {
+          "x": -137.532208,
+          "y": 40.115138
+        },
+        "J_EB": {
+          "x": -210.288502,
+          "y": -28.366417
+        },
+        "J_OUT": {
+          "x": -205.629151,
+          "y": 49.035369
+        },
+        "J_PWR": {
+          "x": -135.597954,
+          "y": 129.253561
+        },
+        "J_R1": {
+          "x": -133.266189,
+          "y": -163.200116
+        },
+        "J_R4": {
+          "x": 21.389948,
+          "y": 133.449171
+        },
+        "J_RA": {
+          "x": 47.219419,
+          "y": -103.195121
+        },
+        "R2": {
+          "x": -13.006139,
+          "y": -131.391395
+        },
+        "R3": {
+          "x": -52.178959,
+          "y": -66.737171
+        },
+        "RMIN1": {
+          "x": -279.219315,
+          "y": 1.774905
+        },
+        "RMIN4": {
+          "x": 44.825901,
+          "y": 93.406802
+        },
+        "TPA": {
+          "x": -73.13014,
+          "y": -155.118392
+        },
+        "TPB": {
+          "x": -83.549784,
+          "y": -106.74711
+        },
+        "TPC": {
+          "x": -70.674679,
+          "y": 40.157265
+        },
+        "TPO": {
+          "x": -15.344547,
+          "y": 80.32837
+        },
+        "U1": {
+          "x": -89.71875,
+          "y": 0.0
+        }
+      },
+      "crossings_after": 9,
+      "crossings_before": 9,
+      "ordinary_metrics_after": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71216.965771,
+          "crossing": 18000.0,
+          "crowding": 1150.667225,
+          "length": 4703.413698,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95071.046694,
+        "total_connection_length": 2693.650008
+      },
+      "ordinary_metrics_before": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71216.965771,
+          "crossing": 18000.0,
+          "crowding": 1143.562797,
+          "length": 4786.443795,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95146.972363,
+        "total_connection_length": 2717.217976
+      },
+      "pass_number": 4
+    },
+    {
+      "accepted_move_count": 2,
+      "accepted_slides": 2,
+      "accepted_swaps": 0,
+      "axis": "H",
+      "connection_length_after": 2692.045872,
+      "connection_length_before": 2693.650008,
+      "coordinates": {
+        "C1": {
+          "x": -190.135594,
+          "y": 89.055351
+        },
+        "C2": {
+          "x": -75.483081,
+          "y": 116.77898
+        },
+        "JP1": {
+          "x": -12.908057,
+          "y": -26.65385
+        },
+        "J_EA": {
+          "x": -137.532208,
+          "y": 40.115138
+        },
+        "J_EB": {
+          "x": -210.288502,
+          "y": -28.366417
+        },
+        "J_OUT": {
+          "x": -204.785401,
+          "y": 49.035369
+        },
+        "J_PWR": {
+          "x": -135.597954,
+          "y": 129.253561
+        },
+        "J_R1": {
+          "x": -133.266189,
+          "y": -163.200116
+        },
+        "J_R4": {
+          "x": 21.389948,
+          "y": 133.449171
+        },
+        "J_RA": {
+          "x": 47.219419,
+          "y": -103.195121
+        },
+        "R2": {
+          "x": -13.006139,
+          "y": -131.391395
+        },
+        "R3": {
+          "x": -52.178959,
+          "y": -66.737171
+        },
+        "RMIN1": {
+          "x": -279.219315,
+          "y": 1.774905
+        },
+        "RMIN4": {
+          "x": 44.825901,
+          "y": 93.406802
+        },
+        "TPA": {
+          "x": -73.13014,
+          "y": -155.118392
+        },
+        "TPB": {
+          "x": -83.549784,
+          "y": -106.74711
+        },
+        "TPC": {
+          "x": -70.674679,
+          "y": 40.157265
+        },
+        "TPO": {
+          "x": -15.344547,
+          "y": 80.32837
+        },
+        "U1": {
+          "x": -89.71875,
+          "y": 0.0
+        }
+      },
+      "crossings_after": 9,
+      "crossings_before": 9,
+      "ordinary_metrics_after": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71470.379755,
+          "crossing": 18000.0,
+          "crowding": 1152.79161,
+          "length": 4698.272142,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95321.443507,
+        "total_connection_length": 2692.045872
+      },
+      "ordinary_metrics_before": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71216.965771,
+          "crossing": 18000.0,
+          "crowding": 1150.667225,
+          "length": 4703.413698,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95071.046694,
+        "total_connection_length": 2693.650008
+      },
+      "pass_number": 5
+    },
+    {
+      "accepted_move_count": 0,
+      "accepted_slides": 0,
+      "accepted_swaps": 0,
+      "axis": "V",
+      "connection_length_after": 2692.045872,
+      "connection_length_before": 2692.045872,
+      "coordinates": {
+        "C1": {
+          "x": -190.135594,
+          "y": 89.055351
+        },
+        "C2": {
+          "x": -75.483081,
+          "y": 116.77898
+        },
+        "JP1": {
+          "x": -12.908057,
+          "y": -26.65385
+        },
+        "J_EA": {
+          "x": -137.532208,
+          "y": 40.115138
+        },
+        "J_EB": {
+          "x": -210.288502,
+          "y": -28.366417
+        },
+        "J_OUT": {
+          "x": -204.785401,
+          "y": 49.035369
+        },
+        "J_PWR": {
+          "x": -135.597954,
+          "y": 129.253561
+        },
+        "J_R1": {
+          "x": -133.266189,
+          "y": -163.200116
+        },
+        "J_R4": {
+          "x": 21.389948,
+          "y": 133.449171
+        },
+        "J_RA": {
+          "x": 47.219419,
+          "y": -103.195121
+        },
+        "R2": {
+          "x": -13.006139,
+          "y": -131.391395
+        },
+        "R3": {
+          "x": -52.178959,
+          "y": -66.737171
+        },
+        "RMIN1": {
+          "x": -279.219315,
+          "y": 1.774905
+        },
+        "RMIN4": {
+          "x": 44.825901,
+          "y": 93.406802
+        },
+        "TPA": {
+          "x": -73.13014,
+          "y": -155.118392
+        },
+        "TPB": {
+          "x": -83.549784,
+          "y": -106.74711
+        },
+        "TPC": {
+          "x": -70.674679,
+          "y": 40.157265
+        },
+        "TPO": {
+          "x": -15.344547,
+          "y": 80.32837
+        },
+        "U1": {
+          "x": -89.71875,
+          "y": 0.0
+        }
+      },
+      "crossings_after": 9,
+      "crossings_before": 9,
+      "ordinary_metrics_after": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71470.379755,
+          "crossing": 18000.0,
+          "crowding": 1152.79161,
+          "length": 4698.272142,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95321.443507,
+        "total_connection_length": 2692.045872
+      },
+      "ordinary_metrics_before": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71470.379755,
+          "crossing": 18000.0,
+          "crowding": 1152.79161,
+          "length": 4698.272142,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95321.443507,
+        "total_connection_length": 2692.045872
+      },
+      "pass_number": 6
+    },
+    {
+      "accepted_move_count": 0,
+      "accepted_slides": 0,
+      "accepted_swaps": 0,
+      "axis": "H",
+      "connection_length_after": 2692.045872,
+      "connection_length_before": 2692.045872,
+      "coordinates": {
+        "C1": {
+          "x": -190.135594,
+          "y": 89.055351
+        },
+        "C2": {
+          "x": -75.483081,
+          "y": 116.77898
+        },
+        "JP1": {
+          "x": -12.908057,
+          "y": -26.65385
+        },
+        "J_EA": {
+          "x": -137.532208,
+          "y": 40.115138
+        },
+        "J_EB": {
+          "x": -210.288502,
+          "y": -28.366417
+        },
+        "J_OUT": {
+          "x": -204.785401,
+          "y": 49.035369
+        },
+        "J_PWR": {
+          "x": -135.597954,
+          "y": 129.253561
+        },
+        "J_R1": {
+          "x": -133.266189,
+          "y": -163.200116
+        },
+        "J_R4": {
+          "x": 21.389948,
+          "y": 133.449171
+        },
+        "J_RA": {
+          "x": 47.219419,
+          "y": -103.195121
+        },
+        "R2": {
+          "x": -13.006139,
+          "y": -131.391395
+        },
+        "R3": {
+          "x": -52.178959,
+          "y": -66.737171
+        },
+        "RMIN1": {
+          "x": -279.219315,
+          "y": 1.774905
+        },
+        "RMIN4": {
+          "x": 44.825901,
+          "y": 93.406802
+        },
+        "TPA": {
+          "x": -73.13014,
+          "y": -155.118392
+        },
+        "TPB": {
+          "x": -83.549784,
+          "y": -106.74711
+        },
+        "TPC": {
+          "x": -70.674679,
+          "y": 40.157265
+        },
+        "TPO": {
+          "x": -15.344547,
+          "y": 80.32837
+        },
+        "U1": {
+          "x": -89.71875,
+          "y": 0.0
+        }
+      },
+      "crossings_after": 9,
+      "crossings_before": 9,
+      "ordinary_metrics_after": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71470.379755,
+          "crossing": 18000.0,
+          "crowding": 1152.79161,
+          "length": 4698.272142,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95321.443507,
+        "total_connection_length": 2692.045872
+      },
+      "ordinary_metrics_before": {
+        "clearance_violations": 20,
+        "component_overlaps": 0,
+        "energy": {
+          "clearance": 71470.379755,
+          "crossing": 18000.0,
+          "crowding": 1152.79161,
+          "length": 4698.272142,
+          "overlap": 0.0
+        },
+        "net_crossings": 9,
+        "objective": 95321.443507,
+        "total_connection_length": 2692.045872
+      },
+      "pass_number": 7
+    }
+  ],
+  "start_metrics": {
+    "clearance_violations": 2,
+    "component_overlaps": 0,
+    "energy": {
+      "clearance": 52.64626,
+      "crossing": 46000.0,
+      "crowding": 795.164242,
+      "length": 13675.099274,
+      "overlap": 0.0
+    },
+    "net_crossings": 23,
+    "objective": 60522.909775,
+    "total_connection_length": 4883.300432
+  },
+  "stopping_reason": "latest horizontal and vertical passes both accepted zero moves"
+}
