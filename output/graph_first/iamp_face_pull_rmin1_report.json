@@ -1,0 +1,2305 @@
+{
+  "all_edges_rebuilt_from_authoritative_endpoints": true,
+  "electrical_incidence_count": 44,
+  "face_boundary_vertices": [
+    "component:J_EA",
+    "net:EA",
+    "component:U1",
+    "net:NODE_A",
+    "component:J_R1",
+    "net:R1_EXT",
+    "component:RMIN1",
+    "net:GND"
+  ],
+  "face_id": "face:001",
+  "fixed_vertices": [
+    "component:C1",
+    "component:C2",
+    "component:JP1",
+    "component:J_EB",
+    "component:J_OUT",
+    "component:J_PWR",
+    "component:J_R4",
+    "component:J_RA",
+    "component:R2",
+    "component:R3",
+    "component:RMIN4",
+    "component:TPA",
+    "component:TPB",
+    "component:TPC",
+    "component:TPO",
+    "net:+9V",
+    "net:-9V",
+    "net:EB",
+    "net:EOUT",
+    "net:NODE_B",
+    "net:NODE_C",
+    "net:R1_W",
+    "net:R4_EXT",
+    "net:R4_W",
+    "net:RA_SW",
+    "net:RA_W"
+  ],
+  "pole_coordinate": [
+    330.15790646078585,
+    -309.6756581230413
+  ],
+  "schema": "graph-relax.face-pull-rmin1.v1",
+  "snapshots_direct_from_original": true,
+  "source_coordinates": "output/graph_first/iamp_nearness_rotation_direct_report.json#final_coordinates",
+  "source_face": "output/graph_first/iamp_face_poles_report.json#face:001",
+  "stages": [
+    {
+      "area_ratio_error": 0.0,
+      "clearance_violation_count": 13,
+      "coincident_vertex_pair_list": [],
+      "coincident_vertex_pairs": 0,
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          470.42463172536304,
+          19.452588376757035
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626562,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          678.5504812830113,
+          -205.02668566046128
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          198.4594191436121,
+          17.74168632582939
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402582,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          404.88025218730104,
+          -446.1526278023859
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "crowded_cluster_count": 2,
+      "crowding_changes_relative_to_s_1": {
+        "existing_violations_improved": [],
+        "existing_violations_unchanged": [
+          {
+            "clearance_after": 3.0684503236436735,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:GND"
+          },
+          {
+            "clearance_after": 5.041033364755728,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 3.0684503236436735,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 1.4814157287331682,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 3.552713678800501e-15,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 5.041033364755728,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:J_PWR",
+            "item_b": "edge:component:C1|net:+9V"
+          },
+          {
+            "clearance_after": 0.15203931576358773,
+            "clearance_before": 0.15203931576358773,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPB",
+            "item_b": "edge:component:R3|net:NODE_B"
+          },
+          {
+            "clearance_after": 3.0684503236436735,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 1.4814157287331682,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 3.552713678800501e-15,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ],
+        "existing_violations_worsened": [],
+        "new_violations": [],
+        "removed_violations": []
+      },
+      "expected_area_ratio": 1.0,
+      "face_area_after": 265911.0934219695,
+      "face_area_before": 265911.0934219695,
+      "face_area_ratio": 1.0,
+      "largest_clearance_deficit": 5.847960684236412,
+      "minimum_node_distance": 6.074336661888837,
+      "moved_vertices": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "proper_crossing_list": [],
+      "proper_crossings": 0,
+      "reconnected_edge_count": 44,
+      "s": 1.0,
+      "status": "VALID ZERO-CROSSING",
+      "vertex_on_unrelated_edge_event_list": [],
+      "vertex_on_unrelated_edge_events": 0,
+      "worst_clearance": 0.15203931576358773
+    },
+    {
+      "area_ratio_error": 0.0,
+      "clearance_violation_count": 13,
+      "coincident_vertex_pair_list": [],
+      "coincident_vertex_pairs": 0,
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          456.3979591989053,
+          -13.46023627322279
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          125.57740230471765,
+          -370.9168800379126
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -215.49158290671926
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          33.015790646078585,
+          -30.967565812304144
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          211.62926787532948,
+          -15.00004811905768
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          595.8355858902742,
+          117.6857130851185
+        ],
+        "net:NODE_A": [
+          29.816973535116233,
+          -245.06697887754882
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -432.50493083445144
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "crowded_cluster_count": 2,
+      "crowding_changes_relative_to_s_1": {
+        "existing_violations_improved": [
+          {
+            "clearance_after": 35.892385279661866,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 32.82393495601819,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 39.38726969136438,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 34.346236326608654,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 35.892385279661866,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 32.82393495601819,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 33.390556959294884,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 31.90914123056172,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 39.38726969136438,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 34.346236326608654,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 35.892385279661866,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 32.82393495601819,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 33.390556959294884,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 31.90914123056172,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ],
+        "existing_violations_unchanged": [
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:GND"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:J_PWR",
+            "item_b": "edge:component:C1|net:+9V"
+          },
+          {
+            "clearance_after": 0.15203931576358773,
+            "clearance_before": 0.15203931576358773,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPB",
+            "item_b": "edge:component:R3|net:NODE_B"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          }
+        ],
+        "existing_violations_worsened": [],
+        "new_violations": [
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 7.98959158376115,
+            "clearance_change": -7.98959158376115,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EB|net:EB",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 4.525929081103713,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -8.30241329391625,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R2|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 4.525929081103713,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -8.30241329391625,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R3|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 4.525929081103713,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -8.30241329391625,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:TPB|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 4.525929081103713,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -8.30241329391625,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          }
+        ],
+        "removed_violations": [
+          {
+            "clearance_after": 35.892385279661866,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 32.82393495601819,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 39.38726969136438,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 34.346236326608654,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 35.892385279661866,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 32.82393495601819,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 33.390556959294884,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 31.90914123056172,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 39.38726969136438,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 34.346236326608654,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 35.892385279661866,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 32.82393495601819,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 33.390556959294884,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 31.90914123056172,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ]
+      },
+      "expected_area_ratio": 0.81,
+      "face_area_after": 215387.98567179532,
+      "face_area_before": 265911.0934219695,
+      "face_area_ratio": 0.81,
+      "largest_clearance_deficit": 6.0,
+      "minimum_node_distance": 17.727161871886178,
+      "moved_vertices": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "proper_crossing_list": [
+        {
+          "edge_a": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        }
+      ],
+      "proper_crossings": 3,
+      "reconnected_edge_count": 44,
+      "s": 0.9,
+      "status": "INVALID / CROSSING",
+      "vertex_on_unrelated_edge_event_list": [],
+      "vertex_on_unrelated_edge_events": 0,
+      "worst_clearance": 0.0
+    },
+    {
+      "area_ratio_error": 0.0,
+      "clearance_violation_count": 14,
+      "coincident_vertex_pair_list": [],
+      "coincident_vertex_pairs": 0,
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          442.3712866724476,
+          -46.373060923202615
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          148.30856943316965,
+          -364.11229982514914
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          608.8719663185663,
+          -225.9564801529773
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          66.03158129215717,
+          -61.93513162460823
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          224.79911660704687,
+          -47.74178256394475
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          566.3158437314421,
+          70.20111628421188
+        ],
+        "net:NODE_A": [
+          63.188188304635105,
+          -252.24572101593685
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          389.935783041998,
+          -418.857233866517
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "crowded_cluster_count": 3,
+      "crowding_changes_relative_to_s_1": {
+        "existing_violations_improved": [
+          {
+            "clearance_after": 68.78071242075251,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 65.71226209710883,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 75.00546379303432,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 69.96443042827859,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 68.95399903050361,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 65.88554870685994,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 64.39592107461536,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 62.91450534588219,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 75.00546379303432,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 69.96443042827859,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 69.23607355089604,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 66.16762322725236,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 64.39592107461536,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 62.91450534588219,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ],
+        "existing_violations_unchanged": [
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:GND"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:J_PWR",
+            "item_b": "edge:component:C1|net:+9V"
+          },
+          {
+            "clearance_after": 0.15203931576358773,
+            "clearance_before": 0.15203931576358773,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPB",
+            "item_b": "edge:component:R3|net:NODE_B"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          }
+        ],
+        "existing_violations_worsened": [],
+        "new_violations": [
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 7.98959158376115,
+            "clearance_change": -7.98959158376115,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EB|net:EB",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R2|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R3|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:TPB|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 5.159516326888072,
+            "clearance_before": 30.569726854228914,
+            "clearance_change": -25.410210527340844,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPA",
+            "item_b": "edge:component:J_RA|net:NODE_A"
+          },
+          {
+            "clearance_after": 1.0755023567696826,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -11.752840018250279,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          }
+        ],
+        "removed_violations": [
+          {
+            "clearance_after": 68.78071242075251,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 65.71226209710883,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 75.00546379303432,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 69.96443042827859,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 68.95399903050361,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 65.88554870685994,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 64.39592107461536,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 62.91450534588219,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 75.00546379303432,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 69.96443042827859,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 69.23607355089604,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 66.16762322725236,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 64.39592107461536,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 62.91450534588219,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ]
+      },
+      "expected_area_ratio": 0.6400000000000001,
+      "face_area_after": 170183.0997900605,
+      "face_area_before": 265911.0934219695,
+      "face_area_ratio": 0.6400000000000001,
+      "largest_clearance_deficit": 6.0,
+      "minimum_node_distance": 17.727161871886178,
+      "moved_vertices": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "proper_crossing_list": [
+        {
+          "edge_a": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:R2",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:TPB",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        }
+      ],
+      "proper_crossings": 6,
+      "reconnected_edge_count": 44,
+      "s": 0.8,
+      "status": "INVALID / CROSSING",
+      "vertex_on_unrelated_edge_event_list": [],
+      "vertex_on_unrelated_edge_events": 0,
+      "worst_clearance": 0.0
+    },
+    {
+      "area_ratio_error": 0.0,
+      "clearance_violation_count": 21,
+      "coincident_vertex_pair_list": [],
+      "coincident_vertex_pairs": 0,
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          428.3446141459899,
+          -79.28588557318247
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          171.0397365616217,
+          -357.30771961238565
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          574.0327088363437,
+          -236.42137739923527
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          99.04737193823578,
+          -92.9026974369124
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          237.96896533876424,
+          -80.48351700883183
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          536.79610157261,
+          22.71651948330515
+        ],
+        "net:NODE_A": [
+          96.55940307415398,
+          -259.42446315432494
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          382.4635484693465,
+          -405.2095368985825
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "crowded_cluster_count": 3,
+      "crowding_changes_relative_to_s_1": {
+        "existing_violations_improved": [
+          {
+            "clearance_after": 101.70546186953635,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 98.63701154589268,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 110.72617270133428,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 105.68513933657854,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 102.17958595646274,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 99.11113563281907,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 88.03774341775195,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 86.55632768901879,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 110.72617270133428,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 105.68513933657854,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 103.77727572705436,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 100.70882540341069,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 88.03774341775195,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 86.55632768901879,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ],
+        "existing_violations_unchanged": [
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:J_PWR",
+            "item_b": "edge:component:C1|net:+9V"
+          },
+          {
+            "clearance_after": 0.15203931576358773,
+            "clearance_before": 0.15203931576358773,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPB",
+            "item_b": "edge:component:R3|net:NODE_B"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          }
+        ],
+        "existing_violations_worsened": [
+          {
+            "clearance_after": 0.2627699059496037,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": -3.7507515254715393,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:GND"
+          }
+        ],
+        "new_violations": [
+          {
+            "clearance_after": 0.6637256748167678,
+            "clearance_before": 9.60589960387254,
+            "clearance_change": -8.942173929055773,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:C2|net:GND"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.901415619157833,
+            "clearance_before": 7.938692030874277,
+            "clearance_change": -7.037276411716444,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:GND",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 0.901415619157833,
+            "clearance_before": 6.000016846662411,
+            "clearance_change": -5.098601227504578,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:GND",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 7.98959158376115,
+            "clearance_change": -7.98959158376115,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EB|net:EB",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R2|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R3|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:TPB|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 0.6637256748167678,
+            "clearance_before": 73.30160040815788,
+            "clearance_change": -72.6378747333411,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:C2|net:GND"
+          },
+          {
+            "clearance_after": 0.2627699059496037,
+            "clearance_before": 45.089343575487455,
+            "clearance_change": -44.82657366953785,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_PWR|net:GND"
+          },
+          {
+            "clearance_after": 0.901415619157833,
+            "clearance_before": 38.96641629672973,
+            "clearance_change": -38.0650006775719,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:J_PWR",
+            "item_b": "edge:component:C2|net:GND"
+          },
+          {
+            "clearance_after": 4.311435503734952,
+            "clearance_before": 30.569726854228914,
+            "clearance_change": -26.258291350493963,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPA",
+            "item_b": "edge:component:J_RA|net:NODE_A"
+          },
+          {
+            "clearance_after": 5.849903325380585,
+            "clearance_before": 15.644623971769782,
+            "clearance_change": -9.794720646389198,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPB",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 5.0833824154806315,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -7.7449599595393295,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          }
+        ],
+        "removed_violations": [
+          {
+            "clearance_after": 101.70546186953635,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 98.63701154589268,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 110.72617270133428,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 105.68513933657854,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 102.17958595646274,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 99.11113563281907,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 88.03774341775195,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 86.55632768901879,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 110.72617270133428,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 105.68513933657854,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 103.77727572705436,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 100.70882540341069,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 88.03774341775195,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 86.55632768901879,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ]
+      },
+      "expected_area_ratio": 0.48999999999999994,
+      "face_area_after": 130296.43577676504,
+      "face_area_before": 265911.0934219695,
+      "face_area_ratio": 0.48999999999999994,
+      "largest_clearance_deficit": 6.0,
+      "minimum_node_distance": 17.727161871886178,
+      "moved_vertices": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "proper_crossing_list": [
+        {
+          "edge_a": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:R2",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:TPB",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        }
+      ],
+      "proper_crossings": 6,
+      "reconnected_edge_count": 44,
+      "s": 0.7,
+      "status": "INVALID / CROSSING",
+      "vertex_on_unrelated_edge_event_list": [],
+      "vertex_on_unrelated_edge_events": 0,
+      "worst_clearance": 0.0
+    },
+    {
+      "area_ratio_error": 0.0,
+      "clearance_violation_count": 19,
+      "coincident_vertex_pair_list": [],
+      "coincident_vertex_pairs": 0,
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          414.3179416195322,
+          -112.1987102231623
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          193.7709036900737,
+          -350.50313939962217
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          539.1934513541212,
+          -246.88627464549327
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          132.06316258431434,
+          -123.87026324921652
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          251.1388140704816,
+          -113.22525145371887
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          507.2763594137781,
+          -24.768077317601467
+        ],
+        "net:NODE_A": [
+          129.9306178436728,
+          -266.60320529271297
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          374.991313896695,
+          -391.56183993064803
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "crowded_cluster_count": 2,
+      "crowding_changes_relative_to_s_1": {
+        "existing_violations_improved": [
+          {
+            "clearance_after": 134.63021131832016,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 131.5617609946765,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 127.61419595435498,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 122.57316258959925,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 135.40517288242182,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 132.33672255877815,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 97.71399327968228,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 96.23257755094912,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 146.47441476439778,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 141.43338139964206,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 138.6965904918527,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 135.62814016820903,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 97.71399327968228,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 96.23257755094912,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ],
+        "existing_violations_unchanged": [
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 4.013521431421143,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:J_PWR",
+            "item_b": "edge:component:C1|net:+9V"
+          },
+          {
+            "clearance_after": 0.15203931576358773,
+            "clearance_before": 0.15203931576358773,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPB",
+            "item_b": "edge:component:R3|net:NODE_B"
+          },
+          {
+            "clearance_after": 3.3168117848392145,
+            "clearance_before": 3.3168117848392145,
+            "clearance_change": 0.0,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          }
+        ],
+        "existing_violations_worsened": [
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 4.013521431421143,
+            "clearance_change": -4.013521431421143,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_PWR|net:GND"
+          }
+        ],
+        "new_violations": [
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 9.60589960387254,
+            "clearance_change": -9.60589960387254,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:C2|net:GND"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 130.60373013877256,
+            "clearance_change": -130.60373013877256,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EB|net:GND"
+          },
+          {
+            "clearance_after": 4.29115299565555,
+            "clearance_before": 163.61065847533527,
+            "clearance_change": -159.31950547967972,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_OUT|net:GND"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 7.938692030874277,
+            "clearance_change": -7.938692030874277,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:GND",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 6.000016846662411,
+            "clearance_change": -6.000016846662411,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C2|net:GND",
+            "item_b": "edge:component:J_PWR|net:-9V"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 7.98959158376115,
+            "clearance_change": -7.98959158376115,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EB|net:EB",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 22.046567660882783,
+            "clearance_change": -22.046567660882783,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_PWR|net:-9V",
+            "item_b": "edge:component:U1|net:EOUT"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R2|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:R3|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 0.0,
+            "clearance_before": 12.828342375019961,
+            "clearance_change": -12.828342375019961,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:TPB|net:NODE_B",
+            "item_b": "edge:component:U1|net:NODE_C"
+          },
+          {
+            "clearance_after": 4.29115299565555,
+            "clearance_before": 163.61065847533527,
+            "clearance_change": -159.31950547967972,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_OUT|net:GND"
+          },
+          {
+            "clearance_after": 4.189086533144961,
+            "clearance_before": 15.644623971769782,
+            "clearance_change": -11.455537438624821,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:TPB",
+            "item_b": "edge:component:U1|net:NODE_C"
+          }
+        ],
+        "removed_violations": [
+          {
+            "clearance_after": 134.63021131832016,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 131.5617609946765,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 127.61419595435498,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 122.57316258959925,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:C1|net:GND",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 135.40517288242182,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 132.33672255877815,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:J_PWR|net:+9V"
+          },
+          {
+            "clearance_after": 97.71399327968228,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 96.23257755094912,
+            "geometry_type": "edge-edge",
+            "item_a": "edge:component:J_EA|net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          },
+          {
+            "clearance_after": 146.47441476439778,
+            "clearance_before": 5.041033364755728,
+            "clearance_change": 141.43338139964206,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:component:C1",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 138.6965904918527,
+            "clearance_before": 3.0684503236436735,
+            "clearance_change": 135.62814016820903,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:+9V",
+            "item_b": "edge:component:J_EA|net:EA"
+          },
+          {
+            "clearance_after": 97.71399327968228,
+            "clearance_before": 1.4814157287331646,
+            "clearance_change": 96.23257755094912,
+            "geometry_type": "vertex-edge",
+            "item_a": "vertex:net:EA",
+            "item_b": "edge:component:U1|net:+9V"
+          }
+        ]
+      },
+      "expected_area_ratio": 0.36,
+      "face_area_after": 95727.99363190902,
+      "face_area_before": 265911.0934219695,
+      "face_area_ratio": 0.36,
+      "largest_clearance_deficit": 6.0,
+      "minimum_node_distance": 17.727161871886178,
+      "moved_vertices": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "proper_crossing_list": [
+        {
+          "edge_a": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "edge_b": [
+            "component:C2",
+            "net:GND"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "edge_b": [
+            "component:J_EB",
+            "net:GND"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "edge_b": [
+            "component:J_PWR",
+            "net:GND"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:C2",
+            "net:GND"
+          ],
+          "edge_b": [
+            "component:J_PWR",
+            "net:+9V"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:C2",
+            "net:GND"
+          ],
+          "edge_b": [
+            "component:J_PWR",
+            "net:-9V"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:EOUT"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:R2",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:TPB",
+            "net:NODE_B"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:NODE_C"
+          ]
+        }
+      ],
+      "proper_crossings": 11,
+      "reconnected_edge_count": 44,
+      "s": 0.6,
+      "status": "INVALID / CROSSING",
+      "vertex_on_unrelated_edge_event_list": [],
+      "vertex_on_unrelated_edge_events": 0,
+      "worst_clearance": 0.0
+    }
+  ],
+  "vertex_count": 34
+}

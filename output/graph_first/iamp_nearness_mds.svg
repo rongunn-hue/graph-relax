@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-49932.471517 -69153.985376 141661.786490 133630.246665" width="1400" height="1000">
+<rect x="-10000" y="-10000" width="20000" height="20000" fill="white"/>
+<text x="-49918.471517" y="-69128.985376" font-family="sans-serif" font-size="17" fill="#222">IAMP graph nearness — classical MDS</text>
+<line x1="63045.533693" y1="3303.747323" x2="29146.412150" y2="2824.187846" stroke="#777" stroke-width="1.3"/>
+<line x1="63045.533693" y1="3303.747323" x2="84422.969287" y2="22297.991835" stroke="#777" stroke-width="1.3"/>
+<line x1="38697.689140" y1="3303.747323" x2="4798.567597" y2="2824.187846" stroke="#777" stroke-width="1.3"/>
+<line x1="38697.689140" y1="3303.747323" x2="84422.969287" y2="22297.991835" stroke="#777" stroke-width="1.3"/>
+<line x1="-44206.778801" y1="498.756496" x2="-22248.582802" y2="9205.347646" stroke="#777" stroke-width="1.3"/>
+<line x1="-44206.778801" y1="498.756496" x2="-49807.471517" y2="-48117.921368" stroke="#777" stroke-width="1.3"/>
+<line x1="62913.072088" y1="3277.691171" x2="26792.021584" y2="2395.127654" stroke="#777" stroke-width="1.3"/>
+<line x1="62913.072088" y1="3277.691171" x2="84422.969287" y2="22297.991835" stroke="#777" stroke-width="1.3"/>
+<line x1="38565.227535" y1="3277.691171" x2="2444.177031" y2="2395.127654" stroke="#777" stroke-width="1.3"/>
+<line x1="38565.227535" y1="3277.691171" x2="84422.969287" y2="22297.991835" stroke="#777" stroke-width="1.3"/>
+<line x1="45946.235280" y1="28354.910748" x2="10915.749988" y2="21231.898998" stroke="#777" stroke-width="1.3"/>
+<line x1="45946.235280" y1="28354.910748" x2="84422.969287" y2="22297.991835" stroke="#777" stroke-width="1.3"/>
+<line x1="51287.911511" y1="3679.295802" x2="29146.412150" y2="2824.187846" stroke="#777" stroke-width="1.3"/>
+<line x1="51287.911511" y1="3679.295802" x2="4798.567597" y2="2824.187846" stroke="#777" stroke-width="1.3"/>
+<line x1="51287.911511" y1="3679.295802" x2="84422.969287" y2="22297.991835" stroke="#777" stroke-width="1.3"/>
+<line x1="13884.241749" y1="-50992.397134" x2="-479.822567" y2="-32114.911960" stroke="#777" stroke-width="1.3"/>
+<line x1="13884.241749" y1="-50992.397134" x2="54658.834045" y2="-60230.604753" stroke="#777" stroke-width="1.3"/>
+<line x1="13884.241749" y1="-50992.397134" x2="16381.871347" y2="-69028.985376" stroke="#777" stroke-width="1.3"/>
+<line x1="6026.067841" y1="44221.124967" x2="10915.749988" y2="21231.898998" stroke="#777" stroke-width="1.3"/>
+<line x1="6026.067841" y1="44221.124967" x2="-25687.732355" y2="64351.261289" stroke="#777" stroke-width="1.3"/>
+<line x1="6026.067841" y1="44221.124967" x2="4705.350649" y2="63133.985720" stroke="#777" stroke-width="1.3"/>
+<line x1="-14101.351664" y1="-50763.343694" x2="-479.822567" y2="-32114.911960" stroke="#777" stroke-width="1.3"/>
+<line x1="-14101.351664" y1="-50763.343694" x2="-49807.471517" y2="-48117.921368" stroke="#777" stroke-width="1.3"/>
+<line x1="-14101.351664" y1="-50763.343694" x2="-23155.212628" y2="-68320.205844" stroke="#777" stroke-width="1.3"/>
+<line x1="-11699.910756" y1="-41988.524930" x2="-479.822567" y2="-32114.911960" stroke="#777" stroke-width="1.3"/>
+<line x1="-11699.910756" y1="-41988.524930" x2="-8638.465043" y2="1699.955542" stroke="#777" stroke-width="1.3"/>
+<line x1="-40107.294027" y1="12889.160871" x2="-8638.465043" y2="1699.955542" stroke="#777" stroke-width="1.3"/>
+<line x1="-40107.294027" y1="12889.160871" x2="-22248.582802" y2="9205.347646" stroke="#777" stroke-width="1.3"/>
+<line x1="91604.314973" y1="-27678.602564" x2="84422.969287" y2="22297.991835" stroke="#777" stroke-width="1.3"/>
+<line x1="91604.314973" y1="-27678.602564" x2="54658.834045" y2="-60230.604753" stroke="#777" stroke-width="1.3"/>
+<line x1="-38016.210878" y1="31947.233319" x2="-22248.582802" y2="9205.347646" stroke="#777" stroke-width="1.3"/>
+<line x1="-38016.210878" y1="31947.233319" x2="-25687.732355" y2="64351.261289" stroke="#777" stroke-width="1.3"/>
+<line x1="-4380.555199" y1="-44451.812006" x2="-479.822567" y2="-32114.911960" stroke="#777" stroke-width="1.3"/>
+<line x1="-15335.567811" y1="4059.424833" x2="-8638.465043" y2="1699.955542" stroke="#777" stroke-width="1.3"/>
+<line x1="-35185.302560" y1="15424.827363" x2="-22248.582802" y2="9205.347646" stroke="#777" stroke-width="1.3"/>
+<line x1="12299.936984" y1="32854.848100" x2="10915.749988" y2="21231.898998" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="29146.412150" y2="2824.187846" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="4798.567597" y2="2824.187846" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="26792.021584" y2="2395.127654" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="2444.177031" y2="2395.127654" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="10915.749988" y2="21231.898998" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="-479.822567" y2="-32114.911960" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="-8638.465043" y2="1699.955542" stroke="#777" stroke-width="1.3"/>
+<line x1="0.000000" y1="0.000000" x2="-22248.582802" y2="9205.347646" stroke="#777" stroke-width="1.3"/>
+<circle cx="63045.533693" cy="3303.747323" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="63052.533693" y="3296.747323" font-family="sans-serif" font-size="10" fill="#111">C:C1</text>
+<circle cx="38697.689140" cy="3303.747323" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="38704.689140" y="3296.747323" font-family="sans-serif" font-size="10" fill="#111">C:C2</text>
+<circle cx="-44206.778801" cy="498.756496" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-44199.778801" y="491.756496" font-family="sans-serif" font-size="10" fill="#111">C:JP1</text>
+<circle cx="62913.072088" cy="3277.691171" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="62920.072088" y="3270.691171" font-family="sans-serif" font-size="10" fill="#111">C:J_EA</text>
+<circle cx="38565.227535" cy="3277.691171" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="38572.227535" y="3270.691171" font-family="sans-serif" font-size="10" fill="#111">C:J_EB</text>
+<circle cx="45946.235280" cy="28354.910748" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="45953.235280" y="28347.910748" font-family="sans-serif" font-size="10" fill="#111">C:J_OUT</text>
+<circle cx="51287.911511" cy="3679.295802" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="51294.911511" y="3672.295802" font-family="sans-serif" font-size="10" fill="#111">C:J_PWR</text>
+<circle cx="13884.241749" cy="-50992.397134" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="13891.241749" y="-50999.397134" font-family="sans-serif" font-size="10" fill="#111">C:J_R1</text>
+<circle cx="6026.067841" cy="44221.124967" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="6033.067841" y="44214.124967" font-family="sans-serif" font-size="10" fill="#111">C:J_R4</text>
+<circle cx="-14101.351664" cy="-50763.343694" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-14094.351664" y="-50770.343694" font-family="sans-serif" font-size="10" fill="#111">C:J_RA</text>
+<circle cx="-11699.910756" cy="-41988.524930" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-11692.910756" y="-41995.524930" font-family="sans-serif" font-size="10" fill="#111">C:R2</text>
+<circle cx="-40107.294027" cy="12889.160871" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-40100.294027" y="12882.160871" font-family="sans-serif" font-size="10" fill="#111">C:R3</text>
+<circle cx="91604.314973" cy="-27678.602564" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="91611.314973" y="-27685.602564" font-family="sans-serif" font-size="10" fill="#111">C:RMIN1</text>
+<circle cx="-38016.210878" cy="31947.233319" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-38009.210878" y="31940.233319" font-family="sans-serif" font-size="10" fill="#111">C:RMIN4</text>
+<circle cx="-4380.555199" cy="-44451.812006" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-4373.555199" y="-44458.812006" font-family="sans-serif" font-size="10" fill="#111">C:TPA</text>
+<circle cx="-15335.567811" cy="4059.424833" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-15328.567811" y="4052.424833" font-family="sans-serif" font-size="10" fill="#111">C:TPB</text>
+<circle cx="-35185.302560" cy="15424.827363" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="-35178.302560" y="15417.827363" font-family="sans-serif" font-size="10" fill="#111">C:TPC</text>
+<circle cx="12299.936984" cy="32854.848100" r="5" fill="#1565c0" stroke="white" stroke-width="1"/>
+<text x="12306.936984" y="32847.848100" font-family="sans-serif" font-size="10" fill="#111">C:TPO</text>
+<circle cx="0.000000" cy="0.000000" r="9" fill="#ffd600" stroke="#111" stroke-width="2.2"/>
+<text x="7.000000" y="-7.000000" font-family="sans-serif" font-size="10" fill="#111">C:U1</text>
+<rect x="29141.912150" y="2819.687846" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="29153.412150" y="2817.187846" font-family="sans-serif" font-size="10" fill="#111">N:+9V</text>
+<rect x="4794.067597" y="2819.687846" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="4805.567597" y="2817.187846" font-family="sans-serif" font-size="10" fill="#111">N:-9V</text>
+<rect x="26787.521584" y="2390.627654" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="26799.021584" y="2388.127654" font-family="sans-serif" font-size="10" fill="#111">N:EA</text>
+<rect x="2439.677031" y="2390.627654" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="2451.177031" y="2388.127654" font-family="sans-serif" font-size="10" fill="#111">N:EB</text>
+<rect x="10911.249988" y="21227.398998" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="10922.749988" y="21224.898998" font-family="sans-serif" font-size="10" fill="#111">N:EOUT</text>
+<rect x="84418.469287" y="22293.491835" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="84429.969287" y="22290.991835" font-family="sans-serif" font-size="10" fill="#111">N:GND</text>
+<rect x="-484.322567" y="-32119.411960" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="-472.822567" y="-32121.911960" font-family="sans-serif" font-size="10" fill="#111">N:NODE_A</text>
+<rect x="-8642.965043" y="1695.455542" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="-8631.465043" y="1692.955542" font-family="sans-serif" font-size="10" fill="#111">N:NODE_B</text>
+<rect x="-22253.082802" y="9200.847646" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="-22241.582802" y="9198.347646" font-family="sans-serif" font-size="10" fill="#111">N:NODE_C</text>
+<rect x="54654.334045" y="-60235.104753" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="54665.834045" y="-60237.604753" font-family="sans-serif" font-size="10" fill="#111">N:R1_EXT</text>
+<rect x="16377.371347" y="-69033.485376" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="16388.871347" y="-69035.985376" font-family="sans-serif" font-size="10" fill="#111">N:R1_W</text>
+<rect x="-25692.232355" y="64346.761289" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="-25680.732355" y="64344.261289" font-family="sans-serif" font-size="10" fill="#111">N:R4_EXT</text>
+<rect x="4700.850649" y="63129.485720" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="4712.350649" y="63126.985720" font-family="sans-serif" font-size="10" fill="#111">N:R4_W</text>
+<rect x="-49811.971517" y="-48122.421368" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="-49800.471517" y="-48124.921368" font-family="sans-serif" font-size="10" fill="#111">N:RA_SW</text>
+<rect x="-23159.712628" y="-68324.705844" width="9" height="9" fill="#d84315" stroke="white" stroke-width="1"/>
+<text x="-23148.212628" y="-68327.205844" font-family="sans-serif" font-size="10" fill="#111">N:RA_W</text>
+</svg>

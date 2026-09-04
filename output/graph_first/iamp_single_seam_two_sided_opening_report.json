@@ -1,0 +1,306 @@
+{
+  "clearance_violations": 6,
+  "conclusion": "No baseline violation has two unambiguous, distinct local gap faces that both retain an exclusive unowned FREE vertex after persistent ownership.",
+  "coordinates_unchanged": true,
+  "electrical_incidence_count": 44,
+  "event_eligibility_audit": [
+    {
+      "clearance": 0.15203931576358773,
+      "eligibility": "INELIGIBLE",
+      "event_id": "V01",
+      "event_midpoint": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "event_type": "vertex-edge",
+      "face_a": "face:006",
+      "face_a_unowned_free_candidates": [
+        "component:JP1",
+        "component:R2",
+        "component:R3",
+        "net:RA_SW"
+      ],
+      "face_b": "face:006",
+      "face_b_unowned_free_candidates": [
+        "component:JP1",
+        "component:R2",
+        "component:R3",
+        "net:RA_SW"
+      ],
+      "ineligibility_reasons": [
+        "both geometries open into the same local face"
+      ],
+      "item_a": "vertex:component:TPB",
+      "item_a_incident_faces": [
+        "face:006"
+      ],
+      "item_a_local_gap_faces": [
+        "face:006"
+      ],
+      "item_b": "edge:component:R3|net:NODE_B",
+      "item_b_incident_faces": [
+        "face:006",
+        "face:012"
+      ],
+      "item_b_local_gap_faces": [
+        "face:006"
+      ],
+      "ownership_conflicts": [
+        "component:JP1",
+        "component:R2",
+        "component:R3",
+        "net:RA_SW"
+      ],
+      "pA": [
+        -113.59679859782972,
+        30.06981357571914
+      ],
+      "pB": [
+        -113.54586279184491,
+        30.213066838182996
+      ],
+      "resolved_side_a_movables": [
+        "component:JP1",
+        "component:R2",
+        "component:R3",
+        "net:RA_SW"
+      ],
+      "resolved_side_b_movables": []
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "eligibility": "INELIGIBLE",
+      "event_id": "V02",
+      "event_midpoint": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "event_type": "edge-edge",
+      "face_a": null,
+      "face_a_unowned_free_candidates": [],
+      "face_b": "face:009",
+      "face_b_unowned_free_candidates": [],
+      "ineligibility_reasons": [
+        "item A local face is unassigned"
+      ],
+      "item_a": "edge:component:C1|net:+9V",
+      "item_a_incident_faces": [
+        "face:001",
+        "face:002"
+      ],
+      "item_a_local_gap_faces": [],
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "item_b_incident_faces": [
+        "face:003",
+        "face:009"
+      ],
+      "item_b_local_gap_faces": [
+        "face:009"
+      ],
+      "ownership_conflicts": [],
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "resolved_side_a_movables": [],
+      "resolved_side_b_movables": []
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "eligibility": "INELIGIBLE",
+      "event_id": "V03",
+      "event_midpoint": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "event_type": "edge-edge",
+      "face_a": "face:009",
+      "face_a_unowned_free_candidates": [],
+      "face_b": "face:009",
+      "face_b_unowned_free_candidates": [],
+      "ineligibility_reasons": [
+        "both geometries open into the same local face"
+      ],
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_a_incident_faces": [
+        "face:003",
+        "face:009"
+      ],
+      "item_a_local_gap_faces": [
+        "face:009"
+      ],
+      "item_b": "edge:component:U1|net:+9V",
+      "item_b_incident_faces": [
+        "face:001",
+        "face:009"
+      ],
+      "item_b_local_gap_faces": [
+        "face:009"
+      ],
+      "ownership_conflicts": [],
+      "pA": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "pB": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "resolved_side_a_movables": [],
+      "resolved_side_b_movables": []
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "eligibility": "INELIGIBLE",
+      "event_id": "V04",
+      "event_midpoint": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "event_type": "vertex-edge",
+      "face_a": "face:009",
+      "face_a_unowned_free_candidates": [],
+      "face_b": "face:009",
+      "face_b_unowned_free_candidates": [],
+      "ineligibility_reasons": [
+        "both geometries open into the same local face"
+      ],
+      "item_a": "vertex:net:+9V",
+      "item_a_incident_faces": [
+        "face:001",
+        "face:002",
+        "face:009"
+      ],
+      "item_a_local_gap_faces": [
+        "face:009"
+      ],
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "item_b_incident_faces": [
+        "face:003",
+        "face:009"
+      ],
+      "item_b_local_gap_faces": [
+        "face:009"
+      ],
+      "ownership_conflicts": [],
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "resolved_side_a_movables": [],
+      "resolved_side_b_movables": []
+    },
+    {
+      "clearance": 5.37194580436683,
+      "eligibility": "INELIGIBLE",
+      "event_id": "V05",
+      "event_midpoint": [
+        379.9262113737185,
+        24.568116289712258
+      ],
+      "event_type": "edge-edge",
+      "face_a": "face:002",
+      "face_a_unowned_free_candidates": [],
+      "face_b": "face:002",
+      "face_b_unowned_free_candidates": [],
+      "ineligibility_reasons": [
+        "both geometries open into the same local face"
+      ],
+      "item_a": "edge:component:C1|net:+9V",
+      "item_a_incident_faces": [
+        "face:001",
+        "face:002"
+      ],
+      "item_a_local_gap_faces": [
+        "face:002"
+      ],
+      "item_b": "edge:component:J_PWR|net:GND",
+      "item_b_incident_faces": [
+        "face:002",
+        "face:003"
+      ],
+      "item_b_local_gap_faces": [
+        "face:002"
+      ],
+      "ownership_conflicts": [],
+      "pA": [
+        379.94196711187635,
+        21.882189598981718
+      ],
+      "pB": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "resolved_side_a_movables": [],
+      "resolved_side_b_movables": []
+    },
+    {
+      "clearance": 5.37194580436683,
+      "eligibility": "INELIGIBLE",
+      "event_id": "V06",
+      "event_midpoint": [
+        379.9262113737185,
+        24.568116289712258
+      ],
+      "event_type": "vertex-edge",
+      "face_a": "face:002",
+      "face_a_unowned_free_candidates": [],
+      "face_b": "face:002",
+      "face_b_unowned_free_candidates": [],
+      "ineligibility_reasons": [
+        "both geometries open into the same local face"
+      ],
+      "item_a": "vertex:component:J_PWR",
+      "item_a_incident_faces": [
+        "face:002",
+        "face:003",
+        "face:009"
+      ],
+      "item_a_local_gap_faces": [
+        "face:002"
+      ],
+      "item_b": "edge:component:C1|net:+9V",
+      "item_b_incident_faces": [
+        "face:001",
+        "face:002"
+      ],
+      "item_b_local_gap_faces": [
+        "face:002"
+      ],
+      "ownership_conflicts": [],
+      "pA": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "pB": [
+        379.94196711187635,
+        21.882189598981718
+      ],
+      "resolved_side_a_movables": [],
+      "resolved_side_b_movables": []
+    }
+  ],
+  "persistent_owner_face_by_vertex": {
+    "component:C1": "face:001",
+    "component:C2": "face:003",
+    "component:J_EA": "face:007",
+    "component:RMIN1": "face:007",
+    "net:EA": "face:007",
+    "net:R1_EXT": "face:007"
+  },
+  "primitive_tested": false,
+  "proper_crossings": 0,
+  "schema": "graph-relax.single-seam-two-sided-opening.v1",
+  "selected_event": null,
+  "source_geometry": "output/graph_first/iamp_sequential_local_face_pulls_report.json#AFTER face:003",
+  "status": "STOPPED \u2014 NO CURRENT EVENT SATISFIES TWO-SIDED ELIGIBILITY",
+  "vertex_count": 34
+}

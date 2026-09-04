@@ -1,0 +1,1889 @@
+{
+  "accepted_moves": 27,
+  "after_density": [
+    {
+      "area_over_target": 0.1763240592089501,
+      "crowding_ratio": 5.671375786641603,
+      "percent_difference_from_target": -82.36759407910499,
+      "rank": 1,
+      "vertex_id": "net:EB",
+      "voronoi_area": 5188.6229647732325
+    },
+    {
+      "area_over_target": 0.33118764372521775,
+      "crowding_ratio": 3.019436319398702,
+      "percent_difference_from_target": -66.88123562747823,
+      "rank": 2,
+      "vertex_id": "component:U1",
+      "voronoi_area": 9745.736467224971
+    },
+    {
+      "area_over_target": 0.43424381062150375,
+      "crowding_ratio": 2.3028537783158445,
+      "percent_difference_from_target": -56.575618937849626,
+      "rank": 3,
+      "vertex_id": "component:JP1",
+      "voronoi_area": 12778.332226524679
+    },
+    {
+      "area_over_target": 0.46348986529858227,
+      "crowding_ratio": 2.1575444791134655,
+      "percent_difference_from_target": -53.65101347014177,
+      "rank": 4,
+      "vertex_id": "component:C2",
+      "voronoi_area": 13638.945075430784
+    },
+    {
+      "area_over_target": 0.49256237363018157,
+      "crowding_ratio": 2.030199734157537,
+      "percent_difference_from_target": -50.743762636981835,
+      "rank": 5,
+      "vertex_id": "net:-9V",
+      "voronoi_area": 14494.451040128086
+    },
+    {
+      "area_over_target": 0.5003892648187677,
+      "crowding_ratio": 1.9984441519987097,
+      "percent_difference_from_target": -49.961073518123236,
+      "rank": 6,
+      "vertex_id": "net:NODE_B",
+      "voronoi_area": 14724.770076260042
+    },
+    {
+      "area_over_target": 0.552442486485049,
+      "crowding_ratio": 1.8101431813518989,
+      "percent_difference_from_target": -44.7557513514951,
+      "rank": 7,
+      "vertex_id": "component:TPC",
+      "voronoi_area": 16256.521004294424
+    },
+    {
+      "area_over_target": 0.5933103614474201,
+      "crowding_ratio": 1.685458513753971,
+      "percent_difference_from_target": -40.66896385525799,
+      "rank": 8,
+      "vertex_id": "net:+9V",
+      "voronoi_area": 17459.124866198235
+    },
+    {
+      "area_over_target": 0.6937372793012917,
+      "crowding_ratio": 1.441467872401445,
+      "percent_difference_from_target": -30.62627206987083,
+      "rank": 9,
+      "vertex_id": "component:J_PWR",
+      "voronoi_area": 20414.350685044083
+    },
+    {
+      "area_over_target": 0.707604874986969,
+      "crowding_ratio": 1.4132180760038087,
+      "percent_difference_from_target": -29.2395125013031,
+      "rank": 10,
+      "vertex_id": "component:TPB",
+      "voronoi_area": 20822.427301268235
+    },
+    {
+      "area_over_target": 0.7416886697622282,
+      "crowding_ratio": 1.348274607350523,
+      "percent_difference_from_target": -25.831133023777177,
+      "rank": 11,
+      "vertex_id": "component:J_RA",
+      "voronoi_area": 21825.39854121659
+    },
+    {
+      "area_over_target": 0.7841956643895946,
+      "crowding_ratio": 1.2751919519707928,
+      "percent_difference_from_target": -21.580433561040536,
+      "rank": 12,
+      "vertex_id": "net:NODE_C",
+      "voronoi_area": 23076.236172090794
+    },
+    {
+      "area_over_target": 0.7967004942031592,
+      "crowding_ratio": 1.255176829029303,
+      "percent_difference_from_target": -20.329950579684073,
+      "rank": 13,
+      "vertex_id": "net:RA_W",
+      "voronoi_area": 23444.211180336002
+    },
+    {
+      "area_over_target": 0.8454360639767686,
+      "crowding_ratio": 1.1828215551820587,
+      "percent_difference_from_target": -15.456393602323137,
+      "rank": 14,
+      "vertex_id": "component:TPA",
+      "voronoi_area": 24878.334791504672
+    },
+    {
+      "area_over_target": 0.8554517501668265,
+      "crowding_ratio": 1.1689730014638282,
+      "percent_difference_from_target": -14.45482498331735,
+      "rank": 15,
+      "vertex_id": "component:TPO",
+      "voronoi_area": 25173.06268971006
+    },
+    {
+      "area_over_target": 0.8867439198874943,
+      "crowding_ratio": 1.1277212931179443,
+      "percent_difference_from_target": -11.325608011250566,
+      "rank": 16,
+      "vertex_id": "net:R1_W",
+      "voronoi_area": 26093.88581026806
+    },
+    {
+      "area_over_target": 0.9407905127051727,
+      "crowding_ratio": 1.062935889015903,
+      "percent_difference_from_target": -5.920948729482733,
+      "rank": 17,
+      "vertex_id": "net:EOUT",
+      "voronoi_area": 27684.29493491983
+    },
+    {
+      "area_over_target": 0.942325366708269,
+      "crowding_ratio": 1.0612045853049674,
+      "percent_difference_from_target": -5.767463329173095,
+      "rank": 18,
+      "vertex_id": "component:R3",
+      "voronoi_area": 27729.46051676821
+    },
+    {
+      "area_over_target": 0.967467293242151,
+      "crowding_ratio": 1.0336266734649253,
+      "percent_difference_from_target": -3.253270675784903,
+      "rank": 19,
+      "vertex_id": "net:R4_W",
+      "voronoi_area": 28469.30270267065
+    },
+    {
+      "area_over_target": 0.9715257248563081,
+      "crowding_ratio": 1.0293088226232028,
+      "percent_difference_from_target": -2.847427514369194,
+      "rank": 20,
+      "vertex_id": "component:J_EB",
+      "voronoi_area": 28588.728670792352
+    },
+    {
+      "area_over_target": 1.07279142573329,
+      "crowding_ratio": 0.9321476439993595,
+      "percent_difference_from_target": 7.2791425733290005,
+      "rank": 21,
+      "vertex_id": "component:R2",
+      "voronoi_area": 31568.637047853437
+    },
+    {
+      "area_over_target": 1.1149794694972877,
+      "crowding_ratio": 0.8968775007587102,
+      "percent_difference_from_target": 11.497946949728766,
+      "rank": 22,
+      "vertex_id": "net:NODE_A",
+      "voronoi_area": 32810.089029476294
+    },
+    {
+      "area_over_target": 1.12550304979552,
+      "crowding_ratio": 0.8884915950975687,
+      "percent_difference_from_target": 12.550304979552006,
+      "rank": 23,
+      "vertex_id": "component:J_R4",
+      "voronoi_area": 33119.76254001145
+    },
+    {
+      "area_over_target": 1.1634039011408517,
+      "crowding_ratio": 0.8595467137589832,
+      "percent_difference_from_target": 16.340390114085167,
+      "rank": 24,
+      "vertex_id": "net:RA_SW",
+      "voronoi_area": 34235.056893811474
+    },
+    {
+      "area_over_target": 1.2089409669511668,
+      "crowding_ratio": 0.8271702484546488,
+      "percent_difference_from_target": 20.89409669511668,
+      "rank": 25,
+      "vertex_id": "component:RMIN4",
+      "voronoi_area": 35575.05931022475
+    },
+    {
+      "area_over_target": 1.2754810094797617,
+      "crowding_ratio": 0.7840179450479441,
+      "percent_difference_from_target": 27.548100947976174,
+      "rank": 26,
+      "vertex_id": "net:R4_EXT",
+      "voronoi_area": 37533.10856504437
+    },
+    {
+      "area_over_target": 1.2964905316674837,
+      "crowding_ratio": 0.7713129988800211,
+      "percent_difference_from_target": 29.649053166748374,
+      "rank": 27,
+      "vertex_id": "component:J_R1",
+      "voronoi_area": 38151.34801456241
+    },
+    {
+      "area_over_target": 1.326527112266467,
+      "crowding_ratio": 0.7538481428332272,
+      "percent_difference_from_target": 32.6527112266467,
+      "rank": 28,
+      "vertex_id": "component:J_EA",
+      "voronoi_area": 39035.22337779041
+    },
+    {
+      "area_over_target": 1.3444816992815163,
+      "crowding_ratio": 0.7437810425641306,
+      "percent_difference_from_target": 34.44816992815163,
+      "rank": 29,
+      "vertex_id": "component:C1",
+      "voronoi_area": 39563.56637832732
+    },
+    {
+      "area_over_target": 1.397807851648383,
+      "crowding_ratio": 0.7154059113495014,
+      "percent_difference_from_target": 39.78078516483829,
+      "rank": 30,
+      "vertex_id": "net:EA",
+      "voronoi_area": 41132.77536792887
+    },
+    {
+      "area_over_target": 1.4938989823805693,
+      "crowding_ratio": 0.6693893039584727,
+      "percent_difference_from_target": 49.38989823805693,
+      "rank": 31,
+      "vertex_id": "component:RMIN1",
+      "voronoi_area": 43960.41358057468
+    },
+    {
+      "area_over_target": 1.8805023232464202,
+      "crowding_ratio": 0.5317728075302997,
+      "percent_difference_from_target": 88.05023232464202,
+      "rank": 32,
+      "vertex_id": "net:GND",
+      "voronoi_area": 55336.84729968218
+    },
+    {
+      "area_over_target": 2.1996026357578176,
+      "crowding_ratio": 0.4546275694270912,
+      "percent_difference_from_target": 119.96026357578175,
+      "rank": 33,
+      "vertex_id": "component:J_OUT",
+      "voronoi_area": 64726.89433575285
+    },
+    {
+      "area_over_target": 2.421971561731554,
+      "crowding_ratio": 0.41288676374261984,
+      "percent_difference_from_target": 142.19715617315538,
+      "rank": 34,
+      "vertex_id": "net:R1_EXT",
+      "voronoi_area": 71270.4625880695
+    }
+  ],
+  "after_statistics": {
+    "max_min_area_ratio": 13.73591087113888,
+    "maximum_area": 71270.4625880695,
+    "mean_area": 29426.630648427472,
+    "median_area": 27706.87772584402,
+    "minimum_area": 5188.6229647732325,
+    "population_standard_deviation": 14397.436819656785
+  },
+  "attempt_count": 34,
+  "attempts": [
+    {
+      "attempt_order": 1,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "frozen_cell_centroid": [
+        -0.9293782584534317,
+        60.682231365434866
+      ],
+      "original_crowding_ratio": 6.642088428569539,
+      "original_frozen_voronoi_area": 4430.328045898192,
+      "proposed_displacement_distance": 46.970187744903576,
+      "rejection_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:J_EB",
+                "net:EB"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:EOUT"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "starting_coordinate_at_attempt": [
+        18.105015046643143,
+        17.741686325829406
+      ],
+      "vertex_id": "net:EB"
+    },
+    {
+      "attempt_order": 2,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -343.1882775498201,
+        113.2351767865996
+      ],
+      "original_crowding_ratio": 3.3702201653618538,
+      "original_frozen_voronoi_area": 8731.367449185029,
+      "proposed_displacement_distance": 9.011635884692893,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -334.42997578032566,
+        111.11344837967394
+      ],
+      "vertex_id": "component:JP1"
+    },
+    {
+      "attempt_order": 3,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "frozen_cell_centroid": [
+        188.87708619310635,
+        48.1541448051986
+      ],
+      "original_crowding_ratio": 2.8491476007774366,
+      "original_frozen_voronoi_area": 10328.222602576974,
+      "proposed_displacement_distance": 38.36543037983404,
+      "rejection_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:C2",
+                "net:GND"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:GND"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C2",
+                "net:-9V"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:+9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C2",
+                "net:GND"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:+9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:J_PWR",
+                "net:-9V"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:+9V"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "starting_coordinate_at_attempt": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "vertex_id": "net:+9V"
+    },
+    {
+      "attempt_order": 4,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -237.81115623970243,
+        131.00362776875815
+      ],
+      "original_crowding_ratio": 2.7074412849303346,
+      "original_frozen_voronoi_area": 10868.797344642935,
+      "proposed_displacement_distance": 28.305506832481402,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -260.6318708113398,
+        114.25798046913104
+      ],
+      "vertex_id": "component:TPC"
+    },
+    {
+      "attempt_order": 5,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -11.142496371902388,
+        -350.4898103113915
+      ],
+      "original_crowding_ratio": 2.4548849402431676,
+      "original_frozen_voronoi_area": 11986.969395605414,
+      "proposed_displacement_distance": 30.068501366051194,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -32.44855702730761,
+        -329.27268152947534
+      ],
+      "vertex_id": "component:TPA"
+    },
+    {
+      "attempt_order": 6,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "frozen_cell_centroid": [
+        295.68941174584955,
+        20.776217486063576
+      ],
+      "original_crowding_ratio": 2.29851942480253,
+      "original_frozen_voronoi_area": 12802.428524594945,
+      "proposed_displacement_distance": 15.988158795511978,
+      "rejection_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:C2",
+                "net:GND"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C2",
+                "net:-9V"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:+9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C2",
+                "net:GND"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:+9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C2",
+                "net:GND"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:-9V"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "starting_coordinate_at_attempt": [
+        283.81982446582094,
+        31.487618863674726
+      ],
+      "vertex_id": "component:C2"
+    },
+    {
+      "attempt_order": 7,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "frozen_cell_centroid": [
+        7.220460712867951,
+        -61.99646276311415
+      ],
+      "original_crowding_ratio": 2.1867999114664123,
+      "original_frozen_voronoi_area": 13456.4806291284,
+      "proposed_displacement_distance": 62.41551448193205,
+      "rejection_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:J_EB",
+                "net:EB"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:EOUT"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:R2",
+                "net:NODE_B"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:NODE_C"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:R3",
+                "net:NODE_B"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:NODE_C"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "starting_coordinate_at_attempt": [
+        0.0,
+        0.0
+      ],
+      "vertex_id": "component:U1"
+    },
+    {
+      "attempt_order": 8,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "frozen_cell_centroid": [
+        74.54895546123615,
+        9.068532618138455
+      ],
+      "original_crowding_ratio": 1.972193652017128,
+      "original_frozen_voronoi_area": 14920.761264153949,
+      "proposed_displacement_distance": 40.764788291887484,
+      "rejection_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:-9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:J_PWR",
+                "net:-9V"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:+9V"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "starting_coordinate_at_attempt": [
+        35.54494516364402,
+        20.9199099721735
+      ],
+      "vertex_id": "net:-9V"
+    },
+    {
+      "attempt_order": 9,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -72.17258120027003,
+        -20.02661464908317
+      ],
+      "original_crowding_ratio": 1.9144558190274645,
+      "original_frozen_voronoi_area": 15370.754632183718,
+      "proposed_displacement_distance": 33.629871473092464,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -63.98862994744413,
+        12.592263277480884
+      ],
+      "vertex_id": "net:NODE_B"
+    },
+    {
+      "attempt_order": 10,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "frozen_cell_centroid": [
+        371.3074224195409,
+        18.019958990979255
+      ],
+      "original_crowding_ratio": 1.628343585016059,
+      "original_frozen_voronoi_area": 18071.512007177076,
+      "proposed_displacement_distance": 12.620637370608785,
+      "rejection_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:GND"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:J_PWR",
+                "net:-9V"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:+9V"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "starting_coordinate_at_attempt": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "vertex_id": "component:J_PWR"
+    },
+    {
+      "attempt_order": 11,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        133.85220206251688,
+        -477.5249063205781
+      ],
+      "original_crowding_ratio": 1.5750527193857107,
+      "original_frozen_voronoi_area": 18682.9496474913,
+      "proposed_displacement_distance": 36.03993341881034,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        121.34719516059535,
+        -511.325817598459
+      ],
+      "vertex_id": "net:R1_W"
+    },
+    {
+      "attempt_order": 12,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -191.56438459142134,
+        -470.3812116644424
+      ],
+      "original_crowding_ratio": 1.4748740107833898,
+      "original_frozen_voronoi_area": 19951.96229188235,
+      "proposed_displacement_distance": 40.937304255473364,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -171.5200935395895,
+        -506.0755988413453
+      ],
+      "vertex_id": "net:RA_W"
+    },
+    {
+      "attempt_order": 13,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        236.23854006918134,
+        165.46000164752198
+      ],
+      "original_crowding_ratio": 1.4297928865802951,
+      "original_frozen_voronoi_area": 20581.044236979367,
+      "proposed_displacement_distance": 18.977126604246134,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        249.6300782232805,
+        152.01388547886967
+      ],
+      "vertex_id": "component:J_EB"
+    },
+    {
+      "attempt_order": 14,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -122.13450289248553,
+        -396.57970416541167
+      ],
+      "original_crowding_ratio": 1.2752621651972997,
+      "original_frozen_voronoi_area": 23074.965643534786,
+      "proposed_displacement_distance": 27.112532663025437,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -104.4544567673898,
+        -376.02476810571767
+      ],
+      "vertex_id": "component:J_RA"
+    },
+    {
+      "attempt_order": 15,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -306.87850734968737,
+        -18.877970488508428
+      ],
+      "original_crowding_ratio": 1.2597631705373586,
+      "original_frozen_voronoi_area": 23358.859297240284,
+      "proposed_displacement_distance": 114.77132316285169,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -297.0910668648412,
+        95.47526571102958
+      ],
+      "vertex_id": "component:R3"
+    },
+    {
+      "attempt_order": 16,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -155.66122336493802,
+        -35.48413267084412
+      ],
+      "original_crowding_ratio": 1.2521571436766632,
+      "original_frozen_voronoi_area": 23500.748925189324,
+      "proposed_displacement_distance": 77.88925278550963,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -113.59679859782972,
+        30.06981357571914
+      ],
+      "vertex_id": "component:TPB"
+    },
+    {
+      "attempt_order": 17,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        123.15258675923582,
+        264.09357155679317
+      ],
+      "original_crowding_ratio": 1.2423952546406052,
+      "original_frozen_voronoi_area": 23685.401677536094,
+      "proposed_displacement_distance": 38.15997613092082,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        91.11064432645759,
+        243.36924518783795
+      ],
+      "vertex_id": "component:TPO"
+    },
+    {
+      "attempt_order": 18,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "frozen_cell_centroid": [
+        513.5509052432989,
+        53.562525610591294
+      ],
+      "original_crowding_ratio": 1.2237803001415857,
+      "original_frozen_voronoi_area": 24045.680948633468,
+      "proposed_displacement_distance": 54.88957680303923,
+      "rejection_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:-9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:GND"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "starting_coordinate_at_attempt": [
+        467.00395328344604,
+        24.472202393688125
+      ],
+      "vertex_id": "component:C1"
+    },
+    {
+      "attempt_order": 19,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        56.65318129035228,
+        150.24896041716516
+      ],
+      "original_crowding_ratio": 1.207677722058245,
+      "original_frozen_voronoi_area": 24366.294178446606,
+      "proposed_displacement_distance": 25.20290198074974,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        80.85740731952187,
+        157.27332591022918
+      ],
+      "vertex_id": "net:EOUT"
+    },
+    {
+      "attempt_order": 20,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -165.7182239714436,
+        83.93044032561397
+      ],
+      "original_crowding_ratio": 1.1054253293018357,
+      "original_frozen_voronoi_area": 26620.18850880931,
+      "proposed_displacement_distance": 15.769185109231548,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -164.80431705291707,
+        68.18776033923683
+      ],
+      "vertex_id": "net:NODE_C"
+    },
+    {
+      "attempt_order": 21,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        89.32290804080156,
+        439.45330730297036
+      ],
+      "original_crowding_ratio": 1.1019676452279177,
+      "original_frozen_voronoi_area": 26703.71564524585,
+      "proposed_displacement_distance": 61.33826506939566,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        34.85444924956621,
+        467.6591534812175
+      ],
+      "vertex_id": "net:R4_W"
+    },
+    {
+      "attempt_order": 22,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -157.22358579801127,
+        -247.376003818269
+      ],
+      "original_crowding_ratio": 1.0407991358980941,
+      "original_frozen_voronoi_area": 28273.112105378103,
+      "proposed_displacement_distance": 95.02477685219779,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -86.6660055998702,
+        -311.0261105926718
+      ],
+      "vertex_id": "component:R2"
+    },
+    {
+      "attempt_order": 23,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -210.05183004973398,
+        415.56576984437805
+      ],
+      "original_crowding_ratio": 0.8714340409658351,
+      "original_frozen_voronoi_area": 33768.05273272674,
+      "proposed_displacement_distance": 64.22932721891814,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -190.2794989274509,
+        476.67600955087613
+      ],
+      "vertex_id": "net:R4_EXT"
+    },
+    {
+      "attempt_order": 24,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        456.4205181895173,
+        -101.9292673856607
+      ],
+      "original_crowding_ratio": 0.7599595915008356,
+      "original_frozen_voronoi_area": 38721.30962952011,
+      "proposed_displacement_distance": 88.4690339886311,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        456.3979591989053,
+        -13.46023627322279
+      ],
+      "vertex_id": "component:J_EA"
+    },
+    {
+      "attempt_order": 25,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        25.152970530118353,
+        330.41585816950135
+      ],
+      "original_crowding_ratio": 0.7420687929959906,
+      "original_frozen_voronoi_area": 39654.85535326436,
+      "proposed_displacement_distance": 19.69218526745537,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        44.63753956400488,
+        327.563888644507
+      ],
+      "vertex_id": "component:J_R4"
+    },
+    {
+      "attempt_order": 26,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        18.0350020304404,
+        -197.68304964825984
+      ],
+      "original_crowding_ratio": 0.7340772628142068,
+      "original_frozen_voronoi_area": 40086.557831277336,
+      "proposed_displacement_distance": 45.63499198819819,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -3.554241234402555,
+        -237.88823673916076
+      ],
+      "vertex_id": "net:NODE_A"
+    },
+    {
+      "attempt_order": 27,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        218.7300232756448,
+        -109.92354490923239
+      ],
+      "original_crowding_ratio": 0.7161329371363997,
+      "original_frozen_voronoi_area": 41091.01693617909,
+      "proposed_displacement_distance": 95.18871240924217,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        211.62926787532948,
+        -15.00004811905768
+      ],
+      "vertex_id": "net:EA"
+    },
+    {
+      "attempt_order": 28,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -310.13973729821066,
+        -307.99046913630974
+      ],
+      "original_crowding_ratio": 0.6923463548096596,
+      "original_frozen_voronoi_area": 42502.7595566925,
+      "proposed_displacement_distance": 76.18572445601572,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -368.94423346013093,
+        -356.4290471710813
+      ],
+      "vertex_id": "net:RA_SW"
+    },
+    {
+      "attempt_order": 29,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        -257.67843073790067,
+        275.1344935722245
+      ],
+      "original_crowding_ratio": 0.6802399352401578,
+      "original_frozen_voronoi_area": 43259.19300524225,
+      "proposed_displacement_distance": 45.31740342319338,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        -281.60156205833124,
+        236.6461727353019
+      ],
+      "vertex_id": "component:RMIN4"
+    },
+    {
+      "attempt_order": 30,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        152.57570716365007,
+        -341.0251143923969
+      ],
+      "original_crowding_ratio": 0.6406000864283654,
+      "original_frozen_voronoi_area": 45936.03914806541,
+      "proposed_displacement_distance": 61.80325382610935,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        102.84623517626561,
+        -377.7214602506761
+      ],
+      "vertex_id": "component:J_R1"
+    },
+    {
+      "attempt_order": 31,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        573.1832883197173,
+        -238.4731424985345
+      ],
+      "original_crowding_ratio": 0.6383338164951085,
+      "original_frozen_voronoi_area": 46099.12539178938,
+      "proposed_displacement_distance": 74.17777136376047,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        643.7112238007887,
+        -215.49158290671926
+      ],
+      "vertex_id": "component:RMIN1"
+    },
+    {
+      "attempt_order": 32,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        577.3744195710391,
+        260.46161957231755
+      ],
+      "original_crowding_ratio": 0.50756773005323,
+      "original_frozen_voronoi_area": 57975.771322856606,
+      "proposed_displacement_distance": 106.68927443801249,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        625.3553280491062,
+        165.1703098860251
+      ],
+      "vertex_id": "net:GND"
+    },
+    {
+      "attempt_order": 33,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        378.7597751984596,
+        315.5258920051638
+      ],
+      "original_crowding_ratio": 0.3556056782558807,
+      "original_frozen_voronoi_area": 82750.7333199926,
+      "proposed_displacement_distance": 112.26720937980961,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        340.3424835587094,
+        210.03637591471818
+      ],
+      "vertex_id": "component:J_OUT"
+    },
+    {
+      "attempt_order": 34,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "frozen_cell_centroid": [
+        416.59122964625016,
+        -387.26825894306796
+      ],
+      "original_crowding_ratio": 0.34681795701295554,
+      "original_frozen_voronoi_area": 84847.4828174143,
+      "proposed_displacement_distance": 49.13605710329261,
+      "rejection_reasons": [],
+      "starting_coordinate_at_attempt": [
+        397.4080176146495,
+        -432.50493083445144
+      ],
+      "vertex_id": "net:R1_EXT"
+    }
+  ],
+  "before_after_by_vertex": [
+    {
+      "final_area": 39563.56637832732,
+      "final_crowding_ratio": 0.7437810425641306,
+      "final_rank": 29,
+      "original_area": 24045.680948633468,
+      "original_crowding_ratio": 1.2237803001415857,
+      "original_rank": 18,
+      "vertex_id": "component:C1"
+    },
+    {
+      "final_area": 13638.945075430784,
+      "final_crowding_ratio": 2.1575444791134655,
+      "final_rank": 4,
+      "original_area": 12802.428524594945,
+      "original_crowding_ratio": 2.29851942480253,
+      "original_rank": 6,
+      "vertex_id": "component:C2"
+    },
+    {
+      "final_area": 12778.332226524679,
+      "final_crowding_ratio": 2.3028537783158445,
+      "final_rank": 3,
+      "original_area": 8731.367449185029,
+      "original_crowding_ratio": 3.3702201653618538,
+      "original_rank": 2,
+      "vertex_id": "component:JP1"
+    },
+    {
+      "final_area": 39035.22337779041,
+      "final_crowding_ratio": 0.7538481428332272,
+      "final_rank": 28,
+      "original_area": 38721.30962952011,
+      "original_crowding_ratio": 0.7599595915008356,
+      "original_rank": 24,
+      "vertex_id": "component:J_EA"
+    },
+    {
+      "final_area": 28588.728670792352,
+      "final_crowding_ratio": 1.0293088226232028,
+      "final_rank": 20,
+      "original_area": 20581.044236979367,
+      "original_crowding_ratio": 1.4297928865802951,
+      "original_rank": 13,
+      "vertex_id": "component:J_EB"
+    },
+    {
+      "final_area": 64726.89433575285,
+      "final_crowding_ratio": 0.4546275694270912,
+      "final_rank": 33,
+      "original_area": 82750.7333199926,
+      "original_crowding_ratio": 0.3556056782558807,
+      "original_rank": 33,
+      "vertex_id": "component:J_OUT"
+    },
+    {
+      "final_area": 20414.350685044083,
+      "final_crowding_ratio": 1.441467872401445,
+      "final_rank": 9,
+      "original_area": 18071.512007177076,
+      "original_crowding_ratio": 1.628343585016059,
+      "original_rank": 10,
+      "vertex_id": "component:J_PWR"
+    },
+    {
+      "final_area": 38151.34801456241,
+      "final_crowding_ratio": 0.7713129988800211,
+      "final_rank": 27,
+      "original_area": 45936.03914806541,
+      "original_crowding_ratio": 0.6406000864283654,
+      "original_rank": 30,
+      "vertex_id": "component:J_R1"
+    },
+    {
+      "final_area": 33119.76254001145,
+      "final_crowding_ratio": 0.8884915950975687,
+      "final_rank": 23,
+      "original_area": 39654.85535326436,
+      "original_crowding_ratio": 0.7420687929959906,
+      "original_rank": 25,
+      "vertex_id": "component:J_R4"
+    },
+    {
+      "final_area": 21825.39854121659,
+      "final_crowding_ratio": 1.348274607350523,
+      "final_rank": 11,
+      "original_area": 23074.965643534786,
+      "original_crowding_ratio": 1.2752621651972997,
+      "original_rank": 14,
+      "vertex_id": "component:J_RA"
+    },
+    {
+      "final_area": 31568.637047853437,
+      "final_crowding_ratio": 0.9321476439993595,
+      "final_rank": 21,
+      "original_area": 28273.112105378103,
+      "original_crowding_ratio": 1.0407991358980941,
+      "original_rank": 22,
+      "vertex_id": "component:R2"
+    },
+    {
+      "final_area": 27729.46051676821,
+      "final_crowding_ratio": 1.0612045853049674,
+      "final_rank": 18,
+      "original_area": 23358.859297240284,
+      "original_crowding_ratio": 1.2597631705373586,
+      "original_rank": 15,
+      "vertex_id": "component:R3"
+    },
+    {
+      "final_area": 43960.41358057468,
+      "final_crowding_ratio": 0.6693893039584727,
+      "final_rank": 31,
+      "original_area": 46099.12539178938,
+      "original_crowding_ratio": 0.6383338164951085,
+      "original_rank": 31,
+      "vertex_id": "component:RMIN1"
+    },
+    {
+      "final_area": 35575.05931022475,
+      "final_crowding_ratio": 0.8271702484546488,
+      "final_rank": 25,
+      "original_area": 43259.19300524225,
+      "original_crowding_ratio": 0.6802399352401578,
+      "original_rank": 29,
+      "vertex_id": "component:RMIN4"
+    },
+    {
+      "final_area": 24878.334791504672,
+      "final_crowding_ratio": 1.1828215551820587,
+      "final_rank": 14,
+      "original_area": 11986.969395605414,
+      "original_crowding_ratio": 2.4548849402431676,
+      "original_rank": 5,
+      "vertex_id": "component:TPA"
+    },
+    {
+      "final_area": 20822.427301268235,
+      "final_crowding_ratio": 1.4132180760038087,
+      "final_rank": 10,
+      "original_area": 23500.748925189324,
+      "original_crowding_ratio": 1.2521571436766632,
+      "original_rank": 16,
+      "vertex_id": "component:TPB"
+    },
+    {
+      "final_area": 16256.521004294424,
+      "final_crowding_ratio": 1.8101431813518989,
+      "final_rank": 7,
+      "original_area": 10868.797344642935,
+      "original_crowding_ratio": 2.7074412849303346,
+      "original_rank": 4,
+      "vertex_id": "component:TPC"
+    },
+    {
+      "final_area": 25173.06268971006,
+      "final_crowding_ratio": 1.1689730014638282,
+      "final_rank": 15,
+      "original_area": 23685.401677536094,
+      "original_crowding_ratio": 1.2423952546406052,
+      "original_rank": 17,
+      "vertex_id": "component:TPO"
+    },
+    {
+      "final_area": 9745.736467224971,
+      "final_crowding_ratio": 3.019436319398702,
+      "final_rank": 2,
+      "original_area": 13456.4806291284,
+      "original_crowding_ratio": 2.1867999114664123,
+      "original_rank": 7,
+      "vertex_id": "component:U1"
+    },
+    {
+      "final_area": 17459.124866198235,
+      "final_crowding_ratio": 1.685458513753971,
+      "final_rank": 8,
+      "original_area": 10328.222602576974,
+      "original_crowding_ratio": 2.8491476007774366,
+      "original_rank": 3,
+      "vertex_id": "net:+9V"
+    },
+    {
+      "final_area": 14494.451040128086,
+      "final_crowding_ratio": 2.030199734157537,
+      "final_rank": 5,
+      "original_area": 14920.761264153949,
+      "original_crowding_ratio": 1.972193652017128,
+      "original_rank": 8,
+      "vertex_id": "net:-9V"
+    },
+    {
+      "final_area": 41132.77536792887,
+      "final_crowding_ratio": 0.7154059113495014,
+      "final_rank": 30,
+      "original_area": 41091.01693617909,
+      "original_crowding_ratio": 0.7161329371363997,
+      "original_rank": 27,
+      "vertex_id": "net:EA"
+    },
+    {
+      "final_area": 5188.6229647732325,
+      "final_crowding_ratio": 5.671375786641603,
+      "final_rank": 1,
+      "original_area": 4430.328045898192,
+      "original_crowding_ratio": 6.642088428569539,
+      "original_rank": 1,
+      "vertex_id": "net:EB"
+    },
+    {
+      "final_area": 27684.29493491983,
+      "final_crowding_ratio": 1.062935889015903,
+      "final_rank": 17,
+      "original_area": 24366.294178446606,
+      "original_crowding_ratio": 1.207677722058245,
+      "original_rank": 19,
+      "vertex_id": "net:EOUT"
+    },
+    {
+      "final_area": 55336.84729968218,
+      "final_crowding_ratio": 0.5317728075302997,
+      "final_rank": 32,
+      "original_area": 57975.771322856606,
+      "original_crowding_ratio": 0.50756773005323,
+      "original_rank": 32,
+      "vertex_id": "net:GND"
+    },
+    {
+      "final_area": 32810.089029476294,
+      "final_crowding_ratio": 0.8968775007587102,
+      "final_rank": 22,
+      "original_area": 40086.557831277336,
+      "original_crowding_ratio": 0.7340772628142068,
+      "original_rank": 26,
+      "vertex_id": "net:NODE_A"
+    },
+    {
+      "final_area": 14724.770076260042,
+      "final_crowding_ratio": 1.9984441519987097,
+      "final_rank": 6,
+      "original_area": 15370.754632183718,
+      "original_crowding_ratio": 1.9144558190274645,
+      "original_rank": 9,
+      "vertex_id": "net:NODE_B"
+    },
+    {
+      "final_area": 23076.236172090794,
+      "final_crowding_ratio": 1.2751919519707928,
+      "final_rank": 12,
+      "original_area": 26620.18850880931,
+      "original_crowding_ratio": 1.1054253293018357,
+      "original_rank": 20,
+      "vertex_id": "net:NODE_C"
+    },
+    {
+      "final_area": 71270.4625880695,
+      "final_crowding_ratio": 0.41288676374261984,
+      "final_rank": 34,
+      "original_area": 84847.4828174143,
+      "original_crowding_ratio": 0.34681795701295554,
+      "original_rank": 34,
+      "vertex_id": "net:R1_EXT"
+    },
+    {
+      "final_area": 26093.88581026806,
+      "final_crowding_ratio": 1.1277212931179443,
+      "final_rank": 16,
+      "original_area": 18682.9496474913,
+      "original_crowding_ratio": 1.5750527193857107,
+      "original_rank": 11,
+      "vertex_id": "net:R1_W"
+    },
+    {
+      "final_area": 37533.10856504437,
+      "final_crowding_ratio": 0.7840179450479441,
+      "final_rank": 26,
+      "original_area": 33768.05273272674,
+      "original_crowding_ratio": 0.8714340409658351,
+      "original_rank": 23,
+      "vertex_id": "net:R4_EXT"
+    },
+    {
+      "final_area": 28469.30270267065,
+      "final_crowding_ratio": 1.0336266734649253,
+      "final_rank": 19,
+      "original_area": 26703.71564524585,
+      "original_crowding_ratio": 1.1019676452279177,
+      "original_rank": 21,
+      "vertex_id": "net:R4_W"
+    },
+    {
+      "final_area": 34235.056893811474,
+      "final_crowding_ratio": 0.8595467137589832,
+      "final_rank": 24,
+      "original_area": 42502.7595566925,
+      "original_crowding_ratio": 0.6923463548096596,
+      "original_rank": 28,
+      "vertex_id": "net:RA_SW"
+    },
+    {
+      "final_area": 23444.211180336002,
+      "final_crowding_ratio": 1.255176829029303,
+      "final_rank": 13,
+      "original_area": 19951.96229188235,
+      "original_crowding_ratio": 1.4748740107833898,
+      "original_rank": 12,
+      "vertex_id": "net:RA_W"
+    }
+  ],
+  "before_density": [
+    {
+      "area_over_target": 0.1505550567045617,
+      "crowding_ratio": 6.642088428569539,
+      "percent_difference_from_target": -84.94449432954383,
+      "rank": 1,
+      "vertex_id": "net:EB",
+      "voronoi_area": 4430.328045898192
+    },
+    {
+      "area_over_target": 0.2967165202670467,
+      "crowding_ratio": 3.3702201653618538,
+      "percent_difference_from_target": -70.32834797329532,
+      "rank": 2,
+      "vertex_id": "component:JP1",
+      "voronoi_area": 8731.367449185029
+    },
+    {
+      "area_over_target": 0.35098216734265847,
+      "crowding_ratio": 2.8491476007774366,
+      "percent_difference_from_target": -64.90178326573415,
+      "rank": 3,
+      "vertex_id": "net:+9V",
+      "voronoi_area": 10328.222602576974
+    },
+    {
+      "area_over_target": 0.3693524234730472,
+      "crowding_ratio": 2.7074412849303346,
+      "percent_difference_from_target": -63.06475765269528,
+      "rank": 4,
+      "vertex_id": "component:TPC",
+      "voronoi_area": 10868.797344642935
+    },
+    {
+      "area_over_target": 0.40735106709357444,
+      "crowding_ratio": 2.4548849402431676,
+      "percent_difference_from_target": -59.26489329064255,
+      "rank": 5,
+      "vertex_id": "component:TPA",
+      "voronoi_area": 11986.969395605414
+    },
+    {
+      "area_over_target": 0.43506267086949324,
+      "crowding_ratio": 2.29851942480253,
+      "percent_difference_from_target": -56.49373291305068,
+      "rank": 6,
+      "vertex_id": "component:C2",
+      "voronoi_area": 12802.428524594945
+    },
+    {
+      "area_over_target": 0.4572892081971165,
+      "crowding_ratio": 2.1867999114664123,
+      "percent_difference_from_target": -54.27107918028835,
+      "rank": 7,
+      "vertex_id": "component:U1",
+      "voronoi_area": 13456.4806291284
+    },
+    {
+      "area_over_target": 0.5070495987943253,
+      "crowding_ratio": 1.972193652017128,
+      "percent_difference_from_target": -49.29504012056747,
+      "rank": 8,
+      "vertex_id": "net:-9V",
+      "voronoi_area": 14920.761264153949
+    },
+    {
+      "area_over_target": 0.5223416440646803,
+      "crowding_ratio": 1.9144558190274645,
+      "percent_difference_from_target": -47.76583559353197,
+      "rank": 9,
+      "vertex_id": "net:NODE_B",
+      "voronoi_area": 15370.754632183718
+    },
+    {
+      "area_over_target": 0.6141210056660971,
+      "crowding_ratio": 1.628343585016059,
+      "percent_difference_from_target": -38.58789943339029,
+      "rank": 10,
+      "vertex_id": "component:J_PWR",
+      "voronoi_area": 18071.512007177076
+    },
+    {
+      "area_over_target": 0.6348993831711309,
+      "crowding_ratio": 1.5750527193857107,
+      "percent_difference_from_target": -36.51006168288691,
+      "rank": 11,
+      "vertex_id": "net:R1_W",
+      "voronoi_area": 18682.9496474913
+    },
+    {
+      "area_over_target": 0.6780240160777143,
+      "crowding_ratio": 1.4748740107833898,
+      "percent_difference_from_target": -32.197598392228564,
+      "rank": 12,
+      "vertex_id": "net:RA_W",
+      "voronoi_area": 19951.96229188235
+    },
+    {
+      "area_over_target": 0.6994019968806451,
+      "crowding_ratio": 1.4297928865802951,
+      "percent_difference_from_target": -30.05980031193549,
+      "rank": 13,
+      "vertex_id": "component:J_EB",
+      "voronoi_area": 20581.044236979367
+    },
+    {
+      "area_over_target": 0.784152488241731,
+      "crowding_ratio": 1.2752621651972997,
+      "percent_difference_from_target": -21.5847511758269,
+      "rank": 14,
+      "vertex_id": "component:J_RA",
+      "voronoi_area": 23074.965643534786
+    },
+    {
+      "area_over_target": 0.7937999962115456,
+      "crowding_ratio": 1.2597631705373586,
+      "percent_difference_from_target": -20.62000037884544,
+      "rank": 15,
+      "vertex_id": "component:R3",
+      "voronoi_area": 23358.859297240284
+    },
+    {
+      "area_over_target": 0.7986218064161952,
+      "crowding_ratio": 1.2521571436766632,
+      "percent_difference_from_target": -20.137819358380483,
+      "rank": 16,
+      "vertex_id": "component:TPB",
+      "voronoi_area": 23500.748925189324
+    },
+    {
+      "area_over_target": 0.8048968283360641,
+      "crowding_ratio": 1.2423952546406052,
+      "percent_difference_from_target": -19.510317166393587,
+      "rank": 17,
+      "vertex_id": "component:TPO",
+      "voronoi_area": 23685.401677536094
+    },
+    {
+      "area_over_target": 0.8171401352712612,
+      "crowding_ratio": 1.2237803001415857,
+      "percent_difference_from_target": -18.285986472873883,
+      "rank": 18,
+      "vertex_id": "component:C1",
+      "voronoi_area": 24045.680948633468
+    },
+    {
+      "area_over_target": 0.8280354781205205,
+      "crowding_ratio": 1.207677722058245,
+      "percent_difference_from_target": -17.19645218794795,
+      "rank": 19,
+      "vertex_id": "net:EOUT",
+      "voronoi_area": 24366.294178446606
+    },
+    {
+      "area_over_target": 0.9046291716796283,
+      "crowding_ratio": 1.1054253293018357,
+      "percent_difference_from_target": -9.53708283203717,
+      "rank": 20,
+      "vertex_id": "net:NODE_C",
+      "voronoi_area": 26620.18850880931
+    },
+    {
+      "area_over_target": 0.9074676596273133,
+      "crowding_ratio": 1.1019676452279177,
+      "percent_difference_from_target": -9.253234037268665,
+      "rank": 21,
+      "vertex_id": "net:R4_W",
+      "voronoi_area": 26703.71564524585
+    },
+    {
+      "area_over_target": 0.9608001827721647,
+      "crowding_ratio": 1.0407991358980941,
+      "percent_difference_from_target": -3.9199817227835276,
+      "rank": 22,
+      "vertex_id": "component:R2",
+      "voronoi_area": 28273.112105378103
+    },
+    {
+      "area_over_target": 1.147533781089928,
+      "crowding_ratio": 0.8714340409658351,
+      "percent_difference_from_target": 14.753378108992798,
+      "rank": 23,
+      "vertex_id": "net:R4_EXT",
+      "voronoi_area": 33768.05273272674
+    },
+    {
+      "area_over_target": 1.3158594367170382,
+      "crowding_ratio": 0.7599595915008356,
+      "percent_difference_from_target": 31.58594367170382,
+      "rank": 24,
+      "vertex_id": "component:J_EA",
+      "voronoi_area": 38721.30962952011
+    },
+    {
+      "area_over_target": 1.3475839564181795,
+      "crowding_ratio": 0.7420687929959906,
+      "percent_difference_from_target": 34.758395641817955,
+      "rank": 25,
+      "vertex_id": "component:J_R4",
+      "voronoi_area": 39654.85535326436
+    },
+    {
+      "area_over_target": 1.3622544255986546,
+      "crowding_ratio": 0.7340772628142068,
+      "percent_difference_from_target": 36.22544255986546,
+      "rank": 26,
+      "vertex_id": "net:NODE_A",
+      "voronoi_area": 40086.557831277336
+    },
+    {
+      "area_over_target": 1.3963887822262433,
+      "crowding_ratio": 0.7161329371363997,
+      "percent_difference_from_target": 39.63887822262433,
+      "rank": 27,
+      "vertex_id": "net:EA",
+      "voronoi_area": 41091.01693617909
+    },
+    {
+      "area_over_target": 1.4443637827412565,
+      "crowding_ratio": 0.6923463548096596,
+      "percent_difference_from_target": 44.43637827412565,
+      "rank": 28,
+      "vertex_id": "net:RA_SW",
+      "voronoi_area": 42502.7595566925
+    },
+    {
+      "area_over_target": 1.4700695272278468,
+      "crowding_ratio": 0.6802399352401578,
+      "percent_difference_from_target": 47.006952722784675,
+      "rank": 29,
+      "vertex_id": "component:RMIN4",
+      "voronoi_area": 43259.19300524225
+    },
+    {
+      "area_over_target": 1.5610363176431201,
+      "crowding_ratio": 0.6406000864283654,
+      "percent_difference_from_target": 56.10363176431201,
+      "rank": 30,
+      "vertex_id": "component:J_R1",
+      "voronoi_area": 45936.03914806541
+    },
+    {
+      "area_over_target": 1.5665784487036698,
+      "crowding_ratio": 0.6383338164951085,
+      "percent_difference_from_target": 56.65784487036698,
+      "rank": 31,
+      "vertex_id": "component:RMIN1",
+      "voronoi_area": 46099.12539178938
+    },
+    {
+      "area_over_target": 1.970180412957158,
+      "crowding_ratio": 0.50756773005323,
+      "percent_difference_from_target": 97.0180412957158,
+      "rank": 32,
+      "vertex_id": "net:GND",
+      "voronoi_area": 57975.771322856606
+    },
+    {
+      "area_over_target": 2.8121035774924747,
+      "crowding_ratio": 0.3556056782558807,
+      "percent_difference_from_target": 181.21035774924746,
+      "rank": 33,
+      "vertex_id": "component:J_OUT",
+      "voronoi_area": 82750.7333199926
+    },
+    {
+      "area_over_target": 2.883357045905915,
+      "crowding_ratio": 0.34681795701295554,
+      "percent_difference_from_target": 188.3357045905915,
+      "rank": 34,
+      "vertex_id": "net:R1_EXT",
+      "voronoi_area": 84847.4828174143
+    }
+  ],
+  "before_statistics": {
+    "max_min_area_ratio": 19.151512470046125,
+    "maximum_area": 84847.4828174143,
+    "mean_area": 29426.630648427476,
+    "median_area": 23865.54131308478,
+    "minimum_area": 4430.328045898192,
+    "population_standard_deviation": 18579.70213311265
+  },
+  "domain": {
+    "area": 1000505.4420465342,
+    "height": 988.0018271493352,
+    "width": 1012.6554572609197,
+    "xmax": 643.7112238007887,
+    "xmin": -368.94423346013093,
+    "ymax": 476.67600955087613,
+    "ymin": -511.325817598459
+  },
+  "electrical_incidence_count": 44,
+  "final_coordinates": {
+    "component:C1": [
+      467.00395328344604,
+      24.472202393688125
+    ],
+    "component:C2": [
+      283.81982446582094,
+      31.487618863674726
+    ],
+    "component:JP1": [
+      -343.1882775498201,
+      113.2351767865996
+    ],
+    "component:J_EA": [
+      456.4205181895173,
+      -101.9292673856607
+    ],
+    "component:J_EB": [
+      236.23854006918134,
+      165.46000164752198
+    ],
+    "component:J_OUT": [
+      378.7597751984596,
+      315.5258920051638
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      152.57570716365007,
+      -341.0251143923969
+    ],
+    "component:J_R4": [
+      25.152970530118353,
+      330.41585816950135
+    ],
+    "component:J_RA": [
+      -122.13450289248553,
+      -396.57970416541167
+    ],
+    "component:R2": [
+      -157.22358579801127,
+      -247.376003818269
+    ],
+    "component:R3": [
+      -306.87850734968737,
+      -18.877970488508428
+    ],
+    "component:RMIN1": [
+      573.1832883197173,
+      -238.4731424985345
+    ],
+    "component:RMIN4": [
+      -257.67843073790067,
+      275.1344935722245
+    ],
+    "component:TPA": [
+      -11.142496371902388,
+      -350.4898103113915
+    ],
+    "component:TPB": [
+      -155.66122336493802,
+      -35.48413267084412
+    ],
+    "component:TPC": [
+      -237.81115623970243,
+      131.00362776875815
+    ],
+    "component:TPO": [
+      123.15258675923582,
+      264.09357155679317
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      215.899349260613,
+      20.919909972173492
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      218.7300232756448,
+      -109.92354490923239
+    ],
+    "net:EB": [
+      18.105015046643143,
+      17.741686325829406
+    ],
+    "net:EOUT": [
+      56.65318129035228,
+      150.24896041716516
+    ],
+    "net:GND": [
+      577.3744195710391,
+      260.46161957231755
+    ],
+    "net:NODE_A": [
+      18.0350020304404,
+      -197.68304964825984
+    ],
+    "net:NODE_B": [
+      -72.17258120027003,
+      -20.02661464908317
+    ],
+    "net:NODE_C": [
+      -165.7182239714436,
+      83.93044032561397
+    ],
+    "net:R1_EXT": [
+      416.59122964625016,
+      -387.26825894306796
+    ],
+    "net:R1_W": [
+      133.85220206251688,
+      -477.5249063205781
+    ],
+    "net:R4_EXT": [
+      -210.05183004973398,
+      415.56576984437805
+    ],
+    "net:R4_W": [
+      89.32290804080156,
+      439.45330730297036
+    ],
+    "net:RA_SW": [
+      -310.13973729821066,
+      -307.99046913630974
+    ],
+    "net:RA_W": [
+      -191.56438459142134,
+      -470.3812116644424
+    ]
+  },
+  "final_partition_area_error": -2.3283064365386963e-10,
+  "final_partition_area_sum": 1000505.4420465339,
+  "final_validation": {
+    "coincident_vertex_pairs": [],
+    "coincident_vertices": 0,
+    "proper_crossing_list": [],
+    "proper_crossings": 0,
+    "vertex_on_unrelated_edge_events": 0,
+    "vertex_on_unrelated_edge_list": []
+  },
+  "frozen_initial_partition": true,
+  "initial_proper_crossings": 0,
+  "maximum_individual_displacement": 114.77132316285169,
+  "rejected_moves": 7,
+  "schema": "graph-relax.voronoi-centroid-move.v1",
+  "source_density_report": "output/graph_first/iamp_global_node_density_report.json",
+  "target_area": 29426.630648427476,
+  "total_vertex_displacement": 1491.0290384513685,
+  "vertex_count": 34
+}

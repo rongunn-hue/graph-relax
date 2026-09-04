@@ -1,0 +1,1173 @@
+{
+  "clusters": [
+    {
+      "cluster_id": "cluster:01",
+      "crowding_point_bounding_box": {
+        "max_x": -113.57133069483731,
+        "max_y": 30.141440206951067,
+        "min_x": -113.57133069483731,
+        "min_y": 30.141440206951067
+      },
+      "crowding_point_centroid": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 5.847960684236412,
+      "member_violation_ids": [
+        "V01"
+      ],
+      "minimum_clearance": 0.15203931576358773,
+      "participating_edges": [
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "participating_vertices": [
+        "component:TPB"
+      ],
+      "violation_count": 1
+    },
+    {
+      "cluster_id": "cluster:02",
+      "crowding_point_bounding_box": {
+        "max_x": 215.90900070467774,
+        "max_y": 22.578035395045557,
+        "min_x": 198.38798165789436,
+        "min_y": 18.478941251868434
+      },
+      "crowding_point_centroid": [
+        211.513689544677,
+        20.356141774152974
+      ],
+      "crowding_point_diameter": 17.955036663810024,
+      "maximum_deficit": 4.518584271266835,
+      "member_violation_ids": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08",
+        "V09"
+      ],
+      "minimum_clearance": 1.4814157287331646,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:J_PWR",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ]
+      ],
+      "participating_vertices": [
+        "net:+9V",
+        "net:EA"
+      ],
+      "violation_count": 8
+    },
+    {
+      "cluster_id": "cluster:03",
+      "crowding_point_bounding_box": {
+        "max_x": 379.93884176452207,
+        "max_y": 25.247483039199622,
+        "min_x": 379.93884176452207,
+        "min_y": 25.247483039199622
+      },
+      "crowding_point_centroid": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 1.9864785685788569,
+      "member_violation_ids": [
+        "V10",
+        "V11"
+      ],
+      "minimum_clearance": 4.013521431421143,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ]
+      ],
+      "participating_vertices": [
+        "component:J_PWR"
+      ],
+      "violation_count": 2
+    },
+    {
+      "cluster_id": "cluster:04",
+      "crowding_point_bounding_box": {
+        "max_x": 467.0198092519046,
+        "max_y": 21.951735584858984,
+        "min_x": 467.0198092519046,
+        "min_y": 21.951735584858984
+      },
+      "crowding_point_centroid": [
+        467.0198092519046,
+        21.951735584858984
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 0.9589666352442716,
+      "member_violation_ids": [
+        "V12",
+        "V13"
+      ],
+      "minimum_clearance": 5.041033364755728,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:GND"
+        ],
+        [
+          "component:J_EA",
+          "net:EA"
+        ]
+      ],
+      "participating_vertices": [
+        "component:C1"
+      ],
+      "violation_count": 2
+    }
+  ],
+  "coordinates_unchanged": true,
+  "crowding_cluster_distance": 60.0,
+  "electrical_incidence_count": 44,
+  "event_pair_distances": [
+    {
+      "distance": 0.0,
+      "event_a": "V02",
+      "event_b": "V03",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V04",
+      "event_b": "V05",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V04",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V05",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V07",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V07",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V08",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V10",
+      "event_b": "V11",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V12",
+      "event_b": "V13",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V04",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V04",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V04",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V05",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V05",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V05",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V06",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V06",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V06",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V02",
+      "event_b": "V04",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V02",
+      "event_b": "V05",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V02",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V03",
+      "event_b": "V04",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V03",
+      "event_b": "V05",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V03",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V02",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V02",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V02",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V03",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V03",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V03",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 87.14331213478957,
+      "event_a": "V10",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 87.14331213478957,
+      "event_a": "V10",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 87.14331213478957,
+      "event_a": "V11",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 87.14331213478957,
+      "event_a": "V11",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.09170620989644,
+      "event_a": "V07",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.09170620989644,
+      "event_a": "V07",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.09170620989644,
+      "event_a": "V08",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.09170620989644,
+      "event_a": "V08",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.09170620989644,
+      "event_a": "V09",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.09170620989644,
+      "event_a": "V09",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.13454566511052,
+      "event_a": "V04",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.13454566511052,
+      "event_a": "V04",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.13454566511052,
+      "event_a": "V05",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.13454566511052,
+      "event_a": "V05",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.13454566511052,
+      "event_a": "V06",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 164.13454566511052,
+      "event_a": "V06",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 181.6769879852238,
+      "event_a": "V02",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 181.6769879852238,
+      "event_a": "V02",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 181.6769879852238,
+      "event_a": "V03",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 181.6769879852238,
+      "event_a": "V03",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.12391887277712,
+      "event_a": "V04",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.12391887277712,
+      "event_a": "V04",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.12391887277712,
+      "event_a": "V05",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.12391887277712,
+      "event_a": "V05",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.12391887277712,
+      "event_a": "V06",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.12391887277712,
+      "event_a": "V06",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.15173984922598,
+      "event_a": "V07",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.15173984922598,
+      "event_a": "V07",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.15173984922598,
+      "event_a": "V08",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.15173984922598,
+      "event_a": "V08",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.15173984922598,
+      "event_a": "V09",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 251.15173984922598,
+      "event_a": "V09",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 268.65427429500784,
+      "event_a": "V02",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 268.65427429500784,
+      "event_a": "V02",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 268.65427429500784,
+      "event_a": "V03",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 268.65427429500784,
+      "event_a": "V03",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 312.17723562980456,
+      "event_a": "V01",
+      "event_b": "V02",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 312.17723562980456,
+      "event_a": "V01",
+      "event_b": "V03",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 329.5269912348916,
+      "event_a": "V01",
+      "event_b": "V07",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 329.5269912348916,
+      "event_a": "V01",
+      "event_b": "V08",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 329.5269912348916,
+      "event_a": "V01",
+      "event_b": "V09",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 329.6558423572155,
+      "event_a": "V01",
+      "event_b": "V04",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 329.6558423572155,
+      "event_a": "V01",
+      "event_b": "V05",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 329.6558423572155,
+      "event_a": "V01",
+      "event_b": "V06",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 493.5344376410084,
+      "event_a": "V01",
+      "event_b": "V10",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 493.5344376410084,
+      "event_a": "V01",
+      "event_b": "V11",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 580.6488982564716,
+      "event_a": "V01",
+      "event_b": "V12",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 580.6488982564716,
+      "event_a": "V01",
+      "event_b": "V13",
+      "within_cluster_distance": false
+    }
+  ],
+  "events": [
+    {
+      "clearance": 0.15203931576358773,
+      "cluster_id": "cluster:01",
+      "crowding_point": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "deficit": 5.847960684236412,
+      "item_a": "vertex:component:TPB",
+      "item_b": "edge:component:R3|net:NODE_B",
+      "pA": [
+        -113.59679859782972,
+        30.06981357571914
+      ],
+      "pB": [
+        -113.54586279184491,
+        30.213066838182996
+      ],
+      "violation_id": "V01",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 1.4814157287331646,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        198.38798165789436,
+        18.478941251868434
+      ],
+      "deficit": 4.518584271266835,
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "pA": [
+        198.4594191436121,
+        17.741686325829395
+      ],
+      "pB": [
+        198.3165441721766,
+        19.216196177907474
+      ],
+      "violation_id": "V02",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 1.4814157287331646,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        198.38798165789436,
+        18.478941251868434
+      ],
+      "deficit": 4.518584271266835,
+      "item_a": "vertex:net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "pA": [
+        198.4594191436121,
+        17.741686325829395
+      ],
+      "pB": [
+        198.3165441721766,
+        19.216196177907474
+      ],
+      "violation_id": "V03",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 3.0684503236436735,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "deficit": 2.9315496763563265,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.9186521487425,
+        17.851520364060008
+      ],
+      "violation_id": "V04",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.0684503236436735,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "deficit": 2.9315496763563265,
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:J_PWR|net:+9V",
+      "pA": [
+        215.9186521487425,
+        17.851520364060008
+      ],
+      "pB": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "violation_id": "V05",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.0684503236436735,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "deficit": 2.9315496763563265,
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.9186521487425,
+        17.851520364060008
+      ],
+      "violation_id": "V06",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "violation_id": "V07",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_b": "edge:component:U1|net:+9V",
+      "pA": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "pB": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "violation_id": "V08",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "violation_id": "V09",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 4.013521431421143,
+      "cluster_id": "cluster:03",
+      "crowding_point": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "deficit": 1.9864785685788569,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:GND",
+      "pA": [
+        379.9672278934835,
+        23.240923097956454
+      ],
+      "pB": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "violation_id": "V10",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 4.013521431421143,
+      "cluster_id": "cluster:03",
+      "crowding_point": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "deficit": 1.9864785685788569,
+      "item_a": "vertex:component:J_PWR",
+      "item_b": "edge:component:C1|net:+9V",
+      "pA": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "pB": [
+        379.9672278934835,
+        23.240923097956454
+      ],
+      "violation_id": "V11",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 5.041033364755728,
+      "cluster_id": "cluster:04",
+      "crowding_point": [
+        467.0198092519046,
+        21.951735584858984
+      ],
+      "deficit": 0.9589666352442716,
+      "item_a": "edge:component:C1|net:GND",
+      "item_b": "edge:component:J_EA|net:EA",
+      "pA": [
+        467.00395328344604,
+        24.472202393688125
+      ],
+      "pB": [
+        467.03566522036317,
+        19.431268776029842
+      ],
+      "violation_id": "V12",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 5.041033364755728,
+      "cluster_id": "cluster:04",
+      "crowding_point": [
+        467.0198092519046,
+        21.951735584858984
+      ],
+      "deficit": 0.9589666352442716,
+      "item_a": "vertex:component:C1",
+      "item_b": "edge:component:J_EA|net:EA",
+      "pA": [
+        467.00395328344604,
+        24.472202393688125
+      ],
+      "pB": [
+        467.03566522036317,
+        19.431268776029842
+      ],
+      "violation_id": "V13",
+      "violation_type": "vertex-edge"
+    }
+  ],
+  "nearest_event_neighbors": [
+    {
+      "distance": 312.17723562980456,
+      "event": "V01",
+      "neighbor": "V02",
+      "within_cluster_distance": false
+    },
+    {
+      "distance": 0.0,
+      "event": "V02",
+      "neighbor": "V03",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V03",
+      "neighbor": "V02",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V04",
+      "neighbor": "V05",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V05",
+      "neighbor": "V04",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V06",
+      "neighbor": "V04",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V07",
+      "neighbor": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V08",
+      "neighbor": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V09",
+      "neighbor": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V10",
+      "neighbor": "V11",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V11",
+      "neighbor": "V10",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V12",
+      "neighbor": "V13",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event": "V13",
+      "neighbor": "V12",
+      "within_cluster_distance": true
+    }
+  ],
+  "proper_crossing_count": 0,
+  "proximity_graph_edges": [
+    {
+      "distance": 0.0,
+      "event_a": "V02",
+      "event_b": "V03",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V04",
+      "event_b": "V05",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V04",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V05",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V07",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V07",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V08",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V10",
+      "event_b": "V11",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 0.0,
+      "event_a": "V12",
+      "event_b": "V13",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V04",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V04",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V04",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V05",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V05",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V05",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V06",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V06",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 3.1925727063789733,
+      "event_a": "V06",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V02",
+      "event_b": "V04",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V02",
+      "event_b": "V05",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V02",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V03",
+      "event_b": "V04",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V03",
+      "event_b": "V05",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.544467714152354,
+      "event_a": "V03",
+      "event_b": "V06",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V02",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V02",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V02",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V03",
+      "event_b": "V07",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V03",
+      "event_b": "V08",
+      "within_cluster_distance": true
+    },
+    {
+      "distance": 17.955036663810024,
+      "event_a": "V03",
+      "event_b": "V09",
+      "within_cluster_distance": true
+    }
+  ],
+  "readability_clearance": 6.0,
+  "schema": "graph-relax.localized-crowding-events.v1",
+  "source_coordinates": "output/graph_first/iamp_nearness_rotation_direct_report.json#final_coordinates",
+  "source_graph": "output/graph_first/iamp_graph.json",
+  "spatial_cluster_count": 4,
+  "total_clearance_violations": 13,
+  "total_crowding_event_points": 13,
+  "vertex_count": 34
+}

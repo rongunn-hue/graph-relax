@@ -1,0 +1,1653 @@
+{
+  "after_crowding_clusters": [
+    {
+      "cluster_id": "cluster:01",
+      "crowding_point_bounding_box": {
+        "max_x": -113.57133069483731,
+        "max_y": 30.141440206951067,
+        "min_x": -113.57133069483731,
+        "min_y": 30.141440206951067
+      },
+      "crowding_point_centroid": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 5.847960684236412,
+      "member_violation_ids": [
+        "V01"
+      ],
+      "minimum_clearance": 0.15203931576358773,
+      "participating_edges": [
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "participating_vertices": [
+        "component:TPB"
+      ],
+      "violation_count": 1
+    },
+    {
+      "cluster_id": "cluster:02",
+      "crowding_point_bounding_box": {
+        "max_x": 215.86885030919808,
+        "max_y": 22.578035395045557,
+        "min_x": 215.86885030919808,
+        "min_y": 22.578035395045557
+      },
+      "crowding_point_centroid": [
+        215.8688503091981,
+        22.578035395045557
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 2.6831882151607855,
+      "member_violation_ids": [
+        "V02",
+        "V03",
+        "V04"
+      ],
+      "minimum_clearance": 3.3168117848392145,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ]
+      ],
+      "participating_vertices": [
+        "net:+9V"
+      ],
+      "violation_count": 3
+    },
+    {
+      "cluster_id": "cluster:03",
+      "crowding_point_bounding_box": {
+        "max_x": 379.93884176452207,
+        "max_y": 25.247483039199622,
+        "min_x": 379.93884176452207,
+        "min_y": 25.247483039199622
+      },
+      "crowding_point_centroid": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 1.9864785685788569,
+      "member_violation_ids": [
+        "V05",
+        "V06"
+      ],
+      "minimum_clearance": 4.013521431421143,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ]
+      ],
+      "participating_vertices": [
+        "component:J_PWR"
+      ],
+      "violation_count": 2
+    }
+  ],
+  "after_crowding_events": [
+    {
+      "clearance": 0.15203931576358773,
+      "cluster_id": "cluster:01",
+      "crowding_point": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "deficit": 5.847960684236412,
+      "item_a": "vertex:component:TPB",
+      "item_b": "edge:component:R3|net:NODE_B",
+      "pA": [
+        -113.59679859782972,
+        30.06981357571914
+      ],
+      "pB": [
+        -113.54586279184491,
+        30.213066838182996
+      ],
+      "violation_id": "V01",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "violation_id": "V02",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_b": "edge:component:U1|net:+9V",
+      "pA": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "pB": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "violation_id": "V03",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "violation_id": "V04",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 4.013521431421143,
+      "cluster_id": "cluster:03",
+      "crowding_point": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "deficit": 1.9864785685788569,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:GND",
+      "pA": [
+        379.9672278934835,
+        23.240923097956454
+      ],
+      "pB": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "violation_id": "V05",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 4.013521431421143,
+      "cluster_id": "cluster:03",
+      "crowding_point": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "deficit": 1.9864785685788569,
+      "item_a": "vertex:component:J_PWR",
+      "item_b": "edge:component:C1|net:+9V",
+      "pA": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "pB": [
+        379.9672278934835,
+        23.240923097956454
+      ],
+      "violation_id": "V06",
+      "violation_type": "vertex-edge"
+    }
+  ],
+  "after_metrics": {
+    "clearance_violations": 6,
+    "coincident_vertices": 0,
+    "crowding_clusters": 3,
+    "minimum_node_distance": 17.727161871886178,
+    "proper_crossings": 0,
+    "unique_crowding_event_locations": 3,
+    "vertex_on_unrelated_edge_events": 0,
+    "worst_clearance": 0.15203931576358773
+  },
+  "before_crowding_clusters": [
+    {
+      "cluster_id": "cluster:01",
+      "crowding_point_bounding_box": {
+        "max_x": -113.57133069483731,
+        "max_y": 30.141440206951067,
+        "min_x": -113.57133069483731,
+        "min_y": 30.141440206951067
+      },
+      "crowding_point_centroid": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 5.847960684236412,
+      "member_violation_ids": [
+        "V01"
+      ],
+      "minimum_clearance": 0.15203931576358773,
+      "participating_edges": [
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "participating_vertices": [
+        "component:TPB"
+      ],
+      "violation_count": 1
+    },
+    {
+      "cluster_id": "cluster:02",
+      "crowding_point_bounding_box": {
+        "max_x": 215.86885030919808,
+        "max_y": 22.578035395045557,
+        "min_x": 215.86885030919808,
+        "min_y": 22.578035395045557
+      },
+      "crowding_point_centroid": [
+        215.8688503091981,
+        22.578035395045557
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 2.6831882151607855,
+      "member_violation_ids": [
+        "V02",
+        "V03",
+        "V04"
+      ],
+      "minimum_clearance": 3.3168117848392145,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ]
+      ],
+      "participating_vertices": [
+        "net:+9V"
+      ],
+      "violation_count": 3
+    },
+    {
+      "cluster_id": "cluster:03",
+      "crowding_point_bounding_box": {
+        "max_x": 379.93884176452207,
+        "max_y": 25.247483039199622,
+        "min_x": 379.93884176452207,
+        "min_y": 25.247483039199622
+      },
+      "crowding_point_centroid": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "crowding_point_diameter": 0.0,
+      "maximum_deficit": 1.9864785685788569,
+      "member_violation_ids": [
+        "V05",
+        "V06"
+      ],
+      "minimum_clearance": 4.013521431421143,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ]
+      ],
+      "participating_vertices": [
+        "component:J_PWR"
+      ],
+      "violation_count": 2
+    }
+  ],
+  "before_crowding_events": [
+    {
+      "clearance": 0.15203931576358773,
+      "cluster_id": "cluster:01",
+      "crowding_point": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "deficit": 5.847960684236412,
+      "item_a": "vertex:component:TPB",
+      "item_b": "edge:component:R3|net:NODE_B",
+      "pA": [
+        -113.59679859782972,
+        30.06981357571914
+      ],
+      "pB": [
+        -113.54586279184491,
+        30.213066838182996
+      ],
+      "violation_id": "V01",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "violation_id": "V02",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_b": "edge:component:U1|net:+9V",
+      "pA": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "pB": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "violation_id": "V03",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "cluster_id": "cluster:02",
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "violation_id": "V04",
+      "violation_type": "vertex-edge"
+    },
+    {
+      "clearance": 4.013521431421143,
+      "cluster_id": "cluster:03",
+      "crowding_point": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "deficit": 1.9864785685788569,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:GND",
+      "pA": [
+        379.9672278934835,
+        23.240923097956454
+      ],
+      "pB": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "violation_id": "V05",
+      "violation_type": "edge-edge"
+    },
+    {
+      "clearance": 4.013521431421143,
+      "cluster_id": "cluster:03",
+      "crowding_point": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "deficit": 1.9864785685788569,
+      "item_a": "vertex:component:J_PWR",
+      "item_b": "edge:component:C1|net:+9V",
+      "pA": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "pB": [
+        379.9672278934835,
+        23.240923097956454
+      ],
+      "violation_id": "V06",
+      "violation_type": "vertex-edge"
+    }
+  ],
+  "before_metrics": {
+    "clearance_violations": 6,
+    "coincident_vertices": 0,
+    "crowding_clusters": 3,
+    "minimum_node_distance": 17.727161871886178,
+    "proper_crossings": 0,
+    "unique_crowding_event_locations": 3,
+    "vertex_on_unrelated_edge_events": 0,
+    "worst_clearance": 0.15203931576358773
+  },
+  "boundary_separation_after": {
+    "mean_boundary_vertex_to_opposite_polyline_separation": 196.68885332353705,
+    "minimum_nonincident_segment_separation": 162.75105802338155,
+    "minimum_polyline_separation_including_shared_termini": 0.0,
+    "samples": {
+      "boundary_a": [
+        0.0,
+        195.4050753177949,
+        203.40858085862249,
+        0.0
+      ],
+      "boundary_b": [
+        0.0,
+        162.75105802338155,
+        225.19069909434924,
+        0.0
+      ]
+    }
+  },
+  "boundary_separation_before": {
+    "mean_boundary_vertex_to_opposite_polyline_separation": 196.10649971452506,
+    "minimum_nonincident_segment_separation": 162.59649352368697,
+    "minimum_polyline_separation_including_shared_termini": 0.0,
+    "samples": {
+      "boundary_a": [
+        0.0,
+        194.87631034967868,
+        202.730927852788,
+        0.0
+      ],
+      "boundary_b": [
+        0.0,
+        162.59649352368697,
+        224.2222671319467,
+        0.0
+      ]
+    }
+  },
+  "centerline": {
+    "definition": "straight chord joining the two topology-shared corridor termini component:U1 and net:GND",
+    "endpoints": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        625.3553280491062,
+        165.1703098860251
+      ]
+    ],
+    "mean_signed_distance_j_out_boundary_internal": -123.78579889833121,
+    "mean_signed_distance_rmin1_boundary_internal": 99.05381267758705,
+    "unit_normal_toward_rmin1_side": [
+      0.25536526760738953,
+      -0.966844651482236
+    ],
+    "unit_tangent": [
+      0.966844651482236,
+      0.25536526760738953
+    ]
+  },
+  "coordinates_after": {
+    "component:C1": [
+      467.00395328344604,
+      24.472202393688125
+    ],
+    "component:C2": [
+      283.81982446582094,
+      31.487618863674726
+    ],
+    "component:JP1": [
+      -334.42997578032566,
+      111.11344837967394
+    ],
+    "component:J_EA": [
+      456.525641832709,
+      -13.943658598963909
+    ],
+    "component:J_EB": [
+      249.6300782232805,
+      152.01388547886967
+    ],
+    "component:J_OUT": [
+      340.21480092490566,
+      210.5197982404593
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      102.84623517626561,
+      -377.7214602506761
+    ],
+    "component:J_R4": [
+      44.63753956400488,
+      327.563888644507
+    ],
+    "component:J_RA": [
+      -104.4544567673898,
+      -376.02476810571767
+    ],
+    "component:R2": [
+      -86.6660055998702,
+      -311.0261105926718
+    ],
+    "component:R3": [
+      -297.0910668648412,
+      95.47526571102958
+    ],
+    "component:RMIN1": [
+      643.7112238007887,
+      -215.49158290671926
+    ],
+    "component:RMIN4": [
+      -281.60156205833124,
+      236.6461727353019
+    ],
+    "component:TPA": [
+      -32.44855702730761,
+      -329.27268152947534
+    ],
+    "component:TPB": [
+      -113.59679859782972,
+      30.06981357571914
+    ],
+    "component:TPC": [
+      -260.6318708113398,
+      114.25798046913104
+    ],
+    "component:TPO": [
+      91.11064432645759,
+      243.36924518783795
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      215.899349260613,
+      20.919909972173492
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      211.75695050913316,
+      -15.4834704447988
+    ],
+    "net:EB": [
+      18.105015046643143,
+      17.741686325829406
+    ],
+    "net:EOUT": [
+      80.85740731952187,
+      157.27332591022918
+    ],
+    "net:GND": [
+      625.3553280491062,
+      165.1703098860251
+    ],
+    "net:NODE_A": [
+      -3.554241234402555,
+      -237.88823673916076
+    ],
+    "net:NODE_B": [
+      -63.98862994744413,
+      12.592263277480884
+    ],
+    "net:NODE_C": [
+      -164.80431705291707,
+      68.18776033923683
+    ],
+    "net:R1_EXT": [
+      397.4080176146495,
+      -432.50493083445144
+    ],
+    "net:R1_W": [
+      121.34719516059535,
+      -511.325817598459
+    ],
+    "net:R4_EXT": [
+      -190.2794989274509,
+      476.67600955087613
+    ],
+    "net:R4_W": [
+      34.85444924956621,
+      467.6591534812175
+    ],
+    "net:RA_SW": [
+      -368.94423346013093,
+      -356.4290471710813
+    ],
+    "net:RA_W": [
+      -171.5200935395895,
+      -506.0755988413453
+    ]
+  },
+  "coordinates_before": {
+    "component:C1": [
+      467.00395328344604,
+      24.472202393688125
+    ],
+    "component:C2": [
+      283.81982446582094,
+      31.487618863674726
+    ],
+    "component:JP1": [
+      -334.42997578032566,
+      111.11344837967394
+    ],
+    "component:J_EA": [
+      456.3979591989053,
+      -13.46023627322279
+    ],
+    "component:J_EB": [
+      249.6300782232805,
+      152.01388547886967
+    ],
+    "component:J_OUT": [
+      340.3424835587094,
+      210.03637591471818
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      102.84623517626561,
+      -377.7214602506761
+    ],
+    "component:J_R4": [
+      44.63753956400488,
+      327.563888644507
+    ],
+    "component:J_RA": [
+      -104.4544567673898,
+      -376.02476810571767
+    ],
+    "component:R2": [
+      -86.6660055998702,
+      -311.0261105926718
+    ],
+    "component:R3": [
+      -297.0910668648412,
+      95.47526571102958
+    ],
+    "component:RMIN1": [
+      643.7112238007887,
+      -215.49158290671926
+    ],
+    "component:RMIN4": [
+      -281.60156205833124,
+      236.6461727353019
+    ],
+    "component:TPA": [
+      -32.44855702730761,
+      -329.27268152947534
+    ],
+    "component:TPB": [
+      -113.59679859782972,
+      30.06981357571914
+    ],
+    "component:TPC": [
+      -260.6318708113398,
+      114.25798046913104
+    ],
+    "component:TPO": [
+      91.11064432645759,
+      243.36924518783795
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      215.899349260613,
+      20.919909972173492
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      211.62926787532948,
+      -15.00004811905768
+    ],
+    "net:EB": [
+      18.105015046643143,
+      17.741686325829406
+    ],
+    "net:EOUT": [
+      80.85740731952187,
+      157.27332591022918
+    ],
+    "net:GND": [
+      625.3553280491062,
+      165.1703098860251
+    ],
+    "net:NODE_A": [
+      -3.554241234402555,
+      -237.88823673916076
+    ],
+    "net:NODE_B": [
+      -63.98862994744413,
+      12.592263277480884
+    ],
+    "net:NODE_C": [
+      -164.80431705291707,
+      68.18776033923683
+    ],
+    "net:R1_EXT": [
+      397.4080176146495,
+      -432.50493083445144
+    ],
+    "net:R1_W": [
+      121.34719516059535,
+      -511.325817598459
+    ],
+    "net:R4_EXT": [
+      -190.2794989274509,
+      476.67600955087613
+    ],
+    "net:R4_W": [
+      34.85444924956621,
+      467.6591534812175
+    ],
+    "net:RA_SW": [
+      -368.94423346013093,
+      -356.4290471710813
+    ],
+    "net:RA_W": [
+      -171.5200935395895,
+      -506.0755988413453
+    ]
+  },
+  "corridor": {
+    "events_included": [
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06"
+    ],
+    "excluded_events": [
+      "V01"
+    ],
+    "faces_touching_j_out_boundary": [
+      "face:005",
+      "face:008",
+      "face:010"
+    ],
+    "faces_touching_rmin1_boundary": [
+      "face:001",
+      "face:007"
+    ],
+    "j_out_side_boundary": {
+      "ordered_edges": [
+        [
+          "component:U1",
+          "net:EOUT"
+        ],
+        [
+          "component:J_OUT",
+          "net:EOUT"
+        ],
+        [
+          "component:J_OUT",
+          "net:GND"
+        ]
+      ],
+      "ordered_vertices": [
+        "component:U1",
+        "net:EOUT",
+        "component:J_OUT",
+        "net:GND"
+      ]
+    },
+    "j_out_side_face": "face:008",
+    "rmin1_side_boundary": {
+      "ordered_edges": [
+        [
+          "component:U1",
+          "net:EA"
+        ],
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ]
+      ],
+      "ordered_vertices": [
+        "component:U1",
+        "net:EA",
+        "component:J_EA",
+        "net:GND"
+      ]
+    },
+    "rmin1_side_face": "face:007"
+  },
+  "corridor_mean_separation_increased": true,
+  "diagnostic_delta": 0.5,
+  "edge_reconnection": {
+    "electrical_incidence_count": 44,
+    "endpoint_identities_unchanged": true,
+    "failures": [],
+    "graph_edge_count": 44,
+    "materialized_edge_count": 44,
+    "valid": true
+  },
+  "electrical_incidence_count": 44,
+  "hard_geometry_valid": true,
+  "interpretation": "A. SUCCESS",
+  "j_out_side_movable_vertices": [
+    "component:J_OUT"
+  ],
+  "movement": [
+    {
+      "absolute_signed_distance_increased": true,
+      "after": [
+        456.525641832709,
+        -13.943658598963909
+      ],
+      "before": [
+        456.3979591989053,
+        -13.46023627322279
+      ],
+      "displacement": [
+        0.12768263380371536,
+        -0.48342232574111854
+      ],
+      "side": "RMIN1",
+      "vertex": "component:J_EA"
+    },
+    {
+      "absolute_signed_distance_increased": true,
+      "after": [
+        211.75695050913316,
+        -15.4834704447988
+      ],
+      "before": [
+        211.62926787532948,
+        -15.00004811905768
+      ],
+      "displacement": [
+        0.12768263380368694,
+        -0.48342232574111854
+      ],
+      "side": "RMIN1",
+      "vertex": "net:EA"
+    },
+    {
+      "absolute_signed_distance_increased": true,
+      "after": [
+        340.21480092490566,
+        210.5197982404593
+      ],
+      "before": [
+        340.3424835587094,
+        210.03637591471818
+      ],
+      "displacement": [
+        -0.12768263380371536,
+        0.48342232574111677
+      ],
+      "side": "J_OUT",
+      "vertex": "component:J_OUT"
+    }
+  ],
+  "new_violations": [],
+  "original_event_outcomes": [
+    {
+      "change": 0.0,
+      "classification": "unchanged",
+      "clearance_after": 0.15203931576358773,
+      "clearance_before": 0.15203931576358773,
+      "event_id": "V01",
+      "item_a": "vertex:component:TPB",
+      "item_b": "edge:component:R3|net:NODE_B"
+    },
+    {
+      "change": 0.0,
+      "classification": "unchanged",
+      "clearance_after": 3.3168117848392145,
+      "clearance_before": 3.3168117848392145,
+      "event_id": "V02",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V"
+    },
+    {
+      "change": 0.0,
+      "classification": "unchanged",
+      "clearance_after": 3.3168117848392145,
+      "clearance_before": 3.3168117848392145,
+      "event_id": "V03",
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_b": "edge:component:U1|net:+9V"
+    },
+    {
+      "change": 0.0,
+      "classification": "unchanged",
+      "clearance_after": 3.3168117848392145,
+      "clearance_before": 3.3168117848392145,
+      "event_id": "V04",
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V"
+    },
+    {
+      "change": 0.0,
+      "classification": "unchanged",
+      "clearance_after": 4.013521431421143,
+      "clearance_before": 4.013521431421143,
+      "event_id": "V05",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:GND"
+    },
+    {
+      "change": 0.0,
+      "classification": "unchanged",
+      "clearance_after": 4.013521431421143,
+      "clearance_before": 4.013521431421143,
+      "event_id": "V06",
+      "item_a": "vertex:component:J_PWR",
+      "item_b": "edge:component:C1|net:+9V"
+    }
+  ],
+  "readability_clearance": 6.0,
+  "rmin1_side_movable_vertices": [
+    "component:J_EA",
+    "net:EA"
+  ],
+  "schema": "graph-relax.corridor-separation.v1",
+  "source_coordinates": "output/graph_first/iamp_sequential_local_face_pulls_report.json#AFTER face:007",
+  "vertex_classification": {
+    "component:C1": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:C1",
+          "net:GND"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 95.5957715096079
+    },
+    "component:C2": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:C2",
+          "net:-9V"
+        ],
+        [
+          "component:C2",
+          "net:GND"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 42.03408954074162
+    },
+    "component:JP1": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:JP1",
+          "net:RA_SW"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -192.83124353471095
+    },
+    "component:J_EA": {
+      "corridor_side": "RMIN1",
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ]
+      ],
+      "movement": "MOVABLE: topology-free internal RMIN1-side boundary vertex",
+      "signed_distance_after": 130.06214443474755,
+      "signed_distance_before": 129.56214443474755
+    },
+    "component:J_EB": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:J_EB",
+          "net:EB"
+        ],
+        [
+          "component:J_EB",
+          "net:GND"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -83.2269603979367
+    },
+    "component:J_OUT": {
+      "corridor_side": "J_OUT",
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:J_OUT",
+          "net:EOUT"
+        ],
+        [
+          "component:J_OUT",
+          "net:GND"
+        ]
+      ],
+      "movement": "MOVABLE: topology-free internal J_OUT-side boundary vertex",
+      "signed_distance_after": -116.66089727772422,
+      "signed_distance_before": -116.16089727772419
+    },
+    "component:J_PWR": {
+      "corridor_side": null,
+      "degree": 3,
+      "incident_edges": [
+        [
+          "component:J_PWR",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 70.66550948331215
+    },
+    "component:J_R1": {
+      "corridor_side": null,
+      "degree": 3,
+      "incident_edges": [
+        [
+          "component:J_R1",
+          "net:NODE_A"
+        ],
+        [
+          "component:J_R1",
+          "net:R1_EXT"
+        ],
+        [
+          "component:J_R1",
+          "net:R1_W"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 391.4613299616258
+    },
+    "component:J_R4": {
+      "corridor_side": null,
+      "degree": 3,
+      "incident_edges": [
+        [
+          "component:J_R4",
+          "net:EOUT"
+        ],
+        [
+          "component:J_R4",
+          "net:R4_EXT"
+        ],
+        [
+          "component:J_R4",
+          "net:R4_W"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -305.3045165185668
+    },
+    "component:J_RA": {
+      "corridor_side": null,
+      "degree": 3,
+      "incident_edges": [
+        [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_SW"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_W"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 336.8834955626722
+    },
+    "component:R2": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:R2",
+          "net:NODE_A"
+        ],
+        [
+          "component:R2",
+          "net:NODE_B"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 278.58244378537273
+    },
+    "component:R3": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:R3",
+          "net:NODE_B"
+        ],
+        [
+          "component:R3",
+          "net:NODE_C"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -168.1764897952593
+    },
+    "component:RMIN1": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:RMIN1",
+          "net:GND"
+        ],
+        [
+          "component:RMIN1",
+          "net:R1_EXT"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 372.728373300571
+    },
+    "component:RMIN4": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:RMIN4",
+          "net:NODE_C"
+        ],
+        [
+          "component:RMIN4",
+          "net:R4_EXT"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -300.7113446565526
+    },
+    "component:TPA": {
+      "corridor_side": null,
+      "degree": 1,
+      "incident_edges": [
+        [
+          "component:TPA",
+          "net:NODE_A"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 310.0692965672348
+    },
+    "component:TPB": {
+      "corridor_side": null,
+      "degree": 1,
+      "incident_edges": [
+        [
+          "component:TPB",
+          "net:NODE_B"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -58.0815153000295
+    },
+    "component:TPC": {
+      "corridor_side": null,
+      "degree": 1,
+      "incident_edges": [
+        [
+          "component:TPC",
+          "net:NODE_C"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -177.0260447424935
+    },
+    "component:TPO": {
+      "corridor_side": null,
+      "degree": 1,
+      "incident_edges": [
+        [
+          "component:TPO",
+          "net:EOUT"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -212.0337589748225
+    },
+    "component:U1": {
+      "corridor_side": "RMIN1",
+      "degree": 8,
+      "incident_edges": [
+        [
+          "component:U1",
+          "net:+9V"
+        ],
+        [
+          "component:U1",
+          "net:-9V"
+        ],
+        [
+          "component:U1",
+          "net:EA"
+        ],
+        [
+          "component:U1",
+          "net:EB"
+        ],
+        [
+          "component:U1",
+          "net:EOUT"
+        ],
+        [
+          "component:U1",
+          "net:NODE_A"
+        ],
+        [
+          "component:U1",
+          "net:NODE_B"
+        ],
+        [
+          "component:U1",
+          "net:NODE_C"
+        ]
+      ],
+      "movement": "CENTER / FIXED: corridor terminus on centerline",
+      "signed_distance_before": 0.0
+    },
+    "net:+9V": {
+      "corridor_side": null,
+      "degree": 3,
+      "incident_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:+9V"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 34.90689203411186
+    },
+    "net:-9V": {
+      "corridor_side": null,
+      "degree": 3,
+      "incident_edges": [
+        [
+          "component:C2",
+          "net:-9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:U1",
+          "net:-9V"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -11.149358632281897
+    },
+    "net:EA": {
+      "corridor_side": "RMIN1",
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:U1",
+          "net:EA"
+        ]
+      ],
+      "movement": "MOVABLE: topology-free internal RMIN1-side boundary vertex",
+      "signed_distance_after": 69.04548092042653,
+      "signed_distance_before": 68.54548092042653
+    },
+    "net:EB": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:J_EB",
+          "net:EB"
+        ],
+        [
+          "component:U1",
+          "net:EB"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -12.530062519981842
+    },
+    "net:EOUT": {
+      "corridor_side": "J_OUT",
+      "degree": 4,
+      "incident_edges": [
+        [
+          "component:J_OUT",
+          "net:EOUT"
+        ],
+        [
+          "component:J_R4",
+          "net:EOUT"
+        ],
+        [
+          "component:TPO",
+          "net:EOUT"
+        ],
+        [
+          "component:U1",
+          "net:EOUT"
+        ]
+      ],
+      "movement": "FIXED: external anchor or non-boundary incidence",
+      "signed_distance_before": -131.41070051893823
+    },
+    "net:GND": {
+      "corridor_side": "RMIN1",
+      "degree": 7,
+      "incident_edges": [
+        [
+          "component:C1",
+          "net:GND"
+        ],
+        [
+          "component:C2",
+          "net:GND"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ],
+        [
+          "component:J_EB",
+          "net:GND"
+        ],
+        [
+          "component:J_OUT",
+          "net:GND"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ],
+        [
+          "component:RMIN1",
+          "net:GND"
+        ]
+      ],
+      "movement": "CENTER / FIXED: corridor terminus on centerline",
+      "signed_distance_before": 2.842170943040401e-14
+    },
+    "net:NODE_A": {
+      "corridor_side": null,
+      "degree": 5,
+      "incident_edges": [
+        [
+          "component:J_R1",
+          "net:NODE_A"
+        ],
+        [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        [
+          "component:R2",
+          "net:NODE_A"
+        ],
+        [
+          "component:TPA",
+          "net:NODE_A"
+        ],
+        [
+          "component:U1",
+          "net:NODE_A"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 229.0933395778331
+    },
+    "net:NODE_B": {
+      "corridor_side": null,
+      "degree": 4,
+      "incident_edges": [
+        [
+          "component:R2",
+          "net:NODE_B"
+        ],
+        [
+          "component:R3",
+          "net:NODE_B"
+        ],
+        [
+          "component:TPB",
+          "net:NODE_B"
+        ],
+        [
+          "component:U1",
+          "net:NODE_B"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -28.515236010247854
+    },
+    "net:NODE_C": {
+      "corridor_side": null,
+      "degree": 5,
+      "incident_edges": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:R3",
+          "net:NODE_C"
+        ],
+        [
+          "component:RMIN4",
+          "net:NODE_C"
+        ],
+        [
+          "component:TPC",
+          "net:NODE_C"
+        ],
+        [
+          "component:U1",
+          "net:NODE_C"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -108.0122699076149
+    },
+    "net:R1_EXT": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:J_R1",
+          "net:R1_EXT"
+        ],
+        [
+          "component:RMIN1",
+          "net:R1_EXT"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 519.649283884471
+    },
+    "net:R1_W": {
+      "corridor_side": null,
+      "degree": 1,
+      "incident_edges": [
+        [
+          "component:J_R1",
+          "net:R1_W"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 525.360490875443
+    },
+    "net:R4_EXT": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:J_R4",
+          "net:R4_EXT"
+        ],
+        [
+          "component:RMIN4",
+          "net:R4_EXT"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -509.4624254879683
+    },
+    "net:R4_W": {
+      "corridor_side": null,
+      "degree": 1,
+      "incident_edges": [
+        [
+          "component:J_R4",
+          "net:R4_W"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": -443.2531355001016
+    },
+    "net:RA_SW": {
+      "corridor_side": null,
+      "degree": 2,
+      "incident_edges": [
+        [
+          "component:JP1",
+          "net:RA_SW"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_SW"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 250.39597498052004
+    },
+    "net:RA_W": {
+      "corridor_side": null,
+      "degree": 1,
+      "incident_edges": [
+        [
+          "component:J_RA",
+          "net:RA_W"
+        ]
+      ],
+      "movement": "FIXED: not on either measured corridor boundary",
+      "signed_distance_before": 445.49621139864263
+    }
+  },
+  "vertex_count": 34
+}

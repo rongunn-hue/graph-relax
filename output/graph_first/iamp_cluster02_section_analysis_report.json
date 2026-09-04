@@ -1,0 +1,693 @@
+{
+  "accumulated_axis_sign_counts": {
+    "negative": 2,
+    "positive": 4,
+    "zero": 1
+  },
+  "accumulated_vector_direction_groups": {
+    "NEGATIVE_ALONG_AXIS": [
+      "component:J_EA",
+      "net:EA"
+    ],
+    "NO_NET_TENDENCY": [
+      "component:C1"
+    ],
+    "POSITIVE_ALONG_AXIS": [
+      "component:J_PWR",
+      "component:U1",
+      "net:+9V",
+      "net:-9V"
+    ]
+  },
+  "axial_coherence": 0.9967080612508913,
+  "barycentric_contributions": [
+    {
+      "barycentric_weight": 0.0,
+      "segment_parameter": 1.0,
+      "vertex": "component:J_EA",
+      "weighted_vector": [
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "segment_parameter": 1.0,
+      "vertex": "net:EA",
+      "weighted_vector": [
+        0.43579434601942857,
+        -4.497520106071516
+      ]
+    },
+    {
+      "barycentric_weight": 0.0814398243841491,
+      "segment_parameter": 0.9185601756158509,
+      "vertex": "component:U1",
+      "weighted_vector": [
+        -0.035491015007427365,
+        0.36627724760264385
+      ]
+    },
+    {
+      "barycentric_weight": 0.9185601756158509,
+      "segment_parameter": 0.9185601756158509,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        -0.4003033310120012,
+        4.131242858468872
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "vertex": "net:EA",
+      "weighted_vector": [
+        0.43579434601942857,
+        -4.497520106071516
+      ]
+    },
+    {
+      "barycentric_weight": 0.0814398243841491,
+      "segment_parameter": 0.9185601756158509,
+      "vertex": "component:U1",
+      "weighted_vector": [
+        -0.035491015007427365,
+        0.36627724760264385
+      ]
+    },
+    {
+      "barycentric_weight": 0.9185601756158509,
+      "segment_parameter": 0.9185601756158509,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        -0.4003033310120012,
+        4.131242858468872
+      ]
+    },
+    {
+      "barycentric_weight": 0.0,
+      "segment_parameter": 1.0,
+      "vertex": "component:C1",
+      "weighted_vector": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "segment_parameter": 1.0,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        -0.018441678854213002,
+        2.931491669683869
+      ]
+    },
+    {
+      "barycentric_weight": 0.06419656705131827,
+      "segment_parameter": 0.9358034329486817,
+      "vertex": "component:J_EA",
+      "weighted_vector": [
+        0.001183892473103363,
+        -0.18819170153324144
+      ]
+    },
+    {
+      "barycentric_weight": 0.9358034329486817,
+      "segment_parameter": 0.9358034329486817,
+      "vertex": "net:EA",
+      "weighted_vector": [
+        0.017257786381109638,
+        -2.7432999681506276
+      ]
+    },
+    {
+      "barycentric_weight": 0.06419656705131827,
+      "segment_parameter": 0.9358034329486817,
+      "vertex": "component:J_EA",
+      "weighted_vector": [
+        0.001183892473103363,
+        -0.18819170153324144
+      ]
+    },
+    {
+      "barycentric_weight": 0.9358034329486817,
+      "segment_parameter": 0.9358034329486817,
+      "vertex": "net:EA",
+      "weighted_vector": [
+        0.017257786381109638,
+        -2.7432999681506276
+      ]
+    },
+    {
+      "barycentric_weight": 0.0,
+      "segment_parameter": 1.0,
+      "vertex": "component:J_PWR",
+      "weighted_vector": [
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "segment_parameter": 1.0,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        -0.018441678854213002,
+        2.931491669683869
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        -0.018441678854213002,
+        2.931491669683869
+      ]
+    },
+    {
+      "barycentric_weight": 0.06419656705131827,
+      "segment_parameter": 0.9358034329486817,
+      "vertex": "component:J_EA",
+      "weighted_vector": [
+        0.001183892473103363,
+        -0.18819170153324144
+      ]
+    },
+    {
+      "barycentric_weight": 0.9358034329486817,
+      "segment_parameter": 0.9358034329486817,
+      "vertex": "net:EA",
+      "weighted_vector": [
+        0.017257786381109638,
+        -2.7432999681506276
+      ]
+    },
+    {
+      "barycentric_weight": 0.0,
+      "segment_parameter": 1.0,
+      "vertex": "component:C1",
+      "weighted_vector": [
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "segment_parameter": 1.0,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        0.049345234110290986,
+        -2.6827344344620325
+      ]
+    },
+    {
+      "barycentric_weight": 0.5235524485221124,
+      "segment_parameter": 0.47644755147788764,
+      "vertex": "component:J_PWR",
+      "weighted_vector": [
+        -0.025834818141339703,
+        1.4045521818971816
+      ]
+    },
+    {
+      "barycentric_weight": 0.47644755147788764,
+      "segment_parameter": 0.47644755147788764,
+      "vertex": "net:-9V",
+      "weighted_vector": [
+        -0.023510415968951284,
+        1.278182252564851
+      ]
+    },
+    {
+      "barycentric_weight": 0.5235524485221124,
+      "segment_parameter": 0.47644755147788764,
+      "vertex": "component:J_PWR",
+      "weighted_vector": [
+        -0.025834818141339703,
+        1.4045521818971816
+      ]
+    },
+    {
+      "barycentric_weight": 0.47644755147788764,
+      "segment_parameter": 0.47644755147788764,
+      "vertex": "net:-9V",
+      "weighted_vector": [
+        -0.023510415968951284,
+        1.278182252564851
+      ]
+    },
+    {
+      "barycentric_weight": 0.0,
+      "segment_parameter": 1.0,
+      "vertex": "component:U1",
+      "weighted_vector": [
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "segment_parameter": 1.0,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        0.049345234110290986,
+        -2.6827344344620325
+      ]
+    },
+    {
+      "barycentric_weight": 1.0,
+      "vertex": "net:+9V",
+      "weighted_vector": [
+        0.049345234110290986,
+        -2.6827344344620325
+      ]
+    },
+    {
+      "barycentric_weight": 0.5235524485221124,
+      "segment_parameter": 0.47644755147788764,
+      "vertex": "component:J_PWR",
+      "weighted_vector": [
+        -0.025834818141339703,
+        1.4045521818971816
+      ]
+    },
+    {
+      "barycentric_weight": 0.47644755147788764,
+      "segment_parameter": 0.47644755147788764,
+      "vertex": "net:-9V",
+      "weighted_vector": [
+        -0.023510415968951284,
+        1.278182252564851
+      ]
+    }
+  ],
+  "cluster_centroid": [
+    211.513689544677,
+    20.356141774152974
+  ],
+  "coordinates_unchanged": true,
+  "dominant_axis_unit_vector": [
+    -0.041548230424525504,
+    0.999136499457702
+  ],
+  "dominant_separation_axis_degrees": 92.38122368500757,
+  "dominant_separation_axis_radians": 1.612356520324751,
+  "electrical_incidence_count": 44,
+  "events": [
+    {
+      "clearance": 1.4814157287331646,
+      "crowding_point": [
+        198.38798165789436,
+        18.478941251868434
+      ],
+      "deficit": 4.518584271266835,
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "nA": [
+        0.09644488624248869,
+        -0.9953383263582657
+      ],
+      "nB": [
+        -0.09644488624248869,
+        0.9953383263582657
+      ],
+      "pA": [
+        198.4594191436121,
+        17.741686325829395
+      ],
+      "pB": [
+        198.3165441721766,
+        19.216196177907474
+      ],
+      "separation_axis_degrees_modulo_180": 95.5344876046373,
+      "separation_axis_radians": 1.6673913579066317,
+      "violation_id": "V02"
+    },
+    {
+      "clearance": 1.4814157287331646,
+      "crowding_point": [
+        198.38798165789436,
+        18.478941251868434
+      ],
+      "deficit": 4.518584271266835,
+      "item_a": "vertex:net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "nA": [
+        0.09644488624248869,
+        -0.9953383263582657
+      ],
+      "nB": [
+        -0.09644488624248869,
+        0.9953383263582657
+      ],
+      "pA": [
+        198.4594191436121,
+        17.741686325829395
+      ],
+      "pB": [
+        198.3165441721766,
+        19.216196177907474
+      ],
+      "separation_axis_degrees_modulo_180": 95.5344876046373,
+      "separation_axis_radians": 1.6673913579066317,
+      "violation_id": "V03"
+    },
+    {
+      "clearance": 3.0684503236436735,
+      "crowding_point": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "deficit": 2.9315496763563265,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "nA": [
+        -0.0062907611639501475,
+        0.9999802129662256
+      ],
+      "nB": [
+        0.0062907611639501475,
+        -0.9999802129662256
+      ],
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.9186521487425,
+        17.851520364060008
+      ],
+      "separation_axis_degrees_modulo_180": 90.36043644194498,
+      "separation_axis_radians": 1.5770871294510098,
+      "violation_id": "V04"
+    },
+    {
+      "clearance": 3.0684503236436735,
+      "crowding_point": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "deficit": 2.9315496763563265,
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:J_PWR|net:+9V",
+      "nA": [
+        0.0062907611639501475,
+        -0.9999802129662256
+      ],
+      "nB": [
+        -0.0062907611639501475,
+        0.9999802129662256
+      ],
+      "pA": [
+        215.9186521487425,
+        17.851520364060008
+      ],
+      "pB": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "separation_axis_degrees_modulo_180": 90.36043644194497,
+      "separation_axis_radians": 1.5770871294510096,
+      "violation_id": "V05"
+    },
+    {
+      "clearance": 3.0684503236436735,
+      "crowding_point": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "deficit": 2.9315496763563265,
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "nA": [
+        -0.0062907611639501475,
+        0.9999802129662256
+      ],
+      "nB": [
+        0.0062907611639501475,
+        -0.9999802129662256
+      ],
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.9186521487425,
+        17.851520364060008
+      ],
+      "separation_axis_degrees_modulo_180": 90.36043644194498,
+      "separation_axis_radians": 1.5770871294510098,
+      "violation_id": "V06"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "nA": [
+        0.01839052282336223,
+        -0.9998308800343603
+      ],
+      "nB": [
+        -0.01839052282336223,
+        0.9998308800343603
+      ],
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "separation_axis_degrees_modulo_180": 91.0537587453684,
+      "separation_axis_radians": 1.5891878864232596,
+      "violation_id": "V07"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_b": "edge:component:U1|net:+9V",
+      "nA": [
+        -0.01839052282336223,
+        0.9998308800343603
+      ],
+      "nB": [
+        0.01839052282336223,
+        -0.9998308800343603
+      ],
+      "pA": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "pB": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "separation_axis_degrees_modulo_180": 91.0537587453684,
+      "separation_axis_radians": 1.5891878864232596,
+      "violation_id": "V08"
+    },
+    {
+      "clearance": 3.3168117848392145,
+      "crowding_point": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "deficit": 2.6831882151607855,
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "nA": [
+        0.01839052282336223,
+        -0.9998308800343603
+      ],
+      "nB": [
+        -0.01839052282336223,
+        0.9998308800343603
+      ],
+      "pA": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "pB": [
+        215.83835135778313,
+        24.23616081791762
+      ],
+      "separation_axis_degrees_modulo_180": 91.0537587453684,
+      "separation_axis_radians": 1.5891878864232596,
+      "violation_id": "V09"
+    }
+  ],
+  "numerical_structure_classification": "TWO_COHERENT_OPPOSING_SECTIONS",
+  "participating_edges": [
+    {
+      "edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "endpoint_projections": {
+        "component:C1": -6.502661950083119,
+        "net:+9V": 0.381064983434529
+      },
+      "straddles_axis": true
+    },
+    {
+      "edge": [
+        "component:J_EA",
+        "net:EA"
+      ],
+      "endpoint_projections": {
+        "component:J_EA": -11.660064663701435,
+        "net:EA": -2.0698160299786306
+      },
+      "straddles_axis": false
+    },
+    {
+      "edge": [
+        "component:J_PWR",
+        "net:+9V"
+      ],
+      "endpoint_projections": {
+        "component:J_PWR": -0.10464277543148892,
+        "net:+9V": 0.381064983434529
+      },
+      "straddles_axis": true
+    },
+    {
+      "edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "endpoint_projections": {
+        "component:J_PWR": -0.10464277543148892,
+        "net:-9V": 7.87447132293339
+      },
+      "straddles_axis": true
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:+9V"
+      ],
+      "endpoint_projections": {
+        "component:U1": -11.550544723548107,
+        "net:+9V": 0.381064983434529
+      },
+      "straddles_axis": true
+    }
+  ],
+  "proper_crossing_count": 0,
+  "schema": "graph-relax.cluster02-section-analysis.v1",
+  "side_groups": {
+    "ON_AXIS": [],
+    "SIDE_A": [
+      "net:+9V",
+      "net:-9V"
+    ],
+    "SIDE_B": [
+      "component:C1",
+      "component:J_EA",
+      "component:J_PWR",
+      "component:U1",
+      "net:EA"
+    ]
+  },
+  "source_cluster": "cluster:02",
+  "source_coordinates": "output/graph_first/iamp_nearness_rotation_direct_report.json#final_coordinates",
+  "vertex_count": 34,
+  "vertices": [
+    {
+      "accumulated_vector": [
+        0.0,
+        0.0
+      ],
+      "accumulated_vector_angle_degrees": null,
+      "accumulated_vector_axis_component": 0.0,
+      "accumulated_vector_magnitude": 0.0,
+      "side": "SIDE_B",
+      "side_projection": -6.502661950083119,
+      "vertex": "component:C1"
+    },
+    {
+      "accumulated_vector": [
+        0.0035516774193100893,
+        -0.5645751045997243
+      ],
+      "accumulated_vector_angle_degrees": 270.36043644194496,
+      "accumulated_vector_axis_component": -0.5642351596025456,
+      "accumulated_vector_magnitude": 0.5645862760874377,
+      "side": "SIDE_B",
+      "side_projection": -11.660064663701435,
+      "vertex": "component:J_EA"
+    },
+    {
+      "accumulated_vector": [
+        -0.07750445442401911,
+        4.213656545691545
+      ],
+      "accumulated_vector_angle_degrees": 91.0537587453684,
+      "accumulated_vector_axis_component": 4.213238223910619,
+      "accumulated_vector_magnitude": 4.214369279679317,
+      "side": "SIDE_B",
+      "side_projection": -0.10464277543148892,
+      "vertex": "component:J_PWR"
+    },
+    {
+      "accumulated_vector": [
+        -0.07098203001485473,
+        0.7325544952052877
+      ],
+      "accumulated_vector_angle_degrees": 95.5344876046373,
+      "accumulated_vector_axis_component": 0.7348711117404729,
+      "accumulated_vector_magnitude": 0.7359854190338988,
+      "side": "SIDE_B",
+      "side_projection": -11.550544723548107,
+      "vertex": "component:U1"
+    },
+    {
+      "accumulated_vector": [
+        -0.7078959962557684,
+        9.008757422603255
+      ],
+      "accumulated_vector_angle_degrees": 94.49299269721615,
+      "accumulated_vector_axis_component": 9.03039018165244,
+      "accumulated_vector_magnitude": 9.03652737730729,
+      "side": "SIDE_A",
+      "side_projection": 0.381064983434529,
+      "vertex": "net:+9V"
+    },
+    {
+      "accumulated_vector": [
+        -0.07053124790685385,
+        3.834546757694553
+      ],
+      "accumulated_vector_angle_degrees": 91.0537587453684,
+      "accumulated_vector_axis_component": 3.83416607302998,
+      "accumulated_vector_magnitude": 3.835195365803039,
+      "side": "SIDE_A",
+      "side_projection": 7.87447132293339,
+      "vertex": "net:-9V"
+    },
+    {
+      "accumulated_vector": [
+        0.9233620511821861,
+        -17.22494011659491
+      ],
+      "accumulated_vector_angle_degrees": 273.068466965374,
+      "accumulated_vector_axis_component": -17.248430430730963,
+      "accumulated_vector_magnitude": 17.24967128666063,
+      "side": "SIDE_B",
+      "side_projection": -2.0698160299786306,
+      "vertex": "net:EA"
+    }
+  ],
+  "violation_count": 8
+}

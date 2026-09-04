@@ -1,0 +1,1730 @@
+{
+  "accepted_moves": 8,
+  "active_count": 13,
+  "active_vertices": [
+    "net:EB",
+    "component:U1",
+    "component:JP1",
+    "component:C2",
+    "net:-9V",
+    "net:NODE_B",
+    "component:TPC",
+    "net:+9V",
+    "component:J_PWR",
+    "component:TPB",
+    "component:J_RA",
+    "net:NODE_C",
+    "net:RA_W"
+  ],
+  "attempts": [
+    {
+      "attempt_order": 1,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "deficiency_change": null,
+      "deficiency_improving": false,
+      "frozen_cell_centroid": [
+        -10.851100629732777,
+        60.67457184665688
+      ],
+      "frozen_starting_area": 5188.6229647732325,
+      "graph_invalid_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:J_EB",
+                "net:EB"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:EOUT"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "graph_valid": false,
+      "proposed_displacement_distance": 51.78502963413404,
+      "proposed_total_deficiency": null,
+      "rejection_category": "GRAPH_INVALID",
+      "starting_coordinate_at_attempt": [
+        18.105015046643143,
+        17.741686325829406
+      ],
+      "total_deficiency_before": 92167.83114285558,
+      "vertex_id": "net:EB"
+    },
+    {
+      "attempt_order": 2,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "deficiency_change": null,
+      "deficiency_improving": false,
+      "frozen_cell_centroid": [
+        4.258076608222854,
+        -33.328477717570564
+      ],
+      "frozen_starting_area": 9745.736467224971,
+      "graph_invalid_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:J_EB",
+                "net:EB"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:EOUT"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "graph_valid": false,
+      "proposed_displacement_distance": 33.599384568353216,
+      "proposed_total_deficiency": null,
+      "rejection_category": "GRAPH_INVALID",
+      "starting_coordinate_at_attempt": [
+        0.0,
+        0.0
+      ],
+      "total_deficiency_before": 92167.83114285558,
+      "vertex_id": "component:U1"
+    },
+    {
+      "attempt_order": 3,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -121.37485319071857,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        -332.2304578616567,
+        125.45896712258968
+      ],
+      "frozen_starting_area": 12778.332226524679,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 16.416298684433894,
+      "proposed_total_deficiency": 92046.45628966486,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        -343.1882775498201,
+        113.2351767865996
+      ],
+      "total_deficiency_before": 92167.83114285558,
+      "vertex_id": "component:JP1"
+    },
+    {
+      "attempt_order": 4,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -35.30332988483133,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        293.3678208953207,
+        30.296714809437397
+      ],
+      "frozen_starting_area": 13638.945075430784,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 9.621979436900629,
+      "proposed_total_deficiency": 92011.15295978003,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        283.81982446582094,
+        31.487618863674726
+      ],
+      "total_deficiency_before": 92046.45628966486,
+      "vertex_id": "component:C2"
+    },
+    {
+      "attempt_order": 5,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "deficiency_change": null,
+      "deficiency_improving": false,
+      "frozen_cell_centroid": [
+        76.96340931133858,
+        8.983088515223459
+      ],
+      "frozen_starting_area": 14494.451040128086,
+      "graph_invalid_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:C1",
+                "net:+9V"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:-9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:J_PWR",
+                "net:-9V"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:+9V"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "graph_valid": false,
+      "proposed_displacement_distance": 43.10425592501235,
+      "proposed_total_deficiency": null,
+      "rejection_category": "GRAPH_INVALID",
+      "starting_coordinate_at_attempt": [
+        35.54494516364402,
+        20.9199099721735
+      ],
+      "total_deficiency_before": 92011.15295978003,
+      "vertex_id": "net:-9V"
+    },
+    {
+      "attempt_order": 6,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -791.2149258088903,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        -70.95035056516765,
+        -35.412038116909365
+      ],
+      "frozen_starting_area": 14724.770076260042,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 15.433894615738431,
+      "proposed_total_deficiency": 91219.93803397114,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        -72.17258120027003,
+        -20.02661464908317
+      ],
+      "total_deficiency_before": 92011.15295978003,
+      "vertex_id": "net:NODE_B"
+    },
+    {
+      "attempt_order": 7,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -1569.9597215113026,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        -232.13901499596227,
+        145.22609324004077
+      ],
+      "frozen_starting_area": 16256.521004294424,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 15.311816037647672,
+      "proposed_total_deficiency": 89649.97831245983,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        -237.81115623970243,
+        131.00362776875815
+      ],
+      "total_deficiency_before": 91219.93803397114,
+      "vertex_id": "component:TPC"
+    },
+    {
+      "attempt_order": 8,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -1004.6367011904658,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        188.00466821415253,
+        23.292213486531598
+      ],
+      "frozen_starting_area": 17459.124866198235,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 27.99537559397975,
+      "proposed_total_deficiency": 88645.34161126937,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        215.899349260613,
+        20.919909972173492
+      ],
+      "total_deficiency_before": 89649.97831245983,
+      "vertex_id": "net:+9V"
+    },
+    {
+      "attempt_order": 9,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "deficiency_change": null,
+      "deficiency_improving": false,
+      "frozen_cell_centroid": [
+        378.1287544826161,
+        48.521550256856514
+      ],
+      "frozen_starting_area": 20414.350685044083,
+      "graph_invalid_reasons": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:C2",
+                "net:-9V"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:+9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C2",
+                "net:GND"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:+9V"
+              ]
+            },
+            {
+              "edge_a": [
+                "component:C2",
+                "net:GND"
+              ],
+              "edge_b": [
+                "component:J_PWR",
+                "net:-9V"
+              ]
+            }
+          ],
+          "type": "proper_crossings"
+        }
+      ],
+      "graph_valid": false,
+      "proposed_displacement_distance": 21.342008451659716,
+      "proposed_total_deficiency": null,
+      "rejection_category": "GRAPH_INVALID",
+      "starting_coordinate_at_attempt": [
+        379.9104556355607,
+        27.254042980442794
+      ],
+      "total_deficiency_before": 88645.34161126937,
+      "vertex_id": "component:J_PWR"
+    },
+    {
+      "attempt_order": 10,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -4008.3165488345257,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        -170.7826889103905,
+        -64.38397166687058
+      ],
+      "frozen_starting_area": 20822.427301268235,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 32.616857822889045,
+      "proposed_total_deficiency": 84637.02506243484,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        -155.66122336493802,
+        -35.48413267084412
+      ],
+      "total_deficiency_before": 88645.34161126937,
+      "vertex_id": "component:TPB"
+    },
+    {
+      "attempt_order": 11,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -271.58882949629333,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        -112.74216688816811,
+        -406.8251077229566
+      ],
+      "frozen_starting_area": 21825.39854121659,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 13.89907441792264,
+      "proposed_total_deficiency": 84365.43623293855,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        -122.13450289248553,
+        -396.57970416541167
+      ],
+      "total_deficiency_before": 84637.02506243484,
+      "vertex_id": "component:J_RA"
+    },
+    {
+      "attempt_order": 12,
+      "complete_edge_regeneration_count": 44,
+      "decision": "REJECTED",
+      "deficiency_change": 651.181051359119,
+      "deficiency_improving": false,
+      "frozen_cell_centroid": [
+        -137.10544842371692,
+        109.45346347336276
+      ],
+      "frozen_starting_area": 23076.236172090794,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 38.34208699516897,
+      "proposed_total_deficiency": 85016.61728429767,
+      "rejection_category": "NON_IMPROVING_DEFICIENCY",
+      "starting_coordinate_at_attempt": [
+        -165.7182239714436,
+        83.93044032561397
+      ],
+      "total_deficiency_before": 84365.43623293855,
+      "vertex_id": "net:NODE_C"
+    },
+    {
+      "attempt_order": 13,
+      "complete_edge_regeneration_count": 44,
+      "decision": "ACCEPTED",
+      "deficiency_change": -1541.4104864350666,
+      "deficiency_improving": true,
+      "frozen_cell_centroid": [
+        -233.3715587772804,
+        -462.85815978233677
+      ],
+      "frozen_starting_area": 23444.211180336002,
+      "graph_invalid_reasons": [],
+      "graph_valid": true,
+      "proposed_displacement_distance": 42.478654910762096,
+      "proposed_total_deficiency": 82824.02574650348,
+      "rejection_category": null,
+      "starting_coordinate_at_attempt": [
+        -191.56438459142134,
+        -470.3812116644424
+      ],
+      "total_deficiency_before": 84365.43623293855,
+      "vertex_id": "net:RA_W"
+    }
+  ],
+  "comparison": {
+    "PASS1_BASELINE": {
+      "cells_below_threshold": 13,
+      "max_min_area_ratio": 13.73591087113888,
+      "maximum_area": 71270.4625880695,
+      "mean_area": 29426.630648427472,
+      "median_area": 27706.87772584402,
+      "minimum_area": 5188.6229647732325,
+      "population_standard_deviation": 14397.436819656785,
+      "total_deficiency": 92167.83114285558
+    },
+    "PREVIOUS_THRESHOLD80": {
+      "cells_below_threshold": 9,
+      "max_min_area_ratio": 15.179242182678399,
+      "maximum_area": 71270.46258806948,
+      "mean_area": 29426.630648427472,
+      "median_area": 27078.066034684955,
+      "minimum_area": 4695.258283012236,
+      "population_standard_deviation": 14129.807710904512,
+      "total_deficiency": 83475.20679786259
+    },
+    "THRESHOLD_AWARE": {
+      "cells_below_threshold": 10,
+      "max_min_area_ratio": 13.73342907387402,
+      "maximum_area": 71270.46258806948,
+      "mean_area": 29426.630648427472,
+      "median_area": 26783.55826119498,
+      "minimum_area": 5189.560611897857,
+      "population_standard_deviation": 14111.05039770766,
+      "total_deficiency": 82824.02574650348
+    }
+  },
+  "final_coordinates": {
+    "component:C1": [
+      467.00395328344604,
+      24.472202393688125
+    ],
+    "component:C2": [
+      293.3678208953207,
+      30.296714809437397
+    ],
+    "component:JP1": [
+      -332.2304578616567,
+      125.45896712258968
+    ],
+    "component:J_EA": [
+      456.4205181895173,
+      -101.9292673856607
+    ],
+    "component:J_EB": [
+      236.23854006918134,
+      165.46000164752198
+    ],
+    "component:J_OUT": [
+      378.7597751984596,
+      315.5258920051638
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      152.57570716365007,
+      -341.0251143923969
+    ],
+    "component:J_R4": [
+      25.152970530118353,
+      330.41585816950135
+    ],
+    "component:J_RA": [
+      -112.74216688816811,
+      -406.8251077229566
+    ],
+    "component:R2": [
+      -157.22358579801127,
+      -247.376003818269
+    ],
+    "component:R3": [
+      -306.87850734968737,
+      -18.877970488508428
+    ],
+    "component:RMIN1": [
+      573.1832883197173,
+      -238.4731424985345
+    ],
+    "component:RMIN4": [
+      -257.67843073790067,
+      275.1344935722245
+    ],
+    "component:TPA": [
+      -11.142496371902388,
+      -350.4898103113915
+    ],
+    "component:TPB": [
+      -170.7826889103905,
+      -64.38397166687058
+    ],
+    "component:TPC": [
+      -232.13901499596227,
+      145.22609324004077
+    ],
+    "component:TPO": [
+      123.15258675923582,
+      264.09357155679317
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      188.00466821415253,
+      23.292213486531598
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      218.7300232756448,
+      -109.92354490923239
+    ],
+    "net:EB": [
+      18.105015046643143,
+      17.741686325829406
+    ],
+    "net:EOUT": [
+      56.65318129035228,
+      150.24896041716516
+    ],
+    "net:GND": [
+      577.3744195710391,
+      260.46161957231755
+    ],
+    "net:NODE_A": [
+      18.0350020304404,
+      -197.68304964825984
+    ],
+    "net:NODE_B": [
+      -70.95035056516765,
+      -35.412038116909365
+    ],
+    "net:NODE_C": [
+      -165.7182239714436,
+      83.93044032561397
+    ],
+    "net:R1_EXT": [
+      416.59122964625016,
+      -387.26825894306796
+    ],
+    "net:R1_W": [
+      133.85220206251688,
+      -477.5249063205781
+    ],
+    "net:R4_EXT": [
+      -210.05183004973398,
+      415.56576984437805
+    ],
+    "net:R4_W": [
+      89.32290804080156,
+      439.45330730297036
+    ],
+    "net:RA_SW": [
+      -310.13973729821066,
+      -307.99046913630974
+    ],
+    "net:RA_W": [
+      -233.3715587772804,
+      -462.85815978233677
+    ]
+  },
+  "final_density": [
+    {
+      "area_over_target": 0.1763559231058341,
+      "crowding_ratio": 5.67035108540065,
+      "percent_difference_from_target": -82.3644076894166,
+      "rank": 1,
+      "vertex_id": "net:EB",
+      "voronoi_area": 5189.560611897857
+    },
+    {
+      "area_over_target": 0.3438905041412269,
+      "crowding_ratio": 2.9079023350680426,
+      "percent_difference_from_target": -65.61094958587731,
+      "rank": 2,
+      "vertex_id": "component:U1",
+      "voronoi_area": 10119.538848865403
+    },
+    {
+      "area_over_target": 0.4322299637730063,
+      "crowding_ratio": 2.3135832399744705,
+      "percent_difference_from_target": -56.777003622699375,
+      "rank": 3,
+      "vertex_id": "net:-9V",
+      "voronoi_area": 12719.071499131445
+    },
+    {
+      "area_over_target": 0.4871910085837374,
+      "crowding_ratio": 2.0525830370043088,
+      "percent_difference_from_target": -51.28089914162626,
+      "rank": 4,
+      "vertex_id": "component:JP1",
+      "voronoi_area": 14336.3898648285
+    },
+    {
+      "area_over_target": 0.5372549736035063,
+      "crowding_ratio": 1.8613136204077267,
+      "percent_difference_from_target": -46.27450263964937,
+      "rank": 5,
+      "vertex_id": "component:C2",
+      "voronoi_area": 15809.603672261033
+    },
+    {
+      "area_over_target": 0.5457888207051903,
+      "crowding_ratio": 1.8322104851981815,
+      "percent_difference_from_target": -45.42111792948097,
+      "rank": 6,
+      "vertex_id": "net:NODE_B",
+      "voronoi_area": 16060.72603893244
+    },
+    {
+      "area_over_target": 0.5818492248323942,
+      "crowding_ratio": 1.7186583006758447,
+      "percent_difference_from_target": -41.81507751676058,
+      "rank": 7,
+      "vertex_id": "component:TPC",
+      "voronoi_area": 17121.8622322167
+    },
+    {
+      "area_over_target": 0.6488949325331775,
+      "crowding_ratio": 1.5410815370312216,
+      "percent_difference_from_target": -35.11050674668225,
+      "rank": 8,
+      "vertex_id": "net:+9V",
+      "voronoi_area": 19094.79150929008
+    },
+    {
+      "area_over_target": 0.6600601084525421,
+      "crowding_ratio": 1.5150135376979827,
+      "percent_difference_from_target": -33.99398915474578,
+      "rank": 9,
+      "vertex_id": "component:J_PWR",
+      "voronoi_area": 19423.34501719394
+    },
+    {
+      "area_over_target": 0.7718902791717595,
+      "crowding_ratio": 1.295520914025505,
+      "percent_difference_from_target": -22.810972082824055,
+      "rank": 10,
+      "vertex_id": "component:TPB",
+      "voronoi_area": 22714.130146298936
+    },
+    {
+      "area_over_target": 0.8087535351898021,
+      "crowding_ratio": 1.236470638444029,
+      "percent_difference_from_target": -19.12464648101979,
+      "rank": 11,
+      "vertex_id": "component:TPA",
+      "voronoi_area": 23798.8915656403
+    },
+    {
+      "area_over_target": 0.8183279446893904,
+      "crowding_ratio": 1.2220039734553685,
+      "percent_difference_from_target": -18.167205531060958,
+      "rank": 12,
+      "vertex_id": "net:NODE_C",
+      "voronoi_area": 24080.63417766148
+    },
+    {
+      "area_over_target": 0.8247189053660782,
+      "crowding_ratio": 1.212534347755879,
+      "percent_difference_from_target": -17.528109463392184,
+      "rank": 13,
+      "vertex_id": "net:RA_W",
+      "voronoi_area": 24268.698616982994
+    },
+    {
+      "area_over_target": 0.8477878986569416,
+      "crowding_ratio": 1.1795403090610181,
+      "percent_difference_from_target": -15.22121013430584,
+      "rank": 14,
+      "vertex_id": "component:J_RA",
+      "voronoi_area": 24947.541361984284
+    },
+    {
+      "area_over_target": 0.855451750166827,
+      "crowding_ratio": 1.1689730014638275,
+      "percent_difference_from_target": -14.454824983317305,
+      "rank": 15,
+      "vertex_id": "component:TPO",
+      "voronoi_area": 25173.062689710074
+    },
+    {
+      "area_over_target": 0.8817644020732981,
+      "crowding_ratio": 1.1340897836754282,
+      "percent_difference_from_target": -11.82355979267019,
+      "rank": 16,
+      "vertex_id": "net:R1_W",
+      "voronoi_area": 25947.355378742443
+    },
+    {
+      "area_over_target": 0.8968723843006126,
+      "crowding_ratio": 1.1149858302079476,
+      "percent_difference_from_target": -10.312761569938743,
+      "rank": 17,
+      "vertex_id": "component:R3",
+      "voronoi_area": 26391.93239158863
+    },
+    {
+      "area_over_target": 0.9234894900294518,
+      "crowding_ratio": 1.0828493564860258,
+      "percent_difference_from_target": -7.651050997054821,
+      "rank": 18,
+      "vertex_id": "net:EOUT",
+      "voronoi_area": 27175.184130801324
+    },
+    {
+      "area_over_target": 0.9657572636411522,
+      "crowding_ratio": 1.0354568768447507,
+      "percent_difference_from_target": -3.424273635884778,
+      "rank": 19,
+      "vertex_id": "component:J_EB",
+      "voronoi_area": 28418.982293204182
+    },
+    {
+      "area_over_target": 0.9674672932421504,
+      "crowding_ratio": 1.033626673464926,
+      "percent_difference_from_target": -3.2532706757849583,
+      "rank": 20,
+      "vertex_id": "net:R4_W",
+      "voronoi_area": 28469.302702670637
+    },
+    {
+      "area_over_target": 1.0099575953987305,
+      "crowding_ratio": 0.9901405807094313,
+      "percent_difference_from_target": 0.9957595398730534,
+      "rank": 21,
+      "vertex_id": "component:R2",
+      "voronoi_area": 29719.6491303724
+    },
+    {
+      "area_over_target": 1.0442113198738305,
+      "crowding_ratio": 0.9576605625390343,
+      "percent_difference_from_target": 4.4211319873830535,
+      "rank": 22,
+      "vertex_id": "net:RA_SW",
+      "voronoi_area": 30727.620828834166
+    },
+    {
+      "area_over_target": 1.0884382143822993,
+      "crowding_ratio": 0.9187476025614473,
+      "percent_difference_from_target": 8.843821438229927,
+      "rank": 23,
+      "vertex_id": "net:NODE_A",
+      "voronoi_area": 32029.06931826184
+    },
+    {
+      "area_over_target": 1.1249117821651924,
+      "crowding_ratio": 0.888958597335725,
+      "percent_difference_from_target": 12.491178216519238,
+      "rank": 24,
+      "vertex_id": "component:J_R4",
+      "voronoi_area": 33102.36352583942
+    },
+    {
+      "area_over_target": 1.132191389255773,
+      "crowding_ratio": 0.8832428946993964,
+      "percent_difference_from_target": 13.21913892557729,
+      "rank": 25,
+      "vertex_id": "component:RMIN4",
+      "voronoi_area": 33316.57783495961
+    },
+    {
+      "area_over_target": 1.275481009479762,
+      "crowding_ratio": 0.7840179450479439,
+      "percent_difference_from_target": 27.548100947976195,
+      "rank": 26,
+      "vertex_id": "net:R4_EXT",
+      "voronoi_area": 37533.10856504438
+    },
+    {
+      "area_over_target": 1.2964905316674837,
+      "crowding_ratio": 0.7713129988800211,
+      "percent_difference_from_target": 29.649053166748374,
+      "rank": 27,
+      "vertex_id": "component:J_R1",
+      "voronoi_area": 38151.34801456241
+    },
+    {
+      "area_over_target": 1.3265271122664668,
+      "crowding_ratio": 0.7538481428332273,
+      "percent_difference_from_target": 32.65271122664668,
+      "rank": 28,
+      "vertex_id": "component:J_EA",
+      "voronoi_area": 39035.223377790404
+    },
+    {
+      "area_over_target": 1.3444816992815163,
+      "crowding_ratio": 0.7437810425641306,
+      "percent_difference_from_target": 34.44816992815163,
+      "rank": 29,
+      "vertex_id": "component:C1",
+      "voronoi_area": 39563.56637832732
+    },
+    {
+      "area_over_target": 1.3855372368545023,
+      "crowding_ratio": 0.7217416994654268,
+      "percent_difference_from_target": 38.55372368545022,
+      "rank": 30,
+      "vertex_id": "net:EA",
+      "voronoi_area": 40771.692518560216
+    },
+    {
+      "area_over_target": 1.4938989823805693,
+      "crowding_ratio": 0.6693893039584727,
+      "percent_difference_from_target": 49.38989823805693,
+      "rank": 31,
+      "vertex_id": "component:RMIN1",
+      "voronoi_area": 43960.41358057468
+    },
+    {
+      "area_over_target": 1.8805023232464202,
+      "crowding_ratio": 0.5317728075302997,
+      "percent_difference_from_target": 88.05023232464202,
+      "rank": 32,
+      "vertex_id": "net:GND",
+      "voronoi_area": 55336.84729968218
+    },
+    {
+      "area_over_target": 2.199602635757818,
+      "crowding_ratio": 0.45462756942709115,
+      "percent_difference_from_target": 119.9602635757818,
+      "rank": 33,
+      "vertex_id": "component:J_OUT",
+      "voronoi_area": 64726.89433575286
+    },
+    {
+      "area_over_target": 2.4219715617315534,
+      "crowding_ratio": 0.4128867637426199,
+      "percent_difference_from_target": 142.19715617315535,
+      "rank": 34,
+      "vertex_id": "net:R1_EXT",
+      "voronoi_area": 71270.46258806948
+    }
+  ],
+  "final_total_deficiency": 82824.02574650348,
+  "final_validation": {
+    "coincident_vertex_pairs": [],
+    "coincident_vertices": 0,
+    "proper_crossing_list": [],
+    "proper_crossings": 0,
+    "vertex_on_unrelated_edge_events": 0,
+    "vertex_on_unrelated_edge_list": []
+  },
+  "fixed_domain": {
+    "area": 1000505.4420465342,
+    "height": 988.0018271493352,
+    "width": 1012.6554572609197,
+    "xmax": 643.7112238007887,
+    "xmin": -368.94423346013093,
+    "ymax": 476.67600955087613,
+    "ymin": -511.325817598459
+  },
+  "frozen_count": 21,
+  "frozen_vertices": [
+    "component:TPA",
+    "component:TPO",
+    "net:R1_W",
+    "net:EOUT",
+    "component:R3",
+    "net:R4_W",
+    "component:J_EB",
+    "component:R2",
+    "net:NODE_A",
+    "component:J_R4",
+    "net:RA_SW",
+    "component:RMIN4",
+    "net:R4_EXT",
+    "component:J_R1",
+    "component:J_EA",
+    "component:C1",
+    "net:EA",
+    "component:RMIN1",
+    "net:GND",
+    "component:J_OUT",
+    "net:R1_EXT"
+  ],
+  "important_vertices": {
+    "component:C1": {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 39563.56637832732,
+      "pass1_crowding_ratio": 0.7437810425641306,
+      "pass1_rank": 29,
+      "previous_threshold80_area": 39563.56637832732,
+      "previous_threshold80_crowding_ratio": 0.7437810425641306,
+      "previous_threshold80_rank": 29,
+      "proposed": false,
+      "threshold_aware_area": 39563.56637832732,
+      "threshold_aware_crowding_ratio": 0.7437810425641306,
+      "threshold_aware_rank": 29,
+      "vertex_id": "component:C1"
+    },
+    "component:J_EA": {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 39035.22337779041,
+      "pass1_crowding_ratio": 0.7538481428332272,
+      "pass1_rank": 28,
+      "previous_threshold80_area": 39035.223377790404,
+      "previous_threshold80_crowding_ratio": 0.7538481428332273,
+      "previous_threshold80_rank": 28,
+      "proposed": false,
+      "threshold_aware_area": 39035.223377790404,
+      "threshold_aware_crowding_ratio": 0.7538481428332273,
+      "threshold_aware_rank": 28,
+      "vertex_id": "component:J_EA"
+    },
+    "component:J_EB": {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 28588.728670792352,
+      "pass1_crowding_ratio": 1.0293088226232028,
+      "pass1_rank": 20,
+      "previous_threshold80_area": 28418.982293204182,
+      "previous_threshold80_crowding_ratio": 1.0354568768447507,
+      "previous_threshold80_rank": 19,
+      "proposed": false,
+      "threshold_aware_area": 28418.982293204182,
+      "threshold_aware_crowding_ratio": 1.0354568768447507,
+      "threshold_aware_rank": 19,
+      "vertex_id": "component:J_EB"
+    },
+    "component:J_OUT": {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 64726.89433575285,
+      "pass1_crowding_ratio": 0.4546275694270912,
+      "pass1_rank": 33,
+      "previous_threshold80_area": 64726.89433575286,
+      "previous_threshold80_crowding_ratio": 0.45462756942709115,
+      "previous_threshold80_rank": 33,
+      "proposed": false,
+      "threshold_aware_area": 64726.89433575286,
+      "threshold_aware_crowding_ratio": 0.45462756942709115,
+      "threshold_aware_rank": 33,
+      "vertex_id": "component:J_OUT"
+    },
+    "component:J_PWR": {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 20414.350685044083,
+      "pass1_crowding_ratio": 1.441467872401445,
+      "pass1_rank": 9,
+      "previous_threshold80_area": 19423.34501719394,
+      "previous_threshold80_crowding_ratio": 1.5150135376979827,
+      "previous_threshold80_rank": 9,
+      "proposed": true,
+      "threshold_aware_area": 19423.34501719394,
+      "threshold_aware_crowding_ratio": 1.5150135376979827,
+      "threshold_aware_rank": 9,
+      "vertex_id": "component:J_PWR"
+    },
+    "component:TPB": {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 20822.427301268235,
+      "pass1_crowding_ratio": 1.4132180760038087,
+      "pass1_rank": 10,
+      "previous_threshold80_area": 24046.914573714497,
+      "previous_threshold80_crowding_ratio": 1.2237175192776502,
+      "previous_threshold80_rank": 11,
+      "proposed": true,
+      "threshold_aware_area": 22714.130146298936,
+      "threshold_aware_crowding_ratio": 1.295520914025505,
+      "threshold_aware_rank": 10,
+      "vertex_id": "component:TPB"
+    },
+    "component:U1": {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 9745.736467224971,
+      "pass1_crowding_ratio": 3.019436319398702,
+      "pass1_rank": 2,
+      "previous_threshold80_area": 9875.202947738184,
+      "previous_threshold80_crowding_ratio": 2.9798507234899256,
+      "previous_threshold80_rank": 2,
+      "proposed": true,
+      "threshold_aware_area": 10119.538848865403,
+      "threshold_aware_crowding_ratio": 2.9079023350680426,
+      "threshold_aware_rank": 2,
+      "vertex_id": "component:U1"
+    },
+    "net:+9V": {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 17459.124866198235,
+      "pass1_crowding_ratio": 1.685458513753971,
+      "pass1_rank": 8,
+      "previous_threshold80_area": 19094.79150929008,
+      "previous_threshold80_crowding_ratio": 1.5410815370312216,
+      "previous_threshold80_rank": 8,
+      "proposed": true,
+      "threshold_aware_area": 19094.79150929008,
+      "threshold_aware_crowding_ratio": 1.5410815370312216,
+      "threshold_aware_rank": 8,
+      "vertex_id": "net:+9V"
+    },
+    "net:-9V": {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 14494.451040128086,
+      "pass1_crowding_ratio": 2.030199734157537,
+      "pass1_rank": 5,
+      "previous_threshold80_area": 12719.071499131445,
+      "previous_threshold80_crowding_ratio": 2.3135832399744705,
+      "previous_threshold80_rank": 3,
+      "proposed": true,
+      "threshold_aware_area": 12719.071499131445,
+      "threshold_aware_crowding_ratio": 2.3135832399744705,
+      "threshold_aware_rank": 3,
+      "vertex_id": "net:-9V"
+    },
+    "net:EA": {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 41132.77536792887,
+      "pass1_crowding_ratio": 0.7154059113495014,
+      "pass1_rank": 30,
+      "previous_threshold80_area": 40771.692518560216,
+      "previous_threshold80_crowding_ratio": 0.7217416994654268,
+      "previous_threshold80_rank": 30,
+      "proposed": false,
+      "threshold_aware_area": 40771.692518560216,
+      "threshold_aware_crowding_ratio": 0.7217416994654268,
+      "threshold_aware_rank": 30,
+      "vertex_id": "net:EA"
+    },
+    "net:EB": {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 5188.6229647732325,
+      "pass1_crowding_ratio": 5.671375786641603,
+      "pass1_rank": 1,
+      "previous_threshold80_area": 4695.258283012236,
+      "previous_threshold80_crowding_ratio": 6.267308180871547,
+      "previous_threshold80_rank": 1,
+      "proposed": true,
+      "threshold_aware_area": 5189.560611897857,
+      "threshold_aware_crowding_ratio": 5.67035108540065,
+      "threshold_aware_rank": 1,
+      "vertex_id": "net:EB"
+    },
+    "net:GND": {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 55336.84729968218,
+      "pass1_crowding_ratio": 0.5317728075302997,
+      "pass1_rank": 32,
+      "previous_threshold80_area": 55336.84729968218,
+      "previous_threshold80_crowding_ratio": 0.5317728075302997,
+      "previous_threshold80_rank": 32,
+      "proposed": false,
+      "threshold_aware_area": 55336.84729968218,
+      "threshold_aware_crowding_ratio": 0.5317728075302997,
+      "threshold_aware_rank": 32,
+      "vertex_id": "net:GND"
+    },
+    "net:NODE_B": {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 14724.770076260042,
+      "pass1_crowding_ratio": 1.9984441519987097,
+      "pass1_rank": 6,
+      "previous_threshold80_area": 16196.991061937093,
+      "previous_threshold80_crowding_ratio": 1.8167961281141913,
+      "previous_threshold80_rank": 6,
+      "proposed": true,
+      "threshold_aware_area": 16060.72603893244,
+      "threshold_aware_crowding_ratio": 1.8322104851981815,
+      "threshold_aware_rank": 6,
+      "vertex_id": "net:NODE_B"
+    },
+    "net:R1_EXT": {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 71270.4625880695,
+      "pass1_crowding_ratio": 0.41288676374261984,
+      "pass1_rank": 34,
+      "previous_threshold80_area": 71270.46258806948,
+      "previous_threshold80_crowding_ratio": 0.4128867637426199,
+      "previous_threshold80_rank": 34,
+      "proposed": false,
+      "threshold_aware_area": 71270.46258806948,
+      "threshold_aware_crowding_ratio": 0.4128867637426199,
+      "threshold_aware_rank": 34,
+      "vertex_id": "net:R1_EXT"
+    }
+  },
+  "maximum_accepted_displacement": 42.478654910762096,
+  "partition_area_error": -1.1641532182693481e-10,
+  "per_vertex": [
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 39563.56637832732,
+      "pass1_crowding_ratio": 0.7437810425641306,
+      "pass1_rank": 29,
+      "previous_threshold80_area": 39563.56637832732,
+      "previous_threshold80_crowding_ratio": 0.7437810425641306,
+      "previous_threshold80_rank": 29,
+      "proposed": false,
+      "threshold_aware_area": 39563.56637832732,
+      "threshold_aware_crowding_ratio": 0.7437810425641306,
+      "threshold_aware_rank": 29,
+      "vertex_id": "component:C1"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 13638.945075430784,
+      "pass1_crowding_ratio": 2.1575444791134655,
+      "pass1_rank": 4,
+      "previous_threshold80_area": 15809.603672261033,
+      "previous_threshold80_crowding_ratio": 1.8613136204077267,
+      "previous_threshold80_rank": 5,
+      "proposed": true,
+      "threshold_aware_area": 15809.603672261033,
+      "threshold_aware_crowding_ratio": 1.8613136204077267,
+      "threshold_aware_rank": 5,
+      "vertex_id": "component:C2"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 12778.332226524679,
+      "pass1_crowding_ratio": 2.3028537783158445,
+      "pass1_rank": 3,
+      "previous_threshold80_area": 14336.3898648285,
+      "previous_threshold80_crowding_ratio": 2.0525830370043088,
+      "previous_threshold80_rank": 4,
+      "proposed": true,
+      "threshold_aware_area": 14336.3898648285,
+      "threshold_aware_crowding_ratio": 2.0525830370043088,
+      "threshold_aware_rank": 4,
+      "vertex_id": "component:JP1"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 39035.22337779041,
+      "pass1_crowding_ratio": 0.7538481428332272,
+      "pass1_rank": 28,
+      "previous_threshold80_area": 39035.223377790404,
+      "previous_threshold80_crowding_ratio": 0.7538481428332273,
+      "previous_threshold80_rank": 28,
+      "proposed": false,
+      "threshold_aware_area": 39035.223377790404,
+      "threshold_aware_crowding_ratio": 0.7538481428332273,
+      "threshold_aware_rank": 28,
+      "vertex_id": "component:J_EA"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 28588.728670792352,
+      "pass1_crowding_ratio": 1.0293088226232028,
+      "pass1_rank": 20,
+      "previous_threshold80_area": 28418.982293204182,
+      "previous_threshold80_crowding_ratio": 1.0354568768447507,
+      "previous_threshold80_rank": 19,
+      "proposed": false,
+      "threshold_aware_area": 28418.982293204182,
+      "threshold_aware_crowding_ratio": 1.0354568768447507,
+      "threshold_aware_rank": 19,
+      "vertex_id": "component:J_EB"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 64726.89433575285,
+      "pass1_crowding_ratio": 0.4546275694270912,
+      "pass1_rank": 33,
+      "previous_threshold80_area": 64726.89433575286,
+      "previous_threshold80_crowding_ratio": 0.45462756942709115,
+      "previous_threshold80_rank": 33,
+      "proposed": false,
+      "threshold_aware_area": 64726.89433575286,
+      "threshold_aware_crowding_ratio": 0.45462756942709115,
+      "threshold_aware_rank": 33,
+      "vertex_id": "component:J_OUT"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 20414.350685044083,
+      "pass1_crowding_ratio": 1.441467872401445,
+      "pass1_rank": 9,
+      "previous_threshold80_area": 19423.34501719394,
+      "previous_threshold80_crowding_ratio": 1.5150135376979827,
+      "previous_threshold80_rank": 9,
+      "proposed": true,
+      "threshold_aware_area": 19423.34501719394,
+      "threshold_aware_crowding_ratio": 1.5150135376979827,
+      "threshold_aware_rank": 9,
+      "vertex_id": "component:J_PWR"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 38151.34801456241,
+      "pass1_crowding_ratio": 0.7713129988800211,
+      "pass1_rank": 27,
+      "previous_threshold80_area": 38151.34801456241,
+      "previous_threshold80_crowding_ratio": 0.7713129988800211,
+      "previous_threshold80_rank": 27,
+      "proposed": false,
+      "threshold_aware_area": 38151.34801456241,
+      "threshold_aware_crowding_ratio": 0.7713129988800211,
+      "threshold_aware_rank": 27,
+      "vertex_id": "component:J_R1"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 33119.76254001145,
+      "pass1_crowding_ratio": 0.8884915950975687,
+      "pass1_rank": 23,
+      "previous_threshold80_area": 32386.05770368578,
+      "previous_threshold80_crowding_ratio": 0.9086203364937037,
+      "previous_threshold80_rank": 24,
+      "proposed": false,
+      "threshold_aware_area": 33102.36352583942,
+      "threshold_aware_crowding_ratio": 0.888958597335725,
+      "threshold_aware_rank": 24,
+      "vertex_id": "component:J_R4"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 21825.39854121659,
+      "pass1_crowding_ratio": 1.348274607350523,
+      "pass1_rank": 11,
+      "previous_threshold80_area": 24947.541361984284,
+      "previous_threshold80_crowding_ratio": 1.1795403090610181,
+      "previous_threshold80_rank": 14,
+      "proposed": true,
+      "threshold_aware_area": 24947.541361984284,
+      "threshold_aware_crowding_ratio": 1.1795403090610181,
+      "threshold_aware_rank": 14,
+      "vertex_id": "component:J_RA"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 31568.637047853437,
+      "pass1_crowding_ratio": 0.9321476439993595,
+      "pass1_rank": 21,
+      "previous_threshold80_area": 29719.6491303724,
+      "previous_threshold80_crowding_ratio": 0.9901405807094313,
+      "previous_threshold80_rank": 21,
+      "proposed": false,
+      "threshold_aware_area": 29719.6491303724,
+      "threshold_aware_crowding_ratio": 0.9901405807094313,
+      "threshold_aware_rank": 21,
+      "vertex_id": "component:R2"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 27729.46051676821,
+      "pass1_crowding_ratio": 1.0612045853049674,
+      "pass1_rank": 18,
+      "previous_threshold80_area": 26984.01923675437,
+      "previous_threshold80_crowding_ratio": 1.0905206667043164,
+      "previous_threshold80_rank": 17,
+      "proposed": false,
+      "threshold_aware_area": 26391.93239158863,
+      "threshold_aware_crowding_ratio": 1.1149858302079476,
+      "threshold_aware_rank": 17,
+      "vertex_id": "component:R3"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 43960.41358057468,
+      "pass1_crowding_ratio": 0.6693893039584727,
+      "pass1_rank": 31,
+      "previous_threshold80_area": 43960.41358057468,
+      "previous_threshold80_crowding_ratio": 0.6693893039584727,
+      "previous_threshold80_rank": 31,
+      "proposed": false,
+      "threshold_aware_area": 43960.41358057468,
+      "threshold_aware_crowding_ratio": 0.6693893039584727,
+      "threshold_aware_rank": 31,
+      "vertex_id": "component:RMIN1"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 35575.05931022475,
+      "pass1_crowding_ratio": 0.8271702484546488,
+      "pass1_rank": 25,
+      "previous_threshold80_area": 32879.769605299145,
+      "previous_threshold80_crowding_ratio": 0.8949767897304507,
+      "previous_threshold80_rank": 25,
+      "proposed": false,
+      "threshold_aware_area": 33316.57783495961,
+      "threshold_aware_crowding_ratio": 0.8832428946993964,
+      "threshold_aware_rank": 25,
+      "vertex_id": "component:RMIN4"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 24878.334791504672,
+      "pass1_crowding_ratio": 1.1828215551820587,
+      "pass1_rank": 14,
+      "previous_threshold80_area": 23798.8915656403,
+      "previous_threshold80_crowding_ratio": 1.236470638444029,
+      "previous_threshold80_rank": 10,
+      "proposed": false,
+      "threshold_aware_area": 23798.8915656403,
+      "threshold_aware_crowding_ratio": 1.236470638444029,
+      "threshold_aware_rank": 11,
+      "vertex_id": "component:TPA"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 20822.427301268235,
+      "pass1_crowding_ratio": 1.4132180760038087,
+      "pass1_rank": 10,
+      "previous_threshold80_area": 24046.914573714497,
+      "previous_threshold80_crowding_ratio": 1.2237175192776502,
+      "previous_threshold80_rank": 11,
+      "proposed": true,
+      "threshold_aware_area": 22714.130146298936,
+      "threshold_aware_crowding_ratio": 1.295520914025505,
+      "threshold_aware_rank": 10,
+      "vertex_id": "component:TPB"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 16256.521004294424,
+      "pass1_crowding_ratio": 1.8101431813518989,
+      "pass1_rank": 7,
+      "previous_threshold80_area": 16245.880015422714,
+      "previous_threshold80_crowding_ratio": 1.811328818167552,
+      "previous_threshold80_rank": 7,
+      "proposed": true,
+      "threshold_aware_area": 17121.8622322167,
+      "threshold_aware_crowding_ratio": 1.7186583006758447,
+      "threshold_aware_rank": 7,
+      "vertex_id": "component:TPC"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 25173.06268971006,
+      "pass1_crowding_ratio": 1.1689730014638282,
+      "pass1_rank": 15,
+      "previous_threshold80_area": 25173.062689710074,
+      "previous_threshold80_crowding_ratio": 1.1689730014638275,
+      "previous_threshold80_rank": 15,
+      "proposed": false,
+      "threshold_aware_area": 25173.062689710074,
+      "threshold_aware_crowding_ratio": 1.1689730014638275,
+      "threshold_aware_rank": 15,
+      "vertex_id": "component:TPO"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 9745.736467224971,
+      "pass1_crowding_ratio": 3.019436319398702,
+      "pass1_rank": 2,
+      "previous_threshold80_area": 9875.202947738184,
+      "previous_threshold80_crowding_ratio": 2.9798507234899256,
+      "previous_threshold80_rank": 2,
+      "proposed": true,
+      "threshold_aware_area": 10119.538848865403,
+      "threshold_aware_crowding_ratio": 2.9079023350680426,
+      "threshold_aware_rank": 2,
+      "vertex_id": "component:U1"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 17459.124866198235,
+      "pass1_crowding_ratio": 1.685458513753971,
+      "pass1_rank": 8,
+      "previous_threshold80_area": 19094.79150929008,
+      "previous_threshold80_crowding_ratio": 1.5410815370312216,
+      "previous_threshold80_rank": 8,
+      "proposed": true,
+      "threshold_aware_area": 19094.79150929008,
+      "threshold_aware_crowding_ratio": 1.5410815370312216,
+      "threshold_aware_rank": 8,
+      "vertex_id": "net:+9V"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 14494.451040128086,
+      "pass1_crowding_ratio": 2.030199734157537,
+      "pass1_rank": 5,
+      "previous_threshold80_area": 12719.071499131445,
+      "previous_threshold80_crowding_ratio": 2.3135832399744705,
+      "previous_threshold80_rank": 3,
+      "proposed": true,
+      "threshold_aware_area": 12719.071499131445,
+      "threshold_aware_crowding_ratio": 2.3135832399744705,
+      "threshold_aware_rank": 3,
+      "vertex_id": "net:-9V"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 41132.77536792887,
+      "pass1_crowding_ratio": 0.7154059113495014,
+      "pass1_rank": 30,
+      "previous_threshold80_area": 40771.692518560216,
+      "previous_threshold80_crowding_ratio": 0.7217416994654268,
+      "previous_threshold80_rank": 30,
+      "proposed": false,
+      "threshold_aware_area": 40771.692518560216,
+      "threshold_aware_crowding_ratio": 0.7217416994654268,
+      "threshold_aware_rank": 30,
+      "vertex_id": "net:EA"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": false,
+      "pass1_area": 5188.6229647732325,
+      "pass1_crowding_ratio": 5.671375786641603,
+      "pass1_rank": 1,
+      "previous_threshold80_area": 4695.258283012236,
+      "previous_threshold80_crowding_ratio": 6.267308180871547,
+      "previous_threshold80_rank": 1,
+      "proposed": true,
+      "threshold_aware_area": 5189.560611897857,
+      "threshold_aware_crowding_ratio": 5.67035108540065,
+      "threshold_aware_rank": 1,
+      "vertex_id": "net:EB"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 27684.29493491983,
+      "pass1_crowding_ratio": 1.062935889015903,
+      "pass1_rank": 17,
+      "previous_threshold80_area": 24790.303678882243,
+      "previous_threshold80_crowding_ratio": 1.1870217900353803,
+      "previous_threshold80_rank": 13,
+      "proposed": false,
+      "threshold_aware_area": 27175.184130801324,
+      "threshold_aware_crowding_ratio": 1.0828493564860258,
+      "threshold_aware_rank": 18,
+      "vertex_id": "net:EOUT"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 55336.84729968218,
+      "pass1_crowding_ratio": 0.5317728075302997,
+      "pass1_rank": 32,
+      "previous_threshold80_area": 55336.84729968218,
+      "previous_threshold80_crowding_ratio": 0.5317728075302997,
+      "previous_threshold80_rank": 32,
+      "proposed": false,
+      "threshold_aware_area": 55336.84729968218,
+      "threshold_aware_crowding_ratio": 0.5317728075302997,
+      "threshold_aware_rank": 32,
+      "vertex_id": "net:GND"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 32810.089029476294,
+      "pass1_crowding_ratio": 0.8968775007587102,
+      "pass1_rank": 22,
+      "previous_threshold80_area": 32029.06931826184,
+      "previous_threshold80_crowding_ratio": 0.9187476025614473,
+      "previous_threshold80_rank": 23,
+      "proposed": false,
+      "threshold_aware_area": 32029.06931826184,
+      "threshold_aware_crowding_ratio": 0.9187476025614473,
+      "threshold_aware_rank": 23,
+      "vertex_id": "net:NODE_A"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 14724.770076260042,
+      "pass1_crowding_ratio": 1.9984441519987097,
+      "pass1_rank": 6,
+      "previous_threshold80_area": 16196.991061937093,
+      "previous_threshold80_crowding_ratio": 1.8167961281141913,
+      "previous_threshold80_rank": 6,
+      "proposed": true,
+      "threshold_aware_area": 16060.72603893244,
+      "threshold_aware_crowding_ratio": 1.8322104851981815,
+      "threshold_aware_rank": 6,
+      "vertex_id": "net:NODE_B"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "REJECTED",
+      "deficiency_improving": false,
+      "graph_valid": true,
+      "pass1_area": 23076.236172090794,
+      "pass1_crowding_ratio": 1.2751919519707928,
+      "pass1_rank": 12,
+      "previous_threshold80_area": 27172.112832615538,
+      "previous_threshold80_crowding_ratio": 1.0829717523145925,
+      "previous_threshold80_rank": 18,
+      "proposed": true,
+      "threshold_aware_area": 24080.63417766148,
+      "threshold_aware_crowding_ratio": 1.2220039734553685,
+      "threshold_aware_rank": 12,
+      "vertex_id": "net:NODE_C"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 71270.4625880695,
+      "pass1_crowding_ratio": 0.41288676374261984,
+      "pass1_rank": 34,
+      "previous_threshold80_area": 71270.46258806948,
+      "previous_threshold80_crowding_ratio": 0.4128867637426199,
+      "previous_threshold80_rank": 34,
+      "proposed": false,
+      "threshold_aware_area": 71270.46258806948,
+      "threshold_aware_crowding_ratio": 0.4128867637426199,
+      "threshold_aware_rank": 34,
+      "vertex_id": "net:R1_EXT"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 26093.88581026806,
+      "pass1_crowding_ratio": 1.1277212931179443,
+      "pass1_rank": 16,
+      "previous_threshold80_area": 25947.355378742443,
+      "previous_threshold80_crowding_ratio": 1.1340897836754282,
+      "previous_threshold80_rank": 16,
+      "proposed": false,
+      "threshold_aware_area": 25947.355378742443,
+      "threshold_aware_crowding_ratio": 1.1340897836754282,
+      "threshold_aware_rank": 16,
+      "vertex_id": "net:R1_W"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 37533.10856504437,
+      "pass1_crowding_ratio": 0.7840179450479441,
+      "pass1_rank": 26,
+      "previous_threshold80_area": 37533.10856504438,
+      "previous_threshold80_crowding_ratio": 0.7840179450479439,
+      "previous_threshold80_rank": 26,
+      "proposed": false,
+      "threshold_aware_area": 37533.10856504438,
+      "threshold_aware_crowding_ratio": 0.7840179450479439,
+      "threshold_aware_rank": 26,
+      "vertex_id": "net:R4_EXT"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 28469.30270267065,
+      "pass1_crowding_ratio": 1.0336266734649253,
+      "pass1_rank": 19,
+      "previous_threshold80_area": 28469.302702670637,
+      "previous_threshold80_crowding_ratio": 1.033626673464926,
+      "previous_threshold80_rank": 20,
+      "proposed": false,
+      "threshold_aware_area": 28469.302702670637,
+      "threshold_aware_crowding_ratio": 1.033626673464926,
+      "threshold_aware_rank": 20,
+      "vertex_id": "net:R4_W"
+    },
+    {
+      "classification": "FROZEN",
+      "decision": "NOT_ATTEMPTED",
+      "deficiency_improving": null,
+      "graph_valid": null,
+      "pass1_area": 34235.056893811474,
+      "pass1_crowding_ratio": 0.8595467137589832,
+      "pass1_rank": 24,
+      "previous_threshold80_area": 30727.620828834166,
+      "previous_threshold80_crowding_ratio": 0.9576605625390343,
+      "previous_threshold80_rank": 22,
+      "proposed": false,
+      "threshold_aware_area": 30727.620828834166,
+      "threshold_aware_crowding_ratio": 0.9576605625390343,
+      "threshold_aware_rank": 22,
+      "vertex_id": "net:RA_SW"
+    },
+    {
+      "classification": "ACTIVE",
+      "decision": "ACCEPTED",
+      "deficiency_improving": true,
+      "graph_valid": true,
+      "pass1_area": 23444.211180336002,
+      "pass1_crowding_ratio": 1.255176829029303,
+      "pass1_rank": 13,
+      "previous_threshold80_area": 24268.698616982994,
+      "previous_threshold80_crowding_ratio": 1.212534347755879,
+      "previous_threshold80_rank": 12,
+      "proposed": true,
+      "threshold_aware_area": 24268.698616982994,
+      "threshold_aware_crowding_ratio": 1.212534347755879,
+      "threshold_aware_rank": 13,
+      "vertex_id": "net:RA_W"
+    }
+  ],
+  "rejected_graph_invalid": 4,
+  "rejected_non_improving_deficiency": 1,
+  "schema": "graph-relax.voronoi-threshold80-deficiency.v1",
+  "source_pass1_report": "output/graph_first/iamp_voronoi_centroid_move_report.json",
+  "starting_total_deficiency": 92167.83114285558,
+  "target_area": 29426.630648427476,
+  "threshold": 23541.30451874198,
+  "total_accepted_displacement": 173.77395152027415
+}

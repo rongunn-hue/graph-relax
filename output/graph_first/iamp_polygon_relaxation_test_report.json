@@ -1,0 +1,523 @@
+{
+  "electrical_incidence_count": 44,
+  "independent_start_for_every_region": true,
+  "method": "deterministic SLSQP constrained minimization of straight-edge perimeter with signed area equality and fixed anchor coordinates",
+  "results": [
+    {
+      "absolute_perimeter_reduction": 220.89592264273165,
+      "area_error": 0.0,
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "embedding_remained_valid": false,
+      "excluded_bridge_excursions": [],
+      "face_id": "face:007",
+      "fixed_coordinate_checks": {
+        "component:J_R1": {
+          "original": [
+            102.84623517626561,
+            -377.7214602506761
+          ],
+          "relaxed": [
+            102.84623517626561,
+            -377.7214602506761
+          ],
+          "unchanged": true
+        },
+        "component:U1": {
+          "original": [
+            0.0,
+            0.0
+          ],
+          "relaxed": [
+            0.0,
+            0.0
+          ],
+          "unchanged": true
+        },
+        "net:GND": {
+          "original": [
+            625.3553280491062,
+            165.1703098860251
+          ],
+          "relaxed": [
+            625.3553280491062,
+            165.1703098860251
+          ],
+          "unchanged": true
+        },
+        "net:NODE_A": {
+          "original": [
+            -3.554241234402555,
+            -237.88823673916076
+          ],
+          "relaxed": [
+            -3.554241234402555,
+            -237.88823673916076
+          ],
+          "unchanged": true
+        }
+      },
+      "fixed_vertices": [
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:GND"
+      ],
+      "floating_movements": {
+        "component:J_EA": {
+          "displacement": 215.8727389003293,
+          "original": [
+            456.3979591989053,
+            -13.46023627322279
+          ],
+          "relaxed": [
+            400.2995430709574,
+            194.99601119435812
+          ]
+        },
+        "component:RMIN1": {
+          "displacement": 158.12837929656578,
+          "original": [
+            643.7112238007887,
+            -215.49158290671926
+          ],
+          "relaxed": [
+            544.2766971612142,
+            -92.5389121308377
+          ]
+        },
+        "net:EA": {
+          "displacement": 155.09546028874516,
+          "original": [
+            211.62926787532948,
+            -15.00004811905768
+          ],
+          "relaxed": [
+            180.86056232205482,
+            137.01274266103954
+          ]
+        },
+        "net:R1_EXT": {
+          "displacement": 150.9927324756255,
+          "original": [
+            397.4080176146495,
+            -432.50493083445144
+          ],
+          "relaxed": [
+            357.00091245194125,
+            -287.01929198021384
+          ]
+        }
+      },
+      "floating_vertices": [
+        "component:J_EA",
+        "net:EA",
+        "net:R1_EXT",
+        "component:RMIN1"
+      ],
+      "formal_face_walk": [
+        "component:J_EA",
+        "net:EA",
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:R1_EXT",
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "optimizer": {
+        "iterations": 325,
+        "message": "Optimization terminated successfully",
+        "method": "SciPy SLSQP; analytic objective evaluated deterministically from one authoritative start; signed-area equality constraint",
+        "objective_evaluations": 3240,
+        "perimeter_result": 1904.5259816447021,
+        "signed_area_result": 238744.6043940984,
+        "signed_area_target": 238744.6043940984,
+        "success": true
+      },
+      "original_area": 238744.6043940984,
+      "original_perimeter": 2125.421904287434,
+      "percentage_perimeter_reduction": 10.393038774896269,
+      "region": "R1_EXT",
+      "relaxed_area": 238744.6043940984,
+      "relaxed_perimeter": 1904.5259816447021,
+      "relaxed_shell_simple": true,
+      "shell": [
+        "component:J_EA",
+        "net:EA",
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:R1_EXT",
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "shell_crossings": [],
+      "whole_graph_diagnostics": {
+        "coincident_vertex_pair_count": 0,
+        "coincident_vertex_pairs": [],
+        "minimum_node_distance": 17.727161871886178,
+        "proper_unrelated_edge_crossing_count": 1,
+        "proper_unrelated_edge_crossings": [
+          {
+            "edge_a": [
+              "component:J_EB",
+              "net:EB"
+            ],
+            "edge_b": [
+              "component:U1",
+              "net:EA"
+            ]
+          }
+        ],
+        "vertex_on_unrelated_edge_interior_count": 0,
+        "vertices_on_unrelated_edge_interiors": []
+      }
+    },
+    {
+      "absolute_perimeter_reduction": 601.9491771891876,
+      "area_error": 0.0,
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "embedding_remained_valid": false,
+      "excluded_bridge_excursions": [
+        {
+          "bridge_vertex": "component:TPB",
+          "walk": [
+            "net:NODE_B",
+            "component:TPB",
+            "net:NODE_B"
+          ]
+        }
+      ],
+      "face_id": "face:006",
+      "fixed_coordinate_checks": {
+        "component:J_RA": {
+          "original": [
+            -104.4544567673898,
+            -376.02476810571767
+          ],
+          "relaxed": [
+            -104.4544567673898,
+            -376.02476810571767
+          ],
+          "unchanged": true
+        },
+        "net:NODE_A": {
+          "original": [
+            -3.554241234402555,
+            -237.88823673916076
+          ],
+          "relaxed": [
+            -3.554241234402555,
+            -237.88823673916076
+          ],
+          "unchanged": true
+        },
+        "net:NODE_B": {
+          "original": [
+            -63.98862994744413,
+            12.592263277480884
+          ],
+          "relaxed": [
+            -63.98862994744413,
+            12.592263277480884
+          ],
+          "unchanged": true
+        },
+        "net:NODE_C": {
+          "original": [
+            -164.80431705291707,
+            68.18776033923683
+          ],
+          "relaxed": [
+            -164.80431705291707,
+            68.18776033923683
+          ],
+          "unchanged": true
+        }
+      },
+      "fixed_vertices": [
+        "component:J_RA",
+        "net:NODE_A",
+        "net:NODE_B",
+        "net:NODE_C"
+      ],
+      "floating_movements": {
+        "component:JP1": {
+          "displacement": 177.6763303691296,
+          "original": [
+            -334.42997578032566,
+            111.11344837967394
+          ],
+          "relaxed": [
+            -371.7257702959591,
+            -62.60443234907471
+          ]
+        },
+        "component:R2": {
+          "displacement": 231.00038700701577,
+          "original": [
+            -86.6660055998702,
+            -311.0261105926718
+          ],
+          "relaxed": [
+            11.2274996398916,
+            -101.79408524936113
+          ]
+        },
+        "component:R3": {
+          "displacement": 192.85315690001534,
+          "original": [
+            -297.0910668648412,
+            95.47526571102958
+          ],
+          "relaxed": [
+            -110.14886056846485,
+            48.09434516968725
+          ]
+        },
+        "net:RA_SW": {
+          "displacement": 59.476037469798875,
+          "original": [
+            -368.94423346013093,
+            -356.4290471710813
+          ],
+          "relaxed": [
+            -338.7731739389383,
+            -305.17374305065323
+          ]
+        }
+      },
+      "floating_vertices": [
+        "component:JP1",
+        "net:RA_SW",
+        "component:R2",
+        "component:R3"
+      ],
+      "formal_face_walk": [
+        "component:JP1",
+        "net:RA_SW",
+        "component:J_RA",
+        "net:NODE_A",
+        "component:R2",
+        "net:NODE_B",
+        "component:TPB",
+        "net:NODE_B",
+        "component:R3",
+        "net:NODE_C"
+      ],
+      "optimizer": {
+        "iterations": 139,
+        "message": "Optimization terminated successfully",
+        "method": "SciPy SLSQP; analytic objective evaluated deterministically from one authoritative start; signed-area equality constraint",
+        "objective_evaluations": 1672,
+        "perimeter_result": 1295.7089706300985,
+        "signed_area_result": 121152.25577332462,
+        "signed_area_target": 121152.25577332462,
+        "success": true
+      },
+      "original_area": 121152.25577332462,
+      "original_perimeter": 1897.6581478192861,
+      "percentage_perimeter_reduction": 31.720633027656948,
+      "region": "RA_SW",
+      "relaxed_area": 121152.25577332462,
+      "relaxed_perimeter": 1295.7089706300985,
+      "relaxed_shell_simple": true,
+      "shell": [
+        "component:JP1",
+        "net:RA_SW",
+        "component:J_RA",
+        "net:NODE_A",
+        "component:R2",
+        "net:NODE_B",
+        "component:R3",
+        "net:NODE_C"
+      ],
+      "shell_crossings": [],
+      "whole_graph_diagnostics": {
+        "coincident_vertex_pair_count": 0,
+        "coincident_vertex_pairs": [],
+        "minimum_node_distance": 17.727161871886178,
+        "proper_unrelated_edge_crossing_count": 2,
+        "proper_unrelated_edge_crossings": [
+          {
+            "edge_a": [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            "edge_b": [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          },
+          {
+            "edge_a": [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            "edge_b": [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          }
+        ],
+        "vertex_on_unrelated_edge_interior_count": 0,
+        "vertices_on_unrelated_edge_interiors": []
+      }
+    },
+    {
+      "absolute_perimeter_reduction": 17.999084952467,
+      "area_error": 0.0,
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "embedding_remained_valid": true,
+      "excluded_bridge_excursions": [],
+      "face_id": "face:010",
+      "fixed_coordinate_checks": {
+        "component:J_R4": {
+          "original": [
+            44.63753956400488,
+            327.563888644507
+          ],
+          "relaxed": [
+            44.63753956400488,
+            327.563888644507
+          ],
+          "unchanged": true
+        },
+        "component:U1": {
+          "original": [
+            0.0,
+            0.0
+          ],
+          "relaxed": [
+            0.0,
+            0.0
+          ],
+          "unchanged": true
+        },
+        "net:EOUT": {
+          "original": [
+            80.85740731952187,
+            157.27332591022918
+          ],
+          "relaxed": [
+            80.85740731952187,
+            157.27332591022918
+          ],
+          "unchanged": true
+        },
+        "net:NODE_C": {
+          "original": [
+            -164.80431705291707,
+            68.18776033923683
+          ],
+          "relaxed": [
+            -164.80431705291707,
+            68.18776033923683
+          ],
+          "unchanged": true
+        }
+      },
+      "fixed_vertices": [
+        "component:J_R4",
+        "net:NODE_C",
+        "component:U1",
+        "net:EOUT"
+      ],
+      "floating_movements": {
+        "component:RMIN4": {
+          "displacement": 41.071758868920895,
+          "original": [
+            -281.60156205833124,
+            236.6461727353019
+          ],
+          "relaxed": [
+            -319.4383329888106,
+            252.62328580810745
+          ]
+        },
+        "net:R4_EXT": {
+          "displacement": 42.895489802381014,
+          "original": [
+            -190.2794989274509,
+            476.67600955087613
+          ],
+          "relaxed": [
+            -168.232983946234,
+            439.87962083446604
+          ]
+        }
+      },
+      "floating_vertices": [
+        "net:R4_EXT",
+        "component:RMIN4"
+      ],
+      "formal_face_walk": [
+        "component:J_R4",
+        "net:R4_EXT",
+        "component:RMIN4",
+        "net:NODE_C",
+        "component:U1",
+        "net:EOUT"
+      ],
+      "optimizer": {
+        "iterations": 33,
+        "message": "Optimization terminated successfully",
+        "method": "SciPy SLSQP; analytic objective evaluated deterministically from one authoritative start; signed-area equality constraint",
+        "objective_evaluations": 226,
+        "perimeter_result": 1251.3435320035117,
+        "signed_area_result": 106037.1670316423,
+        "signed_area_target": 106037.1670316423,
+        "success": true
+      },
+      "original_area": 106037.1670316423,
+      "original_perimeter": 1269.3426169559787,
+      "percentage_perimeter_reduction": 1.4179847672357178,
+      "region": "RMIN4",
+      "relaxed_area": 106037.1670316423,
+      "relaxed_perimeter": 1251.3435320035117,
+      "relaxed_shell_simple": true,
+      "shell": [
+        "component:J_R4",
+        "net:R4_EXT",
+        "component:RMIN4",
+        "net:NODE_C",
+        "component:U1",
+        "net:EOUT"
+      ],
+      "shell_crossings": [],
+      "whole_graph_diagnostics": {
+        "coincident_vertex_pair_count": 0,
+        "coincident_vertex_pairs": [],
+        "minimum_node_distance": 17.727161871886178,
+        "proper_unrelated_edge_crossing_count": 0,
+        "proper_unrelated_edge_crossings": [],
+        "vertex_on_unrelated_edge_interior_count": 0,
+        "vertices_on_unrelated_edge_interiors": []
+      }
+    }
+  ],
+  "schema": "graph-relax.polygon-perimeter-relaxation.v1",
+  "source_coordinates": "output/graph_first/iamp_sequential_local_face_pulls_report.json#AFTER face:007",
+  "vertex_count": 34
+}

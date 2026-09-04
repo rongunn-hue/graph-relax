@@ -1,0 +1,5769 @@
+{
+  "accepted_move_count": 4,
+  "all_direct_solution_outcomes": [
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+      "clipped": [
+        [
+          466.0227562052697,
+          24.279193860772477
+        ],
+        [
+          466.99365628592125,
+          25.13772011393609
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "displacement": 6.203842053740738,
+      "mathematical_crossing_boundary_angle": 0.013429698446212812,
+      "mathematical_target_interval": [
+        0.013429698446212827,
+        0.016796133513809212
+      ],
+      "moving": "component:C1",
+      "numerical_legal_side_offset_radians": -4.434445025043323e-08,
+      "orientation_index": 0,
+      "pivot": "net:+9V",
+      "positions_evaluated": 1,
+      "radius": 251.12972930919932,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 6,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.4154556952045243,
+      "signed_delta_radians": -0.02470436229742426,
+      "target_centerline_distance": 6.000011089394007,
+      "target_interval": [
+        6.272626709463854,
+        0.04782049358516719
+      ],
+      "theta_new": 6.272626665119404,
+      "theta_old": 0.01414572023724151,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.010558597715732499,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          466.0227562052697,
+          24.279193860772477
+        ],
+        [
+          625.3553280491062,
+          165.1703098860251
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "mathematical_target_interval": [
+        0.7264353304849057,
+        3.3358200669795277
+      ],
+      "moving": "net:+9V",
+      "orientation_index": 1,
+      "pivot": "component:C1",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02960463648610734,
+      "clipped": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          465.86649056298836,
+          24.456111090952515
+        ]
+      ],
+      "crossed_edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "displacement": 6.532428996378393,
+      "mathematical_crossing_boundary_angle": -2.4186529480221557,
+      "mathematical_target_interval": [
+        3.86453235915743,
+        3.8680279840746987
+      ],
+      "moving": "component:J_EA",
+      "numerical_legal_side_offset_radians": 8.446517605117932e-08,
+      "orientation_index": 2,
+      "pivot": "net:GND",
+      "positions_evaluated": 1,
+      "radius": 212.69032659059164,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 5,
+      "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+      "signed_delta_degrees": 1.7598135747335928,
+      "signed_delta_radians": 0.030714541100392487,
+      "target": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ]
+      ],
+      "target_centerline_distance": 6.000017884913169,
+      "target_interval": [
+        3.827938097077161,
+        3.896356635941756
+      ],
+      "theta_new": 3.8963567204069323,
+      "theta_old": -2.4175431278730466,
+      "valid": true,
+      "visible_clearance_boundary_angle": -2.38682867123783,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          253.35125092946407,
+          21.44972943521079
+        ]
+      ],
+      "crossed_edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "mathematical_target_interval": [
+        0.19422741338973468,
+        3.1548962576379163
+      ],
+      "moving": "net:GND",
+      "orientation_index": 3,
+      "pivot": "component:J_EA",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+      "clipped": [
+        [
+          285.6683521083007,
+          24.279193860772487
+        ],
+        [
+          286.6464504641736,
+          24.684877265500408
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EB",
+        "net:GND"
+      ],
+      "displacement": 6.203841822320211,
+      "mathematical_crossing_boundary_angle": 0.013429698446212814,
+      "mathematical_target_interval": [
+        0.013429698446212841,
+        0.014992682690109215
+      ],
+      "moving": "component:C2",
+      "numerical_legal_side_offset_radians": -4.342286210613238e-08,
+      "orientation_index": 0,
+      "pivot": "net:-9V",
+      "positions_evaluated": 1,
+      "radius": 251.1297293091993,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 11,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.415455642401413,
+      "signed_delta_radians": -0.024704361375836113,
+      "target_centerline_distance": 6.000010858928779,
+      "target_interval": [
+        6.272626709463854,
+        0.04057412564333344
+      ],
+      "theta_new": 6.272626666040992,
+      "theta_old": 0.014145720237241512,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.010558597715732497,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          285.6683521083007,
+          24.279193860772487
+        ],
+        [
+          518.5419208005579,
+          120.86758055109101
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EB",
+        "net:GND"
+      ],
+      "mathematical_target_interval": [
+        0.39395878234941517,
+        3.3358200669795353
+      ],
+      "moving": "net:-9V",
+      "orientation_index": 1,
+      "pivot": "component:C2",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.016374574016886356,
+      "clipped": [
+        [
+          286.64954918647703,
+          24.472202393688132
+        ],
+        [
+          285.59454346886014,
+          24.457277582452875
+        ]
+      ],
+      "crossed_edge": [
+        "component:C2",
+        "net:-9V"
+      ],
+      "displacement": 6.214410894105811,
+      "mathematical_crossing_boundary_angle": -2.7489450549620638,
+      "mathematical_target_interval": [
+        3.5342402522175225,
+        3.5353033106753595
+      ],
+      "moving": "component:J_EB",
+      "numerical_legal_side_offset_radians": 4.8851374245268507e-08,
+      "orientation_index": 2,
+      "pivot": "net:GND",
+      "positions_evaluated": 1,
+      "radius": 367.7465814914539,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 10,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 0.9682313065987833,
+      "signed_delta_radians": 0.016898824221035467,
+      "target_centerline_distance": 6.000017914642536,
+      "target_interval": [
+        3.516741862690701,
+        3.5516632289399586
+      ],
+      "theta_new": 3.5516632777913326,
+      "theta_old": -2.748420853609289,
+      "valid": true,
+      "visible_clearance_boundary_angle": -2.7315220782396277,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          286.64954918647703,
+          24.472202393688132
+        ],
+        [
+          35.54494516364403,
+          20.9199099721735
+        ]
+      ],
+      "crossed_edge": [
+        "component:C2",
+        "net:-9V"
+      ],
+      "mathematical_target_interval": [
+        0.19422741338974214,
+        3.155022352036006
+      ],
+      "moving": "net:GND",
+      "orientation_index": 3,
+      "pivot": "component:J_EB",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.017502714975018208,
+      "clipped": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          286.21183439747614,
+          25.530584876870968
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "displacement": 7.564615670478662,
+      "mathematical_crossing_boundary_angle": -2.7510047604165497,
+      "mathematical_target_interval": [
+        3.5321805467630365,
+        3.653528666560448
+      ],
+      "moving": "component:C2",
+      "numerical_legal_side_offset_radians": -4.898193479173853e-08,
+      "orientation_index": 0,
+      "pivot": "net:GND",
+      "positions_evaluated": 1,
+      "radius": 366.7663589901144,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 4,
+      "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+      "signed_delta_degrees": -1.1817556971389738,
+      "signed_delta_radians": -0.020625527869276024,
+      "target": [
+        [
+          "component:C2",
+          "net:GND"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      ],
+      "target_centerline_distance": 6.000016846662411,
+      "target_interval": [
+        3.5146778317880183,
+        3.6748417317381743
+      ],
+      "theta_new": 3.5146777828060833,
+      "theta_old": -2.7478819965042267,
+      "valid": true,
+      "visible_clearance_boundary_angle": -2.768507475391568,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "clipped": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          35.544945163644,
+          20.9199099721735
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "mathematical_target_interval": [
+        0.02981974002335074,
+        3.1557383738270346
+      ],
+      "moving": "net:GND",
+      "orientation_index": 1,
+      "pivot": "component:C2",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02389430750580379,
+      "clipped": [
+        [
+          286.64954918647703,
+          24.472202393688132
+        ],
+        [
+          377.4853506052187,
+          62.205321075876654
+        ]
+      ],
+      "crossed_edge": [
+        "component:C2",
+        "net:GND"
+      ],
+      "displacement": 9.691826304240587,
+      "mathematical_crossing_boundary_angle": 0.014145720237241474,
+      "mathematical_target_interval": [
+        0.014145720237241512,
+        0.12015699260170089
+      ],
+      "moving": "component:J_PWR",
+      "numerical_legal_side_offset_radians": -3.1660915685206076e-08,
+      "orientation_index": 2,
+      "pivot": "net:-9V",
+      "positions_evaluated": 1,
+      "radius": 344.423759406273,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 10,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.6123134661088265,
+      "signed_delta_radians": -0.02814017855784103,
+      "target_centerline_distance": 6.000007948727495,
+      "target_interval": [
+        6.2734367199110235,
+        0.13820543356055115
+      ],
+      "theta_new": 6.273436688250108,
+      "theta_old": 0.018391559628363027,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.009748587268562318,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.06435144202670529,
+      "clipped": [
+        [
+          286.64954918647703,
+          24.472202393688132
+        ],
+        [
+          625.3553280491062,
+          165.1703098860251
+        ]
+      ],
+      "crossed_edge": [
+        "component:C2",
+        "net:GND"
+      ],
+      "displacement": 26.094071245506044,
+      "mathematical_crossing_boundary_angle": -3.1117729135664436,
+      "mathematical_target_interval": [
+        0.511936012970655,
+        3.1714123936131435
+      ],
+      "moving": "net:-9V",
+      "numerical_legal_side_offset_radians": 3.9087896530286425e-08,
+      "orientation_index": 3,
+      "pivot": "component:J_PWR",
+      "positions_evaluated": 1,
+      "radius": 344.423759406273,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 9,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 4.341854777429383,
+      "signed_delta_radians": 0.07577966150958831,
+      "target_centerline_distance": 6.000003639445398,
+      "target_interval": [
+        0.4906229477929287,
+        3.235763835639848
+      ],
+      "theta_new": 3.2357638747277444,
+      "theta_old": -3.12320109396143,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.0474214715397383,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -63.98862994744414,
+          12.592263277480882
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 107.64499896923296,
+      "mathematical_crossing_boundary_angle": -3.3450149285531467,
+      "mathematical_target_interval": [
+        2.9381703786264395,
+        5.779224313285385
+      ],
+      "moving": "component:JP1",
+      "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+      "orientation_index": 0,
+      "pivot": "net:NODE_C",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 5,
+      "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+      "signed_delta_degrees": -35.82990681029053,
+      "signed_delta_radians": -0.625349844522309,
+      "target": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "target_centerline_distance": 6.000010938734505,
+      "target_interval": [
+        2.8937349390774076,
+        5.831363434761927
+      ],
+      "theta_new": 2.8937348580127993,
+      "theta_old": -2.764100604644478,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.3894503681021786,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -157.65008786685547,
+          45.89497322476123
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 30.495543323899245,
+      "mathematical_crossing_boundary_angle": 0.24358475278364078,
+      "mathematical_target_interval": [
+        0.24358475278364064,
+        1.2512737429220446
+      ],
+      "moving": "net:NODE_C",
+      "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+      "orientation_index": 1,
+      "pivot": "component:JP1",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 9,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -9.99861141584437,
+      "signed_delta_radians": -0.1745086898339762,
+      "target_centerline_distance": 6.000014060712275,
+      "target_interval": [
+        0.2029834530625989,
+        1.3133779953526739
+      ],
+      "theta_new": 0.2029833591113391,
+      "theta_old": 0.3774920489453153,
+      "valid": true,
+      "visible_clearance_boundary_angle": 0.2029834530625989,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+      "clipped": [
+        [
+          -311.374934007219,
+          10.071399760090646
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 52.95967034554673,
+      "mathematical_crossing_boundary_angle": 2.637631659695592,
+      "mathematical_target_interval": [
+        2.637631659695592,
+        3.151782289109012
+      ],
+      "moving": "component:R3",
+      "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+      "orientation_index": 2,
+      "pivot": "net:NODE_B",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 7,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -12.288600543742753,
+      "signed_delta_radians": -0.2144765399506765,
+      "target_centerline_distance": 6.000005753449,
+      "target_interval": [
+        2.58549253821905,
+        3.1776420852112763
+      ],
+      "theta_new": 2.5854924881770667,
+      "theta_old": 2.799969028127743,
+      "valid": true,
+      "visible_clearance_boundary_angle": 2.58549253821905,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -327.4576207518456,
+          3.6944925644036397
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 45.12142974769387,
+      "mathematical_crossing_boundary_angle": -0.20342227496335308,
+      "mathematical_target_interval": [
+        4.392866396511837,
+        6.079763032216232
+      ],
+      "moving": "net:NODE_B",
+      "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+      "orientation_index": 3,
+      "pivot": "component:R3",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 9,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 10.464321036368828,
+      "signed_delta_radians": 0.18263685607034133,
+      "target_centerline_distance": 6.000008908990663,
+      "target_interval": [
+        4.330762144081207,
+        6.124198471765265
+      ],
+      "theta_new": 6.124198537787877,
+      "theta_old": -0.3416236254620503,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.15898683541432124,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.34528370878184456,
+      "clipped": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          35.54494516364402,
+          20.9199099721735
+        ]
+      ],
+      "crossed_edge": [
+        "component:U1",
+        "net:-9V"
+      ],
+      "displacement": 132.72116872368971,
+      "mathematical_crossing_boundary_angle": 0.1802601679495121,
+      "mathematical_target_interval": [
+        3.9168555390962356,
+        0.18026016794951222
+      ],
+      "moving": "component:J_EB",
+      "numerical_legal_side_offset_radians": 4.166762790884085e-08,
+      "orientation_index": 0,
+      "pivot": "net:EB",
+      "positions_evaluated": 1,
+      "radius": 267.64319222490906,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 3,
+      "selection_status": "ACCEPTED_GLOBAL_MOVE",
+      "signed_delta_degrees": 28.711790799898072,
+      "signed_delta_radians": 0.5011152836020377,
+      "target": [
+        [
+          "component:J_EB",
+          "net:EB"
+        ],
+        [
+          "component:U1",
+          "net:-9V"
+        ]
+      ],
+      "target_centerline_distance": 6.000000695053335,
+      "target_interval": [
+        3.677889591971856,
+        0.5255438767313567
+      ],
+      "theta_new": 0.5255439183989846,
+      "theta_old": 0.024428634796946853,
+      "valid": true,
+      "visible_clearance_boundary_angle": 0.5255438767313567,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194398,
+      "clipped": [
+        [
+          18.364379231367803,
+          10.808320520578949
+        ],
+        [
+          35.54494516364402,
+          20.9199099721735
+        ]
+      ],
+      "crossed_edge": [
+        "component:U1",
+        "net:-9V"
+      ],
+      "displacement": 9.363629108213416,
+      "mathematical_crossing_boundary_angle": -3.128162955143581,
+      "mathematical_target_interval": [
+        3.155022352036006,
+        3.191945390942452
+      ],
+      "moving": "net:EB",
+      "numerical_legal_side_offset_radians": -4.527036376791271e-08,
+      "orientation_index": 1,
+      "pivot": "component:J_EB",
+      "positions_evaluated": 1,
+      "radius": 267.64319222490906,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 7,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -2.0046233536201563,
+      "signed_delta_radians": -0.034987277783042316,
+      "target_centerline_distance": 6.000011320940691,
+      "target_interval": [
+        3.1310340558740615,
+        3.217078125647334
+      ],
+      "theta_new": 3.1310340106036976,
+      "theta_old": -3.117164018792846,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.1521512513055248,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "clipped": [
+        [
+          76.75222366883247,
+          19.174642621267555
+        ],
+        [
+          18.105015046643132,
+          17.741686325829406
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EB",
+        "net:EB"
+      ],
+      "mathematical_target_interval": [
+        3.3218528215393053,
+        6.24085722880427
+      ],
+      "moving": "component:U1",
+      "orientation_index": 2,
+      "pivot": "net:-9V",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.1553069359860637,
+      "clipped": [
+        [
+          37.00966043924558,
+          18.203592889922994
+        ],
+        [
+          18.105015046643132,
+          17.741686325829406
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EB",
+        "net:EB"
+      ],
+      "displacement": 9.471369939381018,
+      "mathematical_crossing_boundary_angle": 0.4571148931682777,
+      "mathematical_target_interval": [
+        0.4571148931682778,
+        0.7752628855064428
+      ],
+      "moving": "net:-9V",
+      "numerical_legal_side_offset_radians": -2.749859593689933e-07,
+      "orientation_index": 3,
+      "pivot": "component:U1",
+      "positions_evaluated": 1,
+      "radius": 41.244220927668216,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 6,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -13.186551863990678,
+      "signed_delta_radians": -0.23014874701163282,
+      "target_centerline_distance": 6.000010908065703,
+      "target_interval": [
+        0.301807957182214,
+        1.0142288326308226
+      ],
+      "theta_new": 0.30180768219625465,
+      "theta_old": 0.5319564292078874,
+      "valid": true,
+      "visible_clearance_boundary_angle": 0.301807957182214,
+      "visible_clearance_boundary_feature": "STRIP_0"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.017449341853103206,
+      "clipped": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          285.1599554183571,
+          25.511237000385854
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "displacement": 7.749626733776808,
+      "mathematical_crossing_boundary_angle": -2.7520451329969986,
+      "mathematical_target_interval": [
+        3.531140174182587,
+        3.653528666560448
+      ],
+      "moving": "component:J_EB",
+      "numerical_legal_side_offset_radians": -4.8851374245268507e-08,
+      "orientation_index": 0,
+      "pivot": "net:GND",
+      "positions_evaluated": 1,
+      "radius": 367.7465814914539,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 6,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.2074323551333925,
+      "signed_delta_radians": -0.021073670092187156,
+      "target_centerline_distance": 6.000016852812271,
+      "target_interval": [
+        3.5136908323294844,
+        3.6748417317381734
+      ],
+      "theta_new": 3.5136907834781104,
+      "theta_old": -2.748420853609289,
+      "valid": true,
+      "visible_clearance_boundary_angle": -2.769494474850102,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "clipped": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          35.544945163644,
+          20.9199099721735
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "mathematical_target_interval": [
+        0.03155555253901,
+        3.155022352036006
+      ],
+      "moving": "net:GND",
+      "orientation_index": 1,
+      "pivot": "component:J_EB",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.023988296161944866,
+      "clipped": [
+        [
+          285.6683521083007,
+          24.279193860772487
+        ],
+        [
+          377.46731562747004,
+          62.35441998434061
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EB",
+        "net:GND"
+      ],
+      "displacement": 9.970784730419362,
+      "mathematical_crossing_boundary_angle": 0.013429698446212775,
+      "mathematical_target_interval": [
+        0.013429698446212841,
+        0.12059304179564653
+      ],
+      "moving": "component:J_PWR",
+      "numerical_legal_side_offset_radians": -3.1660915685206076e-08,
+      "orientation_index": 2,
+      "pivot": "net:-9V",
+      "positions_evaluated": 1,
+      "radius": 344.423759406273,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 10,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.658723646093159,
+      "signed_delta_radians": -0.028950189005010802,
+      "target_centerline_distance": 6.000007917571739,
+      "target_interval": [
+        6.272626709463854,
+        0.13863673777450458
+      ],
+      "theta_new": 6.272626677802938,
+      "theta_old": 0.018391559628363027,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.010558597715732091,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.0636771404945069,
+      "clipped": [
+        [
+          285.6683521083007,
+          24.279193860772487
+        ],
+        [
+          625.3553280491062,
+          165.1703098860251
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EB",
+        "net:GND"
+      ],
+      "displacement": 26.45941474620294,
+      "mathematical_crossing_boundary_angle": -3.1100371010507835,
+      "mathematical_target_interval": [
+        0.511936012970655,
+        3.1731482061288028
+      ],
+      "moving": "net:-9V",
+      "numerical_legal_side_offset_radians": 3.9087896530286425e-08,
+      "orientation_index": 3,
+      "pivot": "component:J_PWR",
+      "positions_evaluated": 1,
+      "radius": 344.423759406273,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 0.9999999999999867,
+      "resulting_total_crossings": 9,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 4.402674876688523,
+      "signed_delta_radians": 0.07684117249305006,
+      "target_centerline_distance": 6.000003678090738,
+      "target_interval": [
+        0.4906229477929287,
+        3.2368253466233097
+      ],
+      "theta_new": 3.236825385711206,
+      "theta_old": -3.12320109396143,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.0463599605562766,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+      "clipped": [
+        [
+          466.0227562052697,
+          24.279193860772477
+        ],
+        [
+          466.99365628592125,
+          25.13772011393609
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "displacement": 6.203842053740738,
+      "mathematical_crossing_boundary_angle": 0.013429698446212812,
+      "mathematical_target_interval": [
+        0.013429698446212827,
+        0.016796133513809212
+      ],
+      "moving": "component:C1",
+      "numerical_legal_side_offset_radians": -4.434445025043323e-08,
+      "orientation_index": 0,
+      "pivot": "net:+9V",
+      "positions_evaluated": 1,
+      "radius": 251.12972930919932,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.092184041363219,
+      "resulting_total_crossings": 3,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.4154556952045243,
+      "signed_delta_radians": -0.02470436229742426,
+      "target_centerline_distance": 6.000011089394007,
+      "target_interval": [
+        6.272626709463854,
+        0.04782049358516719
+      ],
+      "theta_new": 6.272626665119404,
+      "theta_old": 0.01414572023724151,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.010558597715732499,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          466.0227562052697,
+          24.279193860772477
+        ],
+        [
+          625.3553280491062,
+          165.1703098860251
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "mathematical_target_interval": [
+        0.7264353304849057,
+        3.3358200669795277
+      ],
+      "moving": "net:+9V",
+      "orientation_index": 1,
+      "pivot": "component:C1",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02960463648610734,
+      "clipped": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          465.86649056298836,
+          24.456111090952515
+        ]
+      ],
+      "crossed_edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "displacement": 6.532428996378393,
+      "mathematical_crossing_boundary_angle": -2.4186529480221557,
+      "mathematical_target_interval": [
+        3.86453235915743,
+        3.8680279840746987
+      ],
+      "moving": "component:J_EA",
+      "numerical_legal_side_offset_radians": 8.446517605117932e-08,
+      "orientation_index": 2,
+      "pivot": "net:GND",
+      "positions_evaluated": 1,
+      "radius": 212.69032659059164,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.074336661888837,
+      "resulting_total_crossings": 2,
+      "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+      "signed_delta_degrees": 1.7598135747335928,
+      "signed_delta_radians": 0.030714541100392487,
+      "target": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ]
+      ],
+      "target_centerline_distance": 6.000017884913169,
+      "target_interval": [
+        3.827938097077161,
+        3.896356635941756
+      ],
+      "theta_new": 3.8963567204069323,
+      "theta_old": -2.4175431278730466,
+      "valid": true,
+      "visible_clearance_boundary_angle": -2.38682867123783,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          253.35125092946407,
+          21.44972943521079
+        ]
+      ],
+      "crossed_edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "mathematical_target_interval": [
+        0.19422741338973468,
+        3.1548962576379163
+      ],
+      "moving": "net:GND",
+      "orientation_index": 3,
+      "pivot": "component:J_EA",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.017502714975018208,
+      "clipped": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          286.21183439747614,
+          25.530584876870968
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "displacement": 7.564615670478662,
+      "mathematical_crossing_boundary_angle": -2.7510047604165497,
+      "mathematical_target_interval": [
+        3.5321805467630365,
+        3.653528666560448
+      ],
+      "moving": "component:C2",
+      "numerical_legal_side_offset_radians": -4.898193479173853e-08,
+      "orientation_index": 0,
+      "pivot": "net:GND",
+      "positions_evaluated": 1,
+      "radius": 366.7663589901144,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 2,
+      "selection_status": "ACCEPTED_GLOBAL_MOVE",
+      "signed_delta_degrees": -1.1817556971389738,
+      "signed_delta_radians": -0.020625527869276024,
+      "target": [
+        [
+          "component:C2",
+          "net:GND"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      ],
+      "target_centerline_distance": 6.000016846662411,
+      "target_interval": [
+        3.5146778317880183,
+        3.6748417317381743
+      ],
+      "theta_new": 3.5146777828060833,
+      "theta_old": -2.7478819965042267,
+      "valid": true,
+      "visible_clearance_boundary_angle": -2.768507475391568,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "clipped": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          35.544945163644,
+          20.9199099721735
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "mathematical_target_interval": [
+        0.02981974002335074,
+        3.1557383738270346
+      ],
+      "moving": "net:GND",
+      "orientation_index": 1,
+      "pivot": "component:C2",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02389430750580379,
+      "clipped": [
+        [
+          286.64954918647703,
+          24.472202393688132
+        ],
+        [
+          377.4853506052187,
+          62.205321075876654
+        ]
+      ],
+      "crossed_edge": [
+        "component:C2",
+        "net:GND"
+      ],
+      "displacement": 9.691826304240587,
+      "mathematical_crossing_boundary_angle": 0.014145720237241474,
+      "mathematical_target_interval": [
+        0.014145720237241512,
+        0.12015699260170089
+      ],
+      "moving": "component:J_PWR",
+      "numerical_legal_side_offset_radians": -3.1660915685206076e-08,
+      "orientation_index": 2,
+      "pivot": "net:-9V",
+      "positions_evaluated": 1,
+      "radius": 344.423759406273,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 7,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.6123134661088265,
+      "signed_delta_radians": -0.02814017855784103,
+      "target_centerline_distance": 6.000007948727495,
+      "target_interval": [
+        6.2734367199110235,
+        0.13820543356055115
+      ],
+      "theta_new": 6.273436688250108,
+      "theta_old": 0.018391559628363027,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.009748587268562318,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.06435144202670529,
+      "clipped": [
+        [
+          286.64954918647703,
+          24.472202393688132
+        ],
+        [
+          625.3553280491062,
+          165.1703098860251
+        ]
+      ],
+      "crossed_edge": [
+        "component:C2",
+        "net:GND"
+      ],
+      "displacement": 26.094071245506044,
+      "mathematical_crossing_boundary_angle": -3.1117729135664436,
+      "mathematical_target_interval": [
+        0.511936012970655,
+        3.1714123936131435
+      ],
+      "moving": "net:-9V",
+      "numerical_legal_side_offset_radians": 3.9087896530286425e-08,
+      "orientation_index": 3,
+      "pivot": "component:J_PWR",
+      "positions_evaluated": 1,
+      "radius": 344.423759406273,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 7,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 4.341854777429383,
+      "signed_delta_radians": 0.07577966150958831,
+      "target_centerline_distance": 6.000003639445398,
+      "target_interval": [
+        0.4906229477929287,
+        3.235763835639848
+      ],
+      "theta_new": 3.2357638747277444,
+      "theta_old": -3.12320109396143,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.0474214715397383,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -63.98862994744414,
+          12.592263277480882
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 107.64499896923296,
+      "mathematical_crossing_boundary_angle": -3.3450149285531467,
+      "mathematical_target_interval": [
+        2.9381703786264395,
+        5.779224313285385
+      ],
+      "moving": "component:JP1",
+      "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+      "orientation_index": 0,
+      "pivot": "net:NODE_C",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 2,
+      "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+      "signed_delta_degrees": -35.82990681029053,
+      "signed_delta_radians": -0.625349844522309,
+      "target": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "target_centerline_distance": 6.000010938734505,
+      "target_interval": [
+        2.8937349390774076,
+        5.831363434761927
+      ],
+      "theta_new": 2.8937348580127993,
+      "theta_old": -2.764100604644478,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.3894503681021786,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -157.65008786685547,
+          45.89497322476123
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 30.495543323899245,
+      "mathematical_crossing_boundary_angle": 0.24358475278364078,
+      "mathematical_target_interval": [
+        0.24358475278364064,
+        1.2512737429220446
+      ],
+      "moving": "net:NODE_C",
+      "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+      "orientation_index": 1,
+      "pivot": "component:JP1",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 6,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -9.99861141584437,
+      "signed_delta_radians": -0.1745086898339762,
+      "target_centerline_distance": 6.000014060712275,
+      "target_interval": [
+        0.2029834530625989,
+        1.3133779953526739
+      ],
+      "theta_new": 0.2029833591113391,
+      "theta_old": 0.3774920489453153,
+      "valid": true,
+      "visible_clearance_boundary_angle": 0.2029834530625989,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+      "clipped": [
+        [
+          -311.374934007219,
+          10.071399760090646
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 52.95967034554673,
+      "mathematical_crossing_boundary_angle": 2.637631659695592,
+      "mathematical_target_interval": [
+        2.637631659695592,
+        3.151782289109012
+      ],
+      "moving": "component:R3",
+      "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+      "orientation_index": 2,
+      "pivot": "net:NODE_B",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 4,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -12.288600543742753,
+      "signed_delta_radians": -0.2144765399506765,
+      "target_centerline_distance": 6.000005753449,
+      "target_interval": [
+        2.58549253821905,
+        3.1776420852112763
+      ],
+      "theta_new": 2.5854924881770667,
+      "theta_old": 2.799969028127743,
+      "valid": true,
+      "visible_clearance_boundary_angle": 2.58549253821905,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -327.4576207518456,
+          3.6944925644036397
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 45.12142974769387,
+      "mathematical_crossing_boundary_angle": -0.20342227496335308,
+      "mathematical_target_interval": [
+        4.392866396511837,
+        6.079763032216232
+      ],
+      "moving": "net:NODE_B",
+      "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+      "orientation_index": 3,
+      "pivot": "component:R3",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 6,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 10.464321036368828,
+      "signed_delta_radians": 0.18263685607034133,
+      "target_centerline_distance": 6.000008908990663,
+      "target_interval": [
+        4.330762144081207,
+        6.124198471765265
+      ],
+      "theta_new": 6.124198537787877,
+      "theta_old": -0.3416236254620503,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.15898683541432124,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+      "clipped": [
+        [
+          466.0227562052697,
+          24.279193860772477
+        ],
+        [
+          466.99365628592125,
+          25.13772011393609
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "displacement": 6.203842053740738,
+      "mathematical_crossing_boundary_angle": 0.013429698446212812,
+      "mathematical_target_interval": [
+        0.013429698446212827,
+        0.016796133513809212
+      ],
+      "moving": "component:C1",
+      "numerical_legal_side_offset_radians": -4.434445025043323e-08,
+      "orientation_index": 0,
+      "pivot": "net:+9V",
+      "positions_evaluated": 1,
+      "radius": 251.12972930919932,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.092184041363219,
+      "resulting_total_crossings": 2,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -1.4154556952045243,
+      "signed_delta_radians": -0.02470436229742426,
+      "target_centerline_distance": 6.000011089394007,
+      "target_interval": [
+        6.272626709463854,
+        0.04782049358516719
+      ],
+      "theta_new": 6.272626665119404,
+      "theta_old": 0.01414572023724151,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.010558597715732499,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          466.0227562052697,
+          24.279193860772477
+        ],
+        [
+          625.3553280491062,
+          165.1703098860251
+        ]
+      ],
+      "crossed_edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "mathematical_target_interval": [
+        0.7264353304849057,
+        3.3358200669795277
+      ],
+      "moving": "net:+9V",
+      "orientation_index": 1,
+      "pivot": "component:C1",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02960463648610734,
+      "clipped": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          465.86649056298836,
+          24.456111090952515
+        ]
+      ],
+      "crossed_edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "displacement": 6.532428996378393,
+      "mathematical_crossing_boundary_angle": -2.4186529480221557,
+      "mathematical_target_interval": [
+        3.86453235915743,
+        3.8680279840746987
+      ],
+      "moving": "component:J_EA",
+      "numerical_legal_side_offset_radians": 8.446517605117932e-08,
+      "orientation_index": 2,
+      "pivot": "net:GND",
+      "positions_evaluated": 1,
+      "radius": 212.69032659059164,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.074336661888837,
+      "resulting_total_crossings": 1,
+      "selection_status": "ACCEPTED_GLOBAL_MOVE",
+      "signed_delta_degrees": 1.7598135747335928,
+      "signed_delta_radians": 0.030714541100392487,
+      "target": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ]
+      ],
+      "target_centerline_distance": 6.000017884913169,
+      "target_interval": [
+        3.827938097077161,
+        3.896356635941756
+      ],
+      "theta_new": 3.8963567204069323,
+      "theta_old": -2.4175431278730466,
+      "valid": true,
+      "visible_clearance_boundary_angle": -2.38682867123783,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "clipped": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          253.35125092946407,
+          21.44972943521079
+        ]
+      ],
+      "crossed_edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "mathematical_target_interval": [
+        0.19422741338973468,
+        3.1548962576379163
+      ],
+      "moving": "net:GND",
+      "orientation_index": 3,
+      "pivot": "component:J_EA",
+      "positions_evaluated": 0,
+      "reason": "no analytic finite-segment clearance escape exists",
+      "resulting_total_crossings": null,
+      "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+      "valid": false
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -63.98862994744414,
+          12.592263277480882
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 107.64499896923296,
+      "mathematical_crossing_boundary_angle": -3.3450149285531467,
+      "mathematical_target_interval": [
+        2.9381703786264395,
+        5.779224313285385
+      ],
+      "moving": "component:JP1",
+      "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+      "orientation_index": 0,
+      "pivot": "net:NODE_C",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 1,
+      "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+      "signed_delta_degrees": -35.82990681029053,
+      "signed_delta_radians": -0.625349844522309,
+      "target": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "target_centerline_distance": 6.000010938734505,
+      "target_interval": [
+        2.8937349390774076,
+        5.831363434761927
+      ],
+      "theta_new": 2.8937348580127993,
+      "theta_old": -2.764100604644478,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.3894503681021786,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -157.65008786685547,
+          45.89497322476123
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 30.495543323899245,
+      "mathematical_crossing_boundary_angle": 0.24358475278364078,
+      "mathematical_target_interval": [
+        0.24358475278364064,
+        1.2512737429220446
+      ],
+      "moving": "net:NODE_C",
+      "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+      "orientation_index": 1,
+      "pivot": "component:JP1",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 5,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -9.99861141584437,
+      "signed_delta_radians": -0.1745086898339762,
+      "target_centerline_distance": 6.000014060712275,
+      "target_interval": [
+        0.2029834530625989,
+        1.3133779953526739
+      ],
+      "theta_new": 0.2029833591113391,
+      "theta_old": 0.3774920489453153,
+      "valid": true,
+      "visible_clearance_boundary_angle": 0.2029834530625989,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+      "clipped": [
+        [
+          -311.374934007219,
+          10.071399760090646
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 52.95967034554673,
+      "mathematical_crossing_boundary_angle": 2.637631659695592,
+      "mathematical_target_interval": [
+        2.637631659695592,
+        3.151782289109012
+      ],
+      "moving": "component:R3",
+      "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+      "orientation_index": 2,
+      "pivot": "net:NODE_B",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 3,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -12.288600543742753,
+      "signed_delta_radians": -0.2144765399506765,
+      "target_centerline_distance": 6.000005753449,
+      "target_interval": [
+        2.58549253821905,
+        3.1776420852112763
+      ],
+      "theta_new": 2.5854924881770667,
+      "theta_old": 2.799969028127743,
+      "valid": true,
+      "visible_clearance_boundary_angle": 2.58549253821905,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -327.4576207518456,
+          3.6944925644036397
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 45.12142974769387,
+      "mathematical_crossing_boundary_angle": -0.20342227496335308,
+      "mathematical_target_interval": [
+        4.392866396511837,
+        6.079763032216232
+      ],
+      "moving": "net:NODE_B",
+      "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+      "orientation_index": 3,
+      "pivot": "component:R3",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 1.000000000000043,
+      "resulting_total_crossings": 5,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 10.464321036368828,
+      "signed_delta_radians": 0.18263685607034133,
+      "target_centerline_distance": 6.000008908990663,
+      "target_interval": [
+        4.330762144081207,
+        6.124198471765265
+      ],
+      "theta_new": 6.124198537787877,
+      "theta_old": -0.3416236254620503,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.15898683541432124,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -63.98862994744414,
+          12.592263277480882
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 107.64499896923296,
+      "mathematical_crossing_boundary_angle": -3.3450149285531467,
+      "mathematical_target_interval": [
+        2.9381703786264395,
+        5.779224313285385
+      ],
+      "moving": "component:JP1",
+      "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+      "orientation_index": 0,
+      "pivot": "net:NODE_C",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.074336661888837,
+      "resulting_total_crossings": 0,
+      "selection_status": "ACCEPTED_GLOBAL_MOVE",
+      "signed_delta_degrees": -35.82990681029053,
+      "signed_delta_radians": -0.625349844522309,
+      "target": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "target_centerline_distance": 6.000010938734505,
+      "target_interval": [
+        2.8937349390774076,
+        5.831363434761927
+      ],
+      "theta_new": 2.8937348580127993,
+      "theta_old": -2.764100604644478,
+      "valid": true,
+      "visible_clearance_boundary_angle": -3.3894503681021786,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+      "clipped": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -157.65008786685547,
+          45.89497322476123
+        ]
+      ],
+      "crossed_edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "displacement": 30.495543323899245,
+      "mathematical_crossing_boundary_angle": 0.24358475278364078,
+      "mathematical_target_interval": [
+        0.24358475278364064,
+        1.2512737429220446
+      ],
+      "moving": "net:NODE_C",
+      "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+      "orientation_index": 1,
+      "pivot": "component:JP1",
+      "positions_evaluated": 1,
+      "radius": 174.97279443516985,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.074336661888837,
+      "resulting_total_crossings": 4,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -9.99861141584437,
+      "signed_delta_radians": -0.1745086898339762,
+      "target_centerline_distance": 6.000014060712275,
+      "target_interval": [
+        0.2029834530625989,
+        1.3133779953526739
+      ],
+      "theta_new": 0.2029833591113391,
+      "theta_old": 0.3774920489453153,
+      "valid": true,
+      "visible_clearance_boundary_angle": 0.2029834530625989,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+      "clipped": [
+        [
+          -311.374934007219,
+          10.071399760090646
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 52.95967034554673,
+      "mathematical_crossing_boundary_angle": 2.637631659695592,
+      "mathematical_target_interval": [
+        2.637631659695592,
+        3.151782289109012
+      ],
+      "moving": "component:R3",
+      "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+      "orientation_index": 2,
+      "pivot": "net:NODE_B",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.074336661888837,
+      "resulting_total_crossings": 2,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": -12.288600543742753,
+      "signed_delta_radians": -0.2144765399506765,
+      "target_centerline_distance": 6.000005753449,
+      "target_interval": [
+        2.58549253821905,
+        3.1776420852112763
+      ],
+      "theta_new": 2.5854924881770667,
+      "theta_old": 2.799969028127743,
+      "valid": true,
+      "visible_clearance_boundary_angle": 2.58549253821905,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "clipped": [
+        [
+          -327.4576207518456,
+          3.6944925644036397
+        ],
+        [
+          -164.80431705291707,
+          68.18776033923683
+        ]
+      ],
+      "crossed_edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "displacement": 45.12142974769387,
+      "mathematical_crossing_boundary_angle": -0.20342227496335308,
+      "mathematical_target_interval": [
+        4.392866396511837,
+        6.079763032216232
+      ],
+      "moving": "net:NODE_B",
+      "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+      "orientation_index": 3,
+      "pivot": "component:R3",
+      "positions_evaluated": 1,
+      "radius": 247.3991475111196,
+      "reason": null,
+      "reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_minimum_node_distance": 6.074336661888837,
+      "resulting_total_crossings": 4,
+      "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+      "signed_delta_degrees": 10.464321036368828,
+      "signed_delta_radians": 0.18263685607034133,
+      "target_centerline_distance": 6.000008908990663,
+      "target_interval": [
+        4.330762144081207,
+        6.124198471765265
+      ],
+      "theta_new": 6.124198537787877,
+      "theta_old": -0.3416236254620503,
+      "valid": true,
+      "visible_clearance_boundary_angle": -0.15898683541432124,
+      "visible_clearance_boundary_feature": "CAP_B"
+    }
+  ],
+  "crossing_history": [
+    [
+      {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_EA",
+          "net:GND"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:C2",
+          "net:-9V"
+        ],
+        "edge_b": [
+          "component:J_EB",
+          "net:GND"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:C2",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_EB",
+          "net:EB"
+        ],
+        "edge_b": [
+          "component:U1",
+          "net:-9V"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_EB",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      }
+    ],
+    [
+      {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_EA",
+          "net:GND"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:C2",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      }
+    ],
+    [
+      {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_EA",
+          "net:GND"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      }
+    ],
+    [
+      {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      }
+    ],
+    []
+  ],
+  "direct_solution_assertions": {
+    "candidate_evaluations": 36,
+    "maximum_direct_solutions_calculated_per_crossing": 4,
+    "maximum_positions_evaluated_per_endpoint_pivot": 1,
+    "passed": true
+  },
+  "final_coordinates": {
+    "component:C1": [
+      467.00395328344604,
+      24.472202393688125
+    ],
+    "component:C2": [
+      283.81982446582094,
+      31.487618863674726
+    ],
+    "component:JP1": [
+      -334.42997578032566,
+      111.11344837967394
+    ],
+    "component:J_EA": [
+      470.42463172536304,
+      19.452588376757035
+    ],
+    "component:J_EB": [
+      249.6300782232805,
+      152.01388547886967
+    ],
+    "component:J_OUT": [
+      340.3424835587094,
+      210.03637591471818
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      102.84623517626561,
+      -377.7214602506761
+    ],
+    "component:J_R4": [
+      44.63753956400488,
+      327.563888644507
+    ],
+    "component:J_RA": [
+      -104.4544567673898,
+      -376.02476810571767
+    ],
+    "component:R2": [
+      -86.6660055998702,
+      -311.0261105926718
+    ],
+    "component:R3": [
+      -297.0910668648412,
+      95.47526571102958
+    ],
+    "component:RMIN1": [
+      678.5504812830113,
+      -205.02668566046128
+    ],
+    "component:RMIN4": [
+      -281.60156205833124,
+      236.6461727353019
+    ],
+    "component:TPA": [
+      -32.44855702730761,
+      -329.27268152947534
+    ],
+    "component:TPB": [
+      -113.59679859782972,
+      30.06981357571914
+    ],
+    "component:TPC": [
+      -260.6318708113398,
+      114.25798046913104
+    ],
+    "component:TPO": [
+      91.11064432645759,
+      243.36924518783795
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      215.899349260613,
+      20.919909972173492
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      198.4594191436121,
+      17.741686325829395
+    ],
+    "net:EB": [
+      18.105015046643143,
+      17.741686325829406
+    ],
+    "net:EOUT": [
+      80.85740731952187,
+      157.27332591022918
+    ],
+    "net:GND": [
+      625.3553280491062,
+      165.1703098860251
+    ],
+    "net:NODE_A": [
+      -3.554241234402555,
+      -237.88823673916076
+    ],
+    "net:NODE_B": [
+      -63.98862994744413,
+      12.592263277480884
+    ],
+    "net:NODE_C": [
+      -164.80431705291707,
+      68.18776033923683
+    ],
+    "net:R1_EXT": [
+      404.88025218730104,
+      -446.1526278023859
+    ],
+    "net:R1_W": [
+      121.34719516059535,
+      -511.325817598459
+    ],
+    "net:R4_EXT": [
+      -190.2794989274509,
+      476.67600955087613
+    ],
+    "net:R4_W": [
+      34.85444924956621,
+      467.6591534812175
+    ],
+    "net:RA_SW": [
+      -368.94423346013093,
+      -356.4290471710813
+    ],
+    "net:RA_W": [
+      -171.5200935395895,
+      -506.0755988413453
+    ]
+  },
+  "final_crossing_count": 0,
+  "final_crossings": [],
+  "final_geometry_diagnostics": {
+    "coincident_vertex_pair_count": 0,
+    "coincident_vertex_pairs": [],
+    "minimum_node_distance": 6.074336661888837,
+    "proper_unrelated_edge_crossing_count": 0,
+    "proper_unrelated_edge_crossings": [],
+    "vertex_on_unrelated_edge_interior_count": 0,
+    "vertices_on_unrelated_edge_interiors": []
+  },
+  "generic_mechanism": "direct_crossing_repair.best_move_across_crossings",
+  "generic_orientation_audits": [
+    {
+      "crossing": {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_EA",
+          "net:GND"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+          "clipped": [
+            [
+              466.0227562052697,
+              24.279193860772477
+            ],
+            [
+              466.99365628592125,
+              25.13772011393609
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EA",
+            "net:GND"
+          ],
+          "displacement": 6.203842053740738,
+          "mathematical_crossing_boundary_angle": 0.013429698446212812,
+          "mathematical_target_interval": [
+            0.013429698446212827,
+            0.016796133513809212
+          ],
+          "moving": "component:C1",
+          "numerical_legal_side_offset_radians": -4.434445025043323e-08,
+          "orientation_index": 0,
+          "pivot": "net:+9V",
+          "positions_evaluated": 1,
+          "radius": 251.12972930919932,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 6,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.4154556952045243,
+          "signed_delta_radians": -0.02470436229742426,
+          "target_centerline_distance": 6.000011089394007,
+          "target_interval": [
+            6.272626709463854,
+            0.04782049358516719
+          ],
+          "theta_new": 6.272626665119404,
+          "theta_old": 0.01414572023724151,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.010558597715732499,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              466.0227562052697,
+              24.279193860772477
+            ],
+            [
+              625.3553280491062,
+              165.1703098860251
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EA",
+            "net:GND"
+          ],
+          "mathematical_target_interval": [
+            0.7264353304849057,
+            3.3358200669795277
+          ],
+          "moving": "net:+9V",
+          "orientation_index": 1,
+          "pivot": "component:C1",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02960463648610734,
+          "clipped": [
+            [
+              467.00395328344604,
+              24.472202393688125
+            ],
+            [
+              465.86649056298836,
+              24.456111090952515
+            ]
+          ],
+          "crossed_edge": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "displacement": 6.532428996378393,
+          "mathematical_crossing_boundary_angle": -2.4186529480221557,
+          "mathematical_target_interval": [
+            3.86453235915743,
+            3.8680279840746987
+          ],
+          "moving": "component:J_EA",
+          "numerical_legal_side_offset_radians": 8.446517605117932e-08,
+          "orientation_index": 2,
+          "pivot": "net:GND",
+          "positions_evaluated": 1,
+          "radius": 212.69032659059164,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 5,
+          "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+          "signed_delta_degrees": 1.7598135747335928,
+          "signed_delta_radians": 0.030714541100392487,
+          "target": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "target_centerline_distance": 6.000017884913169,
+          "target_interval": [
+            3.827938097077161,
+            3.896356635941756
+          ],
+          "theta_new": 3.8963567204069323,
+          "theta_old": -2.4175431278730466,
+          "valid": true,
+          "visible_clearance_boundary_angle": -2.38682867123783,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              467.00395328344604,
+              24.472202393688125
+            ],
+            [
+              253.35125092946407,
+              21.44972943521079
+            ]
+          ],
+          "crossed_edge": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "mathematical_target_interval": [
+            0.19422741338973468,
+            3.1548962576379163
+          ],
+          "moving": "net:GND",
+          "orientation_index": 3,
+          "pivot": "component:J_EA",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:C2",
+          "net:-9V"
+        ],
+        "edge_b": [
+          "component:J_EB",
+          "net:GND"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+          "clipped": [
+            [
+              285.6683521083007,
+              24.279193860772487
+            ],
+            [
+              286.6464504641736,
+              24.684877265500408
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EB",
+            "net:GND"
+          ],
+          "displacement": 6.203841822320211,
+          "mathematical_crossing_boundary_angle": 0.013429698446212814,
+          "mathematical_target_interval": [
+            0.013429698446212841,
+            0.014992682690109215
+          ],
+          "moving": "component:C2",
+          "numerical_legal_side_offset_radians": -4.342286210613238e-08,
+          "orientation_index": 0,
+          "pivot": "net:-9V",
+          "positions_evaluated": 1,
+          "radius": 251.1297293091993,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 11,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.415455642401413,
+          "signed_delta_radians": -0.024704361375836113,
+          "target_centerline_distance": 6.000010858928779,
+          "target_interval": [
+            6.272626709463854,
+            0.04057412564333344
+          ],
+          "theta_new": 6.272626666040992,
+          "theta_old": 0.014145720237241512,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.010558597715732497,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              285.6683521083007,
+              24.279193860772487
+            ],
+            [
+              518.5419208005579,
+              120.86758055109101
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EB",
+            "net:GND"
+          ],
+          "mathematical_target_interval": [
+            0.39395878234941517,
+            3.3358200669795353
+          ],
+          "moving": "net:-9V",
+          "orientation_index": 1,
+          "pivot": "component:C2",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.016374574016886356,
+          "clipped": [
+            [
+              286.64954918647703,
+              24.472202393688132
+            ],
+            [
+              285.59454346886014,
+              24.457277582452875
+            ]
+          ],
+          "crossed_edge": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "displacement": 6.214410894105811,
+          "mathematical_crossing_boundary_angle": -2.7489450549620638,
+          "mathematical_target_interval": [
+            3.5342402522175225,
+            3.5353033106753595
+          ],
+          "moving": "component:J_EB",
+          "numerical_legal_side_offset_radians": 4.8851374245268507e-08,
+          "orientation_index": 2,
+          "pivot": "net:GND",
+          "positions_evaluated": 1,
+          "radius": 367.7465814914539,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 10,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 0.9682313065987833,
+          "signed_delta_radians": 0.016898824221035467,
+          "target_centerline_distance": 6.000017914642536,
+          "target_interval": [
+            3.516741862690701,
+            3.5516632289399586
+          ],
+          "theta_new": 3.5516632777913326,
+          "theta_old": -2.748420853609289,
+          "valid": true,
+          "visible_clearance_boundary_angle": -2.7315220782396277,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              286.64954918647703,
+              24.472202393688132
+            ],
+            [
+              35.54494516364403,
+              20.9199099721735
+            ]
+          ],
+          "crossed_edge": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "mathematical_target_interval": [
+            0.19422741338974214,
+            3.155022352036006
+          ],
+          "moving": "net:GND",
+          "orientation_index": 3,
+          "pivot": "component:J_EB",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:C2",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.017502714975018208,
+          "clipped": [
+            [
+              379.9104556355607,
+              27.254042980442794
+            ],
+            [
+              286.21183439747614,
+              25.530584876870968
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "displacement": 7.564615670478662,
+          "mathematical_crossing_boundary_angle": -2.7510047604165497,
+          "mathematical_target_interval": [
+            3.5321805467630365,
+            3.653528666560448
+          ],
+          "moving": "component:C2",
+          "numerical_legal_side_offset_radians": -4.898193479173853e-08,
+          "orientation_index": 0,
+          "pivot": "net:GND",
+          "positions_evaluated": 1,
+          "radius": 366.7663589901144,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 4,
+          "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+          "signed_delta_degrees": -1.1817556971389738,
+          "signed_delta_radians": -0.020625527869276024,
+          "target": [
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ],
+          "target_centerline_distance": 6.000016846662411,
+          "target_interval": [
+            3.5146778317880183,
+            3.6748417317381743
+          ],
+          "theta_new": 3.5146777828060833,
+          "theta_old": -2.7478819965042267,
+          "valid": true,
+          "visible_clearance_boundary_angle": -2.768507475391568,
+          "visible_clearance_boundary_feature": "STRIP_1"
+        },
+        {
+          "clipped": [
+            [
+              379.9104556355607,
+              27.254042980442794
+            ],
+            [
+              35.544945163644,
+              20.9199099721735
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "mathematical_target_interval": [
+            0.02981974002335074,
+            3.1557383738270346
+          ],
+          "moving": "net:GND",
+          "orientation_index": 1,
+          "pivot": "component:C2",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02389430750580379,
+          "clipped": [
+            [
+              286.64954918647703,
+              24.472202393688132
+            ],
+            [
+              377.4853506052187,
+              62.205321075876654
+            ]
+          ],
+          "crossed_edge": [
+            "component:C2",
+            "net:GND"
+          ],
+          "displacement": 9.691826304240587,
+          "mathematical_crossing_boundary_angle": 0.014145720237241474,
+          "mathematical_target_interval": [
+            0.014145720237241512,
+            0.12015699260170089
+          ],
+          "moving": "component:J_PWR",
+          "numerical_legal_side_offset_radians": -3.1660915685206076e-08,
+          "orientation_index": 2,
+          "pivot": "net:-9V",
+          "positions_evaluated": 1,
+          "radius": 344.423759406273,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 10,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.6123134661088265,
+          "signed_delta_radians": -0.02814017855784103,
+          "target_centerline_distance": 6.000007948727495,
+          "target_interval": [
+            6.2734367199110235,
+            0.13820543356055115
+          ],
+          "theta_new": 6.273436688250108,
+          "theta_old": 0.018391559628363027,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.009748587268562318,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.06435144202670529,
+          "clipped": [
+            [
+              286.64954918647703,
+              24.472202393688132
+            ],
+            [
+              625.3553280491062,
+              165.1703098860251
+            ]
+          ],
+          "crossed_edge": [
+            "component:C2",
+            "net:GND"
+          ],
+          "displacement": 26.094071245506044,
+          "mathematical_crossing_boundary_angle": -3.1117729135664436,
+          "mathematical_target_interval": [
+            0.511936012970655,
+            3.1714123936131435
+          ],
+          "moving": "net:-9V",
+          "numerical_legal_side_offset_radians": 3.9087896530286425e-08,
+          "orientation_index": 3,
+          "pivot": "component:J_PWR",
+          "positions_evaluated": 1,
+          "radius": 344.423759406273,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 9,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 4.341854777429383,
+          "signed_delta_radians": 0.07577966150958831,
+          "target_centerline_distance": 6.000003639445398,
+          "target_interval": [
+            0.4906229477929287,
+            3.235763835639848
+          ],
+          "theta_new": 3.2357638747277444,
+          "theta_old": -3.12320109396143,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.0474214715397383,
+          "visible_clearance_boundary_feature": "CAP_A"
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -63.98862994744414,
+              12.592263277480882
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 107.64499896923296,
+          "mathematical_crossing_boundary_angle": -3.3450149285531467,
+          "mathematical_target_interval": [
+            2.9381703786264395,
+            5.779224313285385
+          ],
+          "moving": "component:JP1",
+          "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+          "orientation_index": 0,
+          "pivot": "net:NODE_C",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 5,
+          "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+          "signed_delta_degrees": -35.82990681029053,
+          "signed_delta_radians": -0.625349844522309,
+          "target": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ]
+          ],
+          "target_centerline_distance": 6.000010938734505,
+          "target_interval": [
+            2.8937349390774076,
+            5.831363434761927
+          ],
+          "theta_new": 2.8937348580127993,
+          "theta_old": -2.764100604644478,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.3894503681021786,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -157.65008786685547,
+              45.89497322476123
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 30.495543323899245,
+          "mathematical_crossing_boundary_angle": 0.24358475278364078,
+          "mathematical_target_interval": [
+            0.24358475278364064,
+            1.2512737429220446
+          ],
+          "moving": "net:NODE_C",
+          "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+          "orientation_index": 1,
+          "pivot": "component:JP1",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 9,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -9.99861141584437,
+          "signed_delta_radians": -0.1745086898339762,
+          "target_centerline_distance": 6.000014060712275,
+          "target_interval": [
+            0.2029834530625989,
+            1.3133779953526739
+          ],
+          "theta_new": 0.2029833591113391,
+          "theta_old": 0.3774920489453153,
+          "valid": true,
+          "visible_clearance_boundary_angle": 0.2029834530625989,
+          "visible_clearance_boundary_feature": "STRIP_1"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+          "clipped": [
+            [
+              -311.374934007219,
+              10.071399760090646
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 52.95967034554673,
+          "mathematical_crossing_boundary_angle": 2.637631659695592,
+          "mathematical_target_interval": [
+            2.637631659695592,
+            3.151782289109012
+          ],
+          "moving": "component:R3",
+          "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+          "orientation_index": 2,
+          "pivot": "net:NODE_B",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 7,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -12.288600543742753,
+          "signed_delta_radians": -0.2144765399506765,
+          "target_centerline_distance": 6.000005753449,
+          "target_interval": [
+            2.58549253821905,
+            3.1776420852112763
+          ],
+          "theta_new": 2.5854924881770667,
+          "theta_old": 2.799969028127743,
+          "valid": true,
+          "visible_clearance_boundary_angle": 2.58549253821905,
+          "visible_clearance_boundary_feature": "CAP_B"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -327.4576207518456,
+              3.6944925644036397
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 45.12142974769387,
+          "mathematical_crossing_boundary_angle": -0.20342227496335308,
+          "mathematical_target_interval": [
+            4.392866396511837,
+            6.079763032216232
+          ],
+          "moving": "net:NODE_B",
+          "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+          "orientation_index": 3,
+          "pivot": "component:R3",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 9,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 10.464321036368828,
+          "signed_delta_radians": 0.18263685607034133,
+          "target_centerline_distance": 6.000008908990663,
+          "target_interval": [
+            4.330762144081207,
+            6.124198471765265
+          ],
+          "theta_new": 6.124198537787877,
+          "theta_old": -0.3416236254620503,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.15898683541432124,
+          "visible_clearance_boundary_feature": "CAP_B"
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:J_EB",
+          "net:EB"
+        ],
+        "edge_b": [
+          "component:U1",
+          "net:-9V"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.34528370878184456,
+          "clipped": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              35.54494516364402,
+              20.9199099721735
+            ]
+          ],
+          "crossed_edge": [
+            "component:U1",
+            "net:-9V"
+          ],
+          "displacement": 132.72116872368971,
+          "mathematical_crossing_boundary_angle": 0.1802601679495121,
+          "mathematical_target_interval": [
+            3.9168555390962356,
+            0.18026016794951222
+          ],
+          "moving": "component:J_EB",
+          "numerical_legal_side_offset_radians": 4.166762790884085e-08,
+          "orientation_index": 0,
+          "pivot": "net:EB",
+          "positions_evaluated": 1,
+          "radius": 267.64319222490906,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 3,
+          "selection_status": "ACCEPTED_GLOBAL_MOVE",
+          "signed_delta_degrees": 28.711790799898072,
+          "signed_delta_radians": 0.5011152836020377,
+          "target": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "target_centerline_distance": 6.000000695053335,
+          "target_interval": [
+            3.677889591971856,
+            0.5255438767313567
+          ],
+          "theta_new": 0.5255439183989846,
+          "theta_old": 0.024428634796946853,
+          "valid": true,
+          "visible_clearance_boundary_angle": 0.5255438767313567,
+          "visible_clearance_boundary_feature": "CAP_B"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194398,
+          "clipped": [
+            [
+              18.364379231367803,
+              10.808320520578949
+            ],
+            [
+              35.54494516364402,
+              20.9199099721735
+            ]
+          ],
+          "crossed_edge": [
+            "component:U1",
+            "net:-9V"
+          ],
+          "displacement": 9.363629108213416,
+          "mathematical_crossing_boundary_angle": -3.128162955143581,
+          "mathematical_target_interval": [
+            3.155022352036006,
+            3.191945390942452
+          ],
+          "moving": "net:EB",
+          "numerical_legal_side_offset_radians": -4.527036376791271e-08,
+          "orientation_index": 1,
+          "pivot": "component:J_EB",
+          "positions_evaluated": 1,
+          "radius": 267.64319222490906,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 7,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -2.0046233536201563,
+          "signed_delta_radians": -0.034987277783042316,
+          "target_centerline_distance": 6.000011320940691,
+          "target_interval": [
+            3.1310340558740615,
+            3.217078125647334
+          ],
+          "theta_new": 3.1310340106036976,
+          "theta_old": -3.117164018792846,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.1521512513055248,
+          "visible_clearance_boundary_feature": "CAP_B"
+        },
+        {
+          "clipped": [
+            [
+              76.75222366883247,
+              19.174642621267555
+            ],
+            [
+              18.105015046643132,
+              17.741686325829406
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "mathematical_target_interval": [
+            3.3218528215393053,
+            6.24085722880427
+          ],
+          "moving": "component:U1",
+          "orientation_index": 2,
+          "pivot": "net:-9V",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.1553069359860637,
+          "clipped": [
+            [
+              37.00966043924558,
+              18.203592889922994
+            ],
+            [
+              18.105015046643132,
+              17.741686325829406
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "displacement": 9.471369939381018,
+          "mathematical_crossing_boundary_angle": 0.4571148931682777,
+          "mathematical_target_interval": [
+            0.4571148931682778,
+            0.7752628855064428
+          ],
+          "moving": "net:-9V",
+          "numerical_legal_side_offset_radians": -2.749859593689933e-07,
+          "orientation_index": 3,
+          "pivot": "component:U1",
+          "positions_evaluated": 1,
+          "radius": 41.244220927668216,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 6,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -13.186551863990678,
+          "signed_delta_radians": -0.23014874701163282,
+          "target_centerline_distance": 6.000010908065703,
+          "target_interval": [
+            0.301807957182214,
+            1.0142288326308226
+          ],
+          "theta_new": 0.30180768219625465,
+          "theta_old": 0.5319564292078874,
+          "valid": true,
+          "visible_clearance_boundary_angle": 0.301807957182214,
+          "visible_clearance_boundary_feature": "STRIP_0"
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:J_EB",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.017449341853103206,
+          "clipped": [
+            [
+              379.9104556355607,
+              27.254042980442794
+            ],
+            [
+              285.1599554183571,
+              25.511237000385854
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "displacement": 7.749626733776808,
+          "mathematical_crossing_boundary_angle": -2.7520451329969986,
+          "mathematical_target_interval": [
+            3.531140174182587,
+            3.653528666560448
+          ],
+          "moving": "component:J_EB",
+          "numerical_legal_side_offset_radians": -4.8851374245268507e-08,
+          "orientation_index": 0,
+          "pivot": "net:GND",
+          "positions_evaluated": 1,
+          "radius": 367.7465814914539,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 6,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.2074323551333925,
+          "signed_delta_radians": -0.021073670092187156,
+          "target_centerline_distance": 6.000016852812271,
+          "target_interval": [
+            3.5136908323294844,
+            3.6748417317381734
+          ],
+          "theta_new": 3.5136907834781104,
+          "theta_old": -2.748420853609289,
+          "valid": true,
+          "visible_clearance_boundary_angle": -2.769494474850102,
+          "visible_clearance_boundary_feature": "STRIP_1"
+        },
+        {
+          "clipped": [
+            [
+              379.9104556355607,
+              27.254042980442794
+            ],
+            [
+              35.544945163644,
+              20.9199099721735
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "mathematical_target_interval": [
+            0.03155555253901,
+            3.155022352036006
+          ],
+          "moving": "net:GND",
+          "orientation_index": 1,
+          "pivot": "component:J_EB",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.023988296161944866,
+          "clipped": [
+            [
+              285.6683521083007,
+              24.279193860772487
+            ],
+            [
+              377.46731562747004,
+              62.35441998434061
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EB",
+            "net:GND"
+          ],
+          "displacement": 9.970784730419362,
+          "mathematical_crossing_boundary_angle": 0.013429698446212775,
+          "mathematical_target_interval": [
+            0.013429698446212841,
+            0.12059304179564653
+          ],
+          "moving": "component:J_PWR",
+          "numerical_legal_side_offset_radians": -3.1660915685206076e-08,
+          "orientation_index": 2,
+          "pivot": "net:-9V",
+          "positions_evaluated": 1,
+          "radius": 344.423759406273,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 10,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.658723646093159,
+          "signed_delta_radians": -0.028950189005010802,
+          "target_centerline_distance": 6.000007917571739,
+          "target_interval": [
+            6.272626709463854,
+            0.13863673777450458
+          ],
+          "theta_new": 6.272626677802938,
+          "theta_old": 0.018391559628363027,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.010558597715732091,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.0636771404945069,
+          "clipped": [
+            [
+              285.6683521083007,
+              24.279193860772487
+            ],
+            [
+              625.3553280491062,
+              165.1703098860251
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EB",
+            "net:GND"
+          ],
+          "displacement": 26.45941474620294,
+          "mathematical_crossing_boundary_angle": -3.1100371010507835,
+          "mathematical_target_interval": [
+            0.511936012970655,
+            3.1731482061288028
+          ],
+          "moving": "net:-9V",
+          "numerical_legal_side_offset_radians": 3.9087896530286425e-08,
+          "orientation_index": 3,
+          "pivot": "component:J_PWR",
+          "positions_evaluated": 1,
+          "radius": 344.423759406273,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 0.9999999999999867,
+          "resulting_total_crossings": 9,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 4.402674876688523,
+          "signed_delta_radians": 0.07684117249305006,
+          "target_centerline_distance": 6.000003678090738,
+          "target_interval": [
+            0.4906229477929287,
+            3.2368253466233097
+          ],
+          "theta_new": 3.236825385711206,
+          "theta_old": -3.12320109396143,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.0463599605562766,
+          "visible_clearance_boundary_feature": "CAP_A"
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_EA",
+          "net:GND"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+          "clipped": [
+            [
+              466.0227562052697,
+              24.279193860772477
+            ],
+            [
+              466.99365628592125,
+              25.13772011393609
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EA",
+            "net:GND"
+          ],
+          "displacement": 6.203842053740738,
+          "mathematical_crossing_boundary_angle": 0.013429698446212812,
+          "mathematical_target_interval": [
+            0.013429698446212827,
+            0.016796133513809212
+          ],
+          "moving": "component:C1",
+          "numerical_legal_side_offset_radians": -4.434445025043323e-08,
+          "orientation_index": 0,
+          "pivot": "net:+9V",
+          "positions_evaluated": 1,
+          "radius": 251.12972930919932,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.092184041363219,
+          "resulting_total_crossings": 3,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.4154556952045243,
+          "signed_delta_radians": -0.02470436229742426,
+          "target_centerline_distance": 6.000011089394007,
+          "target_interval": [
+            6.272626709463854,
+            0.04782049358516719
+          ],
+          "theta_new": 6.272626665119404,
+          "theta_old": 0.01414572023724151,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.010558597715732499,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              466.0227562052697,
+              24.279193860772477
+            ],
+            [
+              625.3553280491062,
+              165.1703098860251
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EA",
+            "net:GND"
+          ],
+          "mathematical_target_interval": [
+            0.7264353304849057,
+            3.3358200669795277
+          ],
+          "moving": "net:+9V",
+          "orientation_index": 1,
+          "pivot": "component:C1",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02960463648610734,
+          "clipped": [
+            [
+              467.00395328344604,
+              24.472202393688125
+            ],
+            [
+              465.86649056298836,
+              24.456111090952515
+            ]
+          ],
+          "crossed_edge": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "displacement": 6.532428996378393,
+          "mathematical_crossing_boundary_angle": -2.4186529480221557,
+          "mathematical_target_interval": [
+            3.86453235915743,
+            3.8680279840746987
+          ],
+          "moving": "component:J_EA",
+          "numerical_legal_side_offset_radians": 8.446517605117932e-08,
+          "orientation_index": 2,
+          "pivot": "net:GND",
+          "positions_evaluated": 1,
+          "radius": 212.69032659059164,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.074336661888837,
+          "resulting_total_crossings": 2,
+          "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+          "signed_delta_degrees": 1.7598135747335928,
+          "signed_delta_radians": 0.030714541100392487,
+          "target": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "target_centerline_distance": 6.000017884913169,
+          "target_interval": [
+            3.827938097077161,
+            3.896356635941756
+          ],
+          "theta_new": 3.8963567204069323,
+          "theta_old": -2.4175431278730466,
+          "valid": true,
+          "visible_clearance_boundary_angle": -2.38682867123783,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              467.00395328344604,
+              24.472202393688125
+            ],
+            [
+              253.35125092946407,
+              21.44972943521079
+            ]
+          ],
+          "crossed_edge": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "mathematical_target_interval": [
+            0.19422741338973468,
+            3.1548962576379163
+          ],
+          "moving": "net:GND",
+          "orientation_index": 3,
+          "pivot": "component:J_EA",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:C2",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.017502714975018208,
+          "clipped": [
+            [
+              379.9104556355607,
+              27.254042980442794
+            ],
+            [
+              286.21183439747614,
+              25.530584876870968
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "displacement": 7.564615670478662,
+          "mathematical_crossing_boundary_angle": -2.7510047604165497,
+          "mathematical_target_interval": [
+            3.5321805467630365,
+            3.653528666560448
+          ],
+          "moving": "component:C2",
+          "numerical_legal_side_offset_radians": -4.898193479173853e-08,
+          "orientation_index": 0,
+          "pivot": "net:GND",
+          "positions_evaluated": 1,
+          "radius": 366.7663589901144,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 2,
+          "selection_status": "ACCEPTED_GLOBAL_MOVE",
+          "signed_delta_degrees": -1.1817556971389738,
+          "signed_delta_radians": -0.020625527869276024,
+          "target": [
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ],
+          "target_centerline_distance": 6.000016846662411,
+          "target_interval": [
+            3.5146778317880183,
+            3.6748417317381743
+          ],
+          "theta_new": 3.5146777828060833,
+          "theta_old": -2.7478819965042267,
+          "valid": true,
+          "visible_clearance_boundary_angle": -2.768507475391568,
+          "visible_clearance_boundary_feature": "STRIP_1"
+        },
+        {
+          "clipped": [
+            [
+              379.9104556355607,
+              27.254042980442794
+            ],
+            [
+              35.544945163644,
+              20.9199099721735
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_PWR",
+            "net:-9V"
+          ],
+          "mathematical_target_interval": [
+            0.02981974002335074,
+            3.1557383738270346
+          ],
+          "moving": "net:GND",
+          "orientation_index": 1,
+          "pivot": "component:C2",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02389430750580379,
+          "clipped": [
+            [
+              286.64954918647703,
+              24.472202393688132
+            ],
+            [
+              377.4853506052187,
+              62.205321075876654
+            ]
+          ],
+          "crossed_edge": [
+            "component:C2",
+            "net:GND"
+          ],
+          "displacement": 9.691826304240587,
+          "mathematical_crossing_boundary_angle": 0.014145720237241474,
+          "mathematical_target_interval": [
+            0.014145720237241512,
+            0.12015699260170089
+          ],
+          "moving": "component:J_PWR",
+          "numerical_legal_side_offset_radians": -3.1660915685206076e-08,
+          "orientation_index": 2,
+          "pivot": "net:-9V",
+          "positions_evaluated": 1,
+          "radius": 344.423759406273,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 7,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.6123134661088265,
+          "signed_delta_radians": -0.02814017855784103,
+          "target_centerline_distance": 6.000007948727495,
+          "target_interval": [
+            6.2734367199110235,
+            0.13820543356055115
+          ],
+          "theta_new": 6.273436688250108,
+          "theta_old": 0.018391559628363027,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.009748587268562318,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.06435144202670529,
+          "clipped": [
+            [
+              286.64954918647703,
+              24.472202393688132
+            ],
+            [
+              625.3553280491062,
+              165.1703098860251
+            ]
+          ],
+          "crossed_edge": [
+            "component:C2",
+            "net:GND"
+          ],
+          "displacement": 26.094071245506044,
+          "mathematical_crossing_boundary_angle": -3.1117729135664436,
+          "mathematical_target_interval": [
+            0.511936012970655,
+            3.1714123936131435
+          ],
+          "moving": "net:-9V",
+          "numerical_legal_side_offset_radians": 3.9087896530286425e-08,
+          "orientation_index": 3,
+          "pivot": "component:J_PWR",
+          "positions_evaluated": 1,
+          "radius": 344.423759406273,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 7,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 4.341854777429383,
+          "signed_delta_radians": 0.07577966150958831,
+          "target_centerline_distance": 6.000003639445398,
+          "target_interval": [
+            0.4906229477929287,
+            3.235763835639848
+          ],
+          "theta_new": 3.2357638747277444,
+          "theta_old": -3.12320109396143,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.0474214715397383,
+          "visible_clearance_boundary_feature": "CAP_A"
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -63.98862994744414,
+              12.592263277480882
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 107.64499896923296,
+          "mathematical_crossing_boundary_angle": -3.3450149285531467,
+          "mathematical_target_interval": [
+            2.9381703786264395,
+            5.779224313285385
+          ],
+          "moving": "component:JP1",
+          "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+          "orientation_index": 0,
+          "pivot": "net:NODE_C",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 2,
+          "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+          "signed_delta_degrees": -35.82990681029053,
+          "signed_delta_radians": -0.625349844522309,
+          "target": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ]
+          ],
+          "target_centerline_distance": 6.000010938734505,
+          "target_interval": [
+            2.8937349390774076,
+            5.831363434761927
+          ],
+          "theta_new": 2.8937348580127993,
+          "theta_old": -2.764100604644478,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.3894503681021786,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -157.65008786685547,
+              45.89497322476123
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 30.495543323899245,
+          "mathematical_crossing_boundary_angle": 0.24358475278364078,
+          "mathematical_target_interval": [
+            0.24358475278364064,
+            1.2512737429220446
+          ],
+          "moving": "net:NODE_C",
+          "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+          "orientation_index": 1,
+          "pivot": "component:JP1",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 6,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -9.99861141584437,
+          "signed_delta_radians": -0.1745086898339762,
+          "target_centerline_distance": 6.000014060712275,
+          "target_interval": [
+            0.2029834530625989,
+            1.3133779953526739
+          ],
+          "theta_new": 0.2029833591113391,
+          "theta_old": 0.3774920489453153,
+          "valid": true,
+          "visible_clearance_boundary_angle": 0.2029834530625989,
+          "visible_clearance_boundary_feature": "STRIP_1"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+          "clipped": [
+            [
+              -311.374934007219,
+              10.071399760090646
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 52.95967034554673,
+          "mathematical_crossing_boundary_angle": 2.637631659695592,
+          "mathematical_target_interval": [
+            2.637631659695592,
+            3.151782289109012
+          ],
+          "moving": "component:R3",
+          "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+          "orientation_index": 2,
+          "pivot": "net:NODE_B",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 4,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -12.288600543742753,
+          "signed_delta_radians": -0.2144765399506765,
+          "target_centerline_distance": 6.000005753449,
+          "target_interval": [
+            2.58549253821905,
+            3.1776420852112763
+          ],
+          "theta_new": 2.5854924881770667,
+          "theta_old": 2.799969028127743,
+          "valid": true,
+          "visible_clearance_boundary_angle": 2.58549253821905,
+          "visible_clearance_boundary_feature": "CAP_B"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -327.4576207518456,
+              3.6944925644036397
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 45.12142974769387,
+          "mathematical_crossing_boundary_angle": -0.20342227496335308,
+          "mathematical_target_interval": [
+            4.392866396511837,
+            6.079763032216232
+          ],
+          "moving": "net:NODE_B",
+          "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+          "orientation_index": 3,
+          "pivot": "component:R3",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 6,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 10.464321036368828,
+          "signed_delta_radians": 0.18263685607034133,
+          "target_centerline_distance": 6.000008908990663,
+          "target_interval": [
+            4.330762144081207,
+            6.124198471765265
+          ],
+          "theta_new": 6.124198537787877,
+          "theta_old": -0.3416236254620503,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.15898683541432124,
+          "visible_clearance_boundary_feature": "CAP_B"
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_EA",
+          "net:GND"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02398829616194531,
+          "clipped": [
+            [
+              466.0227562052697,
+              24.279193860772477
+            ],
+            [
+              466.99365628592125,
+              25.13772011393609
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EA",
+            "net:GND"
+          ],
+          "displacement": 6.203842053740738,
+          "mathematical_crossing_boundary_angle": 0.013429698446212812,
+          "mathematical_target_interval": [
+            0.013429698446212827,
+            0.016796133513809212
+          ],
+          "moving": "component:C1",
+          "numerical_legal_side_offset_radians": -4.434445025043323e-08,
+          "orientation_index": 0,
+          "pivot": "net:+9V",
+          "positions_evaluated": 1,
+          "radius": 251.12972930919932,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.092184041363219,
+          "resulting_total_crossings": 2,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -1.4154556952045243,
+          "signed_delta_radians": -0.02470436229742426,
+          "target_centerline_distance": 6.000011089394007,
+          "target_interval": [
+            6.272626709463854,
+            0.04782049358516719
+          ],
+          "theta_new": 6.272626665119404,
+          "theta_old": 0.01414572023724151,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.010558597715732499,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              466.0227562052697,
+              24.279193860772477
+            ],
+            [
+              625.3553280491062,
+              165.1703098860251
+            ]
+          ],
+          "crossed_edge": [
+            "component:J_EA",
+            "net:GND"
+          ],
+          "mathematical_target_interval": [
+            0.7264353304849057,
+            3.3358200669795277
+          ],
+          "moving": "net:+9V",
+          "orientation_index": 1,
+          "pivot": "component:C1",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.02960463648610734,
+          "clipped": [
+            [
+              467.00395328344604,
+              24.472202393688125
+            ],
+            [
+              465.86649056298836,
+              24.456111090952515
+            ]
+          ],
+          "crossed_edge": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "displacement": 6.532428996378393,
+          "mathematical_crossing_boundary_angle": -2.4186529480221557,
+          "mathematical_target_interval": [
+            3.86453235915743,
+            3.8680279840746987
+          ],
+          "moving": "component:J_EA",
+          "numerical_legal_side_offset_radians": 8.446517605117932e-08,
+          "orientation_index": 2,
+          "pivot": "net:GND",
+          "positions_evaluated": 1,
+          "radius": 212.69032659059164,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.074336661888837,
+          "resulting_total_crossings": 1,
+          "selection_status": "ACCEPTED_GLOBAL_MOVE",
+          "signed_delta_degrees": 1.7598135747335928,
+          "signed_delta_radians": 0.030714541100392487,
+          "target": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "target_centerline_distance": 6.000017884913169,
+          "target_interval": [
+            3.827938097077161,
+            3.896356635941756
+          ],
+          "theta_new": 3.8963567204069323,
+          "theta_old": -2.4175431278730466,
+          "valid": true,
+          "visible_clearance_boundary_angle": -2.38682867123783,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "clipped": [
+            [
+              467.00395328344604,
+              24.472202393688125
+            ],
+            [
+              253.35125092946407,
+              21.44972943521079
+            ]
+          ],
+          "crossed_edge": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "mathematical_target_interval": [
+            0.19422741338973468,
+            3.1548962576379163
+          ],
+          "moving": "net:GND",
+          "orientation_index": 3,
+          "pivot": "component:J_EA",
+          "positions_evaluated": 0,
+          "reason": "no analytic finite-segment clearance escape exists",
+          "resulting_total_crossings": null,
+          "selection_status": "REJECTED_GEOMETRICALLY_INVALID",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -63.98862994744414,
+              12.592263277480882
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 107.64499896923296,
+          "mathematical_crossing_boundary_angle": -3.3450149285531467,
+          "mathematical_target_interval": [
+            2.9381703786264395,
+            5.779224313285385
+          ],
+          "moving": "component:JP1",
+          "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+          "orientation_index": 0,
+          "pivot": "net:NODE_C",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 1,
+          "selection_status": "REJECTED_BETTER_GLOBAL_MOVE_AVAILABLE",
+          "signed_delta_degrees": -35.82990681029053,
+          "signed_delta_radians": -0.625349844522309,
+          "target": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ]
+          ],
+          "target_centerline_distance": 6.000010938734505,
+          "target_interval": [
+            2.8937349390774076,
+            5.831363434761927
+          ],
+          "theta_new": 2.8937348580127993,
+          "theta_old": -2.764100604644478,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.3894503681021786,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -157.65008786685547,
+              45.89497322476123
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 30.495543323899245,
+          "mathematical_crossing_boundary_angle": 0.24358475278364078,
+          "mathematical_target_interval": [
+            0.24358475278364064,
+            1.2512737429220446
+          ],
+          "moving": "net:NODE_C",
+          "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+          "orientation_index": 1,
+          "pivot": "component:JP1",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 5,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -9.99861141584437,
+          "signed_delta_radians": -0.1745086898339762,
+          "target_centerline_distance": 6.000014060712275,
+          "target_interval": [
+            0.2029834530625989,
+            1.3133779953526739
+          ],
+          "theta_new": 0.2029833591113391,
+          "theta_old": 0.3774920489453153,
+          "valid": true,
+          "visible_clearance_boundary_angle": 0.2029834530625989,
+          "visible_clearance_boundary_feature": "STRIP_1"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+          "clipped": [
+            [
+              -311.374934007219,
+              10.071399760090646
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 52.95967034554673,
+          "mathematical_crossing_boundary_angle": 2.637631659695592,
+          "mathematical_target_interval": [
+            2.637631659695592,
+            3.151782289109012
+          ],
+          "moving": "component:R3",
+          "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+          "orientation_index": 2,
+          "pivot": "net:NODE_B",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 3,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -12.288600543742753,
+          "signed_delta_radians": -0.2144765399506765,
+          "target_centerline_distance": 6.000005753449,
+          "target_interval": [
+            2.58549253821905,
+            3.1776420852112763
+          ],
+          "theta_new": 2.5854924881770667,
+          "theta_old": 2.799969028127743,
+          "valid": true,
+          "visible_clearance_boundary_angle": 2.58549253821905,
+          "visible_clearance_boundary_feature": "CAP_B"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -327.4576207518456,
+              3.6944925644036397
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 45.12142974769387,
+          "mathematical_crossing_boundary_angle": -0.20342227496335308,
+          "mathematical_target_interval": [
+            4.392866396511837,
+            6.079763032216232
+          ],
+          "moving": "net:NODE_B",
+          "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+          "orientation_index": 3,
+          "pivot": "component:R3",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 1.000000000000043,
+          "resulting_total_crossings": 5,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 10.464321036368828,
+          "signed_delta_radians": 0.18263685607034133,
+          "target_centerline_distance": 6.000008908990663,
+          "target_interval": [
+            4.330762144081207,
+            6.124198471765265
+          ],
+          "theta_new": 6.124198537787877,
+          "theta_old": -0.3416236254620503,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.15898683541432124,
+          "visible_clearance_boundary_feature": "CAP_B"
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      },
+      "solutions": [
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -63.98862994744414,
+              12.592263277480882
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 107.64499896923296,
+          "mathematical_crossing_boundary_angle": -3.3450149285531467,
+          "mathematical_target_interval": [
+            2.9381703786264395,
+            5.779224313285385
+          ],
+          "moving": "component:JP1",
+          "numerical_legal_side_offset_radians": -8.106460842358396e-08,
+          "orientation_index": 0,
+          "pivot": "net:NODE_C",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.074336661888837,
+          "resulting_total_crossings": 0,
+          "selection_status": "ACCEPTED_GLOBAL_MOVE",
+          "signed_delta_degrees": -35.82990681029053,
+          "signed_delta_radians": -0.625349844522309,
+          "target": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ]
+          ],
+          "target_centerline_distance": 6.000010938734505,
+          "target_interval": [
+            2.8937349390774076,
+            5.831363434761927
+          ],
+          "theta_new": 2.8937348580127993,
+          "theta_old": -2.764100604644478,
+          "valid": true,
+          "visible_clearance_boundary_angle": -3.3894503681021786,
+          "visible_clearance_boundary_feature": "CAP_A"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04060129972104187,
+          "clipped": [
+            [
+              -297.0910668648412,
+              95.47526571102958
+            ],
+            [
+              -157.65008786685547,
+              45.89497322476123
+            ]
+          ],
+          "crossed_edge": [
+            "component:R3",
+            "net:NODE_B"
+          ],
+          "displacement": 30.495543323899245,
+          "mathematical_crossing_boundary_angle": 0.24358475278364078,
+          "mathematical_target_interval": [
+            0.24358475278364064,
+            1.2512737429220446
+          ],
+          "moving": "net:NODE_C",
+          "numerical_legal_side_offset_radians": -9.395125980106945e-08,
+          "orientation_index": 1,
+          "pivot": "component:JP1",
+          "positions_evaluated": 1,
+          "radius": 174.97279443516985,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.074336661888837,
+          "resulting_total_crossings": 4,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -9.99861141584437,
+          "signed_delta_radians": -0.1745086898339762,
+          "target_centerline_distance": 6.000014060712275,
+          "target_interval": [
+            0.2029834530625989,
+            1.3133779953526739
+          ],
+          "theta_new": 0.2029833591113391,
+          "theta_old": 0.3774920489453153,
+          "valid": true,
+          "visible_clearance_boundary_angle": 0.2029834530625989,
+          "visible_clearance_boundary_feature": "STRIP_1"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.052139121476542094,
+          "clipped": [
+            [
+              -311.374934007219,
+              10.071399760090646
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 52.95967034554673,
+          "mathematical_crossing_boundary_angle": 2.637631659695592,
+          "mathematical_target_interval": [
+            2.637631659695592,
+            3.151782289109012
+          ],
+          "moving": "component:R3",
+          "numerical_legal_side_offset_radians": -5.00419834521091e-08,
+          "orientation_index": 2,
+          "pivot": "net:NODE_B",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.074336661888837,
+          "resulting_total_crossings": 2,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": -12.288600543742753,
+          "signed_delta_radians": -0.2144765399506765,
+          "target_centerline_distance": 6.000005753449,
+          "target_interval": [
+            2.58549253821905,
+            3.1776420852112763
+          ],
+          "theta_new": 2.5854924881770667,
+          "theta_old": 2.799969028127743,
+          "valid": true,
+          "visible_clearance_boundary_angle": 2.58549253821905,
+          "visible_clearance_boundary_feature": "CAP_B"
+        },
+        {
+          "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+          "clipped": [
+            [
+              -327.4576207518456,
+              3.6944925644036397
+            ],
+            [
+              -164.80431705291707,
+              68.18776033923683
+            ]
+          ],
+          "crossed_edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "displacement": 45.12142974769387,
+          "mathematical_crossing_boundary_angle": -0.20342227496335308,
+          "mathematical_target_interval": [
+            4.392866396511837,
+            6.079763032216232
+          ],
+          "moving": "net:NODE_B",
+          "numerical_legal_side_offset_radians": 6.602261228284357e-08,
+          "orientation_index": 3,
+          "pivot": "component:R3",
+          "positions_evaluated": 1,
+          "radius": 247.3991475111196,
+          "reason": null,
+          "reconnection": {
+            "electrical_incidence_count": 44,
+            "endpoint_identities_unchanged": true,
+            "failures": [],
+            "graph_edge_count": 44,
+            "materialized_edge_count": 44,
+            "valid": true
+          },
+          "required_centerline_clearance": 6.0,
+          "resulting_minimum_node_distance": 6.074336661888837,
+          "resulting_total_crossings": 4,
+          "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "signed_delta_degrees": 10.464321036368828,
+          "signed_delta_radians": 0.18263685607034133,
+          "target_centerline_distance": 6.000008908990663,
+          "target_interval": [
+            4.330762144081207,
+            6.124198471765265
+          ],
+          "theta_new": 6.124198537787877,
+          "theta_old": -0.3416236254620503,
+          "valid": true,
+          "visible_clearance_boundary_angle": -0.15898683541432124,
+          "visible_clearance_boundary_feature": "CAP_B"
+        }
+      ]
+    }
+  ],
+  "initial_crossing_count": 6,
+  "initial_crossings": [
+    {
+      "edge_a": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "edge_b": [
+        "component:J_EA",
+        "net:GND"
+      ]
+    },
+    {
+      "edge_a": [
+        "component:C2",
+        "net:-9V"
+      ],
+      "edge_b": [
+        "component:J_EB",
+        "net:GND"
+      ]
+    },
+    {
+      "edge_a": [
+        "component:C2",
+        "net:GND"
+      ],
+      "edge_b": [
+        "component:J_PWR",
+        "net:-9V"
+      ]
+    },
+    {
+      "edge_a": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "edge_b": [
+        "component:R3",
+        "net:NODE_B"
+      ]
+    },
+    {
+      "edge_a": [
+        "component:J_EB",
+        "net:EB"
+      ],
+      "edge_b": [
+        "component:U1",
+        "net:-9V"
+      ]
+    },
+    {
+      "edge_a": [
+        "component:J_EB",
+        "net:GND"
+      ],
+      "edge_b": [
+        "component:J_PWR",
+        "net:-9V"
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "absolute_rotation_degrees": 28.711790799898072,
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.34528370878184456,
+      "all_incident_edges_regenerated": true,
+      "clipped_crossed_segment": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          35.54494516364402,
+          20.9199099721735
+        ]
+      ],
+      "crossing_being_repaired": {
+        "edge_a": [
+          "component:J_EB",
+          "net:EB"
+        ],
+        "edge_b": [
+          "component:U1",
+          "net:-9V"
+        ]
+      },
+      "crossing_count_after": 3,
+      "crossing_count_before": 6,
+      "crossings_newly_created": [],
+      "crossings_removed": [
+        {
+          "edge_a": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "edge_b": [
+            "component:J_EB",
+            "net:GND"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "edge_b": [
+            "component:U1",
+            "net:-9V"
+          ]
+        },
+        {
+          "edge_a": [
+            "component:J_EB",
+            "net:GND"
+          ],
+          "edge_b": [
+            "component:J_PWR",
+            "net:-9V"
+          ]
+        }
+      ],
+      "end_position": [
+        249.6300782232805,
+        152.01388547886967
+      ],
+      "incident_edges_regenerated": [
+        {
+          "edge": [
+            "component:J_EB",
+            "net:EB"
+          ],
+          "segment_end": [
+            18.105015046643143,
+            17.741686325829406
+          ],
+          "segment_start": [
+            249.6300782232805,
+            152.01388547886967
+          ]
+        },
+        {
+          "edge": [
+            "component:J_EB",
+            "net:GND"
+          ],
+          "segment_end": [
+            625.3553280491062,
+            165.1703098860251
+          ],
+          "segment_start": [
+            249.6300782232805,
+            152.01388547886967
+          ]
+        }
+      ],
+      "iteration": 1,
+      "mathematical_crossing_boundary_angle": 0.1802601679495121,
+      "minimum_node_distance_after": 1.000000000000043,
+      "moved_vertex_degree": 2,
+      "moved_vertex_neighbors": [
+        "net:EB",
+        "net:GND"
+      ],
+      "moving_vertex": "component:J_EB",
+      "moving_vertex_displacement": 132.72116872368971,
+      "pivot_position": [
+        18.105015046643143,
+        17.741686325829406
+      ],
+      "pivot_vertex": "net:EB",
+      "preserved_edge_length_before": 267.64319222490906,
+      "radius": 267.64319222490906,
+      "reconnection_validation": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_target_centerline_distance": 6.000000695053335,
+      "signed_rotation_degrees": 28.711790799898072,
+      "signed_rotation_radians": 0.5011152836020377,
+      "start_position": [
+        285.6683521083007,
+        24.279193860772487
+      ],
+      "target_forbidden_angular_interval": [
+        3.677889591971856,
+        0.5255438767313567
+      ],
+      "theta_new": 0.5255439183989846,
+      "theta_old": 0.024428634796946853,
+      "visible_clearance_boundary_angle": 0.5255438767313567,
+      "visible_clearance_boundary_feature": "CAP_B"
+    },
+    {
+      "absolute_rotation_degrees": 1.1817556971389738,
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.017502714975018208,
+      "all_incident_edges_regenerated": true,
+      "clipped_crossed_segment": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          286.21183439747614,
+          25.530584876870968
+        ]
+      ],
+      "crossing_being_repaired": {
+        "edge_a": [
+          "component:C2",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:-9V"
+        ]
+      },
+      "crossing_count_after": 2,
+      "crossing_count_before": 3,
+      "crossings_newly_created": [],
+      "crossings_removed": [
+        {
+          "edge_a": [
+            "component:C2",
+            "net:GND"
+          ],
+          "edge_b": [
+            "component:J_PWR",
+            "net:-9V"
+          ]
+        }
+      ],
+      "end_position": [
+        283.81982446582094,
+        31.487618863674726
+      ],
+      "incident_edges_regenerated": [
+        {
+          "edge": [
+            "component:C2",
+            "net:-9V"
+          ],
+          "segment_end": [
+            35.54494516364402,
+            20.9199099721735
+          ],
+          "segment_start": [
+            283.81982446582094,
+            31.487618863674726
+          ]
+        },
+        {
+          "edge": [
+            "component:C2",
+            "net:GND"
+          ],
+          "segment_end": [
+            625.3553280491062,
+            165.1703098860251
+          ],
+          "segment_start": [
+            283.81982446582094,
+            31.487618863674726
+          ]
+        }
+      ],
+      "iteration": 2,
+      "mathematical_crossing_boundary_angle": -2.7510047604165497,
+      "minimum_node_distance_after": 1.000000000000043,
+      "moved_vertex_degree": 2,
+      "moved_vertex_neighbors": [
+        "net:-9V",
+        "net:GND"
+      ],
+      "moving_vertex": "component:C2",
+      "moving_vertex_displacement": 7.564615670478662,
+      "pivot_position": [
+        625.3553280491062,
+        165.1703098860251
+      ],
+      "pivot_vertex": "net:GND",
+      "preserved_edge_length_before": 366.7663589901144,
+      "radius": 366.7663589901144,
+      "reconnection_validation": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_target_centerline_distance": 6.000016846662411,
+      "signed_rotation_degrees": -1.1817556971389738,
+      "signed_rotation_radians": -0.020625527869276024,
+      "start_position": [
+        286.64954918647703,
+        24.472202393688132
+      ],
+      "target_forbidden_angular_interval": [
+        3.5146778317880183,
+        3.6748417317381743
+      ],
+      "theta_new": 3.5146777828060833,
+      "theta_old": -2.7478819965042267,
+      "visible_clearance_boundary_angle": -2.768507475391568,
+      "visible_clearance_boundary_feature": "STRIP_1"
+    },
+    {
+      "absolute_rotation_degrees": 1.7598135747335928,
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.02960463648610734,
+      "all_incident_edges_regenerated": true,
+      "clipped_crossed_segment": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          465.86649056298836,
+          24.456111090952515
+        ]
+      ],
+      "crossing_being_repaired": {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_EA",
+          "net:GND"
+        ]
+      },
+      "crossing_count_after": 1,
+      "crossing_count_before": 2,
+      "crossings_newly_created": [],
+      "crossings_removed": [
+        {
+          "edge_a": [
+            "component:C1",
+            "net:+9V"
+          ],
+          "edge_b": [
+            "component:J_EA",
+            "net:GND"
+          ]
+        }
+      ],
+      "end_position": [
+        470.42463172536304,
+        19.452588376757035
+      ],
+      "incident_edges_regenerated": [
+        {
+          "edge": [
+            "component:J_EA",
+            "net:EA"
+          ],
+          "segment_end": [
+            198.4594191436121,
+            17.741686325829395
+          ],
+          "segment_start": [
+            470.42463172536304,
+            19.452588376757035
+          ]
+        },
+        {
+          "edge": [
+            "component:J_EA",
+            "net:GND"
+          ],
+          "segment_end": [
+            625.3553280491062,
+            165.1703098860251
+          ],
+          "segment_start": [
+            470.42463172536304,
+            19.452588376757035
+          ]
+        }
+      ],
+      "iteration": 3,
+      "mathematical_crossing_boundary_angle": -2.4186529480221557,
+      "minimum_node_distance_after": 6.074336661888837,
+      "moved_vertex_degree": 2,
+      "moved_vertex_neighbors": [
+        "net:EA",
+        "net:GND"
+      ],
+      "moving_vertex": "component:J_EA",
+      "moving_vertex_displacement": 6.532428996378393,
+      "pivot_position": [
+        625.3553280491062,
+        165.1703098860251
+      ],
+      "pivot_vertex": "net:GND",
+      "preserved_edge_length_before": 212.69032659059164,
+      "radius": 212.69032659059164,
+      "reconnection_validation": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_target_centerline_distance": 6.000017884913169,
+      "signed_rotation_degrees": 1.7598135747335928,
+      "signed_rotation_radians": 0.030714541100392487,
+      "start_position": [
+        466.0227562052697,
+        24.279193860772477
+      ],
+      "target_forbidden_angular_interval": [
+        3.827938097077161,
+        3.896356635941756
+      ],
+      "theta_new": 3.8963567204069323,
+      "theta_old": -2.4175431278730466,
+      "visible_clearance_boundary_angle": -2.38682867123783,
+      "visible_clearance_boundary_feature": "CAP_A"
+    },
+    {
+      "absolute_rotation_degrees": 35.82990681029053,
+      "additional_boundary_rotation_for_visible_clearance_radians": 0.04443543954903184,
+      "all_incident_edges_regenerated": true,
+      "clipped_crossed_segment": [
+        [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        [
+          -63.98862994744414,
+          12.592263277480882
+        ]
+      ],
+      "crossing_being_repaired": {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      },
+      "crossing_count_after": 0,
+      "crossing_count_before": 1,
+      "crossings_newly_created": [],
+      "crossings_removed": [
+        {
+          "edge_a": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "edge_b": [
+            "component:R3",
+            "net:NODE_B"
+          ]
+        }
+      ],
+      "end_position": [
+        -334.42997578032566,
+        111.11344837967394
+      ],
+      "incident_edges_regenerated": [
+        {
+          "edge": [
+            "component:JP1",
+            "net:NODE_C"
+          ],
+          "segment_end": [
+            -164.80431705291707,
+            68.18776033923683
+          ],
+          "segment_start": [
+            -334.42997578032566,
+            111.11344837967394
+          ]
+        },
+        {
+          "edge": [
+            "component:JP1",
+            "net:RA_SW"
+          ],
+          "segment_end": [
+            -368.94423346013093,
+            -356.4290471710813
+          ],
+          "segment_start": [
+            -334.42997578032566,
+            111.11344837967394
+          ]
+        }
+      ],
+      "iteration": 4,
+      "mathematical_crossing_boundary_angle": -3.3450149285531467,
+      "minimum_node_distance_after": 6.074336661888837,
+      "moved_vertex_degree": 2,
+      "moved_vertex_neighbors": [
+        "net:NODE_C",
+        "net:RA_SW"
+      ],
+      "moving_vertex": "component:JP1",
+      "moving_vertex_displacement": 107.64499896923296,
+      "pivot_position": [
+        -164.80431705291707,
+        68.18776033923683
+      ],
+      "pivot_vertex": "net:NODE_C",
+      "preserved_edge_length_before": 174.97279443516985,
+      "radius": 174.97279443516985,
+      "reconnection_validation": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "required_centerline_clearance": 6.0,
+      "resulting_target_centerline_distance": 6.000010938734505,
+      "signed_rotation_degrees": -35.82990681029053,
+      "signed_rotation_radians": -0.625349844522309,
+      "start_position": [
+        -327.4576207518456,
+        3.6944925644036397
+      ],
+      "target_forbidden_angular_interval": [
+        2.8937349390774076,
+        5.831363434761927
+      ],
+      "theta_new": 2.8937348580127993,
+      "theta_old": -2.764100604644478,
+      "visible_clearance_boundary_angle": -3.3894503681021786,
+      "visible_clearance_boundary_feature": "CAP_A"
+    }
+  ],
+  "schema": "graph-relax.direct-geometric-endpoint-rotation.v1",
+  "stopping_reason": "ZERO_CROSSINGS"
+}

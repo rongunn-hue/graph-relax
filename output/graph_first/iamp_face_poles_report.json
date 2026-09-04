@@ -1,0 +1,681 @@
+{
+  "bounded_face_count": 11,
+  "coordinates_unchanged": true,
+  "electrical_incidence_count": 44,
+  "face_count": 12,
+  "faces": [
+    {
+      "area": 265911.0934219695,
+      "boundary_cycle": [
+        "component:J_EA",
+        "net:EA",
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:R1_EXT",
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "bounding_box": {
+        "max_x": 678.5504812830113,
+        "max_y": 165.1703098860251,
+        "min_x": -3.554241234402555,
+        "min_y": -446.1526278023859
+      },
+      "face_id": "face:001",
+      "is_bounded": true,
+      "perimeter": 2145.968749224969,
+      "signed_area": 265911.0934219695
+    },
+    {
+      "area": 121152.25577332462,
+      "boundary_cycle": [
+        "component:JP1",
+        "net:NODE_C",
+        "component:R3",
+        "net:NODE_B",
+        "component:TPB",
+        "net:NODE_B",
+        "component:R2",
+        "net:NODE_A",
+        "component:J_RA",
+        "net:RA_SW"
+      ],
+      "bounding_box": {
+        "max_x": -3.554241234402555,
+        "max_y": 111.11344837967394,
+        "min_x": -368.94423346013093,
+        "min_y": -376.02476810571767
+      },
+      "face_id": "face:002",
+      "is_bounded": true,
+      "perimeter": 2002.8519719968026,
+      "signed_area": 121152.25577332462
+    },
+    {
+      "area": 106037.1670316423,
+      "boundary_cycle": [
+        "component:J_R4",
+        "net:EOUT",
+        "component:U1",
+        "net:NODE_C",
+        "component:RMIN4",
+        "net:R4_EXT"
+      ],
+      "bounding_box": {
+        "max_x": 80.85740731952187,
+        "max_y": 476.67600955087613,
+        "min_x": -281.60156205833124,
+        "min_y": 0.0
+      },
+      "face_id": "face:003",
+      "is_bounded": true,
+      "perimeter": 1269.3426169559787,
+      "signed_area": 106037.1670316423
+    },
+    {
+      "area": 38938.62967531015,
+      "boundary_cycle": [
+        "component:C2",
+        "net:-9V",
+        "component:U1",
+        "net:EB",
+        "component:J_EB",
+        "net:GND"
+      ],
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "face_id": "face:004",
+      "is_bounded": true,
+      "perimeter": 1325.4577245864907,
+      "signed_area": 38938.62967531015
+    },
+    {
+      "area": 28084.415059056853,
+      "boundary_cycle": [
+        "component:J_EB",
+        "net:EB",
+        "component:U1",
+        "net:EOUT",
+        "component:J_OUT",
+        "net:GND"
+      ],
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 210.03637591471818,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "face_id": "face:005",
+      "is_bounded": true,
+      "perimeter": 1399.1063780604622,
+      "signed_area": 28084.415059056853
+    },
+    {
+      "area": 20252.40864228177,
+      "boundary_cycle": [
+        "component:R2",
+        "net:NODE_A",
+        "component:U1",
+        "net:NODE_B"
+      ],
+      "bounding_box": {
+        "max_x": 0.0,
+        "max_y": 12.592263277480884,
+        "min_x": -86.6660055998702,
+        "min_y": -311.0261105926718
+      },
+      "face_id": "face:006",
+      "is_bounded": true,
+      "perimeter": 738.2526556731455,
+      "signed_area": 20252.40864228177
+    },
+    {
+      "area": 8179.059493436531,
+      "boundary_cycle": [
+        "component:C2",
+        "net:-9V",
+        "component:J_PWR",
+        "net:GND"
+      ],
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 35.54494516364402,
+        "min_y": 20.9199099721735
+      },
+      "face_id": "face:007",
+      "is_bounded": true,
+      "perimeter": 1241.2285762493218,
+      "signed_area": 8179.059493436531
+    },
+    {
+      "area": 6851.156562943365,
+      "boundary_cycle": [
+        "component:C1",
+        "net:+9V",
+        "component:J_PWR",
+        "net:GND"
+      ],
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 215.899349260613,
+        "min_y": 20.919909972173492
+      },
+      "face_id": "face:008",
+      "is_bounded": true,
+      "perimeter": 908.62991058957,
+      "signed_area": 6851.156562943365
+    },
+    {
+      "area": 3445.7605103615856,
+      "boundary_cycle": [
+        "component:R3",
+        "net:NODE_B",
+        "component:U1",
+        "net:NODE_C"
+      ],
+      "bounding_box": {
+        "max_x": 0.0,
+        "max_y": 95.47526571102958,
+        "min_x": -297.0910668648412,
+        "min_y": 0.0
+      },
+      "face_id": "face:009",
+      "is_bounded": true,
+      "perimeter": 626.0404978485684,
+      "signed_area": 3445.7605103615856
+    },
+    {
+      "area": 2457.6933404854717,
+      "boundary_cycle": [
+        "component:J_PWR",
+        "net:+9V",
+        "component:U1",
+        "net:-9V"
+      ],
+      "bounding_box": {
+        "max_x": 379.9104556355607,
+        "max_y": 27.254042980442794,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "face_id": "face:010",
+      "is_bounded": true,
+      "perimeter": 766.7118690008317,
+      "signed_area": 2457.6933404854717
+    },
+    {
+      "area": 1852.3040550765108,
+      "boundary_cycle": [
+        "component:C1",
+        "net:+9V",
+        "component:U1",
+        "net:EA",
+        "component:J_EA",
+        "net:GND"
+      ],
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "face_id": "face:011",
+      "is_bounded": true,
+      "perimeter": 1363.7800659450775,
+      "signed_area": 1852.3040550765108
+    },
+    {
+      "area": 603161.9435658887,
+      "boundary_cycle": [
+        "component:JP1",
+        "net:NODE_C",
+        "component:TPC",
+        "net:NODE_C",
+        "component:RMIN4",
+        "net:R4_EXT",
+        "component:J_R4",
+        "net:R4_W",
+        "component:J_R4",
+        "net:EOUT",
+        "component:TPO",
+        "net:EOUT",
+        "component:J_OUT",
+        "net:GND",
+        "component:RMIN1",
+        "net:R1_EXT",
+        "component:J_R1",
+        "net:R1_W",
+        "component:J_R1",
+        "net:NODE_A",
+        "component:TPA",
+        "net:NODE_A",
+        "component:J_RA",
+        "net:RA_W",
+        "component:J_RA",
+        "net:RA_SW"
+      ],
+      "bounding_box": {
+        "max_x": 678.5504812830113,
+        "max_y": 476.67600955087613,
+        "min_x": -368.94423346013093,
+        "min_y": -511.325817598459
+      },
+      "face_id": "face:012",
+      "is_bounded": false,
+      "perimeter": 5192.703618394623,
+      "signed_area": -603161.9435658887
+    }
+  ],
+  "proper_crossing_count": 0,
+  "schema": "graph-relax.face-poles.v1",
+  "selected_faces": [
+    {
+      "area": 265911.0934219695,
+      "boundary_vertex_cables": [
+        {
+          "coordinate": [
+            470.42463172536304,
+            19.452588376757035
+          ],
+          "direction_toward_pole": [
+            -0.3920571756135317,
+            -0.9199408519301339
+          ],
+          "distance_to_pole": 357.77109561908486,
+          "vertex": "component:J_EA"
+        },
+        {
+          "coordinate": [
+            198.4594191436121,
+            17.741686325829395
+          ],
+          "direction_toward_pole": [
+            0.3731769689287846,
+            -0.9277601790662957
+          ],
+          "distance_to_pole": 352.9116164248241,
+          "vertex": "net:EA"
+        },
+        {
+          "coordinate": [
+            0.0,
+            0.0
+          ],
+          "direction_toward_pole": [
+            0.7293689512720937,
+            -0.6841205543763806
+          ],
+          "distance_to_pole": 452.66240890149885,
+          "vertex": "component:U1"
+        },
+        {
+          "coordinate": [
+            -3.554241234402555,
+            -237.88823673916076
+          ],
+          "direction_toward_pole": [
+            0.9776354422795248,
+            -0.21030678067746153
+          ],
+          "distance_to_pole": 341.34620459041594,
+          "vertex": "net:NODE_A"
+        },
+        {
+          "coordinate": [
+            102.84623517626561,
+            -377.7214602506761
+          ],
+          "direction_toward_pole": [
+            0.9579974379815247,
+            0.2867767578114287
+          ],
+          "distance_to_pole": 237.27795323071,
+          "vertex": "component:J_R1"
+        },
+        {
+          "coordinate": [
+            404.88025218730104,
+            -446.1526278023859
+          ],
+          "direction_toward_pole": [
+            -0.4802402472281894,
+            0.8771369932582981
+          ],
+          "distance_to_pole": 155.59367661871613,
+          "vertex": "net:R1_EXT"
+        },
+        {
+          "coordinate": [
+            678.5504812830113,
+            -205.02668566046128
+          ],
+          "direction_toward_pole": [
+            -0.9577269618513469,
+            -0.2876787558075655
+          ],
+          "distance_to_pole": 363.7702484106332,
+          "vertex": "component:RMIN1"
+        },
+        {
+          "coordinate": [
+            625.3553280491062,
+            165.1703098860251
+          ],
+          "direction_toward_pole": [
+            -0.5279636636235938,
+            -0.8492669603211658
+          ],
+          "distance_to_pole": 559.1245040658296,
+          "vertex": "net:GND"
+        }
+      ],
+      "boundary_vertex_count": 8,
+      "bounding_box": {
+        "max_x": 678.5504812830113,
+        "max_y": 165.1703098860251,
+        "min_x": -3.554241234402555,
+        "min_y": -446.1526278023859
+      },
+      "face_id": "face:001",
+      "ordered_boundary_cycle": [
+        "component:J_EA",
+        "net:EA",
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:R1_EXT",
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "perimeter": 2145.968749224969,
+      "pole_coordinate": [
+        330.15790646078585,
+        -309.6756581230413
+      ],
+      "pole_source_triangle_indices": [
+        7,
+        4,
+        5
+      ],
+      "pole_to_boundary_minimum_clearance": 116.59223305536474,
+      "strictly_interior_graph_edges": [],
+      "strictly_interior_graph_vertices": [],
+      "visual_location": "RMIN1"
+    },
+    {
+      "area": 121152.25577332462,
+      "boundary_vertex_cables": [
+        {
+          "coordinate": [
+            -334.42997578032566,
+            111.11344837967394
+          ],
+          "direction_toward_pole": [
+            0.43542427355626356,
+            -0.9002253617833703
+          ],
+          "distance_to_pole": 389.5744887231834,
+          "vertex": "component:JP1"
+        },
+        {
+          "coordinate": [
+            -164.80431705291707,
+            68.18776033923683
+          ],
+          "direction_toward_pole": [
+            1.471841409600859e-05,
+            -0.9999999998916842
+          ],
+          "distance_to_pole": 307.77914704529957,
+          "vertex": "net:NODE_C"
+        },
+        {
+          "coordinate": [
+            -297.0910668648412,
+            95.47526571102958
+          ],
+          "direction_toward_pole": [
+            0.36723408836893806,
+            -0.9301285525882081
+          ],
+          "distance_to_pole": 360.2369279508588,
+          "vertex": "component:R3"
+        },
+        {
+          "coordinate": [
+            -63.98862994744413,
+            12.592263277480884
+          ],
+          "direction_toward_pole": [
+            -0.3711929066285171,
+            -0.9285557743445857
+          ],
+          "distance_to_pole": 271.58697077535084,
+          "vertex": "net:NODE_B"
+        },
+        {
+          "coordinate": [
+            -113.59679859782972,
+            30.06981357571914
+          ],
+          "direction_toward_pole": [
+            -0.18654587315338478,
+            -0.9824462515626193
+          ],
+          "distance_to_pole": 274.4793415614725,
+          "vertex": "component:TPB"
+        },
+        {
+          "coordinate": [
+            -63.98862994744413,
+            12.592263277480884
+          ],
+          "direction_toward_pole": [
+            -0.3711929066285171,
+            -0.9285557743445857
+          ],
+          "distance_to_pole": 271.58697077535084,
+          "vertex": "net:NODE_B"
+        },
+        {
+          "coordinate": [
+            -86.6660055998702,
+            -311.0261105926718
+          ],
+          "direction_toward_pole": [
+            -0.7380376378216515,
+            0.6747595461782194
+          ],
+          "distance_to_pole": 105.86693337581754,
+          "vertex": "component:R2"
+        },
+        {
+          "coordinate": [
+            -3.554241234402555,
+            -237.88823673916076
+          ],
+          "direction_toward_pole": [
+            -0.9999442218664836,
+            -0.010561872742693615
+          ],
+          "distance_to_pole": 161.25454027485577,
+          "vertex": "net:NODE_A"
+        },
+        {
+          "coordinate": [
+            -104.4544567673898,
+            -376.02476810571767
+          ],
+          "direction_toward_pole": [
+            -0.40450487202847046,
+            0.9145358432042074
+          ],
+          "distance_to_pole": 149.18319762621704,
+          "vertex": "component:J_RA"
+        },
+        {
+          "coordinate": [
+            -368.94423346013093,
+            -356.4290471710813
+          ],
+          "direction_toward_pole": [
+            0.8679065330710388,
+            0.4967275408638117
+          ],
+          "distance_to_pole": 235.21478252479153,
+          "vertex": "net:RA_SW"
+        }
+      ],
+      "boundary_vertex_count": 10,
+      "bounding_box": {
+        "max_x": -3.554241234402555,
+        "max_y": 111.11344837967394,
+        "min_x": -368.94423346013093,
+        "min_y": -376.02476810571767
+      },
+      "face_id": "face:002",
+      "ordered_boundary_cycle": [
+        "component:JP1",
+        "net:NODE_C",
+        "component:R3",
+        "net:NODE_B",
+        "component:TPB",
+        "net:NODE_B",
+        "component:R2",
+        "net:NODE_A",
+        "component:J_RA",
+        "net:RA_SW"
+      ],
+      "perimeter": 2002.8519719968026,
+      "pole_coordinate": [
+        -164.79978703198074,
+        -239.59138667272535
+      ],
+      "pole_source_triangle_indices": [
+        9,
+        5,
+        6
+      ],
+      "pole_to_boundary_minimum_clearance": 82.9361529639224,
+      "strictly_interior_graph_edges": [],
+      "strictly_interior_graph_vertices": [],
+      "visual_location": "RA_SW"
+    },
+    {
+      "area": 106037.1670316423,
+      "boundary_vertex_cables": [
+        {
+          "coordinate": [
+            44.63753956400488,
+            327.563888644507
+          ],
+          "direction_toward_pole": [
+            -0.20560176884177092,
+            -0.978635740533287
+          ],
+          "distance_to_pole": 182.67687350413112,
+          "vertex": "component:J_R4"
+        },
+        {
+          "coordinate": [
+            80.85740731952187,
+            157.27332591022918
+          ],
+          "direction_toward_pole": [
+            -0.9934538697553348,
+            -0.11423400836944451
+          ],
+          "distance_to_pole": 74.26470248952856,
+          "vertex": "net:EOUT"
+        },
+        {
+          "coordinate": [
+            0.0,
+            0.0
+          ],
+          "direction_toward_pole": [
+            0.04752244250272015,
+            0.9988701704719066
+          ],
+          "distance_to_pole": 148.95806848871237,
+          "vertex": "component:U1"
+        },
+        {
+          "coordinate": [
+            -164.80431705291707,
+            68.18776033923683
+          ],
+          "direction_toward_pole": [
+            0.9053946005824076,
+            0.42457109797561865
+          ],
+          "distance_to_pole": 189.84337678557165,
+          "vertex": "net:NODE_C"
+        },
+        {
+          "coordinate": [
+            -281.60156205833124,
+            236.6461727353019
+          ],
+          "direction_toward_pole": [
+            0.956676515593499,
+            -0.2911529572439234
+          ],
+          "distance_to_pole": 301.75342302022744,
+          "vertex": "component:RMIN4"
+        },
+        {
+          "coordinate": [
+            -190.2794989274509,
+            476.67600955087613
+          ],
+          "direction_toward_pole": [
+            0.5156991676942414,
+            -0.8567697289467379
+          ],
+          "distance_to_pole": 382.70054042347414,
+          "vertex": "net:R4_EXT"
+        }
+      ],
+      "boundary_vertex_count": 6,
+      "bounding_box": {
+        "max_x": 80.85740731952187,
+        "max_y": 476.67600955087613,
+        "min_x": -281.60156205833124,
+        "min_y": 0.0
+      },
+      "face_id": "face:003",
+      "ordered_boundary_cycle": [
+        "component:J_R4",
+        "net:EOUT",
+        "component:U1",
+        "net:NODE_C",
+        "component:RMIN4",
+        "net:R4_EXT"
+      ],
+      "perimeter": 1269.3426169559787,
+      "pole_coordinate": [
+        7.078851245071084,
+        148.78977126448606
+      ],
+      "pole_source_triangle_indices": [
+        5,
+        1,
+        2
+      ],
+      "pole_to_boundary_minimum_clearance": 61.73583435415031,
+      "strictly_interior_graph_edges": [],
+      "strictly_interior_graph_vertices": [],
+      "visual_location": "RMIN4"
+    }
+  ],
+  "source_coordinates": "output/graph_first/iamp_nearness_rotation_direct_report.json#final_coordinates",
+  "vertex_count": 34
+}

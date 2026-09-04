@@ -1,0 +1,1453 @@
+{
+  "area_statistics": {
+    "max_min_area_ratio": 19.151512470046125,
+    "maximum_area": 84847.4828174143,
+    "mean_area": 29426.630648427476,
+    "median_area": 23865.54131308478,
+    "minimum_area": 4430.328045898192,
+    "population_standard_deviation": 18579.70213311265
+  },
+  "cells": {
+    "component:C1": {
+      "area": 24045.680948633468,
+      "polygon": [
+        [
+          643.7112238007887,
+          -30.44683209523387
+        ],
+        [
+          643.7112238007887,
+          -14.947528584291298
+        ],
+        [
+          479.9730947593566,
+          169.33467888378
+        ],
+        [
+          426.8823217809984,
+          133.096243378345
+        ],
+        [
+          423.15125714359226,
+          16.284564531885852
+        ],
+        [
+          629.0087105571532,
+          -41.27363657231555
+        ]
+      ]
+    },
+    "component:C2": {
+      "area": 12802.428524594945,
+      "polygon": [
+        [
+          325.6058555709766,
+          -112.69786299433503
+        ],
+        [
+          335.47269345745497,
+          111.25245850962715
+        ],
+        [
+          240.8051666755972,
+          84.39807390967664
+        ],
+        [
+          254.2244370499743,
+          -1.849875394440005
+        ]
+      ]
+    },
+    "component:JP1": {
+      "area": 8731.367449185029,
+      "polygon": [
+        [
+          -368.94423346013093,
+          199.52056796739492
+        ],
+        [
+          -368.94423346013093,
+          -23.69110062377655
+        ],
+        [
+          -298.85110061094997,
+          143.66857015844212
+        ],
+        [
+          -299.99456564894007,
+          170.50421708501747
+        ]
+      ]
+    },
+    "component:J_EA": {
+      "area": 38721.30962952011,
+      "polygon": [
+        [
+          629.0087105571531,
+          -41.27363657231563
+        ],
+        [
+          423.15125714359226,
+          16.28456453188575
+        ],
+        [
+          334.8650432079975,
+          -149.57351343924887
+        ],
+        [
+          335.245681094003,
+          -210.07976131476278
+        ],
+        [
+          432.2154317570576,
+          -223.73042913444002
+        ]
+      ]
+    },
+    "component:J_EB": {
+      "area": 20581.044236979367,
+      "polygon": [
+        [
+          240.80516667559715,
+          84.39807390967663
+        ],
+        [
+          335.47269345745497,
+          111.25245850962715
+        ],
+        [
+          337.95622618101424,
+          113.8458858021081
+        ],
+        [
+          224.3806613241846,
+          291.41000961172
+        ],
+        [
+          166.36886503358795,
+          190.74818597467265
+        ],
+        [
+          163.67315546383526,
+          104.24428693718892
+        ]
+      ]
+    },
+    "component:J_OUT": {
+      "area": 82750.7333199926,
+      "polygon": [
+        [
+          528.3540596934508,
+          476.67600955087613
+        ],
+        [
+          303.831154032712,
+          476.67600955087613
+        ],
+        [
+          249.50775106175902,
+          412.25954083899666
+        ],
+        [
+          235.9969538352584,
+          378.26571722791016
+        ],
+        [
+          224.38066132418453,
+          291.4100096117199
+        ],
+        [
+          337.95622618101413,
+          113.84588580210811
+        ],
+        [
+          426.88232178099855,
+          133.09624337834504
+        ],
+        [
+          479.9730947593566,
+          169.3346788837799
+        ]
+      ]
+    },
+    "component:J_PWR": {
+      "area": 18071.512007177076,
+      "polygon": [
+        [
+          423.1512571435923,
+          16.28456453188585
+        ],
+        [
+          426.8823217809984,
+          133.09624337834504
+        ],
+        [
+          337.9562261810142,
+          113.84588580210811
+        ],
+        [
+          335.4726934574549,
+          111.2524585096271
+        ],
+        [
+          325.60585557097653,
+          -112.69786299433468
+        ],
+        [
+          334.8650432079975,
+          -149.57351343924887
+        ]
+      ]
+    },
+    "component:J_R1": {
+      "area": 45936.03914806541,
+      "polygon": [
+        [
+          246.2525209677234,
+          -425.9463167171988
+        ],
+        [
+          281.9929556932161,
+          -233.77583088124393
+        ],
+        [
+          185.1185708066843,
+          -204.72243335259367
+        ],
+        [
+          52.27840676009694,
+          -305.80182197059435
+        ],
+        [
+          -1.4504416706485115,
+          -455.8413807715685
+        ],
+        [
+          -1.4865425582915455,
+          -460.25216266291994
+        ]
+      ]
+    },
+    "component:J_R4": {
+      "area": 39654.85535326436,
+      "polygon": [
+        [
+          -81.03638332938692,
+          389.1770824602238
+        ],
+        [
+          -127.7928708936211,
+          315.51509226058397
+        ],
+        [
+          -105.15015894052279,
+          234.26648265792866
+        ],
+        [
+          -78.136452690114,
+          212.45336967734292
+        ],
+        [
+          -55.793198964310065,
+          217.20565707473304
+        ],
+        [
+          235.99695383525855,
+          378.26571722791033
+        ],
+        [
+          249.50775106175908,
+          412.2595408389967
+        ]
+      ]
+    },
+    "component:J_RA": {
+      "area": 23074.965643534786,
+      "polygon": [
+        [
+          -24.918965388939213,
+          -499.3581400642196
+        ],
+        [
+          -1.486542558291494,
+          -460.2521626629198
+        ],
+        [
+          -1.450441670648461,
+          -455.84138077156837
+        ],
+        [
+          -69.79721709783729,
+          -350.57610986344747
+        ],
+        [
+          -232.24595718797255,
+          -306.1180919461011
+        ],
+        [
+          -238.40623438396196,
+          -389.2653436020841
+        ]
+      ]
+    },
+    "component:R2": {
+      "area": 28273.112105378103,
+      "polygon": [
+        [
+          -232.24595718797252,
+          -306.11809194610095
+        ],
+        [
+          -69.79721709783723,
+          -350.57610986344736
+        ],
+        [
+          -44.43718448444226,
+          -275.22188200455963
+        ],
+        [
+          -158.92591994520177,
+          -145.12019456456832
+        ],
+        [
+          -256.89743618755244,
+          -152.85541048675108
+        ]
+      ]
+    },
+    "component:R3": {
+      "area": 23358.859297240284,
+      "polygon": [
+        [
+          -298.8511006109501,
+          143.6685701584422
+        ],
+        [
+          -368.94423346013093,
+          -23.69110062377638
+        ],
+        [
+          -368.94423346013093,
+          -124.7645337082006
+        ],
+        [
+          -277.3798240462032,
+          -139.32335197186825
+        ],
+        [
+          -275.44931093161125,
+          -133.90731890769678
+        ],
+        [
+          -241.25415690273786,
+          31.866932866663753
+        ]
+      ]
+    },
+    "component:RMIN1": {
+      "area": 46099.12539178938,
+      "polygon": [
+        [
+          643.7112238007887,
+          -463.77138593583993
+        ],
+        [
+          643.7112238007887,
+          -30.4468320952339
+        ],
+        [
+          629.0087105571536,
+          -41.273636572315326
+        ],
+        [
+          432.2154317570577,
+          -223.73042913444
+        ]
+      ]
+    },
+    "component:RMIN4": {
+      "area": 43259.19300524225,
+      "polygon": [
+        [
+          -368.94423346013093,
+          407.26385253373894
+        ],
+        [
+          -368.94423346013093,
+          199.52056796739487
+        ],
+        [
+          -299.9945656489401,
+          170.50421708501744
+        ],
+        [
+          -163.3466199620297,
+          193.91713934109856
+        ],
+        [
+          -105.15015894052279,
+          234.2664826579287
+        ],
+        [
+          -127.79287089362109,
+          315.5150922605839
+        ]
+      ]
+    },
+    "component:TPA": {
+      "area": 11986.969395605414,
+      "polygon": [
+        [
+          -1.450441670648459,
+          -455.84138077156837
+        ],
+        [
+          52.27840676009695,
+          -305.80182197059435
+        ],
+        [
+          -44.437184484442284,
+          -275.2218820045596
+        ],
+        [
+          -69.79721709783732,
+          -350.5761098634474
+        ]
+      ]
+    },
+    "component:TPB": {
+      "area": 23500.748925189324,
+      "polygon": [
+        [
+          -275.4493109316112,
+          -133.90731890769663
+        ],
+        [
+          -277.3798240462033,
+          -139.32335197186833
+        ],
+        [
+          -256.8974361875525,
+          -152.85541048675105
+        ],
+        [
+          -158.92591994520174,
+          -145.12019456456832
+        ],
+        [
+          -145.4917604489834,
+          -139.60317701180273
+        ],
+        [
+          -46.8762407556091,
+          140.30649276540063
+        ],
+        [
+          -58.31409648343957,
+          157.79138065987667
+        ]
+      ]
+    },
+    "component:TPC": {
+      "area": 10868.797344642935,
+      "polygon": [
+        [
+          -163.34661996202962,
+          193.91713934109862
+        ],
+        [
+          -299.99456564894024,
+          170.50421708501744
+        ],
+        [
+          -298.85110061095014,
+          143.66857015844215
+        ],
+        [
+          -241.2541569027379,
+          31.866932866663703
+        ]
+      ]
+    },
+    "component:TPO": {
+      "area": 23685.401677536094,
+      "polygon": [
+        [
+          166.36886503358795,
+          190.7481859746727
+        ],
+        [
+          224.38066132418453,
+          291.41000961172
+        ],
+        [
+          235.99695383525844,
+          378.2657172279102
+        ],
+        [
+          -55.793198964309994,
+          217.20565707473307
+        ]
+      ]
+    },
+    "component:U1": {
+      "area": 13456.4806291284,
+      "polygon": [
+        [
+          -56.479392988814595,
+          -118.12682250517038
+        ],
+        [
+          94.78207601851062,
+          -120.38679028538316
+        ],
+        [
+          33.226906141593716,
+          -15.798618504332168
+        ],
+        [
+          -24.707904858493656,
+          43.3226288008883
+        ]
+      ]
+    },
+    "net:+9V": {
+      "area": 10328.222602576974,
+      "polygon": [
+        [
+          254.2244370499743,
+          -1.8498753944399482
+        ],
+        [
+          240.80516667559723,
+          84.39807390967667
+        ],
+        [
+          163.67315546383531,
+          104.24428693718893
+        ],
+        [
+          125.7221472121285,
+          66.65829895386551
+        ],
+        [
+          125.7221472121285,
+          13.426179060001289
+        ]
+      ]
+    },
+    "net:-9V": {
+      "area": 14920.761264153949,
+      "polygon": [
+        [
+          11.26870779349718,
+          104.69304202640305
+        ],
+        [
+          33.22690614159372,
+          -15.798618504332168
+        ],
+        [
+          94.78207601851064,
+          -120.38679028538316
+        ],
+        [
+          98.31632794073587,
+          -120.92072392093779
+        ],
+        [
+          125.7221472121285,
+          13.42617906000126
+        ],
+        [
+          125.7221472121285,
+          66.65829895386554
+        ]
+      ]
+    },
+    "net:EA": {
+      "area": 41091.01693617909,
+      "polygon": [
+        [
+          335.24568109400286,
+          -210.07976131476283
+        ],
+        [
+          334.86504320799736,
+          -149.57351343924836
+        ],
+        [
+          325.6058555709766,
+          -112.697862994335
+        ],
+        [
+          254.2244370499743,
+          -1.8498753944399908
+        ],
+        [
+          125.7221472121285,
+          13.426179060001248
+        ],
+        [
+          98.31632794073585,
+          -120.92072392093779
+        ],
+        [
+          185.11857080668426,
+          -204.72243335259367
+        ],
+        [
+          281.9929556932161,
+          -233.7758308812439
+        ]
+      ]
+    },
+    "net:EB": {
+      "area": 4430.328045898192,
+      "polygon": [
+        [
+          -24.70790485849366,
+          43.322628800888296
+        ],
+        [
+          33.226906141593744,
+          -15.798618504332197
+        ],
+        [
+          11.2687077934972,
+          104.69304202640303
+        ],
+        [
+          -29.713557273844117,
+          123.12423929031324
+        ]
+      ]
+    },
+    "net:EOUT": {
+      "area": 24366.294178446606,
+      "polygon": [
+        [
+          163.67315546383534,
+          104.24428693718896
+        ],
+        [
+          166.368865033588,
+          190.74818597467265
+        ],
+        [
+          -55.793198964309966,
+          217.20565707473307
+        ],
+        [
+          -78.136452690114,
+          212.45336967734292
+        ],
+        [
+          -58.31409648343955,
+          157.79138065987655
+        ],
+        [
+          -46.87624075560919,
+          140.30649276540072
+        ],
+        [
+          -29.71355727384408,
+          123.12423929031323
+        ],
+        [
+          11.26870779349698,
+          104.69304202640312
+        ],
+        [
+          125.72214721212852,
+          66.65829895386553
+        ]
+      ]
+    },
+    "net:GND": {
+      "area": 57975.771322856606,
+      "polygon": [
+        [
+          643.7112238007887,
+          -14.947528584291149
+        ],
+        [
+          643.7112238007887,
+          476.67600955087613
+        ],
+        [
+          528.3540596934508,
+          476.67600955087613
+        ],
+        [
+          479.9730947593567,
+          169.33467888378013
+        ]
+      ]
+    },
+    "net:NODE_A": {
+      "area": 40086.557831277336,
+      "polygon": [
+        [
+          52.27840676009691,
+          -305.8018219705944
+        ],
+        [
+          185.11857080668432,
+          -204.72243335259373
+        ],
+        [
+          98.31632794073585,
+          -120.92072392093777
+        ],
+        [
+          94.7820760185106,
+          -120.38679028538314
+        ],
+        [
+          -56.47939298881457,
+          -118.12682250517035
+        ],
+        [
+          -145.49176044898343,
+          -139.60317701180273
+        ],
+        [
+          -158.92591994520177,
+          -145.12019456456832
+        ],
+        [
+          -44.43718448444227,
+          -275.2218820045596
+        ]
+      ]
+    },
+    "net:NODE_B": {
+      "area": 15370.754632183718,
+      "polygon": [
+        [
+          -46.876240755609075,
+          140.30649276540063
+        ],
+        [
+          -145.49176044898337,
+          -139.60317701180279
+        ],
+        [
+          -56.479392988814595,
+          -118.12682250517035
+        ],
+        [
+          -24.707904858493656,
+          43.32262880088831
+        ],
+        [
+          -29.713557273844117,
+          123.12423929031327
+        ]
+      ]
+    },
+    "net:NODE_C": {
+      "area": 26620.18850880931,
+      "polygon": [
+        [
+          -78.13645269011403,
+          212.45336967734298
+        ],
+        [
+          -105.15015894052279,
+          234.2664826579287
+        ],
+        [
+          -163.3466199620297,
+          193.91713934109856
+        ],
+        [
+          -241.2541569027378,
+          31.866932866663987
+        ],
+        [
+          -275.44931093161125,
+          -133.90731890769663
+        ],
+        [
+          -58.31409648343961,
+          157.7913806598767
+        ]
+      ]
+    },
+    "net:R1_EXT": {
+      "area": 84847.4828174143,
+      "polygon": [
+        [
+          270.63007628725563,
+          -511.325817598459
+        ],
+        [
+          643.7112238007887,
+          -511.325817598459
+        ],
+        [
+          643.7112238007887,
+          -463.77138593584
+        ],
+        [
+          432.21543175705756,
+          -223.73042913444
+        ],
+        [
+          335.2456810940029,
+          -210.07976131476272
+        ],
+        [
+          281.992955693216,
+          -233.7758308812439
+        ],
+        [
+          246.25252096772329,
+          -425.94631671719867
+        ]
+      ]
+    },
+    "net:R1_W": {
+      "area": 18682.9496474913,
+      "polygon": [
+        [
+          -25.133509407659197,
+          -511.325817598459
+        ],
+        [
+          270.6300762872558,
+          -511.325817598459
+        ],
+        [
+          246.25252096772337,
+          -425.94631671719856
+        ],
+        [
+          -1.4865425582914327,
+          -460.2521626629197
+        ],
+        [
+          -24.91896538893926,
+          -499.3581400642197
+        ]
+      ]
+    },
+    "net:R4_EXT": {
+      "area": 33768.05273272674,
+      "polygon": [
+        [
+          -77.53195746107843,
+          476.67600955087613
+        ],
+        [
+          -368.94423346013093,
+          476.67600955087613
+        ],
+        [
+          -368.94423346013093,
+          407.26385253373894
+        ],
+        [
+          -127.79287089362109,
+          315.51509226058397
+        ],
+        [
+          -81.03638332938694,
+          389.17708246022374
+        ]
+      ]
+    },
+    "net:R4_W": {
+      "area": 26703.71564524585,
+      "polygon": [
+        [
+          303.831154032712,
+          476.67600955087613
+        ],
+        [
+          -77.53195746107838,
+          476.67600955087613
+        ],
+        [
+          -81.0363833293869,
+          389.17708246022374
+        ],
+        [
+          249.507751061759,
+          412.25954083899666
+        ]
+      ]
+    },
+    "net:RA_SW": {
+      "area": 42502.7595566925,
+      "polygon": [
+        [
+          -368.94423346013093,
+          -511.325817598459
+        ],
+        [
+          -330.9274885535232,
+          -511.325817598459
+        ],
+        [
+          -238.40623438396196,
+          -389.26534360208416
+        ],
+        [
+          -232.24595718797255,
+          -306.1180919461011
+        ],
+        [
+          -256.8974361875525,
+          -152.85541048675108
+        ],
+        [
+          -277.3798240462034,
+          -139.32335197186828
+        ],
+        [
+          -368.94423346013093,
+          -124.76453370820066
+        ]
+      ]
+    },
+    "net:RA_W": {
+      "area": 19951.96229188235,
+      "polygon": [
+        [
+          -330.9274885535232,
+          -511.325817598459
+        ],
+        [
+          -25.13350940765912,
+          -511.325817598459
+        ],
+        [
+          -24.918965388939203,
+          -499.35814006421964
+        ],
+        [
+          -238.40623438396193,
+          -389.26534360208416
+        ]
+      ]
+    }
+  },
+  "coordinates_unchanged": true,
+  "domain": {
+    "area": 1000505.4420465342,
+    "height": 988.0018271493352,
+    "width": 1012.6554572609197,
+    "xmax": 643.7112238007887,
+    "xmin": -368.94423346013093,
+    "ymax": 476.67600955087613,
+    "ymin": -511.325817598459
+  },
+  "electrical_incidence_count": 44,
+  "every_vertex_has_one_cell": true,
+  "five_largest_cells": [
+    {
+      "area_over_target": 2.883357045905915,
+      "crowding_ratio": 0.34681795701295554,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 188.3357045905915,
+      "rank": 34,
+      "vertex_id": "net:R1_EXT",
+      "voronoi_area": 84847.4828174143
+    },
+    {
+      "area_over_target": 2.8121035774924747,
+      "crowding_ratio": 0.3556056782558807,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 181.21035774924746,
+      "rank": 33,
+      "vertex_id": "component:J_OUT",
+      "voronoi_area": 82750.7333199926
+    },
+    {
+      "area_over_target": 1.970180412957158,
+      "crowding_ratio": 0.50756773005323,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 97.0180412957158,
+      "rank": 32,
+      "vertex_id": "net:GND",
+      "voronoi_area": 57975.771322856606
+    },
+    {
+      "area_over_target": 1.5665784487036698,
+      "crowding_ratio": 0.6383338164951085,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 56.65784487036698,
+      "rank": 31,
+      "vertex_id": "component:RMIN1",
+      "voronoi_area": 46099.12539178938
+    },
+    {
+      "area_over_target": 1.5610363176431201,
+      "crowding_ratio": 0.6406000864283654,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 56.10363176431201,
+      "rank": 30,
+      "vertex_id": "component:J_R1",
+      "voronoi_area": 45936.03914806541
+    }
+  ],
+  "five_smallest_cells": [
+    {
+      "area_over_target": 0.1505550567045617,
+      "crowding_ratio": 6.642088428569539,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -84.94449432954383,
+      "rank": 1,
+      "vertex_id": "net:EB",
+      "voronoi_area": 4430.328045898192
+    },
+    {
+      "area_over_target": 0.2967165202670467,
+      "crowding_ratio": 3.3702201653618538,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -70.32834797329532,
+      "rank": 2,
+      "vertex_id": "component:JP1",
+      "voronoi_area": 8731.367449185029
+    },
+    {
+      "area_over_target": 0.35098216734265847,
+      "crowding_ratio": 2.8491476007774366,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -64.90178326573415,
+      "rank": 3,
+      "vertex_id": "net:+9V",
+      "voronoi_area": 10328.222602576974
+    },
+    {
+      "area_over_target": 0.3693524234730472,
+      "crowding_ratio": 2.7074412849303346,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -63.06475765269528,
+      "rank": 4,
+      "vertex_id": "component:TPC",
+      "voronoi_area": 10868.797344642935
+    },
+    {
+      "area_over_target": 0.40735106709357444,
+      "crowding_ratio": 2.4548849402431676,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -59.26489329064255,
+      "rank": 5,
+      "vertex_id": "component:TPA",
+      "voronoi_area": 11986.969395605414
+    }
+  ],
+  "negative_cell_count": 0,
+  "partition_area_error": 3.4924596548080444e-10,
+  "proper_crossings": 0,
+  "ranked_vertices": [
+    {
+      "area_over_target": 0.1505550567045617,
+      "crowding_ratio": 6.642088428569539,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -84.94449432954383,
+      "rank": 1,
+      "vertex_id": "net:EB",
+      "voronoi_area": 4430.328045898192
+    },
+    {
+      "area_over_target": 0.2967165202670467,
+      "crowding_ratio": 3.3702201653618538,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -70.32834797329532,
+      "rank": 2,
+      "vertex_id": "component:JP1",
+      "voronoi_area": 8731.367449185029
+    },
+    {
+      "area_over_target": 0.35098216734265847,
+      "crowding_ratio": 2.8491476007774366,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -64.90178326573415,
+      "rank": 3,
+      "vertex_id": "net:+9V",
+      "voronoi_area": 10328.222602576974
+    },
+    {
+      "area_over_target": 0.3693524234730472,
+      "crowding_ratio": 2.7074412849303346,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -63.06475765269528,
+      "rank": 4,
+      "vertex_id": "component:TPC",
+      "voronoi_area": 10868.797344642935
+    },
+    {
+      "area_over_target": 0.40735106709357444,
+      "crowding_ratio": 2.4548849402431676,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -59.26489329064255,
+      "rank": 5,
+      "vertex_id": "component:TPA",
+      "voronoi_area": 11986.969395605414
+    },
+    {
+      "area_over_target": 0.43506267086949324,
+      "crowding_ratio": 2.29851942480253,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -56.49373291305068,
+      "rank": 6,
+      "vertex_id": "component:C2",
+      "voronoi_area": 12802.428524594945
+    },
+    {
+      "area_over_target": 0.4572892081971165,
+      "crowding_ratio": 2.1867999114664123,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -54.27107918028835,
+      "rank": 7,
+      "vertex_id": "component:U1",
+      "voronoi_area": 13456.4806291284
+    },
+    {
+      "area_over_target": 0.5070495987943253,
+      "crowding_ratio": 1.972193652017128,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -49.29504012056747,
+      "rank": 8,
+      "vertex_id": "net:-9V",
+      "voronoi_area": 14920.761264153949
+    },
+    {
+      "area_over_target": 0.5223416440646803,
+      "crowding_ratio": 1.9144558190274645,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -47.76583559353197,
+      "rank": 9,
+      "vertex_id": "net:NODE_B",
+      "voronoi_area": 15370.754632183718
+    },
+    {
+      "area_over_target": 0.6141210056660971,
+      "crowding_ratio": 1.628343585016059,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -38.58789943339029,
+      "rank": 10,
+      "vertex_id": "component:J_PWR",
+      "voronoi_area": 18071.512007177076
+    },
+    {
+      "area_over_target": 0.6348993831711309,
+      "crowding_ratio": 1.5750527193857107,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -36.51006168288691,
+      "rank": 11,
+      "vertex_id": "net:R1_W",
+      "voronoi_area": 18682.9496474913
+    },
+    {
+      "area_over_target": 0.6780240160777143,
+      "crowding_ratio": 1.4748740107833898,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -32.197598392228564,
+      "rank": 12,
+      "vertex_id": "net:RA_W",
+      "voronoi_area": 19951.96229188235
+    },
+    {
+      "area_over_target": 0.6994019968806451,
+      "crowding_ratio": 1.4297928865802951,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -30.05980031193549,
+      "rank": 13,
+      "vertex_id": "component:J_EB",
+      "voronoi_area": 20581.044236979367
+    },
+    {
+      "area_over_target": 0.784152488241731,
+      "crowding_ratio": 1.2752621651972997,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -21.5847511758269,
+      "rank": 14,
+      "vertex_id": "component:J_RA",
+      "voronoi_area": 23074.965643534786
+    },
+    {
+      "area_over_target": 0.7937999962115456,
+      "crowding_ratio": 1.2597631705373586,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -20.62000037884544,
+      "rank": 15,
+      "vertex_id": "component:R3",
+      "voronoi_area": 23358.859297240284
+    },
+    {
+      "area_over_target": 0.7986218064161952,
+      "crowding_ratio": 1.2521571436766632,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -20.137819358380483,
+      "rank": 16,
+      "vertex_id": "component:TPB",
+      "voronoi_area": 23500.748925189324
+    },
+    {
+      "area_over_target": 0.8048968283360641,
+      "crowding_ratio": 1.2423952546406052,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -19.510317166393587,
+      "rank": 17,
+      "vertex_id": "component:TPO",
+      "voronoi_area": 23685.401677536094
+    },
+    {
+      "area_over_target": 0.8171401352712612,
+      "crowding_ratio": 1.2237803001415857,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -18.285986472873883,
+      "rank": 18,
+      "vertex_id": "component:C1",
+      "voronoi_area": 24045.680948633468
+    },
+    {
+      "area_over_target": 0.8280354781205205,
+      "crowding_ratio": 1.207677722058245,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -17.19645218794795,
+      "rank": 19,
+      "vertex_id": "net:EOUT",
+      "voronoi_area": 24366.294178446606
+    },
+    {
+      "area_over_target": 0.9046291716796283,
+      "crowding_ratio": 1.1054253293018357,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -9.53708283203717,
+      "rank": 20,
+      "vertex_id": "net:NODE_C",
+      "voronoi_area": 26620.18850880931
+    },
+    {
+      "area_over_target": 0.9074676596273133,
+      "crowding_ratio": 1.1019676452279177,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -9.253234037268665,
+      "rank": 21,
+      "vertex_id": "net:R4_W",
+      "voronoi_area": 26703.71564524585
+    },
+    {
+      "area_over_target": 0.9608001827721647,
+      "crowding_ratio": 1.0407991358980941,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -3.9199817227835276,
+      "rank": 22,
+      "vertex_id": "component:R2",
+      "voronoi_area": 28273.112105378103
+    },
+    {
+      "area_over_target": 1.147533781089928,
+      "crowding_ratio": 0.8714340409658351,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 14.753378108992798,
+      "rank": 23,
+      "vertex_id": "net:R4_EXT",
+      "voronoi_area": 33768.05273272674
+    },
+    {
+      "area_over_target": 1.3158594367170382,
+      "crowding_ratio": 0.7599595915008356,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 31.58594367170382,
+      "rank": 24,
+      "vertex_id": "component:J_EA",
+      "voronoi_area": 38721.30962952011
+    },
+    {
+      "area_over_target": 1.3475839564181795,
+      "crowding_ratio": 0.7420687929959906,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 34.758395641817955,
+      "rank": 25,
+      "vertex_id": "component:J_R4",
+      "voronoi_area": 39654.85535326436
+    },
+    {
+      "area_over_target": 1.3622544255986546,
+      "crowding_ratio": 0.7340772628142068,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 36.22544255986546,
+      "rank": 26,
+      "vertex_id": "net:NODE_A",
+      "voronoi_area": 40086.557831277336
+    },
+    {
+      "area_over_target": 1.3963887822262433,
+      "crowding_ratio": 0.7161329371363997,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 39.63887822262433,
+      "rank": 27,
+      "vertex_id": "net:EA",
+      "voronoi_area": 41091.01693617909
+    },
+    {
+      "area_over_target": 1.4443637827412565,
+      "crowding_ratio": 0.6923463548096596,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 44.43637827412565,
+      "rank": 28,
+      "vertex_id": "net:RA_SW",
+      "voronoi_area": 42502.7595566925
+    },
+    {
+      "area_over_target": 1.4700695272278468,
+      "crowding_ratio": 0.6802399352401578,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 47.006952722784675,
+      "rank": 29,
+      "vertex_id": "component:RMIN4",
+      "voronoi_area": 43259.19300524225
+    },
+    {
+      "area_over_target": 1.5610363176431201,
+      "crowding_ratio": 0.6406000864283654,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 56.10363176431201,
+      "rank": 30,
+      "vertex_id": "component:J_R1",
+      "voronoi_area": 45936.03914806541
+    },
+    {
+      "area_over_target": 1.5665784487036698,
+      "crowding_ratio": 0.6383338164951085,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 56.65784487036698,
+      "rank": 31,
+      "vertex_id": "component:RMIN1",
+      "voronoi_area": 46099.12539178938
+    },
+    {
+      "area_over_target": 1.970180412957158,
+      "crowding_ratio": 0.50756773005323,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 97.0180412957158,
+      "rank": 32,
+      "vertex_id": "net:GND",
+      "voronoi_area": 57975.771322856606
+    },
+    {
+      "area_over_target": 2.8121035774924747,
+      "crowding_ratio": 0.3556056782558807,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 181.21035774924746,
+      "rank": 33,
+      "vertex_id": "component:J_OUT",
+      "voronoi_area": 82750.7333199926
+    },
+    {
+      "area_over_target": 2.883357045905915,
+      "crowding_ratio": 0.34681795701295554,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 188.3357045905915,
+      "rank": 34,
+      "vertex_id": "net:R1_EXT",
+      "voronoi_area": 84847.4828174143
+    }
+  ],
+  "requested_sanity_vertices": {
+    "component:J_EA": {
+      "area_over_target": 1.3158594367170382,
+      "crowding_ratio": 0.7599595915008356,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 31.58594367170382,
+      "rank": 24,
+      "vertex_id": "component:J_EA",
+      "voronoi_area": 38721.30962952011
+    },
+    "component:J_EB": {
+      "area_over_target": 0.6994019968806451,
+      "crowding_ratio": 1.4297928865802951,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -30.05980031193549,
+      "rank": 13,
+      "vertex_id": "component:J_EB",
+      "voronoi_area": 20581.044236979367
+    },
+    "component:J_PWR": {
+      "area_over_target": 0.6141210056660971,
+      "crowding_ratio": 1.628343585016059,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -38.58789943339029,
+      "rank": 10,
+      "vertex_id": "component:J_PWR",
+      "voronoi_area": 18071.512007177076
+    },
+    "component:TPB": {
+      "area_over_target": 0.7986218064161952,
+      "crowding_ratio": 1.2521571436766632,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -20.137819358380483,
+      "rank": 16,
+      "vertex_id": "component:TPB",
+      "voronoi_area": 23500.748925189324
+    },
+    "component:U1": {
+      "area_over_target": 0.4572892081971165,
+      "crowding_ratio": 2.1867999114664123,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -54.27107918028835,
+      "rank": 7,
+      "vertex_id": "component:U1",
+      "voronoi_area": 13456.4806291284
+    },
+    "net:+9V": {
+      "area_over_target": 0.35098216734265847,
+      "crowding_ratio": 2.8491476007774366,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -64.90178326573415,
+      "rank": 3,
+      "vertex_id": "net:+9V",
+      "voronoi_area": 10328.222602576974
+    },
+    "net:-9V": {
+      "area_over_target": 0.5070495987943253,
+      "crowding_ratio": 1.972193652017128,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -49.29504012056747,
+      "rank": 8,
+      "vertex_id": "net:-9V",
+      "voronoi_area": 14920.761264153949
+    },
+    "net:EA": {
+      "area_over_target": 1.3963887822262433,
+      "crowding_ratio": 0.7161329371363997,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 39.63887822262433,
+      "rank": 27,
+      "vertex_id": "net:EA",
+      "voronoi_area": 41091.01693617909
+    },
+    "net:EB": {
+      "area_over_target": 0.1505550567045617,
+      "crowding_ratio": 6.642088428569539,
+      "interpretation": "denser / more crowded than average",
+      "percent_difference_from_target": -84.94449432954383,
+      "rank": 1,
+      "vertex_id": "net:EB",
+      "voronoi_area": 4430.328045898192
+    },
+    "net:GND": {
+      "area_over_target": 1.970180412957158,
+      "crowding_ratio": 0.50756773005323,
+      "interpretation": "less dense / more spatially open than average",
+      "percent_difference_from_target": 97.0180412957158,
+      "rank": 32,
+      "vertex_id": "net:GND",
+      "voronoi_area": 57975.771322856606
+    }
+  },
+  "schema": "graph-relax.global-node-density.v1",
+  "source_coordinates": "output/graph_first/iamp_sequential_local_face_pulls_report.json#AFTER face:007",
+  "sum_clipped_cell_areas": 1000505.4420465345,
+  "target_area": 29426.630648427476,
+  "target_density": 3.398282365206629e-05,
+  "vertex_count": 34
+}

@@ -1,0 +1,1457 @@
+{
+  "Y_CENTER": 23.64581445270718,
+  "electrical_incidence_count": 44,
+  "face_states": {
+    "face:001": "MOVED_UP",
+    "face:002": "UNMOVED",
+    "face:003": "UNMOVED",
+    "face:004": "MOVED_DOWN",
+    "face:006": "UNMOVED",
+    "face:007": "MOVED_UP",
+    "face:008": "MOVED_DOWN",
+    "face:009": "UNMOVED",
+    "face:010": "UNMOVED",
+    "face:011": "UNMOVED",
+    "face:012": "UNMOVED"
+  },
+  "faces_considered": [
+    {
+      "all_adjacent_faces": [
+        "face:001",
+        "face:005",
+        "face:011"
+      ],
+      "candidates": [
+        {
+          "face_id": "face:001",
+          "mean_y": 30.350356309934373
+        },
+        {
+          "face_id": "face:011",
+          "mean_y": -134.0805210135879
+        }
+      ],
+      "face_id": "face:007",
+      "next_face_id": "face:001",
+      "side": "TOP"
+    },
+    {
+      "all_adjacent_faces": [
+        "face:004",
+        "face:005",
+        "face:010"
+      ],
+      "candidates": [
+        {
+          "face_id": "face:004",
+          "mean_y": 64.5555684210954
+        }
+      ],
+      "face_id": "face:008",
+      "next_face_id": "face:004",
+      "side": "BOTTOM"
+    },
+    {
+      "all_adjacent_faces": [
+        "face:002",
+        "face:007",
+        "face:008"
+      ],
+      "candidates": [
+        {
+          "face_id": "face:008",
+          "mean_y": 17.273465731197447
+        },
+        {
+          "face_id": "face:002",
+          "mean_y": 59.45411630808238
+        }
+      ],
+      "face_id": "face:001",
+      "next_face_id": "face:008",
+      "side": "TOP"
+    },
+    {
+      "all_adjacent_faces": [
+        "face:003",
+        "face:005",
+        "face:008",
+        "face:010"
+      ],
+      "candidates": [
+        {
+          "face_id": "face:008",
+          "mean_y": 17.273465731197447
+        },
+        {
+          "face_id": "face:010",
+          "mean_y": 44.06382233193682
+        },
+        {
+          "face_id": "face:003",
+          "mean_y": 61.207970425579035
+        }
+      ],
+      "face_id": "face:004",
+      "next_face_id": "face:008",
+      "side": "BOTTOM"
+    }
+  ],
+  "final_coordinates": {
+    "component:C1": [
+      467.00395328344604,
+      22.813515984279952
+    ],
+    "component:C2": [
+      283.81982446582094,
+      34.48813473414685
+    ],
+    "component:JP1": [
+      -334.42997578032566,
+      111.11344837967394
+    ],
+    "component:J_EA": [
+      456.3979591989053,
+      -134.73987524247514
+    ],
+    "component:J_EB": [
+      249.6300782232805,
+      169.48772271114575
+    ],
+    "component:J_OUT": [
+      340.3424835587094,
+      227.51021314699426
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      102.84623517626561,
+      -377.7214602506761
+    ],
+    "component:J_R4": [
+      44.63753956400488,
+      327.563888644507
+    ],
+    "component:J_RA": [
+      -104.4544567673898,
+      -376.02476810571767
+    ],
+    "component:R2": [
+      -86.6660055998702,
+      -311.0261105926718
+    ],
+    "component:R3": [
+      -297.0910668648412,
+      95.47526571102958
+    ],
+    "component:RMIN1": [
+      643.7112238007887,
+      -336.7712218759716
+    ],
+    "component:RMIN4": [
+      -281.60156205833124,
+      239.64668860577402
+    ],
+    "component:TPA": [
+      -32.44855702730761,
+      -329.27268152947534
+    ],
+    "component:TPB": [
+      -113.59679859782972,
+      30.06981357571914
+    ],
+    "component:TPC": [
+      -260.6318708113398,
+      114.25798046913104
+    ],
+    "component:TPO": [
+      91.11064432645759,
+      243.36924518783795
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      215.899349260613,
+      20.919909972173492
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      211.62926787532948,
+      -136.27968708831003
+    ],
+    "net:EB": [
+      18.105015046643143,
+      35.21552355810548
+    ],
+    "net:EOUT": [
+      80.85740731952187,
+      157.27332591022918
+    ],
+    "net:GND": [
+      625.3553280491062,
+      165.1703098860251
+    ],
+    "net:NODE_A": [
+      -3.554241234402555,
+      -237.88823673916076
+    ],
+    "net:NODE_B": [
+      -63.98862994744413,
+      12.592263277480884
+    ],
+    "net:NODE_C": [
+      -164.80431705291707,
+      68.18776033923683
+    ],
+    "net:R1_EXT": [
+      397.4080176146495,
+      -553.7845698037038
+    ],
+    "net:R1_W": [
+      121.34719516059535,
+      -511.325817598459
+    ],
+    "net:R4_EXT": [
+      -190.2794989274509,
+      479.67652542134823
+    ],
+    "net:R4_W": [
+      34.85444924956621,
+      467.6591534812175
+    ],
+    "net:RA_SW": [
+      -368.94423346013093,
+      -356.4290471710813
+    ],
+    "net:RA_W": [
+      -171.5200935395895,
+      -506.0755988413453
+    ]
+  },
+  "initial_bottom_face": "face:008",
+  "initial_top_face": "face:007",
+  "literal_half_assertions": {
+    "alternating_execution": [
+      "TOP",
+      "BOTTOM",
+      "TOP",
+      "BOTTOM"
+    ],
+    "d6_never_used_for_target": true,
+    "every_reduction_has_hard_failure": true,
+    "every_target_equals_D_over_2": true,
+    "every_valid_half_was_accepted_exactly": true,
+    "second_bottom_contains_C2": true,
+    "second_top_contains_C1": true
+  },
+  "movement_definition": {
+    "D": "minimum actual vertical separation between the non-shared boundaries of the current and dynamically selected next adjacent face",
+    "TARGET": "D / 2",
+    "readability_clearance_role": "post-move reporting only",
+    "readability_clearance_used_for_target": false
+  },
+  "schema": "graph-relax.literal-half-face-decrowd.v1",
+  "second_bottom_reaches_c2_face": true,
+  "second_top_reaches_c1_face": true,
+  "source_coordinates": "output/graph_first/iamp_sequential_local_face_pulls_report.json#AFTER face:007",
+  "stages": [
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          456.3979591989053,
+          -13.46023627322279
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -215.49158290671926
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          211.62926787532948,
+          -15.00004811905768
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -432.50493083445144
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "metrics": {
+        "clearance_violations": 6,
+        "coincident_vertices": 0,
+        "crowding_clusters": 3,
+        "minimum_node_distance": 17.727161871886178,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 3,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "stage": "ORIGINAL"
+    },
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          456.3979591989053,
+          -134.73987524247514
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -336.7712218759716
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          211.62926787532948,
+          -136.27968708831003
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -553.7845698037038
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "face_id": "face:007",
+      "metrics": {
+        "clearance_violations": 6,
+        "coincident_vertices": 0,
+        "crowding_clusters": 3,
+        "minimum_node_distance": 17.727161871886178,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 3,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "moved_vertices": [
+        "component:J_EA",
+        "component:RMIN1",
+        "net:EA",
+        "net:R1_EXT"
+      ],
+      "movement": 121.27963896925236,
+      "side": "TOP",
+      "stage": "AFTER TOP face:007"
+    },
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          456.3979591989053,
+          -134.73987524247514
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          169.48772271114575
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          227.51021314699426
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -336.7712218759716
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          211.62926787532948,
+          -136.27968708831003
+        ],
+        "net:EB": [
+          18.105015046643143,
+          35.21552355810548
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -553.7845698037038
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "face_id": "face:008",
+      "metrics": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 22.550293352507797,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 1.513464191800086e-09
+      },
+      "moved_vertices": [
+        "component:J_EB",
+        "component:J_OUT",
+        "net:EB"
+      ],
+      "movement": 17.473837232276075,
+      "side": "BOTTOM",
+      "stage": "AFTER BOTTOM face:008"
+    },
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          22.813515984279952
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          456.3979591989053,
+          -134.73987524247514
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          169.48772271114575
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          227.51021314699426
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -336.7712218759716
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          211.62926787532948,
+          -136.27968708831003
+        ],
+        "net:EB": [
+          18.105015046643143,
+          35.21552355810548
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -553.7845698037038
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "face_id": "face:001",
+      "metrics": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 22.550293352507797,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 1.513464191800086e-09
+      },
+      "moved_vertices": [
+        "component:C1"
+      ],
+      "movement": 1.6586864094081726,
+      "side": "TOP",
+      "stage": "AFTER TOP face:001"
+    },
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          22.813515984279952
+        ],
+        "component:C2": [
+          283.81982446582094,
+          34.48813473414685
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          456.3979591989053,
+          -134.73987524247514
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          169.48772271114575
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          227.51021314699426
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -336.7712218759716
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          239.64668860577402
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          211.62926787532948,
+          -136.27968708831003
+        ],
+        "net:EB": [
+          18.105015046643143,
+          35.21552355810548
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -553.7845698037038
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          479.67652542134823
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "face_id": "face:004",
+      "metrics": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 22.550293352507797,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 1.513464191800086e-09
+      },
+      "moved_vertices": [
+        "component:C2",
+        "component:RMIN4",
+        "net:R4_EXT"
+      ],
+      "movement": 3.000515870472121,
+      "side": "BOTTOM",
+      "stage": "AFTER BOTTOM face:004"
+    }
+  ],
+  "trace": [
+    {
+      "actual_move": 121.27963896925236,
+      "all_adjacent_faces": [
+        "face:001",
+        "face:005",
+        "face:011"
+      ],
+      "current_edge": [
+        "component:J_R1",
+        "net:NODE_A"
+      ],
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "exact_half_hard_failures": [],
+      "exact_half_hard_valid": true,
+      "face_id": "face:007",
+      "free_for_face_vertices": [
+        "component:J_EA",
+        "component:RMIN1",
+        "net:EA",
+        "net:R1_EXT"
+      ],
+      "full_gap": 242.55927793850472,
+      "half_gap": 121.27963896925236,
+      "limiting_x": 0.0,
+      "max_valid_move": 121.27963896925236,
+      "metrics_after": {
+        "clearance_violations": 6,
+        "coincident_vertices": 0,
+        "crowding_clusters": 3,
+        "minimum_node_distance": 17.727161871886178,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 3,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "moved_vertices": [
+        "component:J_EA",
+        "component:RMIN1",
+        "net:EA",
+        "net:R1_EXT"
+      ],
+      "next_edge": [
+        "component:U1",
+        "net:+9V"
+      ],
+      "next_face_id": "face:001",
+      "reduction_reason": null,
+      "search": {
+        "bisection_steps": 0,
+        "candidate_evaluations": 1,
+        "cap_is_valid": true,
+        "scan_steps": 4096
+      },
+      "shared_edges": [
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ],
+        [
+          "component:U1",
+          "net:EA"
+        ]
+      ],
+      "side": "TOP",
+      "status": "MOVED_UP",
+      "target_formula": "TARGET = full_gap / 2",
+      "target_uses_readability_clearance": false
+    },
+    {
+      "actual_move": 17.473837232276075,
+      "all_adjacent_faces": [
+        "face:004",
+        "face:005",
+        "face:010"
+      ],
+      "current_edge": [
+        "component:U1",
+        "net:EOUT"
+      ],
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "exact_half_hard_failures": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:J_EB",
+                "net:EB"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:EOUT"
+              ]
+            }
+          ],
+          "type": "PROPER_EDGE_CROSSING"
+        }
+      ],
+      "exact_half_hard_valid": false,
+      "face_id": "face:008",
+      "free_for_face_vertices": [
+        "component:J_EB",
+        "component:J_OUT",
+        "net:EB"
+      ],
+      "full_gap": 48.21750032212515,
+      "half_gap": 24.108750161062574,
+      "limiting_x": 35.54494516364402,
+      "max_valid_move": 17.473837232276075,
+      "metrics_after": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 22.550293352507797,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 1.513464191800086e-09
+      },
+      "moved_vertices": [
+        "component:J_EB",
+        "component:J_OUT",
+        "net:EB"
+      ],
+      "next_edge": [
+        "component:C2",
+        "net:-9V"
+      ],
+      "next_face_id": "face:004",
+      "reduction_reason": [
+        {
+          "details": [
+            {
+              "edge_a": [
+                "component:J_EB",
+                "net:EB"
+              ],
+              "edge_b": [
+                "component:U1",
+                "net:EOUT"
+              ]
+            }
+          ],
+          "type": "PROPER_EDGE_CROSSING"
+        }
+      ],
+      "search": {
+        "bisection_steps": 64,
+        "candidate_evaluations": 1193,
+        "cap_is_valid": false,
+        "first_invalid_above": 17.47383723227608,
+        "scan_steps": 4096
+      },
+      "shared_edges": [
+        [
+          "component:J_EB",
+          "net:EB"
+        ],
+        [
+          "component:J_EB",
+          "net:GND"
+        ],
+        [
+          "component:U1",
+          "net:EB"
+        ]
+      ],
+      "side": "BOTTOM",
+      "status": "MOVED_DOWN",
+      "target_formula": "TARGET = full_gap / 2",
+      "target_uses_readability_clearance": false
+    },
+    {
+      "actual_move": 1.6586864094081726,
+      "all_adjacent_faces": [
+        "face:002",
+        "face:007",
+        "face:008"
+      ],
+      "current_edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "exact_half_hard_failures": [],
+      "exact_half_hard_valid": true,
+      "face_id": "face:001",
+      "free_for_face_vertices": [
+        "component:C1",
+        "component:J_EA",
+        "net:EA"
+      ],
+      "full_gap": 3.317372818816345,
+      "half_gap": 1.6586864094081726,
+      "limiting_x": 215.899349260613,
+      "max_valid_move": 1.6586864094081726,
+      "metrics_after": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 22.550293352507797,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 1.513464191800086e-09
+      },
+      "moved_vertices": [
+        "component:C1"
+      ],
+      "next_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "next_face_id": "face:008",
+      "reduction_reason": null,
+      "search": {
+        "bisection_steps": 0,
+        "candidate_evaluations": 1,
+        "cap_is_valid": true,
+        "scan_steps": 4096
+      },
+      "shared_edges": [
+        [
+          "component:U1",
+          "net:+9V"
+        ]
+      ],
+      "side": "TOP",
+      "status": "MOVED_UP",
+      "target_formula": "TARGET = full_gap / 2",
+      "target_uses_readability_clearance": false
+    },
+    {
+      "actual_move": 3.000515870472121,
+      "all_adjacent_faces": [
+        "face:003",
+        "face:005",
+        "face:008",
+        "face:010"
+      ],
+      "current_edge": [
+        "component:C2",
+        "net:-9V"
+      ],
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "exact_half_hard_failures": [],
+      "exact_half_hard_valid": true,
+      "face_id": "face:004",
+      "free_for_face_vertices": [
+        "component:C2",
+        "component:J_EB",
+        "component:J_OUT",
+        "component:RMIN4",
+        "net:EB",
+        "net:R4_EXT"
+      ],
+      "full_gap": 6.001031740944242,
+      "half_gap": 3.000515870472121,
+      "limiting_x": 283.81982446582094,
+      "max_valid_move": 3.000515870472121,
+      "metrics_after": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 22.550293352507797,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 1.513464191800086e-09
+      },
+      "moved_vertices": [
+        "component:C2",
+        "component:RMIN4",
+        "net:R4_EXT"
+      ],
+      "next_edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "next_face_id": "face:008",
+      "reduction_reason": null,
+      "search": {
+        "bisection_steps": 0,
+        "candidate_evaluations": 1,
+        "cap_is_valid": true,
+        "scan_steps": 4096
+      },
+      "shared_edges": [
+        [
+          "component:U1",
+          "net:-9V"
+        ]
+      ],
+      "side": "BOTTOM",
+      "status": "MOVED_DOWN",
+      "target_formula": "TARGET = full_gap / 2",
+      "target_uses_readability_clearance": false
+    },
+    {
+      "face_id": "face:008",
+      "side": "BOTH",
+      "status": "STOPPED_WAVES_MET"
+    }
+  ],
+  "vertex_count": 34,
+  "vertex_movement_states": {
+    "component:C1": "MOVED_UP",
+    "component:C2": "MOVED_DOWN",
+    "component:JP1": "UNMOVED",
+    "component:J_EA": "MOVED_UP",
+    "component:J_EB": "MOVED_DOWN",
+    "component:J_OUT": "MOVED_DOWN",
+    "component:J_PWR": "UNMOVED",
+    "component:J_R1": "UNMOVED",
+    "component:J_R4": "UNMOVED",
+    "component:J_RA": "UNMOVED",
+    "component:R2": "UNMOVED",
+    "component:R3": "UNMOVED",
+    "component:RMIN1": "MOVED_UP",
+    "component:RMIN4": "MOVED_DOWN",
+    "component:TPA": "UNMOVED",
+    "component:TPB": "UNMOVED",
+    "component:TPC": "UNMOVED",
+    "component:TPO": "UNMOVED",
+    "component:U1": "UNMOVED",
+    "net:+9V": "UNMOVED",
+    "net:-9V": "UNMOVED",
+    "net:EA": "MOVED_UP",
+    "net:EB": "MOVED_DOWN",
+    "net:EOUT": "UNMOVED",
+    "net:GND": "UNMOVED",
+    "net:NODE_A": "UNMOVED",
+    "net:NODE_B": "UNMOVED",
+    "net:NODE_C": "UNMOVED",
+    "net:R1_EXT": "MOVED_UP",
+    "net:R1_W": "UNMOVED",
+    "net:R4_EXT": "MOVED_DOWN",
+    "net:R4_W": "UNMOVED",
+    "net:RA_SW": "UNMOVED",
+    "net:RA_W": "UNMOVED"
+  }
+}

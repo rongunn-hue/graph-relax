@@ -1,0 +1,5952 @@
+{
+  "accepted_moves": [],
+  "authoritative_input": "output/graph_first/iamp_uncross_from_sep150_report.json",
+  "blocked_crossings": [
+    {
+      "crossing": {
+        "edge_a": [
+          "component:J_EA",
+          "net:EA"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:+9V"
+        ]
+      },
+      "orientations": [
+        {
+          "candidate_minimum_node_distance": 24.921834400350324,
+          "classification": "CREATES_ADDITIONAL_CROSSINGS",
+          "crossing_reducing_position_exists": false,
+          "current_angle": -0.10969029012319287,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "component:J_EA",
+          "pivot": "net:EA",
+          "pivot_radius": 274.91276650554715,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 4
+        },
+        {
+          "candidate_minimum_node_distance": 99.923752032055,
+          "classification": "NO_NET_REDUCTION",
+          "crossing_reducing_position_exists": false,
+          "current_angle": 3.0319023634666005,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "net:EA",
+          "pivot": "component:J_EA",
+          "pivot_radius": 274.91276650554715,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 3
+        },
+        {
+          "candidate_minimum_node_distance": 42.44015581420472,
+          "classification": "CREATES_ADDITIONAL_CROSSINGS",
+          "crossing_reducing_position_exists": false,
+          "current_angle": 1.0290061195532836,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "component:J_PWR",
+          "pivot": "net:+9V",
+          "pivot_radius": 287.19249755029796,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 5
+        },
+        {
+          "candidate_minimum_node_distance": 11.6783875108041,
+          "classification": "NO_NET_REDUCTION",
+          "crossing_reducing_position_exists": false,
+          "current_angle": -2.1125865340365095,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "net:+9V",
+          "pivot": "component:J_PWR",
+          "pivot_radius": 287.19249755029796,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 3
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:J_EB",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:J_PWR",
+          "net:+9V"
+        ]
+      },
+      "orientations": [
+        {
+          "candidate_minimum_node_distance": 113.88946222249999,
+          "classification": "NO_NET_REDUCTION",
+          "crossing_reducing_position_exists": false,
+          "current_angle": -2.675502868328488,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "component:J_EB",
+          "pivot": "net:GND",
+          "pivot_radius": 343.5392185803735,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 3
+        },
+        {
+          "candidate_minimum_node_distance": 150.0,
+          "classification": "NO_NET_REDUCTION",
+          "crossing_reducing_position_exists": false,
+          "current_angle": 0.46608978526130523,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "net:GND",
+          "pivot": "component:J_EB",
+          "pivot_radius": 343.5392185803735,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 3
+        },
+        {
+          "candidate_minimum_node_distance": 150.0,
+          "classification": "NO_NET_REDUCTION",
+          "crossing_reducing_position_exists": false,
+          "current_angle": 1.0290061195532836,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "component:J_PWR",
+          "pivot": "net:+9V",
+          "pivot_radius": 287.19249755029796,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 3
+        },
+        {
+          "candidate_minimum_node_distance": 18.334496716415924,
+          "classification": "CREATES_ADDITIONAL_CROSSINGS",
+          "crossing_reducing_position_exists": false,
+          "current_angle": -2.1125865340365095,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "net:+9V",
+          "pivot": "component:J_PWR",
+          "pivot_radius": 287.19249755029796,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 5
+        }
+      ]
+    },
+    {
+      "crossing": {
+        "edge_a": [
+          "component:R2",
+          "net:NODE_B"
+        ],
+        "edge_b": [
+          "component:U1",
+          "net:NODE_C"
+        ]
+      },
+      "orientations": [
+        {
+          "candidate_minimum_node_distance": 139.16788270062722,
+          "classification": "CREATES_ADDITIONAL_CROSSINGS",
+          "crossing_reducing_position_exists": false,
+          "current_angle": -1.838447400384936,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "component:R2",
+          "pivot": "net:NODE_B",
+          "pivot_radius": 306.71177296132544,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 8
+        },
+        {
+          "candidate_minimum_node_distance": 111.77735217508166,
+          "classification": "CREATES_ADDITIONAL_CROSSINGS",
+          "crossing_reducing_position_exists": false,
+          "current_angle": 1.3031452532048573,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "net:NODE_B",
+          "pivot": "component:R2",
+          "pivot_radius": 306.71177296132544,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 9
+        },
+        {
+          "candidate_minimum_node_distance": 87.47544516208022,
+          "classification": "CREATES_ADDITIONAL_CROSSINGS",
+          "crossing_reducing_position_exists": false,
+          "current_angle": -0.5308931314852697,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "component:U1",
+          "pivot": "net:NODE_C",
+          "pivot_radius": 535.2245931469064,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 8
+        },
+        {
+          "candidate_minimum_node_distance": 33.21508711699845,
+          "classification": "CREATES_ADDITIONAL_CROSSINGS",
+          "crossing_reducing_position_exists": false,
+          "current_angle": 2.6106995221045235,
+          "maximum_minimum_node_spacing_achievable_while_removing_crossing": null,
+          "moving_endpoint": "net:NODE_C",
+          "pivot": "component:U1",
+          "pivot_radius": 535.2245931469064,
+          "reason": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+          "resulting_crossing_count": 8
+        }
+      ]
+    }
+  ],
+  "final": {
+    "amount_below_150_target": 0.0,
+    "coincident_vertex_count": 0,
+    "connectivity_unchanged": true,
+    "crossings": 3,
+    "edge_count": 44,
+    "limiting_node_pairs": [
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:C2",
+          "net:-9V"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:JP1",
+          "component:R3"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:JP1",
+          "component:TPB"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:J_EB",
+          "net:EA"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:J_R1",
+          "component:TPA"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:J_R4",
+          "net:EOUT"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:J_RA",
+          "net:RA_W"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:R2",
+          "component:U1"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:TPB",
+          "component:U1"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:TPB",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "component:U1",
+          "net:EB"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "net:+9V",
+          "net:EA"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "net:-9V",
+          "net:EOUT"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "net:EA",
+          "net:EB"
+        ]
+      },
+      {
+        "distance": 150.0,
+        "vertices": [
+          "net:EB",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "distance": 150.00000000000003,
+        "vertices": [
+          "component:C2",
+          "component:J_OUT"
+        ]
+      },
+      {
+        "distance": 150.00000000000003,
+        "vertices": [
+          "component:J_EB",
+          "component:J_PWR"
+        ]
+      },
+      {
+        "distance": 150.00000000000009,
+        "vertices": [
+          "component:J_R4",
+          "net:R4_W"
+        ]
+      },
+      {
+        "distance": 150.00000000000009,
+        "vertices": [
+          "component:J_RA",
+          "component:R2"
+        ]
+      },
+      {
+        "distance": 150.00000000000017,
+        "vertices": [
+          "component:R3",
+          "component:TPC"
+        ]
+      },
+      {
+        "distance": 150.00000000005932,
+        "vertices": [
+          "component:C2",
+          "component:TPO"
+        ]
+      }
+    ],
+    "minimum_node_distance": 150.0,
+    "vertex_count": 34,
+    "vertex_on_unrelated_edge_count": 0,
+    "zero_crossings_achieved": false
+  },
+  "final_coordinates": {
+    "component:C1": [
+      612.3698022887229,
+      -10.169966024219164
+    ],
+    "component:C2": [
+      217.2014515396301,
+      136.70224862724646
+    ],
+    "component:JP1": [
+      -351.13281761469773,
+      -49.78382514778806
+    ],
+    "component:J_EA": [
+      466.3201052222451,
+      -60.80995895847841
+    ],
+    "component:J_EB": [
+      329.75056995433863,
+      31.055129450617855
+    ],
+    "component:J_OUT": [
+      343.0952347607232,
+      218.25441197243572
+    ],
+    "component:J_PWR": [
+      453.4501065496812,
+      115.89865982328391
+    ],
+    "component:J_R1": [
+      147.227352206502,
+      -371.8760184976669
+    ],
+    "component:J_R4": [
+      21.66108019071041,
+      366.77533125003913
+    ],
+    "component:J_RA": [
+      -144.7727416651307,
+      -413.3302581589056
+    ],
+    "component:R2": [
+      -145.37618202525488,
+      -263.3314719647107
+    ],
+    "component:R3": [
+      -416.8305900578009,
+      85.06350591966107
+    ],
+    "component:RMIN1": [
+      678.5504812830113,
+      -205.02668566046128
+    ],
+    "component:RMIN4": [
+      -293.16840900557713,
+      280.57036651175036
+    ],
+    "component:TPA": [
+      -2.6086619026403626,
+      -364.86396630983387
+    ],
+    "component:TPB": [
+      -203.47090245069998,
+      -23.40279389235123
+    ],
+    "component:TPC": [
+      -274.2538665923508,
+      131.66691701645325
+    ],
+    "component:TPO": [
+      152.57059154975272,
+      272.06417804976417
+    ],
+    "component:U1": [
+      -91.58350603476337,
+      -123.30880233660373
+    ],
+    "net:+9V": [
+      305.35336659748407,
+      -130.16410912949607
+    ],
+    "net:-9V": [
+      77.66457710182004,
+      81.66171200080332
+    ],
+    "net:EA": [
+      193.05955077749798,
+      -30.71513262100183
+    ],
+    "net:EB": [
+      47.62631882429364,
+      -67.44625081314868
+    ],
+    "net:EOUT": [
+      13.033717109884497,
+      217.02364142227256
+    ],
+    "net:GND": [
+      636.6452675358149,
+      185.44048918135084
+    ],
+    "net:NODE_A": [
+      47.37846184134231,
+      -223.34901690180956
+    ],
+    "net:NODE_B": [
+      -64.26107759164296,
+      32.45975763110384
+    ],
+    "net:NODE_C": [
+      -553.1372271154863,
+      147.67741071824832
+    ],
+    "net:R1_EXT": [
+      404.88025218730104,
+      -446.1526278023859
+    ],
+    "net:R1_W": [
+      122.26060462706238,
+      -520.6921912866367
+    ],
+    "net:R4_EXT": [
+      -190.2794989274509,
+      476.67600955087613
+    ],
+    "net:R4_W": [
+      38.52577326928462,
+      515.8242565308526
+    ],
+    "net:RA_SW": [
+      -368.94423346013093,
+      -356.4290471710813
+    ],
+    "net:RA_W": [
+      -195.01952661749493,
+      -554.6641203503524
+    ]
+  },
+  "iterations": [
+    {
+      "accepted": false,
+      "crossings_before": 3,
+      "iteration": 1,
+      "minimum_node_distance_before": 150.0,
+      "relaxed_orientation_audits": [
+        {
+          "crossing": {
+            "edge_a": [
+              "component:J_EA",
+              "net:EA"
+            ],
+            "edge_b": [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          },
+          "solutions": [
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.025656059040784385,
+              "clipped": [
+                [
+                  439.0648709207883,
+                  91.99758737546284
+                ],
+                [
+                  305.35336659748407,
+                  -130.16410912949607
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 161.97252106239011,
+              "mathematical_crossing_boundary_angle": 0.46270429040284067,
+              "mathematical_target_interval": [
+                5.5583753593834535,
+                0.4627042904028406
+              ],
+              "moving": "component:J_EA",
+              "nearest_union_boundary_delta_radians": 0.5980506395668179,
+              "numerical_legal_side_offset_radians": 4.465268445782423e-08,
+              "orientation_index": 0,
+              "pivot": "net:EA",
+              "positions_evaluated": 1,
+              "radius": 274.91276650554715,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 24.921834400350324,
+              "resulting_total_crossings": 4,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 34.265780140688626,
+              "signed_delta_radians": 0.5980506842195024,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000010524804931,
+              "target_interval": [
+                5.518364685029465,
+                0.48836034944362505
+              ],
+              "theta_new": 0.4883603940963095,
+              "theta_old": -0.10969029012319287,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.5980506395668179
+                ],
+                [
+                  5.628054975152658,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.48836034944362505,
+              "visible_clearance_boundary_feature": "STRIP_1"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.03423918827284522,
+              "clipped": [
+                [
+                  453.4501065496812,
+                  115.89865982328391
+                ],
+                [
+                  305.35336659748407,
+                  -130.16410912949607
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 149.5027341495449,
+              "mathematical_crossing_boundary_angle": 3.548416395889357,
+              "mathematical_target_interval": [
+                1.6434997114028542,
+                3.548416395889357
+              ],
+              "moving": "net:EA",
+              "nearest_union_boundary_delta_radians": 0.5507532206956016,
+              "numerical_legal_side_offset_radians": 6.056074699630305e-08,
+              "orientation_index": 1,
+              "pivot": "component:J_EA",
+              "positions_evaluated": 1,
+              "radius": 274.91276650554715,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 99.923752032055,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 31.555838568970366,
+              "signed_delta_radians": 0.5507532812563486,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000010608384537,
+              "target_interval": [
+                1.609628731910065,
+                3.582655584162202
+              ],
+              "theta_new": 3.582655644722949,
+              "theta_old": 3.0319023634666005,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.5507532206956016
+                ],
+                [
+                  4.860911675623051,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 3.582655584162202,
+              "visible_clearance_boundary_feature": "CAP_B"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.034239188272845666,
+              "clipped": [
+                [
+                  466.3201052222451,
+                  -60.80995895847841
+                ],
+                [
+                  193.05955077749798,
+                  -30.71513262100183
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EA",
+                "net:EA"
+              ],
+              "displacement": 185.15292226554035,
+              "mathematical_crossing_boundary_angle": 0.4068237422995642,
+              "mathematical_target_interval": [
+                0.40682374229956403,
+                2.4167827057936604
+              ],
+              "moving": "component:J_PWR",
+              "nearest_union_boundary_delta_radians": -0.656421565526565,
+              "numerical_legal_side_offset_radians": -5.027047365042279e-08,
+              "orientation_index": 2,
+              "pivot": "net:+9V",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 42.44015581420472,
+              "resulting_total_crossings": 5,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -37.61018816632837,
+              "signed_delta_radians": -0.6564216157970387,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000008805844485,
+              "target_interval": [
+                0.37258455402671853,
+                2.4567933801476496
+              ],
+              "theta_new": 0.37258450375624486,
+              "theta_old": 1.0290061195532836,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  1.427787260594366
+                ],
+                [
+                  5.626763741653021,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.37258455402671853,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.02602572627114519,
+              "clipped": [
+                [
+                  466.3201052222451,
+                  -60.80995895847841
+                ],
+                [
+                  207.44860798901334,
+                  -32.29983326987697
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EA",
+                "net:EA"
+              ],
+              "displacement": 145.67178264336536,
+              "mathematical_crossing_boundary_angle": -2.59938886972321,
+              "mathematical_target_interval": [
+                3.6837964374563765,
+                4.785092364992647
+              ],
+              "moving": "net:+9V",
+              "nearest_union_boundary_delta_radians": -0.5128280619578458,
+              "numerical_legal_side_offset_radians": -5.610669400370527e-08,
+              "orientation_index": 3,
+              "pivot": "component:J_PWR",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 11.6783875108041,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -29.38288678073482,
+              "signed_delta_radians": -0.5128281180645398,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000013059199289,
+              "target_interval": [
+                3.657770711185231,
+                4.818963344485436
+              ],
+              "theta_new": 3.657770655078537,
+              "theta_old": -2.1125865340365095,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.6483645713423591
+                ],
+                [
+                  5.77035724522174,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -2.6254145959943553,
+              "visible_clearance_boundary_feature": "STRIP_1"
+            }
+          ]
+        },
+        {
+          "crossing": {
+            "edge_a": [
+              "component:J_EB",
+              "net:GND"
+            ],
+            "edge_b": [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          },
+          "solutions": [
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.030624790913758915,
+              "clipped": [
+                [
+                  453.4501065496812,
+                  115.89865982328391
+                ],
+                [
+                  367.1078626090391,
+                  -27.558999193980526
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 45.96989166735216,
+              "mathematical_crossing_boundary_angle": -2.7787907035108095,
+              "mathematical_target_interval": [
+                3.504394603668777,
+                3.8103545482519787
+              ],
+              "moving": "component:J_EB",
+              "nearest_union_boundary_delta_radians": -0.13391262609608034,
+              "numerical_legal_side_offset_radians": -5.544084958753475e-08,
+              "orientation_index": 0,
+              "pivot": "net:GND",
+              "positions_evaluated": 1,
+              "radius": 343.5392185803735,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 113.88946222249999,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -7.672631475345547,
+              "signed_delta_radians": -0.13391268153692992,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000010858558833,
+              "target_interval": [
+                3.473769812755018,
+                3.8289537035479473
+              ],
+              "theta_new": 3.473769757314168,
+              "theta_old": -2.675502868328488,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.2212712646968491
+                ],
+                [
+                  6.149272681083506,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -2.8094154944245684,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.040010674353989195,
+              "clipped": [
+                [
+                  453.4501065496812,
+                  115.89865982328391
+                ],
+                [
+                  305.35336659748407,
+                  -130.16410912949607
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 60.080355850092694,
+              "mathematical_crossing_boundary_angle": 0.6011891670150595,
+              "mathematical_target_interval": [
+                4.562199184496775,
+                0.6011891670150596
+              ],
+              "moving": "net:GND",
+              "nearest_union_boundary_delta_radians": 0.1751100561077435,
+              "numerical_legal_side_offset_radians": 4.147680924908996e-08,
+              "orientation_index": 1,
+              "pivot": "component:J_EB",
+              "positions_evaluated": 1,
+              "radius": 343.5392185803735,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 10.033069541718863,
+              "signed_delta_radians": 0.17511009758455273,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000006216542192,
+              "target_interval": [
+                4.52539342941425,
+                0.6411998413690487
+              ],
+              "theta_new": 0.6411998828458579,
+              "theta_old": 0.46608978526130523,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.1751100561077435
+                ],
+                [
+                  4.059303644152945,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.6411998413690487,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.023433381893398053,
+              "clipped": [
+                [
+                  329.75056995433863,
+                  31.055129450617855
+                ],
+                [
+                  472.91883412741254,
+                  103.07684941049618
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EB",
+                "net:GND"
+              ],
+              "displacement": 30.034195898870536,
+              "mathematical_crossing_boundary_angle": 0.9478132141021689,
+              "mathematical_target_interval": [
+                0.9478132141021687,
+                1.4206065309069817
+              ],
+              "moving": "component:J_PWR",
+              "nearest_union_boundary_delta_radians": -0.10462628734451229,
+              "numerical_legal_side_offset_radians": -5.027047365042279e-08,
+              "orientation_index": 2,
+              "pivot": "net:+9V",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -5.994647571249546,
+              "signed_delta_radians": -0.10462633761498594,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.00001294752228,
+              "target_interval": [
+                0.9243798322087708,
+                1.4574122859895065
+              ],
+              "theta_new": 0.9243797819382976,
+              "theta_old": 1.0290061195532836,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.42840616643622287
+                ],
+                [
+                  6.178559019835074,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.9243798322087708,
+              "visible_clearance_boundary_feature": "STRIP_1"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.04001067435398831,
+              "clipped": [
+                [
+                  329.75056995433863,
+                  31.055129450617855
+                ],
+                [
+                  636.6452675358149,
+                  185.44048918135087
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EB",
+                "net:GND"
+              ],
+              "displacement": 133.1347127412344,
+              "mathematical_crossing_boundary_angle": -2.540403486574734,
+              "mathematical_target_interval": [
+                3.7427818206048524,
+                0.36280195007898425
+              ],
+              "moving": "net:+9V",
+              "nearest_union_boundary_delta_radians": -0.4678276268922126,
+              "numerical_legal_side_offset_radians": -5.610669400370527e-08,
+              "orientation_index": 3,
+              "pivot": "component:J_PWR",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 18.334496716415924,
+              "resulting_total_crossings": 5,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -26.804551775221523,
+              "signed_delta_radians": -0.4678276829989066,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.0000084092685215,
+              "target_interval": [
+                3.702771146250864,
+                0.39342674099274433
+              ],
+              "theta_new": 3.70277109014417,
+              "theta_old": -2.1125865340365095,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  2.506013275029254
+                ],
+                [
+                  5.815357680287374,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -2.580414160928722,
+              "visible_clearance_boundary_feature": "CAP_A"
+            }
+          ]
+        },
+        {
+          "crossing": {
+            "edge_a": [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            "edge_b": [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          },
+          "solutions": [
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.03794857975754695,
+              "clipped": [
+                [
+                  -91.58350603476337,
+                  -123.30880233660373
+                ],
+                [
+                  -370.86317943777584,
+                  40.6611487700023
+                ]
+              ],
+              "crossed_edge": [
+                "component:U1",
+                "net:NODE_C"
+              ],
+              "displacement": 40.44495620429056,
+              "mathematical_crossing_boundary_angle": -1.744433961179057,
+              "mathematical_target_interval": [
+                3.1148497322959297,
+                4.538751346000529
+              ],
+              "moving": "component:R2",
+              "nearest_union_boundary_delta_radians": 0.13196201896342608,
+              "numerical_legal_side_offset_radians": 4.0681936025738386e-08,
+              "orientation_index": 0,
+              "pivot": "net:NODE_B",
+              "positions_evaluated": 1,
+              "radius": 306.71177296132544,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 139.16788270062722,
+              "resulting_total_crossings": 8,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 7.560869073532885,
+              "signed_delta_radians": 0.1319620596453621,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000006429079445,
+              "target_interval": [
+                3.092641932325133,
+                4.576699925758076
+              ],
+              "theta_new": 4.576699966440012,
+              "theta_old": -1.838447400384936,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.13196201896342608
+                ],
+                [
+                  4.931089332710069,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -1.70648538142151,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.040010674353989195,
+              "clipped": [
+                [
+                  -91.58350603476337,
+                  -123.30880233660373
+                ],
+                [
+                  -302.1223993179029,
+                  0.3022418078748501
+                ]
+              ],
+              "crossed_edge": [
+                "component:U1",
+                "net:NODE_C"
+              ],
+              "displacement": 42.64343995941821,
+              "mathematical_crossing_boundary_angle": 1.2040095012785899,
+              "mathematical_target_interval": [
+                1.2040095012785896,
+                2.1072066638527476
+              ],
+              "moving": "net:NODE_B",
+              "nearest_union_boundary_delta_radians": -0.13914642628025664,
+              "numerical_legal_side_offset_radians": -4.7035143617301485e-08,
+              "orientation_index": 1,
+              "pivot": "component:R2",
+              "positions_evaluated": 1,
+              "radius": 306.71177296132544,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 111.77735217508166,
+              "resulting_total_crossings": 9,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -7.972505655102166,
+              "signed_delta_radians": -0.13914647331540025,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000007049625068,
+              "target_interval": [
+                1.1639988269246007,
+                2.1294066736585973
+              ],
+              "theta_new": 1.163998779889457,
+              "theta_old": 1.3031452532048573,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.82626142045374
+                ],
+                [
+                  6.14403888089933,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 1.1639988269246007,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.031000168748697376,
+              "clipped": [
+                [
+                  -118.20540038594767,
+                  -164.25154145993292
+                ],
+                [
+                  -64.26107759164296,
+                  32.459757631103855
+                ]
+              ],
+              "crossed_edge": [
+                "component:R2",
+                "net:NODE_B"
+              ],
+              "displacement": 65.40506754797869,
+              "mathematical_crossing_boundary_angle": -0.6221702502972822,
+              "mathematical_target_interval": [
+                5.661015056882305,
+                6.051730345661106
+              ],
+              "moving": "component:U1",
+              "nearest_union_boundary_delta_radians": -0.12227728756070988,
+              "numerical_legal_side_offset_radians": -3.829996568301046e-08,
+              "orientation_index": 2,
+              "pivot": "net:NODE_C",
+              "positions_evaluated": 1,
+              "radius": 535.2245931469064,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 87.47544516208022,
+              "resulting_total_crossings": 8,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -7.005974701962586,
+              "signed_delta_radians": -0.12227732586067556,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000007708484153,
+              "target_interval": [
+                5.630014888133607,
+                6.063676399701164
+              ],
+              "theta_new": 5.630014849833641,
+              "theta_old": -0.5308931314852697,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.3113842240068472
+                ],
+                [
+                  6.160908019618876,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -0.6531704190459796,
+              "visible_clearance_boundary_feature": "STRIP_0"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.03794857975754651,
+              "clipped": [
+                [
+                  -145.37618202525488,
+                  -263.3314719647107
+                ],
+                [
+                  -64.26107759164296,
+                  32.459757631103855
+                ]
+              ],
+              "crossed_edge": [
+                "component:R2",
+                "net:NODE_B"
+              ],
+              "displacement": 626.9632105551718,
+              "mathematical_crossing_boundary_angle": 1.3971586924107364,
+              "mathematical_target_interval": [
+                1.3971586924107364,
+                4.3456021548683825
+              ],
+              "moving": "net:NODE_C",
+              "nearest_union_boundary_delta_radians": -1.2514894094513336,
+              "numerical_legal_side_offset_radians": -2.364543516918131e-08,
+              "orientation_index": 3,
+              "pivot": "component:U1",
+              "positions_evaluated": 1,
+              "radius": 535.2245931469064,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 0.0,
+              "resulting_minimum_node_distance": 33.21508711699845,
+              "resulting_total_crossings": 8,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -71.70506262166485,
+              "signed_delta_radians": -1.2514894330967687,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.0000037367538335,
+              "target_interval": [
+                1.35921011265319,
+                4.385612829222372
+              ],
+              "theta_new": 1.3592100890077548,
+              "theta_old": 2.6106995221045235,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  1.7749133071178482
+                ],
+                [
+                  5.031695897728253,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 1.35921011265319,
+              "visible_clearance_boundary_feature": "CAP_B"
+            }
+          ]
+        }
+      ],
+      "selection_mode": "LIMITING_RELAXATION_TO_ZERO_FLOOR",
+      "target_150_orientation_audits": [
+        {
+          "crossing": {
+            "edge_a": [
+              "component:J_EA",
+              "net:EA"
+            ],
+            "edge_b": [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          },
+          "solutions": [
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.025656059040784385,
+              "clipped": [
+                [
+                  439.0648709207883,
+                  91.99758737546284
+                ],
+                [
+                  305.35336659748407,
+                  -130.16410912949607
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 270.0864648540536,
+              "mathematical_crossing_boundary_angle": 0.46270429040284067,
+              "mathematical_target_interval": [
+                5.5583753593834535,
+                0.4627042904028406
+              ],
+              "moving": "component:J_EA",
+              "nearest_union_boundary_delta_radians": -1.0269844916134216,
+              "numerical_legal_side_offset_radians": -4.465268445782423e-08,
+              "orientation_index": 0,
+              "pivot": "net:EA",
+              "positions_evaluated": 1,
+              "radius": 274.91276650554715,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 4,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -58.841879553247914,
+              "signed_delta_radians": -1.026984536266106,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    6.217931751387267,
+                    0.16317030760701903
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    0.9291782464672803,
+                    1.925985114944143
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    0.012565522079821978,
+                    0.8362951899607839
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    0.49444559510442465,
+                    1.5624498050539168
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "interval": [
+                    6.273426262777105,
+                    1.0353785674378444
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "interval": [
+                    4.142975322888432,
+                    5.01471795372479
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "interval": [
+                    3.5536028105960678,
+                    3.9339235143197846
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "interval": [
+                    3.8767049523978936,
+                    4.48858671253115
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "interval": [
+                    2.856742512661798,
+                    3.3895653746238805
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    1.191389829675705,
+                    2.2160741751978104
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "interval": [
+                    2.934259497807764,
+                    3.9779276854833876
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    5.146510525442972,
+                    5.970240193323934
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "interval": [
+                    1.901002652982648,
+                    2.837886115249058
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    2.9771176786008273,
+                    3.8008473464817896
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "interval": [
+                    1.688092386916757,
+                    2.710312099117434
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "interval": [
+                    3.489469259290553,
+                    4.640319133921113
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "interval": [
+                    2.338925893831685,
+                    3.4627619863710466
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 60.04784292703173,
+              "target_interval": [
+                5.518364685029465,
+                0.48836034944362505
+              ],
+              "theta_new": 5.146510480790287,
+              "theta_old": -0.10969029012319287,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  5.1244082438479825
+                ],
+                [
+                  5.256200815566165,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.48836034944362505,
+              "visible_clearance_boundary_feature": "STRIP_1"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.03423918827284522,
+              "clipped": [
+                [
+                  453.4501065496812,
+                  115.89865982328391
+                ],
+                [
+                  305.35336659748407,
+                  -130.16410912949607
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 271.5324180947179,
+              "mathematical_crossing_boundary_angle": 3.548416395889357,
+              "mathematical_target_interval": [
+                1.6434997114028542,
+                3.548416395889357
+              ],
+              "moving": "net:EA",
+              "nearest_union_boundary_delta_radians": 1.0330280648455128,
+              "numerical_legal_side_offset_radians": 6.056074699630305e-08,
+              "orientation_index": 1,
+              "pivot": "component:J_EA",
+              "positions_evaluated": 1,
+              "radius": 274.91276650554715,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 59.18815170408982,
+              "signed_delta_radians": 1.0330281254062599,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    6.17903135406711,
+                    0.7716735996151792
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    1.9802277786428233,
+                    2.962233096924626
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    2.06699994710309,
+                    3.0319023634666005
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    1.4736085203252582,
+                    2.4996175575514066
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "interval": [
+                    1.122032816248559,
+                    2.164966606557149
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "interval": [
+                    5.118178375576617,
+                    6.254483007292067
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    3.0319023634666,
+                    4.064930428312113
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "interval": [
+                    2.6231385803726557,
+                    2.957317521688453
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    3.0319023634665987,
+                    3.282980267275774
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "interval": [
+                    0.4439816241779547,
+                    1.4873779949829875
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "interval": [
+                    4.260264222167116,
+                    4.848291213329681
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 86.55844693459369,
+              "target_interval": [
+                1.609628731910065,
+                3.582655584162202
+              ],
+              "theta_new": 4.064930488872861,
+              "theta_old": 3.0319023634666005,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  1.0330280648455128
+                ],
+                [
+                  1.2283618587005156,
+                  1.8163888498630802
+                ],
+                [
+                  2.086276012110017,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 3.582655584162202,
+              "visible_clearance_boundary_feature": "CAP_B"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.034239188272845666,
+              "clipped": [
+                [
+                  466.3201052222451,
+                  -60.80995895847841
+                ],
+                [
+                  193.05955077749798,
+                  -30.71513262100183
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EA",
+                "net:EA"
+              ],
+              "displacement": 408.77814425920326,
+              "mathematical_crossing_boundary_angle": 0.4068237422995642,
+              "mathematical_target_interval": [
+                0.40682374229956403,
+                2.4167827057936604
+              ],
+              "moving": "component:J_PWR",
+              "nearest_union_boundary_delta_radians": -1.5837726476436114,
+              "numerical_legal_side_offset_radians": -5.027047365042279e-08,
+              "orientation_index": 2,
+              "pivot": "net:+9V",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 5,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -90.74349129852494,
+              "signed_delta_radians": -1.583772697914085,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    6.183805042202738,
+                    0.8445492969677146
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    1.3559851461491976,
+                    2.423683909643794
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    6.241118804889191,
+                    0.8557139868895234
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "interval": [
+                    1.029006119553284,
+                    1.8122069422606795
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    1.0308401398217126,
+                    1.894947232881756
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "interval": [
+                    3.6062256186740953,
+                    4.659919238731399
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "interval": [
+                    5.7284187790892585,
+                    0.15882563493054103
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "interval": [
+                    3.455955413434786,
+                    4.129638569208895
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    1.80555970497418,
+                    2.062048993006315
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "interval": [
+                    2.8205095366492254,
+                    3.428138161112272
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    1.8914895523311899,
+                    2.893052141441446
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    2.123528739485292,
+                    2.710036672102029
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "interval": [
+                    2.3585614250103077,
+                    3.447203793324661
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "interval": [
+                    2.9492648251384046,
+                    4.027185460122899
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "interval": [
+                    2.4491699390468527,
+                    3.0050310348260907
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "interval": [
+                    4.548429923987104,
+                    5.486614997201009
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "interval": [
+                    4.155809629835694,
+                    4.3921578195272994
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 86.55843770470571,
+              "target_interval": [
+                0.37258455402671853,
+                2.4567933801476496
+              ],
+              "theta_new": 5.7284187288187844,
+              "theta_old": 1.0290061195532836,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  4.457608877647726
+                ],
+                [
+                  4.699412659535975,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.37258455402671853,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.02602572627114519,
+              "clipped": [
+                [
+                  466.3201052222451,
+                  -60.80995895847841
+                ],
+                [
+                  207.44860798901334,
+                  -32.29983326987697
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EA",
+                "net:EA"
+              ],
+              "displacement": 477.297699580749,
+              "mathematical_crossing_boundary_angle": -2.59938886972321,
+              "mathematical_target_interval": [
+                3.6837964374563765,
+                4.785092364992647
+              ],
+              "moving": "net:+9V",
+              "nearest_union_boundary_delta_radians": 1.961704264325295,
+              "numerical_legal_side_offset_radians": 5.610669400370527e-08,
+              "orientation_index": 3,
+              "pivot": "component:J_PWR",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 10,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 112.39737821333225,
+              "signed_delta_radians": 1.961704320431989,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    5.0928014668567805,
+                    6.132303037468373
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    2.505061487049622,
+                    3.6024608876320507
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    4.3291366373172915,
+                    5.241048092668003
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "interval": [
+                    3.449527854296484,
+                    4.036035786913221
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    2.095428704404037,
+                    2.692136136451014
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "interval": [
+                    5.002855702890571,
+                    5.645266085986392
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    2.2077567032080427,
+                    3.117917580975778
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    2.866222311765803,
+                    3.5986766856802603
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    3.138206057071872,
+                    4.170598773143077
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "interval": [
+                    6.138684769682321,
+                    0.8701044376552337
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 172.76651245204377,
+              "target_interval": [
+                3.657770711185231,
+                4.818963344485436
+              ],
+              "theta_new": 6.132303093575066,
+              "theta_old": -2.1125865340365095,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  1.961704264325295
+                ],
+                [
+                  1.9680859965392443,
+                  2.9826909716917434
+                ],
+                [
+                  4.208015238440547,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -2.6254145959943553,
+              "visible_clearance_boundary_feature": "STRIP_1"
+            }
+          ]
+        },
+        {
+          "crossing": {
+            "edge_a": [
+              "component:J_EB",
+              "net:GND"
+            ],
+            "edge_b": [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          },
+          "solutions": [
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.030624790913758915,
+              "clipped": [
+                [
+                  453.4501065496812,
+                  115.89865982328391
+                ],
+                [
+                  367.1078626090391,
+                  -27.558999193980526
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 337.555854138613,
+              "mathematical_crossing_boundary_angle": -2.7787907035108095,
+              "mathematical_target_interval": [
+                3.504394603668777,
+                3.8103545482519787
+              ],
+              "moving": "component:J_EB",
+              "nearest_union_boundary_delta_radians": -1.0271439797729576,
+              "numerical_legal_side_offset_radians": -5.544084958753475e-08,
+              "orientation_index": 0,
+              "pivot": "net:GND",
+              "positions_evaluated": 1,
+              "radius": 343.5392185803735,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 5,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -58.85101816978796,
+              "signed_delta_radians": -1.0271440352138073,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    4.463794715716009,
+                    4.714043667563442
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    2.9204530828858477,
+                    3.5940893080636034
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    3.656458540476172,
+                    4.558086385864356
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "interval": [
+                    2.5805384590781406,
+                    3.4800049825197092
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "interval": [
+                    3.4011067684864544,
+                    3.6076824388511
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "interval": [
+                    4.431048190014037,
+                    5.207552774639527
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    2.9085347789723714,
+                    3.0205050214048557
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    3.656291435771917,
+                    4.149199508679299
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    3.5823615698923805,
+                    3.6076824388510933
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 156.35501425247242,
+              "target_interval": [
+                3.473769812755018,
+                3.8289537035479473
+              ],
+              "theta_new": 2.580538403637291,
+              "theta_old": -2.675502868328488,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  1.5998703357884292
+                ],
+                [
+                  5.256041327406629,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -2.8094154944245684,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.040010674353989195,
+              "clipped": [
+                [
+                  453.4501065496812,
+                  115.89865982328391
+                ],
+                [
+                  305.35336659748407,
+                  -130.16410912949607
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_PWR",
+                "net:+9V"
+              ],
+              "displacement": 60.080355850092694,
+              "mathematical_crossing_boundary_angle": 0.6011891670150595,
+              "mathematical_target_interval": [
+                4.562199184496775,
+                0.6011891670150596
+              ],
+              "moving": "net:GND",
+              "nearest_union_boundary_delta_radians": 0.1751100561077435,
+              "numerical_legal_side_offset_radians": 4.147680924908996e-08,
+              "orientation_index": 1,
+              "pivot": "component:J_EB",
+              "positions_evaluated": 1,
+              "radius": 343.5392185803735,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 10.033069541718863,
+              "signed_delta_radians": 0.17511009758455273,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    5.692949898854476,
+                    0.30054256915704597
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "interval": [
+                    3.9965135916287826,
+                    4.57759143081288
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "interval": [
+                    2.0607864881145534,
+                    2.565820104509979
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "interval": [
+                    5.349155606216495,
+                    6.027189380773854
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    1.7539812071979133,
+                    2.6554815108559695
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "interval": [
+                    3.2195462524786134,
+                    3.766004598142831
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "interval": [
+                    2.527976495499799,
+                    3.35897315599657
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "interval": [
+                    3.026822176004224,
+                    3.9281833461471805
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "interval": [
+                    2.1906126092561946,
+                    3.0306993631947208
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "interval": [
+                    3.4695487793118187,
+                    4.280319851542574
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "interval": [
+                    2.75169959798811,
+                    3.5243558578842933
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "interval": [
+                    4.733391262802301,
+                    5.003695239175035
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.000006216542192,
+              "target_interval": [
+                4.52539342941425,
+                0.6411998413690487
+              ],
+              "theta_new": 0.6411998828458579,
+              "theta_old": 0.46608978526130523,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  0.1751100561077435
+                ],
+                [
+                  1.287891421936608,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.6411998413690487,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.023433381893398053,
+              "clipped": [
+                [
+                  329.75056995433863,
+                  31.055129450617855
+                ],
+                [
+                  472.91883412741254,
+                  103.07684941049618
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EB",
+                "net:GND"
+              ],
+              "displacement": 30.034195898870536,
+              "mathematical_crossing_boundary_angle": 0.9478132141021689,
+              "mathematical_target_interval": [
+                0.9478132141021687,
+                1.4206065309069817
+              ],
+              "moving": "component:J_PWR",
+              "nearest_union_boundary_delta_radians": -0.10462628734451229,
+              "numerical_legal_side_offset_radians": -5.027047365042279e-08,
+              "orientation_index": 2,
+              "pivot": "net:+9V",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 3,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -5.994647571249546,
+              "signed_delta_radians": -0.10462633761498594,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    6.183805042202738,
+                    0.8445492969677146
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    1.3559851461491976,
+                    2.423683909643794
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    6.241118804889191,
+                    0.8557139868895234
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "interval": [
+                    1.029006119553284,
+                    1.8122069422606795
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    1.0308401398217126,
+                    1.894947232881756
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "interval": [
+                    3.6062256186740953,
+                    4.659919238731399
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "interval": [
+                    5.7284187790892585,
+                    0.15882563493054103
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "interval": [
+                    3.455955413434786,
+                    4.129638569208895
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    1.80555970497418,
+                    2.062048993006315
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "interval": [
+                    2.8205095366492254,
+                    3.428138161112272
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    1.8914895523311899,
+                    2.893052141441446
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    2.123528739485292,
+                    2.710036672102029
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "interval": [
+                    2.3585614250103077,
+                    3.447203793324661
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "interval": [
+                    2.9492648251384046,
+                    4.027185460122899
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "interval": [
+                    2.4491699390468527,
+                    3.0050310348260907
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "interval": [
+                    4.548429923987104,
+                    5.486614997201009
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "interval": [
+                    4.155809629835694,
+                    4.3921578195272994
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 6.00001294752228,
+              "target_interval": [
+                0.9243798322087708,
+                1.4574122859895065
+              ],
+              "theta_new": 0.9243797819382976,
+              "theta_old": 1.0290061195532836,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  4.457608877647726
+                ],
+                [
+                  4.699412659535975,
+                  6.109893174515826
+                ],
+                [
+                  6.178559019835074,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 0.9243798322087708,
+              "visible_clearance_boundary_feature": "STRIP_1"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.04001067435398831,
+              "clipped": [
+                [
+                  329.75056995433863,
+                  31.055129450617855
+                ],
+                [
+                  636.6452675358149,
+                  185.44048918135087
+                ]
+              ],
+              "crossed_edge": [
+                "component:J_EB",
+                "net:GND"
+              ],
+              "displacement": 494.64842399816143,
+              "mathematical_crossing_boundary_angle": -2.540403486574734,
+              "mathematical_target_interval": [
+                3.7427818206048524,
+                0.36280195007898425
+              ],
+              "moving": "net:+9V",
+              "nearest_union_boundary_delta_radians": -2.0751700687390393,
+              "numerical_legal_side_offset_radians": -5.610669400370527e-08,
+              "orientation_index": 3,
+              "pivot": "component:J_PWR",
+              "positions_evaluated": 1,
+              "radius": 287.19249755029796,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 9,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -118.89848992529664,
+              "signed_delta_radians": -2.0751701248457333,
+              "spacing_intervals": [
+                {
+                  "interval": [
+                    5.0928014668567805,
+                    6.132303037468373
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    2.505061487049622,
+                    3.6024608876320507
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    4.3291366373172915,
+                    5.241048092668003
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "interval": [
+                    3.449527854296484,
+                    4.036035786913221
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    2.095428704404037,
+                    2.692136136451014
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "interval": [
+                    5.002855702890571,
+                    5.645266085986392
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    2.2077567032080427,
+                    3.117917580975778
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    2.866222311765803,
+                    3.5986766856802603
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    3.138206057071872,
+                    4.170598773143077
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "interval": [
+                    6.138684769682321,
+                    0.8701044376552337
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 20.20331817819339,
+              "target_interval": [
+                3.702771146250864,
+                0.39342674099274433
+              ],
+              "theta_new": 2.095428648297343,
+              "theta_old": -2.1125865340365095,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  2.9826909716917434
+                ],
+                [
+                  4.208015238440547,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -2.580414160928722,
+              "visible_clearance_boundary_feature": "CAP_A"
+            }
+          ]
+        },
+        {
+          "crossing": {
+            "edge_a": [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            "edge_b": [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          },
+          "solutions": [
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.03794857975754695,
+              "clipped": [
+                [
+                  -91.58350603476337,
+                  -123.30880233660373
+                ],
+                [
+                  -370.86317943777584,
+                  40.6611487700023
+                ]
+              ],
+              "crossed_edge": [
+                "component:U1",
+                "net:NODE_C"
+              ],
+              "displacement": 590.1595985828733,
+              "mathematical_crossing_boundary_angle": -1.744433961179057,
+              "mathematical_target_interval": [
+                3.1148497322959297,
+                4.538751346000529
+              ],
+              "moving": "component:R2",
+              "nearest_union_boundary_delta_radians": -2.5890208822293665,
+              "numerical_legal_side_offset_radians": -4.0681936025738386e-08,
+              "orientation_index": 0,
+              "pivot": "net:NODE_B",
+              "positions_evaluated": 1,
+              "radius": 306.71177296132544,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 7,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -148.3399719538829,
+              "signed_delta_radians": -2.5890209229113026,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    6.138813932583928,
+                    0.8537646190941197
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "interval": [
+                    2.920552650129095,
+                    3.921037745559373
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "interval": [
+                    5.926917617352656,
+                    0.3491378385197471
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    0.2898113053267295,
+                    0.566016608905313
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "interval": [
+                    5.164818328603018,
+                    5.223796195661541
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "interval": [
+                    0.869876573969639,
+                    1.7685869934021756
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "interval": [
+                    4.444737906794652,
+                    4.622683325152304
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "interval": [
+                    2.562196027792772,
+                    3.42477226751493
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "interval": [
+                    1.8557170245652834,
+                    2.776201549236477
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "interval": [
+                    4.535121247890737,
+                    5.197539820896867
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "interval": [
+                    2.2073934636586805,
+                    3.1930910527004586
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    0.35712099458303537,
+                    1.3133777184552735
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "interval": [
+                    4.444737906794649,
+                    4.63276478520641
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "interval": [
+                    5.542368222712402,
+                    6.195018058340127
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    5.531509490327656,
+                    0.2701783898750755
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "interval": [
+                    0.7449901155091654,
+                    1.6033927124235228
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "interval": [
+                    4.6144842497648,
+                    5.633297437632403
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 148.1612782953318,
+              "target_interval": [
+                3.092641932325133,
+                4.576699925758076
+              ],
+              "theta_new": 1.8557169838833474,
+              "theta_old": -1.838447400384936,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  3.607034393787112
+                ],
+                [
+                  3.6941644249502197,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -1.70648538142151,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.040010674353989195,
+              "clipped": [
+                [
+                  -91.58350603476337,
+                  -123.30880233660373
+                ],
+                [
+                  -302.1223993179029,
+                  0.3022418078748501
+                ]
+              ],
+              "crossed_edge": [
+                "component:U1",
+                "net:NODE_C"
+              ],
+              "displacement": 426.1301216392889,
+              "mathematical_crossing_boundary_angle": 1.2040095012785899,
+              "mathematical_target_interval": [
+                1.2040095012785896,
+                2.1072066638527476
+              ],
+              "moving": "net:NODE_B",
+              "nearest_union_boundary_delta_radians": 1.535936474145688,
+              "numerical_legal_side_offset_radians": 4.7035143617301485e-08,
+              "orientation_index": 1,
+              "pivot": "component:R2",
+              "positions_evaluated": 1,
+              "radius": 306.71177296132544,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 8,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 88.00268026366763,
+              "signed_delta_radians": 1.5359365211808316,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "interval": [
+                    1.8361499182105723,
+                    2.8390817273505453
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "interval": [
+                    5.438574682867433,
+                    0.13416047136065345
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "interval": [
+                    2.0545449952045693,
+                    2.410851650202469
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "interval": [
+                    5.352585603811168,
+                    5.977413528056008
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "interval": [
+                    1.303145253204857,
+                    2.3135696157351555
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "interval": [
+                    1.595844156286132,
+                    2.176515919978662
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:U1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "interval": [
+                    0.6914546685621163,
+                    1.302305431942583
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "interval": [
+                    0.29629566961832715,
+                    0.9080453481179389
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "interval": [
+                    0.28247626523378233,
+                    1.3031452532048577
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "interval": [
+                    6.068993922051648,
+                    0.6232439636959413
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_C"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "interval": [
+                    5.113443618434207,
+                    5.921272780012201
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "interval": [
+                    3.0340788915173826,
+                    4.038263439083233
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "interval": [
+                    4.041514481543818,
+                    5.045703943694621
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 150.0,
+              "target_interval": [
+                1.1639988269246007,
+                2.1294066736585973
+              ],
+              "theta_new": 2.839081774385689,
+              "theta_old": 1.3031452532048573,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  1.535936474145688
+                ],
+                [
+                  1.7309336383125253,
+                  2.7351181858783753
+                ],
+                [
+                  2.738369228338961,
+                  3.7425586904897634
+                ],
+                [
+                  3.81029836522935,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 1.1639988269246007,
+              "visible_clearance_boundary_feature": "CAP_A"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.031000168748697376,
+              "clipped": [
+                [
+                  -118.20540038594767,
+                  -164.25154145993292
+                ],
+                [
+                  -64.26107759164296,
+                  32.459757631103855
+                ]
+              ],
+              "crossed_edge": [
+                "component:R2",
+                "net:NODE_B"
+              ],
+              "displacement": 499.2257638794347,
+              "mathematical_crossing_boundary_angle": -0.6221702502972822,
+              "mathematical_target_interval": [
+                5.661015056882305,
+                6.051730345661106
+              ],
+              "moving": "component:U1",
+              "nearest_union_boundary_delta_radians": -0.9703661988899679,
+              "numerical_legal_side_offset_radians": -3.829996568301046e-08,
+              "orientation_index": 2,
+              "pivot": "net:NODE_C",
+              "positions_evaluated": 1,
+              "radius": 535.2245931469064,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 15,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": -55.597889972973775,
+              "signed_delta_radians": -0.9703662371899335,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "interval": [
+                    0.14249011277612905,
+                    0.5858540791811058
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "interval": [
+                    5.235348697493376,
+                    5.752292175694317
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "interval": [
+                    5.752292175694318,
+                    5.904029586830398
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "interval": [
+                    5.9852282744575955,
+                    0.08940892760529336
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "interval": [
+                    5.752292175694317,
+                    6.126362146899828
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "interval": [
+                    6.14038329661895,
+                    0.3865536240000314
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "interval": [
+                    5.76854925836287,
+                    0.051726125779756715
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "interval": [
+                    0.45637463088993724,
+                    1.0166206494828174
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "interval": [
+                    4.781925976804349,
+                    5.343481281460622
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 378.21832051222907,
+              "target_interval": [
+                5.630014888133607,
+                6.063676399701164
+              ],
+              "theta_new": 4.781925938504383,
+              "theta_old": -0.5308931314852697,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  1.547513780968087
+                ],
+                [
+                  5.312819108289618,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": -0.6531704190459796,
+              "visible_clearance_boundary_feature": "STRIP_0"
+            },
+            {
+              "additional_boundary_rotation_for_visible_clearance_radians": 0.03794857975754651,
+              "clipped": [
+                [
+                  -145.37618202525488,
+                  -263.3314719647107
+                ],
+                [
+                  -64.26107759164296,
+                  32.459757631103855
+                ]
+              ],
+              "crossed_edge": [
+                "component:R2",
+                "net:NODE_B"
+              ],
+              "displacement": 931.3589891711952,
+              "mathematical_crossing_boundary_angle": 1.3971586924107364,
+              "mathematical_target_interval": [
+                1.3971586924107364,
+                4.3456021548683825
+              ],
+              "moving": "net:NODE_C",
+              "nearest_union_boundary_delta_radians": 2.1106630735946474,
+              "numerical_legal_side_offset_radians": 2.364543516918131e-08,
+              "orientation_index": 3,
+              "pivot": "component:U1",
+              "positions_evaluated": 1,
+              "radius": 535.2245931469064,
+              "reason": null,
+              "reconnection": {
+                "electrical_incidence_count": 44,
+                "endpoint_identities_unchanged": true,
+                "failures": [],
+                "graph_edge_count": 44,
+                "materialized_edge_count": 44,
+                "valid": true
+              },
+              "required_centerline_clearance": 6.0,
+              "required_minimum_node_distance": 150.0,
+              "resulting_minimum_node_distance": 150.0,
+              "resulting_total_crossings": 14,
+              "selection_status": "REJECTED_TOTAL_CROSSINGS_NOT_REDUCED",
+              "signed_delta_degrees": 120.93208744586723,
+              "signed_delta_radians": 2.110663097240083,
+              "spacing_intervals": [
+                {
+                  "status": "NONE",
+                  "vertex": "component:C1"
+                },
+                {
+                  "interval": [
+                    0.5446416369971643,
+                    0.8550744206409533
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:C2"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:JP1"
+                },
+                {
+                  "interval": [
+                    6.124472988038127,
+                    0.38183097489150364
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EA"
+                },
+                {
+                  "interval": [
+                    0.1004705829354327,
+                    0.6018949605064254
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_EB"
+                },
+                {
+                  "interval": [
+                    0.39129291763710133,
+                    0.9407306662217936
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_OUT"
+                },
+                {
+                  "interval": [
+                    0.16938889702757107,
+                    0.6577569717576175
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_PWR"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_R1"
+                },
+                {
+                  "interval": [
+                    1.0604201314831823,
+                    1.62700046460463
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:J_R4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:J_RA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:R2"
+                },
+                {
+                  "interval": [
+                    2.5329254013898574,
+                    2.610699498459088
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:R3"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:RMIN1"
+                },
+                {
+                  "interval": [
+                    1.7799972483446063,
+                    2.287485030458627
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:RMIN4"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "component:TPC"
+                },
+                {
+                  "interval": [
+                    0.7513601969232959,
+                    1.2838154029335684
+                  ],
+                  "status": "FINITE",
+                  "vertex": "component:TPO"
+                },
+                {
+                  "interval": [
+                    6.139468458409231,
+                    0.1091792393522656
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:+9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:-9V"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EA"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EB"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:EOUT"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:GND"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_A"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:NODE_B"
+                },
+                {
+                  "interval": [
+                    5.459517780500207,
+                    5.9536992207917425
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_EXT"
+                },
+                {
+                  "interval": [
+                    4.952466412193459,
+                    5.459680910603009
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R1_W"
+                },
+                {
+                  "interval": [
+                    1.503452766409287,
+                    1.9642146536472787
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R4_EXT"
+                },
+                {
+                  "interval": [
+                    1.2109686838324158,
+                    1.528969310394959
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:R4_W"
+                },
+                {
+                  "status": "NONE",
+                  "vertex": "net:RA_SW"
+                },
+                {
+                  "interval": [
+                    4.232716721733956,
+                    4.721362595699171
+                  ],
+                  "status": "FINITE",
+                  "vertex": "net:RA_W"
+                }
+              ],
+              "target_centerline_distance": 14.846017355498972,
+              "target_interval": [
+                1.35921011265319,
+                4.385612829222372
+              ],
+              "theta_new": 4.721362619344607,
+              "theta_old": 2.6106995221045235,
+              "union_segments_shifted": [
+                [
+                  0.0,
+                  2.1106630735946474
+                ],
+                [
+                  2.3417668900889357,
+                  3.342999698687219
+                ],
+                [
+                  3.5137734659336033,
+                  6.283185307179586
+                ]
+              ],
+              "valid": true,
+              "visible_clearance_boundary_angle": 1.35921011265319,
+              "visible_clearance_boundary_feature": "CAP_B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "schema": "graph-relax.uncross-retry.v1",
+  "spacing_is_hard_minimum": false,
+  "spacing_sweep_used": false,
+  "spacing_target": 150.0,
+  "starting": {
+    "crossings": 3,
+    "minimum_node_distance": 150.0
+  },
+  "starting_coordinates_are_source_final_coordinates": true
+}

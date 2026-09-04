@@ -1,0 +1,1043 @@
+{
+  "considered_polygons": [
+    {
+      "accepted_scale": 0.5,
+      "blocked_vertex_ids_and_reasons": {},
+      "boundary_vertex_ids": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "crossings_after_reconnect": 0,
+      "crowding_violations_after_reconnect": 6,
+      "current_crowded_boundary_face": "face:001",
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "facing_boundary_candidate_vertex_ids": [
+        "net:EA",
+        "component:J_EA"
+      ],
+      "facing_boundary_vertices": [
+        "component:U1",
+        "net:EA",
+        "component:J_EA",
+        "net:GND"
+      ],
+      "full_0_5_pull_accepted": true,
+      "iteration": 1,
+      "large_area_floor_median": 20252.40864228177,
+      "metrics_after": {
+        "clearance_violations": 6,
+        "coincident_vertices": 0,
+        "crowding_clusters": 3,
+        "minimum_node_distance": 17.727161871886178,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 3,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "movements": [
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 228.48636225489454,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            304.5186427449895,
+            -223.75248947675456
+          ],
+          "original_coordinates": [
+            211.62926787532948,
+            -15.00004811905768
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "net:EA"
+        },
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 211.58820220420333,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            426.9029884067774,
+            -222.98258355383712
+          ],
+          "original_coordinates": [
+            456.3979591989053,
+            -13.46023627322279
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "component:J_EA"
+        }
+      ],
+      "planned_pull_factor": 0.5,
+      "polygon_area": 238744.6043940984,
+      "pull_pole_coordinates": [
+        397.4080176146495,
+        -432.50493083445144
+      ],
+      "pull_pole_vertex_id": "net:R1_EXT",
+      "safe_movable_vertex_ids": [
+        "net:EA",
+        "component:J_EA"
+      ],
+      "selected_open_polygon_face_id": "face:007",
+      "shortening_hard_validity_reason": null,
+      "side": "SIDE_A",
+      "status": "ACCEPTED",
+      "sufficiently_open_useful": true,
+      "worst_clearance_after": 0.15203931576358773
+    },
+    {
+      "accepted_scale": 0.5,
+      "blocked_vertex_ids_and_reasons": {},
+      "boundary_vertex_ids": [
+        "component:J_EB",
+        "component:J_OUT",
+        "component:U1",
+        "net:EB",
+        "net:EOUT",
+        "net:GND"
+      ],
+      "crossings_after_reconnect": 0,
+      "crowding_violations_after_reconnect": 8,
+      "current_crowded_boundary_face": "face:004",
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "facing_boundary_candidate_vertex_ids": [
+        "net:EB",
+        "component:J_EB"
+      ],
+      "facing_boundary_vertices": [
+        "component:U1",
+        "net:EB",
+        "component:J_EB",
+        "net:GND"
+      ],
+      "full_0_5_pull_accepted": true,
+      "iteration": 2,
+      "large_area_floor_median": 20252.40864228177,
+      "metrics_after": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 40.48143866238865,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "movements": [
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 76.49663584282658,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            49.48121118308251,
+            87.50750611802928
+          ],
+          "original_coordinates": [
+            18.105015046643143,
+            17.741686325829406
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "net:EB"
+        },
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 84.4273003205116,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            165.24374277140117,
+            154.64360569454942
+          ],
+          "original_coordinates": [
+            249.6300782232805,
+            152.01388547886967
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "component:J_EB"
+        }
+      ],
+      "planned_pull_factor": 0.5,
+      "polygon_area": 28084.415059056853,
+      "pull_pole_coordinates": [
+        80.85740731952187,
+        157.27332591022918
+      ],
+      "pull_pole_vertex_id": "net:EOUT",
+      "safe_movable_vertex_ids": [
+        "net:EB",
+        "component:J_EB"
+      ],
+      "selected_open_polygon_face_id": "face:008",
+      "shortening_hard_validity_reason": null,
+      "side": "SIDE_B",
+      "status": "ACCEPTED",
+      "sufficiently_open_useful": true,
+      "worst_clearance_after": 0.15203931576358773
+    },
+    {
+      "from_consumed_face": "face:007",
+      "reevaluated_adjacent_bounded_faces": [
+        "face:001",
+        "face:011"
+      ],
+      "side": "SIDE_A",
+      "status": "EXHAUSTED \u2014 NO NEXT UNUSED LARGE POLYGON WITH A CONTINUOUS CROWD-FACING BOUNDARY"
+    },
+    {
+      "from_consumed_face": "face:008",
+      "reevaluated_adjacent_bounded_faces": [
+        "face:004",
+        "face:010"
+      ],
+      "side": "SIDE_B",
+      "status": "EXHAUSTED \u2014 NO NEXT UNUSED LARGE POLYGON WITH A CONTINUOUS CROWD-FACING BOUNDARY"
+    }
+  ],
+  "consumed_faces": [
+    "face:007",
+    "face:008"
+  ],
+  "electrical_incidence_count": 44,
+  "final_coordinates": {
+    "component:C1": [
+      467.00395328344604,
+      24.472202393688125
+    ],
+    "component:C2": [
+      283.81982446582094,
+      31.487618863674726
+    ],
+    "component:JP1": [
+      -334.42997578032566,
+      111.11344837967394
+    ],
+    "component:J_EA": [
+      426.9029884067774,
+      -222.98258355383712
+    ],
+    "component:J_EB": [
+      165.24374277140117,
+      154.64360569454942
+    ],
+    "component:J_OUT": [
+      340.3424835587094,
+      210.03637591471818
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      102.84623517626561,
+      -377.7214602506761
+    ],
+    "component:J_R4": [
+      44.63753956400488,
+      327.563888644507
+    ],
+    "component:J_RA": [
+      -104.4544567673898,
+      -376.02476810571767
+    ],
+    "component:R2": [
+      -86.6660055998702,
+      -311.0261105926718
+    ],
+    "component:R3": [
+      -297.0910668648412,
+      95.47526571102958
+    ],
+    "component:RMIN1": [
+      643.7112238007887,
+      -215.49158290671926
+    ],
+    "component:RMIN4": [
+      -281.60156205833124,
+      236.6461727353019
+    ],
+    "component:TPA": [
+      -32.44855702730761,
+      -329.27268152947534
+    ],
+    "component:TPB": [
+      -113.59679859782972,
+      30.06981357571914
+    ],
+    "component:TPC": [
+      -260.6318708113398,
+      114.25798046913104
+    ],
+    "component:TPO": [
+      91.11064432645759,
+      243.36924518783795
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      215.899349260613,
+      20.919909972173492
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      304.5186427449895,
+      -223.75248947675456
+    ],
+    "net:EB": [
+      49.48121118308251,
+      87.50750611802928
+    ],
+    "net:EOUT": [
+      80.85740731952187,
+      157.27332591022918
+    ],
+    "net:GND": [
+      625.3553280491062,
+      165.1703098860251
+    ],
+    "net:NODE_A": [
+      -3.554241234402555,
+      -237.88823673916076
+    ],
+    "net:NODE_B": [
+      -63.98862994744413,
+      12.592263277480884
+    ],
+    "net:NODE_C": [
+      -164.80431705291707,
+      68.18776033923683
+    ],
+    "net:R1_EXT": [
+      397.4080176146495,
+      -432.50493083445144
+    ],
+    "net:R1_W": [
+      121.34719516059535,
+      -511.325817598459
+    ],
+    "net:R4_EXT": [
+      -190.2794989274509,
+      476.67600955087613
+    ],
+    "net:R4_W": [
+      34.85444924956621,
+      467.6591534812175
+    ],
+    "net:RA_SW": [
+      -368.94423346013093,
+      -356.4290471710813
+    ],
+    "net:RA_W": [
+      -171.5200935395895,
+      -506.0755988413453
+    ]
+  },
+  "final_metrics": {
+    "clearance_violations": 8,
+    "coincident_vertices": 0,
+    "crowding_clusters": 4,
+    "minimum_node_distance": 40.48143866238865,
+    "proper_crossings": 0,
+    "unique_crowding_event_locations": 4,
+    "vertex_on_unrelated_edge_events": 0,
+    "worst_clearance": 0.15203931576358773
+  },
+  "large_area_floor": 20252.40864228177,
+  "large_open_area_rule": "simple bounded face area >= median current simple bounded-face area",
+  "principal_crowded_region_event_ids": [
+    "V02",
+    "V03",
+    "V04",
+    "V05",
+    "V06"
+  ],
+  "schema": "graph-relax.dichotomy-face-pull.v1",
+  "side_definition": {
+    "SIDE_A": "RMIN1-side topology",
+    "SIDE_B": "J_OUT-side topology"
+  },
+  "source_coordinates": "output/graph_first/iamp_sequential_local_face_pulls_report.json#AFTER face:007",
+  "stages": [
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          456.3979591989053,
+          -13.46023627322279
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -215.49158290671926
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          211.62926787532948,
+          -15.00004811905768
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -432.50493083445144
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "metrics": {
+        "clearance_violations": 6,
+        "coincident_vertices": 0,
+        "crowding_clusters": 3,
+        "minimum_node_distance": 17.727161871886178,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 3,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "moved_vertices": [],
+      "stage": "ORIGINAL"
+    },
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          426.9029884067774,
+          -222.98258355383712
+        ],
+        "component:J_EB": [
+          249.6300782232805,
+          152.01388547886967
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -215.49158290671926
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          304.5186427449895,
+          -223.75248947675456
+        ],
+        "net:EB": [
+          18.105015046643143,
+          17.741686325829406
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -432.50493083445144
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "metrics": {
+        "clearance_violations": 6,
+        "coincident_vertices": 0,
+        "crowding_clusters": 3,
+        "minimum_node_distance": 17.727161871886178,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 3,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "moved_vertices": [
+        "net:EA",
+        "component:J_EA"
+      ],
+      "pole": "net:R1_EXT",
+      "stage": "AFTER SIDE_A face:007"
+    },
+    {
+      "coordinates": {
+        "component:C1": [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        "component:C2": [
+          283.81982446582094,
+          31.487618863674726
+        ],
+        "component:JP1": [
+          -334.42997578032566,
+          111.11344837967394
+        ],
+        "component:J_EA": [
+          426.9029884067774,
+          -222.98258355383712
+        ],
+        "component:J_EB": [
+          165.24374277140117,
+          154.64360569454942
+        ],
+        "component:J_OUT": [
+          340.3424835587094,
+          210.03637591471818
+        ],
+        "component:J_PWR": [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        "component:J_R1": [
+          102.84623517626561,
+          -377.7214602506761
+        ],
+        "component:J_R4": [
+          44.63753956400488,
+          327.563888644507
+        ],
+        "component:J_RA": [
+          -104.4544567673898,
+          -376.02476810571767
+        ],
+        "component:R2": [
+          -86.6660055998702,
+          -311.0261105926718
+        ],
+        "component:R3": [
+          -297.0910668648412,
+          95.47526571102958
+        ],
+        "component:RMIN1": [
+          643.7112238007887,
+          -215.49158290671926
+        ],
+        "component:RMIN4": [
+          -281.60156205833124,
+          236.6461727353019
+        ],
+        "component:TPA": [
+          -32.44855702730761,
+          -329.27268152947534
+        ],
+        "component:TPB": [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        "component:TPC": [
+          -260.6318708113398,
+          114.25798046913104
+        ],
+        "component:TPO": [
+          91.11064432645759,
+          243.36924518783795
+        ],
+        "component:U1": [
+          0.0,
+          0.0
+        ],
+        "net:+9V": [
+          215.899349260613,
+          20.919909972173492
+        ],
+        "net:-9V": [
+          35.54494516364402,
+          20.9199099721735
+        ],
+        "net:EA": [
+          304.5186427449895,
+          -223.75248947675456
+        ],
+        "net:EB": [
+          49.48121118308251,
+          87.50750611802928
+        ],
+        "net:EOUT": [
+          80.85740731952187,
+          157.27332591022918
+        ],
+        "net:GND": [
+          625.3553280491062,
+          165.1703098860251
+        ],
+        "net:NODE_A": [
+          -3.554241234402555,
+          -237.88823673916076
+        ],
+        "net:NODE_B": [
+          -63.98862994744413,
+          12.592263277480884
+        ],
+        "net:NODE_C": [
+          -164.80431705291707,
+          68.18776033923683
+        ],
+        "net:R1_EXT": [
+          397.4080176146495,
+          -432.50493083445144
+        ],
+        "net:R1_W": [
+          121.34719516059535,
+          -511.325817598459
+        ],
+        "net:R4_EXT": [
+          -190.2794989274509,
+          476.67600955087613
+        ],
+        "net:R4_W": [
+          34.85444924956621,
+          467.6591534812175
+        ],
+        "net:RA_SW": [
+          -368.94423346013093,
+          -356.4290471710813
+        ],
+        "net:RA_W": [
+          -171.5200935395895,
+          -506.0755988413453
+        ]
+      },
+      "metrics": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 40.48143866238865,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "moved_vertices": [
+        "net:EB",
+        "component:J_EB"
+      ],
+      "pole": "net:EOUT",
+      "stage": "AFTER SIDE_B face:008"
+    }
+  ],
+  "trace": [
+    {
+      "accepted_scale": 0.5,
+      "blocked_vertex_ids_and_reasons": {},
+      "boundary_vertex_ids": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "crossings_after_reconnect": 0,
+      "crowding_violations_after_reconnect": 6,
+      "current_crowded_boundary_face": "face:001",
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "facing_boundary_candidate_vertex_ids": [
+        "net:EA",
+        "component:J_EA"
+      ],
+      "facing_boundary_vertices": [
+        "component:U1",
+        "net:EA",
+        "component:J_EA",
+        "net:GND"
+      ],
+      "full_0_5_pull_accepted": true,
+      "iteration": 1,
+      "large_area_floor_median": 20252.40864228177,
+      "metrics_after": {
+        "clearance_violations": 6,
+        "coincident_vertices": 0,
+        "crowding_clusters": 3,
+        "minimum_node_distance": 17.727161871886178,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 3,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "movements": [
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 228.48636225489454,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            304.5186427449895,
+            -223.75248947675456
+          ],
+          "original_coordinates": [
+            211.62926787532948,
+            -15.00004811905768
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "net:EA"
+        },
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 211.58820220420333,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            426.9029884067774,
+            -222.98258355383712
+          ],
+          "original_coordinates": [
+            456.3979591989053,
+            -13.46023627322279
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "component:J_EA"
+        }
+      ],
+      "planned_pull_factor": 0.5,
+      "polygon_area": 238744.6043940984,
+      "pull_pole_coordinates": [
+        397.4080176146495,
+        -432.50493083445144
+      ],
+      "pull_pole_vertex_id": "net:R1_EXT",
+      "safe_movable_vertex_ids": [
+        "net:EA",
+        "component:J_EA"
+      ],
+      "selected_open_polygon_face_id": "face:007",
+      "shortening_hard_validity_reason": null,
+      "side": "SIDE_A",
+      "status": "ACCEPTED",
+      "sufficiently_open_useful": true,
+      "worst_clearance_after": 0.15203931576358773
+    },
+    {
+      "accepted_scale": 0.5,
+      "blocked_vertex_ids_and_reasons": {},
+      "boundary_vertex_ids": [
+        "component:J_EB",
+        "component:J_OUT",
+        "component:U1",
+        "net:EB",
+        "net:EOUT",
+        "net:GND"
+      ],
+      "crossings_after_reconnect": 0,
+      "crowding_violations_after_reconnect": 8,
+      "current_crowded_boundary_face": "face:004",
+      "edge_reconnection": {
+        "electrical_incidence_count": 44,
+        "endpoint_identities_unchanged": true,
+        "failures": [],
+        "graph_edge_count": 44,
+        "materialized_edge_count": 44,
+        "valid": true
+      },
+      "facing_boundary_candidate_vertex_ids": [
+        "net:EB",
+        "component:J_EB"
+      ],
+      "facing_boundary_vertices": [
+        "component:U1",
+        "net:EB",
+        "component:J_EB",
+        "net:GND"
+      ],
+      "full_0_5_pull_accepted": true,
+      "iteration": 2,
+      "large_area_floor_median": 20252.40864228177,
+      "metrics_after": {
+        "clearance_violations": 8,
+        "coincident_vertices": 0,
+        "crowding_clusters": 4,
+        "minimum_node_distance": 40.48143866238865,
+        "proper_crossings": 0,
+        "unique_crowding_event_locations": 4,
+        "vertex_on_unrelated_edge_events": 0,
+        "worst_clearance": 0.15203931576358773
+      },
+      "movements": [
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 76.49663584282658,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            49.48121118308251,
+            87.50750611802928
+          ],
+          "original_coordinates": [
+            18.105015046643143,
+            17.741686325829406
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "net:EB"
+        },
+        {
+          "accepted_scale": 0.5,
+          "actual_movement_distance": 84.4273003205116,
+          "full_0_5_pull_accepted": true,
+          "new_coordinates": [
+            165.24374277140117,
+            154.64360569454942
+          ],
+          "original_coordinates": [
+            249.6300782232805,
+            152.01388547886967
+          ],
+          "shortening_hard_validity_reason": null,
+          "vertex": "component:J_EB"
+        }
+      ],
+      "planned_pull_factor": 0.5,
+      "polygon_area": 28084.415059056853,
+      "pull_pole_coordinates": [
+        80.85740731952187,
+        157.27332591022918
+      ],
+      "pull_pole_vertex_id": "net:EOUT",
+      "safe_movable_vertex_ids": [
+        "net:EB",
+        "component:J_EB"
+      ],
+      "selected_open_polygon_face_id": "face:008",
+      "shortening_hard_validity_reason": null,
+      "side": "SIDE_B",
+      "status": "ACCEPTED",
+      "sufficiently_open_useful": true,
+      "worst_clearance_after": 0.15203931576358773
+    }
+  ],
+  "vertex_count": 34
+}

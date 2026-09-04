@@ -1,0 +1,1154 @@
+{
+  "all_clearance_violations": [
+    {
+      "closest_points": [
+        [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        [
+          -113.54586279184491,
+          30.213066838182996
+        ]
+      ],
+      "deficit": 5.847960684236412,
+      "distance": 0.15203931576358773,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:component:TPB",
+      "item_b": "edge:component:R3|net:NODE_B",
+      "region_id": "region:002"
+    },
+    {
+      "closest_points": [
+        [
+          198.4594191436121,
+          17.741686325829395
+        ],
+        [
+          198.3165441721766,
+          19.216196177907474
+        ]
+      ],
+      "deficit": 4.518584271266835,
+      "distance": 1.4814157287331646,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          198.4594191436121,
+          17.741686325829395
+        ],
+        [
+          198.3165441721766,
+          19.216196177907474
+        ]
+      ],
+      "deficit": 4.518584271266835,
+      "distance": 1.4814157287331646,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.9186521487425,
+          17.851520364060008
+        ]
+      ],
+      "deficit": 2.9315496763563265,
+      "distance": 3.0684503236436735,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.9186521487425,
+          17.851520364060008
+        ],
+        [
+          215.899349260613,
+          20.919909972173492
+        ]
+      ],
+      "deficit": 2.9315496763563265,
+      "distance": 3.0684503236436735,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:J_PWR|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.9186521487425,
+          17.851520364060008
+        ]
+      ],
+      "deficit": 2.9315496763563265,
+      "distance": 3.0684503236436735,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.83835135778313,
+          24.23616081791762
+        ]
+      ],
+      "deficit": 2.6831882151607855,
+      "distance": 3.3168117848392145,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.83835135778313,
+          24.23616081791762
+        ],
+        [
+          215.899349260613,
+          20.919909972173492
+        ]
+      ],
+      "deficit": 2.6831882151607855,
+      "distance": 3.3168117848392145,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_b": "edge:component:U1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.83835135778313,
+          24.23616081791762
+        ]
+      ],
+      "deficit": 2.6831882151607855,
+      "distance": 3.3168117848392145,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          379.9672278934835,
+          23.240923097956454
+        ],
+        [
+          379.9104556355607,
+          27.254042980442794
+        ]
+      ],
+      "deficit": 1.9864785685788569,
+      "distance": 4.013521431421143,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:GND",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          379.9672278934835,
+          23.240923097956454
+        ]
+      ],
+      "deficit": 1.9864785685788569,
+      "distance": 4.013521431421143,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:component:J_PWR",
+      "item_b": "edge:component:C1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          467.03566522036317,
+          19.431268776029842
+        ]
+      ],
+      "deficit": 0.9589666352442716,
+      "distance": 5.041033364755728,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:GND",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          467.03566522036317,
+          19.431268776029842
+        ]
+      ],
+      "deficit": 0.9589666352442716,
+      "distance": 5.041033364755728,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:component:C1",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    }
+  ],
+  "coordinates_unchanged": true,
+  "crowded_edge_count": 8,
+  "crowded_region_count": 2,
+  "crowded_regions": [
+    {
+      "bounding_box": {
+        "max_x": -63.98862994744413,
+        "max_y": 95.47526571102958,
+        "min_x": -297.0910668648412,
+        "min_y": 12.592263277480884
+      },
+      "bounding_box_diagonal": 247.3991475111196,
+      "centroid": [
+        -147.06832350198619,
+        42.05178903498719
+      ],
+      "graph_drawing_diameter": 247.3991475111196,
+      "height": 82.8830024335487,
+      "maximum_deficit": 5.847960684236412,
+      "minimum_clearance": 0.15203931576358773,
+      "participating_edge_count": 1,
+      "participating_edges": [
+        [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      ],
+      "participating_vertex_count": 1,
+      "participating_vertices": [
+        "component:TPB"
+      ],
+      "region_id": "region:002",
+      "violation_count": 1,
+      "width": 233.10243691739706
+    },
+    {
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "bounding_box_diagonal": 646.8002145850377,
+      "centroid": [
+        327.2328785469413,
+        34.66803415619559
+      ],
+      "graph_drawing_diameter": 646.8002145850377,
+      "height": 165.1703098860251,
+      "maximum_deficit": 4.518584271266835,
+      "minimum_clearance": 1.4814157287331646,
+      "participating_edge_count": 7,
+      "participating_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:C1",
+          "net:GND"
+        ],
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:J_PWR",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ]
+      ],
+      "participating_vertex_count": 4,
+      "participating_vertices": [
+        "component:C1",
+        "component:J_PWR",
+        "net:+9V",
+        "net:EA"
+      ],
+      "region_id": "region:001",
+      "violation_count": 12,
+      "width": 625.3553280491062
+    }
+  ],
+  "crowded_vertex_count": 5,
+  "edge_clearance": {
+    "component:C1|net:+9V": {
+      "clearance": 3.0684503236436735,
+      "deficit": 2.9315496763563265,
+      "edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EA|net:EA"
+    },
+    "component:C1|net:GND": {
+      "clearance": 5.041033364755728,
+      "deficit": 0.9589666352442716,
+      "edge": [
+        "component:C1",
+        "net:GND"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EA|net:EA"
+    },
+    "component:C2|net:-9V": {
+      "clearance": 6.0000006950533304,
+      "deficit": 0.0,
+      "edge": [
+        "component:C2",
+        "net:-9V"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:C2|net:GND": {
+      "clearance": 6.000016846662411,
+      "deficit": 0.0,
+      "edge": [
+        "component:C2",
+        "net:GND"
+      ],
+      "nearest_unrelated_item": "edge:component:J_PWR|net:-9V"
+    },
+    "component:JP1|net:NODE_C": {
+      "clearance": 6.000010938734505,
+      "deficit": 0.0,
+      "edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "nearest_unrelated_item": "edge:component:R3|net:NODE_B"
+    },
+    "component:JP1|net:RA_SW": {
+      "clearance": 38.3888710776954,
+      "deficit": 0.0,
+      "edge": [
+        "component:JP1",
+        "net:RA_SW"
+      ],
+      "nearest_unrelated_item": "edge:component:R3|net:NODE_B"
+    },
+    "component:J_EA|net:EA": {
+      "clearance": 1.4814157287331646,
+      "deficit": 4.518584271266835,
+      "edge": [
+        "component:J_EA",
+        "net:EA"
+      ],
+      "nearest_unrelated_item": "edge:component:U1|net:+9V"
+    },
+    "component:J_EA|net:GND": {
+      "clearance": 6.000017884913184,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "nearest_unrelated_item": "edge:component:C1|net:+9V"
+    },
+    "component:J_EB|net:EB": {
+      "clearance": 6.0000006950533304,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_EB",
+        "net:EB"
+      ],
+      "nearest_unrelated_item": "edge:component:C2|net:-9V"
+    },
+    "component:J_EB|net:GND": {
+      "clearance": 38.78359996210575,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_EB",
+        "net:GND"
+      ],
+      "nearest_unrelated_item": "edge:component:J_OUT|net:EOUT"
+    },
+    "component:J_OUT|net:EOUT": {
+      "clearance": 38.78359996210575,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_OUT",
+        "net:EOUT"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:J_OUT|net:GND": {
+      "clearance": 107.68170632989282,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_OUT",
+        "net:GND"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:J_PWR|net:+9V": {
+      "clearance": 3.0684503236436735,
+      "deficit": 2.9315496763563265,
+      "edge": [
+        "component:J_PWR",
+        "net:+9V"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EA|net:EA"
+    },
+    "component:J_PWR|net:-9V": {
+      "clearance": 3.3168117848392145,
+      "deficit": 2.6831882151607855,
+      "edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "nearest_unrelated_item": "edge:component:C1|net:+9V"
+    },
+    "component:J_PWR|net:GND": {
+      "clearance": 4.013521431421143,
+      "deficit": 1.9864785685788569,
+      "edge": [
+        "component:J_PWR",
+        "net:GND"
+      ],
+      "nearest_unrelated_item": "edge:component:C1|net:+9V"
+    },
+    "component:J_R1|net:NODE_A": {
+      "clearance": 77.79589733800633,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_R1",
+        "net:NODE_A"
+      ],
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_B"
+    },
+    "component:J_R1|net:R1_EXT": {
+      "clearance": 126.21371442503337,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_R1",
+        "net:R1_EXT"
+      ],
+      "nearest_unrelated_item": "vertex:net:R1_W"
+    },
+    "component:J_R1|net:R1_W": {
+      "clearance": 143.7079154291229,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_R1",
+        "net:R1_W"
+      ],
+      "nearest_unrelated_item": "edge:component:TPA|net:NODE_A"
+    },
+    "component:J_R4|net:EOUT": {
+      "clearance": 27.940360468619872,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_R4",
+        "net:EOUT"
+      ],
+      "nearest_unrelated_item": "vertex:component:TPO"
+    },
+    "component:J_R4|net:R4_EXT": {
+      "clearance": 96.16905662975765,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_R4",
+        "net:R4_EXT"
+      ],
+      "nearest_unrelated_item": "edge:component:TPO|net:EOUT"
+    },
+    "component:J_R4|net:R4_W": {
+      "clearance": 96.16905662975765,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_R4",
+        "net:R4_W"
+      ],
+      "nearest_unrelated_item": "edge:component:TPO|net:EOUT"
+    },
+    "component:J_RA|net:NODE_A": {
+      "clearance": 23.974461290542198,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_RA",
+        "net:NODE_A"
+      ],
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_B"
+    },
+    "component:J_RA|net:RA_SW": {
+      "clearance": 67.38883047981665,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_RA",
+        "net:RA_SW"
+      ],
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_A"
+    },
+    "component:J_RA|net:RA_W": {
+      "clearance": 67.38883047981665,
+      "deficit": 0.0,
+      "edge": [
+        "component:J_RA",
+        "net:RA_W"
+      ],
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_A"
+    },
+    "component:R2|net:NODE_A": {
+      "clearance": 49.51541334879019,
+      "deficit": 0.0,
+      "edge": [
+        "component:R2",
+        "net:NODE_A"
+      ],
+      "nearest_unrelated_item": "vertex:component:TPA"
+    },
+    "component:R2|net:NODE_B": {
+      "clearance": 12.828342375019961,
+      "deficit": 0.0,
+      "edge": [
+        "component:R2",
+        "net:NODE_B"
+      ],
+      "nearest_unrelated_item": "edge:component:U1|net:NODE_C"
+    },
+    "component:R3|net:NODE_B": {
+      "clearance": 0.15203931576358773,
+      "deficit": 5.847960684236412,
+      "edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "nearest_unrelated_item": "vertex:component:TPB"
+    },
+    "component:R3|net:NODE_C": {
+      "clearance": 25.76100047276605,
+      "deficit": 0.0,
+      "edge": [
+        "component:R3",
+        "net:NODE_C"
+      ],
+      "nearest_unrelated_item": "vertex:component:TPC"
+    },
+    "component:RMIN1|net:GND": {
+      "clearance": 174.08144896924526,
+      "deficit": 0.0,
+      "edge": [
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EA|net:EA"
+    },
+    "component:RMIN1|net:R1_EXT": {
+      "clearance": 289.7926914107883,
+      "deficit": 0.0,
+      "edge": [
+        "component:RMIN1",
+        "net:R1_EXT"
+      ],
+      "nearest_unrelated_item": "edge:component:J_R1|net:R1_W"
+    },
+    "component:RMIN4|net:NODE_C": {
+      "clearance": 18.607739975416006,
+      "deficit": 0.0,
+      "edge": [
+        "component:RMIN4",
+        "net:NODE_C"
+      ],
+      "nearest_unrelated_item": "edge:component:R3|net:NODE_B"
+    },
+    "component:RMIN4|net:R4_EXT": {
+      "clearance": 124.17164554428419,
+      "deficit": 0.0,
+      "edge": [
+        "component:RMIN4",
+        "net:R4_EXT"
+      ],
+      "nearest_unrelated_item": "edge:component:TPC|net:NODE_C"
+    },
+    "component:TPA|net:NODE_A": {
+      "clearance": 57.19581537587861,
+      "deficit": 0.0,
+      "edge": [
+        "component:TPA",
+        "net:NODE_A"
+      ],
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_B"
+    },
+    "component:TPB|net:NODE_B": {
+      "clearance": 12.828342375019961,
+      "deficit": 0.0,
+      "edge": [
+        "component:TPB",
+        "net:NODE_B"
+      ],
+      "nearest_unrelated_item": "edge:component:U1|net:NODE_C"
+    },
+    "component:TPC|net:NODE_C": {
+      "clearance": 18.607739975416006,
+      "deficit": 0.0,
+      "edge": [
+        "component:TPC",
+        "net:NODE_C"
+      ],
+      "nearest_unrelated_item": "edge:component:R3|net:NODE_B"
+    },
+    "component:TPO|net:EOUT": {
+      "clearance": 89.22016569454847,
+      "deficit": 0.0,
+      "edge": [
+        "component:TPO",
+        "net:EOUT"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:U1|net:+9V": {
+      "clearance": 1.4814157287331646,
+      "deficit": 4.518584271266835,
+      "edge": [
+        "component:U1",
+        "net:+9V"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EA|net:EA"
+    },
+    "component:U1|net:-9V": {
+      "clearance": 6.0000006950533304,
+      "deficit": 0.0,
+      "edge": [
+        "component:U1",
+        "net:-9V"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:U1|net:EA": {
+      "clearance": 6.173768497254898,
+      "deficit": 0.0,
+      "edge": [
+        "component:U1",
+        "net:EA"
+      ],
+      "nearest_unrelated_item": "edge:component:J_PWR|net:-9V"
+    },
+    "component:U1|net:EB": {
+      "clearance": 17.727161871886157,
+      "deficit": 0.0,
+      "edge": [
+        "component:U1",
+        "net:EB"
+      ],
+      "nearest_unrelated_item": "edge:component:J_PWR|net:-9V"
+    },
+    "component:U1|net:EOUT": {
+      "clearance": 7.98959158376115,
+      "deficit": 0.0,
+      "edge": [
+        "component:U1",
+        "net:EOUT"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:U1|net:NODE_A": {
+      "clearance": 25.348747573071453,
+      "deficit": 0.0,
+      "edge": [
+        "component:U1",
+        "net:NODE_A"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:U1|net:NODE_B": {
+      "clearance": 25.348747573071453,
+      "deficit": 0.0,
+      "edge": [
+        "component:U1",
+        "net:NODE_B"
+      ],
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "component:U1|net:NODE_C": {
+      "clearance": 12.828342375019961,
+      "deficit": 0.0,
+      "edge": [
+        "component:U1",
+        "net:NODE_C"
+      ],
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_B"
+    }
+  },
+  "electrical_incidence_count": 44,
+  "largest_clearance_deficit": 5.847960684236412,
+  "proper_crossing_count": 0,
+  "readability_clearance": 6.0,
+  "schema": "graph-relax.global-readability-clearance.v1",
+  "source_coordinates": "output/graph_first/iamp_nearness_rotation_direct_report.json#final_coordinates",
+  "source_graph": "output/graph_first/iamp_graph.json",
+  "vertex_clearance": {
+    "component:C1": {
+      "clearance": 5.041033364755728,
+      "deficit": 0.9589666352442716,
+      "nearest_unrelated_item": "edge:component:J_EA|net:EA"
+    },
+    "component:C2": {
+      "clearance": 6.000016846662411,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_PWR|net:-9V"
+    },
+    "component:JP1": {
+      "clearance": 40.48143866238865,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:R3|net:NODE_B"
+    },
+    "component:J_EA": {
+      "clearance": 6.074336661888837,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "vertex:component:C1"
+    },
+    "component:J_EB": {
+      "clearance": 38.78359996210575,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_OUT|net:EOUT"
+    },
+    "component:J_OUT": {
+      "clearance": 54.81250461944555,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_EB|net:GND"
+    },
+    "component:J_PWR": {
+      "clearance": 4.013521431421143,
+      "deficit": 1.9864785685788569,
+      "nearest_unrelated_item": "edge:component:C1|net:+9V"
+    },
+    "component:J_R1": {
+      "clearance": 134.87924162989592,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "vertex:net:R1_W"
+    },
+    "component:J_R4": {
+      "clearance": 96.16905662975765,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:TPO|net:EOUT"
+    },
+    "component:J_RA": {
+      "clearance": 67.38883047981665,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_A"
+    },
+    "component:R2": {
+      "clearance": 23.974461290542198,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_RA|net:NODE_A"
+    },
+    "component:R3": {
+      "clearance": 6.000010938734505,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:JP1|net:NODE_C"
+    },
+    "component:RMIN1": {
+      "clearance": 306.1165035184634,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "vertex:component:J_EA"
+    },
+    "component:RMIN4": {
+      "clearance": 124.17164554428419,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:TPC|net:NODE_C"
+    },
+    "component:TPA": {
+      "clearance": 30.569726854228914,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_RA|net:NODE_A"
+    },
+    "component:TPB": {
+      "clearance": 0.15203931576358773,
+      "deficit": 5.847960684236412,
+      "nearest_unrelated_item": "edge:component:R3|net:NODE_B"
+    },
+    "component:TPC": {
+      "clearance": 21.15316138652124,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:JP1|net:NODE_C"
+    },
+    "component:TPO": {
+      "clearance": 27.940360468619872,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_R4|net:EOUT"
+    },
+    "component:U1": {
+      "clearance": 25.348747573071453,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "net:+9V": {
+      "clearance": 3.0684503236436735,
+      "deficit": 2.9315496763563265,
+      "nearest_unrelated_item": "edge:component:J_EA|net:EA"
+    },
+    "net:-9V": {
+      "clearance": 6.0000006950533304,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_EB|net:EB"
+    },
+    "net:EA": {
+      "clearance": 1.4814157287331646,
+      "deficit": 4.518584271266835,
+      "nearest_unrelated_item": "edge:component:U1|net:+9V"
+    },
+    "net:EB": {
+      "clearance": 6.106843021311445,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:U1|net:-9V"
+    },
+    "net:EOUT": {
+      "clearance": 86.70430315374735,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "vertex:component:TPO"
+    },
+    "net:GND": {
+      "clearance": 211.82803247469343,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "vertex:component:C1"
+    },
+    "net:NODE_A": {
+      "clearance": 77.79589733800633,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:R2|net:NODE_B"
+    },
+    "net:NODE_B": {
+      "clearance": 12.828342375019961,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:U1|net:NODE_C"
+    },
+    "net:NODE_C": {
+      "clearance": 18.607739975416006,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:R3|net:NODE_B"
+    },
+    "net:R1_EXT": {
+      "clearance": 289.7926914107883,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_R1|net:R1_W"
+    },
+    "net:R1_W": {
+      "clearance": 126.21371442503337,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_R1|net:R1_EXT"
+    },
+    "net:R4_EXT": {
+      "clearance": 225.31444320139082,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_R4|net:R4_W"
+    },
+    "net:R4_W": {
+      "clearance": 113.03690980183566,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_R4|net:R4_EXT"
+    },
+    "net:RA_SW": {
+      "clearance": 244.05470142944637,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_RA|net:RA_W"
+    },
+    "net:RA_W": {
+      "clearance": 134.65058838726867,
+      "deficit": 0.0,
+      "nearest_unrelated_item": "edge:component:J_RA|net:RA_SW"
+    }
+  },
+  "vertex_count": 34,
+  "violation_type_counts": {
+    "edge-edge": 7,
+    "vertex-edge": 6,
+    "vertex-vertex": 0
+  },
+  "worst_20_violations": [
+    {
+      "closest_points": [
+        [
+          -113.59679859782972,
+          30.06981357571914
+        ],
+        [
+          -113.54586279184491,
+          30.213066838182996
+        ]
+      ],
+      "deficit": 5.847960684236412,
+      "distance": 0.15203931576358773,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:component:TPB",
+      "item_b": "edge:component:R3|net:NODE_B",
+      "region_id": "region:002"
+    },
+    {
+      "closest_points": [
+        [
+          198.4594191436121,
+          17.741686325829395
+        ],
+        [
+          198.3165441721766,
+          19.216196177907474
+        ]
+      ],
+      "deficit": 4.518584271266835,
+      "distance": 1.4814157287331646,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          198.4594191436121,
+          17.741686325829395
+        ],
+        [
+          198.3165441721766,
+          19.216196177907474
+        ]
+      ],
+      "deficit": 4.518584271266835,
+      "distance": 1.4814157287331646,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:net:EA",
+      "item_b": "edge:component:U1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.9186521487425,
+          17.851520364060008
+        ]
+      ],
+      "deficit": 2.9315496763563265,
+      "distance": 3.0684503236436735,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.9186521487425,
+          17.851520364060008
+        ],
+        [
+          215.899349260613,
+          20.919909972173492
+        ]
+      ],
+      "deficit": 2.9315496763563265,
+      "distance": 3.0684503236436735,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:J_EA|net:EA",
+      "item_b": "edge:component:J_PWR|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.9186521487425,
+          17.851520364060008
+        ]
+      ],
+      "deficit": 2.9315496763563265,
+      "distance": 3.0684503236436735,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.83835135778313,
+          24.23616081791762
+        ]
+      ],
+      "deficit": 2.6831882151607855,
+      "distance": 3.3168117848392145,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.83835135778313,
+          24.23616081791762
+        ],
+        [
+          215.899349260613,
+          20.919909972173492
+        ]
+      ],
+      "deficit": 2.6831882151607855,
+      "distance": 3.3168117848392145,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:J_PWR|net:-9V",
+      "item_b": "edge:component:U1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          215.899349260613,
+          20.919909972173492
+        ],
+        [
+          215.83835135778313,
+          24.23616081791762
+        ]
+      ],
+      "deficit": 2.6831882151607855,
+      "distance": 3.3168117848392145,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:net:+9V",
+      "item_b": "edge:component:J_PWR|net:-9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          379.9672278934835,
+          23.240923097956454
+        ],
+        [
+          379.9104556355607,
+          27.254042980442794
+        ]
+      ],
+      "deficit": 1.9864785685788569,
+      "distance": 4.013521431421143,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:+9V",
+      "item_b": "edge:component:J_PWR|net:GND",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          379.9104556355607,
+          27.254042980442794
+        ],
+        [
+          379.9672278934835,
+          23.240923097956454
+        ]
+      ],
+      "deficit": 1.9864785685788569,
+      "distance": 4.013521431421143,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:component:J_PWR",
+      "item_b": "edge:component:C1|net:+9V",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          467.03566522036317,
+          19.431268776029842
+        ]
+      ],
+      "deficit": 0.9589666352442716,
+      "distance": 5.041033364755728,
+      "geometry_type": "edge-edge",
+      "item_a": "edge:component:C1|net:GND",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    },
+    {
+      "closest_points": [
+        [
+          467.00395328344604,
+          24.472202393688125
+        ],
+        [
+          467.03566522036317,
+          19.431268776029842
+        ]
+      ],
+      "deficit": 0.9589666352442716,
+      "distance": 5.041033364755728,
+      "geometry_type": "vertex-edge",
+      "item_a": "vertex:component:C1",
+      "item_b": "edge:component:J_EA|net:EA",
+      "region_id": "region:001"
+    }
+  ],
+  "worst_edge_clearance": 0.15203931576358773,
+  "worst_vertex_clearance": 0.15203931576358773
+}

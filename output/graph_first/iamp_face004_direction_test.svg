@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-468.94423346013093 -611.32581759845903 1212.6554572609198 1188.0018271493352" width="1400" height="1000">
+<rect x="-468.94423346013093" y="-611.32581759845903" width="1212.6554572609198" height="1188.0018271493352" fill="white"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#2e7d32"/></marker></defs>
+<g id="stage-0" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s" dur="3s"/>
+<line data-edge="component:C1|net:+9V" x1="464.64495375711721" y1="22.37906022593323" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C1|net:GND" x1="464.64495375711721" y1="22.37906022593323" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C2|net:-9V" x1="292.96609948529044" y1="33.006161468841917" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C2|net:GND" x1="292.96609948529044" y1="33.006161468841917" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:JP1|net:NODE_C" x1="-334.42997578032566" y1="111.11344837967394" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:JP1|net:RA_SW" x1="-334.42997578032566" y1="111.11344837967394" x2="-368.94423346013093" y2="-356.42904717108132" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EA|net:EA" x1="456.39795919890531" y1="-13.46023627322279" x2="211.62926787532948" y2="-15.000048119057681" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EA|net:GND" x1="456.39795919890531" y1="-13.46023627322279" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EB|net:EB" x1="249.63007822328049" y1="152.01388547886967" x2="18.105015046643143" y2="17.741686325829406" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EB|net:GND" x1="249.63007822328049" y1="152.01388547886967" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_OUT|net:EOUT" x1="340.34248355870938" y1="210.03637591471818" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_OUT|net:GND" x1="340.34248355870938" y1="210.03637591471818" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:+9V" x1="379.91045563556071" y1="27.254042980442794" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:-9V" x1="379.91045563556071" y1="27.254042980442794" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:GND" x1="379.91045563556071" y1="27.254042980442794" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:NODE_A" x1="102.84623517626561" y1="-377.7214602506761" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:R1_EXT" x1="102.84623517626561" y1="-377.7214602506761" x2="397.40801761464951" y2="-432.50493083445144" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:R1_W" x1="102.84623517626561" y1="-377.7214602506761" x2="121.34719516059535" y2="-511.32581759845903" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:EOUT" x1="44.637539564004882" y1="327.56388864450702" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:R4_EXT" x1="44.637539564004882" y1="327.56388864450702" x2="-190.2794989274509" y2="476.67600955087613" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:R4_W" x1="44.637539564004882" y1="327.56388864450702" x2="34.854449249566208" y2="467.65915348121752" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:NODE_A" x1="-104.4544567673898" y1="-376.02476810571767" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:RA_SW" x1="-104.4544567673898" y1="-376.02476810571767" x2="-368.94423346013093" y2="-356.42904717108132" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:RA_W" x1="-104.4544567673898" y1="-376.02476810571767" x2="-171.52009353958951" y2="-506.07559884134531" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R2|net:NODE_A" x1="-86.666005599870203" y1="-311.02611059267178" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R2|net:NODE_B" x1="-86.666005599870203" y1="-311.02611059267178" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R3|net:NODE_B" x1="-297.0910668648412" y1="95.475265711029579" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R3|net:NODE_C" x1="-297.0910668648412" y1="95.475265711029579" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN1|net:GND" x1="643.71122380078873" y1="-215.49158290671926" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN1|net:R1_EXT" x1="643.71122380078873" y1="-215.49158290671926" x2="397.40801761464951" y2="-432.50493083445144" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN4|net:NODE_C" x1="-281.60156205833124" y1="236.64617273530189" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN4|net:R4_EXT" x1="-281.60156205833124" y1="236.64617273530189" x2="-190.2794989274509" y2="476.67600955087613" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPA|net:NODE_A" x1="-32.448557027307608" y1="-329.27268152947534" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPB|net:NODE_B" x1="-113.59679859782972" y1="30.069813575719142" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPC|net:NODE_C" x1="-260.63187081133981" y1="114.25798046913104" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPO|net:EOUT" x1="91.110644326457589" y1="243.36924518783795" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:+9V" x1="0" y1="0" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:-9V" x1="0" y1="0" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EA" x1="0" y1="0" x2="211.62926787532948" y2="-15.000048119057681" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EB" x1="0" y1="0" x2="18.105015046643143" y2="17.741686325829406" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EOUT" x1="0" y1="0" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_A" x1="0" y1="0" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_B" x1="0" y1="0" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_C" x1="0" y1="0" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<circle cx="260.83856451249289" cy="114.75622037265249" r="9" fill="white" stroke="#6a1b9a" stroke-width="4"/>
+<circle data-vertex="component:C1" cx="464.64495375711721" cy="22.37906022593323" r="6" fill="#1565c0" stroke="white"/><text x="473.64495375711721" y="14.37906022593323" font-family="sans-serif" font-size="10">C1</text>
+<circle data-vertex="component:C2" cx="292.96609948529044" cy="33.006161468841917" r="6" fill="#1565c0" stroke="white"/><text x="301.96609948529044" y="25.006161468841917" font-family="sans-serif" font-size="10">C2</text>
+<circle data-vertex="component:JP1" cx="-334.42997578032566" cy="111.11344837967394" r="6" fill="#1565c0" stroke="white"/><text x="-325.42997578032566" y="103.11344837967394" font-family="sans-serif" font-size="10">JP1</text>
+<circle data-vertex="component:J_EA" cx="456.39795919890531" cy="-13.46023627322279" r="6" fill="#1565c0" stroke="white"/><text x="465.39795919890531" y="-21.46023627322279" font-family="sans-serif" font-size="10">J_EA</text>
+<circle data-vertex="component:J_EB" cx="249.63007822328049" cy="152.01388547886967" r="8" fill="#2e7d32" stroke="white"/><text x="258.63007822328052" y="144.01388547886967" font-family="sans-serif" font-size="10">J_EB</text>
+<circle data-vertex="component:J_OUT" cx="340.34248355870938" cy="210.03637591471818" r="6" fill="#1565c0" stroke="white"/><text x="349.34248355870938" y="202.03637591471818" font-family="sans-serif" font-size="10">J_OUT</text>
+<circle data-vertex="component:J_PWR" cx="379.91045563556071" cy="27.254042980442794" r="6" fill="#1565c0" stroke="white"/><text x="388.91045563556071" y="19.254042980442794" font-family="sans-serif" font-size="10">J_PWR</text>
+<circle data-vertex="component:J_R1" cx="102.84623517626561" cy="-377.7214602506761" r="6" fill="#1565c0" stroke="white"/><text x="111.84623517626561" y="-385.7214602506761" font-family="sans-serif" font-size="10">J_R1</text>
+<circle data-vertex="component:J_R4" cx="44.637539564004882" cy="327.56388864450702" r="6" fill="#1565c0" stroke="white"/><text x="53.637539564004882" y="319.56388864450702" font-family="sans-serif" font-size="10">J_R4</text>
+<circle data-vertex="component:J_RA" cx="-104.4544567673898" cy="-376.02476810571767" r="6" fill="#1565c0" stroke="white"/><text x="-95.4544567673898" y="-384.02476810571767" font-family="sans-serif" font-size="10">J_RA</text>
+<circle data-vertex="component:R2" cx="-86.666005599870203" cy="-311.02611059267178" r="6" fill="#1565c0" stroke="white"/><text x="-77.666005599870203" y="-319.02611059267178" font-family="sans-serif" font-size="10">R2</text>
+<circle data-vertex="component:R3" cx="-297.0910668648412" cy="95.475265711029579" r="6" fill="#1565c0" stroke="white"/><text x="-288.0910668648412" y="87.475265711029579" font-family="sans-serif" font-size="10">R3</text>
+<circle data-vertex="component:RMIN1" cx="643.71122380078873" cy="-215.49158290671926" r="6" fill="#1565c0" stroke="white"/><text x="652.71122380078873" y="-223.49158290671926" font-family="sans-serif" font-size="10">RMIN1</text>
+<circle data-vertex="component:RMIN4" cx="-281.60156205833124" cy="236.64617273530189" r="6" fill="#1565c0" stroke="white"/><text x="-272.60156205833124" y="228.64617273530189" font-family="sans-serif" font-size="10">RMIN4</text>
+<circle data-vertex="component:TPA" cx="-32.448557027307608" cy="-329.27268152947534" r="6" fill="#1565c0" stroke="white"/><text x="-23.448557027307608" y="-337.27268152947534" font-family="sans-serif" font-size="10">TPA</text>
+<circle data-vertex="component:TPB" cx="-113.59679859782972" cy="30.069813575719142" r="6" fill="#1565c0" stroke="white"/><text x="-104.59679859782972" y="22.069813575719142" font-family="sans-serif" font-size="10">TPB</text>
+<circle data-vertex="component:TPC" cx="-260.63187081133981" cy="114.25798046913104" r="6" fill="#1565c0" stroke="white"/><text x="-251.63187081133981" y="106.25798046913104" font-family="sans-serif" font-size="10">TPC</text>
+<circle data-vertex="component:TPO" cx="91.110644326457589" cy="243.36924518783795" r="6" fill="#1565c0" stroke="white"/><text x="100.11064432645759" y="235.36924518783795" font-family="sans-serif" font-size="10">TPO</text>
+<circle data-vertex="component:U1" cx="0" cy="0" r="6" fill="#1565c0" stroke="white"/><text x="9" y="-8" font-family="sans-serif" font-size="10">U1</text>
+<circle data-vertex="net:+9V" cx="215.89934926061301" cy="20.919909972173492" r="6" fill="#d84315" stroke="white"/><text x="224.89934926061301" y="12.919909972173492" font-family="sans-serif" font-size="10">+9V</text>
+<circle data-vertex="net:-9V" cx="35.544945163644023" cy="20.9199099721735" r="6" fill="#d84315" stroke="white"/><text x="44.544945163644023" y="12.9199099721735" font-family="sans-serif" font-size="10">-9V</text>
+<circle data-vertex="net:EA" cx="211.62926787532948" cy="-15.000048119057681" r="6" fill="#d84315" stroke="white"/><text x="220.62926787532948" y="-23.000048119057681" font-family="sans-serif" font-size="10">EA</text>
+<circle data-vertex="net:EB" cx="18.105015046643143" cy="17.741686325829406" r="8" fill="#2e7d32" stroke="white"/><text x="27.105015046643143" y="9.7416863258294057" font-family="sans-serif" font-size="10">EB</text>
+<circle data-vertex="net:EOUT" cx="80.857407319521869" cy="157.27332591022918" r="6" fill="#d84315" stroke="white"/><text x="89.857407319521869" y="149.27332591022918" font-family="sans-serif" font-size="10">EOUT</text>
+<circle data-vertex="net:GND" cx="625.35532804910622" cy="165.17030988602511" r="6" fill="#d84315" stroke="white"/><text x="634.35532804910622" y="157.17030988602511" font-family="sans-serif" font-size="10">GND</text>
+<circle data-vertex="net:NODE_A" cx="-3.5542412344025549" cy="-237.88823673916076" r="6" fill="#d84315" stroke="white"/><text x="5.4457587655974447" y="-245.88823673916076" font-family="sans-serif" font-size="10">NODE_A</text>
+<circle data-vertex="net:NODE_B" cx="-63.988629947444132" cy="12.592263277480884" r="6" fill="#d84315" stroke="white"/><text x="-54.988629947444132" y="4.5922632774808836" font-family="sans-serif" font-size="10">NODE_B</text>
+<circle data-vertex="net:NODE_C" cx="-164.80431705291707" cy="68.187760339236831" r="6" fill="#d84315" stroke="white"/><text x="-155.80431705291707" y="60.187760339236831" font-family="sans-serif" font-size="10">NODE_C</text>
+<circle data-vertex="net:R1_EXT" cx="397.40801761464951" cy="-432.50493083445144" r="6" fill="#d84315" stroke="white"/><text x="406.40801761464951" y="-440.50493083445144" font-family="sans-serif" font-size="10">R1_EXT</text>
+<circle data-vertex="net:R1_W" cx="121.34719516059535" cy="-511.32581759845903" r="6" fill="#d84315" stroke="white"/><text x="130.34719516059533" y="-519.32581759845903" font-family="sans-serif" font-size="10">R1_W</text>
+<circle data-vertex="net:R4_EXT" cx="-190.2794989274509" cy="476.67600955087613" r="6" fill="#d84315" stroke="white"/><text x="-181.2794989274509" y="468.67600955087613" font-family="sans-serif" font-size="10">R4_EXT</text>
+<circle data-vertex="net:R4_W" cx="34.854449249566208" cy="467.65915348121752" r="6" fill="#d84315" stroke="white"/><text x="43.854449249566208" y="459.65915348121752" font-family="sans-serif" font-size="10">R4_W</text>
+<circle data-vertex="net:RA_SW" cx="-368.94423346013093" cy="-356.42904717108132" r="6" fill="#d84315" stroke="white"/><text x="-359.94423346013093" y="-364.42904717108132" font-family="sans-serif" font-size="10">RA_SW</text>
+<circle data-vertex="net:RA_W" cx="-171.52009353958951" cy="-506.07559884134531" r="6" fill="#d84315" stroke="white"/><text x="-162.52009353958951" y="-514.07559884134525" font-family="sans-serif" font-size="10">RA_W</text>
+<text x="-452.94423346013093" y="-583.32581759845903" font-family="sans-serif" font-size="19" font-weight="bold">PRE-face:004</text><text x="-452.94423346013093" y="-559.32581759845903" font-family="sans-serif" font-size="14">crossings=0; violations=6</text></g>
+<g id="stage-1" visibility="hidden"><set attributeName="visibility" to="visible" begin="3s" dur="3s"/>
+<line data-edge="component:C1|net:+9V" x1="464.64495375711721" y1="22.37906022593323" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C1|net:GND" x1="464.64495375711721" y1="22.37906022593323" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C2|net:-9V" x1="292.96609948529044" y1="33.006161468841917" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C2|net:GND" x1="292.96609948529044" y1="33.006161468841917" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:JP1|net:NODE_C" x1="-334.42997578032566" y1="111.11344837967394" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:JP1|net:RA_SW" x1="-334.42997578032566" y1="111.11344837967394" x2="-368.94423346013093" y2="-356.42904717108132" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EA|net:EA" x1="456.39795919890531" y1="-13.46023627322279" x2="211.62926787532948" y2="-15.000048119057681" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EA|net:GND" x1="456.39795919890531" y1="-13.46023627322279" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EB|net:EB" x1="250.75092685220173" y1="148.28811896824794" x2="42.378369993228091" y2="27.443139730511717" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EB|net:GND" x1="250.75092685220173" y1="148.28811896824794" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_OUT|net:EOUT" x1="340.34248355870938" y1="210.03637591471818" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_OUT|net:GND" x1="340.34248355870938" y1="210.03637591471818" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:+9V" x1="379.91045563556071" y1="27.254042980442794" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:-9V" x1="379.91045563556071" y1="27.254042980442794" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:GND" x1="379.91045563556071" y1="27.254042980442794" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:NODE_A" x1="102.84623517626561" y1="-377.7214602506761" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:R1_EXT" x1="102.84623517626561" y1="-377.7214602506761" x2="397.40801761464951" y2="-432.50493083445144" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:R1_W" x1="102.84623517626561" y1="-377.7214602506761" x2="121.34719516059535" y2="-511.32581759845903" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:EOUT" x1="44.637539564004882" y1="327.56388864450702" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:R4_EXT" x1="44.637539564004882" y1="327.56388864450702" x2="-190.2794989274509" y2="476.67600955087613" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:R4_W" x1="44.637539564004882" y1="327.56388864450702" x2="34.854449249566208" y2="467.65915348121752" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:NODE_A" x1="-104.4544567673898" y1="-376.02476810571767" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:RA_SW" x1="-104.4544567673898" y1="-376.02476810571767" x2="-368.94423346013093" y2="-356.42904717108132" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:RA_W" x1="-104.4544567673898" y1="-376.02476810571767" x2="-171.52009353958951" y2="-506.07559884134531" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R2|net:NODE_A" x1="-86.666005599870203" y1="-311.02611059267178" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R2|net:NODE_B" x1="-86.666005599870203" y1="-311.02611059267178" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R3|net:NODE_B" x1="-297.0910668648412" y1="95.475265711029579" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R3|net:NODE_C" x1="-297.0910668648412" y1="95.475265711029579" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN1|net:GND" x1="643.71122380078873" y1="-215.49158290671926" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN1|net:R1_EXT" x1="643.71122380078873" y1="-215.49158290671926" x2="397.40801761464951" y2="-432.50493083445144" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN4|net:NODE_C" x1="-281.60156205833124" y1="236.64617273530189" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN4|net:R4_EXT" x1="-281.60156205833124" y1="236.64617273530189" x2="-190.2794989274509" y2="476.67600955087613" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPA|net:NODE_A" x1="-32.448557027307608" y1="-329.27268152947534" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPB|net:NODE_B" x1="-113.59679859782972" y1="30.069813575719142" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPC|net:NODE_C" x1="-260.63187081133981" y1="114.25798046913104" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPO|net:EOUT" x1="91.110644326457589" y1="243.36924518783795" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:+9V" x1="0" y1="0" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:-9V" x1="0" y1="0" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EA" x1="0" y1="0" x2="211.62926787532948" y2="-15.000048119057681" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EB" x1="0" y1="0" x2="42.378369993228091" y2="27.443139730511717" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EOUT" x1="0" y1="0" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_A" x1="0" y1="0" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_B" x1="0" y1="0" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_C" x1="0" y1="0" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line x1="249.63007822328049" y1="152.01388547886967" x2="250.75092685220173" y2="148.28811896824794" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="18.105015046643143" y1="17.741686325829406" x2="42.378369993228091" y2="27.443139730511717" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="260.83856451249289" cy="114.75622037265249" r="9" fill="white" stroke="#6a1b9a" stroke-width="4"/>
+<circle data-vertex="component:C1" cx="464.64495375711721" cy="22.37906022593323" r="6" fill="#1565c0" stroke="white"/><text x="473.64495375711721" y="14.37906022593323" font-family="sans-serif" font-size="10">C1</text>
+<circle data-vertex="component:C2" cx="292.96609948529044" cy="33.006161468841917" r="6" fill="#1565c0" stroke="white"/><text x="301.96609948529044" y="25.006161468841917" font-family="sans-serif" font-size="10">C2</text>
+<circle data-vertex="component:JP1" cx="-334.42997578032566" cy="111.11344837967394" r="6" fill="#1565c0" stroke="white"/><text x="-325.42997578032566" y="103.11344837967394" font-family="sans-serif" font-size="10">JP1</text>
+<circle data-vertex="component:J_EA" cx="456.39795919890531" cy="-13.46023627322279" r="6" fill="#1565c0" stroke="white"/><text x="465.39795919890531" y="-21.46023627322279" font-family="sans-serif" font-size="10">J_EA</text>
+<circle data-vertex="component:J_EB" cx="250.75092685220173" cy="148.28811896824794" r="8" fill="#2e7d32" stroke="white"/><text x="259.7509268522017" y="140.28811896824794" font-family="sans-serif" font-size="10">J_EB</text>
+<circle data-vertex="component:J_OUT" cx="340.34248355870938" cy="210.03637591471818" r="6" fill="#1565c0" stroke="white"/><text x="349.34248355870938" y="202.03637591471818" font-family="sans-serif" font-size="10">J_OUT</text>
+<circle data-vertex="component:J_PWR" cx="379.91045563556071" cy="27.254042980442794" r="6" fill="#1565c0" stroke="white"/><text x="388.91045563556071" y="19.254042980442794" font-family="sans-serif" font-size="10">J_PWR</text>
+<circle data-vertex="component:J_R1" cx="102.84623517626561" cy="-377.7214602506761" r="6" fill="#1565c0" stroke="white"/><text x="111.84623517626561" y="-385.7214602506761" font-family="sans-serif" font-size="10">J_R1</text>
+<circle data-vertex="component:J_R4" cx="44.637539564004882" cy="327.56388864450702" r="6" fill="#1565c0" stroke="white"/><text x="53.637539564004882" y="319.56388864450702" font-family="sans-serif" font-size="10">J_R4</text>
+<circle data-vertex="component:J_RA" cx="-104.4544567673898" cy="-376.02476810571767" r="6" fill="#1565c0" stroke="white"/><text x="-95.4544567673898" y="-384.02476810571767" font-family="sans-serif" font-size="10">J_RA</text>
+<circle data-vertex="component:R2" cx="-86.666005599870203" cy="-311.02611059267178" r="6" fill="#1565c0" stroke="white"/><text x="-77.666005599870203" y="-319.02611059267178" font-family="sans-serif" font-size="10">R2</text>
+<circle data-vertex="component:R3" cx="-297.0910668648412" cy="95.475265711029579" r="6" fill="#1565c0" stroke="white"/><text x="-288.0910668648412" y="87.475265711029579" font-family="sans-serif" font-size="10">R3</text>
+<circle data-vertex="component:RMIN1" cx="643.71122380078873" cy="-215.49158290671926" r="6" fill="#1565c0" stroke="white"/><text x="652.71122380078873" y="-223.49158290671926" font-family="sans-serif" font-size="10">RMIN1</text>
+<circle data-vertex="component:RMIN4" cx="-281.60156205833124" cy="236.64617273530189" r="6" fill="#1565c0" stroke="white"/><text x="-272.60156205833124" y="228.64617273530189" font-family="sans-serif" font-size="10">RMIN4</text>
+<circle data-vertex="component:TPA" cx="-32.448557027307608" cy="-329.27268152947534" r="6" fill="#1565c0" stroke="white"/><text x="-23.448557027307608" y="-337.27268152947534" font-family="sans-serif" font-size="10">TPA</text>
+<circle data-vertex="component:TPB" cx="-113.59679859782972" cy="30.069813575719142" r="6" fill="#1565c0" stroke="white"/><text x="-104.59679859782972" y="22.069813575719142" font-family="sans-serif" font-size="10">TPB</text>
+<circle data-vertex="component:TPC" cx="-260.63187081133981" cy="114.25798046913104" r="6" fill="#1565c0" stroke="white"/><text x="-251.63187081133981" y="106.25798046913104" font-family="sans-serif" font-size="10">TPC</text>
+<circle data-vertex="component:TPO" cx="91.110644326457589" cy="243.36924518783795" r="6" fill="#1565c0" stroke="white"/><text x="100.11064432645759" y="235.36924518783795" font-family="sans-serif" font-size="10">TPO</text>
+<circle data-vertex="component:U1" cx="0" cy="0" r="6" fill="#1565c0" stroke="white"/><text x="9" y="-8" font-family="sans-serif" font-size="10">U1</text>
+<circle data-vertex="net:+9V" cx="215.89934926061301" cy="20.919909972173492" r="6" fill="#d84315" stroke="white"/><text x="224.89934926061301" y="12.919909972173492" font-family="sans-serif" font-size="10">+9V</text>
+<circle data-vertex="net:-9V" cx="35.544945163644023" cy="20.9199099721735" r="6" fill="#d84315" stroke="white"/><text x="44.544945163644023" y="12.9199099721735" font-family="sans-serif" font-size="10">-9V</text>
+<circle data-vertex="net:EA" cx="211.62926787532948" cy="-15.000048119057681" r="6" fill="#d84315" stroke="white"/><text x="220.62926787532948" y="-23.000048119057681" font-family="sans-serif" font-size="10">EA</text>
+<circle data-vertex="net:EB" cx="42.378369993228091" cy="27.443139730511717" r="8" fill="#2e7d32" stroke="white"/><text x="51.378369993228091" y="19.443139730511717" font-family="sans-serif" font-size="10">EB</text>
+<circle data-vertex="net:EOUT" cx="80.857407319521869" cy="157.27332591022918" r="6" fill="#d84315" stroke="white"/><text x="89.857407319521869" y="149.27332591022918" font-family="sans-serif" font-size="10">EOUT</text>
+<circle data-vertex="net:GND" cx="625.35532804910622" cy="165.17030988602511" r="6" fill="#d84315" stroke="white"/><text x="634.35532804910622" y="157.17030988602511" font-family="sans-serif" font-size="10">GND</text>
+<circle data-vertex="net:NODE_A" cx="-3.5542412344025549" cy="-237.88823673916076" r="6" fill="#d84315" stroke="white"/><text x="5.4457587655974447" y="-245.88823673916076" font-family="sans-serif" font-size="10">NODE_A</text>
+<circle data-vertex="net:NODE_B" cx="-63.988629947444132" cy="12.592263277480884" r="6" fill="#d84315" stroke="white"/><text x="-54.988629947444132" y="4.5922632774808836" font-family="sans-serif" font-size="10">NODE_B</text>
+<circle data-vertex="net:NODE_C" cx="-164.80431705291707" cy="68.187760339236831" r="6" fill="#d84315" stroke="white"/><text x="-155.80431705291707" y="60.187760339236831" font-family="sans-serif" font-size="10">NODE_C</text>
+<circle data-vertex="net:R1_EXT" cx="397.40801761464951" cy="-432.50493083445144" r="6" fill="#d84315" stroke="white"/><text x="406.40801761464951" y="-440.50493083445144" font-family="sans-serif" font-size="10">R1_EXT</text>
+<circle data-vertex="net:R1_W" cx="121.34719516059535" cy="-511.32581759845903" r="6" fill="#d84315" stroke="white"/><text x="130.34719516059533" y="-519.32581759845903" font-family="sans-serif" font-size="10">R1_W</text>
+<circle data-vertex="net:R4_EXT" cx="-190.2794989274509" cy="476.67600955087613" r="6" fill="#d84315" stroke="white"/><text x="-181.2794989274509" y="468.67600955087613" font-family="sans-serif" font-size="10">R4_EXT</text>
+<circle data-vertex="net:R4_W" cx="34.854449249566208" cy="467.65915348121752" r="6" fill="#d84315" stroke="white"/><text x="43.854449249566208" y="459.65915348121752" font-family="sans-serif" font-size="10">R4_W</text>
+<circle data-vertex="net:RA_SW" cx="-368.94423346013093" cy="-356.42904717108132" r="6" fill="#d84315" stroke="white"/><text x="-359.94423346013093" y="-364.42904717108132" font-family="sans-serif" font-size="10">RA_SW</text>
+<circle data-vertex="net:RA_W" cx="-171.52009353958951" cy="-506.07559884134531" r="6" fill="#d84315" stroke="white"/><text x="-162.52009353958951" y="-514.07559884134525" font-family="sans-serif" font-size="10">RA_W</text>
+<circle cx="-113.57133069483731" cy="30.141440206951067" r="4" fill="#d50000"/>
+<circle cx="35.066324574295109" cy="21.65900763450307" r="4" fill="#d50000"/>
+<circle cx="35.066324574295109" cy="21.65900763450307" r="4" fill="#d50000"/>
+<circle cx="35.066324574295109" cy="21.65900763450307" r="4" fill="#d50000"/>
+<circle cx="215.86885030919808" cy="22.578035395045557" r="4" fill="#d50000"/>
+<circle cx="215.86885030919808" cy="22.578035395045557" r="4" fill="#d50000"/>
+<circle cx="215.86885030919808" cy="22.578035395045557" r="4" fill="#d50000"/>
+<circle cx="379.9262113737185" cy="24.568116289712258" r="4" fill="#d50000"/>
+<circle cx="379.9262113737185" cy="24.568116289712258" r="4" fill="#d50000"/>
+<text x="-452.94423346013093" y="-583.32581759845903" font-family="sans-serif" font-size="19" font-weight="bold">CASE A — INWARD</text><text x="-452.94423346013093" y="-559.32581759845903" font-family="sans-serif" font-size="14">crossings=0; violations=9</text></g>
+<g id="stage-2" visibility="hidden"><set attributeName="visibility" to="visible" begin="6s" fill="freeze"/>
+<line data-edge="component:C1|net:+9V" x1="464.64495375711721" y1="22.37906022593323" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C1|net:GND" x1="464.64495375711721" y1="22.37906022593323" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C2|net:-9V" x1="292.96609948529044" y1="33.006161468841917" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:C2|net:GND" x1="292.96609948529044" y1="33.006161468841917" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:JP1|net:NODE_C" x1="-334.42997578032566" y1="111.11344837967394" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:JP1|net:RA_SW" x1="-334.42997578032566" y1="111.11344837967394" x2="-368.94423346013093" y2="-356.42904717108132" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EA|net:EA" x1="456.39795919890531" y1="-13.46023627322279" x2="211.62926787532948" y2="-15.000048119057681" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EA|net:GND" x1="456.39795919890531" y1="-13.46023627322279" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EB|net:EB" x1="248.50922959435925" y1="155.73965198949139" x2="-6.1683398999418273" y2="8.0402329211470995" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_EB|net:GND" x1="248.50922959435925" y1="155.73965198949139" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_OUT|net:EOUT" x1="340.34248355870938" y1="210.03637591471818" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_OUT|net:GND" x1="340.34248355870938" y1="210.03637591471818" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:+9V" x1="379.91045563556071" y1="27.254042980442794" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:-9V" x1="379.91045563556071" y1="27.254042980442794" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_PWR|net:GND" x1="379.91045563556071" y1="27.254042980442794" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:NODE_A" x1="102.84623517626561" y1="-377.7214602506761" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:R1_EXT" x1="102.84623517626561" y1="-377.7214602506761" x2="397.40801761464951" y2="-432.50493083445144" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R1|net:R1_W" x1="102.84623517626561" y1="-377.7214602506761" x2="121.34719516059535" y2="-511.32581759845903" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:EOUT" x1="44.637539564004882" y1="327.56388864450702" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:R4_EXT" x1="44.637539564004882" y1="327.56388864450702" x2="-190.2794989274509" y2="476.67600955087613" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_R4|net:R4_W" x1="44.637539564004882" y1="327.56388864450702" x2="34.854449249566208" y2="467.65915348121752" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:NODE_A" x1="-104.4544567673898" y1="-376.02476810571767" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:RA_SW" x1="-104.4544567673898" y1="-376.02476810571767" x2="-368.94423346013093" y2="-356.42904717108132" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:J_RA|net:RA_W" x1="-104.4544567673898" y1="-376.02476810571767" x2="-171.52009353958951" y2="-506.07559884134531" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R2|net:NODE_A" x1="-86.666005599870203" y1="-311.02611059267178" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R2|net:NODE_B" x1="-86.666005599870203" y1="-311.02611059267178" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R3|net:NODE_B" x1="-297.0910668648412" y1="95.475265711029579" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:R3|net:NODE_C" x1="-297.0910668648412" y1="95.475265711029579" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN1|net:GND" x1="643.71122380078873" y1="-215.49158290671926" x2="625.35532804910622" y2="165.17030988602511" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN1|net:R1_EXT" x1="643.71122380078873" y1="-215.49158290671926" x2="397.40801761464951" y2="-432.50493083445144" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN4|net:NODE_C" x1="-281.60156205833124" y1="236.64617273530189" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:RMIN4|net:R4_EXT" x1="-281.60156205833124" y1="236.64617273530189" x2="-190.2794989274509" y2="476.67600955087613" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPA|net:NODE_A" x1="-32.448557027307608" y1="-329.27268152947534" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPB|net:NODE_B" x1="-113.59679859782972" y1="30.069813575719142" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPC|net:NODE_C" x1="-260.63187081133981" y1="114.25798046913104" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:TPO|net:EOUT" x1="91.110644326457589" y1="243.36924518783795" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:+9V" x1="0" y1="0" x2="215.89934926061301" y2="20.919909972173492" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:-9V" x1="0" y1="0" x2="35.544945163644023" y2="20.9199099721735" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EA" x1="0" y1="0" x2="211.62926787532948" y2="-15.000048119057681" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EB" x1="0" y1="0" x2="-6.1683398999418273" y2="8.0402329211470995" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:EOUT" x1="0" y1="0" x2="80.857407319521869" y2="157.27332591022918" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_A" x1="0" y1="0" x2="-3.5542412344025549" y2="-237.88823673916076" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_B" x1="0" y1="0" x2="-63.988629947444132" y2="12.592263277480884" stroke="#777" stroke-width="1.5"/>
+<line data-edge="component:U1|net:NODE_C" x1="0" y1="0" x2="-164.80431705291707" y2="68.187760339236831" stroke="#777" stroke-width="1.5"/>
+<line x1="249.63007822328049" y1="152.01388547886967" x2="248.50922959435925" y2="155.73965198949139" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="18.105015046643143" y1="17.741686325829406" x2="-6.1683398999418273" y2="8.0402329211470995" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="260.83856451249289" cy="114.75622037265249" r="9" fill="white" stroke="#6a1b9a" stroke-width="4"/>
+<circle data-vertex="component:C1" cx="464.64495375711721" cy="22.37906022593323" r="6" fill="#1565c0" stroke="white"/><text x="473.64495375711721" y="14.37906022593323" font-family="sans-serif" font-size="10">C1</text>
+<circle data-vertex="component:C2" cx="292.96609948529044" cy="33.006161468841917" r="6" fill="#1565c0" stroke="white"/><text x="301.96609948529044" y="25.006161468841917" font-family="sans-serif" font-size="10">C2</text>
+<circle data-vertex="component:JP1" cx="-334.42997578032566" cy="111.11344837967394" r="6" fill="#1565c0" stroke="white"/><text x="-325.42997578032566" y="103.11344837967394" font-family="sans-serif" font-size="10">JP1</text>
+<circle data-vertex="component:J_EA" cx="456.39795919890531" cy="-13.46023627322279" r="6" fill="#1565c0" stroke="white"/><text x="465.39795919890531" y="-21.46023627322279" font-family="sans-serif" font-size="10">J_EA</text>
+<circle data-vertex="component:J_EB" cx="248.50922959435925" cy="155.73965198949139" r="8" fill="#2e7d32" stroke="white"/><text x="257.50922959435923" y="147.73965198949139" font-family="sans-serif" font-size="10">J_EB</text>
+<circle data-vertex="component:J_OUT" cx="340.34248355870938" cy="210.03637591471818" r="6" fill="#1565c0" stroke="white"/><text x="349.34248355870938" y="202.03637591471818" font-family="sans-serif" font-size="10">J_OUT</text>
+<circle data-vertex="component:J_PWR" cx="379.91045563556071" cy="27.254042980442794" r="6" fill="#1565c0" stroke="white"/><text x="388.91045563556071" y="19.254042980442794" font-family="sans-serif" font-size="10">J_PWR</text>
+<circle data-vertex="component:J_R1" cx="102.84623517626561" cy="-377.7214602506761" r="6" fill="#1565c0" stroke="white"/><text x="111.84623517626561" y="-385.7214602506761" font-family="sans-serif" font-size="10">J_R1</text>
+<circle data-vertex="component:J_R4" cx="44.637539564004882" cy="327.56388864450702" r="6" fill="#1565c0" stroke="white"/><text x="53.637539564004882" y="319.56388864450702" font-family="sans-serif" font-size="10">J_R4</text>
+<circle data-vertex="component:J_RA" cx="-104.4544567673898" cy="-376.02476810571767" r="6" fill="#1565c0" stroke="white"/><text x="-95.4544567673898" y="-384.02476810571767" font-family="sans-serif" font-size="10">J_RA</text>
+<circle data-vertex="component:R2" cx="-86.666005599870203" cy="-311.02611059267178" r="6" fill="#1565c0" stroke="white"/><text x="-77.666005599870203" y="-319.02611059267178" font-family="sans-serif" font-size="10">R2</text>
+<circle data-vertex="component:R3" cx="-297.0910668648412" cy="95.475265711029579" r="6" fill="#1565c0" stroke="white"/><text x="-288.0910668648412" y="87.475265711029579" font-family="sans-serif" font-size="10">R3</text>
+<circle data-vertex="component:RMIN1" cx="643.71122380078873" cy="-215.49158290671926" r="6" fill="#1565c0" stroke="white"/><text x="652.71122380078873" y="-223.49158290671926" font-family="sans-serif" font-size="10">RMIN1</text>
+<circle data-vertex="component:RMIN4" cx="-281.60156205833124" cy="236.64617273530189" r="6" fill="#1565c0" stroke="white"/><text x="-272.60156205833124" y="228.64617273530189" font-family="sans-serif" font-size="10">RMIN4</text>
+<circle data-vertex="component:TPA" cx="-32.448557027307608" cy="-329.27268152947534" r="6" fill="#1565c0" stroke="white"/><text x="-23.448557027307608" y="-337.27268152947534" font-family="sans-serif" font-size="10">TPA</text>
+<circle data-vertex="component:TPB" cx="-113.59679859782972" cy="30.069813575719142" r="6" fill="#1565c0" stroke="white"/><text x="-104.59679859782972" y="22.069813575719142" font-family="sans-serif" font-size="10">TPB</text>
+<circle data-vertex="component:TPC" cx="-260.63187081133981" cy="114.25798046913104" r="6" fill="#1565c0" stroke="white"/><text x="-251.63187081133981" y="106.25798046913104" font-family="sans-serif" font-size="10">TPC</text>
+<circle data-vertex="component:TPO" cx="91.110644326457589" cy="243.36924518783795" r="6" fill="#1565c0" stroke="white"/><text x="100.11064432645759" y="235.36924518783795" font-family="sans-serif" font-size="10">TPO</text>
+<circle data-vertex="component:U1" cx="0" cy="0" r="6" fill="#1565c0" stroke="white"/><text x="9" y="-8" font-family="sans-serif" font-size="10">U1</text>
+<circle data-vertex="net:+9V" cx="215.89934926061301" cy="20.919909972173492" r="6" fill="#d84315" stroke="white"/><text x="224.89934926061301" y="12.919909972173492" font-family="sans-serif" font-size="10">+9V</text>
+<circle data-vertex="net:-9V" cx="35.544945163644023" cy="20.9199099721735" r="6" fill="#d84315" stroke="white"/><text x="44.544945163644023" y="12.9199099721735" font-family="sans-serif" font-size="10">-9V</text>
+<circle data-vertex="net:EA" cx="211.62926787532948" cy="-15.000048119057681" r="6" fill="#d84315" stroke="white"/><text x="220.62926787532948" y="-23.000048119057681" font-family="sans-serif" font-size="10">EA</text>
+<circle data-vertex="net:EB" cx="-6.1683398999418273" cy="8.0402329211470995" r="8" fill="#2e7d32" stroke="white"/><text x="2.8316601000581727" y="0.040232921147099532" font-family="sans-serif" font-size="10">EB</text>
+<circle data-vertex="net:EOUT" cx="80.857407319521869" cy="157.27332591022918" r="6" fill="#d84315" stroke="white"/><text x="89.857407319521869" y="149.27332591022918" font-family="sans-serif" font-size="10">EOUT</text>
+<circle data-vertex="net:GND" cx="625.35532804910622" cy="165.17030988602511" r="6" fill="#d84315" stroke="white"/><text x="634.35532804910622" y="157.17030988602511" font-family="sans-serif" font-size="10">GND</text>
+<circle data-vertex="net:NODE_A" cx="-3.5542412344025549" cy="-237.88823673916076" r="6" fill="#d84315" stroke="white"/><text x="5.4457587655974447" y="-245.88823673916076" font-family="sans-serif" font-size="10">NODE_A</text>
+<circle data-vertex="net:NODE_B" cx="-63.988629947444132" cy="12.592263277480884" r="6" fill="#d84315" stroke="white"/><text x="-54.988629947444132" y="4.5922632774808836" font-family="sans-serif" font-size="10">NODE_B</text>
+<circle data-vertex="net:NODE_C" cx="-164.80431705291707" cy="68.187760339236831" r="6" fill="#d84315" stroke="white"/><text x="-155.80431705291707" y="60.187760339236831" font-family="sans-serif" font-size="10">NODE_C</text>
+<circle data-vertex="net:R1_EXT" cx="397.40801761464951" cy="-432.50493083445144" r="6" fill="#d84315" stroke="white"/><text x="406.40801761464951" y="-440.50493083445144" font-family="sans-serif" font-size="10">R1_EXT</text>
+<circle data-vertex="net:R1_W" cx="121.34719516059535" cy="-511.32581759845903" r="6" fill="#d84315" stroke="white"/><text x="130.34719516059533" y="-519.32581759845903" font-family="sans-serif" font-size="10">R1_W</text>
+<circle data-vertex="net:R4_EXT" cx="-190.2794989274509" cy="476.67600955087613" r="6" fill="#d84315" stroke="white"/><text x="-181.2794989274509" y="468.67600955087613" font-family="sans-serif" font-size="10">R4_EXT</text>
+<circle data-vertex="net:R4_W" cx="34.854449249566208" cy="467.65915348121752" r="6" fill="#d84315" stroke="white"/><text x="43.854449249566208" y="459.65915348121752" font-family="sans-serif" font-size="10">R4_W</text>
+<circle data-vertex="net:RA_SW" cx="-368.94423346013093" cy="-356.42904717108132" r="6" fill="#d84315" stroke="white"/><text x="-359.94423346013093" y="-364.42904717108132" font-family="sans-serif" font-size="10">RA_SW</text>
+<circle data-vertex="net:RA_W" cx="-171.52009353958951" cy="-506.07559884134531" r="6" fill="#d84315" stroke="white"/><text x="-162.52009353958951" y="-514.07559884134525" font-family="sans-serif" font-size="10">RA_W</text>
+<circle cx="-2.0942172687434564" cy="5.945643828216479" r="4" fill="#d50000"/>
+<circle cx="-113.57133069483731" cy="30.141440206951067" r="4" fill="#d50000"/>
+<circle cx="215.86885030919808" cy="22.578035395045557" r="4" fill="#d50000"/>
+<circle cx="215.86885030919808" cy="22.578035395045557" r="4" fill="#d50000"/>
+<circle cx="215.86885030919808" cy="22.578035395045557" r="4" fill="#d50000"/>
+<circle cx="-7.1377366909401019" cy="5.6972790640480557" r="4" fill="#d50000"/>
+<circle cx="-7.1377366909401019" cy="5.6972790640480557" r="4" fill="#d50000"/>
+<circle cx="379.9262113737185" cy="24.568116289712258" r="4" fill="#d50000"/>
+<circle cx="379.9262113737185" cy="24.568116289712258" r="4" fill="#d50000"/>
+<text x="-452.94423346013093" y="-583.32581759845903" font-family="sans-serif" font-size="19" font-weight="bold">CASE B — OUTWARD</text><text x="-452.94423346013093" y="-559.32581759845903" font-family="sans-serif" font-size="14">crossings=1; violations=9</text></g>
+</svg>

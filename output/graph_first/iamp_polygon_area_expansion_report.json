@@ -1,0 +1,1020 @@
+{
+  "after_ranking": [
+    {
+      "area": 6262.172222366935,
+      "average_nearest_boundary_node_distance": 80.99997844212096,
+      "crowding_rank": 1,
+      "face_id": "face:001",
+      "minimum_nearest_boundary_node_distance": 18.961293275131556
+    },
+    {
+      "area": 8217.63147587218,
+      "average_nearest_boundary_node_distance": 80.40230408112583,
+      "crowding_rank": 2,
+      "face_id": "face:004",
+      "minimum_nearest_boundary_node_distance": 21.565170253185705
+    },
+    {
+      "area": 24019.404625989006,
+      "average_nearest_boundary_node_distance": 117.37338229917505,
+      "crowding_rank": 3,
+      "face_id": "face:008",
+      "minimum_nearest_boundary_node_distance": 27.8720063803153
+    },
+    {
+      "area": 2457.6933404854717,
+      "average_nearest_boundary_node_distance": 102.68879715109604,
+      "crowding_rank": 4,
+      "face_id": "face:009",
+      "minimum_nearest_boundary_node_distance": 41.244220927668216
+    },
+    {
+      "area": 20252.40864228177,
+      "average_nearest_boundary_node_distance": 87.96295788527846,
+      "crowding_rank": 5,
+      "face_id": "face:011",
+      "minimum_nearest_boundary_node_distance": 65.21587120479445
+    },
+    {
+      "area": 3445.7605103615856,
+      "average_nearest_boundary_node_distance": 95.15810981159498,
+      "crowding_rank": 6,
+      "face_id": "face:012",
+      "minimum_nearest_boundary_node_distance": 65.21587120479445
+    },
+    {
+      "area": 5442.0814503448055,
+      "average_nearest_boundary_node_distance": 135.8494606829754,
+      "crowding_rank": 7,
+      "face_id": "face:002",
+      "minimum_nearest_boundary_node_distance": 84.80627944928386
+    },
+    {
+      "area": 42965.06812594234,
+      "average_nearest_boundary_node_distance": 217.86087199365414,
+      "crowding_rank": 8,
+      "face_id": "face:003",
+      "minimum_nearest_boundary_node_distance": 166.64207581113945
+    },
+    {
+      "area": 106037.1670316423,
+      "average_nearest_boundary_node_distance": 194.19952851290978,
+      "crowding_rank": 9,
+      "face_id": "face:010",
+      "minimum_nearest_boundary_node_distance": 174.09984082871574
+    },
+    {
+      "area": 262910.30036727764,
+      "average_nearest_boundary_node_distance": 223.7061387745705,
+      "crowding_rank": 10,
+      "face_id": "face:007",
+      "minimum_nearest_boundary_node_distance": 175.71110317233388
+    }
+  ],
+  "before_ranking": [
+    {
+      "area": 1852.3040550765108,
+      "average_nearest_boundary_node_distance": 76.44698295789807,
+      "crowding_rank": 1,
+      "face_id": "face:001",
+      "minimum_nearest_boundary_node_distance": 6.074336661888837
+    },
+    {
+      "area": 38938.62967531015,
+      "average_nearest_boundary_node_distance": 113.0221587884209,
+      "crowding_rank": 2,
+      "face_id": "face:004",
+      "minimum_nearest_boundary_node_distance": 17.727161871886178
+    },
+    {
+      "area": 28084.415059056853,
+      "average_nearest_boundary_node_distance": 117.9294617162612,
+      "crowding_rank": 3,
+      "face_id": "face:008",
+      "minimum_nearest_boundary_node_distance": 25.34874757307147
+    },
+    {
+      "area": 2457.6933404854717,
+      "average_nearest_boundary_node_distance": 102.68879715109604,
+      "crowding_rank": 4,
+      "face_id": "face:009",
+      "minimum_nearest_boundary_node_distance": 41.244220927668216
+    },
+    {
+      "area": 20252.40864228177,
+      "average_nearest_boundary_node_distance": 87.96295788527846,
+      "crowding_rank": 5,
+      "face_id": "face:011",
+      "minimum_nearest_boundary_node_distance": 65.21587120479445
+    },
+    {
+      "area": 3445.7605103615856,
+      "average_nearest_boundary_node_distance": 95.15810981159498,
+      "crowding_rank": 6,
+      "face_id": "face:012",
+      "minimum_nearest_boundary_node_distance": 65.21587120479445
+    },
+    {
+      "area": 6851.156562943365,
+      "average_nearest_boundary_node_distance": 137.55930821362074,
+      "crowding_rank": 7,
+      "face_id": "face:002",
+      "minimum_nearest_boundary_node_distance": 87.13791350263284
+    },
+    {
+      "area": 8179.059493436531,
+      "average_nearest_boundary_node_distance": 180.60153832618084,
+      "crowding_rank": 8,
+      "face_id": "face:003",
+      "minimum_nearest_boundary_node_distance": 96.18384772589442
+    },
+    {
+      "area": 106037.1670316423,
+      "average_nearest_boundary_node_distance": 194.19952851290978,
+      "crowding_rank": 9,
+      "face_id": "face:010",
+      "minimum_nearest_boundary_node_distance": 174.09984082871574
+    },
+    {
+      "area": 265911.0934219695,
+      "average_nearest_boundary_node_distance": 223.88878168567555,
+      "crowding_rank": 10,
+      "face_id": "face:007",
+      "minimum_nearest_boundary_node_distance": 175.71110317233388
+    }
+  ],
+  "crowded_target_faces": [
+    "face:001",
+    "face:004",
+    "face:008"
+  ],
+  "dependency_paths": [
+    {
+      "crowded_to_reservoir_path": [
+        "face:001",
+        "face:007"
+      ],
+      "processing_order": [
+        "face:007",
+        "face:001"
+      ],
+      "target": "face:001"
+    },
+    {
+      "crowded_to_reservoir_path": [
+        "face:004",
+        "face:003"
+      ],
+      "processing_order": [
+        "face:003",
+        "face:004"
+      ],
+      "target": "face:004"
+    },
+    {
+      "crowded_to_reservoir_path": [
+        "face:008",
+        "face:005"
+      ],
+      "processing_order": [
+        "face:008"
+      ],
+      "target": "face:008"
+    }
+  ],
+  "edge_count": 44,
+  "exterior_face": "face:005",
+  "final_coordinates": {
+    "component:C1": [
+      464.65356079487117,
+      30.526834142138632
+    ],
+    "component:C2": [
+      260.82205043856,
+      143.8196175652254
+    ],
+    "component:JP1": [
+      -334.42997578032566,
+      111.11344837967394
+    ],
+    "component:J_EA": [
+      472.8368806951088,
+      13.422334205691378
+    ],
+    "component:J_EB": [
+      247.18095488491326,
+      160.52222455171602
+    ],
+    "component:J_OUT": [
+      340.3424835587094,
+      210.03637591471818
+    ],
+    "component:J_PWR": [
+      379.9104556355607,
+      27.254042980442794
+    ],
+    "component:J_R1": [
+      102.84623517626561,
+      -377.7214602506761
+    ],
+    "component:J_R4": [
+      44.63753956400488,
+      327.563888644507
+    ],
+    "component:J_RA": [
+      -104.4544567673898,
+      -376.02476810571767
+    ],
+    "component:R2": [
+      -86.6660055998702,
+      -311.0261105926718
+    ],
+    "component:R3": [
+      -297.0910668648412,
+      95.47526571102958
+    ],
+    "component:RMIN1": [
+      678.5504812830113,
+      -205.02668566046128
+    ],
+    "component:RMIN4": [
+      -281.60156205833124,
+      236.6461727353019
+    ],
+    "component:TPA": [
+      -32.44855702730761,
+      -329.27268152947534
+    ],
+    "component:TPB": [
+      -113.59679859782972,
+      30.06981357571914
+    ],
+    "component:TPC": [
+      -260.6318708113398,
+      114.25798046913104
+    ],
+    "component:TPO": [
+      91.11064432645759,
+      243.36924518783795
+    ],
+    "component:U1": [
+      0.0,
+      0.0
+    ],
+    "net:+9V": [
+      215.899349260613,
+      20.919909972173492
+    ],
+    "net:-9V": [
+      35.54494516364402,
+      20.9199099721735
+    ],
+    "net:EA": [
+      198.76927031407996,
+      11.254244402247046
+    ],
+    "net:EB": [
+      12.743963715371155,
+      24.78790286582631
+    ],
+    "net:EOUT": [
+      80.85740731952187,
+      157.27332591022918
+    ],
+    "net:GND": [
+      625.3553280491062,
+      165.1703098860251
+    ],
+    "net:NODE_A": [
+      -3.554241234402555,
+      -237.88823673916076
+    ],
+    "net:NODE_B": [
+      -63.98862994744413,
+      12.592263277480884
+    ],
+    "net:NODE_C": [
+      -164.80431705291707,
+      68.18776033923683
+    ],
+    "net:R1_EXT": [
+      404.88025218730104,
+      -446.1526278023859
+    ],
+    "net:R1_W": [
+      121.34719516059535,
+      -511.325817598459
+    ],
+    "net:R4_EXT": [
+      -190.2794989274509,
+      476.67600955087613
+    ],
+    "net:R4_W": [
+      34.85444924956621,
+      467.6591534812175
+    ],
+    "net:RA_SW": [
+      -368.94423346013093,
+      -356.4290471710813
+    ],
+    "net:RA_W": [
+      -171.5200935395895,
+      -506.0755988413453
+    ]
+  },
+  "final_validation": {
+    "coincidences": 0,
+    "connectivity_unchanged": true,
+    "edges": 44,
+    "proper_crossings": 0,
+    "vertex_on_unrelated_edge_events": 0,
+    "vertices": 34
+  },
+  "open_reservoir_faces": [
+    "face:003",
+    "face:007",
+    "face:010"
+  ],
+  "operations": [
+    {
+      "adjacent_face_effects": {
+        "face:001": {
+          "after": {
+            "average_nearest_boundary_node_distance": 76.44698295789807,
+            "minimum_nearest_boundary_node_distance": 6.074336661888837,
+            "nearest_by_vertex": {
+              "component:C1": 6.074336661888837,
+              "component:J_EA": 6.074336661888837,
+              "component:U1": 199.25086820514494,
+              "net:+9V": 17.727161871886196,
+              "net:EA": 17.727161871886196,
+              "net:GND": 211.82803247469343
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 76.44698295789807,
+            "minimum_nearest_boundary_node_distance": 6.074336661888837,
+            "nearest_by_vertex": {
+              "component:C1": 6.074336661888837,
+              "component:J_EA": 6.074336661888837,
+              "component:U1": 199.25086820514494,
+              "net:+9V": 17.727161871886196,
+              "net:EA": 17.727161871886196,
+              "net:GND": 211.82803247469343
+            }
+          }
+        },
+        "face:011": {
+          "after": {
+            "average_nearest_boundary_node_distance": 87.96295788527846,
+            "minimum_nearest_boundary_node_distance": 65.21587120479445,
+            "nearest_by_vertex": {
+              "component:R2": 110.71004456576246,
+              "component:U1": 65.21587120479445,
+              "net:NODE_A": 110.71004456576246,
+              "net:NODE_B": 65.21587120479445
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 87.96295788527846,
+            "minimum_nearest_boundary_node_distance": 65.21587120479445,
+            "nearest_by_vertex": {
+              "component:R2": 110.71004456576246,
+              "component:U1": 65.21587120479445,
+              "net:NODE_A": 110.71004456576246,
+              "net:NODE_B": 65.21587120479445
+            }
+          }
+        }
+      },
+      "area_after": 265911.0934219695,
+      "area_before": 265911.0934219695,
+      "boundary_walk": [
+        "component:J_EA",
+        "net:EA",
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:R1_EXT",
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "crossing_limited": false,
+      "crowding_rank_before": 10,
+      "directions": {
+        "component:J_EA": [
+          -0.37141022778504623,
+          0.9284688700740914
+        ],
+        "component:RMIN1": [
+          0.938371819228049,
+          -0.3456274423112866
+        ],
+        "net:EA": [
+          -0.047707303535531105,
+          0.998861358342272
+        ],
+        "net:R1_EXT": [
+          0.24714148179537526,
+          -0.96897940534151
+        ]
+      },
+      "face_id": "face:007",
+      "first_limit": [
+        "AREA_NOT_INCREASING",
+        "AVERAGE_BOUNDARY_SPACING_NOT_IMPROVING",
+        "MINIMUM_BOUNDARY_SPACING_NOT_IMPROVING"
+      ],
+      "fixed_coordinates_unchanged": true,
+      "fixed_vertices": [
+        "component:J_R1",
+        "component:U1",
+        "net:GND",
+        "net:NODE_A"
+      ],
+      "floating_vertices": [
+        "component:J_EA",
+        "net:EA",
+        "net:R1_EXT",
+        "component:RMIN1"
+      ],
+      "metrics_after": {
+        "average_nearest_boundary_node_distance": 223.88878168567555,
+        "minimum_nearest_boundary_node_distance": 175.71110317233388,
+        "nearest_by_vertex": {
+          "component:J_EA": 212.69032659059164,
+          "component:J_R1": 175.71110317233388,
+          "component:RMIN1": 306.1165035184634,
+          "component:U1": 199.25086820514494,
+          "net:EA": 199.25086820514494,
+          "net:GND": 212.69032659059164,
+          "net:NODE_A": 175.71110317233388,
+          "net:R1_EXT": 309.68915403080007
+        }
+      },
+      "metrics_before": {
+        "average_nearest_boundary_node_distance": 223.88878168567555,
+        "minimum_nearest_boundary_node_distance": 175.71110317233388,
+        "nearest_by_vertex": {
+          "component:J_EA": 212.69032659059164,
+          "component:J_R1": 175.71110317233388,
+          "component:RMIN1": 306.1165035184634,
+          "component:U1": 199.25086820514494,
+          "net:EA": 199.25086820514494,
+          "net:GND": 212.69032659059164,
+          "net:NODE_A": 175.71110317233388,
+          "net:R1_EXT": 309.68915403080007
+        }
+      },
+      "movement": 0.0,
+      "status": "BLOCKED"
+    },
+    {
+      "adjacent_face_effects": {
+        "face:002": {
+          "after": {
+            "average_nearest_boundary_node_distance": 137.55930821362074,
+            "minimum_nearest_boundary_node_distance": 87.13791350263284,
+            "nearest_by_vertex": {
+              "component:C1": 87.13791350263284,
+              "component:J_PWR": 87.13791350263284,
+              "net:+9V": 164.13337337452387,
+              "net:GND": 211.82803247469343
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 137.55930821362074,
+            "minimum_nearest_boundary_node_distance": 87.13791350263284,
+            "nearest_by_vertex": {
+              "component:C1": 87.13791350263284,
+              "component:J_PWR": 87.13791350263284,
+              "net:+9V": 164.13337337452387,
+              "net:GND": 211.82803247469343
+            }
+          }
+        },
+        "face:004": {
+          "after": {
+            "average_nearest_boundary_node_distance": 74.2459429842164,
+            "minimum_nearest_boundary_node_distance": 8.717064139508006,
+            "nearest_by_vertex": {
+              "component:C2": 8.717064139508006,
+              "component:J_EB": 8.717064139508006,
+              "component:U1": 25.34874757307147,
+              "net:-9V": 17.727161871886178,
+              "net:EB": 17.727161871886178,
+              "net:GND": 367.23845830943856
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 113.0221587884209,
+            "minimum_nearest_boundary_node_distance": 17.727161871886178,
+            "nearest_by_vertex": {
+              "component:C2": 125.28176121178359,
+              "component:J_EB": 125.28176121178359,
+              "component:U1": 25.34874757307147,
+              "net:-9V": 17.727161871886178,
+              "net:EB": 17.727161871886178,
+              "net:GND": 366.7663589901144
+            }
+          }
+        },
+        "face:009": {
+          "after": {
+            "average_nearest_boundary_node_distance": 102.68879715109604,
+            "minimum_nearest_boundary_node_distance": 41.244220927668216,
+            "nearest_by_vertex": {
+              "component:J_PWR": 164.13337337452387,
+              "component:U1": 41.244220927668216,
+              "net:+9V": 164.13337337452387,
+              "net:-9V": 41.244220927668216
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 102.68879715109604,
+            "minimum_nearest_boundary_node_distance": 41.244220927668216,
+            "nearest_by_vertex": {
+              "component:J_PWR": 164.13337337452387,
+              "component:U1": 41.244220927668216,
+              "net:+9V": 164.13337337452387,
+              "net:-9V": 41.244220927668216
+            }
+          }
+        }
+      },
+      "area_after": 45650.449560792535,
+      "area_before": 8179.059493436531,
+      "boundary_walk": [
+        "component:C2",
+        "net:-9V",
+        "component:J_PWR",
+        "net:GND"
+      ],
+      "crossing_limited": false,
+      "crowding_rank_before": 8,
+      "directions": {
+        "component:C2": [
+          -0.2063194725565062,
+          0.9784846831933575
+        ]
+      },
+      "face_id": "face:003",
+      "first_limit": [
+        "VERTEX_ON_UNRELATED_EDGE"
+      ],
+      "fixed_coordinates_unchanged": true,
+      "fixed_vertices": [
+        "component:J_PWR",
+        "net:-9V",
+        "net:GND"
+      ],
+      "floating_vertices": [
+        "component:C2"
+      ],
+      "metrics_after": {
+        "average_nearest_boundary_node_distance": 222.25616950004007,
+        "minimum_nearest_boundary_node_distance": 174.41377442088773,
+        "nearest_by_vertex": {
+          "component:C2": 174.41377442088773,
+          "component:J_PWR": 174.41377442088773,
+          "net:-9V": 258.6583537272313,
+          "net:GND": 281.53877543115345
+        }
+      },
+      "metrics_before": {
+        "average_nearest_boundary_node_distance": 180.60153832618084,
+        "minimum_nearest_boundary_node_distance": 96.18384772589442,
+        "nearest_by_vertex": {
+          "component:C2": 96.18384772589442,
+          "component:J_PWR": 96.18384772589442,
+          "net:-9V": 248.49968242178102,
+          "net:GND": 281.53877543115345
+        }
+      },
+      "movement": 123.4882048987851,
+      "status": "EXPANDED"
+    },
+    {
+      "adjacent_face_effects": {
+        "face:004": {
+          "after": {
+            "average_nearest_boundary_node_distance": 74.2459429842164,
+            "minimum_nearest_boundary_node_distance": 8.717064139508006,
+            "nearest_by_vertex": {
+              "component:C2": 8.717064139508006,
+              "component:J_EB": 8.717064139508006,
+              "component:U1": 25.34874757307147,
+              "net:-9V": 17.727161871886178,
+              "net:EB": 17.727161871886178,
+              "net:GND": 367.23845830943856
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 74.2459429842164,
+            "minimum_nearest_boundary_node_distance": 8.717064139508006,
+            "nearest_by_vertex": {
+              "component:C2": 8.717064139508006,
+              "component:J_EB": 8.717064139508006,
+              "component:U1": 25.34874757307147,
+              "net:-9V": 17.727161871886178,
+              "net:EB": 17.727161871886178,
+              "net:GND": 367.23845830943856
+            }
+          }
+        },
+        "face:010": {
+          "after": {
+            "average_nearest_boundary_node_distance": 194.19952851290978,
+            "minimum_nearest_boundary_node_distance": 174.09984082871574,
+            "nearest_by_vertex": {
+              "component:J_R4": 174.09984082871574,
+              "component:RMIN4": 204.9873975342325,
+              "component:U1": 176.8412264187857,
+              "net:EOUT": 174.09984082871574,
+              "net:NODE_C": 178.35367554205214,
+              "net:R4_EXT": 256.81518992495694
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 194.19952851290978,
+            "minimum_nearest_boundary_node_distance": 174.09984082871574,
+            "nearest_by_vertex": {
+              "component:J_R4": 174.09984082871574,
+              "component:RMIN4": 204.9873975342325,
+              "component:U1": 176.8412264187857,
+              "net:EOUT": 174.09984082871574,
+              "net:NODE_C": 178.35367554205214,
+              "net:R4_EXT": 256.81518992495694
+            }
+          }
+        }
+      },
+      "area_after": 28084.415059056853,
+      "area_before": 28084.415059056853,
+      "boundary_walk": [
+        "component:J_EB",
+        "net:GND",
+        "component:J_OUT",
+        "net:EOUT",
+        "component:U1",
+        "net:EB"
+      ],
+      "crossing_limited": false,
+      "crowding_rank_before": 3,
+      "directions": {
+        "component:J_EB": [
+          0.2766178597947673,
+          -0.9609799996059036
+        ],
+        "component:J_OUT": [
+          -0.02223128297830514,
+          0.9997528544881172
+        ],
+        "net:EB": [
+          0.6055074982442479,
+          -0.7958396004032422
+        ]
+      },
+      "face_id": "face:008",
+      "first_limit": [
+        "AREA_NOT_INCREASING",
+        "AVERAGE_BOUNDARY_SPACING_NOT_IMPROVING",
+        "MINIMUM_BOUNDARY_SPACING_NOT_IMPROVING"
+      ],
+      "fixed_coordinates_unchanged": true,
+      "fixed_vertices": [
+        "component:U1",
+        "net:EOUT",
+        "net:GND"
+      ],
+      "floating_vertices": [
+        "component:J_EB",
+        "component:J_OUT",
+        "net:EB"
+      ],
+      "metrics_after": {
+        "average_nearest_boundary_node_distance": 117.9294617162612,
+        "minimum_nearest_boundary_node_distance": 25.34874757307147,
+        "nearest_by_vertex": {
+          "component:J_EB": 107.68170632989282,
+          "component:J_OUT": 107.68170632989282,
+          "component:U1": 25.34874757307147,
+          "net:EB": 25.34874757307147,
+          "net:EOUT": 152.99327168565318,
+          "net:GND": 288.52259080598554
+        }
+      },
+      "metrics_before": {
+        "average_nearest_boundary_node_distance": 117.9294617162612,
+        "minimum_nearest_boundary_node_distance": 25.34874757307147,
+        "nearest_by_vertex": {
+          "component:J_EB": 107.68170632989282,
+          "component:J_OUT": 107.68170632989282,
+          "component:U1": 25.34874757307147,
+          "net:EB": 25.34874757307147,
+          "net:EOUT": 152.99327168565318,
+          "net:GND": 288.52259080598554
+        }
+      },
+      "movement": 0.0,
+      "status": "BLOCKED"
+    },
+    {
+      "adjacent_face_effects": {
+        "face:002": {
+          "after": {
+            "average_nearest_boundary_node_distance": 135.8494606829754,
+            "minimum_nearest_boundary_node_distance": 84.80627944928386,
+            "nearest_by_vertex": {
+              "component:C1": 84.80627944928386,
+              "component:J_PWR": 84.80627944928386,
+              "net:+9V": 164.13337337452387,
+              "net:GND": 209.65191045881
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 137.55930821362074,
+            "minimum_nearest_boundary_node_distance": 87.13791350263284,
+            "nearest_by_vertex": {
+              "component:C1": 87.13791350263284,
+              "component:J_PWR": 87.13791350263284,
+              "net:+9V": 164.13337337452387,
+              "net:GND": 211.82803247469343
+            }
+          }
+        },
+        "face:007": {
+          "after": {
+            "average_nearest_boundary_node_distance": 223.7061387745705,
+            "minimum_nearest_boundary_node_distance": 175.71110317233388,
+            "nearest_by_vertex": {
+              "component:J_EA": 215.14954079977312,
+              "component:J_R1": 175.71110317233388,
+              "component:RMIN1": 300.0634262073968,
+              "component:U1": 199.08762100707642,
+              "net:EA": 199.08762100707642,
+              "net:GND": 215.14954079977312,
+              "net:NODE_A": 175.71110317233388,
+              "net:R1_EXT": 309.68915403080007
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 223.88878168567555,
+            "minimum_nearest_boundary_node_distance": 175.71110317233388,
+            "nearest_by_vertex": {
+              "component:J_EA": 212.69032659059164,
+              "component:J_R1": 175.71110317233388,
+              "component:RMIN1": 306.1165035184634,
+              "component:U1": 199.25086820514494,
+              "net:EA": 199.25086820514494,
+              "net:GND": 212.69032659059164,
+              "net:NODE_A": 175.71110317233388,
+              "net:R1_EXT": 309.68915403080007
+            }
+          }
+        },
+        "face:009": {
+          "after": {
+            "average_nearest_boundary_node_distance": 102.68879715109604,
+            "minimum_nearest_boundary_node_distance": 41.244220927668216,
+            "nearest_by_vertex": {
+              "component:J_PWR": 164.13337337452387,
+              "component:U1": 41.244220927668216,
+              "net:+9V": 164.13337337452387,
+              "net:-9V": 41.244220927668216
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 102.68879715109604,
+            "minimum_nearest_boundary_node_distance": 41.244220927668216,
+            "nearest_by_vertex": {
+              "component:J_PWR": 164.13337337452387,
+              "component:U1": 41.244220927668216,
+              "net:+9V": 164.13337337452387,
+              "net:-9V": 41.244220927668216
+            }
+          }
+        }
+      },
+      "area_after": 6262.172222366935,
+      "area_before": 1852.3040550765108,
+      "boundary_walk": [
+        "component:C1",
+        "net:+9V",
+        "component:U1",
+        "net:EA",
+        "component:J_EA",
+        "net:GND"
+      ],
+      "crossing_limited": false,
+      "crowding_rank_before": 1,
+      "directions": {
+        "component:C1": [
+          -0.3618862814388001,
+          0.9322222478070331
+        ],
+        "component:J_EA": [
+          0.37141022778504623,
+          -0.9284688700740914
+        ],
+        "net:EA": [
+          0.047707303535531105,
+          -0.998861358342272
+        ]
+      },
+      "face_id": "face:001",
+      "first_limit": [
+        "VERTEX_ON_UNRELATED_EDGE"
+      ],
+      "fixed_coordinates_unchanged": true,
+      "fixed_vertices": [
+        "component:U1",
+        "net:+9V",
+        "net:GND"
+      ],
+      "floating_vertices": [
+        "component:C1",
+        "net:EA",
+        "component:J_EA"
+      ],
+      "metrics_after": {
+        "average_nearest_boundary_node_distance": 80.99997844212096,
+        "minimum_nearest_boundary_node_distance": 18.961293275131556,
+        "nearest_by_vertex": {
+          "component:C1": 18.961293275131556,
+          "component:J_EA": 18.961293275131556,
+          "component:U1": 199.08762100707642,
+          "net:+9V": 19.668876318288145,
+          "net:EA": 19.668876318288145,
+          "net:GND": 209.65191045881
+        }
+      },
+      "metrics_before": {
+        "average_nearest_boundary_node_distance": 76.44698295789807,
+        "minimum_nearest_boundary_node_distance": 6.074336661888837,
+        "nearest_by_vertex": {
+          "component:C1": 6.074336661888837,
+          "component:J_EA": 6.074336661888837,
+          "component:U1": 199.25086820514494,
+          "net:+9V": 17.727161871886196,
+          "net:EA": 17.727161871886196,
+          "net:GND": 211.82803247469343
+        }
+      },
+      "movement": 6.494837215796418,
+      "status": "EXPANDED"
+    },
+    {
+      "adjacent_face_effects": {
+        "face:003": {
+          "after": {
+            "average_nearest_boundary_node_distance": 217.86087199365414,
+            "minimum_nearest_boundary_node_distance": 166.64207581113945,
+            "nearest_by_vertex": {
+              "component:C2": 166.64207581113945,
+              "component:J_PWR": 166.64207581113945,
+              "net:-9V": 256.6205609211842,
+              "net:GND": 281.53877543115345
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 222.25616950004007,
+            "minimum_nearest_boundary_node_distance": 174.41377442088773,
+            "nearest_by_vertex": {
+              "component:C2": 174.41377442088773,
+              "component:J_PWR": 174.41377442088773,
+              "net:-9V": 258.6583537272313,
+              "net:GND": 281.53877543115345
+            }
+          }
+        },
+        "face:008": {
+          "after": {
+            "average_nearest_boundary_node_distance": 117.37338229917505,
+            "minimum_nearest_boundary_node_distance": 27.8720063803153,
+            "nearest_by_vertex": {
+              "component:J_EB": 105.50223509498187,
+              "component:J_OUT": 105.50223509498187,
+              "component:U1": 27.8720063803153,
+              "net:EB": 27.8720063803153,
+              "net:EOUT": 148.9692200384704,
+              "net:GND": 288.52259080598554
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 117.9294617162612,
+            "minimum_nearest_boundary_node_distance": 25.34874757307147,
+            "nearest_by_vertex": {
+              "component:J_EB": 107.68170632989282,
+              "component:J_OUT": 107.68170632989282,
+              "component:U1": 25.34874757307147,
+              "net:EB": 25.34874757307147,
+              "net:EOUT": 152.99327168565318,
+              "net:GND": 288.52259080598554
+            }
+          }
+        },
+        "face:009": {
+          "after": {
+            "average_nearest_boundary_node_distance": 102.68879715109604,
+            "minimum_nearest_boundary_node_distance": 41.244220927668216,
+            "nearest_by_vertex": {
+              "component:J_PWR": 164.13337337452387,
+              "component:U1": 41.244220927668216,
+              "net:+9V": 164.13337337452387,
+              "net:-9V": 41.244220927668216
+            }
+          },
+          "before": {
+            "average_nearest_boundary_node_distance": 102.68879715109604,
+            "minimum_nearest_boundary_node_distance": 41.244220927668216,
+            "nearest_by_vertex": {
+              "component:J_PWR": 164.13337337452387,
+              "component:U1": 41.244220927668216,
+              "net:+9V": 164.13337337452387,
+              "net:-9V": 41.244220927668216
+            }
+          }
+        }
+      },
+      "area_after": 8217.63147587218,
+      "area_before": 1467.2396079541413,
+      "boundary_walk": [
+        "component:C2",
+        "net:GND",
+        "component:J_EB",
+        "net:EB",
+        "component:U1",
+        "net:-9V"
+      ],
+      "crossing_limited": false,
+      "crowding_rank_before": 2,
+      "directions": {
+        "component:C2": [
+          0.2801331733931515,
+          -0.9599611477370751
+        ],
+        "component:J_EB": [
+          -0.2766178597947673,
+          0.9609799996059036
+        ],
+        "net:EB": [
+          -0.6055074982442479,
+          0.7958396004032422
+        ]
+      },
+      "face_id": "face:004",
+      "first_limit": [
+        "VERTEX_ON_UNRELATED_EDGE"
+      ],
+      "fixed_coordinates_unchanged": true,
+      "fixed_vertices": [
+        "component:U1",
+        "net:-9V",
+        "net:GND"
+      ],
+      "floating_vertices": [
+        "component:C2",
+        "component:J_EB",
+        "net:EB"
+      ],
+      "metrics_after": {
+        "average_nearest_boundary_node_distance": 80.40230408112583,
+        "minimum_nearest_boundary_node_distance": 21.565170253185705,
+        "nearest_by_vertex": {
+          "component:C2": 21.565170253185705,
+          "component:J_EB": 21.565170253185705,
+          "component:U1": 27.8720063803153,
+          "net:-9V": 23.126740454068145,
+          "net:EB": 23.126740454068145,
+          "net:GND": 365.157996691932
+        }
+      },
+      "metrics_before": {
+        "average_nearest_boundary_node_distance": 74.2459429842164,
+        "minimum_nearest_boundary_node_distance": 8.717064139508006,
+        "nearest_by_vertex": {
+          "component:C2": 8.717064139508006,
+          "component:J_EB": 8.717064139508006,
+          "component:U1": 25.34874757307147,
+          "net:-9V": 17.727161871886178,
+          "net:EB": 17.727161871886178,
+          "net:GND": 367.23845830943856
+        }
+      },
+      "movement": 8.85381493510335,
+      "status": "EXPANDED"
+    }
+  ],
+  "processing_order": [
+    "face:007",
+    "face:003",
+    "face:008",
+    "face:001",
+    "face:004"
+  ],
+  "schema": "graph-relax.polygon-area-expansion.v1",
+  "source_coordinates": "output/graph_first/iamp_nearness_rotation_direct_report.json#final_coordinates",
+  "starting_crossings": 0,
+  "vertex_count": 34
+}

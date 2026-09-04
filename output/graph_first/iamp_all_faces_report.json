@@ -1,0 +1,5347 @@
+{
+  "bounded_faces": 11,
+  "bounded_faces_with_free_vertices": 10,
+  "bounded_faces_without_free_vertices": 1,
+  "coordinates_unchanged": true,
+  "electrical_incidence_count": 44,
+  "existing_crowding_event_face_references": [
+    {
+      "coordinate": [
+        -113.57133069483731,
+        30.141440206951067
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:006"
+        ],
+        "item": "vertex:component:TPB"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:006",
+          "face:012"
+        ],
+        "item": "edge:component:R3|net:NODE_B"
+      },
+      "violation_id": "V01"
+    },
+    {
+      "coordinate": [
+        198.38798165789436,
+        18.478941251868434
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:007"
+        ],
+        "item": "edge:component:J_EA|net:EA"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:009"
+        ],
+        "item": "edge:component:U1|net:+9V"
+      },
+      "violation_id": "V02"
+    },
+    {
+      "coordinate": [
+        198.38798165789436,
+        18.478941251868434
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:007"
+        ],
+        "item": "vertex:net:EA"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:009"
+        ],
+        "item": "edge:component:U1|net:+9V"
+      },
+      "violation_id": "V03"
+    },
+    {
+      "coordinate": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002"
+        ],
+        "item": "edge:component:C1|net:+9V"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:007"
+        ],
+        "item": "edge:component:J_EA|net:EA"
+      },
+      "violation_id": "V04"
+    },
+    {
+      "coordinate": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:007"
+        ],
+        "item": "edge:component:J_EA|net:EA"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:002",
+          "face:009"
+        ],
+        "item": "edge:component:J_PWR|net:+9V"
+      },
+      "violation_id": "V05"
+    },
+    {
+      "coordinate": [
+        215.90900070467774,
+        19.38571516811675
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002",
+          "face:009"
+        ],
+        "item": "vertex:net:+9V"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:007"
+        ],
+        "item": "edge:component:J_EA|net:EA"
+      },
+      "violation_id": "V06"
+    },
+    {
+      "coordinate": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002"
+        ],
+        "item": "edge:component:C1|net:+9V"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:003",
+          "face:009"
+        ],
+        "item": "edge:component:J_PWR|net:-9V"
+      },
+      "violation_id": "V07"
+    },
+    {
+      "coordinate": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:003",
+          "face:009"
+        ],
+        "item": "edge:component:J_PWR|net:-9V"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:009"
+        ],
+        "item": "edge:component:U1|net:+9V"
+      },
+      "violation_id": "V08"
+    },
+    {
+      "coordinate": [
+        215.86885030919808,
+        22.578035395045557
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002",
+          "face:009"
+        ],
+        "item": "vertex:net:+9V"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:003",
+          "face:009"
+        ],
+        "item": "edge:component:J_PWR|net:-9V"
+      },
+      "violation_id": "V09"
+    },
+    {
+      "coordinate": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002"
+        ],
+        "item": "edge:component:C1|net:+9V"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:002",
+          "face:003"
+        ],
+        "item": "edge:component:J_PWR|net:GND"
+      },
+      "violation_id": "V10"
+    },
+    {
+      "coordinate": [
+        379.93884176452207,
+        25.247483039199622
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:002",
+          "face:003",
+          "face:009"
+        ],
+        "item": "vertex:component:J_PWR"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002"
+        ],
+        "item": "edge:component:C1|net:+9V"
+      },
+      "violation_id": "V11"
+    },
+    {
+      "coordinate": [
+        467.0198092519046,
+        21.951735584858984
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002"
+        ],
+        "item": "edge:component:C1|net:GND"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:007"
+        ],
+        "item": "edge:component:J_EA|net:EA"
+      },
+      "violation_id": "V12"
+    },
+    {
+      "coordinate": [
+        467.0198092519046,
+        21.951735584858984
+      ],
+      "item_a": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:002"
+        ],
+        "item": "vertex:component:C1"
+      },
+      "item_b": {
+        "boundary_face_ids": [
+          "face:001",
+          "face:007"
+        ],
+        "item": "edge:component:J_EA|net:EA"
+      },
+      "violation_id": "V13"
+    }
+  ],
+  "exterior_face_id": "face:005",
+  "face_id_assignment": "lexicographic canonical directed boundary walk; no area/utility ranking",
+  "faces": [
+    {
+      "anchor_count": 3,
+      "anchor_vertices": [
+        "net:+9V",
+        "component:U1",
+        "net:GND"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:C1",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:C1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:C1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ],
+          "vertex": "net:+9V"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ],
+          "vertex": "net:EA"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_EA"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 7,
+          "face_boundary_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "net:GND"
+        }
+      ],
+      "boundary_walk_length": 6,
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:C1",
+          "net:GND"
+        ],
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ],
+        [
+          "component:U1",
+          "net:EA"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:C1",
+        "component:J_EA",
+        "component:U1",
+        "net:+9V",
+        "net:EA",
+        "net:GND"
+      ],
+      "distinct_edge_count": 6,
+      "distinct_vertex_count": 6,
+      "face_id": "face:001",
+      "face_type": "BOUNDED",
+      "free_count": 3,
+      "free_vertices": [
+        "component:C1",
+        "net:EA",
+        "component:J_EA"
+      ],
+      "geometric_area": 1852.3040550765108,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:002",
+          "shared_graph_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:C1",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:007",
+          "shared_graph_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:009",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "net:+9V",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:EA"
+        ],
+        [
+          "net:EA",
+          "component:J_EA"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ],
+        [
+          "net:GND",
+          "component:C1"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:C1",
+        "net:+9V",
+        "component:U1",
+        "net:EA",
+        "component:J_EA",
+        "net:GND"
+      ],
+      "perimeter": 1363.7800659450775,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 3,
+      "anchor_vertices": [
+        "net:GND",
+        "component:J_PWR",
+        "net:+9V"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:C1",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:C1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:C1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 7,
+          "face_boundary_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "net:GND"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_PWR"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ],
+          "vertex": "net:+9V"
+        }
+      ],
+      "boundary_walk_length": 4,
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 215.899349260613,
+        "min_y": 20.919909972173492
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:C1",
+          "net:+9V"
+        ],
+        [
+          "component:C1",
+          "net:GND"
+        ],
+        [
+          "component:J_PWR",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:C1",
+        "component:J_PWR",
+        "net:+9V",
+        "net:GND"
+      ],
+      "distinct_edge_count": 4,
+      "distinct_vertex_count": 4,
+      "face_id": "face:002",
+      "face_type": "BOUNDED",
+      "free_count": 1,
+      "free_vertices": [
+        "component:C1"
+      ],
+      "geometric_area": 6851.156562943365,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:001",
+          "shared_graph_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:C1",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:003",
+          "shared_graph_edges": [
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:009",
+          "shared_graph_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:C1",
+          "net:GND"
+        ],
+        [
+          "net:GND",
+          "component:J_PWR"
+        ],
+        [
+          "component:J_PWR",
+          "net:+9V"
+        ],
+        [
+          "net:+9V",
+          "component:C1"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:C1",
+        "net:GND",
+        "component:J_PWR",
+        "net:+9V"
+      ],
+      "perimeter": 908.62991058957,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 3,
+      "anchor_vertices": [
+        "net:-9V",
+        "component:J_PWR",
+        "net:GND"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:C2"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "vertex": "net:-9V"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_PWR"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 7,
+          "face_boundary_edges": [
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "net:GND"
+        }
+      ],
+      "boundary_walk_length": 4,
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 35.54494516364402,
+        "min_y": 20.9199099721735
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:C2",
+          "net:-9V"
+        ],
+        [
+          "component:C2",
+          "net:GND"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:C2",
+        "component:J_PWR",
+        "net:-9V",
+        "net:GND"
+      ],
+      "distinct_edge_count": 4,
+      "distinct_vertex_count": 4,
+      "face_id": "face:003",
+      "face_type": "BOUNDED",
+      "free_count": 1,
+      "free_vertices": [
+        "component:C2"
+      ],
+      "geometric_area": 8179.059493436531,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:002",
+          "shared_graph_edges": [
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:004",
+          "shared_graph_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:009",
+          "shared_graph_edges": [
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:C2",
+          "net:-9V"
+        ],
+        [
+          "net:-9V",
+          "component:J_PWR"
+        ],
+        [
+          "component:J_PWR",
+          "net:GND"
+        ],
+        [
+          "net:GND",
+          "component:C2"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:C2",
+        "net:-9V",
+        "component:J_PWR",
+        "net:GND"
+      ],
+      "perimeter": 1241.2285762493218,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 3,
+      "anchor_vertices": [
+        "net:GND",
+        "component:U1",
+        "net:-9V"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:C2"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 7,
+          "face_boundary_edges": [
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "net:GND"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_EB"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ],
+          "vertex": "net:EB"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "vertex": "net:-9V"
+        }
+      ],
+      "boundary_walk_length": 6,
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 165.1703098860251,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:C2",
+          "net:-9V"
+        ],
+        [
+          "component:C2",
+          "net:GND"
+        ],
+        [
+          "component:J_EB",
+          "net:EB"
+        ],
+        [
+          "component:J_EB",
+          "net:GND"
+        ],
+        [
+          "component:U1",
+          "net:-9V"
+        ],
+        [
+          "component:U1",
+          "net:EB"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:C2",
+        "component:J_EB",
+        "component:U1",
+        "net:-9V",
+        "net:EB",
+        "net:GND"
+      ],
+      "distinct_edge_count": 6,
+      "distinct_vertex_count": 6,
+      "face_id": "face:004",
+      "face_type": "BOUNDED",
+      "free_count": 3,
+      "free_vertices": [
+        "component:C2",
+        "component:J_EB",
+        "net:EB"
+      ],
+      "geometric_area": 38938.62967531015,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:003",
+          "shared_graph_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:008",
+          "shared_graph_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:009",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:C2",
+          "net:GND"
+        ],
+        [
+          "net:GND",
+          "component:J_EB"
+        ],
+        [
+          "component:J_EB",
+          "net:EB"
+        ],
+        [
+          "net:EB",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:-9V"
+        ],
+        [
+          "net:-9V",
+          "component:C2"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:C2",
+        "net:GND",
+        "component:J_EB",
+        "net:EB",
+        "component:U1",
+        "net:-9V"
+      ],
+      "perimeter": 1325.4577245864907,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": null,
+      "anchor_vertices": [],
+      "boundary_vertex_classification": [],
+      "boundary_walk_length": 26,
+      "bounding_box": null,
+      "distinct_boundary_edges": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:JP1",
+          "net:RA_SW"
+        ],
+        [
+          "component:J_OUT",
+          "net:EOUT"
+        ],
+        [
+          "component:J_OUT",
+          "net:GND"
+        ],
+        [
+          "component:J_R1",
+          "net:NODE_A"
+        ],
+        [
+          "component:J_R1",
+          "net:R1_EXT"
+        ],
+        [
+          "component:J_R1",
+          "net:R1_W"
+        ],
+        [
+          "component:J_R4",
+          "net:EOUT"
+        ],
+        [
+          "component:J_R4",
+          "net:R4_EXT"
+        ],
+        [
+          "component:J_R4",
+          "net:R4_W"
+        ],
+        [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_SW"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_W"
+        ],
+        [
+          "component:RMIN1",
+          "net:GND"
+        ],
+        [
+          "component:RMIN1",
+          "net:R1_EXT"
+        ],
+        [
+          "component:RMIN4",
+          "net:NODE_C"
+        ],
+        [
+          "component:RMIN4",
+          "net:R4_EXT"
+        ],
+        [
+          "component:TPA",
+          "net:NODE_A"
+        ],
+        [
+          "component:TPC",
+          "net:NODE_C"
+        ],
+        [
+          "component:TPO",
+          "net:EOUT"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:JP1",
+        "component:J_OUT",
+        "component:J_R1",
+        "component:J_R4",
+        "component:J_RA",
+        "component:RMIN1",
+        "component:RMIN4",
+        "component:TPA",
+        "component:TPC",
+        "component:TPO",
+        "net:EOUT",
+        "net:GND",
+        "net:NODE_A",
+        "net:NODE_C",
+        "net:R1_EXT",
+        "net:R1_W",
+        "net:R4_EXT",
+        "net:R4_W",
+        "net:RA_SW",
+        "net:RA_W"
+      ],
+      "distinct_edge_count": 20,
+      "distinct_vertex_count": 20,
+      "face_id": "face:005",
+      "face_type": "EXTERIOR",
+      "free_count": null,
+      "free_vertices": [],
+      "geometric_area": null,
+      "is_bounded": false,
+      "neighboring_faces": [
+        {
+          "face_id": "face:006",
+          "shared_graph_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:JP1",
+              "net:RA_SW"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_SW"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:007",
+          "shared_graph_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_R1",
+              "net:R1_EXT"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:R1_EXT"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:008",
+          "shared_graph_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:010",
+          "shared_graph_edges": [
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:J_R4",
+              "net:R4_EXT"
+            ],
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:R4_EXT"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": [
+        "repeated boundary vertices",
+        "repeated undirected boundary edges / bridge sides"
+      ],
+      "ordered_boundary_darts": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "net:NODE_C",
+          "component:TPC"
+        ],
+        [
+          "component:TPC",
+          "net:NODE_C"
+        ],
+        [
+          "net:NODE_C",
+          "component:RMIN4"
+        ],
+        [
+          "component:RMIN4",
+          "net:R4_EXT"
+        ],
+        [
+          "net:R4_EXT",
+          "component:J_R4"
+        ],
+        [
+          "component:J_R4",
+          "net:R4_W"
+        ],
+        [
+          "net:R4_W",
+          "component:J_R4"
+        ],
+        [
+          "component:J_R4",
+          "net:EOUT"
+        ],
+        [
+          "net:EOUT",
+          "component:TPO"
+        ],
+        [
+          "component:TPO",
+          "net:EOUT"
+        ],
+        [
+          "net:EOUT",
+          "component:J_OUT"
+        ],
+        [
+          "component:J_OUT",
+          "net:GND"
+        ],
+        [
+          "net:GND",
+          "component:RMIN1"
+        ],
+        [
+          "component:RMIN1",
+          "net:R1_EXT"
+        ],
+        [
+          "net:R1_EXT",
+          "component:J_R1"
+        ],
+        [
+          "component:J_R1",
+          "net:R1_W"
+        ],
+        [
+          "net:R1_W",
+          "component:J_R1"
+        ],
+        [
+          "component:J_R1",
+          "net:NODE_A"
+        ],
+        [
+          "net:NODE_A",
+          "component:TPA"
+        ],
+        [
+          "component:TPA",
+          "net:NODE_A"
+        ],
+        [
+          "net:NODE_A",
+          "component:J_RA"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_W"
+        ],
+        [
+          "net:RA_W",
+          "component:J_RA"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_SW"
+        ],
+        [
+          "net:RA_SW",
+          "component:JP1"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:JP1",
+        "net:NODE_C",
+        "component:TPC",
+        "net:NODE_C",
+        "component:RMIN4",
+        "net:R4_EXT",
+        "component:J_R4",
+        "net:R4_W",
+        "component:J_R4",
+        "net:EOUT",
+        "component:TPO",
+        "net:EOUT",
+        "component:J_OUT",
+        "net:GND",
+        "component:RMIN1",
+        "net:R1_EXT",
+        "component:J_R1",
+        "net:R1_W",
+        "component:J_R1",
+        "net:NODE_A",
+        "component:TPA",
+        "net:NODE_A",
+        "component:J_RA",
+        "net:RA_W",
+        "component:J_RA",
+        "net:RA_SW"
+      ],
+      "perimeter": null,
+      "repeated_bridge_edges_present": true,
+      "repeated_vertices_present": true,
+      "simple_boundary": false
+    },
+    {
+      "anchor_count": 5,
+      "anchor_vertices": [
+        "component:J_RA",
+        "net:NODE_A",
+        "net:NODE_B",
+        "component:TPB",
+        "net:NODE_C"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:JP1",
+              "net:RA_SW"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:JP1",
+              "net:RA_SW"
+            ]
+          ],
+          "vertex": "component:JP1"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:JP1",
+              "net:RA_SW"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_SW"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:JP1",
+              "net:RA_SW"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_SW"
+            ]
+          ],
+          "vertex": "net:RA_SW"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_RA",
+              "net:RA_W"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_SW"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_SW"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_W"
+            ]
+          ],
+          "vertex": "component:J_RA"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:TPA",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 5,
+          "face_boundary_edges": [
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_A"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:TPA",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "vertex": "net:NODE_A"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_B"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_B"
+            ]
+          ],
+          "vertex": "component:R2"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 4,
+          "face_boundary_edges": [
+            [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "vertex": "net:NODE_B"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "ANCHOR",
+          "degree": 1,
+          "face_boundary_edges": [
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ]
+          ],
+          "vertex": "component:TPB"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:R3"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:TPC",
+              "net:NODE_C"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 5,
+          "face_boundary_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:TPC",
+              "net:NODE_C"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "net:NODE_C"
+        }
+      ],
+      "boundary_walk_length": 10,
+      "bounding_box": null,
+      "distinct_boundary_edges": [
+        [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        [
+          "component:JP1",
+          "net:RA_SW"
+        ],
+        [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        [
+          "component:J_RA",
+          "net:RA_SW"
+        ],
+        [
+          "component:R2",
+          "net:NODE_A"
+        ],
+        [
+          "component:R2",
+          "net:NODE_B"
+        ],
+        [
+          "component:R3",
+          "net:NODE_B"
+        ],
+        [
+          "component:R3",
+          "net:NODE_C"
+        ],
+        [
+          "component:TPB",
+          "net:NODE_B"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:JP1",
+        "component:J_RA",
+        "component:R2",
+        "component:R3",
+        "component:TPB",
+        "net:NODE_A",
+        "net:NODE_B",
+        "net:NODE_C",
+        "net:RA_SW"
+      ],
+      "distinct_edge_count": 9,
+      "distinct_vertex_count": 9,
+      "face_id": "face:006",
+      "face_type": "BOUNDED",
+      "free_count": 4,
+      "free_vertices": [
+        "component:JP1",
+        "net:RA_SW",
+        "component:R2",
+        "component:R3"
+      ],
+      "geometric_area": null,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:005",
+          "shared_graph_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:JP1",
+              "net:RA_SW"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_SW"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:011",
+          "shared_graph_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_B"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:012",
+          "shared_graph_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": [
+        "repeated boundary vertices",
+        "repeated undirected boundary edges / bridge sides"
+      ],
+      "ordered_boundary_darts": [
+        [
+          "component:JP1",
+          "net:RA_SW"
+        ],
+        [
+          "net:RA_SW",
+          "component:J_RA"
+        ],
+        [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        [
+          "net:NODE_A",
+          "component:R2"
+        ],
+        [
+          "component:R2",
+          "net:NODE_B"
+        ],
+        [
+          "net:NODE_B",
+          "component:TPB"
+        ],
+        [
+          "component:TPB",
+          "net:NODE_B"
+        ],
+        [
+          "net:NODE_B",
+          "component:R3"
+        ],
+        [
+          "component:R3",
+          "net:NODE_C"
+        ],
+        [
+          "net:NODE_C",
+          "component:JP1"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:JP1",
+        "net:RA_SW",
+        "component:J_RA",
+        "net:NODE_A",
+        "component:R2",
+        "net:NODE_B",
+        "component:TPB",
+        "net:NODE_B",
+        "component:R3",
+        "net:NODE_C"
+      ],
+      "perimeter": null,
+      "repeated_bridge_edges_present": true,
+      "repeated_vertices_present": true,
+      "simple_boundary": false
+    },
+    {
+      "anchor_count": 4,
+      "anchor_vertices": [
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:GND"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_EA"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ],
+          "vertex": "net:EA"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:TPA",
+              "net:NODE_A"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 5,
+          "face_boundary_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:TPA",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "vertex": "net:NODE_A"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_R1",
+              "net:R1_W"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_R1",
+              "net:R1_EXT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_R1",
+              "net:R1_EXT"
+            ],
+            [
+              "component:J_R1",
+              "net:R1_W"
+            ]
+          ],
+          "vertex": "component:J_R1"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_R1",
+              "net:R1_EXT"
+            ],
+            [
+              "component:RMIN1",
+              "net:R1_EXT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_R1",
+              "net:R1_EXT"
+            ],
+            [
+              "component:RMIN1",
+              "net:R1_EXT"
+            ]
+          ],
+          "vertex": "net:R1_EXT"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:RMIN1",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:R1_EXT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:RMIN1",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:R1_EXT"
+            ]
+          ],
+          "vertex": "component:RMIN1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 7,
+          "face_boundary_edges": [
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "net:GND"
+        }
+      ],
+      "boundary_walk_length": 8,
+      "bounding_box": {
+        "max_x": 678.5504812830113,
+        "max_y": 165.1703098860251,
+        "min_x": -3.554241234402555,
+        "min_y": -446.1526278023859
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "component:J_EA",
+          "net:GND"
+        ],
+        [
+          "component:J_R1",
+          "net:NODE_A"
+        ],
+        [
+          "component:J_R1",
+          "net:R1_EXT"
+        ],
+        [
+          "component:RMIN1",
+          "net:GND"
+        ],
+        [
+          "component:RMIN1",
+          "net:R1_EXT"
+        ],
+        [
+          "component:U1",
+          "net:EA"
+        ],
+        [
+          "component:U1",
+          "net:NODE_A"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:J_EA",
+        "component:J_R1",
+        "component:RMIN1",
+        "component:U1",
+        "net:EA",
+        "net:GND",
+        "net:NODE_A",
+        "net:R1_EXT"
+      ],
+      "distinct_edge_count": 8,
+      "distinct_vertex_count": 8,
+      "face_id": "face:007",
+      "face_type": "BOUNDED",
+      "free_count": 4,
+      "free_vertices": [
+        "component:J_EA",
+        "net:EA",
+        "net:R1_EXT",
+        "component:RMIN1"
+      ],
+      "geometric_area": 265911.0934219695,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:001",
+          "shared_graph_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:005",
+          "shared_graph_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_R1",
+              "net:R1_EXT"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:R1_EXT"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:011",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:J_EA",
+          "net:EA"
+        ],
+        [
+          "net:EA",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:NODE_A"
+        ],
+        [
+          "net:NODE_A",
+          "component:J_R1"
+        ],
+        [
+          "component:J_R1",
+          "net:R1_EXT"
+        ],
+        [
+          "net:R1_EXT",
+          "component:RMIN1"
+        ],
+        [
+          "component:RMIN1",
+          "net:GND"
+        ],
+        [
+          "net:GND",
+          "component:J_EA"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:J_EA",
+        "net:EA",
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:R1_EXT",
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "perimeter": 2145.968749224969,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 3,
+      "anchor_vertices": [
+        "net:GND",
+        "net:EOUT",
+        "component:U1"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_EB"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 7,
+          "face_boundary_edges": [
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:GND"
+            ],
+            [
+              "component:C2",
+              "net:GND"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ]
+          ],
+          "vertex": "net:GND"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_OUT"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:TPO",
+              "net:EOUT"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 4,
+          "face_boundary_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:TPO",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ],
+          "vertex": "net:EOUT"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ],
+          "vertex": "net:EB"
+        }
+      ],
+      "boundary_walk_length": 6,
+      "bounding_box": {
+        "max_x": 625.3553280491062,
+        "max_y": 210.03637591471818,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:J_EB",
+          "net:EB"
+        ],
+        [
+          "component:J_EB",
+          "net:GND"
+        ],
+        [
+          "component:J_OUT",
+          "net:EOUT"
+        ],
+        [
+          "component:J_OUT",
+          "net:GND"
+        ],
+        [
+          "component:U1",
+          "net:EB"
+        ],
+        [
+          "component:U1",
+          "net:EOUT"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:J_EB",
+        "component:J_OUT",
+        "component:U1",
+        "net:EB",
+        "net:EOUT",
+        "net:GND"
+      ],
+      "distinct_edge_count": 6,
+      "distinct_vertex_count": 6,
+      "face_id": "face:008",
+      "face_type": "BOUNDED",
+      "free_count": 3,
+      "free_vertices": [
+        "component:J_EB",
+        "component:J_OUT",
+        "net:EB"
+      ],
+      "geometric_area": 28084.415059056853,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:004",
+          "shared_graph_edges": [
+            [
+              "component:J_EB",
+              "net:EB"
+            ],
+            [
+              "component:J_EB",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:005",
+          "shared_graph_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:J_OUT",
+              "net:GND"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:010",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:J_EB",
+          "net:GND"
+        ],
+        [
+          "net:GND",
+          "component:J_OUT"
+        ],
+        [
+          "component:J_OUT",
+          "net:EOUT"
+        ],
+        [
+          "net:EOUT",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:EB"
+        ],
+        [
+          "net:EB",
+          "component:J_EB"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:J_EB",
+        "net:GND",
+        "component:J_OUT",
+        "net:EOUT",
+        "component:U1",
+        "net:EB"
+      ],
+      "perimeter": 1399.1063780604622,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 4,
+      "anchor_vertices": [
+        "component:J_PWR",
+        "net:-9V",
+        "component:U1",
+        "net:+9V"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:GND"
+            ]
+          ],
+          "vertex": "component:J_PWR"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C2",
+              "net:-9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "vertex": "net:-9V"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:C1",
+              "net:+9V"
+            ],
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ],
+          "vertex": "net:+9V"
+        }
+      ],
+      "boundary_walk_length": 4,
+      "bounding_box": {
+        "max_x": 379.9104556355607,
+        "max_y": 27.254042980442794,
+        "min_x": 0.0,
+        "min_y": 0.0
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:J_PWR",
+          "net:+9V"
+        ],
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ],
+        [
+          "component:U1",
+          "net:-9V"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:J_PWR",
+        "component:U1",
+        "net:+9V",
+        "net:-9V"
+      ],
+      "distinct_edge_count": 4,
+      "distinct_vertex_count": 4,
+      "face_id": "face:009",
+      "face_type": "BOUNDED",
+      "free_count": 0,
+      "free_vertices": [],
+      "geometric_area": 2457.6933404854717,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:001",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:002",
+          "shared_graph_edges": [
+            [
+              "component:J_PWR",
+              "net:+9V"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:003",
+          "shared_graph_edges": [
+            [
+              "component:J_PWR",
+              "net:-9V"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:004",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:-9V"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:J_PWR",
+          "net:-9V"
+        ],
+        [
+          "net:-9V",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:+9V"
+        ],
+        [
+          "net:+9V",
+          "component:J_PWR"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:J_PWR",
+        "net:-9V",
+        "component:U1",
+        "net:+9V"
+      ],
+      "perimeter": 766.7118690008317,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 4,
+      "anchor_vertices": [
+        "component:J_R4",
+        "net:NODE_C",
+        "component:U1",
+        "net:EOUT"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_R4",
+              "net:R4_W"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 3,
+          "face_boundary_edges": [
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:J_R4",
+              "net:R4_EXT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:J_R4",
+              "net:R4_EXT"
+            ],
+            [
+              "component:J_R4",
+              "net:R4_W"
+            ]
+          ],
+          "vertex": "component:J_R4"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:J_R4",
+              "net:R4_EXT"
+            ],
+            [
+              "component:RMIN4",
+              "net:R4_EXT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_R4",
+              "net:R4_EXT"
+            ],
+            [
+              "component:RMIN4",
+              "net:R4_EXT"
+            ]
+          ],
+          "vertex": "net:R4_EXT"
+        },
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:R4_EXT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:R4_EXT"
+            ]
+          ],
+          "vertex": "component:RMIN4"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ],
+            [
+              "component:TPC",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 5,
+          "face_boundary_edges": [
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:TPC",
+              "net:NODE_C"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "net:NODE_C"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:TPO",
+              "net:EOUT"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 4,
+          "face_boundary_edges": [
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_OUT",
+              "net:EOUT"
+            ],
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:TPO",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ],
+          "vertex": "net:EOUT"
+        }
+      ],
+      "boundary_walk_length": 6,
+      "bounding_box": {
+        "max_x": 80.85740731952187,
+        "max_y": 476.67600955087613,
+        "min_x": -281.60156205833124,
+        "min_y": 0.0
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:J_R4",
+          "net:EOUT"
+        ],
+        [
+          "component:J_R4",
+          "net:R4_EXT"
+        ],
+        [
+          "component:RMIN4",
+          "net:NODE_C"
+        ],
+        [
+          "component:RMIN4",
+          "net:R4_EXT"
+        ],
+        [
+          "component:U1",
+          "net:EOUT"
+        ],
+        [
+          "component:U1",
+          "net:NODE_C"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:J_R4",
+        "component:RMIN4",
+        "component:U1",
+        "net:EOUT",
+        "net:NODE_C",
+        "net:R4_EXT"
+      ],
+      "distinct_edge_count": 6,
+      "distinct_vertex_count": 6,
+      "face_id": "face:010",
+      "face_type": "BOUNDED",
+      "free_count": 2,
+      "free_vertices": [
+        "net:R4_EXT",
+        "component:RMIN4"
+      ],
+      "geometric_area": 106037.1670316423,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:005",
+          "shared_graph_edges": [
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:J_R4",
+              "net:R4_EXT"
+            ],
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:R4_EXT"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:008",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:012",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:J_R4",
+          "net:R4_EXT"
+        ],
+        [
+          "net:R4_EXT",
+          "component:RMIN4"
+        ],
+        [
+          "component:RMIN4",
+          "net:NODE_C"
+        ],
+        [
+          "net:NODE_C",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:EOUT"
+        ],
+        [
+          "net:EOUT",
+          "component:J_R4"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:J_R4",
+        "net:R4_EXT",
+        "component:RMIN4",
+        "net:NODE_C",
+        "component:U1",
+        "net:EOUT"
+      ],
+      "perimeter": 1269.3426169559787,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 3,
+      "anchor_vertices": [
+        "net:NODE_A",
+        "component:U1",
+        "net:NODE_B"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_B"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_B"
+            ]
+          ],
+          "vertex": "component:R2"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:TPA",
+              "net:NODE_A"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 5,
+          "face_boundary_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:TPA",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "vertex": "net:NODE_A"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 4,
+          "face_boundary_edges": [
+            [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "vertex": "net:NODE_B"
+        }
+      ],
+      "boundary_walk_length": 4,
+      "bounding_box": {
+        "max_x": 0.0,
+        "max_y": 12.592263277480884,
+        "min_x": -86.6660055998702,
+        "min_y": -311.0261105926718
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:R2",
+          "net:NODE_A"
+        ],
+        [
+          "component:R2",
+          "net:NODE_B"
+        ],
+        [
+          "component:U1",
+          "net:NODE_A"
+        ],
+        [
+          "component:U1",
+          "net:NODE_B"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:R2",
+        "component:U1",
+        "net:NODE_A",
+        "net:NODE_B"
+      ],
+      "distinct_edge_count": 4,
+      "distinct_vertex_count": 4,
+      "face_id": "face:011",
+      "face_type": "BOUNDED",
+      "free_count": 1,
+      "free_vertices": [
+        "component:R2"
+      ],
+      "geometric_area": 20252.40864228177,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:006",
+          "shared_graph_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_B"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:007",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:012",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:R2",
+          "net:NODE_A"
+        ],
+        [
+          "net:NODE_A",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:NODE_B"
+        ],
+        [
+          "net:NODE_B",
+          "component:R2"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:R2",
+        "net:NODE_A",
+        "component:U1",
+        "net:NODE_B"
+      ],
+      "perimeter": 738.2526556731455,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    },
+    {
+      "anchor_count": 3,
+      "anchor_vertices": [
+        "net:NODE_B",
+        "component:U1",
+        "net:NODE_C"
+      ],
+      "boundary_vertex_classification": [
+        {
+          "additional_incident_edges": [],
+          "classification": "FREE",
+          "degree": 2,
+          "face_boundary_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:R3"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 4,
+          "face_boundary_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:R2",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:TPB",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ],
+          "vertex": "net:NODE_B"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 8,
+          "face_boundary_edges": [
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:U1",
+              "net:+9V"
+            ],
+            [
+              "component:U1",
+              "net:-9V"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ],
+            [
+              "component:U1",
+              "net:EB"
+            ],
+            [
+              "component:U1",
+              "net:EOUT"
+            ],
+            [
+              "component:U1",
+              "net:NODE_A"
+            ],
+            [
+              "component:U1",
+              "net:NODE_B"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "component:U1"
+        },
+        {
+          "additional_incident_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:TPC",
+              "net:NODE_C"
+            ]
+          ],
+          "classification": "ANCHOR",
+          "degree": 5,
+          "face_boundary_edges": [
+            [
+              "component:R3",
+              "net:NODE_C"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "incident_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:TPC",
+              "net:NODE_C"
+            ],
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ],
+          "vertex": "net:NODE_C"
+        }
+      ],
+      "boundary_walk_length": 4,
+      "bounding_box": {
+        "max_x": 0.0,
+        "max_y": 95.47526571102958,
+        "min_x": -297.0910668648412,
+        "min_y": 0.0
+      },
+      "distinct_boundary_edges": [
+        [
+          "component:R3",
+          "net:NODE_B"
+        ],
+        [
+          "component:R3",
+          "net:NODE_C"
+        ],
+        [
+          "component:U1",
+          "net:NODE_B"
+        ],
+        [
+          "component:U1",
+          "net:NODE_C"
+        ]
+      ],
+      "distinct_boundary_vertices": [
+        "component:R3",
+        "component:U1",
+        "net:NODE_B",
+        "net:NODE_C"
+      ],
+      "distinct_edge_count": 4,
+      "distinct_vertex_count": 4,
+      "face_id": "face:012",
+      "face_type": "BOUNDED",
+      "free_count": 1,
+      "free_vertices": [
+        "component:R3"
+      ],
+      "geometric_area": 3445.7605103615856,
+      "is_bounded": true,
+      "neighboring_faces": [
+        {
+          "face_id": "face:006",
+          "shared_graph_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:010",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:011",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_B"
+            ]
+          ]
+        }
+      ],
+      "non_simple_reason": null,
+      "ordered_boundary_darts": [
+        [
+          "component:R3",
+          "net:NODE_B"
+        ],
+        [
+          "net:NODE_B",
+          "component:U1"
+        ],
+        [
+          "component:U1",
+          "net:NODE_C"
+        ],
+        [
+          "net:NODE_C",
+          "component:R3"
+        ]
+      ],
+      "ordered_boundary_walk": [
+        "component:R3",
+        "net:NODE_B",
+        "component:U1",
+        "net:NODE_C"
+      ],
+      "perimeter": 626.0404978485684,
+      "repeated_bridge_edges_present": false,
+      "repeated_vertices_present": false,
+      "simple_boundary": true
+    }
+  ],
+  "graph_edge_face_sides": [
+    {
+      "edge": [
+        "component:C1",
+        "net:+9V"
+      ],
+      "face_on_first_to_second_side": "face:001",
+      "face_on_second_to_first_side": "face:002",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:C1",
+        "net:GND"
+      ],
+      "face_on_first_to_second_side": "face:002",
+      "face_on_second_to_first_side": "face:001",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:C2",
+        "net:-9V"
+      ],
+      "face_on_first_to_second_side": "face:003",
+      "face_on_second_to_first_side": "face:004",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:C2",
+        "net:GND"
+      ],
+      "face_on_first_to_second_side": "face:004",
+      "face_on_second_to_first_side": "face:003",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:JP1",
+        "net:NODE_C"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:006",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:JP1",
+        "net:RA_SW"
+      ],
+      "face_on_first_to_second_side": "face:006",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_EA",
+        "net:EA"
+      ],
+      "face_on_first_to_second_side": "face:007",
+      "face_on_second_to_first_side": "face:001",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_EA",
+        "net:GND"
+      ],
+      "face_on_first_to_second_side": "face:001",
+      "face_on_second_to_first_side": "face:007",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_EB",
+        "net:EB"
+      ],
+      "face_on_first_to_second_side": "face:004",
+      "face_on_second_to_first_side": "face:008",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_EB",
+        "net:GND"
+      ],
+      "face_on_first_to_second_side": "face:008",
+      "face_on_second_to_first_side": "face:004",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_OUT",
+        "net:EOUT"
+      ],
+      "face_on_first_to_second_side": "face:008",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_OUT",
+        "net:GND"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:008",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_PWR",
+        "net:+9V"
+      ],
+      "face_on_first_to_second_side": "face:002",
+      "face_on_second_to_first_side": "face:009",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_PWR",
+        "net:-9V"
+      ],
+      "face_on_first_to_second_side": "face:009",
+      "face_on_second_to_first_side": "face:003",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_PWR",
+        "net:GND"
+      ],
+      "face_on_first_to_second_side": "face:003",
+      "face_on_second_to_first_side": "face:002",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_R1",
+        "net:NODE_A"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:007",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_R1",
+        "net:R1_EXT"
+      ],
+      "face_on_first_to_second_side": "face:007",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_R1",
+        "net:R1_W"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": true
+    },
+    {
+      "edge": [
+        "component:J_R4",
+        "net:EOUT"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:010",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_R4",
+        "net:R4_EXT"
+      ],
+      "face_on_first_to_second_side": "face:010",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_R4",
+        "net:R4_W"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": true
+    },
+    {
+      "edge": [
+        "component:J_RA",
+        "net:NODE_A"
+      ],
+      "face_on_first_to_second_side": "face:006",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_RA",
+        "net:RA_SW"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:006",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:J_RA",
+        "net:RA_W"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": true
+    },
+    {
+      "edge": [
+        "component:R2",
+        "net:NODE_A"
+      ],
+      "face_on_first_to_second_side": "face:011",
+      "face_on_second_to_first_side": "face:006",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:R2",
+        "net:NODE_B"
+      ],
+      "face_on_first_to_second_side": "face:006",
+      "face_on_second_to_first_side": "face:011",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:R3",
+        "net:NODE_B"
+      ],
+      "face_on_first_to_second_side": "face:012",
+      "face_on_second_to_first_side": "face:006",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:R3",
+        "net:NODE_C"
+      ],
+      "face_on_first_to_second_side": "face:006",
+      "face_on_second_to_first_side": "face:012",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "face_on_first_to_second_side": "face:007",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:RMIN1",
+        "net:R1_EXT"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:007",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:RMIN4",
+        "net:NODE_C"
+      ],
+      "face_on_first_to_second_side": "face:010",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:RMIN4",
+        "net:R4_EXT"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:010",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:TPA",
+        "net:NODE_A"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": true
+    },
+    {
+      "edge": [
+        "component:TPB",
+        "net:NODE_B"
+      ],
+      "face_on_first_to_second_side": "face:006",
+      "face_on_second_to_first_side": "face:006",
+      "same_face_on_both_sides": true
+    },
+    {
+      "edge": [
+        "component:TPC",
+        "net:NODE_C"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": true
+    },
+    {
+      "edge": [
+        "component:TPO",
+        "net:EOUT"
+      ],
+      "face_on_first_to_second_side": "face:005",
+      "face_on_second_to_first_side": "face:005",
+      "same_face_on_both_sides": true
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:+9V"
+      ],
+      "face_on_first_to_second_side": "face:009",
+      "face_on_second_to_first_side": "face:001",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:-9V"
+      ],
+      "face_on_first_to_second_side": "face:004",
+      "face_on_second_to_first_side": "face:009",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:EA"
+      ],
+      "face_on_first_to_second_side": "face:001",
+      "face_on_second_to_first_side": "face:007",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:EB"
+      ],
+      "face_on_first_to_second_side": "face:008",
+      "face_on_second_to_first_side": "face:004",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:EOUT"
+      ],
+      "face_on_first_to_second_side": "face:010",
+      "face_on_second_to_first_side": "face:008",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:NODE_A"
+      ],
+      "face_on_first_to_second_side": "face:007",
+      "face_on_second_to_first_side": "face:011",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:NODE_B"
+      ],
+      "face_on_first_to_second_side": "face:011",
+      "face_on_second_to_first_side": "face:012",
+      "same_face_on_both_sides": false
+    },
+    {
+      "edge": [
+        "component:U1",
+        "net:NODE_C"
+      ],
+      "face_on_first_to_second_side": "face:012",
+      "face_on_second_to_first_side": "face:010",
+      "same_face_on_both_sides": false
+    }
+  ],
+  "known_region_matches": [
+    {
+      "adjacent_faces": [
+        {
+          "face_id": "face:001",
+          "shared_graph_edges": [
+            [
+              "component:J_EA",
+              "net:EA"
+            ],
+            [
+              "component:J_EA",
+              "net:GND"
+            ],
+            [
+              "component:U1",
+              "net:EA"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:005",
+          "shared_graph_edges": [
+            [
+              "component:J_R1",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_R1",
+              "net:R1_EXT"
+            ],
+            [
+              "component:RMIN1",
+              "net:GND"
+            ],
+            [
+              "component:RMIN1",
+              "net:R1_EXT"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:011",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_A"
+            ]
+          ]
+        }
+      ],
+      "anchor_vertices": [
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:GND"
+      ],
+      "area": 265911.0934219695,
+      "area_source": "ordinary simple-polygon boundary",
+      "constituent_faces": [
+        "face:007"
+      ],
+      "exact_boundary_walk": [
+        "component:J_EA",
+        "net:EA",
+        "component:U1",
+        "net:NODE_A",
+        "component:J_R1",
+        "net:R1_EXT",
+        "component:RMIN1",
+        "net:GND"
+      ],
+      "free_vertices": [
+        "component:J_EA",
+        "net:EA",
+        "net:R1_EXT",
+        "component:RMIN1"
+      ],
+      "inventory_face_id": "face:007",
+      "is_composite_cycle": false,
+      "is_one_actual_bounded_face": true,
+      "pole_coordinate": [
+        330.15790646078585,
+        -309.6756581230413
+      ],
+      "prior_diagnostic_face_id": "face:001",
+      "simple_boundary": true,
+      "visual_region": "RMIN1"
+    },
+    {
+      "adjacent_faces": [
+        {
+          "face_id": "face:005",
+          "shared_graph_edges": [
+            [
+              "component:JP1",
+              "net:NODE_C"
+            ],
+            [
+              "component:JP1",
+              "net:RA_SW"
+            ],
+            [
+              "component:J_RA",
+              "net:NODE_A"
+            ],
+            [
+              "component:J_RA",
+              "net:RA_SW"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:011",
+          "shared_graph_edges": [
+            [
+              "component:R2",
+              "net:NODE_A"
+            ],
+            [
+              "component:R2",
+              "net:NODE_B"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:012",
+          "shared_graph_edges": [
+            [
+              "component:R3",
+              "net:NODE_B"
+            ],
+            [
+              "component:R3",
+              "net:NODE_C"
+            ]
+          ]
+        }
+      ],
+      "anchor_vertices": [
+        "component:J_RA",
+        "net:NODE_A",
+        "net:NODE_B",
+        "component:TPB",
+        "net:NODE_C"
+      ],
+      "area": 121152.25577332462,
+      "area_source": "prior diagnostic walk shoelace; current inventory leaves ordinary area undefined",
+      "constituent_faces": [
+        "face:006"
+      ],
+      "exact_boundary_walk": [
+        "component:JP1",
+        "net:RA_SW",
+        "component:J_RA",
+        "net:NODE_A",
+        "component:R2",
+        "net:NODE_B",
+        "component:TPB",
+        "net:NODE_B",
+        "component:R3",
+        "net:NODE_C"
+      ],
+      "free_vertices": [
+        "component:JP1",
+        "net:RA_SW",
+        "component:R2",
+        "component:R3"
+      ],
+      "inventory_face_id": "face:006",
+      "is_composite_cycle": false,
+      "is_one_actual_bounded_face": true,
+      "pole_coordinate": [
+        -164.79978703198074,
+        -239.59138667272535
+      ],
+      "prior_diagnostic_face_id": "face:002",
+      "simple_boundary": false,
+      "visual_region": "RA_SW"
+    },
+    {
+      "adjacent_faces": [
+        {
+          "face_id": "face:005",
+          "shared_graph_edges": [
+            [
+              "component:J_R4",
+              "net:EOUT"
+            ],
+            [
+              "component:J_R4",
+              "net:R4_EXT"
+            ],
+            [
+              "component:RMIN4",
+              "net:NODE_C"
+            ],
+            [
+              "component:RMIN4",
+              "net:R4_EXT"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:008",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:EOUT"
+            ]
+          ]
+        },
+        {
+          "face_id": "face:012",
+          "shared_graph_edges": [
+            [
+              "component:U1",
+              "net:NODE_C"
+            ]
+          ]
+        }
+      ],
+      "anchor_vertices": [
+        "component:J_R4",
+        "net:NODE_C",
+        "component:U1",
+        "net:EOUT"
+      ],
+      "area": 106037.1670316423,
+      "area_source": "ordinary simple-polygon boundary",
+      "constituent_faces": [
+        "face:010"
+      ],
+      "exact_boundary_walk": [
+        "component:J_R4",
+        "net:R4_EXT",
+        "component:RMIN4",
+        "net:NODE_C",
+        "component:U1",
+        "net:EOUT"
+      ],
+      "free_vertices": [
+        "net:R4_EXT",
+        "component:RMIN4"
+      ],
+      "inventory_face_id": "face:010",
+      "is_composite_cycle": false,
+      "is_one_actual_bounded_face": true,
+      "pole_coordinate": [
+        7.078851245071084,
+        148.78977126448606
+      ],
+      "prior_diagnostic_face_id": "face:003",
+      "simple_boundary": true,
+      "visual_region": "RMIN4"
+    }
+  ],
+  "proper_crossing_count": 0,
+  "schema": "graph-relax.planar-region-inventory.v1",
+  "source_coordinates": "output/graph_first/iamp_nearness_rotation_direct_report.json#final_coordinates",
+  "total_faces": 12,
+  "vertex_count": 34
+}

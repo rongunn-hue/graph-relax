@@ -1,0 +1,463 @@
+{
+  "authoritative_inputs": [
+    "output/graph_first/iamp_graph.json",
+    "output/graph_first/iamp_graph_analysis.json",
+    "output/graph_first/iamp_topology_blueprint.json"
+  ],
+  "construction": "embedding-derived angle; BFS-layer radius",
+  "edges": [
+    {
+      "source": "component:C1",
+      "target": "net:+9V"
+    },
+    {
+      "source": "component:C1",
+      "target": "net:GND"
+    },
+    {
+      "source": "component:C2",
+      "target": "net:-9V"
+    },
+    {
+      "source": "component:C2",
+      "target": "net:GND"
+    },
+    {
+      "source": "component:JP1",
+      "target": "net:NODE_C"
+    },
+    {
+      "source": "component:JP1",
+      "target": "net:RA_SW"
+    },
+    {
+      "source": "component:J_EA",
+      "target": "net:EA"
+    },
+    {
+      "source": "component:J_EA",
+      "target": "net:GND"
+    },
+    {
+      "source": "component:J_EB",
+      "target": "net:EB"
+    },
+    {
+      "source": "component:J_EB",
+      "target": "net:GND"
+    },
+    {
+      "source": "component:J_OUT",
+      "target": "net:EOUT"
+    },
+    {
+      "source": "component:J_OUT",
+      "target": "net:GND"
+    },
+    {
+      "source": "component:J_PWR",
+      "target": "net:+9V"
+    },
+    {
+      "source": "component:J_PWR",
+      "target": "net:-9V"
+    },
+    {
+      "source": "component:J_PWR",
+      "target": "net:GND"
+    },
+    {
+      "source": "component:J_R1",
+      "target": "net:NODE_A"
+    },
+    {
+      "source": "component:J_R1",
+      "target": "net:R1_EXT"
+    },
+    {
+      "source": "component:J_R1",
+      "target": "net:R1_W"
+    },
+    {
+      "source": "component:J_R4",
+      "target": "net:EOUT"
+    },
+    {
+      "source": "component:J_R4",
+      "target": "net:R4_EXT"
+    },
+    {
+      "source": "component:J_R4",
+      "target": "net:R4_W"
+    },
+    {
+      "source": "component:J_RA",
+      "target": "net:NODE_A"
+    },
+    {
+      "source": "component:J_RA",
+      "target": "net:RA_SW"
+    },
+    {
+      "source": "component:J_RA",
+      "target": "net:RA_W"
+    },
+    {
+      "source": "component:R2",
+      "target": "net:NODE_A"
+    },
+    {
+      "source": "component:R2",
+      "target": "net:NODE_B"
+    },
+    {
+      "source": "component:R3",
+      "target": "net:NODE_B"
+    },
+    {
+      "source": "component:R3",
+      "target": "net:NODE_C"
+    },
+    {
+      "source": "component:RMIN1",
+      "target": "net:GND"
+    },
+    {
+      "source": "component:RMIN1",
+      "target": "net:R1_EXT"
+    },
+    {
+      "source": "component:RMIN4",
+      "target": "net:NODE_C"
+    },
+    {
+      "source": "component:RMIN4",
+      "target": "net:R4_EXT"
+    },
+    {
+      "source": "component:TPA",
+      "target": "net:NODE_A"
+    },
+    {
+      "source": "component:TPB",
+      "target": "net:NODE_B"
+    },
+    {
+      "source": "component:TPC",
+      "target": "net:NODE_C"
+    },
+    {
+      "source": "component:TPO",
+      "target": "net:EOUT"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:+9V"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:-9V"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:EA"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:EB"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:EOUT"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:NODE_A"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:NODE_B"
+    },
+    {
+      "source": "component:U1",
+      "target": "net:NODE_C"
+    }
+  ],
+  "old_coordinate_artifacts_read": [],
+  "schema": "graph-relax.topology-radial-initial.v1",
+  "structural_center": "component:U1",
+  "vertices": [
+    {
+      "bfs_layer": 2,
+      "id": "component:C1",
+      "reference_angle_radians": 2.5829933382462307,
+      "type": "COMPONENT",
+      "x": -1.6959966080101758,
+      "y": 1.0599978800063603
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:C2",
+      "reference_angle_radians": 2.922923707715851,
+      "type": "COMPONENT",
+      "x": -1.9523741203679055,
+      "y": 0.4338609156373125
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:JP1",
+      "reference_angle_radians": 0.36397895650964407,
+      "type": "COMPONENT",
+      "x": 1.8689754698579362,
+      "y": 0.7119906551839756
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:J_EA",
+      "reference_angle_radians": -0.05258306161094172,
+      "type": "COMPONENT",
+      "x": 1.9972356586650195,
+      "y": -0.10511766624552735
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:J_EB",
+      "reference_angle_radians": 2.356194490192345,
+      "type": "COMPONENT",
+      "x": -1.414213562373095,
+      "y": 1.4142135623730951
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:J_OUT",
+      "reference_angle_radians": 1.965587446494658,
+      "type": "COMPONENT",
+      "x": -0.7692307692307692,
+      "y": 1.8461538461538463
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:J_PWR",
+      "reference_angle_radians": 2.819842099193151,
+      "type": "COMPONENT",
+      "x": -1.8973665961010275,
+      "y": 0.632455532033676
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:J_R1",
+      "reference_angle_radians": 0.10768987083282068,
+      "type": "COMPONENT",
+      "x": 1.9884140951316986,
+      "y": 0.21496368596018361
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:J_R4",
+      "reference_angle_radians": 1.7234456551901618,
+      "type": "COMPONENT",
+      "x": -0.30411436850788226,
+      "y": 1.9767433953012343
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:J_RA",
+      "reference_angle_radians": 0.3805063771123649,
+      "type": "COMPONENT",
+      "x": 1.8569533817705186,
+      "y": 0.7427813527082074
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:R2",
+      "reference_angle_radians": 0.1297025371559121,
+      "type": "COMPONENT",
+      "x": 1.9832008223724436,
+      "y": 0.2586783681355361
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:R3",
+      "reference_angle_radians": 0.21866894587394195,
+      "type": "COMPONENT",
+      "x": 1.9523741203679055,
+      "y": 0.4338609156373123
+    },
+    {
+      "bfs_layer": 4,
+      "id": "component:RMIN1",
+      "reference_angle_radians": -0.06807645825799948,
+      "type": "COMPONENT",
+      "x": 3.99073477072616,
+      "y": -0.2720955525495109
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:RMIN4",
+      "reference_angle_radians": 1.4536875822280324,
+      "type": "COMPONENT",
+      "x": 0.23368249513479428,
+      "y": 1.9863012086457523
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:TPA",
+      "reference_angle_radians": 0.16514867741462683,
+      "type": "COMPONENT",
+      "x": 1.9727878476642875,
+      "y": 0.3287979746107145
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:TPB",
+      "reference_angle_radians": 0.25732371497108864,
+      "type": "COMPONENT",
+      "x": 1.9341490745252927,
+      "y": 0.5089865985592875
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:TPC",
+      "reference_angle_radians": 1.446441332248135,
+      "type": "COMPONENT",
+      "x": 0.2480694691784171,
+      "y": 1.9845557534273353
+    },
+    {
+      "bfs_layer": 2,
+      "id": "component:TPO",
+      "reference_angle_radians": 1.7359450042095235,
+      "type": "COMPONENT",
+      "x": -0.3287979746107146,
+      "y": 1.9727878476642875
+    },
+    {
+      "bfs_layer": 0,
+      "id": "component:U1",
+      "reference_angle_radians": null,
+      "type": "COMPONENT",
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:+9V",
+      "reference_angle_radians": 2.677945044588987,
+      "type": "NET",
+      "x": -0.8944271909999159,
+      "y": 0.4472135954999581
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:-9V",
+      "reference_angle_radians": 2.976443976175166,
+      "type": "NET",
+      "x": -0.9863939238321437,
+      "y": 0.16439898730535749
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:EA",
+      "reference_angle_radians": -1.5707963267948966,
+      "type": "NET",
+      "x": 6.123233995736766e-17,
+      "y": -1.0
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:EB",
+      "reference_angle_radians": 2.356194490192345,
+      "type": "NET",
+      "x": -0.7071067811865475,
+      "y": 0.7071067811865476
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:EOUT",
+      "reference_angle_radians": 1.9195673303788037,
+      "type": "NET",
+      "x": -0.34174306308670443,
+      "y": 0.939793423488437
+    },
+    {
+      "bfs_layer": 3,
+      "id": "net:GND",
+      "reference_angle_radians": -2.992702705980296,
+      "type": "NET",
+      "x": -2.9668090586048925,
+      "y": -0.4450213587907339
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:NODE_A",
+      "reference_angle_radians": 0.029403288204005115,
+      "type": "NET",
+      "x": 0.9995677544643531,
+      "y": 0.029399051601892736
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:NODE_B",
+      "reference_angle_radians": 0.09065988720074511,
+      "type": "NET",
+      "x": 0.9958932064677039,
+      "y": 0.09053574604251853
+    },
+    {
+      "bfs_layer": 1,
+      "id": "net:NODE_C",
+      "reference_angle_radians": 0.18534794999569476,
+      "type": "NET",
+      "x": 0.9828721869343219,
+      "y": 0.18428853505018536
+    },
+    {
+      "bfs_layer": 3,
+      "id": "net:R1_EXT",
+      "reference_angle_radians": -0.023805026185069942,
+      "type": "NET",
+      "x": 2.9991500212324085,
+      "y": -0.07140833383886686
+    },
+    {
+      "bfs_layer": 3,
+      "id": "net:R1_W",
+      "reference_angle_radians": 0.0,
+      "type": "NET",
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "bfs_layer": 3,
+      "id": "net:R4_EXT",
+      "reference_angle_radians": 1.5707963267948966,
+      "type": "NET",
+      "x": 1.8369701987210297e-16,
+      "y": 3.0
+    },
+    {
+      "bfs_layer": 3,
+      "id": "net:R4_W",
+      "reference_angle_radians": 1.5707963267948966,
+      "type": "NET",
+      "x": 1.8369701987210297e-16,
+      "y": 3.0
+    },
+    {
+      "bfs_layer": 3,
+      "id": "net:RA_SW",
+      "reference_angle_radians": 0.4297622790966885,
+      "type": "NET",
+      "x": 2.727194468682853,
+      "y": 1.2499641314796408
+    },
+    {
+      "bfs_layer": 3,
+      "id": "net:RA_W",
+      "reference_angle_radians": 0.34555558058171215,
+      "type": "NET",
+      "x": 2.8226622356061806,
+      "y": 1.016158404818225
+    }
+  ]
+}

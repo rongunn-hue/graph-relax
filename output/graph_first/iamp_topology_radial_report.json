@@ -1,0 +1,872 @@
+{
+  "candidate_status": "REJECTED",
+  "center_neighbor_order": {
+    "embedding_order": [
+      "net:EA",
+      "net:-9V",
+      "net:+9V",
+      "net:EB",
+      "net:EOUT",
+      "net:NODE_C",
+      "net:NODE_B",
+      "net:NODE_A"
+    ],
+    "geometric_order": [
+      "net:EA",
+      "net:NODE_A",
+      "net:NODE_B",
+      "net:NODE_C",
+      "net:EOUT",
+      "net:EB",
+      "net:+9V",
+      "net:-9V"
+    ],
+    "relation": "REFLECTED"
+  },
+  "graph_counts": {
+    "edges": 44,
+    "vertices": 34
+  },
+  "measurements": {
+    "height": 4.0,
+    "radial_behavior_by_bfs_layer": {
+      "0": {
+        "maximum_radius": 0.0,
+        "mean_radius": 0.0,
+        "minimum_angular_separation_degrees": null,
+        "minimum_angular_separation_radians": null,
+        "minimum_radius": 0.0,
+        "vertex_count": 1
+      },
+      "1": {
+        "maximum_radius": 1.0,
+        "mean_radius": 1.0,
+        "minimum_angular_separation_degrees": 3.5097445898385145,
+        "minimum_angular_separation_radians": 0.06125659899673999,
+        "minimum_radius": 0.9999999999999999,
+        "vertex_count": 8
+      },
+      "2": {
+        "maximum_radius": 2.0,
+        "mean_radius": 2.0,
+        "minimum_angular_separation_degrees": 0.4151795411448736,
+        "minimum_angular_separation_radians": 0.007246249979897312,
+        "minimum_radius": 2.0,
+        "vertex_count": 17
+      },
+      "3": {
+        "maximum_radius": 3.0,
+        "mean_radius": 3.0,
+        "minimum_angular_separation_degrees": 0.0,
+        "minimum_angular_separation_radians": 0.0,
+        "minimum_radius": 3.0,
+        "vertex_count": 7
+      },
+      "4": {
+        "maximum_radius": 4.0,
+        "mean_radius": 4.0,
+        "minimum_angular_separation_degrees": null,
+        "minimum_angular_separation_radians": null,
+        "minimum_radius": 4.0,
+        "vertex_count": 1
+      }
+    },
+    "total_straight_edge_length": 63.09841361525834,
+    "width": 6.957543829331053
+  },
+  "radial_minimum_spacing_enforcement": {
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "applied_uniform_scale_factor": null,
+    "coincident_vertex_pair_count": 1,
+    "coincident_vertex_pairs": [
+      [
+        "net:R4_EXT",
+        "net:R4_W"
+      ]
+    ],
+    "final_minimum_node_distance": 0.0,
+    "raw_minimum_node_distance": 0.0,
+    "requested_minimum_node_distance": 1.0,
+    "status": "FAILED_COINCIDENT_VERTICES"
+  },
+  "radial_validation": {
+    "abstract_graph_valid": false,
+    "coincident_distinct_vertex_pair_count": 1,
+    "coincident_distinct_vertices": [
+      [
+        "net:R4_EXT",
+        "net:R4_W"
+      ]
+    ],
+    "different_edge_crossing_count": 13,
+    "different_edge_crossings": [
+      {
+        "edge_a": [
+          "component:C1",
+          "net:+9V"
+        ],
+        "edge_b": [
+          "component:J_OUT",
+          "net:GND"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:JP1",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:J_RA",
+          "net:NODE_A"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:JP1",
+          "net:RA_SW"
+        ],
+        "edge_b": [
+          "component:J_RA",
+          "net:RA_W"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_EA",
+          "net:EA"
+        ],
+        "edge_b": [
+          "component:RMIN1",
+          "net:GND"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_EA",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:U1",
+          "net:EA"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_EB",
+          "net:EB"
+        ],
+        "edge_b": [
+          "component:J_OUT",
+          "net:GND"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        "edge_b": [
+          "component:R2",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        "edge_b": [
+          "component:R3",
+          "net:NODE_C"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:J_RA",
+          "net:NODE_A"
+        ],
+        "edge_b": [
+          "component:TPB",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:R2",
+          "net:NODE_B"
+        ],
+        "edge_b": [
+          "component:TPA",
+          "net:NODE_A"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:R3",
+          "net:NODE_C"
+        ],
+        "edge_b": [
+          "component:TPB",
+          "net:NODE_B"
+        ]
+      },
+      {
+        "edge_a": [
+          "component:RMIN1",
+          "net:GND"
+        ],
+        "edge_b": [
+          "component:U1",
+          "net:EA"
+        ]
+      }
+    ],
+    "electrical_incidence_validation": true,
+    "electrical_incidences_expected": 44,
+    "electrical_incidences_preserved": 44,
+    "embedding_order_validation": {
+      "globally_consistent": false,
+      "orientation": "INCONSISTENT_OR_UNDEFINED",
+      "vertices": {
+        "component:J_PWR": {
+          "embedding_stored_order": [
+            "net:+9V",
+            "net:-9V",
+            "net:GND"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:GND",
+            "net:-9V",
+            "net:+9V"
+          ],
+          "relation": "REFLECTED"
+        },
+        "component:J_R1": {
+          "embedding_stored_order": [
+            "net:NODE_A",
+            "net:R1_EXT",
+            "net:R1_W"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:NODE_A",
+            "net:R1_EXT",
+            "net:R1_W"
+          ],
+          "relation": "DIRECT"
+        },
+        "component:J_R4": {
+          "embedding_stored_order": [
+            "net:EOUT",
+            "net:R4_EXT",
+            "net:R4_W"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:EOUT",
+            "net:R4_EXT",
+            "net:R4_W"
+          ],
+          "relation": "UNDEFINED_COLLINEAR_RAYS"
+        },
+        "component:J_RA": {
+          "embedding_stored_order": [
+            "net:RA_SW",
+            "net:NODE_A",
+            "net:RA_W"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:NODE_A",
+            "net:RA_W",
+            "net:RA_SW"
+          ],
+          "relation": "DIRECT"
+        },
+        "component:U1": {
+          "embedding_stored_order": [
+            "net:EA",
+            "net:-9V",
+            "net:+9V",
+            "net:EB",
+            "net:EOUT",
+            "net:NODE_C",
+            "net:NODE_B",
+            "net:NODE_A"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:EA",
+            "net:NODE_A",
+            "net:NODE_B",
+            "net:NODE_C",
+            "net:EOUT",
+            "net:EB",
+            "net:+9V",
+            "net:-9V"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:+9V": {
+          "embedding_stored_order": [
+            "component:C1",
+            "component:U1",
+            "component:J_PWR"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:C1",
+            "component:J_PWR"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:-9V": {
+          "embedding_stored_order": [
+            "component:J_PWR",
+            "component:U1",
+            "component:C2"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:J_PWR",
+            "component:C2"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:EOUT": {
+          "embedding_stored_order": [
+            "component:U1",
+            "component:J_OUT",
+            "component:J_R4",
+            "component:TPO"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:J_R4",
+            "component:TPO",
+            "component:J_OUT"
+          ],
+          "relation": "MISMATCH"
+        },
+        "net:GND": {
+          "embedding_stored_order": [
+            "component:C2",
+            "component:J_EA",
+            "component:RMIN1",
+            "component:J_OUT",
+            "component:J_EB",
+            "component:C1",
+            "component:J_PWR"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:RMIN1",
+            "component:J_EA",
+            "component:C2",
+            "component:J_PWR",
+            "component:J_OUT",
+            "component:C1",
+            "component:J_EB"
+          ],
+          "relation": "MISMATCH"
+        },
+        "net:NODE_A": {
+          "embedding_stored_order": [
+            "component:J_RA",
+            "component:J_R1",
+            "component:U1",
+            "component:R2",
+            "component:TPA"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:J_R1",
+            "component:R2",
+            "component:TPA",
+            "component:J_RA"
+          ],
+          "relation": "MISMATCH"
+        },
+        "net:NODE_B": {
+          "embedding_stored_order": [
+            "component:R2",
+            "component:U1",
+            "component:R3",
+            "component:TPB"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:R2",
+            "component:R3",
+            "component:TPB"
+          ],
+          "relation": "MISMATCH"
+        },
+        "net:NODE_C": {
+          "embedding_stored_order": [
+            "component:RMIN4",
+            "component:JP1",
+            "component:R3",
+            "component:U1",
+            "component:TPC"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:R3",
+            "component:JP1",
+            "component:TPC",
+            "component:RMIN4"
+          ],
+          "relation": "MISMATCH"
+        }
+      }
+    },
+    "minimum_node_distance": 0.0,
+    "vertex_on_unrelated_edge_interior_count": 0,
+    "vertices_on_unrelated_edge_interiors": []
+  },
+  "radius_checks": {
+    "component:C1": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:C2": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:JP1": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:J_EA": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:J_EB": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:J_OUT": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:J_PWR": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:J_R1": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:J_R4": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:J_RA": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:R2": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:R3": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:RMIN1": {
+      "actual_radius": 4.0,
+      "bfs_layer": 4
+    },
+    "component:RMIN4": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:TPA": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:TPB": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:TPC": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:TPO": {
+      "actual_radius": 2.0,
+      "bfs_layer": 2
+    },
+    "component:U1": {
+      "actual_radius": 0.0,
+      "bfs_layer": 0
+    },
+    "net:+9V": {
+      "actual_radius": 1.0,
+      "bfs_layer": 1
+    },
+    "net:-9V": {
+      "actual_radius": 1.0,
+      "bfs_layer": 1
+    },
+    "net:EA": {
+      "actual_radius": 1.0,
+      "bfs_layer": 1
+    },
+    "net:EB": {
+      "actual_radius": 1.0,
+      "bfs_layer": 1
+    },
+    "net:EOUT": {
+      "actual_radius": 0.9999999999999999,
+      "bfs_layer": 1
+    },
+    "net:GND": {
+      "actual_radius": 3.0,
+      "bfs_layer": 3
+    },
+    "net:NODE_A": {
+      "actual_radius": 1.0,
+      "bfs_layer": 1
+    },
+    "net:NODE_B": {
+      "actual_radius": 1.0,
+      "bfs_layer": 1
+    },
+    "net:NODE_C": {
+      "actual_radius": 1.0,
+      "bfs_layer": 1
+    },
+    "net:R1_EXT": {
+      "actual_radius": 3.0,
+      "bfs_layer": 3
+    },
+    "net:R1_W": {
+      "actual_radius": 3.0,
+      "bfs_layer": 3
+    },
+    "net:R4_EXT": {
+      "actual_radius": 3.0,
+      "bfs_layer": 3
+    },
+    "net:R4_W": {
+      "actual_radius": 3.0,
+      "bfs_layer": 3
+    },
+    "net:RA_SW": {
+      "actual_radius": 3.0,
+      "bfs_layer": 3
+    },
+    "net:RA_W": {
+      "actual_radius": 3.0,
+      "bfs_layer": 3
+    }
+  },
+  "radius_equals_bfs_layer": true,
+  "reference_minimum_spacing_enforcement": {
+    "anchor": [
+      0.0,
+      0.0
+    ],
+    "applied_uniform_scale_factor": 1.0,
+    "coincident_vertex_pair_count": 0,
+    "coincident_vertex_pairs": [],
+    "final_minimum_node_distance": 1.0,
+    "raw_minimum_node_distance": 1.0,
+    "requested_minimum_node_distance": 1.0,
+    "status": "SATISFIED"
+  },
+  "reference_realization": {
+    "algorithm": "NetworkX combinatorial_embedding_to_pos; Chrobak-Payne grid drawing",
+    "algorithm_outer_face_boundary": [
+      "net:GND",
+      "component:RMIN1",
+      "net:R1_EXT",
+      "component:J_R1",
+      "net:NODE_A",
+      "component:J_RA",
+      "net:RA_SW",
+      "component:JP1",
+      "net:NODE_C",
+      "component:RMIN4",
+      "net:R4_EXT",
+      "component:J_R4",
+      "net:EOUT",
+      "component:J_OUT"
+    ],
+    "algorithm_outer_face_matches_selected": true,
+    "deterministic_relabeling": {
+      "mapping": {
+        "component:C1": 0,
+        "component:C2": 1,
+        "component:JP1": 2,
+        "component:J_EA": 3,
+        "component:J_EB": 4,
+        "component:J_OUT": 5,
+        "component:J_PWR": 6,
+        "component:J_R1": 7,
+        "component:J_R4": 8,
+        "component:J_RA": 9,
+        "component:R2": 10,
+        "component:R3": 11,
+        "component:RMIN1": 12,
+        "component:RMIN4": 13,
+        "component:TPA": 14,
+        "component:TPB": 15,
+        "component:TPC": 16,
+        "component:TPO": 17,
+        "component:U1": 18,
+        "net:+9V": 19,
+        "net:-9V": 20,
+        "net:EA": 21,
+        "net:EB": 22,
+        "net:EOUT": 23,
+        "net:GND": 24,
+        "net:NODE_A": 25,
+        "net:NODE_B": 26,
+        "net:NODE_C": 27,
+        "net:R1_EXT": 28,
+        "net:R1_W": 29,
+        "net:R4_EXT": 30,
+        "net:R4_W": 31,
+        "net:RA_SW": 32,
+        "net:RA_W": 33
+      },
+      "method": "lexically sorted graph vertex IDs mapped to consecutive integers"
+    },
+    "outer_face_api_support": false,
+    "outer_face_note": "The routine cannot accept a requested face ID. With fully_triangulate=False it mechanically leaves a longest encountered face untriangulated.",
+    "selected_topological_face_boundary": [
+      "component:JP1",
+      "net:NODE_C",
+      "component:RMIN4",
+      "net:R4_EXT",
+      "component:J_R4",
+      "net:EOUT",
+      "component:J_OUT",
+      "net:GND",
+      "component:RMIN1",
+      "net:R1_EXT",
+      "component:J_R1",
+      "net:NODE_A",
+      "component:J_RA",
+      "net:RA_SW"
+    ],
+    "selected_topological_face_id": "face:005"
+  },
+  "reference_validation": {
+    "abstract_graph_valid": true,
+    "coincident_distinct_vertex_pair_count": 0,
+    "coincident_distinct_vertices": [],
+    "different_edge_crossing_count": 0,
+    "different_edge_crossings": [],
+    "electrical_incidence_validation": true,
+    "electrical_incidences_expected": 44,
+    "electrical_incidences_preserved": 44,
+    "embedding_order_validation": {
+      "globally_consistent": true,
+      "orientation": "REFLECTED",
+      "vertices": {
+        "component:J_PWR": {
+          "embedding_stored_order": [
+            "net:+9V",
+            "net:-9V",
+            "net:GND"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:GND",
+            "net:-9V",
+            "net:+9V"
+          ],
+          "relation": "REFLECTED"
+        },
+        "component:J_R1": {
+          "embedding_stored_order": [
+            "net:NODE_A",
+            "net:R1_EXT",
+            "net:R1_W"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:NODE_A",
+            "net:R1_W",
+            "net:R1_EXT"
+          ],
+          "relation": "REFLECTED"
+        },
+        "component:J_R4": {
+          "embedding_stored_order": [
+            "net:EOUT",
+            "net:R4_EXT",
+            "net:R4_W"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:EOUT",
+            "net:R4_W",
+            "net:R4_EXT"
+          ],
+          "relation": "REFLECTED"
+        },
+        "component:J_RA": {
+          "embedding_stored_order": [
+            "net:RA_SW",
+            "net:NODE_A",
+            "net:RA_W"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:RA_W",
+            "net:NODE_A",
+            "net:RA_SW"
+          ],
+          "relation": "REFLECTED"
+        },
+        "component:U1": {
+          "embedding_stored_order": [
+            "net:EA",
+            "net:-9V",
+            "net:+9V",
+            "net:EB",
+            "net:EOUT",
+            "net:NODE_C",
+            "net:NODE_B",
+            "net:NODE_A"
+          ],
+          "geometric_counterclockwise_order": [
+            "net:EA",
+            "net:NODE_A",
+            "net:NODE_B",
+            "net:NODE_C",
+            "net:EOUT",
+            "net:EB",
+            "net:+9V",
+            "net:-9V"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:+9V": {
+          "embedding_stored_order": [
+            "component:C1",
+            "component:U1",
+            "component:J_PWR"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:J_PWR",
+            "component:U1",
+            "component:C1"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:-9V": {
+          "embedding_stored_order": [
+            "component:J_PWR",
+            "component:U1",
+            "component:C2"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:J_PWR",
+            "component:C2"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:EOUT": {
+          "embedding_stored_order": [
+            "component:U1",
+            "component:J_OUT",
+            "component:J_R4",
+            "component:TPO"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:TPO",
+            "component:J_R4",
+            "component:J_OUT"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:GND": {
+          "embedding_stored_order": [
+            "component:C2",
+            "component:J_EA",
+            "component:RMIN1",
+            "component:J_OUT",
+            "component:J_EB",
+            "component:C1",
+            "component:J_PWR"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:RMIN1",
+            "component:J_EA",
+            "component:C2",
+            "component:J_PWR",
+            "component:C1",
+            "component:J_EB",
+            "component:J_OUT"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:NODE_A": {
+          "embedding_stored_order": [
+            "component:J_RA",
+            "component:J_R1",
+            "component:U1",
+            "component:R2",
+            "component:TPA"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:J_R1",
+            "component:J_RA",
+            "component:TPA",
+            "component:R2"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:NODE_B": {
+          "embedding_stored_order": [
+            "component:R2",
+            "component:U1",
+            "component:R3",
+            "component:TPB"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:R2",
+            "component:TPB",
+            "component:R3"
+          ],
+          "relation": "REFLECTED"
+        },
+        "net:NODE_C": {
+          "embedding_stored_order": [
+            "component:RMIN4",
+            "component:JP1",
+            "component:R3",
+            "component:U1",
+            "component:TPC"
+          ],
+          "geometric_counterclockwise_order": [
+            "component:U1",
+            "component:R3",
+            "component:JP1",
+            "component:RMIN4",
+            "component:TPC"
+          ],
+          "relation": "REFLECTED"
+        }
+      }
+    },
+    "minimum_node_distance": 1.0,
+    "vertex_on_unrelated_edge_interior_count": 0,
+    "vertices_on_unrelated_edge_interiors": []
+  },
+  "schema": "graph-relax.topology-radial-report.v1"
+}
