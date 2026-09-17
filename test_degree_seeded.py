@@ -13,13 +13,16 @@ class DegreeSeededTests(unittest.TestCase):
         self.degrees = graph_relax.component_degrees(self.circuit)
 
     def test_degree_calculation_and_singletons_excluded(self):
-        expected = {ref: set() for ref in self.circuit.refs}
-        for net in self.circuit.nets:
-            if len(net.terminals) > 1:
-                for terminal in net.terminals:
-                    expected[terminal.rsplit(".", 1)[0]].add(net.name)
-        self.assertEqual({ref: len(nets) for ref, nets in expected.items()}, self.degrees)
-        self.assertEqual(0, self.degrees["J_RA"] - 2)  # RA_W is a singleton.
+        # Device-neighbor degree replaces the former net-incidence degree.
+        circuit = graph_relax.Circuit(
+            "signal-and-rail", ("A", "B", "C", "D"),
+            {"A": ("1", "2"), "B": ("1", "2"), "C": ("1",), "D": ("1",)},
+            (graph_relax.Net("signal", ("A.1", "B.1", "C.1")),
+             graph_relax.Net("supply", ("A.2", "B.2")),
+             graph_relax.Net("singleton", ("D.1",))),
+            source_metadata={"normalized": {"rails": ["supply"]}})
+        self.assertEqual({"A": 2, "B": 2, "C": 2, "D": 0},
+                         graph_relax.component_degrees(circuit))
 
     def test_deterministic_degree_sorting(self):
         ordered = sorted(self.circuit.refs, key=lambda ref: (-self.degrees[ref], ref))

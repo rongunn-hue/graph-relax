@@ -1296,6 +1296,34 @@ def build_wires(rt, comps, nets, pos, boxes, sem=None):
                 fixed_side[uid] = side_for_pin[pin]
                 forced_rank[uid] = rank_for_pin[pin]
 
+    # Rotate specific 2-pin devices' fixed exit sides by a requested angle
+    # (device center position unchanged -- this only changes which side of
+    # the box the lead exits from). R=0, B=90, L=180, T=270 (increasing
+    # angle = visual clockwise, since screen y increases downward); CW adds
+    # degrees, CCW subtracts.
+    ROTATE_TEST = {
+        'R13': (90, 'CW'),
+        'R9': (180, 'CCW'),
+        'R10': (90, 'CW'),
+        'R8': (90, 'CW'),
+        'C1': (199, 'CCW'),
+    }
+    if ROTATE_TEST:
+        side_angle = {'R': 0, 'B': 90, 'L': 180, 'T': 270}
+        angle_side = {0: 'R', 90: 'B', 180: 'L', 270: 'T'}
+        uid_to_ref = {}
+        for ref_, conns_ in device_conns.items():
+            for _t, uid_ in conns_:
+                uid_to_ref[uid_] = ref_
+        for uid, side in list(fixed_side.items()):
+            ref_ = uid_to_ref.get(uid)
+            if ref_ not in ROTATE_TEST:
+                continue
+            deg, direction = ROTATE_TEST[ref_]
+            delta = deg if direction == 'CW' else -deg
+            new_angle = min(angle_side.keys(), key=lambda a: min(abs((side_angle[side]+delta-a) % 360), 360-abs((side_angle[side]+delta-a) % 360)))
+            fixed_side[uid] = angle_side[new_angle]
+
     def power_side(uid):
         return fixed_side.get(uid, 'R')
 

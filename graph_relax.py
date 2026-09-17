@@ -10,7 +10,7 @@ import math
 import random
 import re
 import shlex
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 
@@ -60,6 +60,10 @@ class Circuit:
     refs: tuple[str, ...]
     pins: dict[str, tuple[str, ...]]
     nets: tuple[Net, ...]
+    soft_nearness: tuple[dict, ...] = ()
+    source_metadata: dict | None = None
+    nc: tuple[str, ...] = ()
+    devices: dict[str, str] = field(default_factory=dict)
 
 
 def natural_key(value: str) -> tuple:
@@ -72,6 +76,10 @@ def parse_circuit(path: Path) -> Circuit:
     nets = []
     pins: dict[str, set[str]] = {}
     used_terminals = set()
+    soft_nearness = []
+    source_metadata = None
+    nc = []
+    devices = {}
     for line_number, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         words = shlex.split(raw, comments=True)
         if not words:
@@ -83,6 +91,7 @@ def parse_circuit(path: Path) -> Circuit:
             if ref in pins:
                 raise ValueError(f"line {line_number}: duplicate component {ref}")
             refs.append(ref)
+            devices[ref] = words[2]
             pins[ref] = set()
         elif words[0] == "net" and len(words) >= 3:
             name = words[1]
@@ -100,15 +109,53 @@ def parse_circuit(path: Path) -> Circuit:
                 used_terminals.add(terminal)
                 pins[ref].add(pin)
             nets.append(Net(name, terminals))
+        elif words[0] == "nc" and len(words) == 2:
+            # Explicit no-connect terminals are electrical source metadata,
+            # not graph edges.  Validate their component identity when
+            # possible, then leave them out of the connected incidence graph.
+            terminal = words[1]
+            if "." not in terminal:
+                raise ValueError(f"line {line_number}: malformed no-connect terminal {terminal}")
+            ref, pin = terminal.rsplit(".", 1)
+            if ref not in pins:
+                raise ValueError(f"line {line_number}: unknown component {ref}")
+            if terminal in used_terminals:
+                raise ValueError(f"line {line_number}: terminal used twice: {terminal}")
+            used_terminals.add(terminal)
+            nc.append(terminal)
+            pins[ref].add(pin)
+        elif words[0] in {"placement", "source_metadata"} and len(words) == 2:
+            record = json.loads(words[1])
+            if not isinstance(record, dict):
+                raise ValueError(f"line {line_number}: metadata must be an object")
+            if words[0] == "placement":
+                # Standalone boundary validation; no sibling project dependency.
+                from pipeline_contracts import validate_soft_nearness
+                validate_soft_nearness(record)
+                soft_nearness.append(record)
+            else:
+                if source_metadata is not None:
+                    raise ValueError("duplicate source_metadata")
+                source_metadata = record
         else:
             raise ValueError(f"line {line_number}: unsupported statement")
     if not title:
         raise ValueError("missing circuit declaration")
+    seen_nearness = set()
+    for relation in soft_nearness:
+        pair = (relation["ref"], relation["near"])
+        if any(ref not in pins for ref in pair) or pair in seen_nearness:
+            raise ValueError(f"unknown or duplicate placement association {pair}")
+        seen_nearness.add(pair)
     return Circuit(
         title,
         tuple(sorted(refs, key=natural_key)),
         {r: tuple(sorted(pins[r], key=natural_key)) for r in refs},
         tuple(nets),
+        tuple(soft_nearness),
+        source_metadata,
+        tuple(nc),
+        devices,
     )
 
 
@@ -125,14 +172,20 @@ def initial_positions(circuit: Circuit) -> dict[str, tuple[float, float]]:
     return positions
 
 
+def placement_graph(circuit: Circuit):
+    """Explicit neighborhood/initial-placement view; electrical nets stay intact."""
+    from placement_graph import build_placement_graph
+    return build_placement_graph(circuit)
+
+
+def placement_analysis(circuit: Circuit):
+    from placement_graph import analyze_placement
+    return analyze_placement(placement_graph(circuit))
+
+
 def component_degrees(circuit: Circuit) -> dict[str, int]:
-    connected = {ref: set() for ref in circuit.refs}
-    for net in circuit.nets:
-        if len(net.terminals) <= 1:
-            continue
-        for terminal in net.terminals:
-            connected[terminal.rsplit(".", 1)[0]].add(net.name)
-    return {ref: len(connected[ref]) for ref in circuit.refs}
+    """Unique device-neighbor degree in the placement view, including soft facts."""
+    return placement_analysis(circuit)["degree"]
 
 
 def degree_seeded_positions(circuit: Circuit) -> dict[str, tuple[float, float]]:
