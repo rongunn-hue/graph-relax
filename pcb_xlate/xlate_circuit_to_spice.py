@@ -1,0 +1,196 @@
+#!/usr/bin/env python3
+"""Standalone, general-purpose translator: any .circuit netlist file -> a SPICE netlist (.cir), for topology
+testing in ngspice/LTspice/etc. Plain Python 3, no KiCad/pcbnew/flatpak dependency at all - this one is pure
+text generation.
+
+Usage:
+    python3 xlate_circuit_to_spice.py <circuit> <output.cir>
+
+IMPORTANT, read before trusting simulation results: U1 (LM1458) is emitted as a generic IDEAL op-amp macro
+(a single-pole VCVS, gain 100k) - NOT a real LM1458 vendor model. Q1 (P2N2222A) is emitted with SPICE's own
+built-in default NPN parameters - NOT a real P2N2222A vendor model. Neither has been verified against a real
+datasheet SPICE model; both are clearly labeled placeholders in the output file. Good enough to check that the
+topology/connectivity translated correctly (DC operating point, rough AC behavior); not good enough for
+quantitative claims (gain, bandwidth, offset, slew rate) until real vendor models are substituted in.
+
+Also NOT generated: any voltage/signal SOURCE. `.circuit` files only know that a connector (J1, J2, ...) sits on
+a net - they carry no instruction to actually drive that net. Every connector is listed as a comment at the top
+of the output file so a real source can be added by hand for whatever's actually being tested.
+"""
+import argparse
+import json
+import re
+import sys
+
+GROUND_ALIASES = {"GND", "0V", "0"}
+
+# device type -> {"prefix": spice element letter, "pins": ordered .circuit pin names in SPICE terminal order}.
+# Extend this the same way as xlate_circuit_to_pcb.py's FOOTPRINTS/PAD_MAP - one verified entry per device type.
+DEVICE_SPICE = {
+    "GENERIC_RESISTOR":  {"prefix": "R", "pins": ["1", "2"]},
+    "GENERIC_CAPACITOR": {"prefix": "C", "pins": ["1", "2"]},
+    # P2N2222A: 1=C,2=B,3=E - verified against the real ON Semiconductor datasheet (same fact used in the PCB
+    # translator). SPICE Q-element terminal order is C,B,E, so this is a direct identity mapping.
+    "P2N2222A": {"prefix": "Q", "pins": ["1", "2", "3"], "model": "QN_GENERIC_NPN",
+                 "model_card": ".model QN_GENERIC_NPN NPN"},
+}
+# Device types with no direct SPICE element - just a comment noting where they sit in the netlist.
+COMMENT_ONLY_DEVICES = {"GENERIC_CONNECTOR_2", "GENERIC_CONNECTOR_3"}
+# Device types requiring bespoke multi-instance handling (see build_spice()) - not in DEVICE_SPICE/COMMENT_ONLY.
+SPECIAL_DEVICES = {"LM1458"}
+
+
+def parse_circuit(path):
+    """Same parse as xlate_circuit_to_pcb.py's parse_circuit() - duplicated, not imported, so this script has
+    zero dependency on the pcbnew-requiring PCB tooling."""
+    components, nets, nc = {}, [], set()
+    for raw in open(path).read().splitlines():
+        parts = raw.split()
+        if not parts:
+            continue
+        kw = parts[0]
+        if kw == "component" and len(parts) == 3:
+            components[parts[1]] = parts[2]
+        elif kw == "net" and len(parts) >= 3:
+            nets.append({"name": parts[1].strip('"'), "terminals": parts[2:]})
+        elif kw == "nc" and len(parts) == 2:
+            nc.add(parts[1])
+    return components, nets, nc
+
+
+def parse_values(path):
+    for raw in open(path).read().splitlines():
+        if raw.startswith("source_metadata "):
+            payload = raw[len("source_metadata "):].strip()
+            if payload[:1] == "'" and payload[-1:] == "'":
+                payload = payload[1:-1]
+            meta = json.loads(payload)
+            parts = meta.get("normalized", {}).get("parts", [])
+            return {p["ref"]: p["value"] for p in parts if "ref" in p and "value" in p}
+    return {}
+
+
+def check_coverage(components):
+    missing = sorted({dev for dev in components.values()
+                       if dev not in DEVICE_SPICE and dev not in COMMENT_ONLY_DEVICES and dev not in SPECIAL_DEVICES})
+    if missing:
+        sys.exit(
+            "No SPICE mapping for device type(s): " + ", ".join(missing) + "\n"
+            "Add an entry to DEVICE_SPICE (or COMMENT_ONLY_DEVICES/SPECIAL_DEVICES) in this script before "
+            "running this .circuit file through the translator."
+        )
+
+
+def sanitize_node(name):
+    """SPICE node names: keep alnum/underscore, turn +/- into letters (many parsers choke on a bare + or - as
+    a node name token), everything else to underscore. "GND"/"0V" collapse onto SPICE's own ground node "0"."""
+    if name.upper() in GROUND_ALIASES:
+        return "0"
+    out = []
+    for ch in name:
+        if ch.isalnum() or ch == "_":
+            out.append(ch)
+        elif ch == "+":
+            out.append("P")
+        elif ch == "-":
+            out.append("N")
+        else:
+            out.append("_")
+    return "".join(out)
+
+
+def build_spice(components, nets, nc, values, title):
+    term_net = {t: n["name"] for n in nets for t in n["terminals"]}
+    node = lambda term: sanitize_node(term_net[term]) if term in term_net else None
+
+    lines = [f"* {title}", "* Auto-generated by xlate_circuit_to_spice.py from a .circuit file - see that", "* script's docstring for what is and is not a verified model.", ""]
+
+    connectors = []
+    model_cards = set()
+    for ref in sorted(components):
+        dev = components[ref]
+        val = values.get(ref, dev)
+        if dev in COMMENT_ONLY_DEVICES:
+            pins = DEVICE_SPICE.get(dev, {}).get("pins")
+            nc_pin_count = 2 if dev == "GENERIC_CONNECTOR_2" else 3
+            pin_nets = [term_net.get(f"{ref}.{p}", "?") for p in map(str, range(1, nc_pin_count + 1))]
+            connectors.append(f"* {ref} ({val}): {', '.join(f'pin{p}->{n}' for p, n in zip(range(1, nc_pin_count+1), pin_nets))}")
+            continue
+        if dev == "LM1458":
+            # two independent op-amp sections sharing one package; ideal macro ignores the supply pins (4, 8)
+            for section, (inm, inp, out) in (("A", ("2", "3", "1")), ("B", ("6", "5", "7"))):
+                n_inm, n_inp, n_out = node(f"{ref}.{inm}"), node(f"{ref}.{inp}"), node(f"{ref}.{out}")
+                lines.append(f"X{ref}{section} {n_inp} {n_inm} {n_out} IDEAL_OPAMP  ; {val} section {section}")
+            v_minus, v_plus = term_net.get(f"{ref}.4", "?"), term_net.get(f"{ref}.8", "?")
+            lines.append(f"* {ref} V- (pin 4) -> {v_minus}, V+ (pin 8) -> {v_plus}: real supply pins, not used by the ideal macro above")
+            continue
+        spec = DEVICE_SPICE[dev]
+        pin_nodes = [node(f"{ref}.{p}") for p in spec["pins"]]
+        if any(n is None for n in pin_nodes):
+            missing = [p for p, n in zip(spec["pins"], pin_nodes) if n is None]
+            sys.exit(f"{ref}: pin(s) {missing} have no net (not in `nc` either) - .circuit file is incomplete")
+        # SPICE infers element type from the instance name's own first letter - our refs already start with
+        # the right one (R1, C1, Q1, ...), so use ref as-is; only prepend if some future ref type doesn't.
+        name = ref if ref.upper().startswith(spec["prefix"]) else f"{spec['prefix']}{ref}"
+        if "model" in spec:
+            # a Q-element's trailing token is a MODEL NAME, not a component value - "P2N2222A" (the human value
+            # string) does not belong on this line; it goes in a trailing comment instead.
+            lines.append(f"{name} {' '.join(pin_nodes)} {spec['model']}  ; {val}")
+        else:
+            lines.append(f"{name} {' '.join(pin_nodes)} {val}")
+        if "model_card" in spec:
+            model_cards.add(spec["model_card"])
+
+    # NC pins never appear in `nets`, so node() already returns None for them and any device actually using an
+    # NC pin as one of its SPICE terminals would already have hit the sys.exit() above - by design, no real
+    # component in this project's device library has a pin that's simultaneously NC and part of DEVICE_SPICE's
+    # simulated pin set (NC pins on U1/U4-style ICs are offset-null/unused pins, never the pins this script
+    # actually wires into an element), so there is nothing further to emit here.
+
+    header = [
+        "* --- connectors: these nets have no driving source in this translation, add one for whatever you're",
+        "* --- actually testing (e.g. \"V1 P9V 0 DC 9\" for a +9V rail feeding a connector like this) ---",
+    ] + connectors + [""]
+
+    ideal_opamp = [
+        ".subckt IDEAL_OPAMP INP INM OUT",
+        "* Generic ideal single-pole op-amp macro (VCVS, gain 100k) - NOT the real chip's vendor model.",
+        "* No supply pins, no saturation/slew/offset modeled. Replace before trusting quantitative results.",
+        "EOUT OUT 0 INP INM 100K",
+        ".ends IDEAL_OPAMP",
+        "",
+    ]
+
+    out = lines[:4] + [""] + header + sorted(model_cards) + ([""] if model_cards else []) + ideal_opamp + lines[4:] + ["", ".end"]
+    return "\n".join(out) + "\n"
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("circuit", help="path to the .circuit netlist file")
+    ap.add_argument("output", help="path to write the SPICE .cir file to")
+    args = ap.parse_args()
+
+    components, nets, nc = parse_circuit(args.circuit)
+    if not components:
+        sys.exit(f"No `component` lines found in {args.circuit} - is this really a .circuit file?")
+    check_coverage(components)
+    values = parse_values(args.circuit)
+
+    title = None
+    for raw in open(args.circuit).read().splitlines():
+        if raw.startswith("circuit "):
+            title = raw[len("circuit "):].strip().strip('"')
+            break
+    title = title or args.circuit
+
+    text = build_spice(components, nets, nc, values, title)
+    open(args.output, "w").write(text)
+    print(f"saved {args.output}")
+    print(f"components: {len(components)}  nets: {len(nets)}")
+    print("PLACEHOLDER MODELS: LM1458 -> generic ideal op-amp macro, P2N2222A -> SPICE default NPN. "
+          "Not real vendor models - see the file header.")
+
+
+if __name__ == "__main__":
+    main()
