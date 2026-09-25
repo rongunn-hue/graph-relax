@@ -11,10 +11,14 @@
 
 .model QN_GENERIC_NPN NPN
 
-.subckt IDEAL_OPAMP INP INM OUT
-* Generic ideal single-pole op-amp macro (VCVS, gain 100k) - NOT the real chip's vendor model.
-* No supply pins, no saturation/slew/offset modeled. Replace before trusting quantitative results.
-EOUT OUT 0 INP INM 100K
+.subckt IDEAL_OPAMP INP INM VCC VEE OUT
+* Generic ideal op-amp macro: a behavioral sigmoid (tanh) between VEE and VCC, steep enough to act
+* like a saturating high-gain comparator - NOT the real chip's vendor model (no real slew rate,
+* bandwidth, or offset modeled). Bounded by construction (no huge intermediate node voltages, unlike a
+* linear-gain-then-diode-clamp approach, which is numerically fragile for a transient oscillator sim).
+* Good enough for approximate comparator/relaxation-oscillator behavior; replace before trusting
+* quantitative results.
+BOUT OUT 0 V = (V(VCC)+V(VEE))/2 + (V(VCC)-V(VEE))/2*TANH(2E5*(V(INP)-V(INM))/(V(VCC)-V(VEE)+1E-9))
 .ends IDEAL_OPAMP
 
 C1 OSC_MINUS VREF 10nF
@@ -30,8 +34,7 @@ R4 OSC_PLUS VREF 100k
 R5 OSC_OUT OSC_MINUS 68k
 R6 AUDIO_FEED AUDIO_OUT 1k
 R7 P9V KEY_CTRL 10k
-XU1A OSC_PLUS OSC_MINUS OSC_OUT IDEAL_OPAMP  ; LM1458 section A
-XU1B VREF_DIV VREF VREF IDEAL_OPAMP  ; LM1458 section B
-* U1 V- (pin 4) -> GND, V+ (pin 8) -> +9V: real supply pins, not used by the ideal macro above
+XU1A OSC_PLUS OSC_MINUS P9V 0 OSC_OUT IDEAL_OPAMP  ; LM1458 section A
+XU1B VREF_DIV VREF P9V 0 VREF IDEAL_OPAMP  ; LM1458 section B
 
 .end

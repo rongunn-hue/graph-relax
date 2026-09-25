@@ -117,12 +117,14 @@ def build_spice(components, nets, nc, values, title):
             connectors.append(f"* {ref} ({val}): {', '.join(f'pin{p}->{n}' for p, n in zip(range(1, nc_pin_count+1), pin_nets))}")
             continue
         if dev == "LM1458":
-            # two independent op-amp sections sharing one package; ideal macro ignores the supply pins (4, 8)
+            # two independent op-amp sections sharing one package. Supply pins (4, 8) ARE wired into the ideal
+            # macro (as VEE/VCC) so its output clamps near the real rails - without that, a comparator/
+            # relaxation-oscillator topology (output expected to swing rail-to-rail) just diverges unboundedly
+            # in simulation instead of oscillating, since a bare linear VCVS has nothing to bound it.
+            n_vminus, n_vplus = node(f"{ref}.4"), node(f"{ref}.8")
             for section, (inm, inp, out) in (("A", ("2", "3", "1")), ("B", ("6", "5", "7"))):
                 n_inm, n_inp, n_out = node(f"{ref}.{inm}"), node(f"{ref}.{inp}"), node(f"{ref}.{out}")
-                lines.append(f"X{ref}{section} {n_inp} {n_inm} {n_out} IDEAL_OPAMP  ; {val} section {section}")
-            v_minus, v_plus = term_net.get(f"{ref}.4", "?"), term_net.get(f"{ref}.8", "?")
-            lines.append(f"* {ref} V- (pin 4) -> {v_minus}, V+ (pin 8) -> {v_plus}: real supply pins, not used by the ideal macro above")
+                lines.append(f"X{ref}{section} {n_inp} {n_inm} {n_vplus} {n_vminus} {n_out} IDEAL_OPAMP  ; {val} section {section}")
             continue
         spec = DEVICE_SPICE[dev]
         pin_nodes = [node(f"{ref}.{p}") for p in spec["pins"]]
@@ -153,10 +155,14 @@ def build_spice(components, nets, nc, values, title):
     ] + connectors + [""]
 
     ideal_opamp = [
-        ".subckt IDEAL_OPAMP INP INM OUT",
-        "* Generic ideal single-pole op-amp macro (VCVS, gain 100k) - NOT the real chip's vendor model.",
-        "* No supply pins, no saturation/slew/offset modeled. Replace before trusting quantitative results.",
-        "EOUT OUT 0 INP INM 100K",
+        ".subckt IDEAL_OPAMP INP INM VCC VEE OUT",
+        "* Generic ideal op-amp macro: a behavioral sigmoid (tanh) between VEE and VCC, steep enough to act",
+        "* like a saturating high-gain comparator - NOT the real chip's vendor model (no real slew rate,",
+        "* bandwidth, or offset modeled). Bounded by construction (no huge intermediate node voltages, unlike a",
+        "* linear-gain-then-diode-clamp approach, which is numerically fragile for a transient oscillator sim).",
+        "* Good enough for approximate comparator/relaxation-oscillator behavior; replace before trusting",
+        "* quantitative results.",
+        "BOUT OUT 0 V = (V(VCC)+V(VEE))/2 + (V(VCC)-V(VEE))/2*TANH(2E5*(V(INP)-V(INM))/(V(VCC)-V(VEE)+1E-9))",
         ".ends IDEAL_OPAMP",
         "",
     ]
