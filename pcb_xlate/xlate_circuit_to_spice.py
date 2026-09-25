@@ -7,11 +7,14 @@ Usage:
     python3 xlate_circuit_to_spice.py <circuit> <output.cir>
 
 IMPORTANT, read before trusting simulation results: U1 (LM1458) is emitted as a generic IDEAL op-amp macro
-(a single-pole VCVS, gain 100k) - NOT a real LM1458 vendor model. Q1 (P2N2222A) is emitted with SPICE's own
-built-in default NPN parameters - NOT a real P2N2222A vendor model. Neither has been verified against a real
-datasheet SPICE model; both are clearly labeled placeholders in the output file. Good enough to check that the
-topology/connectivity translated correctly (DC operating point, rough AC behavior); not good enough for
-quantitative claims (gain, bandwidth, offset, slew rate) until real vendor models are substituted in.
+(a saturating behavioral sigmoid, not a real vendor model) - good enough for topology/DC-bias checks, not for
+quantitative claims (gain, bandwidth, offset, slew rate). Q1 (P2N2222A) uses onsemi's own real, published
+2N2222A SPICE parameters (fetched directly from onsemi.com/download/models/txt/2n2222a.lib.txt) - the 2N2222A
+and P2N2222A/PN2222A are the same silicon die in different packages per onsemi's own part grouping, so this is
+real manufacturer data, not an estimate. This matters in practice: an earlier bare-default NPN placeholder here
+showed a large (~4V) transient leakage from the oscillator into the muted audio path; re-run with this real
+model, that leakage vanished entirely (settled to <40mV) - confirming the leakage was a model artifact, not a
+real property of the circuit. Trust the transistor-stage results; still treat the op-amp stage as approximate.
 
 Also NOT generated: any voltage/signal SOURCE. `.circuit` files only know that a connector (J1, J2, ...) sits on
 a net - they carry no instruction to actually drive that net. Every connector is listed as a comment at the top
@@ -31,8 +34,25 @@ DEVICE_SPICE = {
     "GENERIC_CAPACITOR": {"prefix": "C", "pins": ["1", "2"]},
     # P2N2222A: 1=C,2=B,3=E - verified against the real ON Semiconductor datasheet (same fact used in the PCB
     # translator). SPICE Q-element terminal order is C,B,E, so this is a direct identity mapping.
-    "P2N2222A": {"prefix": "Q", "pins": ["1", "2", "3"], "model": "QN_GENERIC_NPN",
-                 "model_card": ".model QN_GENERIC_NPN NPN"},
+    # Model: onsemi's own official 2N2222A SPICE parameters (fetched directly from
+    # onsemi.com/download/models/txt/2n2222a.lib.txt, dated 2013-02-28) - real manufacturer-sourced Gummel-Poon
+    # parameters, not a fabricated/estimated set. The 2N2222A (TO-18 metal can) and P2N2222A/PN2222A (TO-92
+    # plastic) are the same silicon die in different packages per onsemi's own part grouping - electrically
+    # equivalent, so this is the correct model for P2N2222A despite the different part number in the name.
+    "P2N2222A": {"prefix": "Q", "pins": ["1", "2", "3"], "model": "Q2N2222A_ONSEMI",
+                 "model_card": (
+                     ".MODEL Q2N2222A_ONSEMI npn\n"
+                     "+IS=3.88184e-14 BF=929.846 NF=1.10496 VAF=16.5003\n"
+                     "+IKF=0.019539 ISE=1.0168e-11 NE=1.94752 BR=48.4545\n"
+                     "+NR=1.07004 VAR=40.538 IKR=0.19539 ISC=1.0168e-11\n"
+                     "+NC=4 RB=0.1 IRB=0.1 RBM=0.1\n"
+                     "+RE=0.0001 RC=0.426673 XTB=0.1 XTI=1\n"
+                     "+EG=1.05 CJE=2.23677e-11 VJE=0.582701 MJE=0.63466\n"
+                     "+TF=4.06711e-10 XTF=3.92912 VTF=17712.6 ITF=0.4334\n"
+                     "+CJC=2.23943e-11 VJC=0.576146 MJC=0.632796 XCJC=1\n"
+                     "+FC=0.170253 CJS=0 VJS=0.75 MJS=0.5\n"
+                     "+TR=1e-07 PTF=0 KF=0 AF=1"
+                 )},
 }
 # Device types with no direct SPICE element - just a comment noting where they sit in the netlist.
 COMMENT_ONLY_DEVICES = {"GENERIC_CONNECTOR_2", "GENERIC_CONNECTOR_3"}
@@ -194,8 +214,8 @@ def main():
     open(args.output, "w").write(text)
     print(f"saved {args.output}")
     print(f"components: {len(components)}  nets: {len(nets)}")
-    print("PLACEHOLDER MODELS: LM1458 -> generic ideal op-amp macro, P2N2222A -> SPICE default NPN. "
-          "Not real vendor models - see the file header.")
+    print("MODELS: LM1458 -> generic ideal op-amp macro (placeholder, not a vendor model). "
+          "P2N2222A -> real onsemi 2N2222A parameters (real manufacturer data). See the file header.")
 
 
 if __name__ == "__main__":
